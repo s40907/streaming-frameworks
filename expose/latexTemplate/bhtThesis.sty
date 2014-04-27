@@ -1,0 +1,338 @@
+%%
+%%	BHT-Thesis.sty
+%%
+%%	Dokumentklasse fuer Abschlussarbeiten der Beuth Hochschule für Technik Berlin
+%%	S. Tschirley 2010
+%%
+%%      [v0.1 2010] initiale Version 
+%%
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Identification
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{bhtThesis}[2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style]
+\message{2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Einbinden aller benoetigten Pakete
+\RequirePackage{ifthen} 
+\RequirePackage{graphicx}                         %% Einbinden von Grafiken
+\RequirePackage{array, tabularx}                  %% Tabellenerweiterungen
+\RequirePackage{multicol}                         %% dto.
+\RequirePackage{xcolor}                           %% Farbgebung im Text
+\RequirePackage{latexTemplate/fancyunits}         %% Einheiten beim Namen nennen
+\RequirePackage[xcolor]{changebar}                %% Changebars am Rand 
+
+%% Eingabe
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[ngermanb]{babel}
+\RequirePackage{ae,pifont}
+
+%% Standardschriftart für den Text festlegen
+\RequirePackage{times}                            %% Standardfont: Times (PS)
+%%\RequirePackage{utopia}                         %% Standardfont: Utopia
+%%\Requirepackage{arial}
+%%\RequirePackaga{palatino}
+
+%% Mathematik
+\RequirePackage{amssymb, amsmath}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Variablendefinition und deren Voreinstellung festlegen
+%
+
+\newcommand{\version}[1]{\setboolean{@versionset}{true} 
+\renewcommand{\theversion}{#1}} 
+\newcommand{\autor}[1]{\renewcommand{\theautor}{#1}}
+\newcommand{\edvnr}[1]{\renewcommand{\theedvnr}{#1}}
+\newcommand{\mtrnr}[1]{\renewcommand{\themtrnr}{#1}}
+\newcommand{\titel}[1]{\renewcommand{\thetitel}{#1}}
+\newcommand{\untertitel}[1]{\renewcommand{\theuntertitel}{#1}}
+\newcommand{\fachbereich}[1]{\renewcommand{\thefachbereich}{#1}}
+\newcommand{\studiengang}[1]{\renewcommand{\thestudiengang}{#1}}
+\newcommand{\thesistyp}[1]{\renewcommand{\thethesistyp}{#1}}
+\newcommand{\abschluss}[1]{\renewcommand{\theabschluss}{#1}}
+\newcommand{\betreuerFeld}[1]{\renewcommand{\thebetreuerFeld}{#1}}
+\newcommand{\emailAdresse}[1]{\renewcommand{\theEmailAddress}{#1}}
+\newcommand{\abstractDe}[1]{\renewcommand{\theAbstractDe}{#1}}
+\newcommand{\abstractEn}[1]{\renewcommand{\theAbstractEn}{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Farbdefinitionen
+\xdefinecolor{HKS51}{rgb}{0,0.593,0.629}          %% HKS51, BHT türkis
+\xdefinecolor{HKS13}{rgb}{0.937,0.094,0.117}      %% HKS13, BHT rot
+
+\newcommand{\headcolor}{HKS51}
+\newcommand{\alertcolor}{HKS13}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Internals
+\newcommand{\theversion}{0.0}
+\newcommand{\theautor}{Autor angeben!}
+\newcommand{\theedvnr}{123 456}
+\newcommand{\themtrnr}{123 456}
+\newcommand{\thetitel}{Titel angeben!}
+\newcommand{\theuntertitel}{}
+\newcommand{\thefachbereich}{Fachbereich angeben}
+\newcommand{\thestudiengang}{Studiengang angeben}
+\newcommand{\thethesistyp}{Bachelorbeit}
+\newcommand{\theabschluss}{Bachelor of Engineering (B.Eng.)}
+\newcommand{\thebetreuerFeld}{}
+\newcommand{\theEmailAddress}{}
+\newcommand{\theAbstractDe}{}
+\newcommand{\theAbstractEn}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Variablen
+\newboolean{@pdfused}           \setboolean{@pdfused}{false}
+\newboolean{@entwurfset}        \setboolean{@entwurfset}{true}
+\newboolean{@abgabeset}         \setboolean{@abgabeset}{true}
+\newboolean{@versionset}        \setboolean{@versionset}{true}
+\newboolean{@versionsdatum}      \setboolean{@versionsdatum}{true}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PDF output oder DVI output erkennen
+%
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+  \pdffalse % we are not running PDFLaTeX
+  \message{BHT style for LaTeX is used.}
+  \setboolean{@pdfused}{false}
+\else
+  \pdfoutput=1 % we are running PDFLaTeX
+  \pdftrue
+  \message{BHT style for pdfLaTeX is used}
+  \setboolean{@pdfused}{true}
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Geometrisches ...
+\setlength\paperheight     {297mm}
+\setlength\paperwidth  	   {210mm}
+\setlength\headheight      {2ex}
+\setlength\headsep         {2ex}
+\setlength\footskip        {25\p@}
+\setlength\textwidth       {150mm}
+\setlength\textheight      {245mm}
+\setlength{\@tempdima}     {\paperwidth}
+\addtolength{\@tempdima}   {-2in}
+\addtolength{\@tempdima}   {-\textwidth}
+\setlength\oddsidemargin   {0.5\@tempdima}
+\setlength\evensidemargin  {\oddsidemargin}
+\setlength{\@tempdima}     {\paperheight}
+\addtolength{\@tempdima}   {-3in}
+\addtolength{\@tempdima}   {-\textheight}
+\setlength\topmargin       {.5\@tempdima}
+\setlength\footnotesep     {12\p@}
+\setlength{\skip\footins}  {10\p@ \@plus 2\p@ \@minus 4\p@}
+\setlength{\marginparsep}  {1pt}
+\setlength{\marginparwidth}{20mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Seitenlayout
+\RequirePackage{fancyhdr}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\lhead[\thepage]{\slshape \rightmark}
+\chead{}
+\rhead[\slshape \leftmark]{\thepage}
+\lfoot[]{}
+\cfoot{}
+\rfoot[]{}
+
+
+\fancypagestyle{plain}{%
+  \fancyhf{} %
+  \renewcommand{\footrulewidth}{0.4pt}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\headheight=14pt	%% Unterdr"ucken von Overfull \vbox (1.59999pt too high) has.. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Optionen
+
+\DeclareOption{entwurf}
+    {
+      \setboolean{@entwurfset}{true}
+      \setboolean{@abgabeset}{false}
+    }
+
+\DeclareOption{abgabe}
+    {
+      \setboolean{@entwurfset}{false}
+      \setboolean{@abgabeset}{true}
+    }
+
+
+
+%% Setzen des defaults und verarbeiten
+\ExecuteOptions{entwurf}
+\ProcessOptions 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Kommandos
+\renewcommand{\maketitle}{\bhtTitelSeite}
+
+%% Text als Neu markieren
+\cbcolor{HKS13}
+\ifthenelse{\boolean{@entwurfset}}
+    {
+      \newenvironment{neu}
+          {{\textcolor{HKS13}{\textbf{NEU}}}
+            \cbstart[1mm]
+          }
+          {
+            \cbend
+          }
+    }
+    {
+      \newenvironment{neu}{}{}
+    }
+
+%% kurze Randsnotiz mit Text 
+\ifthenelse{\boolean{@entwurfset}}
+    {
+      \newcommand{\anno}[1]	                %% kurze Randnotiz mit Text
+	  {\marginpar{\textcolor{HKS13}{
+		{\LARGE\ding{46}}\\%
+		{\begin{scriptsize}\begin{sf}%
+		      \slshape %
+		      #1%
+		\end{sf}\end{scriptsize}}
+	  }}}
+    }
+    {
+      \newcommand{\anno}[1]{}
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Start des Dokuments
+\AtBeginDocument
+    {
+      \ifthenelse{\boolean{@entwurfset}}
+          { 
+            \RequirePackage{draftwatermark}
+            \SetWatermarkText{Entwurf}
+            \SetWatermarkLightness{0.9}
+            \SetWatermarkFontSize{3cm}
+            \SetWatermarkAngle{45}  
+          }
+          {
+            % nüscht
+          }
+    }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% User Macros 
+
+\ifthenelse{\boolean{@pdfused}}
+     {
+       \newcommand{\hslogo}{latexTemplate/BHT-Logo-Basis.pdf}
+     }
+     {
+       \newcommand{\hslogo}{latexTemplate/BHT-Logo-Basis.eps}
+     }
+\newcommand{\hslogoscaled}[1]{{\mbox{\includegraphics[width=#1]\hslogo}}}
+
+\newcommand{\hsfont}{}%    {\fontfamily{phv}\fontseries{m}\fontshape{n}\selectfont}
+\newcommand{\hsheadfont}{}%{\fontfamily{phv}\fontseries{b}\fontshape{n}\selectfont}
+
+\newcommand{\bhtTitelSeite}
+    {
+      \thispagestyle{empty}
+      \parindent=0pt
+      \begin{minipage}[b]{0.7\textwidth}
+       
+        \ifthenelse{\boolean{@entwurfset}}
+            {
+              \begin{hsfont}
+                \begin{tiny}
+                  \raggedright
+                  % Versionsnummer, wenn gesetzt
+                  \ifthenelse{\boolean{@versionset}}
+                       {Version \theversion\\}
+                       {}
+                       % Datum der letzten Änderung, falls gewünscht
+	               \ifthenelse{\boolean{@versionsdatum}}
+                       {letzte Änderung: \today \\}
+		       {}
+                \end{tiny}
+              \end{hsfont}
+            }
+            {              
+              % leer
+              ~\hfill~
+            }
+      \end{minipage}
+      \begin{minipage}[b]{0.3\textwidth}
+        \hslogoscaled{\textwidth}
+      \end{minipage}
+
+      \textcolor{HKS51}{\rule{\linewidth}{1mm}}
+      
+
+      \begin{hsfont}
+        \textbf{Exposé} zur \thethesistyp\xspace
+        im Fachbereich \thefachbereich\xspace
+        der Beuth Hochschule für Technik Berlin\xspace
+        zur Erlangung des akademischen Grades\xspace
+        \textbf{\theabschluss}\xspace
+        im Studiengang\xspace
+        \textbf{\thestudiengang}
+      \end{hsfont}
+      \vspace*{\stretch{1}}
+      
+      \begin{center}
+        \begin{hsheadfont}
+          \textcolor{\headcolor}{\huge \textbf{\thetitel}}
+        \end{hsheadfont}
+      \end{center}
+      \vspace*{\stretch{0.5}}
+      %
+      \begin{hsheadfont}
+        \begin{center}
+          \Large{\theuntertitel}
+        \end{center}
+      \end{hsheadfont}
+      \vspace*{\stretch{0.5}}
+      %
+      \begin{center}
+        \begin{hsfont}
+          %vorgelegt von\\[2ex]
+          {\Large\theautor}\\[2ex]
+          Matrikelnummer: \themtrnr\\[2ex]
+          \theEmailAddress\\[2ex]
+        \end{hsfont}
+      \end{center}
+     
+      \vspace*{\stretch{1}}
+       \begin{center}
+         Berlin, \getdateday{datum}.\getdatemonth{datum}.\getdateyear{datum}
+       \end{center}
+         
+      \vspace*{\stretch{1}}
+      
+      \thebetreuerFeld
+      
+      %
+      \vspace*{\stretch{2}}
+        \begin{hsfont}
+        %\section*{Zusammenfassung}\theAbstractDe
+        %\section*{Abstract}\theAbstractEn        
+        \end{hsfont}
+
+
+      \textcolor{HKS51}{\rule{\linewidth}{1mm}}\\[1.5ex]
+       \begin{hsheadfont}
+         % leer
+         ~\hfill~
+       \end{hsheadfont}
+    }
+

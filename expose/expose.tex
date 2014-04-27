@@ -1,0 +1,428 @@
+%%
+%% Beuth Hochschule für Technik --  Abschlussarbeit
+%%
+%% Hauptdokument
+%%
+%% 23.01.09 Tschirley V.01
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt, a4paper]{book}
+\newcommand*{\refname}{Bibliography}
+%% Übersetzen als Entwurf
+%\usepackage[entwurf]{bhtThesis}
+%% Übersetzen für die Abgabe
+\usepackage[abgabe]{latexTemplate/bhtThesis}
+\typeout{BHT-Abschlussarbeit V.02 15.02.12 S.Tschirley}
+
+\usepackage{blindtext}   %für Blindtext in Kapitel 2
+\usepackage{listings}
+\lstset{ 
+  literate={ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+           {Ö}{{\"O}}1
+           {Ä}{{\"A}}1
+           {Ü}{{\"U}}1
+           {ß}{{\ss}}1
+}
+
+%%
+%% Es folgen einige Zusätze, die in Kapitel 1 beschriben sind. 
+%% Alles was nicht notwendig ist, kann auskommentiert werden
+%%
+\usepackage{trsym}
+%\usepackage{showkeys}
+\usepackage{bytefield}
+\usepackage{longtable, booktabs, colortbl}
+\usepackage{xstring}% Needed for \IfStrEqCase
+\usepackage{datenumber}% Date formatting
+\usepackage{advdate}% Needed for \AdvanceDate
+\usepackage{pgf}% For math
+\usepackage[ddmmyyyy]{datetime}
+\usepackage{etoolbox}
+\usepackage{pgfkeys,pgfcalendar}
+
+\newdate{datum}{27}{04}{2014}
+\newdate{startdatum}{28}{04}{2014}
+\newcounter{weekMultiplier}
+\newcounter{dayNumber}
+\newcounter{offset}
+\newcount\pgfdatecount
+
+
+\newcommand{\nextMonday}[1]{%
+\setcounter{weekMultiplier}{#1}
+\multiply\value{weekMultiplier} by 7
+%\pgfmathsetcounter{offset}{int(mod(\number\getdateday{startdatum}+1,7))}
+\pgfmathsetcounter{offset}{int(mod((\number\getdatemonth{startdatum}) + (\number\getdateday{startdatum}) + 1, 7))}
+\setcounter{dayNumber}{\getdateday{startdatum}-\value{offset}+\value{weekMultiplier}-2}
+\pgfcalendardatetojulian{\getdateyear{startdatum}-\getdatemonth{startdatum}-\value{dayNumber}}{\pgfdatecount}
+\pgfcalendarjuliantodate{\the\pgfdatecount}{\myyear}{\mymonth}{\myday}
+ \myday.\mymonth.\myyear
+}
+
+
+
+
+%%
+%% Pfad zu den Bildern
+%%
+\graphicspath{
+  {pictures/},
+  {einleitung/pictures},
+  {kapitel1/pictures/},
+  {kapitel2/pictures/}
+}
+
+%%
+%% Einbinden persönlicher macros 
+%%
+%\input{personalMacros.tex}
+
+%% Message
+\typeout{-----------------------------------------------------------}
+\typeout{----> main.tex ---- Zentrales Dokument---------------------}
+\typeout{-----------------------------------------------------------}
+
+\version{0.1$\alpha$}
+
+
+%%
+%% Titel, Autor und Betreuer
+%%
+\fachbereich{VI -- Informatik und Medien --} 
+\studiengang{Medieninformatik-Online (Master)}
+\autor{Eduard Bergen}
+\mtrnr{769248}
+\emailAdresse{s40907@beuth-hochschule.de}
+\titel{Vergleich von Streamingframeworks} 
+\untertitel{STORM, KAFKA, FLUME, S4}
+\thesistyp{Masterarbeit}
+\abschluss{Master of Science (M.Sc.)}
+\betreuerFeld{
+
+  \begin{tabular}{llr}
+    \textbf{1. Betreuer} & Prof. Dr. Stefan Edlich \\
+		\textbf{Gutachter} & Prof. Christoph Knabe \\
+  \end{tabular}
+}
+
+
+
+
+%%\renewcommand{\baselinestretch}{1.05} 
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section{\bibname}% <-- this line was changed from \chapter* to \section*
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+
+\begin{document}
+\maketitle
+~
+\newpage
+
+\pagestyle{empty}
+\pagenumbering{arabic}
+\clearpage\pagenumbering{roman}
+\clearpage\pagenumbering{arabic}
+\pagestyle{fancy}
+\setcounter{page}{1}
+\setcounter{chapter}{1}
+%\setcounter{section}{1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Die Kapitel
+
+%\chapter{}
+\vspace{10ex}
+
+
+\section{Einleitung}
+Mit der enormen Zunahme von Nachrichten durch unterschiedliche Quellen wie Sensoren (RFID) oder 
+Nachrichtenquellen (RFD newsfeeds) wird es schwieriger Informationen beständig abzufragen. Um die
+Frage zum Beispiel zu klären, welcher Rechner am häufigsten über TCP frequentiert wird, werden unterstützende 
+Systeme notwendig. An dieser Stelle helfen Methoden aus dem Bereich des Complex Event Processing (CEP).
+Im Spezialbereich Stream Processing von CEP wurden Streaming Frameworks entwickelt, 
+um die Arbeit in der Datenflussverarbeitung zu vereinfachen. In den nächsten Unterkapiteln werden die Ziele der Abschlussarbeit,
+verwandte Arbeiten, ein Gliederungsentwurf, ein grober Zeitplan und ein vorläufiges Literaturverzeichnis vorgestellt.
+
+
+
+\section{Ziele der Arbeit}
+Hauptziel dieser Arbeit ist ein Vergleich zwischen den Streaming Frameworks Apache Storm, Apache Kafka, Apache Flume und Apache S4. Dabei sollen die Stärken und Schwächen der einzelnen Streaming Frameworks erarbeitet und gegenübergestellt werden. Zudem soll eine Herangehensweise für den Nutzen in einer Entwicklungsumgebung, sowie in einer produktiven Umgebung gezeigt werden. Außerdem sollen mögliche Anwendungsfälle für die Streaming Frameworks vorgestellt und eingeordnet werden. Eine Analyse und ein Belastungstest mit einer Diskussion sollen die Abschlussarbeit abrunden. Im folgenden Unterkapitel werden Arbeiten im ähnlichen Bereich vorgestellt.
+
+\section{Verwandte Arbeiten}
+Neben den genannten Streaming Frameworks befinden sich Anwendungen wie Apache Spark mit Spark Streaming der amplab UC Berkley, STREAM von Stanford, Rainbird von Twitter, Puma von Facebook, IBM InfoSphere, Streambase oder Microsoft StreamInsight in einem frühen Stadium der Entwicklung oder sind bereits kommerziell im Einsatz.  Das anstehende Unterkapitel Gliederungsentwurf zeigt eine erste Gliederung des Dokuments zum Abschlussthema "Vergleich von Streaming Frameworks: Storm, Kafka, Flume und S4"
+
+%Spark is amazing for in-memory and more importantly iterative computing. Th key benefit it offers is caching intermediate data in-memory for better access times. 
+%Some use cases where Shark outperforms Hadoop
+%1. Real Time querying of data: Querying in secs rather than minutes using Shark
+%2. Stream processing: Fraud detection and log processing in live streams for alerts, aggregates and analysis
+%3. Sensor data processing: Where data is fetched and joined from multiple sources, in-memory dataset  really shine as they are easy and fast to process. 
+%We have dealt with a lot more use cases with several companies using Shark & Spark. Contact us for more !!!!
+%http://spark.incubator.apache.org/docs/latest/streaming-programming-guide.html
+%https://wiki.apache.org/incubator/SparkProposal
+%http://docs.sigmoidanalytics.com/index.php/Running_A_Simple_Streaming_Job_in_Local_Machine
+
+\section{Gliederungsentwurf}
+
+\begin{enumerate}
+\item Titel/Deckblatt
+
+\item Zusammenfassung
+\item Abstract
+
+\item Inhaltsverzeichnis
+\item Abbildungsverzeichnis
+\item Tabellenverzeichnis
+\item Quelltextverzeichnis
+
+\item Einleitung
+	\begin{enumerate}
+		\item Aufgabenstellung und Motivation
+		\item Zielsetzung
+		\item Aufbau
+	\end{enumerate}
+
+\item Technische Grundlagen
+
+\item Related Work
+
+\item Analyse
+	
+\item Zieldefinition
+
+\item Streaming Frameworks
+  \begin{enumerate}
+		\item Apache Storm
+		\item Apache Kafka
+		\item Apache Flume
+		\item Apache S4
+	\end{enumerate}
+
+
+\item Anwendungsfall und Prototyp
+
+\item Auswertung
+	\begin{enumerate}
+		\item Benchmark Ergebnisse
+		\item Erkenntnis
+	\end{enumerate}
+
+\item Schlussbetrachtung
+	\begin{enumerate}
+		\item Zusammenfassung
+		\item Ausblick
+		\item Einschränkungen
+	\end{enumerate}
+
+\item Anhänge
+	\begin{enumerate}
+		\item Abkürzungsverzeichnis
+		\item Glossar
+		\item Literaturverzeichnis
+		\item Datenträger
+	\end{enumerate}
+\item Eigenständigkeitserklärung separat
+\end{enumerate}
+Im folgenden Unterkapitel wird der Zeitplan grob gesetzt und im abschließenden Unterkapitel wird das vorläufige Literaturverzeichnis vorgestellt.
+\newpage
+
+\section{Grober Zeitplan}
+
+%Angenommenes Datum zum Beginn: \mydate\displaydate{datumBeginn}\par
+
+%\begin{longtable}[h!]{||l|p{10.5cm}||}
+\begin{longtable}[h!]{@{} *5l @{}} 
+\toprule
+\emph{Datum} & \emph{Aufgabe} \\ \midrule
+\nextMonday{1}  \par   & Recherche \& Analyse\\ \midrule
+\nextMonday{2}  \par  & Recherche \& Zieldefinition\\ \midrule
+\nextMonday{3}  \par  & Recherche \& Einordnung\\ \midrule
+\nextMonday{4}  \par  & Apache Storm Vorstellung \& API\\ \midrule
+\nextMonday{5}  \par  & Apache Storm Hands on \& Vor- Nachteile \\ \midrule
+\nextMonday{6}  \par  & Apache Kafka Vorstellung \& API\\ \midrule
+\nextMonday{7}  \par  & Apache Kafka Hands on \& Vor- Nachteile \\ \midrule
+\nextMonday{8}  \par  & Apache Flume Vorstellung \& API\\ \midrule
+\nextMonday{9}  \par  & Apache Flume Hands on \& Vor- Nachteile \\ \midrule
+\nextMonday{10} \par & Apache S4 Vorstellung \& API\\ \midrule
+\nextMonday{11} \par & Apache S4 Hands on \& Vor- Nachteile \\ \midrule
+\nextMonday{12} \par & Anwendungsfall Implementation \& Messung\\ \midrule
+\nextMonday{13} \par & Vorstellung \& Diskussion Ergebnisse\\ \midrule
+\nextMonday{14} \par & Review I\\ \midrule
+\nextMonday{15} \par & Nachbearbeitung\\ \midrule
+\nextMonday{16} \par & Schlussbetrachtung\\ \midrule
+\nextMonday{17} \par & Review II\\ \midrule
+\nextMonday{18} \par & Nachbearbeitung, Druck \& Erstellung Präsentation\\ \midrule
+\nextMonday{19} \par & Abgabe \\ \midrule
+\nextMonday{20} \par & Kolloquium \\ \bottomrule
+\nextMonday{21} \par & \\ \bottomrule
+\nextMonday{22} \par & \\ \bottomrule
+\nextMonday{23} \par & \\ \bottomrule
+\nextMonday{24} \par & \\ \bottomrule
+\nextMonday{25} \par & \\ \bottomrule
+\nextMonday{26} \par & \\ \bottomrule
+\nextMonday{27} \par & \\ \bottomrule
+ \ \ \ \ 28.10.2014 & spätester Abgabetermin \\ \bottomrule
+\end{longtable}
+
+ 
+
+\begingroup
+\let\clearpage\relax
+
+\renewcommand\bibname{Vorläufiges Literaturverzeichnis}
+
+
+\begin{thebibliography}{9}
+\bibitem{Agha:1986:AMC:7929}
+Gul Agha.
+\newblock {\em Actors: a model of concurrent computation in distributed
+  systems}.
+\newblock MIT Press, Cambridge, MA, USA, 1986.
+
+\bibitem{beckman2012zeromq}
+A.~Beckmann, S.~Karabekyan, and J.~Pflüger.
+\newblock A flexible and testable software architecture: Applying presenter
+  first to a device server for the doocs accelerator control system of the
+  european xfel.
+\newblock In {\em PCaPAC2012: Proceedings of the 9th International Workshop on
+  Personal Computers and Particle Accelerator Controls}, volume~9, pages
+  131--133, December 2012.
+
+\bibitem{res:Borthakur:2011:AHG:1989323.1989438}
+Dhruba Borthakur, Jonathan Gray, Joydeep~Sen Sarma, Kannan Muthukkaruppan,
+  Nicolas Spiegelberg, Hairong Kuang, Karthik Ranganathan, Dmytro Molkov,
+  Aravind Menon, Samuel Rash, Rodrigo Schmidt, and Amitanand Aiyer.
+\newblock Apache hadoop goes realtime at facebook.
+\newblock In {\em Proceedings of the 2011 ACM SIGMOD International Conference
+  on Management of data}, SIGMOD '11, pages 1071--1080, New York, NY, USA,
+  2011. ACM.
+
+\bibitem{datawarehouse:Chaudhuri:1997:ODW:248603.248616}
+Surajit Chaudhuri and Umeshwar Dayal.
+\newblock An overview of data warehousing and olap technology.
+\newblock {\em SIGMOD Rec.}, 26(1):65--74, March 1997.
+
+\bibitem{apache:s4:conf/3pgcic/ChauhanCM12}
+Jagmohan Chauhan, Shaiful~Alam Chowdhury, and Dwight~J. Makaroff.
+\newblock Performance evaluation of yahoo! s4: A first look.
+\newblock In Fatos Xhafa, Leonard Barolli, and Kin~Fun Li, editors, {\em
+  3PGCIC}, pages 58--65. IEEE, 2012.
+
+\bibitem{esp:Cherniack03scalabledistributed}
+Mitch Cherniack, Hari Balakrishnan, Magdalena Balazinska, Don Carney, Uğur
+  Çetintemel, Ying Xing, and Stan Zdonik.
+\newblock Scalable distributed stream processing.
+\newblock In {\em CIDR 2003 - First Biennial Conference on Innovative Data
+  Systems Research}, Asilomar, CA, January 2003.
+
+\bibitem{esp:Goldberg:1984:SP:800055.802021}
+Allen Goldberg and Robert Paige.
+\newblock Stream processing.
+\newblock In {\em Proceedings of the 1984 ACM Symposium on LISP and functional
+  programming}, LFP '84, pages 53--62, New York, NY, USA, 1984. ACM.
+
+\bibitem{gene:Hauer:2008:CFC:1786014.1786045}
+Jan-Hinrich Hauer, Vlado Handziski, Andreas Köpke, Andreas Willig, and Adam
+  Wolisz.
+\newblock A component framework for content-based publish/subscribe in sensor
+  networks.
+\newblock In {\em Proceedings of the 5th European conference on Wireless sensor
+  networks}, EWSN 2008, pages 369--385, Berlin, Heidelberg, 2008.
+  Springer-Verlag.
+
+\bibitem{hunt2010zookeeper}
+Patrick Hunt, Mahadev Konar, Flavio~P Junqueira, and Benjamin Reed.
+\newblock Zookeeper: wait-free coordination for internet-scale systems.
+\newblock In {\em Proceedings of the 2010 USENIX conference on USENIX annual
+  technical conference}, volume~8, pages 11--11, 2010.
+
+\bibitem{esp:Kennedy94maximizingloop}
+Ken Kennedy and Kathryn~S. McKinley.
+\newblock Maximizing loop parallelism and improving data locality via loop
+  fusion and distribution.
+\newblock In {\em Languages and Compilers for Parallel Computing}, volume 768
+  of {\em Lecture Notes in Computer Science}, pages 301--320. Springer-Verlag,
+  1994.
+
+\bibitem{apache:kafka:kreps2011kafka}
+Jay Kreps, Neha Narkhede, and Jun Rao.
+\newblock Kafka: A distributed messaging system for log processing.
+\newblock In {\em Proceedings of 6th International Workshop on Networking Meets
+  Databases (NetDB), Athens, Greece}, 2011.
+
+\bibitem{apache:s4:Neumeyer:2010:SDS:1933306.1934385}
+Leonardo Neumeyer, Bruce Robbins, Anish Nair, and Anand Kesari.
+\newblock S4: Distributed stream computing platform.
+\newblock In {\em Proceedings of the 2010 IEEE International Conference on Data
+  Mining Workshops}, ICDMW '10, pages 170--177, Washington, DC, USA, 2010. IEEE
+  Computer Society.
+
+\bibitem{res:Qian:2013:TRS:2465351.2465353}
+Zhengping Qian, Yong He, Chunzhi Su, Zhuojie Wu, Hongyu Zhu, Taizhi Zhang,
+  Lidong Zhou, Yuan Yu, and Zheng Zhang.
+\newblock Timestream: reliable stream computation in the cloud.
+\newblock In {\em Proceedings of the 8th ACM European Conference on Computer
+  Systems}, EuroSys '13, pages 1--14, New York, NY, USA, 2013. ACM.
+
+\bibitem{res:Rabkin:2013:MBC:2490483.2490489}
+Ariel Rabkin, Matvey Arye, Siddhartha Sen, Vivek Pai, and Michael~J. Freedman.
+\newblock Making every bit count in wide-area analytics.
+\newblock In {\em Proceedings of the 14th USENIX conference on Hot Topics in
+  Operating Systems}, HotOS'13, pages 6--6, Berkeley, CA, USA, 2013. USENIX
+  Association.
+
+\bibitem{esp:eecs}
+Shariq Rizvi.
+\newblock Complex event processing beyond active databases: Streams and
+  uncertainties.
+\newblock Technical Report UCB/EECS-2005-26, Electrical Engineering and
+  Computer Sciences University of California at Berkeley, December 2005.
+
+\bibitem{res:Stonebraker07onesize}
+Michael Stonebraker, Chuck Bear, Uğur Çetintemel, Mitch Cherniack, Tingjian
+  Ge, Nabil Hachem, Stavros Harizopoulos, John Lifter, Jennie Rogers, and Stan
+  Zdonik.
+\newblock One size fits all? – part 2: benchmarking results.
+\newblock In {\em In CIDR}, 2007.
+
+\bibitem{apache:flume:conf/middleware/WangRESTWH12}
+Chengwei Wang, Infantdani~Abel Rayan, Greg Eisenhauer, Karsten Schwan, Vanish
+  Talwar, Matthew Wolf, and Chad Huneycutt.
+\newblock Vscope: Middleware for troubleshooting time-sensitive data center
+  applications.
+\newblock In Priya Narasimhan and Peter Triantafillou, editors, {\em
+  Middleware}, volume 7662 of {\em Lecture Notes in Computer Science}, pages
+  121--141. Springer, 2012.
+
+\end{thebibliography}
+\endgroup
+
+\begin{appendix}
+  %\input{anhang.tex}
+\end{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Literaturverzeichnis
+
+%\clearpage\newpage
+
+
+\end{document}

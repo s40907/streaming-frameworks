@@ -1,0 +1,1401 @@
+% \iffalse meta-comment
+%
+% Copyright (C) 2003 by Heiko Bauke <heiko.bauke@physik.uni-magdeburg.de>
+% -----------------------------------------------------------------------
+% 
+% This file may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.2
+% of this license or (at your option) any later version.
+% The latest version of this license is in:
+%
+%    http://www.latex-project.org/lppl.txt
+%
+% and version 1.2 or later is part of all distributions of LaTeX 
+% version 1999/12/01 or later.
+%
+% \fi
+%
+% \iffalse
+%<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+%<package>\ProvidesPackage{fancyunits}
+%<package>   [2004/05/02 v1.0 for type setting units] 
+%
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage[derivedinbase,derived]{fancyunits}
+\usepackage{lscape}
+\usepackage{fancyvrb}
+\usepackage{longtable}
+\EnableCrossrefs         
+\CodelineIndex
+\RecordChanges
+\begin{document}
+  \DocInput{fancyunits.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \OnlyDescription
+% \CheckSum{50}
+%
+% \CharacterTable
+%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%   Digits        \0\1\2\3\4\5\6\7\8\9
+%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%   Dollar        \$     Percent       \%     Ampersand     \&
+%   Acute accent  \'     Left paren    \(     Right paren   \)
+%   Asterisk      \*     Plus          \+     Comma         \,
+%   Minus         \-     Point         \.     Solidus       \/
+%   Colon         \:     Semicolon     \;     Less than     \<
+%   Equals        \=     Greater than  \>     Question mark \?
+%   Commercial at \@     Left bracket  \[     Backslash     \\
+%   Right bracket \]     Circumflex    \^     Underscore    \_
+%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%   Right brace   \}     Tilde         \~}
+%
+% \changes{v1.0}{2004/05/02}{First resease version.}
+%
+% \GetFileInfo{fancyunits.sty}
+%
+% \DoNotIndex{\newcommand,\newenvironment}
+%
+%  \newcommand{\fu}{\mbox{\bfseries\raisebox{0.8ex}{\textsf{fancy\kern-2.9ex\raisebox{-1.75ex}{units}\raisebox{-0.8ex}{\kern-0.25exV1.0}}}}}
+% \newcommand{\name}[1]{\textsc{#1}}
+%
+% \title{\fu}
+% \date{\filedate}
+% \author{Heiko Bauke\thanks{E-mail: \texttt{heiko.bauke@physik.uni-magdeburg.de}}}
+%
+% \maketitle
+%
+% \begin{abstract}
+%   \noindent%
+%   The package \texttt{fancyunits} was developed based on Marcel
+%   Heldoorns package \texttt{SIunits}. Both packages support the
+%   typesetting of physical units of the international system of units
+%   (Syst{\`e}me International d'Unit{\'e}s) in \LaTeX2e.
+%   
+%   The disadvantage of SIunits, however, is that units (and
+%   corresponding numbers) are always typeset using |\mathrm|, which can
+%   look very ugly in text with a sans serif font: \textsf{The speed of
+%     light is $299\,792\,458\;\mathrm{^m\kern-.2em/\kern-.1em_s}$.}
+%   The package \texttt{fancyunits} overcomes this problem and allows
+%   consistent typesetting of units. The units are displayed in the
+%   current font family: \textsf{The speed of light is
+%     \unit{299\,792\,458}{\metreperseconduf}.}
+% \end{abstract}
+% 
+% \tableofcontents{}
+%
+% \clearpage
+% 
+% \section{Options}
+% 
+% In \LaTeXe\ the package is loaded with the command:
+% \begin{quote}
+% |\usepackage|\oarg{options}|{fancyunits}|
+% \end{quote}
+% 
+% \texttt{fancyunits} depends on the packages \texttt{textcomp}
+% (in base, so it should always be there) and \texttt{amstext}. Make sure
+% that both packages are instaled.
+% 
+% The \texttt{fancyunits} package provides the following options: 
+% \begin{description}
+% \item[|cdot|] A $\cdot$ (\verb+\cdot+) is typeset between composed units,
+%   e.\,g. \newton$\cdot$\metre.
+% \item[|thickspace|] A thick space (|\;|) is typeset between
+%   composed units, e.\,g. \newton$\;$\metre.
+% \item[|mediumspace|] This option causes a medium space (|\:|) to be
+%   typeset between the units, e.\,g. \newton$\:$\metre.
+% \item[|thinspace|] With this option, only a thin space (|\,|) is
+%   put between the units, e.\,g.  \newton$\,$\metre.
+% \item[|thickqspace|] A thick space (|\;|) is typeset between the
+%   number and the unit, e.\,g. $1\;\newton$.
+% \item[|mediumqspace|] Here, only a medium space (|\:|) is used,
+%   e.\,g. $1\:\newton$.
+% \item[|thinqspace|] Between number and unit a distance of a thin space
+%   (|\,|) is typeset, e.\,g. $1\,\newton$.
+% \item[|spaceqspace|] With this option, a |~| is used for the space
+%   between number and unit, e.\,g. $1~\newton$.
+% \item[|derivedinbase|] Additional macros to typeset derived units in
+%   their base units are supplied.
+% \item[|derived|] With this option, a different set of macros for
+%   different typesetting of the same derived units is provided.
+% \end{description}
+% 
+% Default spacing options are \texttt{thickspace} and
+% \texttt{thickqspace}. The macro |\usk| is used internally for the 
+% space between units and |\qsk| is used between numerical value and 
+% physical unit. 
+%
+%
+% \section{Using \texttt{fancyunits}}
+% 
+% The central macro for typesetting units is |\unit{}{}|. Its first 
+% argument is the numerical value. Its second argument determines the unit.
+% Also a prefix may be given, e.\,g.
+% |\unit{1}{\ampere}| yields \unit{1}{\ampere}. The macro |\unit| works 
+% text mode and also in math mode.
+% 
+% 
+% \subsection{Base units and derived units}
+% 
+% Macros for all SI base units are given in table~\ref{tab:grund}. 
+% In addition to the base units there are some derived units, see 
+% table~\ref{tab:abge}. These units may be typeset in different
+% variants. To choose between these variants, the user has to apply the 
+% package options |derivedinbase| or |derived|. Besides the SI units some 
+% non-SI units are defined, see table~\ref{tab:nichtsi}. 
+%
+% \begin{table}
+%   \caption{SI base units}
+%   \label{tab:grund}
+%   \centering%
+%   \begin{tabular}{@{}lll@{}}
+%     \hline
+%     \hline
+%     physical quantity         & \LaTeXe macro    & output    \\
+%     \hline
+%     length                    & |\metre|    & \metre    \\
+%                               & |\meter|    & \meter    \\
+%     mass                      & |\kilogram| & \kilogram \\
+%     time                      & |\second|   & \second   \\
+%     electric current          & |\ampere|        & \ampere   \\
+%     thermodynamic temperature & |\kelvin|   & \kelvin   \\
+%     amount of substance       & |\mole|     & \mole     \\
+%     luminous intensity        & |\candela|  & \candela  \\
+%     \hline
+%     \hline
+%   \end{tabular}
+% \end{table} 
+%  
+% \begin{table}
+%   \centering%
+%   \caption{Typesetting non-SI units}
+%   \label{tab:nichtsi}
+%   \begin{tabular}{@{}llll@{}}
+%     \hline
+%     \hline
+%     \LaTeXe\ macro & output & \LaTeXe\ macro & output \\
+%     \hline
+%     |\minute| & \minute &
+%     |\atomicmass| & \atomicmass \\
+%     |\hour| & \hour &
+%     |\gram| & \gram \\
+%     |\dday| & \dday &
+%     |\ton| & \ton \\
+%     |\degree| & \degree &
+%     |\tonne| & \tonne \\
+%     |\paminute| & \paminute &
+%     |\barn| & \barn \\
+%     |\parsecond| & \parsecond &
+%     |\hectare| & \hectare \\
+%     |\angstrom| & \angstrom &
+%     |\are| & are \\
+%     |\AstroE| & \AstroE &
+%     |\bbar| & \bbar \\
+%     |\lightyear| & \lightyear &
+%     |\curie| & \curie \\
+%     |\parsec| &  \parsec &
+%     |\rem| & \rem \\
+%     |\gal| & \gal &
+%     |\roentgen| & \roentgen \\
+%     |\liter| & \liter &
+%     |\oersted| & \oersted \\
+%     |\litre| & \litre &
+%     |\electronvolt| & \electronvolt \\
+%     \hline
+%     \hline
+%   \end{tabular}
+% \end{table}
+% 
+% %%\begin{landscape}
+% \begin{table}
+%   \centering%
+%   \caption{Composed units derived from the base units}%
+%   \label{tab:abge}%
+%   \renewcommand{\thefootnote}{\fnsymbol{footnote}}%
+%   \begin{tabular}{@{}llllll@{}}
+%     \hline
+%     \hline
+%     \multicolumn{2}{c}{} &
+%     \multicolumn{2}{c}{loaded with} &
+%     \multicolumn{2}{c}{loaded with} \\
+%     \multicolumn{2}{c}{} &
+%     \multicolumn{2}{c}{\texttt{derivedinbase}} &
+%     \multicolumn{2}{c}{\texttt{derived}} \\
+%     \hline
+%     \LaTeXe\ macro & output & \LaTeXe\ macro & 
+%     output & \LaTeXe\ macro & output \\
+%     \hline
+%     |\rad| & \rad & &  & & \\
+%     |\sterad| & \sterad \\
+%     |\radian| & \radian & 
+%     |\radianbase| & \radianbase &
+%     |\derradian| & \derradian \\
+%     |\steradian| & \steradian &
+%     |\steradianbase| & \steradianbase &
+%     |\dersteradian| & \dersteradian \\
+%     |\hertz| & \hertz &
+%     |\hertzbase| & \hertzbase &
+%     |\derhertz| & \derhertz \\
+%     |\newton| & \newton &
+%     |\newtonbase| & \newtonbase &
+%     |\dernewton| & \dernewton \\
+%     |\pascal| & \pascal &
+%     |\pascalbase| & \pascalbase &
+%     |\derpascal| & \derpascal \\
+%     |\joule| & \joule &
+%     |\joulebase| & \joulebase &
+%     |\derjoule| & \derjoule \\
+%     |\watt| & \watt &
+%     |\wattbase| & \wattbase &
+%     |\derwatt| & \derwatt \\
+%     |\coulomb| & \coulomb &
+%     |\coulombbase| & \coulombbase &
+%     |\dercoulomb| & \dercoulomb \\
+%     |\volt| & \volt &
+%     |\voltbase| & \voltbase &
+%     |\dervolt| & \dervolt \\
+%     |\farad| & \farad &
+%     |\faradbase| & \faradbase &
+%     |\derfarad| & \derfarad \\
+%     |\ohm| & \ohm &
+%     |\ohmbase| & \ohmbase &
+%     |\derohm| & \derohm \\
+%     |\weber| & \weber &
+%     |\weberbase| & \weberbase &
+%     |\derweber| & \derweber \\
+%     |\tesla| & \tesla &
+%     |\teslabase| & \teslabase &
+%     |\dertesla| & \dertesla \\
+%     |\henry| & \henry &
+%     |\henrybase| & \henrybase &
+%     |\derhenry| & \derhenry \\
+%     |\celsius| & \celsius &
+%     |\celsiusbase| & \celsiusbase &
+%     |\dercelsius| & \dercelsius \\
+%     |\degreecelsius| & \degreecelsius &
+%     |\degreecelsiusbase| & \degreecelsiusbase &
+%     |\derdegreecelsius| & \derdegreecelsius \\
+%     |\lumen| & \lumen &
+%     |\lumenbase| & \lumenbase &
+%     |\derlumen| & \derlumen \\
+%     |\lux| & \lux &
+%     |\luxbase| & \luxbase &
+%     |\derlux| & \derlux \\
+%     |\becquerel| & \becquerel &
+%     |\becquerelbase| & \becquerelbase &
+%     |\derbecquerel| & \derbecquerel \\
+%     |\Gray|\footnotemark[1] & \Gray &
+%     |\Graybase|\footnotemark[1] & \Graybase &
+%     |\derGray|\footnotemark[1]& \derGray \\
+%     |\sievert| & \sievert &
+%     |\sievertbase| & \sievertbase &
+%     |\dersievert| & \dersievert \\
+%     \hline
+%     \hline
+%     \multicolumn{6}{@{}p{107ex}@{}}{%
+%       \footnotemark[1] In contrast to |SIunits|, the captitalized
+%       macro |\Gray| is used for the unit gray. Thus, conflicts with 
+%       color macros are avoided.}\\
+%   \end{tabular}
+% \end{table}
+% %%\end{landscape}
+%
+% 
+% \subsection{Composing units}
+% \label{sec:composing-new-units}
+% 
+% The package |fancyunits| defines the unit prefixes given in
+% table~\ref{tab:vors}. If the macros for decimal prefixes are not
+% enough or you don't want them, you may use powers with |\power{}{}|:
+% |\power{10}{-36}| yields \power{10}{-36}.\footnote{Note that numbers
+%   are \emph{not} typeset in math mode. Therefore you cannot use
+%   \texttt{10\textasciicircum\{-36\}} in the first argument to
+%     \texttt{\textbackslash unit}, and switching to math mode again
+%     yields roman numbers, even if you are using a \textsf{sans serif}
+%     or \texttt{typewriter} font.}
+%   
+% The user can create new macros for units, that are not predefined by
+% \texttt{fancyunits}, by using |\addunit{}{}|. The first argument
+% is the macro name for the unit, the second determines how the unit is 
+% typeset.  |\addunit{\ounce}{oz}|\addunit{\ounce}{oz}, for
+% example, defines the macro |\ounce| which yields \ounce.
+% 
+% \begin{table}
+%   \centering%
+%   \caption{Unit prefixes}
+%   \label{tab:vors}
+%   \begin{tabular}{@{}llll@{}}
+%     \hline
+%     \hline
+%     \LaTeXe\ macro & output & \LaTeXe\ macro & output \\
+%     \hline
+%     |\yocto| & \yocto & |\yoctod| & \yoctod \\
+%     |\zepto| & \zepto & |\zeptod| & \zeptod \\
+%     |\atto| & \atto & |\attod| & \attod \\
+%     |\fempto| & \fempto & |\femptod| & \femptod \\
+%     |\pico| & \pico & |\picod| & \picod \\
+%     |\nano| & \nano  & |\nanod| & \nanod \\
+%     |\micro| & \micro & |\microd| & \microd \\
+%     |\milli| & \milli & |\millid| & \millid \\
+%     |\centi| & \centi & |\centid| & \centid \\
+%     |\deci| & \deci & |\decid| & \decid \\
+%     |\deca| & \deca & |\decad| & \decad \\
+%     |\deka| & \deka & |\dekad| & \dekad \\
+%     & & |\decaD| & \decaD \\
+%     |\hecto| & \hecto & |\hectod| & \hectod \\
+%     |\kilo| & \kilo & |\kilod| & \kilod \\
+%     |\mega| & \mega & |\megad| & \megad \\
+%     |\giga| & \giga & |\gigad| & \gigad \\
+%     |\tera| & \tera & |\terad| & \terad \\
+%     |\peta| & \peta & |\petad| & \petad \\
+%     |\exa| & \exa  & |\exad| & \exad \\
+%     |\zetta| & \zetta & |\zettad| & \zettad \\
+%     |\yotta| & \yotta & |\yottad| & \yottad \\
+%     \hline
+%     \hline
+%   \end{tabular}    
+% \end{table}
+% \begin{table}
+%   \centering%
+%   \caption{Unit exponents}
+%   \label{tab:exp}
+%   \begin{tabular}{@{}lll@{}}
+%     \hline
+%     \hline
+%     \LaTeXe\ macro & example\ & output \\
+%     \hline
+%     |\Square| & |\Square\metre| & \Square\metre \\
+%     |\Squared| & |\metre\Squared| & \metre\Squared \\
+%     |\cubic| & |\cubic\metre| & \cubic\metre \\
+%     |\cubed| & |\metre\cubed| & \metre\cubed \\
+%     |\fourth| & |\fourth\metre| & \fourth\metre \\
+%     |\reciprocal| & |\reciprocal\metre| & \reciprocal\metre \\
+%     |\rp| & |\rp\metre| & \rp\metre \\
+%     |\rpsquare| & |\rpsquare\metre| & \rpsquare\metre \\
+%     |\rpsquared| & |\metre\rpsquared| & \metre\rpsquared \\
+%     |\rpcubic| & |\rpcubic\metre| & \rpcubic\metre \\
+%     |\rpcubed| & |\metre\rpcubed| & \metre\rpcubed \\
+%     |\rpfourth| & |\rpfourth\metre| & \rpfourth\metre \\
+%     \hline
+%     \hline
+%   \end{tabular}
+% \end{table}
+% 
+% 
+% The \texttt{fancyunits} package provides some additional macros for 
+% typesetting composed units in a convenient manner. Unit fractions can 
+% by typeset in different ways. The |\per|-variant is only provided for 
+% reasons of compatibility to |SIunits|.
+%
+% \SaveVerb{per}|\per|
+% \SaveVerb{ufrac}|\ufrac|
+% \SaveVerb{Ufrac}|\Ufrac|
+% \SaveVerb{UFrac}|\UFrac|
+% \begin{description}
+% \item[\UseVerb{per}] provides a very simple way to typeset
+%   fractions. |\kilogram\per\second| yields \kilogram\per\second.
+% \item[\UseVerb{ufrac}] produces small fractions, e.g.
+%   |\ufrac{\kilogram}{\second}| yields \ufrac{\kilogram}{\second}.
+% \item[\UseVerb{Ufrac}] produces medium sized fractions, e.g.
+%   |\Ufrac{\kilogram}{\second}| yields \Ufrac{\kilogram}{\second}.
+% \item[\UseVerb{UFrac}] finally produces big fractions, e.g.
+%   |\UFrac{\kilogram}{\second}| yields \UFrac{\kilogram}{\second}.
+% \end{description}
+% 
+% To set a unit to a power, use the macros in \tablename~\ref{tab:exp}. 
+% Since |\square| is yet defined in |amssymb.sty|, |\Square| is used in
+% |fancyunits|. The units square metre and cubic metre are so frequently
+% used, that shorthand macros |\Squaremetre| (yields
+% \Squaremetre) and |\cubicmetre| (yields \cubicmetre) are defined.
+% 
+% And finally, there is a whole bunch of complex macros for composed 
+% units. \tablename~\ref{tab:varianten} gives an overview over all those 
+% composed units in |fancyunits|.
+% 
+% 
+% \section{Acknowledgements}
+%
+% Many thanks to  Frank K\"uster\footnote{E-mail: \texttt{frank@kuesterei.ch}}.
+% He has traslated the original German documentation of \texttt{fancyunits} 
+% into English. This document is based on his work.
+%
+% \clearpage
+% 
+% \setlength{\LTcapwidth}{150mm}
+% \begin{longtable}{@{}lll@{}}
+%   \caption{Different variants of composed units\label{tab:varianten}}\\[-2.5ex]
+%   \hline
+%   \hline
+%   physical quantity & \LaTeXe\ macro & output \\
+%   \hline \endfirsthead
+%   \hline
+%   \hline
+%   physical quantity & \LaTeXe\ macro & output \\
+%   \hline \endhead
+%   \hline
+%   \multicolumn{3}{@{}r@{}}{continued on next page}\\
+%   \hline
+%   \hline
+%   \endfoot
+%   \hline
+%   \hline
+%   \endlastfoot
+%   absorbed dose rate
+%   & |\Graypersecond| & \Graypersecond \\
+%   & |\Graypersecondnp| & \Graypersecondnp \\
+%   & |\Grayperseconduf| & \Grayperseconduf \\[0.4em]
+%   & |\GraypersecondUf| & \GraypersecondUf \\[0.4em]
+%   & |\GraypersecondUF| &  \GraypersecondUF \\[0.55em]
+%   \hline
+%   acceleration\rule{0ex}{2.25ex}
+%   & |\metrepersquaresecond| & \metrepersquaresecond \\
+%   & |\metrepersquaresecondnp| & \metrepersquaresecondnp \\
+%   & |\metrepersquareseconduf| & \metrepersquareseconduf \\[0.4em]
+%   & |\metrepersquaresecondUf| & \metrepersquaresecondUf \\[0.4em]
+%   & |\metrepersquaresecondUF| & \metrepersquaresecondUF \\[0.55em]
+%   \hline
+%   angular acceleration\rule{0ex}{2.25ex}
+%   & |\radianpersquaresecond| & \radianpersquaresecond \\
+%   & |\radianpersquaresecondnp| & \radianpersquaresecondnp \\
+%   & |\radianpersquareseconduf| & \radianpersquareseconduf \\[0.4em]
+%   & |\radianpersquaresecondUf| & \radianpersquaresecondUf \\[0.4em]
+%   & |\radianpersquaresecondUF| & \radianpersquaresecondUF \\[0.55em]
+%   \hline
+%   angular moment\rule{0ex}{2.25ex}
+%   & |\kilogramsquaremetrepersecond| & \kilogramsquaremetrepersecond \\
+%   & |\kilogramsquaremetreperseconduf| & \kilogramsquaremetreperseconduf \\[0.4em]
+%   & |\kilogramsquaremetrepersecondUf| & \kilogramsquaremetrepersecondUf \\[0.4em]
+%   & |\kilogramsquaremetrepersecondUF| & \kilogramsquaremetrepersecondUF \\[0.55em]
+%   \hline
+%   angular velocity\rule{0ex}{2.25ex}
+%   & |\radianpersecond| & \radianpersecond \\
+%   & |\radianperseconduf| & \radianperseconduf \\[0.4em]
+%   & |\radianpersecondUf| & \radianpersecondUf \\[0.4em]
+%   & |\radianpersecondUF| & \radianpersecondUF \\[0.55em]
+%   \hline
+%   area per volume\rule{0ex}{2.25ex}
+%   & |\Squaremetrepercubicmetre| & \Squaremetrepercubicmetre \\
+%   & |\Squaremetrepercubicmetrenp| & \Squaremetrepercubicmetrenp \\
+%   & |\Squaremetrepercubicmetreuf| & \Squaremetrepercubicmetreuf \\[0.4em]
+%   & |\SquaremetrepercubicmetreUf| & \SquaremetrepercubicmetreUf \\[0.4em]
+%   & |\SquaremetrepercubicmetreUF| & \SquaremetrepercubicmetreUF \\[0.55em]
+%   \hline
+%   density per charge\rule{0ex}{2.25ex}
+%   & |\kilogrampercubicmetrecoulomb| & \kilogrampercubicmetrecoulomb \\
+%   & |\kilogrampercubicmetrecoulombnp| & \kilogrampercubicmetrecoulombnp \\
+%   & |\kilogrampercubicmetrecoulombuf| & \kilogrampercubicmetrecoulombuf \\[0.4em]
+%   & |\kilogrampercubicmetrecoulombUf| & \kilogrampercubicmetrecoulombUf \\[0.4em]
+%   & |\kilogrampercubicmetrecoulombUF| & \kilogrampercubicmetrecoulombUF \\[0.55em]
+%   \hline
+%   dynamic fluidity\rule{0ex}{2.25ex}
+%   & |\Squaremetrepernewtonsecond| & \Squaremetrepernewtonsecond \\
+%   & |\Squaremetrepernewtonsecondnp| & \Squaremetrepernewtonsecondnp \\
+%   & |\Squaremetrepernewtonseconduf| & \Squaremetrepernewtonseconduf \\[0.4em]
+%   & |\SquaremetrepernewtonsecondUf| & \SquaremetrepernewtonsecondUf \\[0.4em]
+%   & |\SquaremetrepernewtonsecondUF| & \SquaremetrepernewtonsecondUF \\[0.55em]
+%   \hline
+%   dynamic viscosity\rule{0ex}{2.25ex}
+%   & |\pascalsecond| & \pascalsecond \\
+%   & |\pascalsecondnp| & \pascalsecondnp \\
+%   & |\pascalseconduf| & \pascalseconduf \\[0.4em]
+%   & |\pascalsecondUf| & \pascalsecondUf \\[0.4em]
+%   & |\pascalsecondUF| & \pascalsecondUF \\[0.55em]
+%   \hline
+%   electrical charge density\rule{0ex}{2.25ex}
+%   & |\coulombpercubicmetre| & \coulombpercubicmetre \\
+%   & |\coulombpercubicmetrenp| & \coulombpercubicmetrenp \\
+%   & |\coulombpercubicmetreuf| & \coulombpercubicmetreuf \\[0.4em]
+%   & |\coulombpercubicmetreUf| & \coulombpercubicmetreUf \\[0.4em]      
+%   & |\coulombpercubicmetreUF| & \coulombpercubicmetreUF \\[0.55em]
+%   \hline
+%   electrical charge per \rule{0ex}{2.25ex}
+%   & |\coulombpermol| & \coulombpermol \\
+%   amount of substance
+%   & |\coulombpermol| & \coulombpermol \\
+%   & |\Squaremetrepercubicmetrenp| & \Squaremetrepercubicmetrenp \\
+%   & |\Squaremetrepercubicmetreuf| & \Squaremetrepercubicmetreuf \\[0.4em]
+%   & |\SquaremetrepercubicmetreUf| & \SquaremetrepercubicmetreUf \\[0.4em]
+%   & |\SquaremetrepercubicmetreUF| & \SquaremetrepercubicmetreUF \\[0.55em]
+%   \hline
+%   electrical current density\rule{0ex}{2.25ex}
+%   & |\amperepersquaremetre| & \amperepersquaremetre \\
+%   & |\amperepersquaremetrenp| & \amperepersquaremetrenp \\
+%   & |\amperepersquaremetreuf| & \amperepersquaremetreuf \\[0.4em]
+%   & |\amperepersquaremetreUf| & \amperepersquaremetreUf \\[0.4em]
+%   & |\amperepersquaremetreUF| & \amperepersquaremetreUF \\[0.55em]
+%   \hline
+%   electrical dipole moment\rule{0ex}{2.25ex}
+%   & |\amperemetresecond| & \amperemetresecond \\[0.4em]
+%   \hline
+%   electrical field strength\rule{0ex}{2.25ex}
+%   & |\voltpermetre| & \voltpermetre \\
+%   & |\voltpermetrenp| & \voltpermetrenp \\
+%   & |\voltpermetreuf| & \voltpermetreuf \\[0.4em]
+%   & |\voltpermetreUf| & \voltpermetreUf \\[0.4em]
+%   & |\voltpermetreUF| & \voltpermetreUF \\[0.55em]
+%   \hline
+%   energy\rule{0ex}{2.25ex}
+%   & |\kilowatthour| & \kilowatthour \\
+%   \hline
+%   energy density\rule{0ex}{2.25ex}
+%   & |\joulepercubicmetre| & \joulepercubicmetre \\
+%   & |\joulepercubicmetrenp| & \joulepercubicmetrenp \\
+%   & |\joulepercubicmetreuf| & \joulepercubicmetreuf \\[0.4em]
+%   & |\joulepercubicmetreUf| & \joulepercubicmetreUf \\[0.4em]
+%   & |\joulepercubicmetreUF| & \joulepercubicmetreUF \\[0.55em]
+%   \hline
+%   energy density\rule{0ex}{2.25ex}
+%   & |\joulepersquaremetre| & \joulepersquaremetre \\      
+%   (per area)
+%   & |\joulepersquaremetrenp| & \joulepersquaremetrenp \\
+%   & |\joulepersquaremetreuf| & \joulepersquaremetreuf \\[0.4em]
+%   & |\joulepersquaremetreUf| & \joulepersquaremetreUf \\[0.4em]
+%   & |\joulepersquaremetreUF| & \joulepersquaremetreUF \\[0.55em]
+%   \hline
+%   force density\rule{0ex}{2.25ex}
+%   & |\newtonpercubicmetre| & \newtonpercubicmetre \\
+%   & |\newtonpercubicmetrenp| & \newtonpercubicmetrenp \\
+%   & |\newtonpercubicmetreuf| & \newtonpercubicmetreuf \\[0.4em]
+%   & |\newtonpercubicmetreUf| & \newtonpercubicmetreUf \\[0.4em]
+%   & |\newtonpercubicmetreUF| & \newtonpercubicmetreUF \\[0.55em]
+%   \hline
+%   force per mass\rule{0ex}{2.25ex}
+%   & |\newtonperkilogram| & \newtonperkilogram \\
+%   & |\newtonperkilogramnp| & \newtonperkilogramnp \\
+%   & |\newtonperkilogramuf| & \newtonperkilogramuf \\[0.4em]
+%   & |\newtonperkilogramUf| & \newtonperkilogramUf \\[0.4em]
+%   & |\newtonperkilogramUF| & \newtonperkilogramUF \\[0.4em]
+%   \hline
+%   heat capacity, entropy\rule{0ex}{2.25ex}
+%   & |\jouleperkelvin| & \jouleperkelvin \\
+%   & |\jouleperkelvinnp| & \jouleperkelvinnp \\
+%   & |\jouleperkelvinuf| & \jouleperkelvinuf \\[0.4em]
+%   & |\jouleperkelvinUf| & \jouleperkelvinUf \\[0.4em]
+%   & |\jouleperkelvinUF| & \jouleperkelvinUF \\[0.55em]
+%   \hline
+%   kinetical energy\rule{0ex}{2.25ex}
+%   & |\Squaremetrepersquaresecond| & \Squaremetrepersquaresecond \\
+%   of turbulences
+%   & |\rpsquaremetrepersquaresecond| & \rpsquaremetrepersquaresecond \\
+%   & |\Squaremetrepersquaresecondnp| & \Squaremetrepersquaresecondnp \\
+%   & |\Squaremetrepersquareseconduf| &  \Squaremetrepersquareseconduf\\[0.4em]
+%   & |\SquaremetrepersquaresecondUf| & \SquaremetrepersquaresecondUf \\[0.4em]
+%   & |\SquaremetrepersquaresecondUF| & \SquaremetrepersquaresecondUF\\[0.4em]
+%   \hline
+%   kinetical viscosity\rule{0ex}{2.25ex}
+%   & |\Squaremetrepersecond| & \Squaremetrepersecond \\
+%   & |\rpsquaremetrepersecond| & \rpsquaremetrepersecond \\
+%   & |\Squaremetrepersecondnp| & \Squaremetrepersecondnp \\
+%   & |\Squaremetreperseconduf| & \Squaremetreperseconduf \\[0.4em]
+%   & |\SquaremetrepersecondUf| & \SquaremetrepersecondUf \\[0.4em]
+%   & |\SquaremetrepersecondUF| & \SquaremetrepersecondUF \\[0.55em]
+%   \hline
+%   luminosity\rule{0ex}{2.25ex}
+%   & |\candelapersquaremetre| & \candelapersquaremetre \\
+%   & |\candelapersquaremetrenp| & \candelapersquaremetrenp \\
+%   & |\candelapersquaremetreuf| & \candelapersquaremetreuf \\[0.4em]
+%   & |\candelapersquaremetreUf| & \candelapersquaremetreUf \\[0.4em]
+%   & |\candelapersquaremetreUF| & \candelapersquaremetreUF \\[0.55em]
+%   \hline
+%   magnetical\rule{0ex}{2.25ex}
+%   & |\amperepermetre| & \amperepermetre \\
+%   field strength
+%   & |\amperepermetrenp| & \amperepermetrenp \\
+%   & |\amperepermetreuf| & \amperepermetreuf \\[0.4em]
+%   & |\amperepermetreUf| & \amperepermetreUf \\[0.4em]
+%   & |\amperepermetreUF| & \amperepermetreUF \\[0.55em]
+%   \hline
+%   magnetical moment\rule{0ex}{2.25ex}
+%   & |\joulepertesla| & \joulepertesla \\
+%   & |\jouleperteslanp| & \jouleperteslanp \\
+%   & |\jouleperteslauf| & \jouleperteslauf \\[0.4em]
+%   & |\jouleperteslaUf| & \jouleperteslaUf \\[0.4em]
+%   & |\jouleperteslaUF| & \jouleperteslaUF \\[0.55em]
+%   \hline
+%   mass density\rule{0ex}{2.25ex}
+%   & |\kilogrampercubicmetre| & \kilogrampercubicmetre \\
+%   & |\kilogrampercubicmetrenp| & \kilogrampercubicmetrenp \\
+%   & |\kilogrampercubicmetreuf| & \kilogrampercubicmetreuf \\[0.4em]
+%   & |\kilogrampercubicmetreUf| & \kilogrampercubicmetreUf \\[0.4em]
+%   & |\kilogrampercubicmetreUF| & \kilogrampercubicmetreUF \\[0.55em]
+%   \hline
+%   mass density\rule{0ex}{2.25ex}
+%   & |\kilogrampersquaremetre| & \kilogrampersquaremetre \\
+%   (per area)
+%   & |\kilogrampersquaremetrenp| & \kilogrampersquaremetrenp \\
+%   & |\kilogrampersquaremetreuf| & \kilogrampersquaremetreuf \\[0.4em]
+%   & |\kilogrampersquaremetreUf| & \kilogrampersquaremetreUf \\[0.4em]
+%   & |\kilogrampersquaremetreUF| & \kilogrampersquaremetreUF \\[0.55em]
+%   \hline
+%   mass density\rule{0ex}{2.25ex}
+%   & |\kilogrampermetre| & \kilogrampermetre \\
+%   (per length)
+%   & |\kilogrampermetrenp| & \kilogrampermetrenp \\
+%   & |\kilogrampermetreuf| & \kilogrampermetreuf \\[0.4em]
+%   & |\kilogrampermetreuf| & \kilogrampermetreuf \\[0.4em]
+%   & |\kilogrampermetreUf| & \kilogrampermetreUf \\[0.4em]
+%   & |\kilogrampermetreUF| & \kilogrampermetreUF \\[0.55em]
+%   \hline
+%   mass flux rate\rule{0ex}{2.25ex}
+%   & |\kilogrampersecond| & \kilogrampersecond \\
+%   & |\kilogrampersecondnp| & \kilogrampersecondnp \\
+%   & |\kilogramperseconduf| & \kilogramperseconduf \\[0.4em]
+%   & |\kilogrampersecondUf| & \kilogrampersecondUf \\[0.4em]
+%   & |\kilogrampersecondUF| & \kilogrampersecondUF \\[0.55em]
+%   \hline
+%   mass flux\rule{0ex}{2.25ex}
+%   & |\kilogrampersquaremetresecond| & \kilogrampersquaremetresecond \\
+%   & |\kilogrampersquaremetresecondnp| & \kilogrampersquaremetresecondnp \\
+%   & |\kilogrampersquaremetreseconduf| & \kilogrampersquaremetreseconduf \\[0.4em]
+%   & |\kilogrampersquaremetresecondUf| & \kilogrampersquaremetresecondUf \\[0.4em]
+%   & |\kilogrampersquaremetresecondUF| & \kilogrampersquaremetresecondUF \\[0.55em]
+%   \hline
+%   mass flux per volume\rule{0ex}{2.25ex}
+%   & |\kilogrampersecondcubicmetre| & \kilogrampersecondcubicmetre \\
+%   & |\kilogrampersecondcubicmetrenp| & \kilogrampersecondcubicmetrenp \\
+%   & |\kilogrampersecondcubicmetreuf| & \kilogrampersecondcubicmetreuf \\[0.4em]
+%   & |\kilogrampersecondcubicmetreUf| & \kilogrampersecondcubicmetreUf \\[0.4em]
+%   & |\kilogrampersecondcubicmetreUF| & \kilogrampersecondcubicmetreUF \\[0.55em]
+%   \hline
+%   molar energy\rule{0ex}{2.25ex}
+%   & |\joulepermole| & \joulepermole \\
+%   & |\joulepermolenp| & \joulepermolenp \\
+%   & |\joulepermoleuf| & \joulepermoleuf \\[0.4em]
+%   & |\joulepermoleUf| & \joulepermoleUf \\[0.4em]
+%   & |\joulepermoleUF| & \joulepermoleUF \\[0.55em]
+%   \hline
+%   molar density\rule{0ex}{2.25ex}
+%   & |\molepercubicmetre| & \molepercubicmetre \\
+%   & |\molepercubicmetrenp| & \molepercubicmetrenp \\
+%   & |\molepercubicmetreuf| & \molepercubicmetreuf \\[0.4em]
+%   & |\molepercubicmetreUf| & \molepercubicmetreUf \\[0.4em]
+%   & |\molepercubicmetreUF| & \molepercubicmetreUF \\[0.55em]
+%   \hline
+%   molar heat capacity,\rule{0ex}{2.25ex}
+%   & |\joulepermolekelvin| & \joulepermolekelvin \\
+%   molar entropy
+%   & |\joulepermolekelvinnp| & \joulepermolekelvinnp \\
+%   & |\joulepermolekelvinuf| & \joulepermolekelvinuf \\[0.4em]
+%   & |\joulepermolekelvinUf| & \joulepermolekelvinUf \\[0.4em]
+%   & |\joulepermolekelvinUF| & \joulepermolekelvinUF \\[0.55em]
+%   \hline
+%   molar mass\rule{0ex}{2.25ex}
+%   & |\kilogramperkilomole| & \kilogramperkilomole \\
+%   & |\kilogramperkilomolenp| & \kilogramperkilomolenp \\
+%   & |\kilogramperkilomoleuf| & \kilogramperkilomoleuf \\[0.4em]
+%   & |\kilogramperkilomoleUf| & \kilogramperkilomoleUf \\[0.4em]
+%   & |\kilogramperkilomoleUF| & \kilogramperkilomoleUF \\[0.55em]
+%   \hline
+%   momentum\rule{0ex}{2.25ex}
+%   & |\kilogrammetrepersecond| & \kilogrammetrepersecond \\
+%   & |\kilogrammetrepersecondnp| & \kilogrammetrepersecondnp \\
+%   & |\kilogrammetreperseconduf| & \kilogrammetreperseconduf \\[0.4em]
+%   & |\kilogrammetrepersecondUf| & \kilogrammetrepersecondUf \\[0.4em]
+%   & |\kilogrammetrepersecondUF| &  \kilogrammetrepersecondUF\\[0.4em]
+%   \hline
+%   momentum of force,\rule{0ex}{2.25ex}
+%   & |\newtonmetre| & \newtonmetre \\
+%   energy
+%   & |\newtonmetrenp| & \newtonmetrenp \\
+%   \hline
+%   momentum of inertia\rule{0ex}{2.25ex}
+%   & |\kilogramsquaremetre| & \kilogramsquaremetre \\
+%   & |\kilogramsquaremetrenp| & \kilogramsquaremetrenp \\
+%   \hline
+%   change of momentum\rule{0ex}{2.25ex}
+%   & |\kilogrammetrepersquaresecond| & \kilogrammetrepersquaresecond \\
+%   & |\kilogrammetrepersquaresecondnp| & \kilogrammetrepersquaresecondnp \\
+%   & |\kilogrammetrepersquareseconduf| & \kilogrammetrepersquareseconduf \\[0.4em]
+%   & |\kilogrammetrepersquaresecondUf| & \kilogrammetrepersquaresecondUf \\[0.4em]
+%   & |\kilogrammetrepersquaresecondUF| & \kilogrammetrepersquaresecondUF \\[0.55em]
+%   \hline
+%   particle emission rate\rule{0ex}{2.25ex}
+%   & |\persquaremetresecond| & \persquaremetresecond \\
+%   & |\persquaremetresecondnp| & \persquaremetresecondnp \\
+%   & |\persquaremetreseconduf| & \persquaremetreseconduf \\[0.4em]
+%   & |\persquaremetresecondUf| & \persquaremetresecondUf \\[0.4em]
+%   & |\persquaremetresecondUF| & \persquaremetresecondUF \\[0.55em]
+%   \hline
+%   permeability\rule{0ex}{2.25ex}
+%   & |\henrypermetre| & \henrypermetre \\
+%   & |\henrypermetrenp| & \henrypermetrenp \\
+%   & |\henrypermetreuf| & \henrypermetreuf \\[0.4em]
+%   & |\henrypermetreUf| & \henrypermetreUf \\[0.4em]
+%   & |\henrypermetreUF| & \henrypermetreUF \\[0.55em]
+%   \hline
+%   permittivity\rule{0ex}{2.25ex}
+%   & |\faradpermetre| & \faradpermetre \\
+%   & |\faradpermetrenp| & \faradpermetrenp \\
+%   & |\faradpermetreuf| & \faradpermetreuf \\[0.4em]
+%   & |\faradpermetreUf| & \faradpermetreUf \\[0.4em]
+%   & |\faradpermetreUF| & \faradpermetreUF \\[0.55em]      
+%   \hline
+%   power density\rule{0ex}{2.25ex}
+%   & |\wattpersquaremetre| & \wattpersquaremetre \\
+%   (per area)
+%   & |\wattpersquaremetrenp| & \wattpersquaremetrenp \\      
+%   & |\wattpersquaremetreuf| & \wattpersquaremetreuf \\[0.4em]
+%   & |\wattpersquaremetreUf| & \wattpersquaremetreUf \\[0.4em]
+%   & |\wattpersquaremetreUF| & \wattpersquaremetreUF \\[0.55em]
+%   \hline
+%   power per mass\rule{0ex}{2.25ex}
+%   & |\wattperkilogram| & \wattperkilogram \\
+%   & |\wattperkilogramnp| & \wattperkilogramnp \\
+%   & |\wattperkilogramuf| & \wattperkilogramuf \\[0.4em]
+%   & |\wattperkilogramUf| & \wattperkilogramUf \\[0.4em]
+%   & |\wattperkilogramUF| & \wattperkilogramUF \\[0.55em]
+%   \hline
+%   power per volume\rule{0ex}{2.25ex}
+%   & |\wattpercubicmetre| & \wattpercubicmetre \\
+%   & |\wattpercubicmetrenp| & \wattpercubicmetrenp \\
+%   & |\wattpercubicmetreuf| & \wattpercubicmetreuf \\[0.4em]
+%   & |\wattpercubicmetreUf| & \wattpercubicmetreUf \\[0.4em]
+%   & |\wattpercubicmetreUF| & \wattpercubicmetreUF \\[0.55em]
+%   \hline
+%   pressure\rule{0ex}{2.25ex}
+%   & |\newtonpersquaremetre| & \newtonpersquaremetre \\
+%   & |\newtonpersquaremetrenp| & \newtonpersquaremetrenp \\
+%   & |\newtonpersquaremetreuf| & \newtonpersquaremetreuf \\[0.4em]
+%   & |\newtonpersquaremetreUf| & \newtonpersquaremetreUf \\[0.4em]
+%   & |\newtonpersquaremetreUF| & \newtonpersquaremetreUF \\[0.55em]
+%   \hline
+%   radiance\rule{0ex}{2.25ex}
+%   & |\wattpersquaremetresteradian| & \wattpersquaremetresteradian \\
+%   & |\wattpersquaremetresteradiannp| & \wattpersquaremetresteradiannp \\
+%   & |\wattpersquaremetresteradianuf| & \wattpersquaremetresteradianuf \\[0.4em]
+%   & |\wattpersquaremetresteradianUf| & \wattpersquaremetresteradianUf \\[0.4em]
+%   & |\wattpersquaremetresteradianUF| & \wattpersquaremetresteradianUF \\[0.55em]
+%   \hline
+%   radiation exposure\rule{0ex}{2.25ex}
+%   & |\coulombperkilogram| & \coulombperkilogram \\
+%   & |\coulombperkilogramnp| & \coulombperkilogramnp \\
+%   & |\coulombperkilogramuf| & \coulombperkilogramUf \\[0.4em]
+%   & |\coulombperkilogramUf| & \coulombperkilogramUf \\[0.4em]
+%   & |\coulombperkilogramUF| & \coulombperkilogramUF \\[0.55em]
+%   \hline
+%   rate of change of\rule{0ex}{2.25ex}
+%   & |\Squaremetrepercubicsecond| & \Squaremetrepercubicsecond \\
+%   \hline
+%   energy of turbulence
+%   & |\Squaremetrepercubicsecondnp| & \Squaremetrepercubicsecondnp \\
+%   & |\Squaremetrepercubicseconduf| & \Squaremetrepercubicseconduf \\[0.4em]
+%   & |\SquaremetrepercubicsecondUf| & \SquaremetrepercubicsecondUf \\[0.4em]
+%   & |\SquaremetrepercubicsecondUF| & \SquaremetrepercubicsecondUF \\[0.55em]
+%   \hline
+%   specific area\rule{0ex}{2.25ex}
+%   & |\Squaremetreperkilogram| & \Squaremetreperkilogram \\
+%   & |\rpsquaremetreperkilogram| & \rpsquaremetreperkilogram \\
+%   & |\Squaremetreperkilogramnp| & \Squaremetreperkilogramnp \\
+%   & |\Squaremetreperkilogramuf| & \Squaremetreperkilogramuf \\[0.4em]
+%   & |\SquaremetreperkilogramUf| & \SquaremetreperkilogramUf \\[0.4em]
+%   & |\SquaremetreperkilogramUF| & \SquaremetreperkilogramUF \\[0.55em]
+%   \hline
+%   specific energy\rule{0ex}{2.25ex}
+%   & |\jouleperkilogram| & \jouleperkilogram \\
+%   & |\jouleperkilogramnp| & \jouleperkilogramnp \\
+%   & |\jouleperkilogramuf| & \jouleperkilogramuf \\[0.4em]
+%   & |\jouleperkilogramUf| & \jouleperkilogramUf \\[0.4em]
+%   & |\jouleperkilogramUF| & \jouleperkilogramUF \\[0.55em]
+%   \hline
+%   specific heat capacity, \rule{0ex}{2.25ex}
+%   & |\jouleperkilogramkelvin| & \jouleperkilogramkelvin \\
+%   \hline
+%   specific entropy
+%   & |\jouleperkilogramkelvinnp| & \jouleperkilogramkelvinnp \\
+%   & |\jouleperkilogramkelvinuf| & \jouleperkilogramkelvinuf \\[0.4em]
+%   & |\jouleperkilogramkelvinUf| & \jouleperkilogramkelvinUf \\[0.4em]
+%   & |\jouleperkilogramkelvinUF| & \jouleperkilogramkelvinUF \\[0.55em]
+%   \hline
+%   specific resistance\rule{0ex}{2.25ex}
+%   & |\ohmmetre| & \ohmmetre \\[0.4em]
+%   \hline
+%   specific volume\rule{0ex}{2.25ex}
+%   & |\cubicmetreperkilogram| & \cubicmetreperkilogram \\
+%   & |\rpcubicmetreperkilogram| & \rpcubicmetreperkilogram \\
+%   & |\cubicmetreperkilogramnp| & \cubicmetreperkilogramnp \\
+%   & |\cubicmetreperkilogramuf| & \cubicmetreperkilogramuf \\[0.4em]
+%   & |\cubicmetreperkilogramUf| & \cubicmetreperkilogramUf \\[0.4em]
+%   & |\cubicmetreperkilogramUF| & \cubicmetreperkilogramUF \\[0.55em]
+%   \hline
+%   surface tension\rule{0ex}{2.25ex}
+%   & |\newtonpermetre| & \newtonpermetre \\
+%   & |\newtonpermetrenp| & \newtonpermetrenp \\
+%   & |\newtonpermetreuf| & \newtonpermetreuf \\[0.4em]
+%   & |\newtonpermetreUf| & \newtonpermetreUf \\[0.4em]
+%   & |\newtonpermetreUF| & \newtonpermetreUF \\[0.55em]
+%   \hline
+%   thermal conductivity\rule{0ex}{2.25ex}
+%   & |\wattpermetrekelvin| & \wattpermetrekelvin \\
+%   & |\wattpermetrekelvinnp| & \wattpermetrekelvinnp \\
+%   & |\wattpermetrekelvinuf| & \wattpermetrekelvinuf \\[0.4em]
+%   & |\wattpermetrekelvinUf| & \wattpermetrekelvinUf \\[0.4em]
+%   & |\wattpermetrekelvinUF| & \wattpermetrekelvinUF \\[0.55em]
+%   \hline
+%   velocity\rule{0ex}{2.25ex}
+%   & |\metrepersecond| & \metrepersecond \\
+%   & |\metrepersecondnp| & \metrepersecondnp \\
+%   & |\metreperseconduf| & \metreperseconduf \\[0.4em]
+%   & |\metrepersecondUf| & \metrepersecondUf \\[0.4em]
+%   & |\metrepersecondUF| & \metrepersecondUF \\[0.55em]
+%   \hline
+%   volume flux\rule{0ex}{2.25ex}
+%   & |\cubicmetrepersecond| & \cubicmetrepersecond \\
+%   & |\cubicmetrepersecondnp| & \cubicmetrepersecondnp \\
+%   & |\cubicmetreperseconduf| & \cubicmetreperseconduf \\[0.4em]
+%   & |\cubicmetrepersecondUf| & \cubicmetrepersecondUf \\[0.4em]
+%   & |\cubicmetrepersecondUF| & \cubicmetrepersecondUF \\[0.55em]
+% \end{longtable}
+%
+% \StopEventually{\PrintIndex\PrintChanges}
+%
+%    \begin{macrocode}
+%<*package>
+\RequirePackage{textcomp}
+\RequirePackage{amstext}
+%
+\newcommand{\usk}{\ensuremath{\,}}
+\newcommand{\qsk}{\ensuremath{\,}}
+\newcommand{\unit}[2]{\ensuremath{\text{#1}\qsk#2}}
+\newcommand{\addunit}[2]{\newcommand{#1}{\ensuremath{\text{#2}}}}
+\newcommand{\pow}[1]{\ensuremath{^{\text{#1}}}}
+\newcommand{\ufrac}[2]{\ensuremath{^{\text{#1}}\kern-.2em/\kern-.1em_{\text{#2}}}}
+\newcommand{\Ufrac}[2]{\ensuremath{\textstyle\frac{\text{#1}}{\text{#2}}}}
+\newcommand{\UFrac}[2]{\ensuremath{\displaystyle\frac{\text{#1}}{\text{#2}}}}
+\newcommand{\per}{\ensuremath{/}}
+%
+\newcommand{\power}[2]{\ensuremath{\text{#1}^{\text{#2}}}}
+\newcommand{\Square}[1]{\ensuremath{\text{#1}^{\text{2}}}}
+\newcommand{\Squared}{\ensuremath{^{\text{2}}}}
+\newcommand{\cubic}[1]{\ensuremath{\text{#1}^{\text{3}}}}
+\newcommand{\cubed}{\ensuremath{^{\text{3}}}}
+\newcommand{\fourth}[1]{\ensuremath{\text{#1}^{\text{4}}}}
+\newcommand{\reciprocal}[1]{\ensuremath{\text{#1}^{\text{-1}}}}
+\newcommand{\rp}[1]{\ensuremath{\text{#1}^{\text{-1}}}}
+\newcommand{\rpsquare}[1]{\ensuremath{\text{#1}^{\text{-2}}}}
+\newcommand{\rpsquared}{\ensuremath{^{\text{-2}}}}
+\newcommand{\rpcubic}[1]{\ensuremath{\text{#1}^{\text{-3}}}}
+\newcommand{\rpcubed}{\ensuremath{^{\text{-3}}}}
+\newcommand{\rpfourth}[1]{\ensuremath{\text{#1}^{\text{-4}}}}
+%
+\addunit{\metre}{m}
+\addunit{\meter}{m}
+\addunit{\kilogram}{kg}
+\addunit{\second}{s}
+\addunit{\ampere}{A}
+\addunit{\kelvin}{K}
+\addunit{\mole}{mol}
+\addunit{\candela}{cd}
+%
+\addunit{\yocto}{y}
+\addunit{\zepto}{z}
+\addunit{\atto}{a}
+\addunit{\fempto}{f}
+\addunit{\pico}{p}
+\addunit{\nano}{n}
+\addunit{\micro}{\textmu}
+\addunit{\milli}{m}
+\addunit{\centi}{c}
+\addunit{\deci}{d}
+\addunit{\deca}{da}
+\addunit{\deka}{da}
+\addunit{\hecto}{h}
+\addunit{\kilo}{k}
+\addunit{\mega}{M}
+\addunit{\giga}{G}
+\addunit{\tera}{T}
+\addunit{\peta}{P}
+\addunit{\exa}{E}
+\addunit{\zetta}{Z}
+\addunit{\yotta}{Y}
+%
+\addunit{\yoctod}{\ensuremath{\text{10}^{\text{-24}}}}
+\addunit{\zeptod}{\ensuremath{\text{10}^{\text{-21}}}}
+\addunit{\attod}{\ensuremath{\text{10}^{\text{-18}}}}
+\addunit{\femptod}{\ensuremath{\text{10}^{\text{-15}}}}
+\addunit{\picod}{\ensuremath{\text{10}^{\text{-12}}}}
+\addunit{\nanod}{\ensuremath{\text{10}^{\text{-9}}}}
+\addunit{\microd}{\ensuremath{\text{10}^{\text{-6}}}}
+\addunit{\millid}{\ensuremath{\text{10}^{\text{-3}}}}
+\addunit{\centid}{\ensuremath{\text{10}^{\text{-2}}}}
+\addunit{\decid}{\ensuremath{\text{10}^{\text{-1}}}}
+\addunit{\decad}{\ensuremath{\text{10}^{\text{-1}}}}
+\addunit{\dekad}{\ensuremath{\text{10}^{\text{-1}}}}
+\addunit{\decaD}{\ensuremath{\text{10}}}
+\addunit{\hectod}{\ensuremath{\text{10}^{\text{2}}}}
+\addunit{\kilod}{\ensuremath{\text{10}^{\text{3}}}}
+\addunit{\megad}{\ensuremath{\text{10}^{\text{6}}}}
+\addunit{\gigad}{\ensuremath{\text{10}^{\text{9}}}}
+\addunit{\terad}{\ensuremath{\text{10}^{\text{12}}}}
+\addunit{\petad}{\ensuremath{\text{10}^{\text{15}}}}
+\addunit{\exad}{\ensuremath{\text{10}^{\text{18}}}}
+\addunit{\zettad}{\ensuremath{\text{10}^{\text{21}}}}
+\addunit{\yottad}{\ensuremath{\text{10}^{\text{24}}}}
+%
+\addunit{\rad}{rad}
+\addunit{\sterad}{sr}
+\addunit{\radian}{rad}
+\addunit{\steradian}{sr}
+\addunit{\hertz}{Hz}
+\addunit{\newton}{N}
+\addunit{\pascal}{Pa}
+\addunit{\joule}{J}
+\addunit{\watt}{W}
+\addunit{\coulomb}{C}
+\addunit{\volt}{V}
+\addunit{\farad}{F}
+\addunit{\ohm}{\textohm}
+\addunit{\weber}{Wb}
+\addunit{\tesla}{T}
+\addunit{\henry}{H}
+\addunit{\celsius}{\textdegree C}
+\addunit{\degreecelsius}{\textdegree C}
+\addunit{\lumen}{lm}
+\addunit{\lux}{lx}
+\addunit{\becquerel}{Bq}
+\addunit{\Gray}{Gy}
+\addunit{\sievert}{Sv}
+%
+\DeclareOption{derivedinbase}{
+  \newcommand*{\radianbase}{\metre\usk\reciprocal\metre}
+  \newcommand*{\steradianbase}{\Square\metre\usk\rpsquare\metre}
+  \newcommand*{\hertzbase}{\reciprocal\second}
+  \newcommand*{\newtonbase}{\metre\usk\kilogram\usk\second\rpsquared}
+  \newcommand*{\pascalbase}{\reciprocal\metre\usk\kilogram\usk\second\rpsquared}
+  \newcommand*{\joulebase}{\Square\metre\usk\kilogram\usk\second\rpsquared}
+  \newcommand*{\wattbase}{\Square\metre\usk\kilogram\usk\rpcubic\second}
+  \newcommand*{\coulombbase}{\second\usk\ampere}
+  \newcommand*{\voltbase}{\Square\metre\usk\kilogram\usk\rpcubic\second\usk\reciprocal\ampere}
+  \newcommand*{\faradbase}{\rpsquare\metre\usk\reciprocal\kilogram\usk\fourth\second\usk\ampere\Squared}
+  \newcommand*{\ohmbase}{\Square\metre\usk\kilogram\usk\rpcubic\second\usk\rpsquare\ampere}
+  \newcommand*{\siemensbase}{\rpsquare\metre\usk\reciprocal\kilogram\usk\cubic\second\usk\ampere\Squared}
+  \newcommand*{\weberbase}{\Square\metre\usk\kilogram\usk\second\rpsquared\usk\reciprocal\ampere}
+  \newcommand*{\teslabase}{\kilogram\usk\second\rpsquared\usk\reciprocal\ampere}
+  \newcommand*{\henrybase}{\Square\metre\usk\kilogram\usk\second\rpsquared\usk\rpsquare\ampere}
+  \newcommand*{\celsiusbase}{\kelvin}
+  \newcommand*{\degreecelsiusbase}{\kelvin}
+  \newcommand*{\lumenbase}{\candela\usk\Square\metre\usk\rpsquare\metre}
+  \newcommand*{\luxbase}{\candela\usk\Square\metre\usk\rpfourth\metre}
+  \newcommand*{\becquerelbase}{\hertzbase}
+  \newcommand*{\Graybase}{\Square\metre\usk\second\rpsquared}
+  \newcommand*{\sievertbase}{\Graybase}
+  }
+%
+\DeclareOption{derived}{
+  \newcommand*{\derradian}{\metre\usk\reciprocal\metre}
+  \newcommand*{\dersteradian}{\Square\metre\usk\rpsquare\metre}
+  \newcommand*{\derhertz}{\reciprocal\second}
+  \newcommand*{\dernewton}{\metre\usk\kilogram\usk\second\rpsquared}
+  \newcommand*{\derpascal}{\newton\usk\rpsquare\metre}
+  \newcommand*{\derjoule}{\newton\usk\metre}
+  \newcommand*{\derwatt}{\joule\usk\reciprocal\second}
+  \newcommand*{\dercoulomb}{\ampere\usk\second}
+  \newcommand*{\dervolt}{\watt\usk\reciprocal\ampere}
+  \newcommand*{\derfarad}{\coulomb\usk\reciprocal\volt}
+  \newcommand*{\derohm}{\volt\usk\reciprocal\ampere}
+  \newcommand*{\dersiemens}{\ampere\usk\reciprocal\volt}
+  \newcommand*{\derweber}{\Square\metre\usk\kilogram\usk\second\rpsquared\usk\reciprocal\ampere}
+  \newcommand*{\dertesla}{\weber\usk\rpsquare\metre}
+  \newcommand*{\derhenry}{\weber\usk\reciprocal\ampere}
+  \newcommand*{\dercelsius}{\kelvin}
+  \newcommand*{\derdegreecelsius}{\kelvin}
+  \newcommand*{\derlumen}{\candela\usk\steradian}
+  \newcommand*{\derlux}{\lumen\usk\rpsquare\metre}
+  \newcommand*{\derbecquerel}{\derhertz}
+  \newcommand*{\derGray}{\joule\usk\reciprocal\kilogram}
+  \newcommand*{\dersievert}{\derGray}
+}
+%
+\addunit{\minute}{min}
+\addunit{\hour}{h}
+\addunit{\dday}{d}
+\addunit{\degree}{\textdegree}
+\addunit{\paminute}{'}
+\addunit{\parsecond}{''}
+\addunit{\angstrom}{\AA}
+\addunit{\AstroE}{AE}
+\addunit{\lightyear}{ly}
+\addunit{\parsec}{pc}
+\addunit{\gal}{Gal}
+\addunit{\liter}{L}
+\addunit{\litre}{l}
+\addunit{\atomicmass}{u}
+\addunit{\gram}{g}
+\addunit{\ton}{t}
+\addunit{\tonne}{t}
+\addunit{\barn}{b}
+\addunit{\hectare}{ha}
+\addunit{\are}{a}
+\addunit{\bbar}{bar}
+\addunit{\curie}{Ci}
+\addunit{\rem}{rem}
+\addunit{\roentgen}{R}
+\addunit{\oersted}{Oe}
+\addunit{\electronvolt}{eV}
+%
+\newcommand*{\Squaremetre}{\Square\metre}
+\newcommand*{\cubicmetre}{\cubic\metre}
+%
+%%    absorbed dose rate
+\newcommand*{\Graypersecond}{\Gray\per\second}
+\newcommand*{\Graypersecondnp}{\Gray\usk\reciprocal\second}
+\newcommand*{\Grayperseconduf}{\ufrac{\Gray}{\second}}
+\newcommand*{\GraypersecondUf}{\Ufrac{\Gray}{\second}}
+\newcommand*{\GraypersecondUF}{\UFrac{\Gray}{\second}}
+%%    acceleration
+\newcommand*{\metrepersquaresecond}{\metre\per\second\Squared}
+\newcommand*{\metrepersquaresecondnp}{\metre\usk\second\rpsquared}
+\newcommand*{\metrepersquareseconduf}{\ufrac{\metre}{\second\Squared}}
+\newcommand*{\metrepersquaresecondUf}{\Ufrac{\metre}{\second\Squared}}
+\newcommand*{\metrepersquaresecondUF}{\UFrac{\metre}{\second\Squared}}
+%%    activation energy, molar energy
+\newcommand*{\joulepermole}{\joule\per\mole}
+\newcommand*{\joulepermolenp}{\joule\usk\reciprocal\mole}
+\newcommand*{\joulepermoleuf}{\ufrac{\joule}{\mole}}
+\newcommand*{\joulepermoleUf}{\Ufrac{\joule}{\mole}}
+\newcommand*{\joulepermoleUF}{\UFrac{\joule}{\mole}}
+%%    amount-of-substance concentration
+\newcommand*{\molepercubicmetre}{\mole\per\cubic\metre}
+\newcommand*{\molepercubicmetrenp}{\mole\usk\rpcubic\metre}
+\newcommand*{\molepercubicmetreuf}{\ufrac{\mole}{\cubic\metre}}
+\newcommand*{\molepercubicmetreUf}{\Ufrac{\mole}{\cubic\metre}}
+\newcommand*{\molepercubicmetreUF}{\UFrac{\mole}{\cubic\metre}}
+%%    angular acceleration
+\newcommand*{\radianpersquaresecond}{\radian\per\second\Squared}
+\newcommand*{\radianpersquaresecondnp}{\radian\usk\second\rpsquared}
+\newcommand*{\radianpersquareseconduf}{\ufrac{\radian}{\second\Squared}}
+\newcommand*{\radianpersquaresecondUf}{\Ufrac{\radian}{\second\Squared}}
+\newcommand*{\radianpersquaresecondUF}{\UFrac{\radian}{\second\Squared}}
+%%    angular momentum
+\newcommand*{\kilogramsquaremetrepersecond}{\kilogram\usk\Square\metre\per\second}
+\newcommand*{\kilogramsquaremetrepersecondnp}{\kilogram\usk\Square\metre\usk\reciprocal\second}
+\newcommand*{\kilogramsquaremetreperseconduf}{\ufrac{\kilogram\usk\Square\metre}{\second}}
+\newcommand*{\kilogramsquaremetrepersecondUf}{\Ufrac{\kilogram\usk\Square\metre}{\second}}
+\newcommand*{\kilogramsquaremetrepersecondUF}{\UFrac{\kilogram\usk\Square\metre}{\second}}
+%%    angular velocity
+\newcommand*{\radianpersecond}{\radian\per\second}
+\newcommand*{\radianpersecondnp}{\radian\usk\reciprocal\second}
+\newcommand*{\radianperseconduf}{\ufrac{\radian}{\second}}
+\newcommand*{\radianpersecondUf}{\Ufrac{\radian}{\second}}
+\newcommand*{\radianpersecondUF}{\UFrac{\radian}{\second}}
+%%    area per unit volume
+\newcommand*{\Squaremetrepercubicmetre}{\Square\metre\per\cubic\metre}
+\newcommand*{\Squaremetrepercubicmetrenp}{\Square\metre\usk\rpcubic\metre}
+\newcommand*{\Squaremetrepercubicmetreuf}{\ufrac{\Square\metre}{\cubic\metre}}
+\newcommand*{\SquaremetrepercubicmetreUf}{\Ufrac{\Square\metre}{\cubic\metre}}
+\newcommand*{\SquaremetrepercubicmetreUF}{\UFrac{\Square\metre}{\cubic\metre}}
+%%    charge per mole
+\newcommand*{\coulombpermol}{\coulomb\per\mole}
+\newcommand*{\coulombpermolnp}{\coulomb\usk\reciprocal\mole}
+\newcommand*{\coulombpermoluf}{\ufrac{\coulomb}{\mole}}
+\newcommand*{\coulombpermolUf}{\Ufrac{\coulomb}{\mole}}
+\newcommand*{\coulombpermolUF}{\UFrac{\coulomb}{\mole}}
+%%    current density
+\newcommand*{\amperepersquaremetre}{\ampere\per\Square\metre}
+\newcommand*{\amperepersquaremetrenp}{\ampere\usk\rpsquare\metre}
+\newcommand*{\amperepersquaremetreuf}{\ufrac{\ampere}{\Square\metre}}
+\newcommand*{\amperepersquaremetreUf}{\Ufrac{\ampere}{\Square\metre}}
+\newcommand*{\amperepersquaremetreUF}{\UFrac{\ampere}{\Square\metre}}
+%%    density
+\newcommand*{\kilogrampercubicmetre}{\kilogram\per\cubic\metre}
+\newcommand*{\kilogrampercubicmetrenp}{\kilogram\usk\rpcubic\metre}
+\newcommand*{\kilogrampercubicmetreuf}{\ufrac{\kilogram}{\cubic\metre}}
+\newcommand*{\kilogrampercubicmetreUf}{\Ufrac{\kilogram}{\cubic\metre}}
+\newcommand*{\kilogrampercubicmetreUF}{\UFrac{\kilogram}{\cubic\metre}}
+%%    dynamic fluidity (1/viscosity)
+\newcommand*{\Squaremetrepernewtonsecond}{\Square\metre\per\newton\usk\second}
+\newcommand*{\Squaremetrepernewtonsecondnp}{\Square\metre\usk\reciprocal\newton\usk\reciprocal\second}
+\newcommand*{\Squaremetrepernewtonseconduf}{\ufrac{\Square\metre}{\newton\usk\second}}
+\newcommand*{\SquaremetrepernewtonsecondUf}{\Ufrac{\Square\metre}{\newton\usk\second}}
+\newcommand*{\SquaremetrepernewtonsecondUF}{\Ufrac{\Square\metre}{\newton\usk\second}}
+%%    dynamic viscosity
+\newcommand*{\pascalsecond}{\pascal\usk\second}
+\newcommand*{\pascalsecondnp}{\kilogram\usk\reciprocal\second}
+\newcommand*{\pascalseconduf}{\ufrac{\kilogram}{\metre\usk\second}}
+\newcommand*{\pascalsecondUf}{\Ufrac{\kilogram}{\metre\usk\second}}
+\newcommand*{\pascalsecondUF}{\UFrac{\kilogram}{\metre\usk\second}}
+%%   electric charge density
+\newcommand*{\coulombpercubicmetre}{\coulomb\per\cubic\metre}
+\newcommand*{\coulombpercubicmetrenp}{\coulomb\usk\rpcubic\metre}
+\newcommand*{\coulombpercubicmetreuf}{\ufrac{\coulomb}{\cubic\metre}}
+\newcommand*{\coulombpercubicmetreUf}{\Ufrac{\coulomb}{\cubic\metre}}
+\newcommand*{\coulombpercubicmetreUF}{\UFrac{\coulomb}{\cubic\metre}}
+%%    electric dipole moment
+\newcommand*{\amperemetresecond}{\ampere\usk\metre\usk\second}
+%%    electric field strength
+\newcommand*{\voltpermetre}{\volt\per\metre}
+\newcommand*{\voltpermetrenp}{\volt\usk\reciprocal\metre}
+\newcommand*{\voltpermetreuf}{\ufrac{\volt}{\metre}}
+\newcommand*{\voltpermetreUf}{\Ufrac{\volt}{\metre}}
+\newcommand*{\voltpermetreUF}{\UFrac{\volt}{\metre}}
+%%    electric flux density
+\newcommand*{\coulombpersquaremetre}{\coulomb\per\Square\metre}
+\newcommand*{\coulombpersquaremetrenp}{\coulomb\usk\rpsquare\metre}
+\newcommand*{\coulombpersquaremetreuf}{\ufrac{\coulomb}{\Square\metre}}
+\newcommand*{\coulombpersquaremetreUf}{\Ufrac{\coulomb}{\Square\metre}}
+\newcommand*{\coulombpersquaremetreUF}{\UFrac{\coulomb}{\Square\metre}}
+%%    electrical permittivity
+\newcommand*{\faradpermetre}{\farad\per\metre}
+\newcommand*{\faradpermetrenp}{\farad\usk\reciprocal\metre}
+\newcommand*{\faradpermetreuf}{\ufrac{\farad}{\metre}}
+\newcommand*{\faradpermetreUf}{\Ufrac{\farad}{\metre}}
+\newcommand*{\faradpermetreUF}{\UFrac{\farad}{\metre}}
+%%    electrical resistivity
+\newcommand*{\ohmmetre}{\ohm\usk\metre}
+%%    energy
+\newcommand*{\kilowatthour}{\kilo\watt\hour}
+%%    energy flux
+\newcommand*{\wattpersquaremetre}{\watt\per\Square\metre}
+\newcommand*{\wattpersquaremetrenp}{\watt\usk\rpsquare\metre}
+\newcommand*{\wattpersquaremetreuf}{\ufrac{\watt}{\Square\metre}}
+\newcommand*{\wattpersquaremetreUf}{\Ufrac{\watt}{\Square\metre}}
+\newcommand*{\wattpersquaremetreUF}{\UFrac{\watt}{\Square\metre}}
+%%    energy per unit area
+\newcommand*{\joulepersquaremetre}{\joule\per\Square\metre}
+\newcommand*{\joulepersquaremetrenp}{\joule\usk\rpsquare\metre}
+\newcommand*{\joulepersquaremetreuf}{\ufrac{\joule}{\Square\metre}}
+\newcommand*{\joulepersquaremetreUf}{\Ufrac{\joule}{\Square\metre}}
+\newcommand*{\joulepersquaremetreUF}{\UFrac{\joule}{\Square\metre}}
+%%    force (body)
+\newcommand*{\newtonpercubicmetre}{\newton\per\cubic\metre}
+\newcommand*{\newtonpercubicmetrenp}{\newton\usk\rpcubic\metre}
+\newcommand*{\newtonpercubicmetreuf}{\ufrac{\newton}{\cubic\metre}}
+\newcommand*{\newtonpercubicmetreUf}{\Ufrac{\newton}{\cubic\metre}}
+\newcommand*{\newtonpercubicmetreUF}{\UFrac{\newton}{\cubic\metre}}
+%%    force per unit mass
+\newcommand*{\newtonperkilogram}{\newton\per\kilogram}
+\newcommand*{\newtonperkilogramnp}{\newton\usk\reciprocal\kilogram}
+\newcommand*{\newtonperkilogramuf}{\ufrac{\newton}{\kilogram}}
+\newcommand*{\newtonperkilogramUf}{\Ufrac{\newton}{\kilogram}}
+\newcommand*{\newtonperkilogramUF}{\UFrac{\newton}{\kilogram}}
+%%    heat capacity, entropy
+\newcommand*{\jouleperkelvin}{\joule\per\kelvin}
+\newcommand*{\jouleperkelvinnp}{\joule\usk\reciprocal\kelvin}
+\newcommand*{\jouleperkelvinuf}{\ufrac{\joule}{\kelvin}}
+\newcommand*{\jouleperkelvinUf}{\Ufrac{\joule}{\kelvin}}
+\newcommand*{\jouleperkelvinUF}{\UFrac{\joule}{\kelvin}}
+%%    heat of combustion, fusion or vaporisation
+\newcommand*{\jouleperkilogram}{\joule\per\kilogram}
+\newcommand*{\jouleperkilogramnp}{\joule\usk\reciprocal\kilogram}
+\newcommand*{\jouleperkilogramuf}{\Ufrac{\joule}{\kilogram}}
+\newcommand*{\jouleperkilogramUf}{\Ufrac{\joule}{\kilogram}}
+\newcommand*{\jouleperkilogramUF}{\UFrac{\joule}{\kilogram}}
+%%    intensity of ionising radiation
+\newcommand*{\coulombperkilogram}{\coulomb\per\kilogram}
+\newcommand*{\coulombperkilogramnp}{\coulomb\usk\reciprocal\kilogram}
+\newcommand*{\coulombperkilogramuf}{\ufrac{\coulomb}{\kilogram}}
+\newcommand*{\coulombperkilogramUf}{\Ufrac{\coulomb}{\kilogram}}
+\newcommand*{\coulombperkilogramUF}{\UFrac{\coulomb}{\kilogram}}
+%%    kinematic viscosity
+\newcommand*{\Squaremetrepersecond}{\Squaremetre\per\second}
+\newcommand*{\rpsquaremetrepersecond}{\Squaremetre\usk\reciprocal\second}
+\newcommand*{\Squaremetrepersecondnp}{\Squaremetre\usk\reciprocal\second}
+\newcommand*{\Squaremetreperseconduf}{\ufrac{\Squaremetre}{\second}}
+\newcommand*{\SquaremetrepersecondUf}{\Ufrac{\Squaremetre}{\second}}
+\newcommand*{\SquaremetrepersecondUF}{\UFrac{\Squaremetre}{\second}}
+%%    kinematic energy of turbulence
+\newcommand*{\Squaremetrepersquaresecond}{\Square\metre\per\second\Squared}
+\newcommand*{\rpsquaremetrepersquaresecond}{\Square\metre\usk\second\rpsquared}
+\newcommand*{\Squaremetrepersquaresecondnp}{\Square\metre\usk\second\rpsquared}
+\newcommand*{\Squaremetrepersquareseconduf}{\ufrac{\Square\metre}{\second\Squared}}
+\newcommand*{\SquaremetrepersquaresecondUf}{\Ufrac{\Square\metre}{\second\Squared}}
+\newcommand*{\SquaremetrepersquaresecondUF}{\UFrac{\Square\metre}{\second\Squared}}
+%%    linear momentum
+\newcommand*{\kilogrammetrepersecond}{\kilogram\usk\metre\per\second}
+\newcommand*{\kilogrammetrepersecondnp}{\kilogram\usk\metre\usk\reciprocal\second}
+\newcommand*{\kilogrammetreperseconduf}{\ufrac{\kilogram\usk\metre}{\second}}
+\newcommand*{\kilogrammetrepersecondUf}{\Ufrac{\kilogram\usk\metre}{\second}}
+\newcommand*{\kilogrammetrepersecondUF}{\UFrac{\kilogram\usk\metre}{\second}}
+%%    luminance
+\newcommand*{\candelapersquaremetre}{\candela\per\Square\metre}
+\newcommand*{\candelapersquaremetrenp}{\candela\usk\rpsquare\metre}
+\newcommand*{\candelapersquaremetreuf}{\ufrac{\candela}{\Square\metre}}
+\newcommand*{\candelapersquaremetreUf}{\Ufrac{\candela}{\Square\metre}}
+\newcommand*{\candelapersquaremetreUF}{\UFrac{\candela}{\Square\metre}}
+%%    magnetic field strength
+\newcommand*{\amperepermetre}{\ampere\per\metre}
+\newcommand*{\amperepermetrenp}{\ampere\usk\reciprocal\metre}
+\newcommand*{\amperepermetreuf}{\ufrac{\ampere}{\metre}}
+\newcommand*{\amperepermetreUf}{\Ufrac{\ampere}{\metre}}
+\newcommand*{\amperepermetreUF}{\UFrac{\ampere}{\metre}}
+%%    magnetic moment
+\newcommand*{\joulepertesla}{\joule\per\tesla}
+\newcommand*{\jouleperteslanp}{\joule\usk\reciprocal\tesla}
+\newcommand*{\jouleperteslauf}{\ufrac{\joule}{\tesla}}
+\newcommand*{\jouleperteslaUf}{\Ufrac{\joule}{\tesla}}
+\newcommand*{\jouleperteslaUF}{\UFrac{\joule}{\tesla}}
+%%    magnetic permeability
+\newcommand*{\henrypermetre}{\henry\per\metre}
+\newcommand*{\henrypermetrenp}{\henry\usk\reciprocal\metre}
+\newcommand*{\henrypermetreuf}{\ufrac{\henry}{\metre}}
+\newcommand*{\henrypermetreUf}{\Ufrac{\henry}{\metre}}
+\newcommand*{\henrypermetreUF}{\UFrac{\henry}{\metre}}
+%%    mass flow rate
+\newcommand*{\kilogrampersecond}{\kilogram\per\second}
+\newcommand*{\kilogrampersecondnp}{\kilogram\usk\reciprocal\second}
+\newcommand*{\kilogramperseconduf}{\ufrac{\kilogram}{\second}}
+\newcommand*{\kilogrampersecondUf}{\Ufrac{\kilogram}{\second}}
+\newcommand*{\kilogrampersecondUF}{\UFrac{\kilogram}{\second}}
+%%    mass flux
+\newcommand*{\kilogrampersquaremetresecond}{\kilogram\per\Square\metre\usk\second}
+\newcommand*{\kilogrampersquaremetresecondnp}{\kilogram\usk\rpsquare\metre\usk\reciprocal\second}
+\newcommand*{\kilogrampersquaremetreseconduf}{\ufrac{\kilogram}{\Square\metre\usk\second}}
+\newcommand*{\kilogrampersquaremetresecondUf}{\Ufrac{\kilogram}{\Square\metre\usk\second}}
+\newcommand*{\kilogrampersquaremetresecondUF}{\UFrac{\kilogram}{\Square\metre\usk\second}}
+%%    mass per unit area
+\newcommand*{\kilogrampersquaremetre}{\kilogram\per\Square\metre}
+\newcommand*{\kilogrampersquaremetrenp}{\kilogram\usk\rpsquare\metre}
+\newcommand*{\kilogrampersquaremetreuf}{\ufrac{\kilogram}{\Square\metre}}
+\newcommand*{\kilogrampersquaremetreUf}{\Ufrac{\kilogram}{\Square\metre}}
+\newcommand*{\kilogrampersquaremetreUF}{\UFrac{\kilogram}{\Square\metre}}
+%%    mass per unit length
+\newcommand*{\kilogrampermetre}{\kilogram\per\metre}
+\newcommand*{\kilogrampermetrenp}{\kilogram\usk\reciprocal\metre}
+\newcommand*{\kilogrampermetreuf}{\ufrac{\kilogram}{\metre}}
+\newcommand*{\kilogrampermetreUf}{\Ufrac{\kilogram}{\metre}}
+\newcommand*{\kilogrampermetreUF}{\UFrac{\kilogram}{\metre}}
+%%    molar heat capacity, molar entropy
+\newcommand*{\joulepermolekelvin}{\joule\per\mole\usk\kelvin}
+\newcommand*{\joulepermolekelvinnp}{\joule\usk\reciprocal\mole\usk\reciprocal\kelvin}
+\newcommand*{\joulepermolekelvinuf}{\ufrac{\joule}{\mole\usk\kelvin}}
+\newcommand*{\joulepermolekelvinUf}{\Ufrac{\joule}{\mole\usk\kelvin}}
+\newcommand*{\joulepermolekelvinUF}{\UFrac{\joule}{\mole\usk\kelvin}}
+%%    molecular weight
+\newcommand*{\kilogramperkilomole}{\kilogram\per\kilo\mole}
+\newcommand*{\kilogramperkilomolenp}{\kilogram\usk\kilo\reciprocal\mole}
+\newcommand*{\kilogramperkilomoleuf}{\ufrac{\kilogram}{\kilo\mole}}
+\newcommand*{\kilogramperkilomoleUf}{\Ufrac{\kilogram}{\kilo\mole}}
+\newcommand*{\kilogramperkilomoleUF}{\UFrac{\kilogram}{\kilo\mole}}
+%%    moment of inertia
+\newcommand*{\kilogramsquaremetre}{\kilogram\usk\Square\metre}
+\newcommand*{\kilogramsquaremetrenp}{\kilogramsquaremetre}
+%%    momentum flow rate
+\newcommand*{\kilogrammetrepersquaresecond}{\kilogram\usk\metre\per\second\Squared}
+\newcommand*{\kilogrammetrepersquaresecondnp}{\kilogram\usk\metre\usk\second\rpsquared}
+\newcommand*{\kilogrammetrepersquareseconduf}{\ufrac{\kilogram\usk\metre}{\second\Squared}}
+\newcommand*{\kilogrammetrepersquaresecondUf}{\Ufrac{\kilogram\usk\metre}{\second\Squared}}
+\newcommand*{\kilogrammetrepersquaresecondUF}{\UFrac{\kilogram\usk\metre}{\second\Squared}}
+%%    momentum flux
+\newcommand*{\newtonpersquaremetre}{\newton\per\Square\metre}
+\newcommand*{\newtonpersquaremetrenp}{\newton\usk\rpsquare\metre}
+\newcommand*{\newtonpersquaremetreuf}{\ufrac{\newton}{\Square\metre}}
+\newcommand*{\newtonpersquaremetreUf}{\Ufrac{\newton}{\Square\metre}}
+\newcommand*{\newtonpersquaremetreUF}{\UFrac{\newton}{\Square\metre}}
+%%    photon emission rate
+\newcommand*{\persquaremetresecond}{1\per\Square\metre\usk\second}
+\newcommand*{\persquaremetresecondnp}{\rpsquare\metre\usk\reciprocal\second}
+\newcommand*{\persquaremetreseconduf}{\ufrac{1}{\Square\metre\usk\second}}
+\newcommand*{\persquaremetresecondUf}{\Ufrac{1}{\Square\metre\usk\second}}
+\newcommand*{\persquaremetresecondUF}{\UFrac{1}{\Square\metre\usk\second}}
+%%    power per unit mass
+\newcommand*{\wattperkilogram}{\watt\per\kilogram}
+\newcommand*{\wattperkilogramnp}{\watt\usk\reciprocal\kilogram}
+\newcommand*{\wattperkilogramuf}{\ufrac{\watt}{\kilogram}}
+\newcommand*{\wattperkilogramUf}{\Ufrac{\watt}{\kilogram}}
+\newcommand*{\wattperkilogramUF}{\UFrac{\watt}{\kilogram}}
+%%    power per unit volume
+\newcommand*{\wattpercubicmetre}{\watt\per\cubic\metre}
+\newcommand*{\wattpercubicmetrenp}{\watt\usk\rpcubic\metre}
+\newcommand*{\wattpercubicmetreuf}{\ufrac{\watt}{\cubic\metre}}
+\newcommand*{\wattpercubicmetreUf}{\Ufrac{\watt}{\cubic\metre}}
+\newcommand*{\wattpercubicmetreUF}{\UFrac{\watt}{\cubic\metre}}
+%%    radiance
+\newcommand*{\wattpersquaremetresteradian}{\watt\per\Squaremetre\usk\steradian}
+\newcommand*{\wattpersquaremetresteradiannp}{\watt\usk\rpsquare\metre\usk\rp\steradian}
+\newcommand*{\wattpersquaremetresteradianuf}{\ufrac{\watt}{\Squaremetre\usk\steradian}}
+\newcommand*{\wattpersquaremetresteradianUf}{\Ufrac{\watt}{\Squaremetre\usk\steradian}}
+\newcommand*{\wattpersquaremetresteradianUF}{\UFrac{\watt}{\Squaremetre\usk\steradian}}
+%%    specific heat capacity
+\newcommand*{\jouleperkilogramkelvin}{\joule\per\kilogram\usk\kelvin}
+\newcommand*{\jouleperkilogramkelvinnp}{\joule\usk\reciprocal\kilogram\usk\reciprocal\kelvin}
+\newcommand*{\jouleperkilogramkelvinuf}{\ufrac{\joule}{\kilogram\usk\kelvin}}
+\newcommand*{\jouleperkilogramkelvinUf}{\Ufrac{\joule}{\kilogram\usk\kelvin}}
+\newcommand*{\jouleperkilogramkelvinUF}{\UFrac{\joule}{\kilogram\usk\kelvin}}
+%%    specific surface
+\newcommand*{\Squaremetreperkilogram}{\Square\metre\per\kilogram}
+\newcommand*{\rpsquaremetreperkilogram}{\Square\metre\usk\reciprocal\kilogram}
+\newcommand*{\Squaremetreperkilogramnp}{\Square\metre\usk\reciprocal\kilogram}
+\newcommand*{\Squaremetreperkilogramuf}{\ufrac{\Square\metre}{\kilogram}}
+\newcommand*{\SquaremetreperkilogramUf}{\Ufrac{\Square\metre}{\kilogram}}
+\newcommand*{\SquaremetreperkilogramUF}{\UFrac{\Square\metre}{\kilogram}}
+%%    specific volume
+\newcommand*{\cubicmetreperkilogram}{\cubic\metre\per\kilogram}
+\newcommand*{\rpcubicmetreperkilogram}{\cubic\metre\usk\reciprocal\kilogram}
+\newcommand*{\cubicmetreperkilogramnp}{\cubic\metre\usk\reciprocal\kilogram}
+\newcommand*{\cubicmetreperkilogramuf}{\ufrac{\cubic\metre}{\kilogram}}
+\newcommand*{\cubicmetreperkilogramUf}{\Ufrac{\cubic\metre}{\kilogram}}
+\newcommand*{\cubicmetreperkilogramUF}{\UFrac{\cubic\metre}{\kilogram}}
+%%    surface tension
+\newcommand*{\newtonpermetre}{\newton\per\metre}
+\newcommand*{\newtonpermetrenp}{\newton\usk\reciprocal\metre}
+\newcommand*{\newtonpermetreuf}{\ufrac{\newton}{\metre}}
+\newcommand*{\newtonpermetreUf}{\Ufrac{\newton}{\metre}}
+\newcommand*{\newtonpermetreUF}{\UFrac{\newton}{\metre}}
+%%    derived SI unit: \degreecelsius
+\newcommand*{\Celsius}{\ensuremath{\mathrm{C}}}
+%%    thermal conductivity
+\newcommand*{\wattpermetrekelvin}{\watt\per\metre\usk\kelvin}
+\newcommand*{\wattpermetrekelvinnp}{\watt\usk\reciprocal\metre\usk\reciprocal\kelvin}
+\newcommand*{\wattpermetrekelvinuf}{\ufrac{\watt}{\metre\usk\kelvin}}
+\newcommand*{\wattpermetrekelvinUf}{\Ufrac{\watt}{\metre\usk\kelvin}}
+\newcommand*{\wattpermetrekelvinUF}{\UFrac{\watt}{\metre\usk\kelvin}}
+%%    torque
+\newcommand*{\newtonmetre}{\newton\usk\metre}
+\newcommand*{\newtonmetrenp}{\newtonmetre}
+%%    turbulence energy dissipation rate
+\newcommand*{\Squaremetrepercubicsecond}{\Square\metre\per\cubic\second}
+\newcommand*{\Squaremetrepercubicsecondnp}{\Square\metre\usk\rpcubic\second}
+\newcommand*{\Squaremetrepercubicseconduf}{\ufrac{\Square\metre}{\cubic\second}}
+\newcommand*{\SquaremetrepercubicsecondUf}{\Ufrac{\Square\metre}{\cubic\second}}
+\newcommand*{\SquaremetrepercubicsecondUF}{\UFrac{\Square\metre}{\cubic\second}}
+%%    velocity
+\newcommand*{\metrepersecond}{\metre\per\second}
+\newcommand*{\metrepersecondnp}{\metre\usk\reciprocal\second}
+\newcommand*{\metreperseconduf}{\ufrac{\metre}{\second}}
+\newcommand*{\metrepersecondUf}{\Ufrac{\metre}{\second}}
+\newcommand*{\metrepersecondUF}{\UFrac{\metre}{\second}}
+%%    volumetric calorific value
+\newcommand*{\joulepercubicmetre}{\joule\per\cubicmetre}
+\newcommand*{\joulepercubicmetrenp}{\joule\usk\rpcubic\metre}
+\newcommand*{\joulepercubicmetreuf}{\ufrac{\joule}{\cubicmetre}}
+\newcommand*{\joulepercubicmetreUf}{\Ufrac{\joule}{\cubicmetre}}
+\newcommand*{\joulepercubicmetreUF}{\UFrac{\joule}{\cubicmetre}}
+%%    volumetric coefficient of expansion
+\newcommand*{\kilogrampercubicmetrecoulomb}{\kilogram\per\cubic\metre\usk\coulomb}
+\newcommand*{\kilogrampercubicmetrecoulombnp}{\kilogram\usk\rpcubic\metre\usk\reciprocal\coulomb}
+\newcommand*{\kilogrampercubicmetrecoulombuf}{\ufrac{\kilogram}{\cubic\metre\usk\coulomb}}
+\newcommand*{\kilogrampercubicmetrecoulombUf}{\Ufrac{\kilogram}{\cubic\metre\usk\coulomb}}
+\newcommand*{\kilogrampercubicmetrecoulombUF}{\UFrac{\kilogram}{\cubic\metre\usk\coulomb}}
+%%    volumetric flow rate
+\newcommand*{\cubicmetrepersecond}{\cubicmetre\per\second}
+\newcommand*{\rpcubicmetrepersecond}{\cubicmetre\usk\reciprocal\second}
+\newcommand*{\cubicmetrepersecondnp}{\cubicmetre\usk\reciprocal\second}
+\newcommand*{\cubicmetreperseconduf}{\ufrac{\cubicmetre}{\second}}
+\newcommand*{\cubicmetrepersecondUf}{\Ufrac{\cubicmetre}{\second}}
+\newcommand*{\cubicmetrepersecondUF}{\UFrac{\cubicmetre}{\second}}
+%%    volumetric mass flow rate
+\newcommand*{\kilogrampersecondcubicmetre}{\kilogram\per\second\usk\cubicmetre}
+\newcommand*{\kilogrampersecondcubicmetrenp}{\kilogram\usk\reciprocal\second\usk\rpcubic\metre}
+\newcommand*{\kilogrampersecondcubicmetreuf}{\ufrac{\kilogram}{\second\usk\cubicmetre}}
+\newcommand*{\kilogrampersecondcubicmetreUf}{\Ufrac{\kilogram}{\second\usk\cubicmetre}}
+\newcommand*{\kilogrampersecondcubicmetreUF}{\UFrac{\kilogram}{\second\usk\cubicmetre}}
+%%
+\DeclareOption{cdot}{\renewcommand*{\usk}{\ensuremath{\cdot}}}
+\DeclareOption{thickspace}{\renewcommand*{\usk}{\ensuremath{\;}}}
+\DeclareOption{mediumspace}{\renewcommand*{\usk}{\ensuremath{\:}}}
+\DeclareOption{thinspace}{\renewcommand*{\usk}{\ensuremath{\,}}}
+\DeclareOption{thickqspace}{\renewcommand*{\qsk}{\ensuremath{\;}}}
+\DeclareOption{mediumqspace}{\renewcommand*{\qsk}{\ensuremath{\:}}}
+\DeclareOption{thinqspace}{\renewcommand*{\qsk}{\ensuremath{\,}}}
+\DeclareOption{spaceqspace}{\renewcommand*{\qsk}{\ensuremath{\mbox{~}}}}
+\ExecuteOptions{thickspace,thickqspace}
+\ProcessOptions
+%</package>
+%    \end{macrocode}
+% \PrintChanges
+% \Finale
+\endinput
