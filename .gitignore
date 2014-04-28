@@ -4,3 +4,7 @@
 *.cb2
 *.log
 *.synctex
+*.toc
+*.lof
+*.blg
+*.bbl

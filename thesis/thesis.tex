@@ -1,0 +1,128 @@
+
+%%
+%% Beuth Hochschule für Technik --  Abschlussarbeit
+%%
+%% Hauptdokument
+%%
+%% 23.01.09 Tschirley V.01
+%% 24.08.14 Bergen V.03
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt, a4paper]{book}
+
+%% Übersetzen als Entwurf
+\usepackage[entwurf]{latexTemplate/bhtThesis}
+%% Übersetzen für die Abgabe
+%\usepackage[abgabe]{latexTemplate/bhtThesis}
+\typeout{BHT-Abschlussarbeit V3 28.04.14 E.Bergen}
+\usepackage{blindtext}   %für Blindtext in Kapitel 2
+\usepackage{listings}
+\lstset{ 
+  literate={ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+           {Ö}{{\"O}}1
+           {Ä}{{\"A}}1
+           {Ü}{{\"U}}1
+           {ß}{{\ss}}1
+}
+%%\usepackage{hyperref}
+
+%%
+%% Es folgen einige Zusätze, die in Kapitel 1 beschriben sind. 
+%% Alles was nicht notwendig ist, kann auskommentiert werden
+%%
+\usepackage{trsym}
+%\usepackage{showkeys}
+\usepackage{bytefield}
+
+%%
+%% Pfad zu den Bildern
+%%
+\graphicspath{
+  {pictures/},
+  %{einleitung/pictures},
+  %{kapitel1/pictures/},
+  %{kapitel2/pictures/}
+}
+
+%%
+%% Einbinden persönlicher macros 
+%%
+\input{personalMacros.tex}
+
+%% Message
+\typeout{-----------------------------------------------------------}
+\typeout{----> thesis.tex ---- Zentrales Dokument-------------------}
+\typeout{-----------------------------------------------------------}
+
+\version{1}
+\abgabedatum{{27}. {Oktober} {2014}}
+%%
+%% Titel, Autor und Betreuer
+%%
+\fachbereich{VI -- Informatik und Medien --} 
+\studiengang{Medieninformatik-Online (Master)}
+\autor{Eduard Bergen}
+\matrnr{769248}
+\titel{Vergleich von Streamingframeworks: \\ STORM, KAFKA, FLUME, S4}
+\untertitel{}
+\betreuerFeld{
+  \begin{tabular}{llr}
+    
+    \textbf{1. Betreuer} & Herr~Prof.~Dr.~Edlich & Beuth Hochschule für Technik\\
+    \textbf{Gutachter} & Herr~Prof.~Knabe & Beuth Hochschule für Technik
+  \end{tabular}
+}
+
+%%\renewcommand{\baselinestretch}{1.05} 
+\begin{document}
+\pagestyle{fancy}
+
+\input{titelseiten.tex}
+
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Die Kapitel der Arbeit
+
+\input{kapitel1.tex}
+
+\chapter{Grundlagen}
+\section{Technisch}
+\section{Related Work}
+
+\chapter{Analyse}
+
+\chapter{Vor- und Gegenüberstellung Streaming Frameworks}
+\section{Apache Storm}
+\section{Apache Kafka}
+\section{Apache Flume}
+\section{Apache S4}
+
+\chapter{Anwendungsfall und Prototyp}
+
+\chapter{Auswertung}
+\section{Benchmark Ergebnisse}
+\section{Erkenntnis}
+
+\chapter{Schlussbetrachtung}
+\section{Zusammenfassung}
+\section{Ausblick}
+\section{Einschränkungen}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Literaturverzeichnis
+
+\clearpage\newpage
+\addcontentsline{toc}{chapter}{Literatur- und Quellenverzeichnis}
+\bibliographystyle{latexTemplate/myapalike}
+\bibliography{literaturVerzeichnis}
+
+
+\clearpage\newpage
+\begin{appendix}
+  \input{anhang.tex}
+\end{appendix}
+
+\end{document}
