@@ -13,7 +13,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{bhtThesis}[2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style]
 \message{2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de}
-\message {2014/04/28 v3 BHT-Thesis-Style, E.Bergen}
+\message {2014/04/28 v3 BHT-Thesis-Style, E. Bergen}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,13 +29,33 @@
 %% Eingabe
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[ngermanb]{babel}
+\RequirePackage[babel,german=quotes]{csquotes}
 \RequirePackage{ae,pifont}
+%\RequirePackage[automark]{scrpage2}
+
+%% Page
+\RequirePackage{tocvsec2}
+\RequirePackage{wrapfig}
+\RequirePackage{afterpage}
+\RequirePackage[config]{caption,subfig}
 
 %% Standardschriftart für den Text festlegen
-\RequirePackage{times}                            %% Standardfont: Times (PS)
+%%\RequirePackage{times}                            %% Standardfont: Times (PS)
 %%\RequirePackage{utopia}                         %% Standardfont: Utopia
 %%\Requirepackage{arial}
-%%\RequirePackaga{palatino}
+%%\RequirePackage{palatino}
+%%\RequirePackage{charter}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+
+
+\RequirePackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false,citecolor = black,urlcolor = blue, breaklinks=true]{hyperref}
+
+%\RequirePackage[minionint,mathlf]{MinionPro}
+%\renewcommand{\sfdefault}{Myriad-LF}
+%%\RequirePackage{microtype}
+
 
 %% Mathematik
 \RequirePackage{amssymb, amsmath}
@@ -45,7 +65,7 @@
 %
 
 \newcommand{\version}[1]{\setboolean{@versionset}{true} 
-  \renewcommand{\theversion}{#1}} 
+\renewcommand{\theversion}{#1}} 
 \newcommand{\abgabedatum}[1]{\renewcommand{\theabgabedatum}{#1}}
 \newcommand{\autor}[1]{\renewcommand{\theautor}{#1}}
 \newcommand{\matrnr}[1]{\renewcommand{\thematrnr}{#1}}
@@ -125,6 +145,8 @@
 \setlength{\skip\footins}  {10\p@ \@plus 2\p@ \@minus 4\p@}
 \setlength{\marginparsep}  {1pt}
 \setlength{\marginparwidth}{20mm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{9pt plus 2pt minus 1pt}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
