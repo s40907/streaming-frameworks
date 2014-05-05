@@ -15,7 +15,7 @@
 %% Übersetzen für die Abgabe
 %\usepackage[abgabe]{latexTemplate/bhtThesis}
 \typeout{BHT-Abschlussarbeit V3 28.04.14 E.Bergen}
-\usepackage{blindtext}   %für Blindtext in Kapitel 2
+\usepackage{blindtext}   %für Blindtext, warum auch immer; ohne geht maketitle nicht: EB, 01.05.2014
 \usepackage{listings}
 \lstset{ 
   literate={ö}{{\"o}}1
@@ -24,17 +24,21 @@
            {Ö}{{\"O}}1
            {Ä}{{\"A}}1
            {Ü}{{\"U}}1
-           {ß}{{\ss}}1
+           {ß}{{\ss}}2
 }
 %%\usepackage{hyperref}
 
-%%
-%% Es folgen einige Zusätze, die in Kapitel 1 beschriben sind. 
-%% Alles was nicht notwendig ist, kann auskommentiert werden
-%%
-\usepackage{trsym}
-%\usepackage{showkeys}
-\usepackage{bytefield}
+% Symbole
+\usepackage{trsym} % http://ftp.gwdg.de/pub/ctan/fonts/trsym/trsym.pdf
+\usepackage{bytefield} %http://ftp.uni-erlangen.de/mirrors/CTAN/macros/latex/contrib/bytefield/bf-example.pdf
+\usepackage{bibgerm}
+\usepackage{MnSymbol}
+\usepackage{multibib}
+
+\newcites{lit}{Literaturverzeichnis}
+\newcites{int}{Internetquellen}
+
+
 
 %%
 %% Pfad zu den Bildern
@@ -56,7 +60,7 @@
 \typeout{----> thesis.tex ---- Zentrales Dokument-------------------}
 \typeout{-----------------------------------------------------------}
 
-\version{1}
+\version{MILESTONE 2 (MS02)}
 \abgabedatum{{27}. {Oktober} {2014}}
 %%
 %% Titel, Autor und Betreuer
@@ -85,11 +89,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Die Kapitel der Arbeit
 
-\input{kapitel1.tex}
-
-\chapter{Grundlagen}
-\section{Technisch}
-\section{Related Work}
+\input{einfuehrung.tex}
+\input{grundlagen.tex}
 
 \chapter{Analyse}
 
@@ -115,9 +116,12 @@
 %% Literaturverzeichnis
 
 \clearpage\newpage
-\addcontentsline{toc}{chapter}{Literatur- und Quellenverzeichnis}
-\bibliographystyle{latexTemplate/myapalike}
-\bibliography{literaturVerzeichnis}
+\bibliographystylelit{geralpha}
+\bibliographylit{literaturVerzeichnis}
+
+\clearpage\newpage
+\bibliographystyleint{geralpha}
+\bibliographyint{internetQuellen}
 
 
 \clearpage\newpage
