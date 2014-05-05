@@ -1,0 +1,1306 @@
+From: "Mit Windows Internet Explorer 10 gespeichert"
+Subject: Stanford Stream Data Manager
+Date: Sun, 30 Jun 2013 20:06:20 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CE75CD.49B8B3F0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CE75CD.49B8B3F0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://infolab.stanford.edu/stream/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" ""><!-- =
+saved from url=3D(0044)http://www-db.stanford.edu/stream/index.html =
+--><HTML><HEAD><META=20
+content=3D"IE=3D5.0000" http-equiv=3D"X-UA-Compatible">
+<TITLE>Stanford Stream Data Manager</TITLE>=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16612"></HEAD>=20
+<BODY text=3D"#333333" bgcolor=3D"#ffffff" link=3D"#006699" =
+alink=3D"#999900" vlink=3D"#999900">
+<TABLE width=3D"82%">
+  <TBODY>
+  <TR align=3D"middle">
+    <TD><IMG src=3D"http://infolab.stanford.edu/stream/stream.gif"> =
+</TD>
+    <TD><FONT color=3D"silver" size=3D"+4"><FONT=20
+      color=3D"blue">st</FONT>anfordst<FONT =
+color=3D"blue">re</FONT>amdat<FONT=20
+      color=3D"blue">am</FONT>anager</FONT> <BR><IMG align=3D"center" =
+src=3D"http://infolab.stanford.edu/stream/str.jpg">=20
+           =20
+      <P>
+      <CENTER><A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#motivation">Motivati=
+on</A>&nbsp;&nbsp;&nbsp;&nbsp;=20
+            <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#news">News</A>&nbsp;=
+&nbsp;&nbsp;&nbsp;
+      <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#system">System</A>&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+           <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#people">People</A>&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+            <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#talks">Talks</A>&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+            <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#demos">Demos</A>&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+            <A=20
+      =
+href=3D"http://www-db.stanford.edu/stream/index.html#papers">Papers</A>&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+      </CENTER>
+      <P></P></TD></TR></TBODY></TABLE><BR>
+<HR>
+
+<H2><A name=3D"motivation">Motivation</A></H2>In applications such as =
+network=20
+monitoring, telecommunications data management, clickstream monitoring,=20
+manufacturing, sensor networks, and others, data takes the form of =
+continuous=20
+<B>data streams</B> rather than finite stored data sets, and clients =
+require=20
+long-running <B>continuous queries</B> as opposed to one-time queries. =20
+Traditional database systems and data processing algorithms are =
+ill-equipped to=20
+handle complex and numerous continuous queries over data streams, and =
+many=20
+aspects of data management and processing need to be reconsidered in =
+their
+ presence. In the STREAM project, we are reinvestigating data management =
+and=20
+query processing in the presence of <B>multiple, continuous, rapid,=20
+time-varying</B> data streams. We are attacking problems ranging from =
+<B>basic=20
+theory results</B> to <B>algorithms</B> to implementing a comprehensive=20
+prototype <B>data stream management system</B>. <BR>
+<P>The STREAM project has been supported in part by the National Science =
+
+Foundation under grants IIS-0118173, IIS-9817799, IIS-0324431, and =
+IIS-1098447.=20
+<BR><BR>
+<HR>
+
+<H2><A name=3D"news">News</A></H2>
+<UL>
+  <P>
+  <LI><FONT color=3D"red">(<B>January 2006</B>) The STREAM project  has =
+officially=20
+  wound down.</FONT> Key students have finished their  Ph.D.'s and left=20
+  Stanford, while others have moved on to new and  exciting different =
+research=20
+  topics. (<I>Not to be taken as an  indication that research in streams =
+and=20
+  continuous queries is  "done"</I> -- many topics are still wide open.) =
+We will=20
+  endeavor to  continue answering questions and supporting the publicly=20
+  available  system, however resources are minimal at this stage.  =20
+  <P></P>
+  <LI>(<B>ongoing</B>) We maintain a <A =
+href=3D"http://www-db.stanford.edu/stream/sqr">Stream=20
+  Query Repository</A>  as a resource for researchers in data =
+streams.<BR>
+  <P></P>
+  <LI>(<B>March 2004</B>) A new overview paper on the STREAM project is=20
+   available: <A href=3D"http://dbpubs.stanford.edu/pub/2004-20">STREAM: =
+The=20
+   Stanford Data Stream Management System</A>. It will appear in a book =
+on  data=20
+  stream management edited by Garofalakis, Gehrke, and Rastogi.  =20
+  <P></P>
+  <LI>(<B>August 2003</B>) The latest informal get-together of data =
+streams  =20
+  research groups was hosted by David Maier's group at OGI in Portland. =
+Meeting =20
+   notes are available from the <A =
+href=3D"http://www-db.stanford.edu/sdt">Stream =20
+   Team</A> Web page.  The next Stream Team meeting is planned for =
+spring '04, =20
+  location TBD. [Summer '04: It was held in Berkeley, but the notes are =
+in an=20
+  indefinite state of "being assembled".]  =20
+  <P></P>
+  <LI>(<B>May 2003</B>) We instantiated the <A =
+href=3D"http://www.cs.brown.edu/research/aurora/Linear_Road_Benchmark_Hom=
+epage.html">Linear=20
+  Road Benchmark</A>  with a <A =
+href=3D"http://www-db.stanford.edu/stream/cql-benchmark.html">detailed=20
+    suite of CQL schemas and queries</A>.<BR></LI></UL>
+<P>
+<HR>
+
+<H2><A name=3D"system">System Availability: Internet System and Source =
+Code</A>=20
+</H2>Our prototype Data Stream Management System is available for public =
+use.=20
+You may try the system over the internet, or you may download the code.=20
+<H4> Internet System </H4>You can try the STREAM prototype without =
+downloading=20
+and installing the source -- we start up a server at Stanford and a =
+client on=20
+your machine.  <B><A href=3D"http://skate.stanford.edu:8080/"=20
+target=3D"_blank">CLICK HERE</A></B> to give it a try, and <I>don't =
+forget to read=20
+the Online Help so you know what you're doing</I>.  If the server above =
+is=20
+overloaded or unavailable, try <B><A =
+href=3D"http://shark.stanford.edu:8080/"=20
+target=3D"_blank">this one</A></B> instead.=20
+<P>Using the internet-accessible system you can try out much of the =
+prototype's=20
+functionality: a few predefined streams and queries (including the <A =
+href=3D"http://www-db.stanford.edu/stream/cql-benchmark.html">Linear
+ Road Benchmark</A>), registering new streams and queries, visualizing =
+and=20
+monitoring query plans, and other features.=20
+<H4> Source Code </H4>If you're interested in installing the prototype =
+system at=20
+your own site, the <A =
+href=3D"http://www-db.stanford.edu/stream/code/">source
+ code</A> is available for download.  This release contains the code for =
+the=20
+main STREAM server and for a GUI client to interact with the server over =
+a=20
+network. The server can also be used as a library, and directly linked =
+from a=20
+C++ program. The code release includes a fairly comprehensive <A =
+href=3D"http://www-db.stanford.edu/stream/code/user.pdf">user
+ manual</A> with detailed information about the functionality and design =
+of the=20
+STREAM prototype. <BR><BR>
+<HR>
+
+<H2><A name=3D"people">People</A></H2>
+<H4>Faculty</H4>
+<UL>
+  <LI><A href=3D"http://www-db.stanford.edu/~widom">Jennifer Widom</A>   =
+
+  <LI><A =
+href=3D"http://theory.stanford.edu/people/rajeev/rajeev.html">Rajeev  =20
+  Motwani</A>   </LI></UL>
+<H4>Students (grad and undergrad)</H4>
+<UL>
+  <LI><A href=3D"http://research.microsoft.com/~arvinda">Arvind =
+Arasu</A>  =20
+  <LI><A href=3D"http://www-cs-students.stanford.edu/~babcock">Brian =
+Babcock</A>  =20
+
+  <LI><A href=3D"http://www-db.stanford.edu/~shivnath">Shivnath Babu</A> =
+ =20
+  <LI><A href=3D"http://www.stanford.edu/~usriv">Utkarsh Srivastava</A>  =
+=20
+  <LI><A href=3D"http://www-db.stanford.edu/~zbwang">Zubin Wang</A>   =
+</LI></UL>
+<H4>Alums</H4>
+<UL>
+  <LI><A href=3D"http://www.cs.columbia.edu/~johnc/">John Cieslewicz</A> =
+ =20
+  <LI><A href=3D"http://www-cs-students.stanford.edu/~datar">Mayur =
+Datar</A>  =20
+  <LI><A href=3D"http://www-cs-students.stanford.edu/~keithito">Keith =
+Ito</A>  =20
+  <LI><A href=3D"http://www-db.stanford.edu/~jonmac">Jon McAlister</A>   =
+
+  <LI>Itaru Nishizawa (Hitachi, Ltd.)   =20
+  <LI><A href=3D"mailto:justin@roadlesstraveled.org">Justin =
+Rosenstein</A>  =20
+  <LI>Vitthal Srinivasan   =20
+  <LI><A href=3D"http://www.stanford.edu/~dilys">Dilys Thomas</A> =
+</LI></UL>
+<HR>
+
+<H2><A name=3D"talks">Talks</A></H2>
+<UL>
+  <P>
+  <LI><I>The Stanford Data Stream Management System</I>. <BR>Jennifer =
+Widom's  =20
+  standard talk on the project, updated January 2006  =20
+  <UL>
+    <LI><A =
+href=3D"http://www-db.stanford.edu/~widom/stream-talk.ppt">Slides in   =20
+     PowerPoint</A>    =20
+    <LI><A =
+href=3D"http://www-db.stanford.edu/~widom/stream-talk.pdf">Slides in=20
+    pdf</A>     </LI></UL>
+  <P></P>
+  <LI><I>CQL: A Language for Continuous Queries over Streams and =
+Relations</I>. =20
+    <BR>Invited talk given by Jennifer Widom at the <A =
+href=3D"http://www.cs.washington.edu/homes/suciu/DBPL/">2003=20
+  DBPL Workshop</A>   (Sept. 2003)   =20
+  <UL>
+    <LI><A =
+href=3D"http://www-db.stanford.edu/~widom/cql-talk.ppt">Slides in    =20
+    PowerPoint</A>    =20
+    <LI><A =
+href=3D"http://www-db.stanford.edu/~widom/cql-talk.pdf">Slides in    =20
+    pdf</A> </LI></UL>
+  <P></P>
+  <LI><I>Randomization for Massive and Streaming Data Sets</I>. <BR>Talk =
+given  =20
+  by Rajeev Motwani at the <A =
+href=3D"http://forum.stanford.edu/events/annual-meeting-2003.html">Stanfo=
+rd=20
+    Computer Science Forum - Annual Affiliates Meeting</A> (May 2003)    =
+
+  <UL>
+    <LI><A =
+href=3D"http://theory.stanford.edu/~rajeev/forum-2003-talk.ppt">Slides =20
+       in PowerPoint</A> </LI></UL>
+  <P></P>
+  <LI><I>Models and Issues in Data Stream Systems</I>. <BR>Invited talk =
+given by=20
+    Rajeev Motwani at the <A=20
+  href=3D"http://www-db.cs.wisc.edu/sigmodpods2002/">2002   PODS =
+Conference</A>=20
+  (June 2002)   =20
+  <UL>
+    <LI><A =
+href=3D"http://theory.stanford.edu/~rajeev/pods-short-talk.ppt">Slides =20
+       in PowerPoint</A>     </LI></UL></LI></UL>
+<UL></UL>
+<HR>
+
+<H2><A name=3D"demos">Demos</A></H2>
+<UL>
+  <LI>The STREAM prototype Data  Stream Management System is available   =
+<B><A=20
+  href=3D"http://shark.stanford.edu:8080/" =
+target=3D"_blank">here</A></B> to try=20
+  over the Internet. You may also download the source code <A =
+href=3D"http://www-db.stanford.edu/stream/code/">here</A>.=20
+  </LI>
+  <P></P>
+  <LI>We demo'd <I>StreaMon</I>,  the adaptive query processing engine   =
+       =20
+           of the STREAM system, at the <A =
+href=3D"http://www.sciences.univ-nantes.fr/lina/SIGMODPODS04/">ACM=20
+  SIGMOD   2004 Conference</A>. Here was the <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-78">demonstration=20
+    description</A>.  </LI>
+  <P></P>
+  <LI>We demo'd the STREAM system and its dynamic visualizer   at the <A =
+href=3D"http://www.db.ucsd.edu/SIGMODPODS03/welcome.htm">ACM=20
+  SIGMOD   2003 Conference</A>. Here was the <A =
+href=3D"http://www-db.stanford.edu/~widom/stream-demo.pdf">demonstration =
+
+    proposal</A>.  </LI></UL>
+<P>
+<HR>
+
+<H2><A name=3D"papers">Papers</A></H2>
+<H4>Overviews and Surveys</H4>
+<UL>
+  <LI>The STREAM Group. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-20">
+  Stanford Data Stream Management System</A> (latest overview paper) =
+<BR><I>To=20
+  appear in a book on  data stream management edited by Garofalakis, =
+Gehrke, and=20
+  Rastogi. </I>  =20
+  <P></P>
+  <LI>The STREAM Group. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-21">STREAM:=20
+    The Stanford Stream Data Manager</A> (short overview paper) =
+<BR><I>IEEE Data=20
+    Engineering Bulletin, March 2003 </I>  =20
+  <P></P>
+  <LI><A name=3D"systempaper"></A>R. Motwani, J. Widom, A. Arasu, B. =
+Babcock, S.  =20
+  Babu, M. Datar, G. Manku, C. Olston, J. Rosenstein, and R. Varma. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2002-41">Query=20
+  Processing, Resource   Management, and Approximation in a Data Stream=20
+  Management System </A><BR><I>In   Proc. of CIDR 2003, Jan.  2003 =
+</I><BR><FONT=20
+  size=3D"-1">This paper describes our ongoing work developing   the =
+Stanford=20
+  Stream Data Manager (STREAM), a system for executing continuous   =
+queries over=20
+  multiple continuous data streams. The STREAM system supports a   =
+declarative=20
+  query language, and it copes with high data rates and query   =
+workloads by=20
+  providing approximate answers when resources are limited. This   paper =
+
+  describes specific contributions made so far and enumerates our next   =
+steps=20
+  in developing a general-purpose Data Stream Management System. </FONT> =
+ =20
+  <P></P>
+  <LI><A name=3D"invitedpaper"></A>B. Babcock, S. Babu, M. Datar, R. =
+Motwani, and=20
+  J.   Widom. <A href=3D"http://dbpubs.stanford.edu/pub/2002-19">Models =
+and Issues=20
+  in   Data Stream Systems</A> <BR><I>Invited paper in Proc. of PODS =
+2002, June=20
+  2002 </I><BR><FONT size=3D"-1">In   this overview paper we motivate =
+the need for=20
+  and research issues arising from   a new model of data processing. In =
+this=20
+  model, data does not take the form of   persistent relations, but =
+rather=20
+  arrives in multiple, continuous, rapid,   time-varying data streams. =
+In=20
+  addition to reviewing past work relevant to data   stream systems and =
+current=20
+  projects in the area, the paper explores topics in   stream query =
+languages,=20
+  new requirements and challenges in query processing,   and algorithmic =
+issues.=20
+  </FONT>  =20
+  <P></P>
+  <LI><A name=3D"overviewpaper"></A>S. Babu and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2001-9">Continuous=20
+  Queries over Data   Streams</A> <BR><I>In SIGMOD Record, Sep. 2001=20
+  </I><BR><FONT size=3D"-1">We   specify a general and flexible =
+framework for=20
+  query processing in the presence   of data streams. The framework =
+captures=20
+  most previous work on continuous   queries and data streams, as well =
+as=20
+  subsuming related concepts such as   triggers and materialized views. =
+We=20
+  further map out problems, techniques, and   challenges in processing=20
+  continuous queries over data streams. </FONT></LI></UL>
+<H4>System</H4>
+<UL>
+  <LI>U. Srivastava and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-40">Flexible=20
+  Time Management in Data   Stream Systems </A><BR><I>In Proc. of PODS =
+2004,=20
+  June 2004 </I><BR><FONT size=3D"-1">Flexible application-defined time =
+poses=20
+  challenges to a Data Stream   Management System, since streams may be =
+out of=20
+  order and uncoordinated with   each other, they may incur latency =
+reaching the=20
+  DSMS, and they may pause or   stop. We formalize these challenges and =
+specify=20
+  how to generate heartbeats so   that queries can be evaluated =
+correctly and=20
+  continuously in an   application-defined time domain. Our heartbeat =
+generation=20
+  algorithm is based   on parameters capturing skew between streams, =
+unordering=20
+  within streams, and   latency in streams reaching the DSMS. We also =
+describe=20
+  how to estimate these   parameters at run-time, and we discuss how =
+heartbeats=20
+  can be used for   processing continuous queries. </FONT>  =20
+  <P>
+  <P></P>
+  <LI>B. Babcock, M. Datar, and R. Motwani. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-3">Load=20
+  Shedding for Aggregation Queries over Data Streams</A><BR><I>In Proc. =
+of ICDE=20
+  2004, March 2004</I><BR><FONT size=3D"-1">We present load shedding =
+techniques=20
+  for a   restricted class of stream queries: Aggregation queries over =
+sliding=20
+  windows,   possibly with selections, projections and foreign key joins =
+with=20
+  stored   relations. We present optimal solutions for placing load =
+shedders=20
+  (operators   which randomly drop tuples) in the query plan, which =
+reduce the=20
+  load on the   system below the required threshold, while minimizing =
+the=20
+  inaccuracy   introduced in the queries. </FONT>  =20
+  <P>
+  <P></P>
+  <LI>D. Thomas and R. Motwani. <A=20
+  href=3D"http://dbpubs.stanford.edu/pub/2003-63">Caching Queues in =
+Memory Buffers=20
+     </A><BR><I>In Proc. of SODA 2004, Jan. 2004 </I><BR><FONT =
+size=3D"-1">We=20
+  study the   problem of maintaining queues in a cache, which occurs in =
+a number=20
+  of   important settings like DataStream systems, Network Router design =
+and  =20
+  Distributed Messaging services. We analyze why DataStream systems =
+built on top=20
+    of buffer managers that use traditional algorithms like LRU perform =
+badly.=20
+  We   provide online competitive algorithms for this problem for =
+different  =20
+  interesting cost models. </FONT>  =20
+  <P></P>
+  <LI><A name=3D"chain-tr"></A>B. Babcock, S. Babu, M. Datar, R. =
+Motwani, and D.  =20
+  Thomas. <A href=3D"http://dbpubs.stanford.edu/pub/2003-68">Operator =
+Scheduling  =20
+  in Data Stream Systems </A><BR><I> To appear in VLDB Journal, 2005=20
+  </I><BR><FONT size=3D"-1">This paper is an extended version of our =
+paper titled=20
+  "Chain: Operator   Scheduling for Memory Minimization in Data Stream =
+Systems"=20
+  that appeared in   the proceedings of SIGMOD 2003. This paper extends =
+the=20
+  Chain   operator-scheduling strategy proposed in the SIGMOD paper to =
+minimize=20
+  run-time   memory requirements subject to user-specified latency =
+constraints.=20
+  This paper   also proves an NP-completeness result showing the =
+intractability=20
+  of the   problem of minimizing run-time memory requirements in the =
+stream=20
+  setting.    </FONT>  =20
+  <P></P></LI></UL>
+<H4>Query Language</H4>
+<UL>
+  <LI><A name=3D"cql-semantics"></A>A. Arasu and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-19">A=20
+  Denotational Semantics  for Continuous Queries over Streams and=20
+  Relations</A><BR><I>In SIGMOD Record, Sep. 2004</I><BR><FONT =
+size=3D"-1">We=20
+  present formal,  denotational semantics for a generic continuous query =
+
+  language  based on streams, time-varying relations, and three classes =
+of=20
+  operators  over streams and relations.</FONT></LI>
+  <P></P>
+  <LI><A name=3D"cql"></A>A. Arasu, S. Babu and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-67">The=20
+  CQL Continuous Query   Language: Semantic Foundations and Query =
+Execution</A>=20
+  <BR><I>To appear in VLDB Journal, 2005</I> <BR><FONT size=3D"-1">We =
+first=20
+  present an abstract semantics   for continuous queries over streams =
+based on=20
+  several building blocks: formal   definitions for streams and =
+relations,=20
+  mappings among them, and any relational   query language. We then =
+propose a=20
+  concrete language, CQL (for Continuous Query   Language), which =
+instantiates=20
+  the abstract semantics using SQL as the   relational query language =
+and window=20
+  specifications derived from SQL-99 to map   from streams to relations. =
+
+  Finally, we present the implementation of CQL in   the STREAM =
+prototype,=20
+  describing query execution plans, operators,   inter-operator queues,=20
+  synopses, and sharing of data and computation among   multiple =
+operators and=20
+  queries. Examples throughout the paper are drawn from   the Linear =
+Road=20
+  Benchmark recently proposed for Data Stream Management   Systems. =
+<BR><I>Note:=20
+  A preliminary, much shorter version of this paper   appeared as the =
+November=20
+  2002 Technical Report <A =
+href=3D"http://dbpubs.stanford.edu/pub/2002-57">An=20
+  Abstract Semantics and   Concrete Language for Continuous Queries over =
+Streams=20
+  and Relations</A>, and   an even shorter version titled "CQL: A =
+Language for=20
+  Continuous Queries over   Streams and Relations" appeared as an =
+invited paper=20
+  in the DBPL workshop,   Sep. 2003.</I> </FONT></LI></UL>
+<H4>Query Processing</H4>
+<UL>
+  <LI>K. Munagala, U. Srivastava, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2005-36">Optimization=20
+  of Continuous Queries with Shared Expensive Filters</A> =
+<BR><I>Technical=20
+  Report, Nov. 2005 </I><BR><FONT size=3D"-1">We consider the problem of =
+
+  optimizing and executing multiple continuous queries, where each query =
+is a=20
+  conjunction of filters and each filter may occur in multiple queries. =
+When=20
+  filters are expensive, significant performance gains are achieved by =
+sharing=20
+  filter evaluations across queries. A shared execution strategy in our =
+scenario=20
+  can either be fixed, in which filters are evaluated in the same =
+predetermined=20
+  order for all input, or <I>adaptive</I>, in which the next filter to =
+be=20
+  evaluated is chosen at runtime based on the results of the filters =
+evaluated=20
+  so far. We show that as filter costs increase, the best adaptive =
+strategy is=20
+  superior to any fixed strategy, despite the overhead of adaptivity. We =
+show=20
+  that it is NP-hard to find the optimal adaptive strategy, even if we =
+are=20
+  willing to approximate within any factor smaller than logarithmic in =
+the
+   number of queries. We present a greedy execution strategy and show =
+that it=20
+  approximates the best adaptive strategy to within a factor =
+polylogarithmic in=20
+  the number of queries and filters. We also show how the execution =
+overhead of=20
+  adaptive strategies can be reduced by appropriate precomputation. =
+Finally, we=20
+  present an experimental evaluation demonstrating the effectiveness of =
+our=20
+  techniques. </FONT>  =20
+  <P></P>
+  <LI>U. Srivastava, K. Munagala and J. Widom.<A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-50">=20
+  Operator Placement for In-Network Query Processing </A> <BR><I>In =
+Proc. of=20
+  PODS 2005, June 2005 </I><BR><FONT size=3D"-1">In this paper we =
+consider the=20
+  problem of executing queries over a network of nodes where data is =
+acquired at=20
+  low-capability sensors and then transmitted through a hierarchy of =
+nodes=20
+  having progressively increasing network bandwidth and computational =
+power. The=20
+  goal is to perform ``in-network'' query processing and to decide the =
+placement=20
+  of the query plan operators such that the total cost of computation =
+and
+   transmission is minimized. We give optimal operator-placement =
+algorithms for=20
+  queries involving possibly expensive conjunctive filters, and joins. =
+</FONT>  =20
+  <P></P>
+  <LI>S. Babu, K. Munagala, J. Widom, and R. Motwani. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-14">Adaptive=20
+  Caching for Continuous Queries</A> <BR><I>In Proc. of ICDE 2005, April =
+2005=20
+  </I><BR><FONT size=3D"-1">We  study the  problem of  using caches  to =
+improve =20
+  performance and adaptivity in continuous multiway  joins.  We propose=20
+  different cache types and algorithms for  cache maintenance, =
+monitoring cache=20
+  cost and benefits, selecting  caches to use,  allocating memory to  =
+caches,=20
+  and adapting  over  the  entire  spectrum  between  stateless  =
+<I>MJoins</I> =20
+  and cache-rich  join  trees  as   stream  and  system  conditions  =
+change.
+   Although  we focus  on joins,  our algorithms  generalize  easily to =
+query=20
+  plans composed of of one  or more operator pipelines, and to any =
+number of=20
+  such  query plans. </FONT>  =20
+  <P></P>
+  <LI>K. Munagala, S. Babu, R. Motwani, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-65">
+  The Pipelined Set Cover Problem  </A> <BR><I>In Proc. of ICDT 2005, =
+Jan. 2005=20
+  </I><BR><FONT size=3D"-1">A  classical problem  in query  optimization =
+ is to =20
+  find the  optimal ordering  of a  set of  possibly correlated  =
+selections or =20
+  joins.  We provide  an abstraction  of this  problem as  a =
+generalization  of=20
+  set cover called  <I>pipelined  set cover</I>, where  the sets  are =
+applied
+   sequentially to the elements to be covered and the elements covered =
+at each=20
+  stage are discarded. We  show that several natural heuristics for this =
+NP-hard=20
+   problem, such  as the greedy  set-cover heuristic  and a local-search =
+=20
+  heuristic, can  be analyzed  using  a linear-programming framework =
+which=20
+  bounds not only  the approximation ratio, but also the running time  =
+of the=20
+  corresponding algorithms. We also consider  the <I>online</I> version =
+of=20
+  pipelined set  cover and  present  a competitive  algorithm  with a =20
+  logarithmic performance guarantee. </FONT>  =20
+  <P></P>
+  <LI>A. Arasu and J. Widom. <A=20
+  href=3D"http://dbpubs.stanford.edu/pub/2004-15">Resource Sharing in =
+Continuous =20
+  Sliding-Window Aggregates</A><BR><I>In Proc. of VLDB 2004,  Sep.=20
+  2004</I><BR><FONT size=3D"-1">    We  consider  the problem  of  =
+resource =20
+  sharing  when processing  large  numbers  of continuous queries.  We=20
+  specifically  address sliding-window  aggregates over data streams, an =
+
+  important class of continuous operators  for which sharing has not =
+been =20
+  addressed. We present a suite of sharing  techniques  that cover  a =
+wide =20
+  range of  possible  scenarios: different  classes  of aggregation  =
+functions=20
+  (algebraic,  distributive, holistic),  different  window types  =
+(time-based,=20
+  tuple-based,  suffix, historical),  and  different input  models  =
+(single=20
+  stream,  multiple substreams).  We  provide precise  theoretical =
+performance=20
+  guarantees  for our techniques,  and show  their practical =
+effectiveness=20
+  through  a thorough experimental  study.   </FONT>  =20
+  <P></P>
+  <LI>U. Srivastava and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2004-13">
+  Memory-Limited Execution of Windowed Stream Joins</A><BR><I>   In =
+Proc. of=20
+  VLDB 2004, Sep. 2004 </I><BR><FONT size=3D"-1">   We address the =
+problem of=20
+  computing approximate answers to sliding-window   joins over data =
+streams when=20
+  the available memory may be insufficient to   keep the entire join =
+state. The=20
+  objective of the approximation may be   either to return a =
+maximum-size subset=20
+  of the result or a random sample of   the result. We introduce a new =
+age-based=20
+  model of stream arrival that is   often more appropriate for =
+addressing these=20
+  problems than the traditional   frequency-based model used in previous =
+work.=20
+  We also provide an algorithm   for optimal memory allocation across =
+multiple=20
+  joins being executed in the   system. </FONT>  =20
+  <P></P>
+  <LI><A name=3D"constraints"></A>S. Babu, U. Srivastava, and J. Widom. =
+<A href=3D"http://dbpubs.stanford.edu/pub/2002-52">Exploiting=20
+  k-Constraints to   Reduce Memory Overhead in Continuous Queries over =
+Data=20
+  Streams</A>   <BR><I>In ACM TODS, Sep. 2004 </I><BR><FONT =
+size=3D"-1">We=20
+  introduce the   important concept of <I>k</I>-constraints, which are =
+likely to=20
+  hold in data   stream environments even when strict constraints do not =
+hold.=20
+  We demonstrate   how to incorporate <I>k</I>-constraints into a data =
+stream=20
+  query processor in   order to reduce memory overhead for continuous =
+queries.=20
+  We show empirically   that <I>k</I>-constraints are very effective at =
+reducing=20
+  the memory   requirement in a wide variety of SPJ queries and that =
+these=20
+  constraints can be   monitored and exploited with very low =
+computational=20
+  overhead.</FONT> </LI>
+  <P></P>
+  <LI>S. Babu, R. Motwani, K. Munagala, I. Nishizawa, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-69">Adaptive=20
+  Ordering of Pipelined Stream Filters</A> <BR><I>In Proc. of SIGMOD =
+2004, June=20
+  2004  </I><BR><FONT size=3D"-1">We consider the problem of pipelined =
+filters,=20
+  where a continuous stream  of elements  is processed  by  a set  of=20
+  commutative  filters. We  focus on  the  problem of ordering  the =
+filters =20
+  adaptively to  minimize processing  cost  in an environment where =
+stream and=20
+  filter characteristics vary unpredictably over  time.  Our  core =
+algorithm, =20
+  A-Greedy  (for  Adaptive Greedy),  has strong  theoretical  =
+guarantees: If =20
+  stream and  filter characteristics  were to  stabilize,  A-Greedy =
+would =20
+  converge to  an ordering within  a small constant factor of  optimal. =
+(In=20
+  experiments A-Greedy usually  converges  to  the optimal  ordering.)  =
+We =20
+  identify and study a three-way tradeoff among provable  convergence to =
+good=20
+  orderings,  run-time overhead, and speed of adaptivity.</FONT>  =20
+  <P></P>
+  <LI><A name=3D"boundedmemorypaper"></A>A. Arasu, B. Babcock, S. Babu, =
+J.  =20
+  McAlister, and J. Widom. <A=20
+  href=3D"http://dbpubs.stanford.edu/pub/2002-29">Characterizing Memory  =
+=20
+  Requirements for Queries over Continuous Data Streams </A><BR><I>In   =
+ACM=20
+  TODS, March 2004. </I><BR><FONT size=3D"-1">We   consider conjunctive =
+queries=20
+  with arithmetic comparisons over multiple   continuous data streams. =
+We=20
+  specify an algorithm for determining whether or   not a query can be =
+evaluated=20
+  using a bounded amount of memory for all possible   instances of the =
+data=20
+  streams. When a query can be evaluated using bounded   memory, our =
+algorithm=20
+  produces an evaluation plan based on constant-sized   synopses of the =
+data=20
+  streams. <BR><I>Note: This paper is an extension of the   paper of the =
+same=20
+  name that appeared in PODS 2002.</I> </FONT>  =20
+  <P></P>
+  <LI>U. Srivastava, S. Babu, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-23">Monitoring=20
+  Stream Properties for   Continuous Query Processing</A> (short paper)=20
+  <BR><I>In Proc. of MPDS 2003, June 2003    </I>   </LI></UL>
+<H4>Distributed Streams</H4>
+<UL>
+  <LI>C. Olston, J. Jiang, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu:8090/pub/2002-55">Adaptive=20
+  Filters for   Continuous Queries over Distributed Data Streams</A> =
+<BR><I>In=20
+  Proc. of SIGMOD 2003, June 2003 </I><BR><FONT size=3D"-1">We consider =
+an=20
+  environment where distributed data sources continuously   stream =
+updates to a=20
+  centralized processor that monitors continuous queries   over the =
+distributed=20
+  data. Significant communication overhead is incurred in   the presence =
+of=20
+  rapid update streams, and we propose a new technique for   reducing =
+the=20
+  overhead. Users register continuous queries with precision   =
+requirements at=20
+  the central stream processor, which installs filters at remote   data =
+sources.=20
+  The filters adapt to changing conditions to minimize stream   rates =
+while=20
+  guaranteeing that all continuous queries still receive the updates   =
+necessary=20
+  to provide answers of adequate precision at all times. </FONT>  =20
+  <P></P>
+  <LI>B. Babcock and C. Olston. <A =
+href=3D"http://www-db.stanford.edu/~olston/publications/topk.html">Distri=
+buted=20
+    Top-K Monitoring</A> <BR><I>In Proc. of SIGMOD 2003, June 2003 =
+</I><BR><FONT=20
+  size=3D"-1">We study a useful class of   queries that continuously =
+report the k=20
+  largest values obtained from   distributed data streams ("top-k =
+monitoring=20
+  queries"), which are of particular   interest because they can be used =
+to=20
+  reduce the overhead incurred while   running other types of monitoring =
+
+  queries. We show that transmitting entire   data streams is =
+unnecessary to=20
+  support these queries and present an   alternative approach that =
+reduces=20
+  communication significantly. In our   approach, arithmetic constraints =
+are=20
+  maintained at remote stream sources to   ensure that the most recently =
+
+  provided top-k answer remains valid to within a   user-specified error =
+
+  tolerance. </FONT></LI></UL>
+<H4>Statistics</H4>
+<UL>
+  <LI>A. Arasu and G. Manku. <A=20
+  href=3D"http://dbpubs.stanford.edu/pub/2003-72">Approximate Counts and =
+=20
+  Quantiles over Sliding Windows</A><BR><I>In Proc. of PODS 2004, June =
+2004  =20
+  </I><BR><FONT size=3D"-1">We consider the problem of maintaining =
+approximate=20
+  counts and quantiles over fixed- and variable-size sliding windows in =
+limited=20
+  space. For quantiles, we present deterministic algorithms whose space=20
+  requirements are O(1/e log(1/e)log N) and O(1/e log(1/e) log(eN) log =
+N) in the
+   worst-case for fixed- and variable-size windows, respectively, where =
+N
+   denotes the current number of elements in the window and e, the =
+relative
+   error. Our space bounds improve upon the previous best bounds of =
+O(1/e^2
+   polylog (1/e,N)). For counts, we present both deterministic and =
+randomized
+   algorithms. The deterministic algorithms require O(1/e log^2 (1/e)) =
+and O(1/e=20
+  log^2 (1/e) log eN) for worst-case space for fixed- and variable-size =
+windows,=20
+  respectively, while the randomized ones require O(1/e log (1/(e d))) =
+and O(1/e=20
+  log(1/(ed)) log eN) worst-case space, where d denotes the probability =
+of=20
+  failure. We believe no previous work on space-efficient approximate =
+counts for=20
+  sliding windows exists.   </FONT>
+  <P></P>
+  <LI>B. Babcock, M. Datar, R. Motwani, and L. O'Callaghan. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2003-18">Maintaining=20
+  Variance and   k-Medians over Data Stream Windows</A> <BR><I>In Proc. =
+of PODS=20
+  2003, June 2003 </I><BR><FONT size=3D"-1">We present a novel technique =
+for=20
+  solving two important and related   problems in the sliding window =
+model --=20
+  maintaining variance and maintaining   k-medians clustering. </FONT>   =
+
+  <P></P>
+  <LI>M. Datar and S. Muthukrishnan. <A =
+href=3D"http://www-cs-students.stanford.edu/~datar/papers/esa02-streams.p=
+s">Estimating=20
+    Rarity and Similarity over Data Stream Windows</A> <BR><I>In Proc. =
+of  =20
+  European Symposium of Algorithms, Sep. 2002 </I><BR><FONT =
+size=3D"-1">We present=20
+    solutions to two problems in the sliding window model: estimating    =
+
+  <I>rarity</I> and <I>similarity</I> over streams. The rarity of a =
+stream is  =20
+  defined as the ratio of the number of elements that occur exactly once =
+to the =20
+   number of distinct elements. The similarity between two streams is =
+defined as=20
+    the similarity between the sets of distinct elements seen over the =
+two  =20
+  streams; the ratio of the size of the intersection to the size of the =
+union.  =20
+   </FONT>  =20
+  <P></P>
+  <LI>G. Cormode, M. Datar, P. Indyk, and S. Muthukrishnan. <A =
+href=3D"http://www.vldb.org/conf/2002/S10P02.pdf">Comparing=20
+  Data Streams Using   Hamming Norm</A> <BR><I>In Proc. of VLDB 2002, =
+Aug. 2002=20
+  </I><BR><FONT size=3D"-1">We present   solution to the problem of =
+computing=20
+  Hamming norm over data streams. Hamming   norm computation is more =
+general=20
+  than the well studied distinct value   estimation problem. Our =
+solution uses=20
+  sketching techniques and works in the   presence of inserts and =
+deletes.=20
+  </FONT>  =20
+  <P></P>
+  <LI>G. S. Manku and R. Motwani. <A =
+href=3D"http://www-db.stanford.edu/~manku/papers/02vldb-freq.pdf">Approxi=
+mate=20
+    Frequency Counts over Streaming Data</A> <BR><I>In Proc. of VLDB =
+2002, Aug.=20
+  2002 </I><BR><FONT size=3D"-1">This paper present algorithms for =
+computing=20
+  frequency counts exceeding   a user-specified threshold over data =
+streams.=20
+  Some applications are also   presented. </FONT>  =20
+  <P></P>
+  <LI>M. Datar, A. Gionis, P. Indyk, and R. Motwani. <A =
+href=3D"http://www-cs-students.stanford.edu/~datar/papers/sicomp_streams.=
+ps">Maintaining=20
+    Stream Statistics Over Sliding Windows</A> <BR><I>In SIAM Journal on =
+
+  Computing,   Vol. 31 No. 6</I><BR><FONT size=3D"-1">We consider the =
+problem of  =20
+  maintaining statistics over sliding windows. We design data structures =
+with  =20
+  small memory requirements and provide matching lower bounds. =
+<BR><I>Note: This=20
+    paper is an extension of the paper of the same name that appeared in =
+SODA  =20
+  2002.</I> </FONT>  =20
+  <P></P>
+  <LI>B. Babcock, M. Datar, and R. Motwani. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2001-33">Sampling=20
+  From a Moving Window   Over Streaming Data</A> <BR><I>In Proc. of SODA =
+2002,=20
+  Jan. 2002 </I><BR><FONT size=3D"-1">We   introduce the problem of =
+sampling from=20
+  a moving window of recent items from a   data stream and develop the=20
+  "chain-sample" and "priority-sample" algorithms   for this problem.=20
+  </FONT></LI></UL>
+<H4>Clustering</H4>
+<UL>
+  <LI>S. Guha, A. Meyerson, N. Mishra, R. Motwani, and L. O'Callaghan. =
+<A href=3D"http://www-db.stanford.edu/~loc/tkdepaper.pdf">Clustering=20
+  Data Streams:   Theory and Practice </A><BR><I>IEEE Trans. on =
+Knowledge and=20
+  Data   Engineering, vol. 15 (2003) </I><BR><FONT size=3D"-1">Under the =
+data=20
+  stream model,   the data set to be processed is assumed to be too =
+large to be=20
+  processed   together in RAM, and to be only accessible via linear =
+scans, so=20
+  that, for   example, random access is unavailable. This model has =
+recently=20
+  attracted   attention for its applicability to numerous types of data, =
+
+  including telephone   records, web documents and clickstreams. For =
+algorithms=20
+  designed to analyze   such data, the ability to process the data in a =
+single=20
+  pass, or a small number   of passes, while using little memory, is =
+crucial. We=20
+  describe a one-pass,   memory-efficient streaming algorithm that =
+effectively=20
+  clusters large data   streams. We also provide empirical evidence of =
+the=20
+  algorithm's performance on   synthetic and real data streams. </FONT>  =
+=20
+  <P></P>
+  <LI>L. O'Callaghan, N. Mishra, A. Meyerson, S. Guha, and R. Motwani. =
+<A =
+href=3D"http://www-db.stanford.edu/stream/docs/clustering.ps">High-Perfor=
+mance=20
+    Clustering of Streams and Large Data Sets </A><BR><I>In Proc. of =
+ICDE 2002,=20
+  Feb. 2002 </I><BR><FONT size=3D"-1">We give innovative techniques to =
+transform=20
+  theoretically well-founded   algorithms for clustering into ones that =
+perform=20
+  well in practice. We further   show that their performance is =
+competitive with=20
+  popular empirical approaches   for clustering data streams. </FONT>  =20
+  <P></P>
+  <LI>S. Guha, N. Mishra, R. Motwani, and L. O'Callaghan. <A =
+href=3D"http://theory.stanford.edu/~sudipto/mypapers/datastream.ps">Clust=
+ering=20
+    Data Streams</A> <BR><I>In Proc. of FOCS 2000, Nov. 2000 =
+</I><BR><FONT size=3D"-1">We=20
+  study   clustering under the data stream model of computation where =
+given a=20
+  sequence   of points, the objective is to maintain a consistently good =
+
+  clustering of the   sequence observed so far using little memory and =
+time.=20
+  </FONT></LI></UL>
+<H4>Applications</H4>
+<UL>
+  <LI>S. Babu, L. Subramanian, and J. Widom. <A =
+href=3D"http://dbpubs.stanford.edu/pub/2001-20">A=20
+  Data Stream Management System   for Network Traffic Management =
+</A><BR><I>In=20
+  Proc. of NRDM 2001, May 2001 </I><BR><FONT size=3D"-1">In   this short =
+position=20
+  paper, we describe the demands of network traffic   management =
+applications=20
+  and we discuss how a Data Stream Management System can   provide a =
+general and=20
+  scalable platform for deploying these applications.    =
+</FONT></LI></UL>
+<HR>
+<!-- Stanford Tags Project -->=20
+<SCRIPT src=3D"http://tags.stanford.edu/tags.js" =
+type=3D"text/javascript"></SCRIPT>
+ <!-- Stanford Tags Project --> <!-- hhmts start -->Last modified: =
+January 5,=20
+2006 <!-- hhmts end --> </BODY></HTML>
+
+------=_NextPart_000_0000_01CE75CD.49B8B3F0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://infolab.stanford.edu/stream/stream.gif
+
+R0lGODlhkABzAOcAAIKMlGqKJS5bDz46L3CkKJ6QPay9tzVIgU5IdZOZmHShdA8nUtHJ0Zm1hklo
+O6ift1FmjoGQNauvpD46PsjIwUs4UnpnmD9yhIJ0mLi6v4uFhhA6PkSKbl5KhkR8KQAoIJuEo2uQ
+mq29v0NKbEc0Y56TcW+NkbjBv1t+daGlpZedsUloUZqmmi1aUtzg1Ep8WHFnmDw4Upe0sWmEJ2WU
+LdHQyrjKv4aKQ1aDhKqtsTFNe7G3plSUZfLs4lhYUTtoLC8eL4GmPB9MHxwjYy9MEDmKMRAnPtzT
+zUBIdamchxBMCC5bPcjIyExBPYSIiaCiq0lslsHIzLnPqnmeeR4mUnOXmh86PnSBo7Czt8rJ0YeO
+nx86CKiztzt/dYqvqxYJUkdlYylKbIKndVBri2RjmC1JUi4dPjSENGqQNRBMH3VIgaGfpbe8ty8n
+EC5bLnN/nEdzOVKQai1IddbKy0taUi9MPvLs6ufq39/q3zlOY4GQapWbq2x8LyxuDtzZ1Ofd33mI
+iZuao7+6v9bUsOfj322lSqq7prujt4KwpYqwioWPmur04jaZK2dyhEqdch86L7/Bvy9ML9fZ5yl8
+Nh86Hx8nPr+0uKCyOW+Kb3tMe8jSwXGEmB8eL7SWpRcKPiw3WCAeEOfd2My/waC1q0dzTtLb0hxd
+YywcUsi+uS86PmmKUKGNjpdxNTtoUXV+deHQ1mJ/mntMbytuK0pZmGeoZx9oD73C3GiEVZy1oBAU
+LxAUEBgeGG2qknhGZStuOtzgzfL05ituT4iCwx1oLLyq1nF6VhA6EJhwbRZaUkygVcXSzBZiO3VP
+W+ju7BAoEBA6H8O3pqK0aejk7A9iLFegJp2t0XtMRJtwk+fm2HtEMQ9oD0mSltHC3HVIJ2NMDre8
+hEc0pwATmPL08v//////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////ywAAAAAkABzAAAI/gDpuBFC
+MM1AN5TSpGmVhtLAM0LqyHID50UxD9343BLi5lHDGW6mJNGAQgMNOhpWuGrV4gWLDnTgeDC2MIiG
+AhIUmEhEIBqjaKoIoKFGrdAUMWcInHGDZgqvKT/STKNEU4mzZy0EuuHRx5gQX3moGpuGoosjIWG6
+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
+BbGKMIQAOERPrMlBQAAAOw==
+
+------=_NextPart_000_0000_01CE75CD.49B8B3F0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://infolab.stanford.edu/stream/str.jpg
+
+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
+
+------=_NextPart_000_0000_01CE75CD.49B8B3F0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://tags.stanford.edu/tags.js
+
+document.write('<scr' + 'ipt =
+src=3D"http://tags.stanford.edu/tags.py?js_referer=3D' + =
+encodeURIComponent(document.referrer) + '&js_url=3D' + =
+encodeURIComponent(document.URL) + '&t=3D' + (new Date()).getTime() + '" =
+type=3D"text/javascript"></scr' + 'ipt>');
+
+------=_NextPart_000_0000_01CE75CD.49B8B3F0--

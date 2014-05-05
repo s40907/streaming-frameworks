@@ -1,0 +1,3789 @@
+From: "Mit Windows Internet Explorer 10 gespeichert"
+Subject: Licenses
+Date: Sun, 30 Jun 2013 17:46:05 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CE75B9.B20DA000"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" ""><HTML =
+lang=3D"en"><HEAD><META=20
+content=3D"IE=3D5.0000" http-equiv=3D"X-UA-Compatible">
+     <TITLE>Licenses</TITLE>    =20
+<META http-equiv=3D"Content-Type" content=3D"text/html;charset=3DUTF-8"> =
+   =20
+<META content=3D"http://www.apache.org/images/asf_logo.gif" =
+property=3D"og:image">  =20
+  <LINK href=3D"http://www.apache.org/css/style.css" rel=3D"stylesheet" =
+type=3D"text/css"=20
+media=3D"screen">     <LINK href=3D"http://www.apache.org/css/code.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"screen">    =20
+<SCRIPT src=3D"http://www.apache.org/js/jquery.js" =
+type=3D"text/javascript"></SCRIPT>
+    =20
+<SCRIPT src=3D"http://www.apache.org/js/apache_boot.js" =
+type=3D"text/javascript"></SCRIPT>
+             <!-- Licensed to the Apache Software Foundation (ASF) under =
+one or more contributor license agreements.  See the NOTICE file =
+distributed with this work for additional information regarding =
+copyright ownership.  The ASF licenses this file to you under the Apache =
+License, Version 2.0 (the &quot;License&quot;); you may not use this =
+file except in compliance with the License.  You may obtain a copy of =
+the License at . http://www.apache.org/licenses/LICENSE-2.0 . Unless =
+required by applicable law or agreed to in writing, software distributed =
+under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT =
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See =
+the License for the specific language governing permissions and =
+limitations under the License. -->=20
+ =20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16612"></HEAD>  =20
+<BODY>
+<DIV class=3D"container_16" id=3D"page">
+<DIV class=3D"grid_8" id=3D"header"><IMG alt=3D"The Apache Software =
+Foundation" src=3D"http://www.apache.org/images/feather-small.gif">=20
+       =20
+<H1>The Apache Software Foundation</H1>
+<H2>Licenses</H2></DIV>      =20
+<DIV class=3D"grid_8" id=3D"nav">
+<UL><!-- <li><a href=3D"/" title=3D"Welcome!">Home</a></li> -->          =
+=20
+  <LI><A title=3D"The Foundation"=20
+  href=3D"http://www.apache.org/foundation/">Foundation</A></LI>         =
+ =20
+  <LI><A title=3D"The Projects"=20
+  href=3D"http://projects.apache.org/">Projects</A></LI>          =20
+  <LI><A title=3D"The People" =
+href=3D"http://people.apache.org/">People</A></LI>    =20
+       =20
+  <LI><A title=3D"Get Involved" =
+href=3D"http://www.apache.org/foundation/getinvolved.html">Get=20
+  Involved</A></LI>          =20
+  <LI><A title=3D"Download"=20
+  href=3D"http://www.apache.org/dyn/closer.cgi">Download</A></LI>        =
+  =20
+  <LI><A title=3D"Support Apache" =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Support=20
+  Apache</A></LI>         </UL>
+<P><A href=3D"http://www.apache.org/">Home</A>&nbsp;=C2=BB&nbsp;<A =
+href=3D"http://www.apache.org/licenses/">Licenses</A></P>
+<FORM name=3D"search" id=3D"search" =
+action=3D"http://www.google.com/search" method=3D"get"><INPUT=20
+name=3D"sitesearch" type=3D"hidden" value=3D"apache.org">           =
+<INPUT name=3D"q"=20
+id=3D"query" type=3D"text">           <INPUT id=3D"submit" =
+type=3D"submit" value=3D"Search">=20
+        </FORM></DIV>      =20
+<DIV class=3D"clear"></DIV>
+<DIV class=3D"grid_16" id=3D"content">
+<DIV class=3D"section-content">
+<P>The Apache Software Foundation uses various licenses to <A =
+href=3D"http://www.apache.org/licenses/#distributions">distribute
+ software and documentation</A>, to accept regular <A =
+href=3D"http://www.apache.org/licenses/#clas">contributions=20
+from individuals and corporations</A>, and to accept larger <A =
+href=3D"http://www.apache.org/licenses/#grants">grants=20
+of existing software products</A>.</P>
+<P>These licenses help us achieve our goal of providing reliable and =
+long-lived=20
+software products through collaborative open source software =
+development. In all=20
+cases, contributors retain full rights to use their original =
+contributions for=20
+any other purpose outside of Apache while providing the ASF and its =
+projects the=20
+right to distribute and build upon their work within Apache.</P>
+<H1 id=3D"distributions">Licensing of Distributions</H1>
+<P>All software produced by The Apache Software Foundation or any of its
+ projects or subjects is licensed according to the terms of the =
+documents listed=20
+below.</P>
+<H2 id=3D"2.0">Apache License, Version 2.0 (current)</H2>
+<P><A=20
+href=3D"http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org=
+/licenses/LICENSE-2.0</A>=20
+( <A href=3D"http://www.apache.org/licenses/LICENSE-2.0.txt">TXT</A> or =
+<A href=3D"http://www.apache.org/licenses/LICENSE-2.0.html">HTML</A>=20
+)</P>
+<P>The 2.0 version of the Apache License was approved by the ASF in =
+2004. The
+ goals of this license revision have been to reduce the number of =
+frequently
+ asked questions, to allow the license to be reusable without =
+modification by=20
+any project (including non-ASF projects), to allow the license to be =
+included by=20
+reference instead of listed in every file, to clarify the license on =
+submission=20
+of contributions, to require a patent license on contributions that =
+necessarily=20
+infringe the contributor's own patents, and to move comments regarding =
+Apache=20
+and other inherited attribution notices to a location outside the =
+license terms=20
+(the <A =
+href=3D"http://www.apache.org/licenses/example-NOTICE.txt">NOTICE =
+file</A>=20
+).</P>
+<P>The result is a license that is supposed to be compatible with other =
+open
+ source licenses, while remaining true to the original goals of the =
+Apache Group=20
+and supportive of collaborative development across both nonprofit and =
+commercial=20
+organizations. The Apache Software Foundation is still trying to =
+determine if=20
+this version of the Apache License is <A =
+href=3D"http://www.apache.org/licenses/GPL-compatibility.html">compatible=
+=20
+with the GPL</A>.</P>
+<P>All packages produced by the ASF are implicitly licensed under the =
+Apache
+ License, Version 2.0, unless otherwise explicitly stated. More =
+developer
+ documentation on how to apply the Apache License to your work can be =
+found in *=20
+<A href=3D"http://www.apache.org/dev/apply-license.html">Applying the =
+Apache=20
+License, Version 2.0</A> *.</P>
+<H2 id=3D"1.1">Apache License, Version 1.1 (historic)</H2>
+<P><A=20
+href=3D"http://www.apache.org/licenses/LICENSE-1.1">http://www.apache.org=
+/licenses/LICENSE-1.1</A>=20
+</P>
+<P>The 1.1 version of the Apache License was approved by the ASF in =
+2000. The
+ primary change from the 1.0 license is in the 'advertising clause' =
+(section 3=20
+of the 1.0 license); derived products are no longer required to include
+ attribution in their advertising materials, only in their =
+documentation.</P>
+<P>Individual packages licensed under the 1.1 version may have used =
+different
+ wording due to varying requirements for attribution or mark =
+identification, but=20
+the binding terms were all the same.</P>
+<H2 id=3D"1.0">Apache License, Version 1.0 (historic)</H2>
+<P><A=20
+href=3D"http://www.apache.org/licenses/LICENSE-1.0">http://www.apache.org=
+/licenses/LICENSE-1.0</A>=20
+</P>
+<P>This is the original Apache License which applies only to older =
+versions of
+ Apache packages (such as version 1.2 of the Web server).</P>
+<H1 id=3D"clas">Contributor License Agreements</H1>
+<P>The ASF desires that all contributors of ideas, code, or =
+documentation to the=20
+Apache projects complete, sign, and submit (via postal mail, fax or =
+email) an <A=20
+href=3D"http://www.apache.org/licenses/icla.txt">Individual Contributor =
+License=20
+Agreement</A> (1) (CLA) [ <A =
+href=3D"http://www.apache.org/licenses/icla.pdf">PDF
+ form</A> ]. The purpose of this agreement is to clearly define the =
+terms under=20
+which intellectual property has been contributed to the ASF and thereby =
+allow us=20
+to defend the project should there be a legal dispute regarding the =
+software at=20
+some future time. A signed CLA is required to be on file before an =
+individual is=20
+given commit rights to an ASF project.</P>
+<P>For a corporation that has assigned employees to work on an Apache =
+project, a=20
+<A href=3D"http://www.apache.org/licenses/cla-corporate.txt">Corporate =
+CLA</A>=20
+(CCLA) is available for contributing intellectual property via the =
+corporation,=20
+that may have been assigned as part of an employment agreement. Note =
+that a=20
+Corporate CLA does not remove the need for every developer to sign their =
+own CLA=20
+as an individual, to cover any of their contributions which are not =
+owned by the=20
+corporation signing the CCLA.</P>
+<P>CLAs may be submitted by traditional postal mail, fax, or by emailing =
+a scan=20
+of the signed copy to secretary@apache.org. You can also fill out the <A =
+href=3D"http://www.apache.org/licenses/icla.pdf">pdf
+ document</A> or edit the <A =
+href=3D"http://www.apache.org/licenses/icla.txt">text=20
+document</A>, create a detached gpg signature, and send both the =
+document and=20
+the detached signature via email to secretary.</P>
+<P>Note: If you choose to send this document via fax then be absolutely =
+sure
+ that you have sent it correctly. Faxes are often received =
+back-to-front, blank,=20
+or totally illegible.</P>
+<P>The ICLA is not tied to any employer you may have, so it is =
+recommended to
+ use one's personal email address in the contact details, rather than an =
+@work
+ address.</P>
+<P>Your Full name will be published unless you provide an alternative =
+Public=20
+name. For example if your full name is Andrew Bernard Charles Dickens, =
+but you=20
+wish to be known as Andrew Dickens, please enter the latter as your =
+Public=20
+name.</P>
+<P>The email address and other contact details are not published.</P>
+<P>(1) Please use overwrite mode when typing in the underlined fields. =
+Otherwise=20
+the fields will wrap, making the result harder to read.</P>
+<H1 id=3D"grants">Software Grants</H1>
+<P>When an individual or corporation decides to donate a body of =
+existing
+ software or documentation to one of the Apache projects, they need to =
+execute a=20
+formal <A =
+href=3D"http://www.apache.org/licenses/software-grant.txt">Software=20
+Grant Agreement</A> (SGA) with the ASF. Typically, this is done after=20
+negotiating approval with the ASF <A=20
+href=3D"http://incubator.apache.org/">Incubator</A> or one of the PMCs, =
+since the=20
+ASF will not accept software unless there is a viable community =
+available to
+ support a collaborative project.</P>
+<P>Grants may be submitted by traditional postal mail, fax, or by =
+emailing a
+ scan of the signed copy to secretary@. You can also edit the text =
+document,=20
+create a detached gpg signature, and send both the document and the =
+detached=20
+signature via email to secretary.</P>
+<P>Note: If you choose to send this document via fax then be absolutely =
+sure
+ that you have sent it correctly. Faxes are often received =
+back-to-front, blank,=20
+or totally illegible.</P>
+<H1 id=3D"crypto">Export restrictions</H1>
+<P>For export restriction information, please consult our <A =
+href=3D"http://www.apache.org/licenses/exports/">ASF=20
+Export Classifications</A> page.</P>
+<H1 id=3D"trademarks">Trademark and Logo Usage</H1>
+<P>For ASF trademark and logo usage information, please consult our <A =
+href=3D"http://www.apache.org/foundation/marks/">ASF
+ Trademark Use Policy</A> page.</P>
+<H1 id=3D"questions">Questions?</H1>
+<P>For answers to frequently asked licensing questions, please consult =
+our  <A=20
+href=3D"http://www.apache.org/foundation/license-faq.html">Licensing =
+Frequently=20
+Asked Questions</A> page.</P></DIV></DIV>      =20
+<DIV class=3D"clear"></DIV></DIV>
+<DIV class=3D"container_16" id=3D"footer">
+<DIV class=3D"links grid_16">
+<DIV class=3D"grid_3">
+<H4>Projects</H4>
+<UL>
+  <LI><A title=3D"Apache Web Server (httpd)" =
+href=3D"http://httpd.apache.org/">HTTP=20
+  Server</A></LI>
+  <LI><A title=3D"Atom Publishing Protocol Implementation" =
+href=3D"http://abdera.apache.org/">Abdera</A></LI>
+  <LI><A title=3D"Sorted, distributed key/value store" =
+href=3D"http://accumulo.apache.org/">Accumulo</A></LI>
+  <LI><A title=3D"Centralized life cycle management and deployment of =
+OSGi based and related modular software artifacts for distribution."=20
+  href=3D"http://ace.apache.org/">ACE</A></LI>
+  <LI><A title=3D"Distributed Messaging System"=20
+  href=3D"http://activemq.apache.org/">ActiveMQ</A></LI>
+  <LI><A title=3D"Workflow and Computational Job Management Middleware" =
+href=3D"http://airavata.apache.org/">Airavata</A></LI>
+  <LI><A title=3D"Java-based build tool"=20
+href=3D"http://ant.apache.org/">Ant</A></LI>
+  <LI><A title=3D"Anything to Triples"=20
+  href=3D"http://any23.apache.org/">Any23</A></LI>
+  <LI><A title=3D"Apache Portable Runtime libraries"=20
+  href=3D"http://apr.apache.org/">APR</A></LI>
+  <LI><A title=3D"Build Artifact Repository Manager" =
+href=3D"http://archiva.apache.org/">Archiva</A></LI>
+  <LI><A title=3D"Enterprise OSGi application programming model" =
+href=3D"http://aries.apache.org/">Aries</A></LI>
+  <LI><A title=3D"A Serialization System"=20
+  href=3D"http://avro.apache.org/">Avro</A></LI>
+  <LI><A title=3D"Java SOAP Engine" =
+href=3D"http://axis.apache.org/">Axis</A></LI>
+  <LI><A title=3D"Apache Hadoop ecosystem integration and distribution =
+project"=20
+  href=3D"http://bigtop.apache.org/">Bigtop</A></LI>
+  <LI><A title=3D"Issue tracking, wiki and repository browser" =
+href=3D"http://bloodhound.apache.org/">Bloodhound</A></LI>
+  <LI><A title=3D"Simple and intuitive build system for Java =
+applications" href=3D"http://buildr.apache.org/">Buildr</A></LI>
+  <LI><A title=3D"Apache BVal: JSR-303 Bean Validation Implementation =
+and Extensions"=20
+  href=3D"http://bval.apache.org/">BVal</A></LI>
+  <LI><A title=3D"Spring based Integration Framework which implements =
+the Enterprise Integration Patterns"=20
+  href=3D"http://camel.apache.org/">Camel</A></LI>
+  <LI><A title=3D"Highly scalable second-generation distributed =
+database" href=3D"http://cassandra.apache.org/">Cassandra</A></LI>
+  <LI><A title=3D"User-friendly Java ORM with Tools" =
+href=3D"http://cayenne.apache.org/">Cayenne</A></LI>
+  <LI><A title=3D"CMIS (Content Managment Interoperability Services) =
+Clients and Servers"=20
+  href=3D"http://chemistry.apache.org/">Chemistry</A></LI>
+  <LI><A title=3D"Semantically linked data for OSGi" =
+href=3D"http://clerezza.apache.org/">Clerezza</A></LI>
+  <LI><A title=3D"User-friendly page and component oriented web =
+framework" href=3D"http://click.apache.org/">Click</A></LI>
+  <LI><A title=3D"Infrastructure as a Service solution" =
+href=3D"http://cloudstack.apache.org/">CloudStack</A></LI>
+  <LI><A title=3D"Web development framework: separation of concerns, =
+component-based"=20
+  href=3D"http://cocoon.apache.org/">Cocoon</A></LI>
+  <LI><A title=3D"Reusable Java components"=20
+  href=3D"http://commons.apache.org/">Commons</A></LI>
+  <LI><A title=3D"Continuous Integration and Build Server" =
+href=3D"http://continuum.apache.org/">Continuum</A></LI>
+  <LI><A title=3D"Platform for building native mobile applications using =
+HTML, CSS and JavaScript"=20
+  href=3D"http://cordova.apache.org/">Cordova</A></LI>
+  <LI><A title=3D"RESTful document database"=20
+  href=3D"http://couchdb.apache.org/">CouchDB</A></LI>
+  <LI><A title=3D"Comprehension and auditing of software distributions" =
+href=3D"http://creadur.apache.org/">Creadur</A></LI>
+  <LI><A title=3D"Simple and Efficient MapReduce Pipelines" =
+href=3D"http://crunch.apache.org/">Crunch</A></LI>
+  <LI><A title=3D"Natural language processing (NLP) tool for information =
+extraction from electronic medical record clinical free-text"=20
+  href=3D"http://ctakes.apache.org/">cTAKES</A></LI>
+  <LI><A title=3D"Service Framework" =
+href=3D"http://cxf.apache.org/">CXF</A></LI>
+  <LI><A title=3D"Database access" =
+href=3D"http://db.apache.org/">DB</A></LI>
+  <LI><A title=3D"RESTful cloud management interface" =
+href=3D"http://deltacloud.apache.org/">Deltacloud</A></LI>
+  <LI><A title=3D"Apache Directory Server"=20
+  href=3D"http://directory.apache.org/">Directory</A></LI>
+  <LI><A title=3D"Relational Data Persistence"=20
+  href=3D"http://empire-db.apache.org/">Empire-db</A></LI>
+  <LI><A title=3D"Enterprise Social Messaging Environment" =
+href=3D"http://esme.apache.org/">ESME</A></LI>
+  <LI><A title=3D"Cross-platform, language- and transport-independent =
+RPC-like messaging framework"=20
+  href=3D"http://etch.apache.org/">Etch</A></LI>
+  <LI><A title=3D"OSGi Framework and components."=20
+  href=3D"http://felix.apache.org/">Felix</A></LI>
+  <LI><A title=3D"Application framework for expressive web applications =
+that deploy to all major browsers, desktops and devices."=20
+  href=3D"http://flex.apache.org/">Flex</A></LI>
+  <LI><A title=3D"A reliable service for efficiently collecting, =
+aggregating, and moving large amounts of log data"=20
+  href=3D"http://flume.apache.org/">Flume</A></LI>
+  <LI><A title=3D"Aggregated multi-channel documentation, separation of =
+concerns"=20
+  href=3D"http://forrest.apache.org/">Forrest</A></LI>
+  <LI><A title=3D"Java2, Enterprise Edition (J2EE) container" =
+href=3D"http://geronimo.apache.org/">Geronimo</A></LI>
+  <LI><A title=3D"Iterative graph processing system built for high =
+scalability"=20
+  href=3D"http://giraph.apache.org/">Giraph</A></LI>
+  <LI><A title=3D"ORM framework for column stores such as Apache HBase =
+and Apache Cassandra with a specific focus on Hadoop"=20
+  href=3D"http://gora.apache.org/">Gora</A></LI>
+  <LI><A title=3D"Continuous integration of open source projects" =
+href=3D"http://gump.apache.org/">Gump</A></LI>
+  <LI><A title=3D"Distributed computing platform"=20
+  href=3D"http://hadoop.apache.org/">Hadoop</A></LI>
+  <LI><A title=3D"a Bulk Synchronous Parallel computing framework on top =
+of Hadoop"=20
+  href=3D"http://hama.apache.org/">Hama</A></LI>
+  <LI><A title=3D"Hadoop Database" =
+href=3D"http://hbase.apache.org/">HBase</A></LI>
+  <LI><A title=3D"Data warehouse infrastructure using the Hadoop =
+Database" href=3D"http://hive.apache.org/">Hive</A></LI>
+  <LI><A title=3D"Java toolset of low level HTTP components" =
+href=3D"http://hc.apache.org/">HttpComponents</A></LI>
+  <LI><A title=3D"Framework for rapidly developing domain-driven apps in =
+Java"=20
+  href=3D"http://isis.apache.org/">Isis</A></LI>
+  <LI><A title=3D"Content Repository for Java" =
+href=3D"http://jackrabbit.apache.org/">Jackrabbit</A></LI>
+  <LI><A title=3D"Java Apache Mail Enterprise Server" =
+href=3D"http://james.apache.org/">James</A></LI>
+  <LI><A title=3D"Java framework for building Semantic Web applications" =
+href=3D"http://jena.apache.org/">Jena</A></LI>
+  <LI><A title=3D"Java performance and functional testing" =
+href=3D"http://jmeter.apache.org/">JMeter</A></LI>
+  <LI><A title=3D"Java implementation of the Universal Description, =
+Discovery, and Integration specification"=20
+  href=3D"http://juddi.apache.org/">jUDDI</A></LI>
+  <LI><A title=3D"Distributed publish-subscribe messaging system" =
+href=3D"http://kafka.apache.org/">Kafka</A></LI>
+  <LI><A title=3D"Server-side OSGi distribution"=20
+  href=3D"http://karaf.apache.org/">Karaf</A></LI>
+  <LI><A title=3D"Content Management System"=20
+  href=3D"http://lenya.apache.org/">Lenya</A></LI>
+  <LI><A title=3D"Unified interface to the cloud" =
+href=3D"http://libcloud.apache.org/">Libcloud</A></LI>
+  <LI><A title=3D"Cross-language logging services" =
+href=3D"http://logging.apache.org/">Logging</A></LI>
+  <LI><A title=3D"Search engine library"=20
+  href=3D"http://lucene.apache.org/">Lucene</A></LI>
+  <LI><A title=3D"Search engine library for dynamic languages" =
+href=3D"http://lucy.apache.org/">Lucy</A></LI>
+  <LI><A title=3D"Scalable machine learning library" =
+href=3D"http://mahout.apache.org/">Mahout</A></LI>
+  <LI><A title=3D"Framework for connecting source content repositories =
+to target repositories or indexes."=20
+  href=3D"http://manifoldcf.apache.org/">ManifoldCF</A></LI>
+  <LI><A title=3D"Java project management and comprehension tools" =
+href=3D"http://maven.apache.org/">Maven</A></LI>
+  <LI><A title=3D"Multipurpose Infrastructure for Network Application" =
+href=3D"http://mina.apache.org/">MINA</A></LI>
+  <LI><A title=3D"Java library that helps developers unit test Apache =
+Hadoop map reduce jobs"=20
+  href=3D"http://mrunit.apache.org/">MRUnit</A></LI>
+  <LI><A title=3D"JavaServer(tm) Faces implementation and components" =
+href=3D"http://myfaces.apache.org/">MyFaces</A></LI>
+  <LI><A title=3D"Open Source Web Search Software"=20
+  href=3D"http://nutch.apache.org/">Nutch</A></LI>
+  <LI><A title=3D"Orchestration Director Engine: Business Process =
+Management (BPM), Process Orchestration and Workflow through service =
+composition."=20
+  href=3D"http://ode.apache.org/">ODE</A></LI>
+  <LI><A title=3D"Open for Business: enterprise automation software" =
+href=3D"http://ofbiz.apache.org/">OFBiz</A></LI>
+  <LI><A title=3D"OAuth protocol implementation in Java" =
+href=3D"http://oltu.apache.org/">Oltu</A></LI>
+  <LI><A title=3D"Development and maintenance of a set of Google Guice =
+extensions"=20
+  href=3D"http://onami.apache.org/">Onami</A></LI>
+  <LI><A title=3D"Object Oriented Data Technology (middleware metadata)" =
+href=3D"http://oodt.apache.org/">OODT</A></LI>
+  <LI><A title=3D"A workflow scheduler system to manage Apache Hadoop =
+jobs." href=3D"http://oozie.apache.org/">Oozie</A></LI>
+  <LI><A title=3D"OpenJPA: Object Relational Mapping for Java" =
+href=3D"http://openjpa.apache.org/">OpenJPA</A></LI>
+  <LI><A title=3D"OpenMeetings: Web-Conferencing and real-time =
+collaboration"=20
+  href=3D"http://openmeetings.apache.org/">OpenMeetings</A></LI>
+  <LI><A title=3D"Machine learning based toolkit for the processing of =
+natural language text"=20
+  href=3D"http://opennlp.apache.org/">OpenNLP</A></LI>
+  <LI><A title=3D"An open-source, office-document productivity suite" =
+href=3D"http://openoffice.apache.org/">OpenOffice</A></LI>
+  <LI><A title=3D"OpenWebBeans: JSR-299 Context and Dependency Injection =
+for Java EE Platform Implementation"=20
+  href=3D"http://openwebbeans.apache.org/">OpenWebBeans</A></LI>
+  <LI><A title=3D"Java library for working with PDF documents" =
+href=3D"http://pdfbox.apache.org/">PDFBox</A></LI>
+  <LI><A title=3D"Dynamic websites using Perl"=20
+  href=3D"http://perl.apache.org/">Perl</A></LI>
+  <LI><A title=3D"Platform for analyzing large data sets" =
+href=3D"http://pig.apache.org/">Pig</A></LI>
+  <LI><A title=3D"Rich Internet applications in Java" =
+href=3D"http://pivot.apache.org/">Pivot</A></LI>
+  <LI><A title=3D"Java API for OLE 2 Compound and OOXML Documents" =
+href=3D"http://poi.apache.org/">POI</A></LI>
+  <LI><A title=3D"Portal technology"=20
+  href=3D"http://portals.apache.org/">Portals</A></LI>
+  <LI><A title=3D"Multiple language implementation of the latest =
+Advanced Message Queuing Protocol (AMQP)"=20
+  href=3D"http://qpid.apache.org/">Qpid</A></LI>
+  <LI><A title=3D"Web and social mashup engine"=20
+  href=3D"http://rave.apache.org/">Rave</A></LI>
+  <LI><A title=3D"Jini service oriented architecture" =
+href=3D"http://river.apache.org/">River</A></LI>
+  <LI><A title=3D"Java blog server"=20
+  href=3D"http://roller.apache.org/">Roller</A></LI>
+  <LI><A title=3D"XML Security in Java and C++" =
+href=3D"http://santuario.apache.org/">Santuario</A></LI>
+  <LI><A title=3D"Enterprise Service Bus"=20
+  href=3D"http://servicemix.apache.org/">ServiceMix</A></LI>
+  <LI><A title=3D"Opensocial Reference Implementation" =
+href=3D"http://shindig.apache.org/">Shindig</A></LI>
+  <LI><A title=3D"Powerful and easy-to-use application security =
+framework" href=3D"http://shiro.apache.org/">Shiro</A></LI>
+  <LI><A title=3D"Spatial Information System"=20
+  href=3D"http://sis.apache.org/">SIS</A></LI>
+  <LI><A title=3D"Web Framework for JCR Content Repositories" =
+href=3D"http://sling.apache.org/">Sling</A></LI>
+  <LI><A title=3D"Mail filter to identify spam" =
+href=3D"http://spamassassin.apache.org/">SpamAssassin</A></LI>
+  <LI><A title=3D"Bulk Data Transfer for Hadoop and Structured =
+Datastores" href=3D"http://sqoop.apache.org/">Sqoop</A></LI>
+  <LI><A title=3D"Reusable components for semantic content management" =
+href=3D"http://stanbol.apache.org/">Stanbol</A></LI>
+  <LI><A title=3D"Apache C++ Standard Library"=20
+  href=3D"http://stdcxx.apache.org/">STDCXX</A></LI>
+  <LI><A title=3D"Model 2 framework for building Java web applications" =
+href=3D"http://struts.apache.org/">Struts</A></LI>
+  <LI><A title=3D"Version Control"=20
+  href=3D"http://subversion.apache.org/">Subversion</A></LI>
+  <LI><A title=3D"Enterprise Service Bus and Mediation Framework" =
+href=3D"http://synapse.apache.org/">Synapse</A></LI>
+  <LI><A title=3D"Managing digital identities in enterprise =
+environments" href=3D"http://syncope.apache.org/">Syncope</A></LI>
+  <LI><A title=3D"Component-based Java Web Application Framework" =
+href=3D"http://tapestry.apache.org/">Tapestry</A></LI>
+  <LI><A title=3D"Dynamic websites using TCL"=20
+  href=3D"http://tcl.apache.org/">Tcl</A></LI>
+  <LI><A title=3D"Framework for scalable cross-language services =
+development"=20
+  href=3D"http://thrift.apache.org/">Thrift</A></LI>
+  <LI><A title=3D"Content Analysis and Detection Toolkit" =
+href=3D"http://tika.apache.org/">Tika</A></LI>
+  <LI><A title=3D"A templating framework for web application user =
+interfaces"=20
+  href=3D"http://tiles.apache.org/">Tiles</A></LI>
+  <LI><A title=3D"A Java Servlet and JSP Container" =
+href=3D"http://tomcat.apache.org/">Tomcat</A></LI>
+  <LI><A title=3D"Java EE Web Profile built on Tomcat" =
+href=3D"http://tomee.apache.org/">TomEE</A></LI>
+  <LI><A title=3D"A fast, scalable and extensible HTTP/1.1 compliant =
+caching proxy server"=20
+  href=3D"http://trafficserver.apache.org/">Traffic Server</A></LI>
+  <LI><A title=3D"A Java Servlet Web Application Framework and =
+associated component library"=20
+  href=3D"http://turbine.apache.org/">Turbine</A></LI>
+  <LI><A title=3D"An SCA based Service Composition Framework" =
+href=3D"http://tuscany.apache.org/">Tuscany</A></LI>
+  <LI><A title=3D"Framework and annotators for unstructured information =
+analysis"=20
+  href=3D"http://uima.apache.org/">UIMA</A></LI>
+  <LI><A title=3D"Virtual Computing Lab"=20
+href=3D"http://vcl.apache.org/">VCL</A></LI>
+  <LI><A title=3D"A Java Templating Engine"=20
+  href=3D"http://velocity.apache.org/">Velocity</A></LI>
+  <LI><A href=3D"http://ws.apache.org/">Web Services</A></LI>
+  <LI><A title=3D"Libraries for running Cloud Services" =
+href=3D"http://whirr.apache.org/">Whirr</A></LI>
+  <LI><A title=3D"Component-based Java Web Application Framework." =
+href=3D"http://wicket.apache.org/">Wicket</A></LI>
+  <LI><A title=3D"RESTful Web services Framework"=20
+  href=3D"http://wink.apache.org/">Wink</A></LI>
+  <LI><A title=3D"Widgets for Applications"=20
+  href=3D"http://wookie.apache.org/">Wookie</A></LI>
+  <LI><A title=3D"XSLT processors in Java and C++"=20
+  href=3D"http://xalan.apache.org/">Xalan</A></LI>
+  <LI><A title=3D"XML parsers in Java, C++ and Perl" =
+href=3D"http://xerces.apache.org/">Xerces</A></LI>
+  <LI><A title=3D"XML-Java binding tool"=20
+  href=3D"http://xmlbeans.apache.org/">XMLBeans</A></LI>
+  <LI><A title=3D"Conversion from XML to graphical output" =
+href=3D"http://xmlgraphics.apache.org/">XML=20
+  Graphics</A></LI>
+  <LI><A title=3D"Centralized service for maintaining configuration =
+information"=20
+  href=3D"http://zookeeper.apache.org/">ZooKeeper</A></LI></UL></DIV>    =
+  =20
+<DIV class=3D"grid_3">
+<H4>Foundation</H4>
+<UL>
+  <LI><A href=3D"http://www.apache.org/foundation/faq.html">FAQ</A></LI>
+  <LI><A title=3D"Overview of the Apache Licenese" =
+href=3D"http://www.apache.org/licenses/">Licenses</A></LI>
+  <LI><A title=3D"Apache marks policies and listing" =
+href=3D"http://www.apache.org/foundation/marks/">Trademarks</A></LI>
+  <LI><A title=3D"Official news feed of Foundation announcements" =
+href=3D"http://www.apache.org/foundation/news.html">News</A></LI>
+  <LI><A title=3D"Press, Media, and Analyst contact" =
+href=3D"http://www.apache.org/press/">Press=20
+  Inquiries</A></LI>
+  <LI><A title=3D"Formal corporate records and board meeting minutes" =
+href=3D"http://www.apache.org/foundation/records/">Public=20
+  Records</A></LI>
+  <LI><A title=3D"Mailing lists and Apache" =
+href=3D"http://www.apache.org/foundation/mailinglists.html">Mailing=20
+  Lists</A></LI>
+  <LI><A title=3D"Sponsor the Foundation" =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Sponsorship</A=
+></LI>
+  <LI><A title=3D"Donate to the Foundation" =
+href=3D"http://www.apache.org/foundation/contributing.html">Donations</A>=
+</LI>
+  <LI><A title=3D"Buy Apache branded merchandise" =
+href=3D"http://www.apache.org/foundation/buy_stuff.html">Buy=20
+  Stuff</A></LI>
+  <LI><A title=3D"Thank you to our Sponsors" =
+href=3D"http://www.apache.org/foundation/thanks.html">Thanks</A></LI>
+  <LI><A title=3D"Contact Us"=20
+  =
+href=3D"http://www.apache.org/foundation/contact.html">Contact</A></LI></=
+UL></DIV>=20
+     =20
+<DIV class=3D"grid_3 suffix_1">
+<H4>Foundation Projects</H4>
+<UL>
+  <LI><A title=3D"Inactive projects repository"=20
+  href=3D"http://attic.apache.org/">Attic</A></LI>
+  <LI><A title=3D"Meetings of developers and users" =
+href=3D"http://www.apache.org/foundation/conferences.html">Conferences</A=
+></LI>
+  <LI><A title=3D"Helping newcomers to the ASF" =
+href=3D"http://community.apache.org/">Community=20
+  Development</A></LI>
+  <LI><A title=3D"Shepherd for new projects"=20
+  href=3D"http://incubator.apache.org/">Incubator</A></LI>
+  <LI><A title=3D"ASF Infrastructure: Operations and howto documents for =
+PMCs and contributors"=20
+  href=3D"http://www.apache.org/dev/">Infrastructure</A></LI>
+  <LI><A title=3D"The Innovation Laboratories of the Apache Software =
+Foundation"=20
+  href=3D"http://labs.apache.org/">Labs</A></LI>
+  <LI><A title=3D"Legal Affairs" =
+href=3D"http://www.apache.org/legal/">Legal=20
+  Affairs</A></LI>
+  <LI><A title=3D"Public Relations" =
+href=3D"http://www.apache.org/press/">Public=20
+  Relations</A></LI>
+  <LI><A title=3D"Security"=20
+  href=3D"http://www.apache.org/security/">Security</A></LI>
+  <LI><A title=3D"Travel Assistance" =
+href=3D"http://www.apache.org/travel/">Travel=20
+  Assistance</A></LI></UL></DIV>            =20
+<DIV class=3D"grid_3">
+<H4>Community</H4>
+<UL>
+  <LI><A title=3D"Apache committer homepages"=20
+  href=3D"http://people.apache.org/">People</A></LI>
+  <LI><A title=3D"In memoriam of past committers" =
+href=3D"http://www.apache.org/memorials/">Memorials</A></LI>
+  <LI><A title=3D"Apache Podcasts"=20
+  href=3D"http://feathercast.org/">Feathercast</A></LI>
+  <LI><A title=3D"Apache Project Blogs" =
+href=3D"http://blogs.apache.org/">Project=20
+  Blogs</A></LI>
+  <LI><A title=3D"Apache Committers' Blogs" =
+href=3D"http://planet.apache.org/committers/">PlanetApache</A></LI></UL><=
+/DIV>=20
+     =20
+<DIV class=3D"grid_3">
+<H4>How It Works</H4>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html">Introduction<=
+/A></LI>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html#meritocracy">M=
+eritocracy</A></LI>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html#structure">Str=
+ucture</A></LI>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html#roles">Roles</=
+A></LI>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html#management">Co=
+llaboration</A></LI>
+  <LI><A=20
+  =
+href=3D"http://www.apache.org/foundation/how-it-works.html#incubator">Inc=
+ubator</A></LI>
+  <LI><A =
+href=3D"http://www.apache.org/foundation/how-it-works.html#other">Other=20
+  entities</A></LI>
+  <LI><A =
+href=3D"http://www.apache.org/foundation/glossary.html">Glossary</A></LI>=
+
+  <LI><A=20
+href=3D"http://www.apache.org/foundation/voting.html">Voting</A></LI></UL=
+></DIV>  =20
+  </DIV>    =20
+<DIV class=3D"clear"></DIV></DIV>
+<DIV class=3D"container_16" id=3D"copyright">
+<P>Copyright =C2=A9 2012 The Apache Software Foundation, Licensed under =
+the <A href=3D"http://www.apache.org/licenses/LICENSE-2.0">Apache=20
+License, Version 2.0</A>.<BR>Apache and the Apache feather logo are =
+trademarks=20
+of The Apache Software Foundation.</P></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.apache.org/images/feather-small.gif
+
+R0lGODlhywA9AOflAAQCBBwWHBweHCQeJCwiLDQiNDwmRGQiREwqVHwiRGwmVJwaRJQeRGQqXMwO
+RFQubIwiTNQORKwaRLwWRIQmVFwufLQaRGQubJwiTHwqXGQulKweZIQqZHQubFwyjOwOTMQaTERC
+PKwiTJwmVHQufGQyjPQOTLweVHwudGwyfKQmXJQqZNQaTLQiXJQqbOQWTKQqRIQufLQmRHQyjMwe
+VIwudOwWTOwWVJQyRHwyjGw2lNQeVMQiXJQudGw2nPQWTOQaVLQmbKQqdKwqZHQ2lOwaVNweXMwi
+ZJwufIwyhLwqTJwuhIwyjNQiXMQmZPQaVOQeXNQiZMQmbLQqdKQufJQyhIQ2lIQ2nMwmbLwqdMQq
+bFxOPIRCRNQqTOQmTLQyZKQ6RPQiTLQ2RKwyhJw2lJRCXFRWXKRCRPQqVMw2XLw+ROQyTLw+XOwy
+TGxaRNQ+TPQ2VNQ6jIxWZGRiZJxWTKxSTFxmdORGTLRSbPRCVGxqbMxSTHxqTGRudMRebPRWVLRq
+VIx2VIx2bLRqfHR+hHx+fORmVOxejPxiXMxyVKSCVHyKlMR6bKyCfJSKfNx6XIyOlPR2XMyGXKyS
+XISarPx+ZOSGXLSSlJyanMySZKyafLSeXOyOZPyKZMSahMSeZNyaZKSmpPSSjMyiZJSqvMSilLyq
+ZLSmpLSqjPyaZKSutOyiZMSuZNSqbKyytLyutLSytMS2ZPymbMS2fLS2rKS6zNS6bOS2bLy6vMS6
+tPyybLy+vPyyhNy+bMS+vOS+dLzCxKzG1NTKbMTGxPy+dMzGxOzKdPTKfMzOzNTOzMTS3MzSzNTS
+1OTadNzW1Mza3PzWfNTa3Nza1Nza3PzefNze3Nze5NTm5OTi5PzmfNzm5OTm5OTm7OTq7Ozq7Pzy
+hOzu7Ozy9PTy9PT29Pz6/P//////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH+EUNyZWF0ZWQgd2l0aCBH
+SU1QACH5BAEKAP8ALAAAAADLAD0AAAj+AP8JHEiwoMGDAnEBQ8iwocOHECNKnEixosWLFglh3Mix
+o8ePIAmGCsWNYyiBwzCFXMmypcuN3syEwITt4jBIAl2FmiZQ1cufQIO23GYgQAhI0iq6IlVTVTBM
+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
+gAAAOw==
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/reset.css
+
+html {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+body {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+div {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+span {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+applet {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+object {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+iframe {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h1 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h2 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h3 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h4 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h5 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+h6 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+p {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+blockquote {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+pre {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+a {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+abbr {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+acronym {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+address {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+big {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+cite {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+code {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+del {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+dfn {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+em {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+font {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+img {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+ins {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+kbd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+q {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+s {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+samp {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+small {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+strike {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+strong {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+sub {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+sup {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+tt {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+var {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+b {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+u {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+i {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+center {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+dl {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+dt {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+dd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+ol {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+ul {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+li {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+fieldset {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+form {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+label {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+legend {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+table {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+caption {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+tbody {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+tfoot {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+thead {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+tr {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+th {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+td {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; =
+font-size: 100%; vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+blockquote::before {
+	content: none;
+}
+blockquote::after {
+	content: none;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+:focus {
+	outline: 0px;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/text.css
+
+body {
+	font: 13px/1.5 Helvetica, Arial, "Liberation Sans", FreeSans, =
+sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+a:focus {
+	outline: dotted 1px;
+}
+hr {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, =
+204, 204); height: 0px; clear: both;
+}
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 23px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 19px;
+}
+h5 {
+	font-size: 17px;
+}
+h6 {
+	font-size: 15px;
+}
+ol {
+	list-style: decimal;
+}
+ul {
+	list-style: square;
+}
+li {
+	margin-left: 30px;
+}
+p {
+	margin-bottom: 20px;
+}
+dl {
+	margin-bottom: 20px;
+}
+hr {
+	margin-bottom: 20px;
+}
+h1 {
+	margin-bottom: 20px;
+}
+h2 {
+	margin-bottom: 20px;
+}
+h3 {
+	margin-bottom: 20px;
+}
+h4 {
+	margin-bottom: 20px;
+}
+h5 {
+	margin-bottom: 20px;
+}
+h6 {
+	margin-bottom: 20px;
+}
+ol {
+	margin-bottom: 20px;
+}
+ul {
+	margin-bottom: 20px;
+}
+pre {
+	margin-bottom: 20px;
+}
+table {
+	margin-bottom: 20px;
+}
+address {
+	margin-bottom: 20px;
+}
+fieldset {
+	margin-bottom: 20px;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: 1em;
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/960.css
+
+.container_12 {
+	width: 960px; margin-right: auto; margin-left: auto;
+}
+.container_16 {
+	width: 960px; margin-right: auto; margin-left: auto;
+}
+.grid_1 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_2 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_3 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_4 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_5 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_6 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_7 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_8 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_9 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_10 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_11 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_12 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_13 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_14 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_15 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.grid_16 {
+	margin-right: 10px; margin-left: 10px; float: left; display: inline;
+}
+.container_12 .grid_3 {
+	width: 220px;
+}
+.container_16 .grid_4 {
+	width: 220px;
+}
+.container_12 .grid_6 {
+	width: 460px;
+}
+.container_16 .grid_8 {
+	width: 460px;
+}
+.container_12 .grid_9 {
+	width: 700px;
+}
+.container_16 .grid_12 {
+	width: 700px;
+}
+.container_12 .grid_12 {
+	width: 940px;
+}
+.container_16 .grid_16 {
+	width: 940px;
+}
+.alpha {
+	margin-left: 0px;
+}
+.omega {
+	margin-right: 0px;
+}
+.container_12 .grid_1 {
+	width: 60px;
+}
+.container_12 .grid_2 {
+	width: 140px;
+}
+.container_12 .grid_4 {
+	width: 300px;
+}
+.container_12 .grid_5 {
+	width: 380px;
+}
+.container_12 .grid_7 {
+	width: 540px;
+}
+.container_12 .grid_8 {
+	width: 620px;
+}
+.container_12 .grid_10 {
+	width: 780px;
+}
+.container_12 .grid_11 {
+	width: 860px;
+}
+.container_16 .grid_1 {
+	width: 40px;
+}
+.container_16 .grid_2 {
+	width: 100px;
+}
+.container_16 .grid_3 {
+	width: 160px;
+}
+.container_16 .grid_5 {
+	width: 280px;
+}
+.container_16 .grid_6 {
+	width: 340px;
+}
+.container_16 .grid_7 {
+	width: 400px;
+}
+.container_16 .grid_9 {
+	width: 520px;
+}
+.container_16 .grid_10 {
+=09
+}
+.container_16 .grid_11 {
+=09
+}
+.container_16 .grid_13 {
+	width: 760px;
+}
+.container_16 .grid_14 {
+	width: 820px;
+}
+.container_16 .grid_15 {
+	width: 880px;
+}
+.container_12 .prefix_3 {
+	padding-left: 240px;
+}
+.container_16 .prefix_4 {
+	padding-left: 240px;
+}
+.container_12 .prefix_6 {
+	padding-left: 480px;
+}
+.container_16 .prefix_8 {
+	padding-left: 480px;
+}
+.container_12 .prefix_9 {
+	padding-left: 720px;
+}
+.container_16 .prefix_12 {
+	padding-left: 720px;
+}
+.container_12 .prefix_1 {
+	padding-left: 80px;
+}
+.container_12 .prefix_2 {
+	padding-left: 160px;
+}
+.container_12 .prefix_4 {
+	padding-left: 320px;
+}
+.container_12 .prefix_5 {
+	padding-left: 400px;
+}
+.container_12 .prefix_7 {
+	padding-left: 560px;
+}
+.container_12 .prefix_8 {
+	padding-left: 640px;
+}
+.container_12 .prefix_10 {
+	padding-left: 800px;
+}
+.container_12 .prefix_11 {
+	padding-left: 880px;
+}
+.container_16 .prefix_1 {
+	padding-left: 60px;
+}
+.container_16 .prefix_2 {
+	padding-left: 120px;
+}
+.container_16 .prefix_3 {
+	padding-left: 180px;
+}
+.container_16 .prefix_5 {
+=09
+}
+.container_16 .prefix_6 {
+	padding-left: 360px;
+}
+.container_16 .prefix_7 {
+	padding-left: 420px;
+}
+.container_16 .prefix_9 {
+	padding-left: 540px;
+}
+.container_16 .prefix_10 {
+	padding-left: 600px;
+}
+.container_16 .prefix_11 {
+	padding-left: 660px;
+}
+.container_16 .prefix_13 {
+	padding-left: 780px;
+}
+.container_16 .prefix_14 {
+	padding-left: 840px;
+}
+.container_16 .prefix_15 {
+	padding-left: 900px;
+}
+.container_12 .suffix_3 {
+	padding-right: 240px;
+}
+.container_16 .suffix_4 {
+	padding-right: 240px;
+}
+.container_12 .suffix_6 {
+	padding-right: 480px;
+}
+.container_16 .suffix_8 {
+	padding-right: 480px;
+}
+.container_12 .suffix_9 {
+	padding-right: 720px;
+}
+.container_16 .suffix_12 {
+	padding-right: 720px;
+}
+.container_12 .suffix_1 {
+	padding-right: 80px;
+}
+.container_12 .suffix_2 {
+	padding-right: 160px;
+}
+.container_12 .suffix_4 {
+	padding-right: 320px;
+}
+.container_12 .suffix_5 {
+	padding-right: 400px;
+}
+.container_12 .suffix_7 {
+	padding-right: 560px;
+}
+.container_12 .suffix_8 {
+	padding-right: 640px;
+}
+.container_12 .suffix_10 {
+	padding-right: 800px;
+}
+.container_12 .suffix_11 {
+	padding-right: 880px;
+}
+.container_16 .suffix_1 {
+	padding-right: 60px;
+}
+.container_16 .suffix_2 {
+	padding-right: 120px;
+}
+.container_16 .suffix_3 {
+	padding-right: 180px;
+}
+.container_16 .suffix_5 {
+	padding-right: 300px;
+}
+.container_16 .suffix_6 {
+	padding-right: 360px;
+}
+.container_16 .suffix_7 {
+	padding-right: 420px;
+}
+.container_16 .suffix_9 {
+	padding-right: 540px;
+}
+.container_16 .suffix_10 {
+	padding-right: 600px;
+}
+.container_16 .suffix_11 {
+	padding-right: 660px;
+}
+.container_16 .suffix_13 {
+	padding-right: 780px;
+}
+.container_16 .suffix_14 {
+	padding-right: 840px;
+}
+.container_16 .suffix_15 {
+	padding-right: 900px;
+}
+html body * span.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * div.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * li.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * dd.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: =
+".";
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/grid.css
+
+.container_12 {
+	width: 92%; margin-right: 4%; margin-left: 4%;
+}
+.container_16 {
+	width: 92%; margin-right: 4%; margin-left: 4%;
+}
+.grid_1 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_2 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_3 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_4 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_5 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_6 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_7 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_8 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_9 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_11 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_12 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_13 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_14 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_15 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.grid_16 {
+	margin-right: 1%; margin-left: 1%; float: left; display: inline;
+}
+.container_12 .grid_3 {
+	width: 23%;
+}
+.container_16 .grid_4 {
+	width: 23%;
+}
+.container_12 .grid_6 {
+	width: 48%;
+}
+.container_16 .grid_8 {
+	width: 48%;
+}
+.container_12 .grid_9 {
+	width: 73%;
+}
+.container_16 .grid_12 {
+	width: 73%;
+}
+.container_16 .grid_16 {
+	width: 98%;
+}
+.container_12 .grid_12 {
+	width: 98%;
+}
+.alpha {
+	margin-left: 0px;
+}
+.omega {
+	margin-right: 0px;
+}
+.container_12 .grid_1 {
+	width: 6.33%;
+}
+.container_12 .grid_2 {
+	width: 14.66%;
+}
+.container_12 .grid_4 {
+	width: 31.33%;
+}
+.container_12 .grid_5 {
+	width: 39.66%;
+}
+.container_12 .grid_7 {
+	width: 56.33%;
+}
+.container_12 .grid_8 {
+	width: 64.66%;
+}
+.container_12 .grid_10 {
+	width: 81.33%;
+}
+.container_12 .grid_11 {
+	width: 89.66%;
+}
+.container_16 .grid_1 {
+	width: 4.25%;
+}
+.container_16 .grid_2 {
+	width: 10.5%;
+}
+.container_16 .grid_3 {
+	width: 16.75%;
+}
+.container_16 .grid_5 {
+	width: 29.25%;
+}
+.container_16 .grid_6 {
+	width: 35.5%;
+}
+.container_16 .grid_7 {
+	width: 41.75%;
+}
+.container_16 .grid_9 {
+	width: 54.25%;
+}
+.container_16 .grid_10 {
+	width: 60.5%;
+}
+.container_16 .grid_11 {
+	text-align: center;
+}
+.grid_11 .prefix_5 {
+	text-align: center;
+}
+.container_16 .grid_13 {
+	width: 79.25%;
+}
+.container_16 .grid_14 {
+	width: 85.5%;
+}
+.container_16 .grid_15 {
+	width: 91.75%;
+}
+.container_12 .prefix_3 {
+	padding-left: 25%;
+}
+.container_16 .prefix_4 {
+	padding-left: 25%;
+}
+.container_12 .prefix_6 {
+	padding-left: 50%;
+}
+.container_16 .prefix_8 {
+	padding-left: 50%;
+}
+.container_12 .prefix_9 {
+	padding-left: 75%;
+}
+.container_16 .prefix_12 {
+	padding-left: 75%;
+}
+.container_12 .prefix_1 {
+	padding-left: 8.33%;
+}
+.container_12 .prefix_2 {
+	padding-left: 16.66%;
+}
+.container_12 .prefix_4 {
+	padding-left: 33.33%;
+}
+.container_12 .prefix_5 {
+	padding-left: 41.66%;
+}
+.container_12 .prefix_7 {
+	padding-left: 58.33%;
+}
+.container_12 .prefix_8 {
+	padding-left: 66.66%;
+}
+.container_12 .prefix_10 {
+	padding-left: 83.33%;
+}
+.container_12 .prefix_11 {
+	padding-left: 91.66%;
+}
+.container_16 .prefix_1 {
+	padding-left: 6.25%;
+}
+.container_16 .prefix_2 {
+	padding-left: 12.5%;
+}
+.container_16 .prefix_3 {
+	padding-left: 18.75%;
+}
+.container_16 .prefix_5 {
+	margin: 0px auto;
+}
+.container_16 .prefix_6 {
+	padding-left: 37.5%;
+}
+.container_16 .prefix_7 {
+	padding-left: 43.75%;
+}
+.container_16 .prefix_9 {
+	padding-left: 56.25%;
+}
+.container_16 .prefix_10 {
+	padding-left: 62.5%;
+}
+.container_16 .prefix_11 {
+	padding-left: 68.75%;
+}
+.container_16 .prefix_13 {
+	padding-left: 81.25%;
+}
+.container_16 .prefix_14 {
+	padding-left: 87.5%;
+}
+.container_16 .prefix_15 {
+	padding-left: 93.75%;
+}
+.container_12 .suffix_3 {
+	padding-right: 25%;
+}
+.container_16 .suffix_4 {
+	padding-right: 25%;
+}
+.container_12 .suffix_6 {
+	padding-right: 50%;
+}
+.container_16 .suffix_8 {
+	padding-right: 50%;
+}
+.container_12 .suffix_9 {
+	padding-right: 75%;
+}
+.container_16 .suffix_12 {
+	padding-right: 75%;
+}
+.container_12 .suffix_1 {
+	padding-right: 8.33%;
+}
+.container_12 .suffix_2 {
+	padding-right: 16.66%;
+}
+.container_12 .suffix_4 {
+	padding-right: 33.33%;
+}
+.container_12 .suffix_5 {
+	padding-right: 41.66%;
+}
+.container_12 .suffix_7 {
+	padding-right: 58.33%;
+}
+.container_12 .suffix_8 {
+	padding-right: 66.66%;
+}
+.container_12 .suffix_10 {
+	padding-right: 83.33%;
+}
+.container_12 .suffix_11 {
+	padding-right: 91.66%;
+}
+.container_16 .suffix_1 {
+	padding-right: 6.25%;
+}
+.container_16 .suffix_2 {
+	padding-right: 16.5%;
+}
+.container_16 .suffix_3 {
+	padding-right: 18.75%;
+}
+.container_16 .suffix_5 {
+	padding-right: 31.25%;
+}
+.container_16 .suffix_6 {
+	padding-right: 37.5%;
+}
+.container_16 .suffix_7 {
+	padding-right: 43.75%;
+}
+.container_16 .suffix_9 {
+	padding-right: 56.25%;
+}
+.container_16 .suffix_10 {
+	padding-right: 62.5%;
+}
+.container_16 .suffix_11 {
+	padding-right: 68.75%;
+}
+.container_16 .suffix_13 {
+	padding-right: 81.25%;
+}
+.container_16 .suffix_14 {
+	padding-right: 87.5%;
+}
+.container_16 .suffix_15 {
+	padding-right: 93.75%;
+}
+html body * span.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * div.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * li.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+html body * dd.clear {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; =
+width: 0px; height: 0px; overflow: hidden; clear: both; font-size: 0px; =
+float: none; display: block; visibility: hidden;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: =
+".";
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+#featured_switcher {
+	margin: 0px auto; text-align: center;
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/licenses/layout.css
+
+body {
+	background: rgb(238, 238, 238); padding: 0px 0px 40px; color: rgb(51, =
+51, 51); font-size: 11px; border-top-color: rgb(0, 0, 0); =
+border-top-width: 5px; border-top-style: solid;
+}
+a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+a:hover {
+	color: rgb(51, 51, 51);
+}
+.container_12 {
+	background: rgb(255, 255, 255);
+}
+.container_16 {
+	background: rgb(255, 255, 255);
+}
+h1 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h2 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h3 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h4 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h5 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h6 {
+	line-height: 1.2em; margin-bottom: 0.3em;
+}
+h2 {
+	margin-top: 1em;
+}
+h5 {
+	font-size: 1.2em;
+}
+h6 {
+	text-transform: uppercase; font-size: 1em;
+}
+h1 a {
+	font-weight: normal;
+}
+h1#branding {
+	background: rgb(170, 170, 170); padding: 0.7em 1em; text-align: left; =
+font-size: 3em; font-weight: normal; margin-bottom: 0px;
+}
+h2#page-heading {
+	margin: 0px 0px 10px; padding: 0.5em; font-weight: normal; =
+border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+.box {
+	background: rgb(221, 221, 221); padding: 10px 10px 1px; margin-bottom: =
+20px;
+}
+.box h2 {
+	background: rgb(51, 51, 51); margin: -10px -10px 0px; padding: 6px =
+12px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: =
+1em; font-weight: normal;
+}
+.box h2 a {
+	background: url("../img/switch_minus.gif") no-repeat 97% 50% rgb(51, =
+51, 51); margin: -6px -12px; padding: 6px 12px; border: currentColor; =
+color: rgb(255, 255, 255); display: block;
+}
+.box h2 a.visible {
+	background: url("../img/switch_minus.gif") no-repeat 97% 50% rgb(51, =
+51, 51); margin: -6px -12px; padding: 6px 12px; border: currentColor; =
+color: rgb(255, 255, 255); display: block;
+}
+.grid_4 .box h2 a {
+	background-position: 97% 50%;
+}
+.grid_5 .box h2 a {
+	background-position: 98% 50%;
+}
+.grid_12 .box h2 a {
+	background-position: 99% 50%;
+}
+.box h2 a.hidden {
+	background-image: url("../img/switch_plus.gif");
+}
+.box h2 a.hidden:hover {
+	background-image: url("../img/switch_plus.gif");
+}
+.box h2 a:hover {
+	background-color: rgb(17, 17, 17);
+}
+.block {
+	padding-top: 10px;
+}
+div.menu {
+	padding: 0px;
+}
+div.menu h2 {
+	margin: 0px;
+}
+div.menu .block {
+	padding-top: 0px;
+}
+p {
+	margin-bottom: 1em;
+}
+blockquote {
+	padding-left: 1em; font-family: Georgia, "Times New Roman", serif; =
+font-size: 1.2em; border-left-color: rgb(204, 204, 204); =
+border-left-width: 4px; border-left-style: solid;
+}
+blockquote cite {
+	font-size: 0.9em;
+}
+ul {
+	padding-top: 0px;
+}
+ol {
+	padding-top: 0px;
+}
+ul.menu {
+	list-style: none; border-top-color: rgb(187, 187, 187); =
+border-top-width: 1px; border-top-style: solid;
+}
+ul.menu li {
+	margin: 0px;
+}
+ul.menu li a {
+	padding: 4px 10px; border-bottom-color: rgb(204, 204, 204); =
+border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+ul.menu li a:hover {
+	background: rgb(238, 238, 238);
+}
+ul.menu li a:active {
+	background: rgb(204, 204, 204);
+}
+ul.menu ul {
+	list-style: none; margin: 0px;
+}
+ul.menu ul li a {
+	padding-left: 30px;
+}
+ul.section {
+	margin-bottom: 0px; border-top-color: currentColor; border-top-width: =
+0px; border-top-style: none;
+}
+ul.section li {
+	text-transform: uppercase;
+}
+ul.section li a {
+	background: rgb(187, 187, 187);
+}
+ul.section li a:hover {
+	background: rgb(170, 170, 170);
+}
+ul.section li a:active {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+ul.section li li a {
+	background: rgb(221, 221, 221); border-bottom-color: rgb(238, 238, =
+238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.section li li a:hover {
+	background: rgb(204, 204, 204);
+}
+ul.section li li a:active {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+ul.section ul li {
+	text-transform: none;
+}
+ul.section ul.current li a {
+	background: rgb(238, 238, 238); border-bottom-color: rgb(255, 255, =
+255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.section ul.current li a:hover {
+	background: rgb(221, 221, 221);
+}
+ul.section ul.current li a:active {
+	background: rgb(255, 255, 255);
+}
+ul.section li a.current {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+ul.section li a.current:hover {
+	background: rgb(85, 85, 85);
+}
+ul.section li a.current:active {
+	background: rgb(68, 68, 68);
+}
+ul.section li a.active {
+	background: rgb(255, 255, 255); cursor: default;
+}
+ul.section li.current > a.active {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255); cursor: =
+default;
+}
+ul.section li.current > a.active:hover {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255); cursor: =
+default;
+}
+table {
+	border: 1px solid rgb(187, 187, 187); width: 100%; margin-bottom: 10px;
+}
+col.colC {
+	width: 8em;
+}
+th {
+	padding: 0.2em 1em; text-align: left;
+}
+td {
+	padding: 0.2em 1em; text-align: left;
+}
+thead th {
+	background: rgb(187, 187, 187); padding: 0.4em 1em 0.2em; =
+border-bottom-color: rgb(136, 136, 136); border-bottom-width: 2px; =
+border-bottom-style: solid;
+}
+thead th.table-head {
+	background: rgb(85, 85, 85); border: 1px solid rgb(85, 85, 85); color: =
+rgb(255, 255, 255); text-transform: uppercase; font-size: 1em; =
+font-weight: normal;
+}
+tbody th {
+	background: rgb(238, 238, 238); border-top-color: rgb(187, 187, 187); =
+border-bottom-color: rgb(187, 187, 187); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid;
+}
+tbody td {
+	background: rgb(238, 238, 238); border-top-color: rgb(187, 187, 187); =
+border-bottom-color: rgb(187, 187, 187); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid;
+}
+tbody tr.odd th {
+	background: rgb(255, 255, 255);
+}
+tbody tr.odd td {
+	background: rgb(255, 255, 255);
+}
+tfoot th {
+	background: rgb(238, 238, 238); border-top-color: rgb(102, 102, 102); =
+border-top-width: 2px; border-top-style: solid;
+}
+tfoot td {
+	background: rgb(238, 238, 238); border-top-color: rgb(102, 102, 102); =
+border-top-width: 2px; border-top-style: solid;
+}
+tfoot tr.total th {
+	border-top-color: rgb(102, 102, 102); border-top-width: 6px; =
+border-top-style: double;
+}
+tfoot tr.total td {
+	border-top-color: rgb(102, 102, 102); border-top-width: 6px; =
+border-top-style: double;
+}
+tfoot tr.total th {
+	text-transform: uppercase;
+}
+th.currency {
+	text-align: right;
+}
+td.currency {
+	text-align: right;
+}
+form {
+	overflow: hidden;
+}
+fieldset {
+	background: rgb(233, 233, 233); padding: 10px; border: 1px solid =
+rgb(187, 187, 187); margin-bottom: 10px; position: relative;
+}
+legend {
+	background: rgb(255, 255, 255); padding: 0.4em 0.8em; border: 1px solid =
+rgb(187, 187, 187); font-size: 1.1em;
+}
+fieldset.login p {
+	margin-top: 0pt; margin-bottom: 1em;
+}
+fieldset p label {
+	width: 98%;
+}
+fieldset p input {
+	width: 98%;
+}
+fieldset p select {
+	width: 99%;
+}
+fieldset.login p label {
+	width: 32%; text-align: right; line-height: 2em; margin-right: 3%; =
+float: left;
+}
+fieldset.login p input {
+	width: 60%;
+}
+fieldset.login input.button {
+	margin-left: 35%;
+}
+form p.notice {
+	font-weight: bold;
+}
+input.text.search {
+	width: 66%;
+}
+input.button.search {
+	width: 28%; margin-left: 2%;
+}
+.articles {
+	padding: 0px;
+}
+.articles h2 {
+	margin: 0px;
+}
+#articles {
+	padding-top: 0px;
+}
+.article {
+	padding-top: 0.5em; border-top-color: rgb(102, 102, 102); =
+border-top-width: 1px; border-top-style: solid;
+}
+.box .article {
+	padding: 13px 10px 0px; border-top-color: rgb(255, 255, 255); =
+border-top-width: 3px; border-top-style: solid;
+}
+.article h2 {
+	margin: 0px; padding: 0px; border: currentColor; color: rgb(51, 51, =
+51); text-transform: none; font-size: 2em; font-weight: normal;
+}
+.article h3 {
+	font-size: 1.6em; margin-bottom: 0.2em;
+}
+.box .first {
+	border-top-color: currentColor; border-top-width: medium; =
+border-top-style: none;
+}
+.article h4 {
+	text-transform: uppercase; font-size: 1.2em; margin-bottom: 0.5em;
+}
+.article a.image {
+	background: rgb(255, 255, 255); margin: 3px 10px 3px 0px; padding: 4px; =
+border: 1px solid rgb(187, 187, 187); float: left;
+}
+.article a.image:hover {
+	border: 1px solid rgb(102, 102, 102);
+}
+.article a.image img {
+	float: left;
+}
+.article p.meta {
+	padding: 0.3em 0px; color: rgb(102, 102, 102); margin-bottom: 0.8em; =
+border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, =
+153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+dotted; border-bottom-style: dotted;
+}
+#site_info .box {
+	background: rgb(102, 102, 102); color: rgb(204, 204, 204); =
+margin-bottom: 10px;
+}
+#site_info a {
+	color: rgb(255, 255, 255);
+}
+#site_info a:hover {
+	color: rgb(0, 0, 0);
+}
+#loading {
+	margin-top: -2px; margin-right: 14px; float: right;
+}
+.block {
+	padding-bottom: 1px;
+}
+.toggler {
+	background: rgb(238, 238, 238); border-width: 1px; border-style: solid; =
+border-color: rgb(245, 245, 245) rgb(221, 221, 221) rgb(221, 221, 221) =
+rgb(245, 245, 245); margin: 0px; padding: 2px 5px; color: rgb(34, 34, =
+34); font-size: 1.1em; font-weight: normal;
+}
+.element h4 {
+	margin: 0px; padding: 4px; line-height: 1.2em;
+}
+.element p {
+	margin: 0px; padding: 4px;
+}
+.float-right {
+	padding: 10px 20px; float: right;
+}
+#accordian-block {
+	padding-bottom: 10px;
+}
+#kwick-box {
+	padding: 0px; overflow: hidden;
+}
+#kwick-box h2 {
+	margin: 0px;
+}
+#kwick {
+	position: relative;
+}
+#kwick .kwicks {
+	background: rgb(153, 153, 153); list-style: none; margin: 0px; height: =
+120px; overflow: hidden; display: block;
+}
+#kwick li {
+	margin: 0px; padding: 0px; float: left;
+}
+#kwick .kwick {
+	background: rgb(255, 255, 255); padding: 10px; width: 215px; height: =
+100px; overflow: hidden; display: block; cursor: pointer;
+}
+#kwick .kwick span {
+	color: rgb(255, 255, 255);
+}
+#kwick .one {
+	background: rgb(102, 102, 102);
+}
+#kwick .two {
+	background: rgb(119, 119, 119);
+}
+#kwick .three {
+	background: rgb(136, 136, 136);
+}
+#kwick .four {
+	background: rgb(153, 153, 153);
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/css/style.css
+
+@import url( reset.css );
+@import url( text.css );
+@import url( 960.css );
+@import url( grid.css );
+@import url( layout.css );
+a {
+	color: rgb(62, 79, 144);
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+	background: rgb(221, 221, 221); min-width: 1063px;
+}
+.container_16 {
+	background: rgb(255, 255, 255); border-top-color: rgb(204, 204, 204); =
+border-bottom-color: rgb(187, 187, 187); border-top-width: 1px; =
+border-bottom-width: 2px; border-top-style: solid; border-bottom-style: =
+solid;
+}
+#header h1 {
+	font-size: 18px; margin-top: 25px; margin-bottom: 30px; margin-left: =
+0px;
+}
+#header h2 {
+	font-size: 18px; font-style: italic; font-weight: normal; margin-top: =
+20px; margin-left: 10px;
+}
+#header img {
+	margin: 5px 20px 10px 5px; float: left;
+}
+#nav ul {
+	margin-top: 3px; float: right;
+}
+#nav ul li {
+	margin: 5px 0px; float: left; display: inline;
+}
+#nav ul li a {
+	background: rgb(48, 50, 132); padding: 10px; color: rgb(255, 255, 255);
+}
+#nav ul li a:hover {
+	background: url("../images/overlay.png") repeat-y rgb(62, 79, 144); =
+text-decoration: none;
+}
+#nav p {
+	width: 100%; float: left;
+}
+#intro {
+	margin-top: 40px;
+}
+#featured_intro {
+	margin-top: 40px;
+}
+#intro div {
+	padding-right: 10px; padding-bottom: 20px;
+}
+#intro h3 {
+	font-size: 20px; font-weight: bold;
+}
+#intro h3 span {
+	font-size: 15px; font-weight: normal; display: block;
+}
+#featured_intro div {
+	font-size: 20px;
+}
+#content {
+	margin-top: 10px;
+}
+#news {
+	margin-top: 10px;
+}
+#footer {
+	margin-top: 10px;
+}
+.section-content {
+	font-size: 15px;
+}
+#featured_intro {
+	padding-bottom: 20px;
+}
+#news {
+	padding-bottom: 20px;
+}
+#featured_intro h4 {
+	font-size: 25px; font-weight: bold;
+}
+#featured_intro h4 span {
+	font-size: 20px; font-weight: normal; display: block;
+}
+#featured_projs ul li {
+	list-style: none; padding: 0px 40px; float: left; display: none;
+}
+#featured_projs ul li p.description {
+	font-size: 14px;
+}
+#featured_projs ul li p {
+	margin-bottom: 5px;
+}
+#featured_switcher {
+	background: rgb(48, 50, 132); width: 100%; text-align: center; =
+margin-right: 0px; margin-bottom: -2px; margin-left: 0px; =
+border-bottom-color: rgb(48, 50, 132); border-bottom-width: 3px; =
+border-bottom-style: solid;
+}
+#featured_switcher ul {
+	margin-top: 3px; margin-left: 10px;
+}
+#featured_switcher ul li {
+	margin: 5px 1px; color: rgb(255, 255, 255); font-size: 12px; =
+font-weight: bold; float: left; display: inline;
+}
+#featured_switcher ul li a {
+	padding: 10px; color: rgb(255, 255, 255);
+}
+#featured_switcher #label {
+	margin-right: 5px;
+}
+#featured_switcher ul li a:hover {
+	background: url("../images/overlay.png") repeat-y rgb(62, 79, 144); =
+color: rgb(255, 255, 255); text-decoration: none;
+}
+#featured_switcher ul li .active {
+	background: url("../images/overlay.png") repeat-y rgb(62, 79, 144);
+}
+#nav ul li .active {
+	background: url("../images/overlay.png") repeat-y rgb(62, 79, 144);
+}
+#news {
+	padding-top: 40px;
+}
+#footer {
+	padding-top: 40px;
+}
+#news #news_feed {
+	padding-left: 10px;
+}
+#news_feed {
+	background: url("../images/shadown.png") no-repeat right top; overflow: =
+hidden;
+}
+#news {
+	padding-bottom: 30px;
+}
+#news .section-content {
+	margin-bottom: 20px;
+}
+#news .section-content p {
+	font-size: 13px;
+}
+#news .section-content pre {
+	font-size: 13px;
+}
+#news .section-content img {
+	padding: 0px 5px; float: right;
+}
+#news .section-content table {
+	border: 0px currentColor; font-size: 13px;
+}
+#news .section-content table tbody td {
+	background: rgb(255, 255, 255); padding: 10px 0px; border-top-color: =
+rgb(187, 187, 187); border-bottom-color: rgb(187, 187, 187); =
+border-top-width: 0px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+tbody th {
+	background: rgb(255, 255, 255); padding: 10px 0px; border-top-color: =
+rgb(187, 187, 187); border-bottom-color: rgb(187, 187, 187); =
+border-top-width: 0px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+#latest_activity {
+	padding: 0px 20px;
+}
+#project_menu {
+	padding: 0px 20px;
+}
+#latest_activity .section-content {
+	overflow: hidden; font-size: 15px;
+}
+#footer .links {
+	padding: 10px;
+}
+#footer ul li {
+	font-size: 14px;
+}
+#footer ul li#more {
+	list-style: none;
+}
+#copyright {
+	font-size: 15px; margin-top: 20px;
+}
+#copyright {
+	border-top-color: currentColor; border-bottom-color: currentColor; =
+border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; =
+border-bottom-style: none;
+}
+#impact {
+	padding-bottom: 20px;
+}
+#impact h4 {
+	margin-bottom: 15px;
+}
+#impact div {
+	padding-right: 30px;
+}
+#impact hr {
+	width: 90%; margin-right: 10%; float: left;
+}
+#page {
+	border-top-color: currentColor; border-top-width: 0px; =
+border-top-style: none;
+}
+.bug {
+	background: url("../images/bug.jpg") no-repeat left; padding-left: =
+20px;
+}
+.svn {
+	background: url("../images/svn.jpg") no-repeat left; padding-left: =
+20px;
+}
+#search {
+	float: right;
+}
+#search input[type=3Dtext] {
+	width: 300px; color: rgb(170, 170, 170); font-size: 13px;
+}
+#project_menu ul li {
+	font-size: 14px;
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://www.apache.org/css/code.css
+
+.codehilite .hll {
+	background-color: rgb(255, 255, 204);
+}
+.codehilite {
+	background: rgb(240, 240, 240);
+}
+.codehilite .c {
+	color: rgb(96, 160, 176); font-style: italic;
+}
+.codehilite .err {
+	border: 1px solid rgb(255, 0, 0);
+}
+.codehilite .k {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .o {
+	color: rgb(102, 102, 102);
+}
+.codehilite .cm {
+	color: rgb(96, 160, 176); font-style: italic;
+}
+.codehilite .cp {
+	color: rgb(0, 112, 32);
+}
+.codehilite .c1 {
+	color: rgb(96, 160, 176); font-style: italic;
+}
+.codehilite .cs {
+	color: rgb(96, 160, 176); background-color: rgb(255, 240, 240);
+}
+.codehilite .gd {
+	color: rgb(160, 0, 0);
+}
+.codehilite .ge {
+	font-style: italic;
+}
+.codehilite .gr {
+	color: rgb(255, 0, 0);
+}
+.codehilite .gh {
+	color: rgb(0, 0, 128); font-weight: bold;
+}
+.codehilite .gi {
+	color: rgb(0, 160, 0);
+}
+.codehilite .go {
+	color: rgb(128, 128, 128);
+}
+.codehilite .gp {
+	color: rgb(198, 93, 9); font-weight: bold;
+}
+.codehilite .gs {
+	font-weight: bold;
+}
+.codehilite .gu {
+	color: rgb(128, 0, 128); font-weight: bold;
+}
+.codehilite .gt {
+	color: rgb(0, 64, 208);
+}
+.codehilite .kc {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .kd {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .kn {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .kp {
+	color: rgb(0, 112, 32);
+}
+.codehilite .kr {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .kt {
+	color: rgb(144, 32, 0);
+}
+.codehilite .m {
+	color: rgb(64, 160, 112);
+}
+.codehilite .s {
+	color: rgb(64, 112, 160);
+}
+.codehilite .na {
+	color: rgb(64, 112, 160);
+}
+.codehilite .nb {
+	color: rgb(0, 112, 32);
+}
+.codehilite .nc {
+	color: rgb(14, 132, 181); font-weight: bold;
+}
+.codehilite .no {
+	color: rgb(96, 173, 213);
+}
+.codehilite .nd {
+	color: rgb(85, 85, 85); font-weight: bold;
+}
+.codehilite .ni {
+	color: rgb(213, 85, 55); font-weight: bold;
+}
+.codehilite .ne {
+	color: rgb(0, 112, 32);
+}
+.codehilite .nf {
+	color: rgb(6, 40, 126);
+}
+.codehilite .nl {
+	color: rgb(0, 32, 112); font-weight: bold;
+}
+.codehilite .nn {
+	color: rgb(14, 132, 181); font-weight: bold;
+}
+.codehilite .nt {
+	color: rgb(6, 40, 115); font-weight: bold;
+}
+.codehilite .nv {
+	color: rgb(187, 96, 213);
+}
+.codehilite .ow {
+	color: rgb(0, 112, 32); font-weight: bold;
+}
+.codehilite .w {
+	color: rgb(187, 187, 187);
+}
+.codehilite .mf {
+	color: rgb(64, 160, 112);
+}
+.codehilite .mh {
+	color: rgb(64, 160, 112);
+}
+.codehilite .mi {
+	color: rgb(64, 160, 112);
+}
+.codehilite .mo {
+	color: rgb(64, 160, 112);
+}
+.codehilite .sb {
+	color: rgb(64, 112, 160);
+}
+.codehilite .sc {
+	color: rgb(64, 112, 160);
+}
+.codehilite .sd {
+	color: rgb(64, 112, 160); font-style: italic;
+}
+.codehilite .s2 {
+	color: rgb(64, 112, 160);
+}
+.codehilite .se {
+	color: rgb(64, 112, 160); font-weight: bold;
+}
+.codehilite .sh {
+	color: rgb(64, 112, 160);
+}
+.codehilite .si {
+	color: rgb(112, 160, 208); font-style: italic;
+}
+.codehilite .sx {
+	color: rgb(198, 93, 9);
+}
+.codehilite .sr {
+	color: rgb(35, 83, 136);
+}
+.codehilite .s1 {
+	color: rgb(64, 112, 160);
+}
+.codehilite .ss {
+	color: rgb(81, 121, 24);
+}
+.codehilite .bp {
+	color: rgb(0, 112, 32);
+}
+.codehilite .vc {
+	color: rgb(187, 96, 213);
+}
+.codehilite .vg {
+	color: rgb(187, 96, 213);
+}
+.codehilite .vi {
+	color: rgb(187, 96, 213);
+}
+.codehilite .il {
+	color: rgb(64, 160, 112);
+}
+
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/js/jquery.js
+
+/*=0A=
+ * jQuery 1.2.6 - New Wave Javascript=0A=
+ *=0A=
+ * Copyright (c) 2008 John Resig (jquery.com)=0A=
+ * Dual licensed under the MIT (MIT-LICENSE.txt)=0A=
+ * and GPL (GPL-LICENSE.txt) licenses.=0A=
+ *=0A=
+ * $Date: 2008-11-28 18:23:57 -0600 (Fri, 28 Nov 2008) $=0A=
+ * $Rev: 721596 $=0A=
+ */=0A=
+(function(){var _jQuery=3Dwindow.jQuery,_$=3Dwindow.$;var =
+jQuery=3Dwindow.jQuery=3Dwindow.$=3Dfunction(selector,context){return =
+new jQuery.fn.init(selector,context);};var =
+quickExpr=3D/^[^<]*(<(.|\s)+>)[^>]*$|^#(\w+)$/,isSimple=3D/^.[^:#\[\.]*$/=
+,undefined;jQuery.fn=3DjQuery.prototype=3D{init:function(selector,context=
+){selector=3Dselector||document;if(selector.nodeType){this[0]=3Dselector;=
+this.length=3D1;return this;}if(typeof selector=3D=3D"string"){var =
+match=3DquickExpr.exec(selector);if(match&&(match[1]||!context)){if(match=
+[1])selector=3DjQuery.clean([match[1]],context);else{var =
+elem=3Ddocument.getElementById(match[3]);if(elem){if(elem.id!=3Dmatch[3])=
+return jQuery().find(selector);return jQuery(elem);}selector=3D[];}}else=0A=
+return jQuery(context).find(selector);}else =
+if(jQuery.isFunction(selector))return =
+jQuery(document)[jQuery.fn.ready?"ready":"load"](selector);return =
+this.setArray(jQuery.makeArray(selector));},jquery:"1.2.6",size:function(=
+){return this.length;},length:0,get:function(num){return =
+num=3D=3Dundefined?jQuery.makeArray(this):this[num];},pushStack:function(=
+elems){var ret=3DjQuery(elems);ret.prevObject=3Dthis;return =
+ret;},setArray:function(elems){this.length=3D0;Array.prototype.push.apply=
+(this,elems);return this;},each:function(callback,args){return =
+jQuery.each(this,callback,args);},index:function(elem){var =
+ret=3D-1;return =
+jQuery.inArray(elem&&elem.jquery?elem[0]:elem,this);},attr:function(name,=
+value,type){var =
+options=3Dname;if(name.constructor=3D=3DString)if(value=3D=3D=3Dundefined=
+)return =
+this[0]&&jQuery[type||"attr"](this[0],name);else{options=3D{};options[nam=
+e]=3Dvalue;}return this.each(function(i){for(name in =
+options)jQuery.attr(type?this.style:this,name,jQuery.prop(this,options[na=
+me],type,i,name));});},css:function(key,value){if((key=3D=3D'width'||key=3D=
+=3D'height')&&parseFloat(value)<0)value=3Dundefined;return =
+this.attr(key,value,"curCSS");},text:function(text){if(typeof =
+text!=3D"object"&&text!=3Dnull)return =
+this.empty().append((this[0]&&this[0].ownerDocument||document).createText=
+Node(text));var =
+ret=3D"";jQuery.each(text||this,function(){jQuery.each(this.childNodes,fu=
+nction(){if(this.nodeType!=3D8)ret+=3Dthis.nodeType!=3D1?this.nodeValue:j=
+Query.fn.text([this]);});});return =
+ret;},wrapAll:function(html){if(this[0])jQuery(html,this[0].ownerDocument=
+).clone().insertBefore(this[0]).map(function(){var =
+elem=3Dthis;while(elem.firstChild)elem=3Delem.firstChild;return =
+elem;}).append(this);return this;},wrapInner:function(html){return =
+this.each(function(){jQuery(this).contents().wrapAll(html);});},wrap:func=
+tion(html){return =
+this.each(function(){jQuery(this).wrapAll(html);});},append:function(){re=
+turn =
+this.domManip(arguments,true,false,function(elem){if(this.nodeType=3D=3D1=
+)this.appendChild(elem);});},prepend:function(){return =
+this.domManip(arguments,true,true,function(elem){if(this.nodeType=3D=3D1)=
+this.insertBefore(elem,this.firstChild);});},before:function(){return =
+this.domManip(arguments,false,false,function(elem){this.parentNode.insert=
+Before(elem,this);});},after:function(){return =
+this.domManip(arguments,false,true,function(elem){this.parentNode.insertB=
+efore(elem,this.nextSibling);});},end:function(){return =
+this.prevObject||jQuery([]);},find:function(selector){var =
+elems=3DjQuery.map(this,function(elem){return =
+jQuery.find(selector,elem);});return this.pushStack(/[^+>] =
+[^+>]/.test(selector)||selector.indexOf("..")>-1?jQuery.unique(elems):ele=
+ms);},clone:function(events){var =
+ret=3Dthis.map(function(){if(jQuery.browser.msie&&!jQuery.isXMLDoc(this))=
+{var =
+clone=3Dthis.cloneNode(true),container=3Ddocument.createElement("div");co=
+ntainer.appendChild(clone);return =
+jQuery.clean([container.innerHTML])[0];}else=0A=
+return this.cloneNode(true);});var =
+clone=3Dret.find("*").andSelf().each(function(){if(this[expando]!=3Dundef=
+ined)this[expando]=3Dnull;});if(events=3D=3D=3Dtrue)this.find("*").andSel=
+f().each(function(i){if(this.nodeType=3D=3D3)return;var =
+events=3DjQuery.data(this,"events");for(var type in events)for(var =
+handler in =
+events[type])jQuery.event.add(clone[i],type,events[type][handler],events[=
+type][handler].data);});return ret;},filter:function(selector){return =
+this.pushStack(jQuery.isFunction(selector)&&jQuery.grep(this,function(ele=
+m,i){return =
+selector.call(elem,i);})||jQuery.multiFilter(selector,this));},not:functi=
+on(selector){if(selector.constructor=3D=3DString)if(isSimple.test(selecto=
+r))return this.pushStack(jQuery.multiFilter(selector,this,true));else=0A=
+selector=3DjQuery.multiFilter(selector,this);var =
+isArrayLike=3Dselector.length&&selector[selector.length-1]!=3D=3Dundefine=
+d&&!selector.nodeType;return this.filter(function(){return =
+isArrayLike?jQuery.inArray(this,selector)<0:this!=3Dselector;});},add:fun=
+ction(selector){return =
+this.pushStack(jQuery.unique(jQuery.merge(this.get(),typeof =
+selector=3D=3D'string'?jQuery(selector):jQuery.makeArray(selector))));},i=
+s:function(selector){return!!selector&&jQuery.multiFilter(selector,this).=
+length>0;},hasClass:function(selector){return =
+this.is("."+selector);},val:function(value){if(value=3D=3Dundefined){if(t=
+his.length){var elem=3Dthis[0];if(jQuery.nodeName(elem,"select")){var =
+index=3Delem.selectedIndex,values=3D[],options=3Delem.options,one=3Delem.=
+type=3D=3D"select-one";if(index<0)return null;for(var =
+i=3Done?index:0,max=3Done?index+1:options.length;i<max;i++){var =
+option=3Doptions[i];if(option.selected){value=3DjQuery.browser.msie&&!opt=
+ion.attributes.value.specified?option.text:option.value;if(one)return =
+value;values.push(value);}}return values;}else=0A=
+return(this[0].value||"").replace(/\r/g,"");}return =
+undefined;}if(value.constructor=3D=3DNumber)value+=3D'';return =
+this.each(function(){if(this.nodeType!=3D1)return;if(value.constructor=3D=
+=3DArray&&/radio|checkbox/.test(this.type))this.checked=3D(jQuery.inArray=
+(this.value,value)>=3D0||jQuery.inArray(this.name,value)>=3D0);else =
+if(jQuery.nodeName(this,"select")){var =
+values=3DjQuery.makeArray(value);jQuery("option",this).each(function(){th=
+is.selected=3D(jQuery.inArray(this.value,values)>=3D0||jQuery.inArray(thi=
+s.text,values)>=3D0);});if(!values.length)this.selectedIndex=3D-1;}else=0A=
+this.value=3Dvalue;});},html:function(value){return =
+value=3D=3Dundefined?(this[0]?this[0].innerHTML:null):this.empty().append=
+(value);},replaceWith:function(value){return =
+this.after(value).remove();},eq:function(i){return =
+this.slice(i,i+1);},slice:function(){return =
+this.pushStack(Array.prototype.slice.apply(this,arguments));},map:functio=
+n(callback){return =
+this.pushStack(jQuery.map(this,function(elem,i){return =
+callback.call(elem,i,elem);}));},andSelf:function(){return =
+this.add(this.prevObject);},data:function(key,value){var =
+parts=3Dkey.split(".");parts[1]=3Dparts[1]?"."+parts[1]:"";if(value=3D=3D=
+=3Dundefined){var =
+data=3Dthis.triggerHandler("getData"+parts[1]+"!",[parts[0]]);if(data=3D=3D=
+=3Dundefined&&this.length)data=3DjQuery.data(this[0],key);return =
+data=3D=3D=3Dundefined&&parts[1]?this.data(parts[0]):data;}else=0A=
+return =
+this.trigger("setData"+parts[1]+"!",[parts[0],value]).each(function(){jQu=
+ery.data(this,key,value);});},removeData:function(key){return =
+this.each(function(){jQuery.removeData(this,key);});},domManip:function(a=
+rgs,table,reverse,callback){var clone=3Dthis.length>1,elems;return =
+this.each(function(){if(!elems){elems=3DjQuery.clean(args,this.ownerDocum=
+ent);if(reverse)elems.reverse();}var =
+obj=3Dthis;if(table&&jQuery.nodeName(this,"table")&&jQuery.nodeName(elems=
+[0],"tr"))obj=3Dthis.getElementsByTagName("tbody")[0]||this.appendChild(t=
+his.ownerDocument.createElement("tbody"));var =
+scripts=3DjQuery([]);jQuery.each(elems,function(){var =
+elem=3Dclone?jQuery(this).clone(true)[0]:this;if(jQuery.nodeName(elem,"sc=
+ript"))scripts=3Dscripts.add(elem);else{if(elem.nodeType=3D=3D1)scripts=3D=
+scripts.add(jQuery("script",elem).remove());callback.call(obj,elem);}});s=
+cripts.each(evalScript);});}};jQuery.fn.init.prototype=3DjQuery.fn;functi=
+on =
+evalScript(i,elem){if(elem.src)jQuery.ajax({url:elem.src,async:false,data=
+Type:"script"});else=0A=
+jQuery.globalEval(elem.text||elem.textContent||elem.innerHTML||"");if(ele=
+m.parentNode)elem.parentNode.removeChild(elem);}function =
+now(){return+new Date;}jQuery.extend=3DjQuery.fn.extend=3Dfunction(){var =
+target=3Darguments[0]||{},i=3D1,length=3Darguments.length,deep=3Dfalse,op=
+tions;if(target.constructor=3D=3DBoolean){deep=3Dtarget;target=3Dargument=
+s[1]||{};i=3D2;}if(typeof target!=3D"object"&&typeof =
+target!=3D"function")target=3D{};if(length=3D=3Di){target=3Dthis;--i;}for=
+(;i<length;i++)if((options=3Darguments[i])!=3Dnull)for(var name in =
+options){var =
+src=3Dtarget[name],copy=3Doptions[name];if(target=3D=3D=3Dcopy)continue;i=
+f(deep&&copy&&typeof =
+copy=3D=3D"object"&&!copy.nodeType)target[name]=3DjQuery.extend(deep,src|=
+|(copy.length!=3Dnull?[]:{}),copy);else =
+if(copy!=3D=3Dundefined)target[name]=3Dcopy;}return target;};var =
+expando=3D"jQuery"+now(),uuid=3D0,windowData=3D{},exclude=3D/z-?index|fon=
+t-?weight|opacity|zoom|line-?height/i,defaultView=3Ddocument.defaultView|=
+|{};jQuery.extend({noConflict:function(deep){window.$=3D_$;if(deep)window=
+.jQuery=3D_jQuery;return =
+jQuery;},isFunction:function(fn){return!!fn&&typeof =
+fn!=3D"string"&&!fn.nodeName&&fn.constructor!=3DArray&&/^[\s[]?function/.=
+test(fn+"");},isXMLDoc:function(elem){return =
+elem.documentElement&&!elem.body||elem.tagName&&elem.ownerDocument&&!elem=
+.ownerDocument.body;},globalEval:function(data){data=3DjQuery.trim(data);=
+if(data){var =
+head=3Ddocument.getElementsByTagName("head")[0]||document.documentElement=
+,script=3Ddocument.createElement("script");script.type=3D"text/javascript=
+";if(jQuery.browser.msie)script.text=3Ddata;else=0A=
+script.appendChild(document.createTextNode(data));head.insertBefore(scrip=
+t,head.firstChild);head.removeChild(script);}},nodeName:function(elem,nam=
+e){return =
+elem.nodeName&&elem.nodeName.toUpperCase()=3D=3Dname.toUpperCase();},cach=
+e:{},data:function(elem,name,data){elem=3Delem=3D=3Dwindow?windowData:ele=
+m;var =
+id=3Delem[expando];if(!id)id=3Delem[expando]=3D++uuid;if(name&&!jQuery.ca=
+che[id])jQuery.cache[id]=3D{};if(data!=3D=3Dundefined)jQuery.cache[id][na=
+me]=3Ddata;return =
+name?jQuery.cache[id][name]:id;},removeData:function(elem,name){elem=3Del=
+em=3D=3Dwindow?windowData:elem;var =
+id=3Delem[expando];if(name){if(jQuery.cache[id]){delete =
+jQuery.cache[id][name];name=3D"";for(name in =
+jQuery.cache[id])break;if(!name)jQuery.removeData(elem);}}else{try{delete=
+ =
+elem[expando];}catch(e){if(elem.removeAttribute)elem.removeAttribute(expa=
+ndo);}delete jQuery.cache[id];}},each:function(object,callback,args){var =
+name,i=3D0,length=3Dobject.length;if(args){if(length=3D=3Dundefined){for(=
+name in =
+object)if(callback.apply(object[name],args)=3D=3D=3Dfalse)break;}else=0A=
+for(;i<length;)if(callback.apply(object[i++],args)=3D=3D=3Dfalse)break;}e=
+lse{if(length=3D=3Dundefined){for(name in =
+object)if(callback.call(object[name],name,object[name])=3D=3D=3Dfalse)bre=
+ak;}else=0A=
+for(var =
+value=3Dobject[0];i<length&&callback.call(value,i,value)!=3D=3Dfalse;valu=
+e=3Dobject[++i]){}}return =
+object;},prop:function(elem,value,type,i,name){if(jQuery.isFunction(value=
+))value=3Dvalue.call(elem,i);return =
+value&&value.constructor=3D=3DNumber&&type=3D=3D"curCSS"&&!exclude.test(n=
+ame)?value+"px":value;},className:{add:function(elem,classNames){jQuery.e=
+ach((classNames||"").split(/\s+/),function(i,className){if(elem.nodeType=3D=
+=3D1&&!jQuery.className.has(elem.className,className))elem.className+=3D(=
+elem.className?" =
+":"")+className;});},remove:function(elem,classNames){if(elem.nodeType=3D=
+=3D1)elem.className=3DclassNames!=3Dundefined?jQuery.grep(elem.className.=
+split(/\s+/),function(className){return!jQuery.className.has(classNames,c=
+lassName);}).join(" "):"";},has:function(elem,className){return =
+jQuery.inArray(className,(elem.className||elem).toString().split(/\s+/))>=
+-1;}},swap:function(elem,options,callback){var old=3D{};for(var name in =
+options){old[name]=3Delem.style[name];elem.style[name]=3Doptions[name];}c=
+allback.call(elem);for(var name in =
+options)elem.style[name]=3Dold[name];},css:function(elem,name,force){if(n=
+ame=3D=3D"width"||name=3D=3D"height"){var =
+val,props=3D{position:"absolute",visibility:"hidden",display:"block"},whi=
+ch=3Dname=3D=3D"width"?["Left","Right"]:["Top","Bottom"];function =
+getWH(){val=3Dname=3D=3D"width"?elem.offsetWidth:elem.offsetHeight;var =
+padding=3D0,border=3D0;jQuery.each(which,function(){padding+=3DparseFloat=
+(jQuery.curCSS(elem,"padding"+this,true))||0;border+=3DparseFloat(jQuery.=
+curCSS(elem,"border"+this+"Width",true))||0;});val-=3DMath.round(padding+=
+border);}if(jQuery(elem).is(":visible"))getWH();else=0A=
+jQuery.swap(elem,props,getWH);return Math.max(0,val);}return =
+jQuery.curCSS(elem,name,force);},curCSS:function(elem,name,force){var =
+ret,style=3Delem.style;function =
+color(elem){if(!jQuery.browser.safari)return false;var =
+ret=3DdefaultView.getComputedStyle(elem,null);return!ret||ret.getProperty=
+Value("color")=3D=3D"";}if(name=3D=3D"opacity"&&jQuery.browser.msie){ret=3D=
+jQuery.attr(style,"opacity");return =
+ret=3D=3D""?"1":ret;}if(jQuery.browser.opera&&name=3D=3D"display"){var =
+save=3Dstyle.outline;style.outline=3D"0 solid =
+black";style.outline=3Dsave;}if(name.match(/float/i))name=3DstyleFloat;if=
+(!force&&style&&style[name])ret=3Dstyle[name];else =
+if(defaultView.getComputedStyle){if(name.match(/float/i))name=3D"float";n=
+ame=3Dname.replace(/([A-Z])/g,"-$1").toLowerCase();var =
+computedStyle=3DdefaultView.getComputedStyle(elem,null);if(computedStyle&=
+&!color(elem))ret=3DcomputedStyle.getPropertyValue(name);else{var =
+swap=3D[],stack=3D[],a=3Delem,i=3D0;for(;a&&color(a);a=3Da.parentNode)sta=
+ck.unshift(a);for(;i<stack.length;i++)if(color(stack[i])){swap[i]=3Dstack=
+[i].style.display;stack[i].style.display=3D"block";}ret=3Dname=3D=3D"disp=
+lay"&&swap[stack.length-1]!=3Dnull?"none":(computedStyle&&computedStyle.g=
+etPropertyValue(name))||"";for(i=3D0;i<swap.length;i++)if(swap[i]!=3Dnull=
+)stack[i].style.display=3Dswap[i];}if(name=3D=3D"opacity"&&ret=3D=3D"")re=
+t=3D"1";}else if(elem.currentStyle){var =
+camelCase=3Dname.replace(/\-(\w)/g,function(all,letter){return =
+letter.toUpperCase();});ret=3Delem.currentStyle[name]||elem.currentStyle[=
+camelCase];if(!/^\d+(px)?$/i.test(ret)&&/^\d/.test(ret)){var =
+left=3Dstyle.left,rsLeft=3Delem.runtimeStyle.left;elem.runtimeStyle.left=3D=
+elem.currentStyle.left;style.left=3Dret||0;ret=3Dstyle.pixelLeft+"px";sty=
+le.left=3Dleft;elem.runtimeStyle.left=3DrsLeft;}}return =
+ret;},clean:function(elems,context){var =
+ret=3D[];context=3Dcontext||document;if(typeof =
+context.createElement=3D=3D'undefined')context=3Dcontext.ownerDocument||c=
+ontext[0]&&context[0].ownerDocument||document;jQuery.each(elems,function(=
+i,elem){if(!elem)return;if(elem.constructor=3D=3DNumber)elem+=3D'';if(typ=
+eof =
+elem=3D=3D"string"){elem=3Delem.replace(/(<(\w+)[^>]*?)\/>/g,function(all=
+,front,tag){return =
+tag.match(/^(abbr|br|col|img|input|link|meta|param|hr|area|embed)$/i)?all=
+:front+"></"+tag+">";});var =
+tags=3DjQuery.trim(elem).toLowerCase(),div=3Dcontext.createElement("div")=
+;var wrap=3D!tags.indexOf("<opt")&&[1,"<select =
+multiple=3D'multiple'>","</select>"]||!tags.indexOf("<leg")&&[1,"<fieldse=
+t>","</fieldset>"]||tags.match(/^<(thead|tbody|tfoot|colg|cap)/)&&[1,"<ta=
+ble>","</table>"]||!tags.indexOf("<tr")&&[2,"<table><tbody>","</tbody></t=
+able>"]||(!tags.indexOf("<td")||!tags.indexOf("<th"))&&[3,"<table><tbody>=
+<tr>","</tr></tbody></table>"]||!tags.indexOf("<col")&&[2,"<table><tbody>=
+</tbody><colgroup>","</colgroup></table>"]||jQuery.browser.msie&&[1,"div<=
+div>","</div>"]||[0,"",""];div.innerHTML=3Dwrap[1]+elem+wrap[2];while(wra=
+p[0]--)div=3Ddiv.lastChild;if(jQuery.browser.msie){var =
+tbody=3D!tags.indexOf("<table")&&tags.indexOf("<tbody")<0?div.firstChild&=
+&div.firstChild.childNodes:wrap[1]=3D=3D"<table>"&&tags.indexOf("<tbody")=
+<0?div.childNodes:[];for(var =
+j=3Dtbody.length-1;j>=3D0;--j)if(jQuery.nodeName(tbody[j],"tbody")&&!tbod=
+y[j].childNodes.length)tbody[j].parentNode.removeChild(tbody[j]);if(/^\s/=
+.test(elem))div.insertBefore(context.createTextNode(elem.match(/^\s*/)[0]=
+),div.firstChild);}elem=3DjQuery.makeArray(div.childNodes);}if(elem.lengt=
+h=3D=3D=3D0&&(!jQuery.nodeName(elem,"form")&&!jQuery.nodeName(elem,"selec=
+t")))return;if(elem[0]=3D=3Dundefined||jQuery.nodeName(elem,"form")||elem=
+.options)ret.push(elem);else=0A=
+ret=3DjQuery.merge(ret,elem);});return =
+ret;},attr:function(elem,name,value){if(!elem||elem.nodeType=3D=3D3||elem=
+.nodeType=3D=3D8)return undefined;var =
+notxml=3D!jQuery.isXMLDoc(elem),set=3Dvalue!=3D=3Dundefined,msie=3DjQuery=
+.browser.msie;name=3Dnotxml&&jQuery.props[name]||name;if(elem.tagName){va=
+r =
+special=3D/href|src|style/.test(name);if(name=3D=3D"selected"&&jQuery.bro=
+wser.safari)elem.parentNode.selectedIndex;if(name in =
+elem&&notxml&&!special){if(set){if(name=3D=3D"type"&&jQuery.nodeName(elem=
+,"input")&&elem.parentNode)throw"type property can't be =
+changed";elem[name]=3Dvalue;}if(jQuery.nodeName(elem,"form")&&elem.getAtt=
+ributeNode(name))return elem.getAttributeNode(name).nodeValue;return =
+elem[name];}if(msie&&notxml&&name=3D=3D"style")return =
+jQuery.attr(elem.style,"cssText",value);if(set)elem.setAttribute(name,""+=
+value);var =
+attr=3Dmsie&&notxml&&special?elem.getAttribute(name,2):elem.getAttribute(=
+name);return =
+attr=3D=3D=3Dnull?undefined:attr;}if(msie&&name=3D=3D"opacity"){if(set){e=
+lem.zoom=3D1;elem.filter=3D(elem.filter||"").replace(/alpha\([^)]*\)/,"")=
++(parseInt(value)+''=3D=3D"NaN"?"":"alpha(opacity=3D"+value*100+")");}ret=
+urn =
+elem.filter&&elem.filter.indexOf("opacity=3D")>=3D0?(parseFloat(elem.filt=
+er.match(/opacity=3D([^)]*)/)[1])/100)+'':"";}name=3Dname.replace(/-([a-z=
+])/ig,function(all,letter){return =
+letter.toUpperCase();});if(set)elem[name]=3Dvalue;return =
+elem[name];},trim:function(text){return(text||"").replace(/^\s+|\s+$/g,""=
+);},makeArray:function(array){var ret=3D[];if(array!=3Dnull){var =
+i=3Darray.length;if(i=3D=3Dnull||array.split||array.setInterval||array.ca=
+ll)ret[0]=3Darray;else=0A=
+while(i)ret[--i]=3Darray[i];}return =
+ret;},inArray:function(elem,array){for(var =
+i=3D0,length=3Darray.length;i<length;i++)if(array[i]=3D=3D=3Delem)return =
+i;return-1;},merge:function(first,second){var =
+i=3D0,elem,pos=3Dfirst.length;if(jQuery.browser.msie){while(elem=3Dsecond=
+[i++])if(elem.nodeType!=3D8)first[pos++]=3Delem;}else=0A=
+while(elem=3Dsecond[i++])first[pos++]=3Delem;return =
+first;},unique:function(array){var ret=3D[],done=3D{};try{for(var =
+i=3D0,length=3Darray.length;i<length;i++){var =
+id=3DjQuery.data(array[i]);if(!done[id]){done[id]=3Dtrue;ret.push(array[i=
+]);}}}catch(e){ret=3Darray;}return =
+ret;},grep:function(elems,callback,inv){var ret=3D[];for(var =
+i=3D0,length=3Delems.length;i<length;i++)if(!inv!=3D!callback(elems[i],i)=
+)ret.push(elems[i]);return ret;},map:function(elems,callback){var =
+ret=3D[];for(var i=3D0,length=3Delems.length;i<length;i++){var =
+value=3Dcallback(elems[i],i);if(value!=3Dnull)ret[ret.length]=3Dvalue;}re=
+turn ret.concat.apply([],ret);}});var =
+userAgent=3Dnavigator.userAgent.toLowerCase();jQuery.browser=3D{version:(=
+userAgent.match(/.+(?:rv|it|ra|ie)[\/: =
+]([\d.]+)/)||[])[1],safari:/webkit/.test(userAgent),opera:/opera/.test(us=
+erAgent),msie:/msie/.test(userAgent)&&!/opera/.test(userAgent),mozilla:/m=
+ozilla/.test(userAgent)&&!/(compatible|webkit)/.test(userAgent)};var =
+styleFloat=3DjQuery.browser.msie?"styleFloat":"cssFloat";jQuery.extend({b=
+oxModel:!jQuery.browser.msie||document.compatMode=3D=3D"CSS1Compat",props=
+:{"for":"htmlFor","class":"className","float":styleFloat,cssFloat:styleFl=
+oat,styleFloat:styleFloat,readonly:"readOnly",maxlength:"maxLength",cells=
+pacing:"cellSpacing"}});jQuery.each({parent:function(elem){return =
+elem.parentNode;},parents:function(elem){return =
+jQuery.dir(elem,"parentNode");},next:function(elem){return =
+jQuery.nth(elem,2,"nextSibling");},prev:function(elem){return =
+jQuery.nth(elem,2,"previousSibling");},nextAll:function(elem){return =
+jQuery.dir(elem,"nextSibling");},prevAll:function(elem){return =
+jQuery.dir(elem,"previousSibling");},siblings:function(elem){return =
+jQuery.sibling(elem.parentNode.firstChild,elem);},children:function(elem)=
+{return jQuery.sibling(elem.firstChild);},contents:function(elem){return =
+jQuery.nodeName(elem,"iframe")?elem.contentDocument||elem.contentWindow.d=
+ocument:jQuery.makeArray(elem.childNodes);}},function(name,fn){jQuery.fn[=
+name]=3Dfunction(selector){var =
+ret=3DjQuery.map(this,fn);if(selector&&typeof =
+selector=3D=3D"string")ret=3DjQuery.multiFilter(selector,ret);return =
+this.pushStack(jQuery.unique(ret));};});jQuery.each({appendTo:"append",pr=
+ependTo:"prepend",insertBefore:"before",insertAfter:"after",replaceAll:"r=
+eplaceWith"},function(name,original){jQuery.fn[name]=3Dfunction(){var =
+args=3Darguments;return this.each(function(){for(var =
+i=3D0,length=3Dargs.length;i<length;i++)jQuery(args[i])[original](this);}=
+);};});jQuery.each({removeAttr:function(name){jQuery.attr(this,name,"");i=
+f(this.nodeType=3D=3D1)this.removeAttribute(name);},addClass:function(cla=
+ssNames){jQuery.className.add(this,classNames);},removeClass:function(cla=
+ssNames){jQuery.className.remove(this,classNames);},toggleClass:function(=
+classNames){jQuery.className[jQuery.className.has(this,classNames)?"remov=
+e":"add"](this,classNames);},remove:function(selector){if(!selector||jQue=
+ry.filter(selector,[this]).r.length){jQuery("*",this).add(this).each(func=
+tion(){jQuery.event.remove(this);jQuery.removeData(this);});if(this.paren=
+tNode)this.parentNode.removeChild(this);}},empty:function(){jQuery(">*",t=
+his).remove();while(this.firstChild)this.removeChild(this.firstChild);}},=
+function(name,fn){jQuery.fn[name]=3Dfunction(){return =
+this.each(fn,arguments);};});jQuery.each(["Height","Width"],function(i,na=
+me){var =
+type=3Dname.toLowerCase();jQuery.fn[type]=3Dfunction(size){return =
+this[0]=3D=3Dwindow?jQuery.browser.opera&&document.body["client"+name]||j=
+Query.browser.safari&&window["inner"+name]||document.compatMode=3D=3D"CSS=
+1Compat"&&document.documentElement["client"+name]||document.body["client"=
++name]:this[0]=3D=3Ddocument?Math.max(Math.max(document.body["scroll"+nam=
+e],document.documentElement["scroll"+name]),Math.max(document.body["offse=
+t"+name],document.documentElement["offset"+name])):size=3D=3Dundefined?(t=
+his.length?jQuery.css(this[0],type):null):this.css(type,size.constructor=3D=
+=3DString?size:size+"px");};});function num(elem,prop){return =
+elem[0]&&parseInt(jQuery.curCSS(elem[0],prop,true),10)||0;}var =
+chars=3DjQuery.browser.safari&&parseInt(jQuery.browser.version)<417?"(?:[=
+\\w*_-]|\\\\.)":"(?:[\\w\u0128-\uFFFF*_-]|\\\\.)",quickChild=3Dnew =
+RegExp("^>\\s*("+chars+"+)"),quickID=3Dnew =
+RegExp("^("+chars+"+)(#)("+chars+"+)"),quickClass=3Dnew =
+RegExp("^([#.]?)("+chars+"*)");jQuery.extend({expr:{"":function(a,i,m){re=
+turn m[2]=3D=3D"*"||jQuery.nodeName(a,m[2]);},"#":function(a,i,m){return =
+a.getAttribute("id")=3D=3Dm[2];},":":{lt:function(a,i,m){return =
+i<m[3]-0;},gt:function(a,i,m){return =
+i>m[3]-0;},nth:function(a,i,m){return =
+m[3]-0=3D=3Di;},eq:function(a,i,m){return =
+m[3]-0=3D=3Di;},first:function(a,i){return =
+i=3D=3D0;},last:function(a,i,m,r){return =
+i=3D=3Dr.length-1;},even:function(a,i){return =
+i%2=3D=3D0;},odd:function(a,i){return =
+i%2;},"first-child":function(a){return =
+a.parentNode.getElementsByTagName("*")[0]=3D=3Da;},"last-child":function(=
+a){return =
+jQuery.nth(a.parentNode.lastChild,1,"previousSibling")=3D=3Da;},"only-chi=
+ld":function(a){return!jQuery.nth(a.parentNode.lastChild,2,"previousSibli=
+ng");},parent:function(a){return =
+a.firstChild;},empty:function(a){return!a.firstChild;},contains:function(=
+a,i,m){return(a.textContent||a.innerText||jQuery(a).text()||"").indexOf(m=
+[3])>=3D0;},visible:function(a){return"hidden"!=3Da.type&&jQuery.css(a,"d=
+isplay")!=3D"none"&&jQuery.css(a,"visibility")!=3D"hidden";},hidden:funct=
+ion(a){return"hidden"=3D=3Da.type||jQuery.css(a,"display")=3D=3D"none"||j=
+Query.css(a,"visibility")=3D=3D"hidden";},enabled:function(a){return!a.di=
+sabled;},disabled:function(a){return =
+a.disabled;},checked:function(a){return =
+a.checked;},selected:function(a){return =
+a.selected||jQuery.attr(a,"selected");},text:function(a){return"text"=3D=3D=
+a.type;},radio:function(a){return"radio"=3D=3Da.type;},checkbox:function(=
+a){return"checkbox"=3D=3Da.type;},file:function(a){return"file"=3D=3Da.ty=
+pe;},password:function(a){return"password"=3D=3Da.type;},submit:function(=
+a){return"submit"=3D=3Da.type;},image:function(a){return"image"=3D=3Da.ty=
+pe;},reset:function(a){return"reset"=3D=3Da.type;},button:function(a){ret=
+urn"button"=3D=3Da.type||jQuery.nodeName(a,"button");},input:function(a){=
+return/input|select|textarea|button/i.test(a.nodeName);},has:function(a,i=
+,m){return =
+jQuery.find(m[3],a).length;},header:function(a){return/h\d/i.test(a.nodeN=
+ame);},animated:function(a){return =
+jQuery.grep(jQuery.timers,function(fn){return =
+a=3D=3Dfn.elem;}).length;}}},parse:[/^(\[) *@?([\w-]+) *([!*$^~=3D]*) =
+*('?"?)(.*?)\4 *\]/,/^(:)([\w-]+)\("?'?(.*?(\(.*?\))?[^(]*?)"?'?\)/,new =
+RegExp("^([:.#]*)("+chars+"+)")],multiFilter:function(expr,elems,not){var=
+ old,cur=3D[];while(expr&&expr!=3Dold){old=3Dexpr;var =
+f=3DjQuery.filter(expr,elems,not);expr=3Df.t.replace(/^\s*,\s*/,"");cur=3D=
+not?elems=3Df.r:jQuery.merge(cur,f.r);}return =
+cur;},find:function(t,context){if(typeof =
+t!=3D"string")return[t];if(context&&context.nodeType!=3D1&&context.nodeTy=
+pe!=3D9)return[];context=3Dcontext||document;var =
+ret=3D[context],done=3D[],last,nodeName;while(t&&last!=3Dt){var =
+r=3D[];last=3Dt;t=3DjQuery.trim(t);var =
+foundToken=3Dfalse,re=3DquickChild,m=3Dre.exec(t);if(m){nodeName=3Dm[1].t=
+oUpperCase();for(var i=3D0;ret[i];i++)for(var =
+c=3Dret[i].firstChild;c;c=3Dc.nextSibling)if(c.nodeType=3D=3D1&&(nodeName=
+=3D=3D"*"||c.nodeName.toUpperCase()=3D=3DnodeName))r.push(c);ret=3Dr;t=3D=
+t.replace(re,"");if(t.indexOf(" =
+")=3D=3D0)continue;foundToken=3Dtrue;}else{re=3D/^([>+~])\s*(\w*)/i;if((m=
+=3Dre.exec(t))!=3Dnull){r=3D[];var =
+merge=3D{};nodeName=3Dm[2].toUpperCase();m=3Dm[1];for(var =
+j=3D0,rl=3Dret.length;j<rl;j++){var =
+n=3Dm=3D=3D"~"||m=3D=3D"+"?ret[j].nextSibling:ret[j].firstChild;for(;n;n=3D=
+n.nextSibling)if(n.nodeType=3D=3D1){var =
+id=3DjQuery.data(n);if(m=3D=3D"~"&&merge[id])break;if(!nodeName||n.nodeNa=
+me.toUpperCase()=3D=3DnodeName){if(m=3D=3D"~")merge[id]=3Dtrue;r.push(n);=
+}if(m=3D=3D"+")break;}}ret=3Dr;t=3DjQuery.trim(t.replace(re,""));foundTok=
+en=3Dtrue;}}if(t&&!foundToken){if(!t.indexOf(",")){if(context=3D=3Dret[0]=
+)ret.shift();done=3DjQuery.merge(done,ret);r=3Dret=3D[context];t=3D" =
+"+t.substr(1,t.length);}else{var re2=3DquickID;var =
+m=3Dre2.exec(t);if(m){m=3D[0,m[2],m[3],m[1]];}else{re2=3DquickClass;m=3Dr=
+e2.exec(t);}m[2]=3Dm[2].replace(/\\/g,"");var =
+elem=3Dret[ret.length-1];if(m[1]=3D=3D"#"&&elem&&elem.getElementById&&!jQ=
+uery.isXMLDoc(elem)){var =
+oid=3Delem.getElementById(m[2]);if((jQuery.browser.msie||jQuery.browser.o=
+pera)&&oid&&typeof =
+oid.id=3D=3D"string"&&oid.id!=3Dm[2])oid=3DjQuery('[@id=3D"'+m[2]+'"]',el=
+em)[0];ret=3Dr=3Doid&&(!m[3]||jQuery.nodeName(oid,m[3]))?[oid]:[];}else{f=
+or(var i=3D0;ret[i];i++){var =
+tag=3Dm[1]=3D=3D"#"&&m[3]?m[3]:m[1]!=3D""||m[0]=3D=3D""?"*":m[2];if(tag=3D=
+=3D"*"&&ret[i].nodeName.toLowerCase()=3D=3D"object")tag=3D"param";r=3DjQu=
+ery.merge(r,ret[i].getElementsByTagName(tag));}if(m[1]=3D=3D".")r=3DjQuer=
+y.classFilter(r,m[2]);if(m[1]=3D=3D"#"){var tmp=3D[];for(var =
+i=3D0;r[i];i++)if(r[i].getAttribute("id")=3D=3Dm[2]){tmp=3D[r[i]];break;}=
+r=3Dtmp;}ret=3Dr;}t=3Dt.replace(re2,"");}}if(t){var =
+val=3DjQuery.filter(t,r);ret=3Dr=3Dval.r;t=3DjQuery.trim(val.t);}}if(t)re=
+t=3D[];if(ret&&context=3D=3Dret[0])ret.shift();done=3DjQuery.merge(done,r=
+et);return done;},classFilter:function(r,m,not){m=3D" "+m+" ";var =
+tmp=3D[];for(var i=3D0;r[i];i++){var pass=3D(" "+r[i].className+" =
+").indexOf(m)>=3D0;if(!not&&pass||not&&!pass)tmp.push(r[i]);}return =
+tmp;},filter:function(t,r,not){var last;while(t&&t!=3Dlast){last=3Dt;var =
+p=3DjQuery.parse,m;for(var =
+i=3D0;p[i];i++){m=3Dp[i].exec(t);if(m){t=3Dt.substring(m[0].length);m[2]=3D=
+m[2].replace(/\\/g,"");break;}}if(!m)break;if(m[1]=3D=3D":"&&m[2]=3D=3D"n=
+ot")r=3DisSimple.test(m[3])?jQuery.filter(m[3],r,true).r:jQuery(r).not(m[=
+3]);else if(m[1]=3D=3D".")r=3DjQuery.classFilter(r,m[2],not);else =
+if(m[1]=3D=3D"["){var tmp=3D[],type=3Dm[3];for(var =
+i=3D0,rl=3Dr.length;i<rl;i++){var =
+a=3Dr[i],z=3Da[jQuery.props[m[2]]||m[2]];if(z=3D=3Dnull||/href|src|select=
+ed/.test(m[2]))z=3DjQuery.attr(a,m[2])||'';if((type=3D=3D""&&!!z||type=3D=
+=3D"=3D"&&z=3D=3Dm[5]||type=3D=3D"!=3D"&&z!=3Dm[5]||type=3D=3D"^=3D"&&z&&=
+!z.indexOf(m[5])||type=3D=3D"$=3D"&&z.substr(z.length-m[5].length)=3D=3Dm=
+[5]||(type=3D=3D"*=3D"||type=3D=3D"~=3D")&&z.indexOf(m[5])>=3D0)^not)tmp.=
+push(a);}r=3Dtmp;}else if(m[1]=3D=3D":"&&m[2]=3D=3D"nth-child"){var =
+merge=3D{},tmp=3D[],test=3D/(-?)(\d*)n((?:\+|-)?\d*)/.exec(m[3]=3D=3D"eve=
+n"&&"2n"||m[3]=3D=3D"odd"&&"2n+1"||!/\D/.test(m[3])&&"0n+"+m[3]||m[3]),fi=
+rst=3D(test[1]+(test[2]||1))-0,last=3Dtest[3]-0;for(var =
+i=3D0,rl=3Dr.length;i<rl;i++){var =
+node=3Dr[i],parentNode=3Dnode.parentNode,id=3DjQuery.data(parentNode);if(=
+!merge[id]){var c=3D1;for(var =
+n=3DparentNode.firstChild;n;n=3Dn.nextSibling)if(n.nodeType=3D=3D1)n.node=
+Index=3Dc++;merge[id]=3Dtrue;}var =
+add=3Dfalse;if(first=3D=3D0){if(node.nodeIndex=3D=3Dlast)add=3Dtrue;}else=
+ =
+if((node.nodeIndex-last)%first=3D=3D0&&(node.nodeIndex-last)/first>=3D0)a=
+dd=3Dtrue;if(add^not)tmp.push(node);}r=3Dtmp;}else{var =
+fn=3DjQuery.expr[m[1]];if(typeof =
+fn=3D=3D"object")fn=3Dfn[m[2]];if(typeof =
+fn=3D=3D"string")fn=3Deval("false||function(a,i){return =
+"+fn+";}");r=3DjQuery.grep(r,function(elem,i){return =
+fn(elem,i,m,r);},not);}}return{r:r,t:t};},dir:function(elem,dir){var =
+matched=3D[],cur=3Delem[dir];while(cur&&cur!=3Ddocument){if(cur.nodeType=3D=
+=3D1)matched.push(cur);cur=3Dcur[dir];}return =
+matched;},nth:function(cur,result,dir,elem){result=3Dresult||1;var =
+num=3D0;for(;cur;cur=3Dcur[dir])if(cur.nodeType=3D=3D1&&++num=3D=3Dresult=
+)break;return cur;},sibling:function(n,elem){var =
+r=3D[];for(;n;n=3Dn.nextSibling){if(n.nodeType=3D=3D1&&n!=3Delem)r.push(n=
+);}return =
+r;}});jQuery.event=3D{add:function(elem,types,handler,data){if(elem.nodeT=
+ype=3D=3D3||elem.nodeType=3D=3D8)return;if(jQuery.browser.msie&&elem.setI=
+nterval)elem=3Dwindow;if(!handler.guid)handler.guid=3Dthis.guid++;if(data=
+!=3Dundefined){var =
+fn=3Dhandler;handler=3Dthis.proxy(fn,function(){return =
+fn.apply(this,arguments);});handler.data=3Ddata;}var =
+events=3DjQuery.data(elem,"events")||jQuery.data(elem,"events",{}),handle=
+=3DjQuery.data(elem,"handle")||jQuery.data(elem,"handle",function(){if(ty=
+peof jQuery!=3D"undefined"&&!jQuery.event.triggered)return =
+jQuery.event.handle.apply(arguments.callee.elem,arguments);});handle.elem=
+=3Delem;jQuery.each(types.split(/\s+/),function(index,type){var =
+parts=3Dtype.split(".");type=3Dparts[0];handler.type=3Dparts[1];var =
+handlers=3Devents[type];if(!handlers){handlers=3Devents[type]=3D{};if(!jQ=
+uery.event.special[type]||jQuery.event.special[type].setup.call(elem)=3D=3D=
+=3Dfalse){if(elem.addEventListener)elem.addEventListener(type,handle,fals=
+e);else =
+if(elem.attachEvent)elem.attachEvent("on"+type,handle);}}handlers[handler=
+.guid]=3Dhandler;jQuery.event.global[type]=3Dtrue;});elem=3Dnull;},guid:1=
+,global:{},remove:function(elem,types,handler){if(elem.nodeType=3D=3D3||e=
+lem.nodeType=3D=3D8)return;var =
+events=3DjQuery.data(elem,"events"),ret,index;if(events){if(types=3D=3Dun=
+defined||(typeof types=3D=3D"string"&&types.charAt(0)=3D=3D"."))for(var =
+type in =
+events)this.remove(elem,type+(types||""));else{if(types.type){handler=3Dt=
+ypes.handler;types=3Dtypes.type;}jQuery.each(types.split(/\s+/),function(=
+index,type){var =
+parts=3Dtype.split(".");type=3Dparts[0];if(events[type]){if(handler)delet=
+e events[type][handler.guid];else=0A=
+for(handler in =
+events[type])if(!parts[1]||events[type][handler].type=3D=3Dparts[1])delet=
+e events[type][handler];for(ret in =
+events[type])break;if(!ret){if(!jQuery.event.special[type]||jQuery.event.=
+special[type].teardown.call(elem)=3D=3D=3Dfalse){if(elem.removeEventListe=
+ner)elem.removeEventListener(type,jQuery.data(elem,"handle"),false);else =
+if(elem.detachEvent)elem.detachEvent("on"+type,jQuery.data(elem,"handle")=
+);}ret=3Dnull;delete events[type];}}});}for(ret in =
+events)break;if(!ret){var =
+handle=3DjQuery.data(elem,"handle");if(handle)handle.elem=3Dnull;jQuery.r=
+emoveData(elem,"events");jQuery.removeData(elem,"handle");}}},trigger:fun=
+ction(type,data,elem,donative,extra){data=3DjQuery.makeArray(data);if(typ=
+e.indexOf("!")>=3D0){type=3Dtype.slice(0,-1);var =
+exclusive=3Dtrue;}if(!elem){if(this.global[type])jQuery("*").add([window,=
+document]).trigger(type,data);}else{if(elem.nodeType=3D=3D3||elem.nodeTyp=
+e=3D=3D8)return undefined;var =
+val,ret,fn=3DjQuery.isFunction(elem[type]||null),event=3D!data[0]||!data[=
+0].preventDefault;if(event){data.unshift({type:type,target:elem,preventDe=
+fault:function(){},stopPropagation:function(){},timeStamp:now()});data[0]=
+[expando]=3Dtrue;}data[0].type=3Dtype;if(exclusive)data[0].exclusive=3Dtr=
+ue;var =
+handle=3DjQuery.data(elem,"handle");if(handle)val=3Dhandle.apply(elem,dat=
+a);if((!fn||(jQuery.nodeName(elem,'a')&&type=3D=3D"click"))&&elem["on"+ty=
+pe]&&elem["on"+type].apply(elem,data)=3D=3D=3Dfalse)val=3Dfalse;if(event)=
+data.shift();if(extra&&jQuery.isFunction(extra)){ret=3Dextra.apply(elem,v=
+al=3D=3Dnull?data:data.concat(val));if(ret!=3D=3Dundefined)val=3Dret;}if(=
+fn&&donative!=3D=3Dfalse&&val!=3D=3Dfalse&&!(jQuery.nodeName(elem,'a')&&t=
+ype=3D=3D"click")){this.triggered=3Dtrue;try{elem[type]();}catch(e){}}thi=
+s.triggered=3Dfalse;}return val;},handle:function(event){var =
+val,ret,namespace,all,handlers;event=3Darguments[0]=3DjQuery.event.fix(ev=
+ent||window.event);namespace=3Devent.type.split(".");event.type=3Dnamespa=
+ce[0];namespace=3Dnamespace[1];all=3D!namespace&&!event.exclusive;handler=
+s=3D(jQuery.data(this,"events")||{})[event.type];for(var j in =
+handlers){var =
+handler=3Dhandlers[j];if(all||handler.type=3D=3Dnamespace){event.handler=3D=
+handler;event.data=3Dhandler.data;ret=3Dhandler.apply(this,arguments);if(=
+val!=3D=3Dfalse)val=3Dret;if(ret=3D=3D=3Dfalse){event.preventDefault();ev=
+ent.stopPropagation();}}}return =
+val;},fix:function(event){if(event[expando]=3D=3Dtrue)return event;var =
+originalEvent=3Devent;event=3D{originalEvent:originalEvent};var =
+props=3D"altKey attrChange attrName bubbles button cancelable charCode =
+clientX clientY ctrlKey currentTarget data detail eventPhase fromElement =
+handler keyCode metaKey newValue originalTarget pageX pageY prevValue =
+relatedNode relatedTarget screenX screenY shiftKey srcElement target =
+timeStamp toElement type view wheelDelta which".split(" ");for(var =
+i=3Dprops.length;i;i--)event[props[i]]=3DoriginalEvent[props[i]];event[ex=
+pando]=3Dtrue;event.preventDefault=3Dfunction(){if(originalEvent.preventD=
+efault)originalEvent.preventDefault();originalEvent.returnValue=3Dfalse;}=
+;event.stopPropagation=3Dfunction(){if(originalEvent.stopPropagation)orig=
+inalEvent.stopPropagation();originalEvent.cancelBubble=3Dtrue;};event.tim=
+eStamp=3Devent.timeStamp||now();if(!event.target)event.target=3Devent.src=
+Element||document;if(event.target.nodeType=3D=3D3)event.target=3Devent.ta=
+rget.parentNode;if(!event.relatedTarget&&event.fromElement)event.relatedT=
+arget=3Devent.fromElement=3D=3Devent.target?event.toElement:event.fromEle=
+ment;if(event.pageX=3D=3Dnull&&event.clientX!=3Dnull){var =
+doc=3Ddocument.documentElement,body=3Ddocument.body;event.pageX=3Devent.c=
+lientX+(doc&&doc.scrollLeft||body&&body.scrollLeft||0)-(doc.clientLeft||0=
+);event.pageY=3Devent.clientY+(doc&&doc.scrollTop||body&&body.scrollTop||=
+0)-(doc.clientTop||0);}if(!event.which&&((event.charCode||event.charCode=3D=
+=3D=3D0)?event.charCode:event.keyCode))event.which=3Devent.charCode||even=
+t.keyCode;if(!event.metaKey&&event.ctrlKey)event.metaKey=3Devent.ctrlKey;=
+if(!event.which&&event.button)event.which=3D(event.button&1?1:(event.butt=
+on&2?3:(event.button&4?2:0)));return =
+event;},proxy:function(fn,proxy){proxy.guid=3Dfn.guid=3Dfn.guid||proxy.gu=
+id||this.guid++;return =
+proxy;},special:{ready:{setup:function(){bindReady();return;},teardown:fu=
+nction(){return;}},mouseenter:{setup:function(){if(jQuery.browser.msie)re=
+turn =
+false;jQuery(this).bind("mouseover",jQuery.event.special.mouseenter.handl=
+er);return true;},teardown:function(){if(jQuery.browser.msie)return =
+false;jQuery(this).unbind("mouseover",jQuery.event.special.mouseenter.han=
+dler);return =
+true;},handler:function(event){if(withinElement(event,this))return =
+true;event.type=3D"mouseenter";return =
+jQuery.event.handle.apply(this,arguments);}},mouseleave:{setup:function()=
+{if(jQuery.browser.msie)return =
+false;jQuery(this).bind("mouseout",jQuery.event.special.mouseleave.handle=
+r);return true;},teardown:function(){if(jQuery.browser.msie)return =
+false;jQuery(this).unbind("mouseout",jQuery.event.special.mouseleave.hand=
+ler);return =
+true;},handler:function(event){if(withinElement(event,this))return =
+true;event.type=3D"mouseleave";return =
+jQuery.event.handle.apply(this,arguments);}}}};jQuery.fn.extend({bind:fun=
+ction(type,data,fn){return =
+type=3D=3D"unload"?this.one(type,data,fn):this.each(function(){jQuery.eve=
+nt.add(this,type,fn||data,fn&&data);});},one:function(type,data,fn){var =
+one=3DjQuery.event.proxy(fn||data,function(event){jQuery(this).unbind(eve=
+nt,one);return(fn||data).apply(this,arguments);});return =
+this.each(function(){jQuery.event.add(this,type,one,fn&&data);});},unbind=
+:function(type,fn){return =
+this.each(function(){jQuery.event.remove(this,type,fn);});},trigger:funct=
+ion(type,data,fn){return =
+this.each(function(){jQuery.event.trigger(type,data,this,true,fn);});},tr=
+iggerHandler:function(type,data,fn){return =
+this[0]&&jQuery.event.trigger(type,data,this[0],false,fn);},toggle:functi=
+on(fn){var =
+args=3Darguments,i=3D1;while(i<args.length)jQuery.event.proxy(fn,args[i++=
+]);return =
+this.click(jQuery.event.proxy(fn,function(event){this.lastToggle=3D(this.=
+lastToggle||0)%i;event.preventDefault();return =
+args[this.lastToggle++].apply(this,arguments)||false;}));},hover:function=
+(fnOver,fnOut){return =
+this.bind('mouseenter',fnOver).bind('mouseleave',fnOut);},ready:function(=
+fn){bindReady();if(jQuery.isReady)fn.call(document,jQuery);else=0A=
+jQuery.readyList.push(function(){return fn.call(this,jQuery);});return =
+this;}});jQuery.extend({isReady:false,readyList:[],ready:function(){if(!j=
+Query.isReady){jQuery.isReady=3Dtrue;if(jQuery.readyList){jQuery.each(jQu=
+ery.readyList,function(){this.call(document);});jQuery.readyList=3Dnull;}=
+jQuery(document).triggerHandler("ready");}}});var =
+readyBound=3Dfalse;function =
+bindReady(){if(readyBound)return;readyBound=3Dtrue;if(document.addEventLi=
+stener&&!jQuery.browser.opera)document.addEventListener("DOMContentLoaded=
+",jQuery.ready,false);if(jQuery.browser.msie&&window=3D=3Dtop)(function()=
+{if(jQuery.isReady)return;try{document.documentElement.doScroll("left");}=
+catch(error){setTimeout(arguments.callee,0);return;}jQuery.ready();})();i=
+f(jQuery.browser.opera)document.addEventListener("DOMContentLoaded",funct=
+ion(){if(jQuery.isReady)return;for(var =
+i=3D0;i<document.styleSheets.length;i++)if(document.styleSheets[i].disabl=
+ed){setTimeout(arguments.callee,0);return;}jQuery.ready();},false);if(jQu=
+ery.browser.safari){var =
+numStyles;(function(){if(jQuery.isReady)return;if(document.readyState!=3D=
+"loaded"&&document.readyState!=3D"complete"){setTimeout(arguments.callee,=
+0);return;}if(numStyles=3D=3D=3Dundefined)numStyles=3DjQuery("style, =
+link[rel=3Dstylesheet]").length;if(document.styleSheets.length!=3DnumStyl=
+es){setTimeout(arguments.callee,0);return;}jQuery.ready();})();}jQuery.ev=
+ent.add(window,"load",jQuery.ready);}jQuery.each(("blur,focus,load,resize=
+,scroll,unload,click,dblclick,"+"mousedown,mouseup,mousemove,mouseover,mo=
+useout,change,select,"+"submit,keydown,keypress,keyup,error").split(","),=
+function(i,name){jQuery.fn[name]=3Dfunction(fn){return =
+fn?this.bind(name,fn):this.trigger(name);};});var =
+withinElement=3Dfunction(event,elem){var =
+parent=3Devent.relatedTarget;while(parent&&parent!=3Delem)try{parent=3Dpa=
+rent.parentNode;}catch(error){parent=3Delem;}return =
+parent=3D=3Delem;};jQuery(window).bind("unload",function(){jQuery("*").ad=
+d(document).unbind();});jQuery.fn.extend({_load:jQuery.fn.load,load:funct=
+ion(url,params,callback){if(typeof url!=3D'string')return =
+this._load(url);var off=3Durl.indexOf(" ");if(off>=3D0){var =
+selector=3Durl.slice(off,url.length);url=3Durl.slice(0,off);}callback=3Dc=
+allback||function(){};var =
+type=3D"GET";if(params)if(jQuery.isFunction(params)){callback=3Dparams;pa=
+rams=3Dnull;}else{params=3DjQuery.param(params);type=3D"POST";}var =
+self=3Dthis;jQuery.ajax({url:url,type:type,dataType:"html",data:params,co=
+mplete:function(res,status){if(status=3D=3D"success"||status=3D=3D"notmod=
+ified")self.html(selector?jQuery("<div/>").append(res.responseText.replac=
+e(/<script(.|\s)*?\/script>/g,"")).find(selector):res.responseText);self.=
+each(callback,[res.responseText,status,res]);}});return =
+this;},serialize:function(){return =
+jQuery.param(this.serializeArray());},serializeArray:function(){return =
+this.map(function(){return =
+jQuery.nodeName(this,"form")?jQuery.makeArray(this.elements):this;}).filt=
+er(function(){return =
+this.name&&!this.disabled&&(this.checked||/select|textarea/i.test(this.no=
+deName)||/text|hidden|password/i.test(this.type));}).map(function(i,elem)=
+{var val=3DjQuery(this).val();return =
+val=3D=3Dnull?null:val.constructor=3D=3DArray?jQuery.map(val,function(val=
+,i){return{name:elem.name,value:val};}):{name:elem.name,value:val};}).get=
+();}});jQuery.each("ajaxStart,ajaxStop,ajaxComplete,ajaxError,ajaxSuccess=
+,ajaxSend".split(","),function(i,o){jQuery.fn[o]=3Dfunction(f){return =
+this.bind(o,f);};});var =
+jsc=3Dnow();jQuery.extend({get:function(url,data,callback,type){if(jQuery=
+.isFunction(data)){callback=3Ddata;data=3Dnull;}return =
+jQuery.ajax({type:"GET",url:url,data:data,success:callback,dataType:type}=
+);},getScript:function(url,callback){return =
+jQuery.get(url,null,callback,"script");},getJSON:function(url,data,callba=
+ck){return =
+jQuery.get(url,data,callback,"json");},post:function(url,data,callback,ty=
+pe){if(jQuery.isFunction(data)){callback=3Ddata;data=3D{};}return =
+jQuery.ajax({type:"POST",url:url,data:data,success:callback,dataType:type=
+});},ajaxSetup:function(settings){jQuery.extend(jQuery.ajaxSettings,setti=
+ngs);},ajaxSettings:{url:location.href,global:true,type:"GET",timeout:0,c=
+ontentType:"application/x-www-form-urlencoded",processData:true,async:tru=
+e,data:null,username:null,password:null,accepts:{xml:"application/xml, =
+text/xml",html:"text/html",script:"text/javascript, =
+application/javascript",json:"application/json, =
+text/javascript",text:"text/plain",_default:"*/*"}},lastModified:{},ajax:=
+function(s){s=3DjQuery.extend(true,s,jQuery.extend(true,{},jQuery.ajaxSet=
+tings,s));var =
+jsonp,jsre=3D/=3D\?(&|$)/g,status,data,type=3Ds.type.toUpperCase();if(s.d=
+ata&&s.processData&&typeof =
+s.data!=3D"string")s.data=3DjQuery.param(s.data);if(s.dataType=3D=3D"json=
+p"){if(type=3D=3D"GET"){if(!s.url.match(jsre))s.url+=3D(s.url.match(/\?/)=
+?"&":"?")+(s.jsonp||"callback")+"=3D?";}else =
+if(!s.data||!s.data.match(jsre))s.data=3D(s.data?s.data+"&":"")+(s.jsonp|=
+|"callback")+"=3D?";s.dataType=3D"json";}if(s.dataType=3D=3D"json"&&(s.da=
+ta&&s.data.match(jsre)||s.url.match(jsre))){jsonp=3D"jsonp"+jsc++;if(s.da=
+ta)s.data=3D(s.data+"").replace(jsre,"=3D"+jsonp+"$1");s.url=3Ds.url.repl=
+ace(jsre,"=3D"+jsonp+"$1");s.dataType=3D"script";window[jsonp]=3Dfunction=
+(tmp){data=3Dtmp;success();complete();window[jsonp]=3Dundefined;try{delet=
+e =
+window[jsonp];}catch(e){}if(head)head.removeChild(script);};}if(s.dataTyp=
+e=3D=3D"script"&&s.cache=3D=3Dnull)s.cache=3Dfalse;if(s.cache=3D=3D=3Dfal=
+se&&type=3D=3D"GET"){var ts=3Dnow();var =
+ret=3Ds.url.replace(/(\?|&)_=3D.*?(&|$)/,"$1_=3D"+ts+"$2");s.url=3Dret+((=
+ret=3D=3Ds.url)?(s.url.match(/\?/)?"&":"?")+"_=3D"+ts:"");}if(s.data&&typ=
+e=3D=3D"GET"){s.url+=3D(s.url.match(/\?/)?"&":"?")+s.data;s.data=3Dnull;}=
+if(s.global&&!jQuery.active++)jQuery.event.trigger("ajaxStart");var =
+remote=3D/^(?:\w+:)?\/\/([^\/?#]+)/;if(s.dataType=3D=3D"script"&&type=3D=3D=
+"GET"&&remote.test(s.url)&&remote.exec(s.url)[1]!=3Dlocation.host){var =
+head=3Ddocument.getElementsByTagName("head")[0];var =
+script=3Ddocument.createElement("script");script.src=3Ds.url;if(s.scriptC=
+harset)script.charset=3Ds.scriptCharset;if(!jsonp){var =
+done=3Dfalse;script.onload=3Dscript.onreadystatechange=3Dfunction(){if(!d=
+one&&(!this.readyState||this.readyState=3D=3D"loaded"||this.readyState=3D=
+=3D"complete")){done=3Dtrue;success();complete();head.removeChild(script)=
+;}};}head.appendChild(script);return undefined;}var =
+requestDone=3Dfalse;var xhr=3Dwindow.ActiveXObject?new =
+ActiveXObject("Microsoft.XMLHTTP"):new =
+XMLHttpRequest();if(s.username)xhr.open(type,s.url,s.async,s.username,s.p=
+assword);else=0A=
+xhr.open(type,s.url,s.async);try{if(s.data)xhr.setRequestHeader("Content-=
+Type",s.contentType);if(s.ifModified)xhr.setRequestHeader("If-Modified-Si=
+nce",jQuery.lastModified[s.url]||"Thu, 01 Jan 1970 00:00:00 =
+GMT");xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");xhr.setRe=
+questHeader("Accept",s.dataType&&s.accepts[s.dataType]?s.accepts[s.dataTy=
+pe]+", =
+*/*":s.accepts._default);}catch(e){}if(s.beforeSend&&s.beforeSend(xhr,s)=3D=
+=3D=3Dfalse){s.global&&jQuery.active--;xhr.abort();return =
+false;}if(s.global)jQuery.event.trigger("ajaxSend",[xhr,s]);var =
+onreadystatechange=3Dfunction(isTimeout){if(!requestDone&&xhr&&(xhr.ready=
+State=3D=3D4||isTimeout=3D=3D"timeout")){requestDone=3Dtrue;if(ival){clea=
+rInterval(ival);ival=3Dnull;}status=3DisTimeout=3D=3D"timeout"&&"timeout"=
+||!jQuery.httpSuccess(xhr)&&"error"||s.ifModified&&jQuery.httpNotModified=
+(xhr,s.url)&&"notmodified"||"success";if(status=3D=3D"success"){try{data=3D=
+jQuery.httpData(xhr,s.dataType,s.dataFilter);}catch(e){status=3D"parserer=
+ror";}}if(status=3D=3D"success"){var =
+modRes;try{modRes=3Dxhr.getResponseHeader("Last-Modified");}catch(e){}if(=
+s.ifModified&&modRes)jQuery.lastModified[s.url]=3DmodRes;if(!jsonp)succes=
+s();}else=0A=
+jQuery.handleError(s,xhr,status);complete();if(s.async)xhr=3Dnull;}};if(s=
+.async){var =
+ival=3DsetInterval(onreadystatechange,13);if(s.timeout>0)setTimeout(funct=
+ion(){if(xhr){xhr.abort();if(!requestDone)onreadystatechange("timeout");}=
+},s.timeout);}try{xhr.send(s.data);}catch(e){jQuery.handleError(s,xhr,nul=
+l,e);}if(!s.async)onreadystatechange();function =
+success(){if(s.success)s.success(data,status);if(s.global)jQuery.event.tr=
+igger("ajaxSuccess",[xhr,s]);}function =
+complete(){if(s.complete)s.complete(xhr,status);if(s.global)jQuery.event.=
+trigger("ajaxComplete",[xhr,s]);if(s.global&&!--jQuery.active)jQuery.even=
+t.trigger("ajaxStop");}return =
+xhr;},handleError:function(s,xhr,status,e){if(s.error)s.error(xhr,status,=
+e);if(s.global)jQuery.event.trigger("ajaxError",[xhr,s,e]);},active:0,htt=
+pSuccess:function(xhr){try{return!xhr.status&&location.protocol=3D=3D"fil=
+e:"||(xhr.status>=3D200&&xhr.status<300)||xhr.status=3D=3D304||xhr.status=
+=3D=3D1223||jQuery.browser.safari&&xhr.status=3D=3Dundefined;}catch(e){}r=
+eturn false;},httpNotModified:function(xhr,url){try{var =
+xhrRes=3Dxhr.getResponseHeader("Last-Modified");return =
+xhr.status=3D=3D304||xhrRes=3D=3DjQuery.lastModified[url]||jQuery.browser=
+.safari&&xhr.status=3D=3Dundefined;}catch(e){}return =
+false;},httpData:function(xhr,type,filter){var =
+ct=3Dxhr.getResponseHeader("content-type"),xml=3Dtype=3D=3D"xml"||!type&&=
+ct&&ct.indexOf("xml")>=3D0,data=3Dxml?xhr.responseXML:xhr.responseText;if=
+(xml&&data.documentElement.tagName=3D=3D"parsererror")throw"parsererror";=
+if(filter)data=3Dfilter(data,type);if(type=3D=3D"script")jQuery.globalEva=
+l(data);if(type=3D=3D"json")data=3Deval("("+data+")");return =
+data;},param:function(a){var =
+s=3D[];if(a.constructor=3D=3DArray||a.jquery)jQuery.each(a,function(){s.p=
+ush(encodeURIComponent(this.name)+"=3D"+encodeURIComponent(this.value));}=
+);else=0A=
+for(var j in =
+a)if(a[j]&&a[j].constructor=3D=3DArray)jQuery.each(a[j],function(){s.push=
+(encodeURIComponent(j)+"=3D"+encodeURIComponent(this));});else=0A=
+s.push(encodeURIComponent(j)+"=3D"+encodeURIComponent(jQuery.isFunction(a=
+[j])?a[j]():a[j]));return =
+s.join("&").replace(/%20/g,"+");}});jQuery.fn.extend({show:function(speed=
+,callback){return =
+speed?this.animate({height:"show",width:"show",opacity:"show"},speed,call=
+back):this.filter(":hidden").each(function(){this.style.display=3Dthis.ol=
+dblock||"";if(jQuery.css(this,"display")=3D=3D"none"){var =
+elem=3DjQuery("<"+this.tagName+" =
+/>").appendTo("body");this.style.display=3Delem.css("display");if(this.st=
+yle.display=3D=3D"none")this.style.display=3D"block";elem.remove();}}).en=
+d();},hide:function(speed,callback){return =
+speed?this.animate({height:"hide",width:"hide",opacity:"hide"},speed,call=
+back):this.filter(":visible").each(function(){this.oldblock=3Dthis.oldblo=
+ck||jQuery.css(this,"display");this.style.display=3D"none";}).end();},_to=
+ggle:jQuery.fn.toggle,toggle:function(fn,fn2){return =
+jQuery.isFunction(fn)&&jQuery.isFunction(fn2)?this._toggle.apply(this,arg=
+uments):fn?this.animate({height:"toggle",width:"toggle",opacity:"toggle"}=
+,fn,fn2):this.each(function(){jQuery(this)[jQuery(this).is(":hidden")?"sh=
+ow":"hide"]();});},slideDown:function(speed,callback){return =
+this.animate({height:"show"},speed,callback);},slideUp:function(speed,cal=
+lback){return =
+this.animate({height:"hide"},speed,callback);},slideToggle:function(speed=
+,callback){return =
+this.animate({height:"toggle"},speed,callback);},fadeIn:function(speed,ca=
+llback){return =
+this.animate({opacity:"show"},speed,callback);},fadeOut:function(speed,ca=
+llback){return =
+this.animate({opacity:"hide"},speed,callback);},fadeTo:function(speed,to,=
+callback){return =
+this.animate({opacity:to},speed,callback);},animate:function(prop,speed,e=
+asing,callback){var optall=3DjQuery.speed(speed,easing,callback);return =
+this[optall.queue=3D=3D=3Dfalse?"each":"queue"](function(){if(this.nodeTy=
+pe!=3D1)return false;var =
+opt=3DjQuery.extend({},optall),p,hidden=3DjQuery(this).is(":hidden"),self=
+=3Dthis;for(p in =
+prop){if(prop[p]=3D=3D"hide"&&hidden||prop[p]=3D=3D"show"&&!hidden)return=
+ =
+opt.complete.call(this);if(p=3D=3D"height"||p=3D=3D"width"){opt.display=3D=
+jQuery.css(this,"display");opt.overflow=3Dthis.style.overflow;}}if(opt.ov=
+erflow!=3Dnull)this.style.overflow=3D"hidden";opt.curAnim=3DjQuery.extend=
+({},prop);jQuery.each(prop,function(name,val){var e=3Dnew =
+jQuery.fx(self,opt,name);if(/toggle|show|hide/.test(val))e[val=3D=3D"togg=
+le"?hidden?"show":"hide":val](prop);else{var =
+parts=3Dval.toString().match(/^([+-]=3D)?([\d+-.]+)(.*)$/),start=3De.cur(=
+true)||0;if(parts){var =
+end=3DparseFloat(parts[2]),unit=3Dparts[3]||"px";if(unit!=3D"px"){self.st=
+yle[name]=3D(end||1)+unit;start=3D((end||1)/e.cur(true))*start;self.style=
+[name]=3Dstart+unit;}if(parts[1])end=3D((parts[1]=3D=3D"-=3D"?-1:1)*end)+=
+start;e.custom(start,end,unit);}else=0A=
+e.custom(start,val,"");}});return =
+true;});},queue:function(type,fn){if(jQuery.isFunction(type)||(type&&type=
+.constructor=3D=3DArray)){fn=3Dtype;type=3D"fx";}if(!type||(typeof =
+type=3D=3D"string"&&!fn))return queue(this[0],type);return =
+this.each(function(){if(fn.constructor=3D=3DArray)queue(this,type,fn);els=
+e{queue(this,type).push(fn);if(queue(this,type).length=3D=3D1)fn.call(thi=
+s);}});},stop:function(clearQueue,gotoEnd){var =
+timers=3DjQuery.timers;if(clearQueue)this.queue([]);this.each(function(){=
+for(var =
+i=3Dtimers.length-1;i>=3D0;i--)if(timers[i].elem=3D=3Dthis){if(gotoEnd)ti=
+mers[i](true);timers.splice(i,1);}});if(!gotoEnd)this.dequeue();return =
+this;}});var =
+queue=3Dfunction(elem,type,array){if(elem){type=3Dtype||"fx";var =
+q=3DjQuery.data(elem,type+"queue");if(!q||array)q=3DjQuery.data(elem,type=
++"queue",jQuery.makeArray(array));}return =
+q;};jQuery.fn.dequeue=3Dfunction(type){type=3Dtype||"fx";return =
+this.each(function(){var =
+q=3Dqueue(this,type);q.shift();if(q.length)q[0].call(this);});};jQuery.ex=
+tend({speed:function(speed,easing,fn){var =
+opt=3Dspeed&&speed.constructor=3D=3DObject?speed:{complete:fn||!fn&&easin=
+g||jQuery.isFunction(speed)&&speed,duration:speed,easing:fn&&easing||easi=
+ng&&easing.constructor!=3DFunction&&easing};opt.duration=3D(opt.duration&=
+&opt.duration.constructor=3D=3DNumber?opt.duration:jQuery.fx.speeds[opt.d=
+uration])||jQuery.fx.speeds.def;opt.old=3Dopt.complete;opt.complete=3Dfun=
+ction(){if(opt.queue!=3D=3Dfalse)jQuery(this).dequeue();if(jQuery.isFunct=
+ion(opt.old))opt.old.call(this);};return =
+opt;},easing:{linear:function(p,n,firstNum,diff){return =
+firstNum+diff*p;},swing:function(p,n,firstNum,diff){return((-Math.cos(p*M=
+ath.PI)/2)+0.5)*diff+firstNum;}},timers:[],timerId:null,fx:function(elem,=
+options,prop){this.options=3Doptions;this.elem=3Delem;this.prop=3Dprop;if=
+(!options.orig)options.orig=3D{};}});jQuery.fx.prototype=3D{update:functi=
+on(){if(this.options.step)this.options.step.call(this.elem,this.now,this)=
+;(jQuery.fx.step[this.prop]||jQuery.fx.step._default)(this);if(this.prop=3D=
+=3D"height"||this.prop=3D=3D"width")this.elem.style.display=3D"block";},c=
+ur:function(force){if(this.elem[this.prop]!=3Dnull&&this.elem.style[this.=
+prop]=3D=3Dnull)return this.elem[this.prop];var =
+r=3DparseFloat(jQuery.css(this.elem,this.prop,force));return =
+r&&r>-10000?r:parseFloat(jQuery.curCSS(this.elem,this.prop))||0;},custom:=
+function(from,to,unit){this.startTime=3Dnow();this.start=3Dfrom;this.end=3D=
+to;this.unit=3Dunit||this.unit||"px";this.now=3Dthis.start;this.pos=3Dthi=
+s.state=3D0;this.update();var self=3Dthis;function t(gotoEnd){return =
+self.step(gotoEnd);}t.elem=3Dthis.elem;jQuery.timers.push(t);if(jQuery.ti=
+merId=3D=3Dnull){jQuery.timerId=3DsetInterval(function(){var =
+timers=3DjQuery.timers;for(var =
+i=3D0;i<timers.length;i++)if(!timers[i]())timers.splice(i--,1);if(!timers=
+.length){clearInterval(jQuery.timerId);jQuery.timerId=3Dnull;}},13);}},sh=
+ow:function(){this.options.orig[this.prop]=3DjQuery.attr(this.elem.style,=
+this.prop);this.options.show=3Dtrue;this.custom(0,this.cur());if(this.pro=
+p=3D=3D"width"||this.prop=3D=3D"height")this.elem.style[this.prop]=3D"1px=
+";jQuery(this.elem).show();},hide:function(){this.options.orig[this.prop]=
+=3DjQuery.attr(this.elem.style,this.prop);this.options.hide=3Dtrue;this.c=
+ustom(this.cur(),0);},step:function(gotoEnd){var =
+t=3Dnow();if(gotoEnd||t>this.options.duration+this.startTime){this.now=3D=
+this.end;this.pos=3Dthis.state=3D1;this.update();this.options.curAnim[thi=
+s.prop]=3Dtrue;var done=3Dtrue;for(var i in =
+this.options.curAnim)if(this.options.curAnim[i]!=3D=3Dtrue)done=3Dfalse;i=
+f(done){if(this.options.display!=3Dnull){this.elem.style.overflow=3Dthis.=
+options.overflow;this.elem.style.display=3Dthis.options.display;if(jQuery=
+.css(this.elem,"display")=3D=3D"none")this.elem.style.display=3D"block";}=
+if(this.options.hide)this.elem.style.display=3D"none";if(this.options.hid=
+e||this.options.show)for(var p in =
+this.options.curAnim)jQuery.attr(this.elem.style,p,this.options.orig[p]);=
+}if(done)this.options.complete.call(this.elem);return false;}else{var =
+n=3Dt-this.startTime;this.state=3Dn/this.options.duration;this.pos=3DjQue=
+ry.easing[this.options.easing||(jQuery.easing.swing?"swing":"linear")](th=
+is.state,n,0,1,this.options.duration);this.now=3Dthis.start+((this.end-th=
+is.start)*this.pos);this.update();}return =
+true;}};jQuery.extend(jQuery.fx,{speeds:{slow:600,fast:200,def:400},step:=
+{scrollLeft:function(fx){fx.elem.scrollLeft=3Dfx.now;},scrollTop:function=
+(fx){fx.elem.scrollTop=3Dfx.now;},opacity:function(fx){jQuery.attr(fx.ele=
+m.style,"opacity",fx.now);},_default:function(fx){fx.elem.style[fx.prop]=3D=
+fx.now+fx.unit;}}});jQuery.fn.offset=3Dfunction(){var =
+left=3D0,top=3D0,elem=3Dthis[0],results;if(elem)with(jQuery.browser){var =
+parent=3Delem.parentNode,offsetChild=3Delem,offsetParent=3Delem.offsetPar=
+ent,doc=3Delem.ownerDocument,safari2=3Dsafari&&parseInt(version)<522&&!/a=
+dobeair/i.test(userAgent),css=3DjQuery.curCSS,fixed=3Dcss(elem,"position"=
+)=3D=3D"fixed";if(elem.getBoundingClientRect){var =
+box=3Delem.getBoundingClientRect();add(box.left+Math.max(doc.documentElem=
+ent.scrollLeft,doc.body.scrollLeft),box.top+Math.max(doc.documentElement.=
+scrollTop,doc.body.scrollTop));add(-doc.documentElement.clientLeft,-doc.d=
+ocumentElement.clientTop);}else{add(elem.offsetLeft,elem.offsetTop);while=
+(offsetParent){add(offsetParent.offsetLeft,offsetParent.offsetTop);if(moz=
+illa&&!/^t(able|d|h)$/i.test(offsetParent.tagName)||safari&&!safari2)bord=
+er(offsetParent);if(!fixed&&css(offsetParent,"position")=3D=3D"fixed")fix=
+ed=3Dtrue;offsetChild=3D/^body$/i.test(offsetParent.tagName)?offsetChild:=
+offsetParent;offsetParent=3DoffsetParent.offsetParent;}while(parent&&pare=
+nt.tagName&&!/^body|html$/i.test(parent.tagName)){if(!/^inline|table.*$/i=
+.test(css(parent,"display")))add(-parent.scrollLeft,-parent.scrollTop);if=
+(mozilla&&css(parent,"overflow")!=3D"visible")border(parent);parent=3Dpar=
+ent.parentNode;}if((safari2&&(fixed||css(offsetChild,"position")=3D=3D"ab=
+solute"))||(mozilla&&css(offsetChild,"position")!=3D"absolute"))add(-doc.=
+body.offsetLeft,-doc.body.offsetTop);if(fixed)add(Math.max(doc.documentEl=
+ement.scrollLeft,doc.body.scrollLeft),Math.max(doc.documentElement.scroll=
+Top,doc.body.scrollTop));}results=3D{top:top,left:left};}function =
+border(elem){add(jQuery.curCSS(elem,"borderLeftWidth",true),jQuery.curCSS=
+(elem,"borderTopWidth",true));}function =
+add(l,t){left+=3DparseInt(l,10)||0;top+=3DparseInt(t,10)||0;}return =
+results;};jQuery.fn.extend({position:function(){var =
+left=3D0,top=3D0,results;if(this[0]){var =
+offsetParent=3Dthis.offsetParent(),offset=3Dthis.offset(),parentOffset=3D=
+/^body|html$/i.test(offsetParent[0].tagName)?{top:0,left:0}:offsetParent.=
+offset();offset.top-=3Dnum(this,'marginTop');offset.left-=3Dnum(this,'mar=
+ginLeft');parentOffset.top+=3Dnum(offsetParent,'borderTopWidth');parentOf=
+fset.left+=3Dnum(offsetParent,'borderLeftWidth');results=3D{top:offset.to=
+p-parentOffset.top,left:offset.left-parentOffset.left};}return =
+results;},offsetParent:function(){var =
+offsetParent=3Dthis[0].offsetParent;while(offsetParent&&(!/^body|html$/i.=
+test(offsetParent.tagName)&&jQuery.css(offsetParent,'position')=3D=3D'sta=
+tic'))offsetParent=3DoffsetParent.offsetParent;return =
+jQuery(offsetParent);}});jQuery.each(['Left','Top'],function(i,name){var =
+method=3D'scroll'+name;jQuery.fn[method]=3Dfunction(val){if(!this[0])retu=
+rn;return =
+val!=3Dundefined?this.each(function(){this=3D=3Dwindow||this=3D=3Ddocumen=
+t?window.scrollTo(!i?val:jQuery(window).scrollLeft(),i?val:jQuery(window)=
+.scrollTop()):this[method]=3Dval;}):this[0]=3D=3Dwindow||this[0]=3D=3Ddoc=
+ument?self[i?'pageYOffset':'pageXOffset']||jQuery.boxModel&&document.docu=
+mentElement[method]||document.body[method]:this[0][method];};});jQuery.ea=
+ch(["Height","Width"],function(i,name){var =
+tl=3Di?"Left":"Top",br=3Di?"Right":"Bottom";jQuery.fn["inner"+name]=3Dfun=
+ction(){return =
+this[name.toLowerCase()]()+num(this,"padding"+tl)+num(this,"padding"+br);=
+};jQuery.fn["outer"+name]=3Dfunction(margin){return =
+this["inner"+name]()+num(this,"border"+tl+"Width")+num(this,"border"+br+"=
+Width")+(margin?num(this,"margin"+tl)+num(this,"margin"+br):0);};});})();
+------=_NextPart_000_0000_01CE75B9.B20DA000
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.apache.org/js/apache_boot.js
+
+$(document).ready(function() {=0A=
+  $('#switcher_1 a').addClass('active');=0A=
+  $('#switcher_2 a, #switcher_3 a').removeClass('active');=0A=
+  $('#feature_1').fadeIn();=0A=
+  =0A=
+  $('#switcher_1').click(function() {=0A=
+    $('#feature_2').hide();=0A=
+    $('#feature_3').hide();=0A=
+    $('#feature_1').fadeIn();=0A=
+    $('#switcher_1 a').addClass('active');=0A=
+    $('#switcher_2 a, #switcher_3 a').removeClass('active');=0A=
+    return false;=0A=
+  });=0A=
+    =0A=
+  $('#switcher_2').click(function() {=0A=
+    $('#feature_1').hide();=0A=
+    $('#feature_3').hide();=0A=
+    $('#feature_2').fadeIn();=0A=
+    $('#switcher_1 a, #switcher_3 a').removeClass('active');=0A=
+    $('#switcher_2 a').addClass('active');=0A=
+    return false;=0A=
+  });=0A=
+  =0A=
+  $('#switcher_3').click(function() {=0A=
+    $('#feature_1').hide();=0A=
+    $('#feature_2').hide();=0A=
+    $('#feature_3').fadeIn();=0A=
+    $('#switcher_3 a').addClass('active');=0A=
+    $('#switcher_1 a, #switcher_2 a').removeClass('active');=0A=
+    return false;=0A=
+  });=0A=
+});
+------=_NextPart_000_0000_01CE75B9.B20DA000--

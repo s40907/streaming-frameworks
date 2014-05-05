@@ -1,0 +1,1805 @@
+From: "Mit Windows Internet Explorer 10 gespeichert"
+Subject: Esper - Complex Event Processing
+Date: Mon, 1 Jul 2013 00:58:29 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CE75F6.199E1C40"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://esper.codehaus.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML><HEAD><ME=
+TA=20
+content=3D"IE=3D10.000" http-equiv=3D"X-UA-Compatible">
+     <TITLE>Esper - Complex Event Processing</TITLE>     <!-- index.html =
+-->    =20
+<STYLE type=3D"text/css" media=3D"all">=0A=
+      @import url("./css/esper.css");=0A=
+    </STYLE>
+        =20
+<META name=3D"keywords" content=3D"Esper, NEsper, eda, open source, =
+source, esp, cep, event stream, complex event, soa, services, support, =
+free, event server, continuous query">=20
+   =20
+<META name=3D"author" content=3D"David Herreman =
+(www.free-css-templates.com)">    =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">    =20
+<META http-equiv=3D"Pragma" content=3D"no-cache">    =20
+<META http-equiv=3D"Expires" content=3D"-1"> <LINK =
+href=3D"./images/favicon.ico" rel=3D"shortcut icon"> <!--[if IE]>=0A=
+<style type=3D"text/css" media=3D"screen">=0A=
+ #menu ul li {float: left; width: 100%;}=0A=
+</style>=0A=
+<![endif]--> <!--[if lt IE 7]>=0A=
+<style type=3D"text/css" media=3D"screen">=0A=
+body {=0A=
+behavior: url(./css/csshover.htc);=0A=
+}=0A=
+</style>=0A=
+<![endif]--> <!-- google search widget -->=20
+<SCRIPT src=3D"http://www.google.com/jsapi" =
+type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+//<![CDATA[=0A=
+var searchControl;=0A=
+=0A=
+google.load('search', '1');=0A=
+=0A=
+function OnComplete(searchControl, searcher) {=0A=
+	document.getElementById("left_main").style.visibility =3D 'hidden';=0A=
+}=0A=
+	=0A=
+function OnLoad() {=0A=
+	// Create a search control=0A=
+	searchControl =3D new google.search.SearchControl();=0A=
+	searchControl.setSearchCompleteCallback(this, OnComplete);=0A=
+			=0A=
+	//Documentation (latest only)=0A=
+	var docSearch =3D new google.search.WebSearch();=0A=
+	docSearch.setUserDefinedLabel("Doc");=0A=
+	docSearch.setSiteRestriction("esper.codehaus.org");//no slash =
+/esper.codehaus.org here please.=0A=
+	// we include doc only for one version (that gets fancy here with =
+escape of . for google and \ for javascript)=0A=
+	docSearch.setQueryAddition("-inurl:html_single inurl:4\\.9\\.0/doc/");=0A=
+	searchControl.addSearcher(docSearch);=0A=
+=0A=
+	//Esper=0A=
+	var siteSearch =3D new google.search.WebSearch();=0A=
+	siteSearch.setUserDefinedLabel("Esper");=0A=
+	// we exclude archive.esper.codehaus.org as we have Nabble below [the / =
+prefix sounds fragile in google search]=0A=
+	siteSearch.setSiteRestriction("/esper.codehaus.org");=0A=
+	siteSearch.setQueryAddition("-inurl:/doc/");// we exclude doc=0A=
+	searchControl.addSearcher(siteSearch);=0A=
+=0A=
+	//EsperTech=0A=
+	var etSearch =3D new google.search.WebSearch();=0A=
+	etSearch.setUserDefinedLabel("EsperTech");=0A=
+	etSearch.setSiteRestriction("espertech.com");=0A=
+	searchControl.addSearcher(etSearch);=0A=
+=0A=
+	// Nabble search=0A=
+	var mlSearch =3D new google.search.WebSearch();=0A=
+	mlSearch.setUserDefinedLabel("Lists");=0A=
+	mlSearch.setSiteRestriction("nabble.com");=0A=
+	mlSearch.setQueryAddition("'Esper User list' OR 'Esper Dev list'");=0A=
+	searchControl.addSearcher(mlSearch);=0A=
+	=0A=
+	// draw in tabbed layout mode and split form from results=0A=
+	var drawOptions =3D new google.search.DrawOptions();=0A=
+	drawOptions.setDrawMode(google.search.SearchControl.DRAW_MODE_TABBED);=0A=
+	=
+drawOptions.setSearchFormRoot(document.getElementById("google_searchForm"=
+));=0A=
+	searchControl.draw(document.getElementById("google_searchResult"), =
+drawOptions);=0A=
+}=0A=
+=0A=
+google.setOnLoadCallback(OnLoad, true);=0A=
+//]]>=0A=
+</SCRIPT>
+  =20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16612"></HEAD>=20
+<BODY>
+<DIV id=3D"top">
+<DIV class=3D"content">
+<DIV id=3D"icons"><A title=3D"Home page"=20
+href=3D"http://www.espertech.com/index.php"><IMG alt=3D"Home" =
+src=3D"http://esper.codehaus.org/images/home.gif"></A>
+				 <A title=3D"Contact us"=20
+href=3D"http://www.espertech.com/company/contact.php"><IMG =
+alt=3D"Contact" =
+src=3D"http://esper.codehaus.org/images/contact.gif"></A>
+			 </DIV>
+<TABLE width=3D"95%" border=3D"0">
+  <TBODY>
+  <TR>
+    <TD width=3D"203"><IMG =
+src=3D"http://esper.codehaus.org/images/espertech_logo_transparent.png">
+      				 </TD>
+    <TD width=3D"380">
+      <H2>Event Stream Intelligence: <SMALL>Esper &amp; =
+NEsper</SMALL></H2></TD>
+    <TD>
+      <DIV =
+id=3D"google_searchForm"></DIV></TD></TR></TBODY></TABLE></DIV></DIV><!--=
+ top -->=20
+<DIV id=3D"precHOME">
+<DIV id=3D"wrap">
+<DIV id=3D"dmenu">
+<UL>
+  <LI>
+  <H2><A title=3D"Home" href=3D"http://www.espertech.com/index.php"><IMG =
+src=3D"http://esper.codehaus.org/images/home.gif"=20
+  valign=3D"bottom"></A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/products/">Products</A></H2>
+  <UL>
+    <LI><A href=3D"http://www.espertech.com/products/index.php">Event =
+Processing=20
+    and CEP platform</A></LI>
+    <LI><A href=3D"http://www.espertech.com/products/esperee.php">Esper =
+Enterprise=20
+    Edition</A></LI>
+    <LI><A =
+href=3D"http://www.espertech.com/products/esperha.php">EsperHA</A></LI>
+    <LI><A =
+href=3D"http://www.espertech.com/products/technicalspec.php">Technical=20
+    Specifications</A></LI>
+    <LI><A=20
+href=3D"http://www.espertech.com/products/faq.php">FAQ</A></LI></UL></LI>=
+</UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/support/">Support &amp;=20
+Services</A></H2>
+  <UL>
+    <LI><A =
+href=3D"http://www.espertech.com/support/index.php">Support</A></LI>
+    <LI><A=20
+href=3D"http://www.espertech.com/support/services.php">Services</A></LI>
+    <LI><A=20
+  =
+href=3D"http://www.espertech.com/support/training.php">Training</A></LI><=
+/UL></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/partners/">Customers &amp; =
+OEMs</A></H2>
+  <UL>
+    <LI><A href=3D"http://www.espertech.com/partners/index.php">Become a =
+
+    Partner</A></LI>
+    <LI><A href=3D"http://www.espertech.com/partners/embedded.php">Embed =
+our CEP=20
+    Engine</A></LI>
+    <LI><A =
+href=3D"http://www.espertech.com/partners/partners.php">Customers,=20
+    Partners and OEMs</A></LI></UL></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/resources/">Resources</A></H2>
+  <UL>
+    <LI><A href=3D"http://www.espertech.com/resources/index.php">Product =
+
+    Details</A></LI>
+    <LI><A href=3D"http://www.espertech.com/resources/index.php">Data=20
+    Sheets</A></LI></UL></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/community/">Downloads</A></H2>
+  <UL>
+    <LI><A href=3D"http://www.espertech.com/download/index.php">Products =
+
+    Download</A></LI>
+    <LI><A href=3D"http://esper.codehaus.org/" target=3D"_blank">Esper =
+and NEsper at=20
+    Codehaus</A></LI></UL></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A href=3D"http://www.espertech.com/company/">Company</A></H2>
+  <UL>
+    <LI><A =
+href=3D"http://www.espertech.com/company/index.php">Overview</A></LI>
+    <LI><A =
+href=3D"http://www.espertech.com/company/news.php">News</A></LI>
+    <LI><A href=3D"http://www.espertech.com/company/contact.php">Contact =
+
+    us</A></LI></UL></LI></UL>
+<UL>
+  <LI>
+  <H2><A>|</A></H2></LI></UL>
+<UL>
+  <LI>
+  <H2><A title=3D"Contact us"=20
+  href=3D"http://www.espertech.com/company/contact.php"><IMG =
+src=3D"http://esper.codehaus.org/images/contact.gif"=20
+  valign=3D"bottom"></A></H2></LI></UL><BR>&nbsp;</DIV>
+<DIV id=3D"pic">
+<DIV id=3D"slogan">			Where <B>Complex Event Processing meets Open =
+Source</B>: <A=20
+href=3D"http://www.espertech.com/products/">Esper &amp; NEsper</A><BR>
+			High-availability and Enterprise Readiness: <A =
+href=3D"http://www.espertech.com/products/esperha.php">EsperHA</A>,=20
+<A href=3D"http://www.espertech.com/products/esperee.php">Enterprise =
+Edition</A>=20
+and <A href=3D"http://www.espertech.com/support/">support services</A>.		=
+	Embed=20
+mainstream CEP in your products and deployments: Learn about our <A =
+href=3D"http://www.espertech.com/partners/embedded.php">licensing=20
+options</A>.<BR><SMALL><A style=3D"color: rgb(0, 0, 153);" =
+href=3D"http://www.espertech.com/products/">Product=20
+info</A> | <A style=3D"color: rgb(0, 0, 153);" =
+href=3D"http://www.espertech.com/partners/partners.php">Customers</A>=20
+| <A style=3D"color: rgb(0, 0, 153);" =
+href=3D"http://www.espertech.com/company/contact.php">Contact=20
+us</A></SMALL>		 </DIV></DIV></DIV></DIV>
+<DIV class=3D"content">
+<DIV id=3D"main">
+<DIV id=3D"left_side">
+<DIV id=3D"google_searchResult" style=3D"width: 660px;"></DIV>
+<DIV id=3D"left_main">
+<DIV class=3D"section">
+<H2>Event Processing with Esper and NEsper <A =
+name=3D"Event_Processing_with_Esper_and_NEsper"></A></H2>
+<P>Esper is a component for complex event processing (CEP), available =
+for Java=20
+as Esper, and for .NET as NEsper.</P>
+<P>Esper and NEsper enable rapid development of applications that =
+process large=20
+volumes of incoming messages or events, regardless of whether incoming =
+messages=20
+are historical or real-time in nature. Esper and NEsper filter and =
+analyze=20
+events in various ways, and respond to conditions of interest with =
+minimal=20
+latency.</P>
+<P>Esper and Event Processing Language (EPL) provide a <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#scaling">h=
+ighly=20
+scalable</A>, <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#memory_eff=
+icient">memory-efficient</A>,=20
+<A=20
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#inmemory">=
+in-memory=20
+computing</A>, <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#advantages=
+_epl">SQL-standard</A>,=20
+<A=20
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#latency_mi=
+nimal">minimal=20
+latency, real-time streaming</A> Big Data processing engine for medium =
+to=20
+high-velocity and high-variety data.</P></DIV>
+<DIV class=3D"section">
+<H2>New - Cloud Application for EPL Learning: <A class=3D"externalLink" =
+href=3D"http://esper-epl-tryout.appspot.com/">Esper=20
+EPL Online</A><A =
+name=3D"New_-_Cloud_Application_for_EPL_Learning:_Esper_EPL_Online"></A><=
+/H2></DIV>
+<DIV class=3D"section">
+<H2>Technology Introduction<A name=3D"Technology_Introduction"></A></H2>
+<P>Complex event processing (CEP) delivers high-speed processing of many =
+events=20
+across all the layers of an organization, identifying the most =
+meaningful events=20
+within the event cloud, analyzing their impact, and taking subsequent =
+action in=20
+real time (source:Wikipedia).</P>
+<P>Esper offers a Domain Specific Language (DSL) for processing events. =
+The=20
+Event Processing Language (EPL) is a declarative language for dealing =
+with high=20
+frequency time-based event data. </P>
+<P>Some typical examples of applications are:</P>
+<UL>
+  <LI>Business process management and automation (process monitoring, =
+BAM,=20
+  reporting exceptions, operational intelligence) </LI>
+  <LI>Finance (algorithmic trading, fraud detection, risk management) =
+</LI>
+  <LI>Network and application monitoring (intrusion detection, SLA =
+monitoring)=20
+  </LI>
+  <LI>Sensor network applications (RFID reading, scheduling and control =
+of=20
+  fabrication lines, air traffic) </LI></UL></DIV>
+<DIV class=3D"section">
+<H2>Commonly Asked Questions <A =
+name=3D"Commonly_Asked_Questions"></A></H2>
+<P><A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#how-does-i=
+t-work-overview">How=20
+does it work?</A> <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#comparison=
+">How=20
+does it compare with other CEP products?</A> <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#testing">H=
+ow=20
+has this been tested?</A> <A =
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html#performanc=
+e">What=20
+is the performance?</A> <A =
+href=3D"http://esper.codehaus.org/about/license/license.html">What=20
+is the license?</A> <A class=3D"externalLink" =
+href=3D"http://www.espertech.com/support">Can=20
+I get support?</A></P></DIV>
+<DIV class=3D"section">
+<H2>Esper Enterprise Edition Feature Summary <A =
+name=3D"Esper_Enterprise_Edition_Feature_Summary"></A></H2>
+<UL>
+  <LI>Highly scalable, elastic, distributable and fault tolerant event=20
+  processing</LI>
+  <LI>Rich web-based multi-window GUI based on Apache Flex for design =
+and=20
+  management of EPL statements and CEP engine in general</LI>
+  <LI>Real-time continuously-updating displays (charts, timeline, gauge, =
+grids)=20
+  that are interactive, composable, configurable and easy to =
+integrate</LI>
+  <LI>Data distribution service for efficient 3-tier data fan-out from =
+CEP=20
+  engine(s) to browsers</LI>
+  <LI>Hot deployment of EPL modules and event-driven applications</LI>
+  <LI>Integration with distributed caches: Oracle Coherence, VMware =
+GemFire,=20
+  GigaSpaces XAP, Hazelcast, Infinispan, Terracotta, IBM WebSphere =
+eXtreme=20
+  Scale</LI>
+  <LI><A class=3D"externalLink" =
+href=3D"http://www.espertech.com/products/esperee.php">Info=20
+  and Download</A> and <A class=3D"externalLink" =
+href=3D"http://www.espertech.com/resources/sd_esperhqscreenshots.html">Sc=
+reenshots</A></LI></UL></DIV>
+<DIV class=3D"section">
+<H2>EsperHA Feature Summary <A =
+name=3D"EsperHA_Feature_Summary"></A></H2>
+<UL>
+  <LI>Resiliency of CEP engine state and EPL statement state, as needed; =
+High=20
+  write performance and fast recovery</LI>
+  <LI><A class=3D"externalLink" =
+href=3D"http://www.espertech.com/products/esperha.php">Info=20
+  and Download</A></LI></UL></DIV>
+<DIV class=3D"section">
+<H2>Core Esper Features<A name=3D"Core_Esper_Features"></A></H2>
+<DIV class=3D"section">
+<H3>Event Stream Processing<A name=3D"Event_Stream_Processing"></A></H3>
+<UL>
+  <LI>Sliding windows: time, length, sorted, ranked, accumulating,=20
+  time-ordering, externally-timed (value-based windowing),=20
+  expiry-expression-based with aggregations</LI>
+  <LI>Tumbling windows: time, length and multi-policy; first-event;=20
+  expiry-expression-based with aggregations</LI>
+  <LI>Combine windows with intersection and union semantics. Partitioned =
+
+  windows. Dynamically shrinking or expanding windows. =
+Expiry-expression-driven=20
+  windows.</LI>
+  <LI>Grouping, aggregation, sorting, filtering, merging, splitting or=20
+  duplicating of event streams</LI>
+  <LI>Familiar SQL-standard-based continuous query language using =
+<I>insert=20
+  into</I>, <I>select</I>, <I>from</I>, <I>where</I>, <I>group-by</I>,=20
+  <I>having</I>, <I>order-by</I>, <I>limit</I> and <I>distinct</I> =
+clauses</LI>
+  <LI>Inner-joins and outer joins (left, right, full) of an unlimited =
+number of=20
+  streams or windows</LI>
+  <LI>Subqueries including <I>exists</I> and <I>in</I></LI>
+  <LI>Output rate limiting and stabilizing, snapshot output, expression=20
+  support</LI>
+  <LI>Named windows
+  <UL>
+    <LI>Explicit sharing of data windows between statements</LI>
+    <LI>Multiple and custom entry and exit criteria for events</LI>
+    <LI>Support for predefined query execution optimized by indexed =
+access, via=20
+    on-select and on-demand (fire-and-forget) query and explicit indexes =
+(hash=20
+    and btree)</LI>
+    <LI>Support for update-insert-delete (aka. merge or upsert) in a =
+single=20
+    atomic operation</LI></UL></LI>
+  <LI>Enumeration methods, date-time methods, Allan's interval algebra =
+with=20
+  support for point-in-time events and events with duration, =
+lambda-expressions,=20
+  expression definition and reuse, 'new' operator for returning multiple =
+results=20
+  from an expression</LI>
+  <LI>Declarative context dimensions based on consistent-hashes, =
+partitions,=20
+  categories, overlapping or non-overlapping initiated by event arrival =
+and=20
+  patterns, with correlated termination; nested context dimensions; =
+Context=20
+  partition targeting for runtime queries and iteration. Achieves data=20
+  parallelism and component parallelism.</LI>
+  <LI>High degree of parallelization processing the same statement and=20
+  processing multiple statements. Stateless statements process=20
+lock-free.</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Event Pattern Matching<A name=3D"Event_Pattern_Matching"></A></H3>
+<UL>
+  <LI>Logical and temporal event correlation</LI>
+  <LI>Crontab-like timer <I>'at'</I> operator</LI>
+  <LI>Lifecycle of pattern can be controlled by timer and via operators, =
+
+  repeat-number and repeat-until, every-distinct, while</LI>
+  <LI>Pattern-matched events provided to listeners</LI>
+  <LI>Support for <I>match-recognize</I> which is a proposed SQL =
+standard for=20
+  row pattern matching based on regular expressions</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Event Representations<A name=3D"Event_Representations"></A></H3>
+<UL>
+  <LI>Supports event-type inheritance and polymorphism as provided by =
+the Java=20
+  language, for Java object events as well as for Map-type and =
+object-array type=20
+  events</LI>
+  <LI>Events can be plain Java objects, XML (DOM and streaming through =
+Apache=20
+  Axiom), object-array (Object[]) and java.util.Map including nested =
+objects and=20
+  hierarchical maps</LI>
+  <LI>Event properties can be simple, indexed, mapped or nested - allows =
+
+  querying of deep Java object graphs and XML structures</LI>
+  <LI>Dynamic properties allow dynamic typing of properties, supported =
+by=20
+  <I>cast</I>, <I>instanceof</I> and <I>exists</I> functions</LI>
+  <LI>Applications can plug-in their own event representation and =
+dynamic type=20
+  resolution</LI>
+  <LI>Insert-into can directly populate a plain or legacy Java object or =
+Map=20
+  from a select-clause</LI>
+  <LI>Support for a create-schema syntax, useful to declare event types =
+from a=20
+  column-and-type list, from existing classes or from other =
+types</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Modularization and Deployment<A=20
+name=3D"Modularization_and_Deployment"></A></H3>
+<UL>
+  <LI>Module parsing and deployment API</LI>
+  <LI>A module files is a plain text file with EPL =
+statements</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>API<A name=3D"API"></A></H3>
+<UL>
+  <LI>Mature API with few significant changes since version 1.0</LI>
+  <LI>Support for both the <B> listener (push/subscription) API</B> and =
+the=20
+  <B>consumer (pull/receive) API</B> for querying results</LI>
+  <LI>Control event visibility and the concept of timer on a statement =
+level via=20
+  isolated service provider
+  <UL>
+    <LI>Suspend statements: take statements offline and online without =
+losing=20
+    state</LI>
+    <LI>Load statements from historical data and merge into real-time=20
+    streams</LI></UL></LI>
+  <LI>We provide a <B>test framework</B> for unit or regression testing=20
+  EPL-based applications</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Prepared statements and substitution parameters<A =
+name=3D"Prepared_statements_and_substitution_parameters"></A></H3>
+<UL>
+  <LI>Precompile a statement with substitution parameters and =
+efficiently start=20
+  the parameterized statement multiple times</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Statement Object Model<A name=3D"Statement_Object_Model"></A></H3>
+<UL>
+  <LI>A set of classes providing an object-oriented representation of a=20
+  statement </LI>
+  <LI>Full and complete specification of a statement via object =
+model</LI>
+  <LI>Round-trip from object model to statement text and back to object=20
+  model</LI>
+  <LI>Build, change or interrogate statements beyond the textual =
+representation=20
+  </LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Input+Output Adapters<A name=3D"InputOutput_Adapters"></A></H3>
+<UL>
+  <LI>CSV input adapter reads comma-separated value formats
+  <UL>
+    <LI>simulate multiple event streams with timed, coordinated playback =
+via=20
+    timestamp column</LI>
+    <LI>load generator</LI>
+    <LI>preloading of reference data</LI></UL></LI>
+  <LI>JMS input and output adapter based on Spring JMS templates</LI>
+  <LI>DB output adapter for running DML and for keyed update-insert =
+(aka.=20
+  upsert)</LI>
+  <LI>HTTP input+output adapter</LI>
+  <LI>Socket input adapter</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Other<A name=3D"Other"></A></H3>
+<UL>
+  <LI><B>Executes a large number of simultaneous queries</B> - Esper's =
+query=20
+  processor can run thousands of queries continuously and simultaneously =
+on a=20
+  single instance</LI>
+  <LI><B>Relational database access via SQL-query joins with event =
+streams</B>
+  <UL>
+    <LI>LRU (least-recently used) and expiry-time query result =
+caches</LI>
+    <LI>Keyed cache entries for fast cache lookup</LI>
+    <LI>Engine indexes cached rows for fast filtering within a large =
+number of=20
+    SQL-query result rows</LI>
+    <LI>Multiple SQL-queries in one statement transparently integrates =
+multiple=20
+    autonomous database systems</LI></UL></LI>
+  <LI><B>Expression declarations</B> - expressions that are common to =
+multiple=20
+  places in an EPL statement can be moved to a named expression=20
+declaration.</LI>
+  <LI><B>Joins to method invocation results</B> allows easy integration =
+with=20
+  distributed caches, web services and object-oriented databases </LI>
+  <LI><B>On-demand queries</B> are fire-and-forget EPL queries against =
+named=20
+  windows for non-continuous query execution.
+  <UL>
+    <LI>Support for "create index" for on-demand query execution against =
+large=20
+    named windows</LI></UL></LI>
+  <LI><B> Data Flow Programming</B></LI>
+  <LI><B>Variables</B> and <B>Constants</B> can occur in any expression =
+and can=20
+  dynamically control output rate
+  <UL>
+    <LI>Guarantees of consistency and atomicity of variable updates</LI>
+    <LI>Scalar, un-typed and event-typed variables with support for =
+nested=20
+    property read/write</LI>
+    <LI>Constants ensure query optimizations for constant values are =
+possible=20
+    for variables that never change</LI></UL></LI>
+  <LI><B>Variant event streams</B> allows treating disparate types of =
+events as=20
+  the same type, such as when the event type can only be known at =
+runtime, when=20
+  the event type is expected to vary, or when optional properties are=20
+  desired.</LI>
+  <LI><B>Concurrency-safe iterator</B> provides complete query =
+capability for=20
+  all statements, with read-write locking</LI>
+  <LI>Supports <B>externally-provided time</B> as well as Java system =
+time,=20
+  allowing applications full control over the concept of time within an =
+engine=20
+  and full control over which thread(s) evaluate timer schedule for=20
+  statements</LI>
+  <LI><B>Multithread-safe</B> as of release 1.5
+  <UL>
+    <LI>Multithreaded sends of events into an engine</LI>
+    <LI>Create, start and stop statements during operation without =
+adversely=20
+    impacting performance</LI>
+    <LI>Applications can retain full control over threading; Inbound, =
+outbound=20
+    and execution threading configurable</LI>
+    <LI>Efficiently sharing resources between statements and low thread=20
+    blocking</LI></UL></LI>
+  <LI>Supports <B>multiple independent Esper engines per JavaVM</B></LI>
+  <LI><B>Pluggable architecture</B> for event pattern and event stream =
+analysis=20
+  via user-defined functions, plug-in views, plug-in aggregation =
+functions,=20
+  plug-in pattern guards and plug-in pattern event observers and event =
+instance=20
+  methods. Virtual data windows for transparently backing named windows =
+with an=20
+  external store</LI>
+  <LI><B>Performance-minded design</B>: query strategy analysis and =
+index=20
+  building; array-based collections; delta networks and many other =
+techniques
+  <UL>
+    <LI>Benchmark kit available for download; Performance testing =
+results and=20
+    tips see page in menu</LI></UL></LI>
+  <LI><B>Unmatched event listener</B> receives a callback if an event =
+does not=20
+  match any started statement</LI>
+  <LI>Support for all Java data types including BigInteger and =
+BigDecimal</LI>
+  <LI><B>Contained-Event</B> select syntax for easy handling of =
+coarse-grained,=20
+  business-level events that themselves contain events or that need to =
+be broken=20
+  down into rows.</LI>
+  <LI>JSON and XML output event rendering without syntax to learn</LI>
+  <LI><B>Annotations</B> allow adding information to EPL statements =
+specific to=20
+  your application, allow debugging and allow tuning memory use and=20
+  performance</LI>
+  <LI>Assign a <B>priority</B> to your statement; Identify =
+<B>preemptive</B>=20
+  statements that cause an event to drop in face of multiple statements =
+matching=20
+  filters.</LI>
+  <LI>Declarative update of event properties via <B>on update</B> for =
+named=20
+  windows and <B>update istream</B> of events entering a stream.</LI>
+  <LI>Support for <B>versioned events</B> that update, provide a new =
+version or=20
+  that revise an existing event held by an engine.</LI>
+  <LI>Support for MVEL and JSR 223 scripts</LI>
+  <LI>Both non-consuming and consuming operation (consuming =
+deletes/drops an=20
+  event after it is considered)</LI>
+  <LI>Actions can be Java methods and can also be declarative through =
+the use of=20
+  data flows such as for event I/O</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Excellent documentation <A =
+name=3D"Excellent_documentation"></A></H3></DIV>
+<DIV class=3D"section">
+<H3>Many examples<A name=3D"Many_examples"></A></H3>
+<UL>
+  <LI>J2EE and non-J2EE, from many different domains</LI>
+  <LI>Java Messaging Service (JMS) server shell demonstrates a =
+multi-threaded=20
+  JMS server with dynamic statement management using Java Management =
+Extensions=20
+  (JMX)</LI></UL></DIV>
+<DIV class=3D"section">
+<H3>Supportive user and developer community<A =
+name=3D"Supportive_user_and_developer_community"></A></H3></DIV>
+<DIV class=3D"section">
+<H3>Performance tested<A =
+name=3D"Performance_tested"></A></H3></DIV></DIV>
+<DIV class=3D"section">
+<H2>Typical Uses<A name=3D"Typical_Uses"></A></H2>
+<P>What these applications have in common is the requirement to process =
+events=20
+(or messages) in real-time or near real-time. This is sometimes referred =
+to as=20
+complex event processing (CEP) and event stream analysis. </P>
+<P>Key considerations for these types of applications are the complexity =
+of the=20
+logic required, throughput and latency. </P>
+<UL>
+  <LI>Complex computations - applications that detect patterns among =
+events=20
+  (event correlation), filter events, aggregate time or length windows =
+of=20
+  events, join event streams, trigger based on absence of events =
+etc.</LI>
+  <LI>High throughput - applications that process large volumes of =
+messages=20
+  (between 1,000 to 100k messages per second) </LI>
+  <LI>Low latency - applications that react in real-time to conditions =
+that=20
+  occur (from a few milliseconds to a few seconds) </LI></UL></DIV>
+<DIV class=3D"section">
+<H2>Java - Known Limitations<A =
+name=3D"Java_-_Known_Limitations"></A></H2>
+<UL>
+  <LI>Esper requires a Java Virtual Machine version 5.0 runtime, or =
+above. </LI>
+  <LI>Esper will not work with JavaVM versions 1.4.2 or =
+below.</LI></UL></DIV>
+<DIV class=3D"section">
+<H2>.NET - Known Limitations<A =
+name=3D"a.NET_-_Known_Limitations"></A></H2>
+<UL>
+  <LI>NEsper is the .NET version of the Java Esper, check the release =
+section=20
+  for feature information</LI></UL></DIV>
+<DIV class=3D"section">
+<H2>Summary<A name=3D"Summary"></A></H2>
+<P>Esper and NEsper were designed to make it easier to build CEP and ESP =
+
+applications. Esper and NEsper are open-source software available under =
+the GNU=20
+General Public License (GPL) license.</P>
+<HR>
+
+<P>YourKit is kindly supporting open source projects with its =
+full-featured Java=20
+Profiler. YourKit, LLC is creator of innovative and intelligent tools =
+for=20
+profiling Java and .NET applications. Take a look at YourKit's leading =
+software=20
+products: <A class=3D"externalLink" =
+href=3D"http://www.yourkit.com/java/profiler/index.jsp">YourKit=20
+Java Profiler</A> and <A class=3D"externalLink" =
+href=3D"http://www.yourkit.com/.net/profiler/index.jsp">YourKit=20
+.NET Profiler</A>.</P></DIV></DIV><!-- left_main -->    		 </DIV><!-- =
+right_side -->
+		=20
+<DIV id=3D"right_side"><A =
+href=3D"http://esper.codehaus.org/index.html"><IMG alt=3D"Esper and =
+NEsper at Codehaus"=20
+src=3D"http://esper.codehaus.org/images/home.gif"></A>			=20
+<DIV id=3D"google_searchFormContainer">
+<DIV id=3D"google_search"><!--<h5>Esper 4.0.0</h5> Esper site.vm ignores =
+it -->   =20
+                                                                         =
+       =20
+                                                                 	=20
+<H3><STRONG>About Esper and NEsper</STRONG>        	 </H3><A =
+href=3D"http://esper.codehaus.org/about/news/news.html">News</A>=20
+       	 <BR><A =
+href=3D"http://esper.codehaus.org/about/esper/esper.html">About=20
+Esper for Java</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/about/nesper/nesper.html">About=20
+NEsper for .NET</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/about/license/license.html">License=20
+and Trademark Use</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/about/license/terms.html">Terms=20
+of Use</A>        	 <BR>
+<H3><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorials.html">Tutorials =
+and=20
+Case Studies</A>        	 </H3><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/tutorial.html">Tutor=
+ial</A>=20
+       	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/quickstart.html">Qui=
+ck=20
+Start</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/presentations.html">=
+Articles=20
+and Presentations</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/solution_patterns/solution_pa=
+tterns.html">Solution=20
+Patterns</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/feedmonitor_casestud=
+y.html">Short=20
+Case Study</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/transaction_casestud=
+y.html">Longer=20
+Case Study</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/debs2011_challenge.h=
+tml">DEBS=20
+2011 Challenge</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/tutorial/examples.html">Addit=
+ional=20
+Examples</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/tutorials/links/links.html">Technology =
+
+Links</A>        	 <BR>
+<H3><A href=3D"http://esper.codehaus.org/about/esper/esper.html">Esper =
+for=20
+Java</A>        	 </H3><A =
+href=3D"http://esper.codehaus.org/esper/download/download.html">Download<=
+/A>=20
+       	 <BR><A=20
+href=3D"http://esper.codehaus.org/esper/history/history.html">Change =
+History</A>  =20
+     	 <BR><A =
+href=3D"http://esper.codehaus.org/esper/documentation/documentation.html"=
+>Documentation</A>=20
+       	 <BR><A=20
+href=3D"http://esper.codehaus.org/tutorials/faq_esper/faq.html">FAQ</A>  =
+     =20
+	 <BR><A =
+href=3D"http://esper.codehaus.org/esper/issues/issues.html">Reporting=20
+Issues</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/esper/building/building.html">Building<=
+/A>=20
+       	 <BR><A =
+href=3D"http://esper.codehaus.org/esper/performance/performance.html">On =
+
+Performance</A>        	 <BR>
+<H3><A =
+href=3D"http://esper.codehaus.org/about/nesper/nesper.html">NEsper for=20
+.NET</A>        	 </H3><A =
+href=3D"http://esper.codehaus.org/nesper/download/download.html">Download=
+</A>=20
+       	 <BR><A=20
+href=3D"http://esper.codehaus.org/nesper/history/history.html">Change =
+History</A> =20
+      	 <BR><A =
+href=3D"http://esper.codehaus.org/nesper/documentation/documentation.html=
+">Documentation</A>=20
+       	 <BR><A=20
+href=3D"http://esper.codehaus.org/tutorials/faq_nesper/faq.html">FAQ</A> =
+      =20
+	 <BR><A =
+href=3D"http://esper.codehaus.org/nesper/issues/issues.html">Reporting=20
+Issues</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/nesper/building/building.html">Building=
+</A>=20
+       	 <BR>
+<H3><A href=3D"http://esper.codehaus.org/team/team.html">The =
+Esper/NEsper Team</A>=20
+       	 </H3><A =
+href=3D"http://esper.codehaus.org/team/contribute/contribute.html">How=20
+To Contribute</A>        	 <BR><A =
+href=3D"http://esper.codehaus.org/about/esper/mailinglist.html">Mailing=20
+Lists/Forums</A>        	 <BR><A =
+href=3D"http://jira.codehaus.org/browse/ESPER?report=3Dcom.atlassian.jira=
+.plugin.system.project:roadmap-panel">Roadmap</A>=20
+       	 <BR><A=20
+href=3D"http://esper.codehaus.org/about/esper/sourcerepo.html">Source=20
+Repository</A>        	 <BR>
+<H3>&nbsp;</H3><A href=3D"http://www.codehaus.org/"><IMG width=3D"100" =
+alt=3D"" =
+src=3D"http://esper.codehaus.org/images/logos/codehaus-small.gif"></A>
+			=20
+<H3>&nbsp;</H3>			            Last Published: Apr 09, 2013   =
+<BR>Version: 4.9.0 =20
+		 </DIV></DIV><!-- main -->    		=20
+<DIV id=3D"footer">
+<DIV class=3D"right">=C2=A9 2006-2013, Esper contributors &amp; =
+EsperTech Inc. -=20
+<SMALL>Design: <A href=3D"http://www.free-css-templates.com/">David=20
+Herreman</A></SMALL>		 </DIV></DIV></DIV><!-- content --> <!-- google =
+analytics -->=20
+<SCRIPT type=3D"text/javascript">=0A=
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' type=3D'text/javascript'%3E%3C/script%3E"));=0A=
+</SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+var pageTracker =3D _gat._getTracker("UA-1261295-1");=0A=
+pageTracker._trackPageview();=0A=
+</SCRIPT>
+ <!-- IntelliJ IDEA --> <A title=3D"Java IDE with unparalleled java code =
+analyzer (600+ built-in inspections)"=20
+style=3D'background: =
+url("http://www.jetbrains.com/idea/opensource/img/all/banners/idea468x60_=
+blue.gif") no-repeat 10px 50% rgb(13, 58, 158); margin: 0px; padding: =
+0px; border: 1px solid rgb(13, 58, 158); width: 466px; height: 58px; =
+text-indent: 0px; letter-spacing: 0em; text-decoration: none; display: =
+block;'=20
+href=3D"http://www.jetbrains.com/idea/features/code_analysis.html" =
+alt=3D"Java IDE with unparalleled java code analyzer (600+ built-in =
+inspections)"><SPAN=20
+style=3D"margin: 5px 0px 0px 52px; padding: 0px; border: 0px =
+currentColor; text-align: left; color: rgb(172, 196, 249); font-family: =
+trebuchet ms,arial,sans-serif; font-size: 12px; font-weight: normal; =
+float: left; cursor: pointer; background-image: none;">Addicted=20
+to</SPAN><SPAN style=3D"margin: 0px 0px 0px 205px; padding: 18px 0px =
+2px; border: 0px currentColor; width: 255px; text-align: left; color: =
+rgb(172, 196, 249); line-height: 13px; font-family: trebuchet =
+ms,arial,sans-serif; font-size: 13px; font-weight: normal; display: =
+block; cursor: pointer; background-image: none;">Java=20
+IDE with unparalleled java code <BR>analyzer (600+ built-in=20
+inspections)</SPAN></A></DIV></DIV></BODY><!--=0A=
+memo:=0A=
+- html title (for UA)=0A=
+- use mvn macro for download.apt ? (requires maven doxia 1.0beta9 not =
+publicly available yet)=0A=
+--></HTML>
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://esper.codehaus.org/images/home.gif
+
+R0lGODlhDQALAIAAAJmZmf///yH5BAEAAAEALAAAAAANAAsAAAIajHGmi+DL3oNhVhShnQ7v5DFg
+ooRh2aUYxRYAOw==
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://esper.codehaus.org/images/contact.gif
+
+R0lGODlhDAAKAIAAAJmZmf///yH5BAEAAAEALAAAAAAMAAoAAAIXjI+pCO1vmpIBVHaz1fFKu1FM
++JSLUgAAOw==
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://esper.codehaus.org/images/espertech_logo_transparent.png
+
+iVBORw0KGgoAAAANSUhEUgAAAMsAAABHCAYAAACpibOQAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A
+/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gCFw4gEukUcEQAABWzSURBVHja
+7Z1nfFTV1sb/e3pJJo0AUqUrTaUjCAGRJiAoVYWrNBEL2ChXBbzX6wuKChZQQBQRQZQLIlWCEkVA
+CVJEmgSkhoS0mcn0st8PJwIhhBICiZfz8Jsv5Owz6+y9n7PWetY6Z4SUEhUqVFwaGnUKVKhQyaJC
+hUoWFSpUsqhQoZJFhQqVLCpUqGRRoUKFShYVKlSyqFChkkWFCpUsKlSoZFGhQiWLChU3KnRFGbTn
+eLZ87P0fQKsBRMlegS9A/VplmTm8lVCXU0WpI0uOy8/G5KOg04Ao4T3q8uMMqwupopSSRasRYDGU
+DrIAVpNOXUkVas6iQsXf2rMUiuB1iIc0QvmoUPG3JIvLD1JiLWNFq7m2zsrh8kOOB6wGMGjVFVTx
+NyGLBNw+OrWsTu1K0TzbrT4RJv2X19Lgn/an9Vm9+TDf/HaSkydySlyMU6GS5TI9io+BXeoxb3S7
+65bm39e0Kvc1rcrwQxmyyyurST+erfJFRelN8AWAw0e7FtX4+OmEEtHDGlUvI9ZM6gp6LYGQqh2r
+KKVkCYTCGCIMjL//dkVGLiHcUS1OdG9XG5cvqK6kitJJFm8wDBFG2jWoUOIRUJfbK2J3+9WVVHHN
+IYrykr0ct7/67qPZKS1qlxW6EpZxj2e65MlsN81qxhdqyKTFv8qk5KNg1l/+if1BalSOYc7INjdc
+SpTu8GY9PP37mIA/CFeqbrr83NumJs/3aFDi8zbm7S/k1uS9YDGCy8vEZ/uT0OTWIttVpAQ/2mI4
+1PqWcqViE1WKs4pKcdaLHpOccpoNmw9DpPHyT+wJcMzhvSHvoB5/MGZd8lHwBvL6/64Adi+VqsSU
+iuvYvOsgGxO3gs0CdhfDBna+qvPdEH0iFqNOqctYDEp7jjcAwdDFB0lJ+EZ+s61U5oBzIw+tRvHO
+EkXlCUnw+AvMW2l5I7DVbIRIC0RYICzR67QqWa5QnaB+rXgu5Y3wh6heKfqG5InFoNvW/c7qjQOB
+YL5uiUynj63700ErICiJjjTSonHl/IPdAZrViv+fnJdiJcvS77fJ9T/v4b1xA4s9RNv3Z6p85cOl
+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
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://esper.codehaus.org/images/logos/codehaus-small.gif
+
+R0lGODlh0QA6APcAAAICAgKaAgYGBkJCQlZWVoKCgla6VpqamrKyskpKSsbGxk5OTtLS0lJSUsbm
+xgaaBhKiEra2ttra2t7e3ioqKrq6uh6mHuLi4r6+viaqJubm5sLCwn7KfjKuMhoaGprWmmJiYqba
+purq6j6yPmZmZu7u7qreqoaGhnLGcq7erqqqqnJycu767hISEvLy8kKyQi4uLtry2rbitvL68mrC
+aoqKiorSih4eHka2Rn5+fjIyMqampvb29vb69o6OjjY2Nkq2Sl6+XgoKCsrqyrriupaWlp6ennp6
+eub25iIiIsrKyvr6+m5ubtLu0j4+PpbWlr7mvkZGRg6eDk62TiYmJl5eXnZ2dhYWFpKSkvr++g4O
+DobOhhqiGjauNjo6Ot7y3mbCZtbW1gaeBp7Wnmpqas7Ozq6urnrKeqKioo7Sjn7Ofk66Tla+Vv7+
+/jqyOmLCYnbKdlpaWuL24iqqKs7qzrLismrGatbu1sLmwiKmIuLy4qbephqmGur26s7uzoLOghai
+FrrmuqLaojquOlK6Ulq+WpLSkvb+9mK+YgqeCsbqxp7ani6qLm7GbrLesgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA0QA6AAAI/wDbCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0CDCh1KtKjRo0iTKl3KtKnTp1CjovxzZojUqyeRMAoQYE5SI1bCikXAkYdZrAgX
+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
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://esper.codehaus.org/css/esper.css
+
+body {
+	font: 0.74em/1.5em Arial, sans-serif; margin: 0px; padding: 0px; color: =
+rgb(69, 69, 69); font-size-adjust: none; font-stretch: normal;
+}
+a {
+	background: inherit; color: rgb(0, 0, 153);
+}
+a:hover {
+	background: inherit; color: rgb(170, 0, 0); text-decoration: underline;
+}
+p {
+	margin: 5px 0px;
+}
+h1 {
+	font: bold 1.8em/normal Arial, Sans-Serif; margin: 0px; padding: 8px =
+0px 4px; letter-spacing: -1px; font-size-adjust: none; font-stretch: =
+normal;
+}
+h2 {
+	font: bold 1.6em/normal Arial, Sans-Serif; letter-spacing: -1px; =
+font-size-adjust: none; font-stretch: normal;
+}
+h3 {
+	margin: 0px; padding: 4px 0px;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+img {
+	border: 0px currentColor;
+}
+hr {
+	margin: 10px 0px; height: 1px; color: rgb(208, 208, 208); =
+background-color: rgb(192, 192, 192);
+}
+pre {
+	color: rgb(0, 0, 153); font-size: 1.2em; font-weight: bold;
+}
+.source {
+	padding: 10px; border: 1px solid rgb(0, 0, 153); width: 640px; =
+overflow: scroll;
+}
+.content {
+	margin: 0px auto; width: 900px;
+}
+#top {
+	background: rgb(252, 252, 252); height: 71px; padding-top: 0px;
+}
+#top h1 {
+	font: bold 1.8em/normal Arial, Sans-Serif; margin: 0px; padding: 8px =
+0px 4px; color: rgb(255, 255, 255); letter-spacing: 1px; =
+font-size-adjust: none; font-stretch: normal;
+}
+#top h2 {
+	font: 1.4em/normal Arial, Sans-Serif; margin: 0px; padding: 0px; color: =
+rgb(134, 134, 134); letter-spacing: 0px; font-size-adjust: none; =
+font-stretch: normal;
+}
+#top #icons {
+	margin: 20px 0px; padding: 0px; float: right;
+}
+#top #icons img {
+	border: 0px currentColor; padding-right: 2px;
+}
+#dmenu {
+	margin: 1px; width: 100%; line-height: 16px; float: left;
+}
+#dmenu ul {
+	list-style: none; padding: 0px; line-height: 7px; float: left;
+}
+#dmenu h2 {
+	font: 14px/16px arial, helvetica, sans-serif; margin: 2px; padding: 2px =
+3px; text-transform: uppercase; font-size-adjust: none; font-stretch: =
+normal;
+}
+#dmenu a {
+	text-decoration: none;
+}
+#dmenu a:hover {
+	color: rgb(170, 0, 0); text-decoration: underline;
+}
+#dmenu ul ul {
+	background: rgb(224, 224, 224); padding: 5px 15px; border: 1px solid =
+rgb(170, 0, 0); width: 190px; line-height: 20px; margin-top: -3px; =
+white-space: nowrap; position: absolute; z-index: 500;
+}
+#dmenu ul ul ul {
+	left: 100%; top: 0px; position: absolute;
+}
+div#dmenu ul ul {
+	display: none;
+}
+div#dmenu ul li:hover ul ul {
+	display: none;
+}
+div#dmenu ul ul li:hover ul ul {
+	display: none;
+}
+div#dmenu ul li:hover ul {
+	display: block;
+}
+div#dmenu ul ul li:hover ul {
+	display: block;
+}
+div#dmenu ul ul ul li:hover ul {
+	display: block;
+}
+#prec {
+	background: rgb(252, 252, 252); margin: 0px 0px 10px; padding: 0px; =
+height: 44px; border-bottom-color: rgb(220, 220, 220); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+#precHOME {
+	background: rgb(252, 252, 252); margin: 0px; padding: 0px; height: =
+140px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: =
+1px; border-bottom-style: solid;
+}
+#wrap {
+	margin: 0px auto; width: 900px;
+}
+#wrap #pic {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, =
+204, 204) rgb(136, 136, 136) rgb(85, 85, 85) rgb(187, 187, 187); margin: =
+10px; width: 900px; height: 100px; overflow: hidden; float: left;
+}
+#wrap #pic #slogan {
+	font: 1.4em/normal Arial, Sans-Serif; padding: 5px 140px 0px 30px; =
+text-align: left; color: rgb(0, 0, 0); float: right; font-size-adjust: =
+none; font-stretch: normal;
+}
+#wrap #pic #slogan h1 {
+	font: bold 1.5em/normal Arial, Sans-Serif; margin: 0px; color: rgb(0, =
+0, 0); letter-spacing: 1px; font-size-adjust: none; font-stretch: =
+normal;
+}
+#wrap #pic #slogan h2 {
+	font: 1.5em/normal Arial, Sans-Serif; margin: 0px; padding: 0px; color: =
+rgb(0, 0, 0); letter-spacing: 0px; font-size-adjust: none; font-stretch: =
+normal;
+}
+#wrap #pic #slogan a {
+	color: rgb(0, 0, 153); text-decoration: none;
+}
+#wrap #pic #slogan a:hover {
+	color: rgb(170, 0, 0); text-decoration: underline;
+}
+#wrap #menu {
+	background: inherit; margin: 0px; padding: 0px;
+}
+#wrap #menu a {
+	background: url("/images/lm-li.gif") no-repeat left rgb(252, 252, 252); =
+font: 0.9em/normal Arial, Sans-Serif; padding-left: 25px; =
+text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+#wrap #menu ul {
+	padding: 0px;
+}
+#wrap #menu li {
+	background: url("/images/li-line.gif") no-repeat left bottom rgb(252, =
+252, 252); list-style: none; line-height: 26px;
+}
+#wrap #menu2 {
+	background: inherit;
+}
+#wrap #menu2 a {
+	background: url("/images/lm-li.gif") no-repeat left rgb(252, 252, 252); =
+font: 0.9em/normal Arial, Sans-Serif; padding-left: 25px; =
+text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+#wrap #menu2 ul {
+	padding: 0px;
+}
+#wrap #menu2 li {
+	background: url("/images/li-line.gif") no-repeat left bottom rgb(252, =
+252, 252); list-style: none; line-height: 26px;
+}
+#ad {
+	background: rgb(255, 255, 255); padding-left: 0px; margin-bottom: 15px;
+}
+#ad a {
+	background: rgb(255, 255, 255); text-decoration: none;
+}
+#left_side a {
+	background: rgb(255, 255, 255); text-decoration: none;
+}
+#ad a:hover {
+	color: rgb(170, 0, 0); text-decoration: underline;
+}
+#left_side a:hover {
+	color: rgb(170, 0, 0); text-decoration: underline;
+}
+#main {
+=09
+}
+#right_side {
+	background: rgb(252, 252, 252); padding: 5px 10px; width: 212px; =
+margin-bottom: 10px;
+}
+#right_side ul {
+	padding: 3px 0px 8px;
+}
+#right_side li {
+	background: url("/images/cat-li.gif") no-repeat left rgb(252, 252, =
+252); list-style: none; color: rgb(0, 0, 153); line-height: 18px; =
+padding-left: 20px;
+}
+#right_side a {
+	background: rgb(252, 252, 252); text-decoration: none;
+}
+#right_side a:hover {
+	text-decoration: underline;
+}
+#right_side h3 {
+	font: bold 1.2em/normal Arial, Sans-Serif; color: rgb(64, 64, 64); =
+font-size-adjust: none; font-stretch: normal;
+}
+#right_side p {
+	background: rgb(252, 252, 252); padding: 3px 0px 8px; color: rgb(0, 0, =
+153);
+}
+#left_side {
+	background: rgb(255, 255, 255); width: 660px; margin-bottom: 10px; =
+float: right;
+}
+#left_side h3 {
+	background: url("/images/hbg.gif") repeat-x rgb(255, 255, 255); font: =
+bold 1.2em/normal Arial, Sans-Serif; margin: 0px; padding: 5px 0px 0px; =
+height: 30px; font-size-adjust: none; font-stretch: normal;
+}
+#left_side h3 span {
+	background: url("/images/h-art.gif") no-repeat left; margin: 0px; =
+padding: 1px 10px 0px 23px; line-height: 22px;
+}
+#left_side p {
+	padding: 0px 15px 0px 5px; text-align: justify; color: rgb(69, 69, 69); =
+margin-bottom: 10px;
+}
+#left_side img {
+	padding: 0px 10px 5px 0px; float: left;
+}
+#left_side blockquote {
+	margin: 10px 0px 10px 25px; padding-left: 10px; border-left-color: =
+rgb(0, 0, 153); border-left-width: 2px; border-left-style: solid;
+}
+.date {
+	margin: 0px 0px 5px; padding: 0px; text-align: left; =
+border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+#left_side .rs {
+	background: rgb(245, 245, 245); margin: 0px 10px; padding: 5px; border: =
+1px solid rgb(221, 221, 221); float: right;
+}
+#left_side ul {
+	background: inherit; margin-left: 2px; list-style-position: inside;
+}
+#left_side ul li {
+	background: inherit; margin-left: 15px; list-style-type: square;
+}
+#left_side ul li a {
+	background: inherit; text-decoration: none;
+}
+#left_side ul ul li {
+	list-style: inside; margin-left: 10px;
+}
+#footer {
+	background: rgb(255, 255, 255); margin: 0px 0px 3em; color: rgb(119, =
+119, 119); clear: both; border-top-color: rgb(220, 220, 220); =
+border-top-width: 1px; border-top-style: solid;
+}
+#footer .right {
+	background: rgb(255, 255, 255); text-align: right; float: right;
+}
+#footer a {
+	background: rgb(255, 255, 255); text-decoration: none;
+}
+table.wBorder {
+	border: 1px solid black; text-align: center; border-collapse: collapse; =
+border-spacing: 1px; background-color: white;
+}
+table.wBorder th {
+	padding: 3px; border: 1px inset gray; background-color: white; =
+-moz-border-radius: 0px 0px 0px 0px;
+}
+table.wBorder td {
+	padding: 3px; border: 1px inset gray; -moz-border-radius: 0px 0px 0px =
+0px;
+}
+table.bodyTable {
+	border: 1px solid black; width: 100%; margin-bottom: 15px; =
+border-collapse: collapse; border-spacing: 1px; background-color: white;
+}
+table.bodyTable th {
+	padding: 3px; border: 1px inset gray; background-color: white; =
+-moz-border-radius: 0px 0px 0px 0px;
+}
+table.bodyTable td {
+	padding: 3px; border: 1px inset gray; -moz-border-radius: 0px 0px 0px =
+0px;
+}
+
+------=_NextPart_000_0000_01CE75F6.199E1C40
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google.com/jsapi
+
+if(!window['googleLT_']){window['googleLT_']=3D(new =
+Date()).getTime();}if (!window['google']) {=0A=
+window['google'] =3D {};=0A=
+}=0A=
+if (!window['google']['loader']) {=0A=
+window['google']['loader'] =3D {};=0A=
+google.loader.ServiceBase =3D 'http://www.google.com/uds';=0A=
+google.loader.GoogleApisBase =3D 'http://ajax.googleapis.com/ajax';=0A=
+google.loader.ApiKey =3D 'notsupplied';=0A=
+google.loader.KeyVerified =3D true;=0A=
+google.loader.LoadFailure =3D false;=0A=
+google.loader.Secure =3D false;=0A=
+google.loader.GoogleLocale =3D 'www.google.com';=0A=
+google.loader.ClientLocation =3D null;=0A=
+google.loader.AdditionalParams =3D '';=0A=
+(function() {var d=3DencodeURIComponent,g=3Dwindow,h=3Ddocument;function =
+l(a,b){return a.load=3Db}var =
+m=3D"push",n=3D"replace",q=3D"charAt",r=3D"indexOf",t=3D"ServiceBase",u=3D=
+"name",v=3D"getTime",w=3D"length",x=3D"prototype",y=3D"setTimeout",z=3D"l=
+oader",A=3D"substring",B=3D"join",C=3D"toLowerCase";function D(a){return =
+a in E?E[a]:E[a]=3D-1!=3Dnavigator.userAgent[C]()[r](a)}var =
+E=3D{};function F(a,b){var =
+c=3Dfunction(){};c.prototype=3Db[x];a.U=3Db[x];a.prototype=3Dnew c}=0A=
+function G(a,b,c){var e=3DArray[x].slice.call(arguments,2)||[];return =
+function(){var c=3De.concat(Array[x].slice.call(arguments));return =
+a.apply(b,c)}}function H(a){a=3DError(a);a.toString=3Dfunction(){return =
+this.message};return a}function I(a,b){for(var =
+c=3Da.split(/\./),e=3Dg,f=3D0;f<c[w]-1;f++)e[c[f]]||(e[c[f]]=3D{}),e=3De[=
+c[f]];e[c[c[w]-1]]=3Db}function J(a,b,c){a[b]=3Dc}if(!K)var =
+K=3DI;if(!L)var =
+L=3DJ;google[z].v=3D{};K("google.loader.callbacks",google[z].v);var =
+M=3D{},N=3D{};google[z].eval=3D{};K("google.loader.eval",google[z].eval);=0A=
+l(google,function(a,b,c){function e(a){var =
+b=3Da.split(".");if(2<b[w])throw H("Module: '"+a+"' not =
+found!");"undefined"!=3Dtypeof =
+b[1]&&(f=3Db[0],c.packages=3Dc.packages||[],c.packages[m](b[1]))}var =
+f=3Da;c=3Dc||{};if(a instanceof Array||a&&"object"=3D=3Dtypeof =
+a&&"function"=3D=3Dtypeof a[B]&&"function"=3D=3Dtypeof a.reverse)for(var =
+k=3D0;k<a[w];k++)e(a[k]);else =
+e(a);if(a=3DM[":"+f]){c&&(!c.language&&c.locale)&&(c.language=3Dc.locale)=
+;c&&"string"=3D=3Dtypeof =
+c.callback&&(k=3Dc.callback,k.match(/^[[\]A-Za-z0-9._]+$/)&&(k=3Dg.eval(k=
+),c.callback=3D=0A=
+k));if((k=3Dc&&null!=3Dc.callback)&&!a.s(b))throw H("Module: '"+f+"' =
+must be loaded before DOM =
+onLoad!");k?a.m(b,c)?g[y](c.callback,0):a.load(b,c):a.m(b,c)||a.load(b,c)=
+}else throw H("Module: '"+f+"' not =
+found!");});K("google.load",google.load);=0A=
+google.T=3Dfunction(a,b){b?(0=3D=3DO[w]&&(P(g,"load",Q),!D("msie")&&!D("s=
+afari")&&!D("konqueror")&&D("mozilla")||g.opera?g.addEventListener("DOMCo=
+ntentLoaded",Q,!1):D("msie")?h.write("<script defer =
+onreadystatechange=3D'google.loader.domReady()' =
+src=3D//:>\x3c/script>"):(D("safari")||D("konqueror"))&&g[y](S,10)),O[m](=
+a)):P(g,"load",a)};K("google.setOnLoadCallback",google.T);=0A=
+function P(a,b,c){if(a.addEventListener)a.addEventListener(b,c,!1);else =
+if(a.attachEvent)a.attachEvent("on"+b,c);else{var =
+e=3Da["on"+b];a["on"+b]=3Dnull!=3De?aa([c,e]):c}}function aa(a){return =
+function(){for(var b=3D0;b<a[w];b++)a[b]()}}var =
+O=3D[];google[z].P=3Dfunction(){var =
+a=3Dg.event.srcElement;"complete"=3D=3Da.readyState&&(a.onreadystatechang=
+e=3Dnull,a.parentNode.removeChild(a),Q())};K("google.loader.domReady",goo=
+gle[z].P);var ba=3D{loaded:!0,complete:!0};function =
+S(){ba[h.readyState]?Q():0<O[w]&&g[y](S,10)}=0A=
+function Q(){for(var =
+a=3D0;a<O[w];a++)O[a]();O.length=3D0}google[z].d=3Dfunction(a,b,c){if(c){=
+var =
+e;"script"=3D=3Da?(e=3Dh.createElement("script"),e.type=3D"text/javascrip=
+t",e.src=3Db):"css"=3D=3Da&&(e=3Dh.createElement("link"),e.type=3D"text/c=
+ss",e.href=3Db,e.rel=3D"stylesheet");(a=3Dh.getElementsByTagName("head")[=
+0])||(a=3Dh.body.parentNode.appendChild(h.createElement("head")));a.appen=
+dChild(e)}else"script"=3D=3Da?h.write('<script src=3D"'+b+'" =
+type=3D"text/javascript">\x3c/script>'):"css"=3D=3Da&&h.write('<link =
+href=3D"'+b+'" type=3D"text/css" rel=3D"stylesheet"></link>')};=0A=
+K("google.loader.writeLoadTag",google[z].d);google[z].Q=3Dfunction(a){N=3D=
+a};K("google.loader.rfm",google[z].Q);google[z].S=3Dfunction(a){for(var =
+b in a)"string"=3D=3Dtypeof b&&(b&&":"=3D=3Db[q](0)&&!M[b])&&(M[b]=3Dnew =
+T(b[A](1),a[b]))};K("google.loader.rpl",google[z].S);google[z].R=3Dfuncti=
+on(a){if((a=3Da.specs)&&a[w])for(var b=3D0;b<a[w];++b){var =
+c=3Da[b];"string"=3D=3Dtypeof c?M[":"+c]=3Dnew U(c):(c=3Dnew =
+V(c[u],c.baseSpec,c.customSpecs),M[":"+c[u]]=3Dc)}};K("google.loader.rm",=
+google[z].R);google[z].loaded=3Dfunction(a){M[":"+a.module].l(a)};=0A=
+K("google.loader.loaded",google[z].loaded);google[z].O=3Dfunction(){retur=
+n"qid=3D"+((new =
+Date)[v]().toString(16)+Math.floor(1E7*Math.random()).toString(16))};K("g=
+oogle.loader.createGuidArg_",google[z].O);I("google_exportSymbol",I);I("g=
+oogle_exportProperty",J);google[z].a=3D{};K("google.loader.themes",google=
+[z].a);google[z].a.I=3D"//www.google.com/cse/style/look/bubblegum.css";L(=
+google[z].a,"BUBBLEGUM",google[z].a.I);google[z].a.K=3D"//www.google.com/=
+cse/style/look/greensky.css";L(google[z].a,"GREENSKY",google[z].a.K);=0A=
+google[z].a.J=3D"//www.google.com/cse/style/look/espresso.css";L(google[z=
+].a,"ESPRESSO",google[z].a.J);google[z].a.M=3D"//www.google.com/cse/style=
+/look/shiny.css";L(google[z].a,"SHINY",google[z].a.M);google[z].a.L=3D"//=
+www.google.com/cse/style/look/minimalist.css";L(google[z].a,"MINIMALIST",=
+google[z].a.L);google[z].a.N=3D"//www.google.com/cse/style/look/v2/defaul=
+t.css";L(google[z].a,"V2_DEFAULT",google[z].a.N);function =
+U(a){this.b=3Da;this.o=3D[];this.n=3D{};this.e=3D{};this.f=3D{};this.j=3D=
+!0;this.c=3D-1}=0A=
+U[x].g=3Dfunction(a,b){var c=3D"";void 0!=3Db&&(void =
+0!=3Db.language&&(c+=3D"&hl=3D"+d(b.language)),void =
+0!=3Db.nocss&&(c+=3D"&output=3D"+d("nocss=3D"+b.nocss)),void =
+0!=3Db.nooldnames&&(c+=3D"&nooldnames=3D"+d(b.nooldnames)),void =
+0!=3Db.packages&&(c+=3D"&packages=3D"+d(b.packages)),null!=3Db.callback&&=
+(c+=3D"&async=3D2"),void =
+0!=3Db.style&&(c+=3D"&style=3D"+d(b.style)),void =
+0!=3Db.noexp&&(c+=3D"&noexp=3Dtrue"),void =
+0!=3Db.other_params&&(c+=3D"&"+b.other_params));if(!this.j){google[this.b=
+]&&google[this.b].JSHash&&(c+=3D"&sig=3D"+d(google[this.b].JSHash));=0A=
+var e=3D[],f;for(f in this.n)":"=3D=3Df[q](0)&&e[m](f[A](1));for(f in =
+this.e)":"=3D=3Df[q](0)&&this.e[f]&&e[m](f[A](1));c+=3D"&have=3D"+d(e[B](=
+","))}return =
+google[z][t]+"/?file=3D"+this.b+"&v=3D"+a+google[z].AdditionalParams+c};U=
+[x].t=3Dfunction(a){var b=3Dnull;a&&(b=3Da.packages);var =
+c=3Dnull;if(b)if("string"=3D=3Dtypeof b)c=3D[a.packages];else =
+if(b[w])for(c=3D[],a=3D0;a<b[w];a++)"string"=3D=3Dtypeof =
+b[a]&&c[m](b[a][n](/^\s*|\s*$/,"")[C]());c||(c=3D["default"]);b=3D[];for(=
+a=3D0;a<c[w];a++)this.n[":"+c[a]]||b[m](c[a]);return b};=0A=
+l(U[x],function(a,b){var =
+c=3Dthis.t(b),e=3Db&&null!=3Db.callback;if(e)var f=3Dnew =
+W(b.callback);for(var k=3D[],p=3Dc[w]-1;0<=3Dp;p--){var =
+s=3Dc[p];e&&f.B(s);if(this.e[":"+s])c.splice(p,1),e&&this.f[":"+s][m](f);=
+else =
+k[m](s)}if(c[w]){b&&b.packages&&(b.packages=3Dc.sort()[B](","));for(p=3D0=
+;p<k[w];p++)s=3Dk[p],this.f[":"+s]=3D[],e&&this.f[":"+s][m](f);if(b||null=
+=3D=3DN[":"+this.b]||null=3D=3DN[":"+this.b].versions[":"+a]||google[z].A=
+dditionalParams||!this.j)b&&b.autoloaded||google[z].d("script",this.g(a,b=
+),e);else{c=3DN[":"+this.b];=0A=
+google[this.b]=3Dgoogle[this.b]||{};for(var R in =
+c.properties)R&&":"=3D=3DR[q](0)&&(google[this.b][R[A](1)]=3Dc.properties=
+[R]);google[z].d("script",google[z][t]+c.path+c.js,e);c.css&&google[z].d(=
+"css",google[z][t]+c.path+c.css,e)}this.j&&(this.j=3D!1,this.c=3D(new =
+Date)[v](),1!=3Dthis.c%100&&(this.c=3D-1));for(p=3D0;p<k[w];p++)s=3Dk[p],=
+this.e[":"+s]=3D!0}});=0A=
+U[x].l=3Dfunction(a){-1!=3Dthis.c&&(X("al_"+this.b,"jl."+((new =
+Date)[v]()-this.c),!0),this.c=3D-1);this.o=3Dthis.o.concat(a.components);=
+google[z][this.b]||(google[z][this.b]=3D{});google[z][this.b].packages=3D=
+this.o.slice(0);for(var =
+b=3D0;b<a.components[w];b++){this.n[":"+a.components[b]]=3D!0;this.e[":"+=
+a.components[b]]=3D!1;var c=3Dthis.f[":"+a.components[b]];if(c){for(var =
+e=3D0;e<c[w];e++)c[e].C(a.components[b]);delete =
+this.f[":"+a.components[b]]}}};U[x].m=3Dfunction(a,b){return =
+0=3D=3Dthis.t(b)[w]};U[x].s=3Dfunction(){return!0};=0A=
+function =
+W(a){this.F=3Da;this.q=3D{};this.r=3D0}W[x].B=3Dfunction(a){this.r++;this=
+.q[":"+a]=3D!0};W[x].C=3Dfunction(a){this.q[":"+a]&&(this.q[":"+a]=3D!1,t=
+his.r--,0=3D=3Dthis.r&&g[y](this.F,0))};function =
+V(a,b,c){this.name=3Da;this.D=3Db;this.p=3Dc;this.u=3Dthis.h=3D!1;this.k=3D=
+[];google[z].v[this[u]]=3DG(this.l,this)}F(V,U);l(V[x],function(a,b){var =
+c=3Db&&null!=3Db.callback;c?(this.k[m](b.callback),b.callback=3D"google.l=
+oader.callbacks."+this[u]):this.h=3D!0;b&&b.autoloaded||google[z].d("scri=
+pt",this.g(a,b),c)});V[x].m=3Dfunction(a,b){return =
+b&&null!=3Db.callback?this.u:this.h};V[x].l=3Dfunction(){this.u=3D!0;for(=
+var a=3D0;a<this.k[w];a++)g[y](this.k[a],0);this.k=3D[]};=0A=
+var Y=3Dfunction(a,b){return =
+a.string?d(a.string)+"=3D"+d(b):a.regex?b[n](/(^.*$)/,a.regex):""};V[x].g=
+=3Dfunction(a,b){return this.G(this.w(a),a,b)};=0A=
+V[x].G=3Dfunction(a,b,c){var =
+e=3D"";a.key&&(e+=3D"&"+Y(a.key,google[z].ApiKey));a.version&&(e+=3D"&"+Y=
+(a.version,b));b=3Dgoogle[z].Secure&&a.ssl?a.ssl:a.uri;if(null!=3Dc)for(v=
+ar f in =
+c)a.params[f]?e+=3D"&"+Y(a.params[f],c[f]):"other_params"=3D=3Df?e+=3D"&"=
++c[f]:"base_domain"=3D=3Df&&(b=3D"http://"+c[f]+a.uri[A](a.uri[r]("/",7))=
+);google[this[u]]=3D{};-1=3D=3Db[r]("?")&&e&&(e=3D"?"+e[A](1));return =
+b+e};V[x].s=3Dfunction(a){return =
+this.w(a).deferred};V[x].w=3Dfunction(a){if(this.p)for(var =
+b=3D0;b<this.p[w];++b){var =
+c=3Dthis.p[b];if(RegExp(c.pattern).test(a))return c}return =
+this.D};function =
+T(a,b){this.b=3Da;this.i=3Db;this.h=3D!1}F(T,U);l(T[x],function(a,b){this=
+.h=3D!0;google[z].d("script",this.g(a,b),!1)});T[x].m=3Dfunction(){return=
+ =
+this.h};T[x].l=3Dfunction(){};T[x].g=3Dfunction(a,b){if(!this.i.versions[=
+":"+a]){if(this.i.aliases){var =
+c=3Dthis.i.aliases[":"+a];c&&(a=3Dc)}if(!this.i.versions[":"+a])throw =
+H("Module: '"+this.b+"' with version '"+a+"' not found!");}return =
+google[z].GoogleApisBase+"/libs/"+this.b+"/"+a+"/"+this.i.versions[":"+a]=
+[b&&b.uncompressed?"uncompressed":"compressed"]};=0A=
+T[x].s=3Dfunction(){return!1};var ca=3D!1,Z=3D[],da=3D(new =
+Date)[v](),fa=3Dfunction(){ca||(P(g,"unload",ea),ca=3D!0)},ga=3Dfunction(=
+a,b){fa();if(!(google[z].Secure||google[z].Options&&!1!=3D=3Dgoogle[z].Op=
+tions.csi)){for(var =
+c=3D0;c<a[w];c++)a[c]=3Dd(a[c][C]()[n](/[^a-z0-9_.]+/g,"_"));for(c=3D0;c<=
+b[w];c++)b[c]=3Dd(b[c][C]()[n](/[^a-z0-9_.]+/g,"_"));g[y](G($,null,"//gg.=
+google.com/csi?s=3Duds&v=3D2&action=3D"+a[B](",")+"&it=3D"+b[B](",")),1E4=
+)}},X=3Dfunction(a,b,c){c?ga([a],[b]):(fa(),Z[m]("r"+Z[w]+"=3D"+d(a+(b?"|=
+"+b:""))),g[y](ea,5<Z[w]?0:15E3))},ea=3Dfunction(){if(Z[w]){var a=3D=0A=
+google[z][t];0=3D=3Da[r]("http:")&&(a=3Da[n](/^http:/,"https:"));$(a+"/st=
+ats?"+Z[B]("&")+"&nc=3D"+(new Date)[v]()+"_"+((new =
+Date)[v]()-da));Z.length=3D0}},$=3Dfunction(a){var b=3Dnew =
+Image,c=3D$.H++;$.A[c]=3Db;b.onload=3Db.onerror=3Dfunction(){delete =
+$.A[c]};b.src=3Da;b=3Dnull};$.A=3D{};$.H=3D0;I("google.loader.recordCsiSt=
+at",ga);I("google.loader.recordStat",X);I("google.loader.createImageForLo=
+gging",$);=0A=
+=0A=
+}) =
+();google.loader.rm({"specs":["feeds","spreadsheets","gdata","visualizati=
+on",{"name":"sharing","baseSpec":{"uri":"http://www.google.com/s2/sharing=
+/js","ssl":null,"key":{"string":"key"},"version":{"string":"v"},"deferred=
+":false,"params":{"language":{"string":"hl"}}}},"search","orkut","ads","e=
+lements",{"name":"books","baseSpec":{"uri":"http://books.google.com/books=
+/api.js","ssl":"https://encrypted.google.com/books/api.js","key":{"string=
+":"key"},"version":{"string":"v"},"deferred":true,"params":{"callback":{"=
+string":"callback"},"language":{"string":"hl"}}}},{"name":"friendconnect"=
+,"baseSpec":{"uri":"http://www.google.com/friendconnect/script/friendconn=
+ect.js","ssl":null,"key":{"string":"key"},"version":{"string":"v"},"defer=
+red":false,"params":{}}},"identitytoolkit","ima",{"name":"maps","baseSpec=
+":{"uri":"http://maps.google.com/maps?file\u003dgoogleapi","ssl":"https:/=
+/maps-api-ssl.google.com/maps?file\u003dgoogleapi","key":{"string":"key"}=
+,"version":{"string":"v"},"deferred":true,"params":{"callback":{"regex":"=
+callback\u003d$1\u0026async\u003d2"},"language":{"string":"hl"}}},"custom=
+Specs":[{"uri":"http://maps.googleapis.com/maps/api/js","ssl":"https://ma=
+ps.googleapis.com/maps/api/js","version":{"string":"v"},"deferred":true,"=
+params":{"callback":{"string":"callback"},"language":{"string":"hl"}},"pa=
+ttern":"^(3|3..*)$"}]},"payments","wave","annotations_v2","earth","langua=
+ge",{"name":"annotations","baseSpec":{"uri":"http://www.google.com/review=
+s/scripts/annotations_bootstrap.js","ssl":null,"key":{"string":"key"},"ve=
+rsion":{"string":"v"},"deferred":true,"params":{"callback":{"string":"cal=
+lback"},"language":{"string":"hl"},"country":{"string":"gl"}}}},"picker"]=
+});=0A=
+google.loader.rfm({":search":{"versions":{":1":"1",":1.0":"1"},"path":"/a=
+pi/search/1.0/351077565dad05b6847b1f7d41e36949/","js":"default+de.I.js","=
+css":"default+de.css","properties":{":JSHash":"351077565dad05b6847b1f7d41=
+e36949",":NoOldNames":false,":Version":"1.0"}},":language":{"versions":{"=
+:1":"1",":1.0":"1"},"path":"/api/language/1.0/72dfd738bc1b18a14ab936bb269=
+0a4f0/","js":"default+de.I.js","properties":{":JSHash":"72dfd738bc1b18a14=
+ab936bb2690a4f0",":Version":"1.0"}},":feeds":{"versions":{":1":"1",":1.0"=
+:"1"},"path":"/api/feeds/1.0/e658fb253c8b588196cf534cc43ab319/","js":"def=
+ault+de.I.js","css":"default+de.css","properties":{":JSHash":"e658fb253c8=
+b588196cf534cc43ab319",":Version":"1.0"}},":spreadsheets":{"versions":{":=
+0":"1",":0.4":"1"},"path":"/api/spreadsheets/0.4/87ff7219e9f8a8164006cbf2=
+8d5e911a/","js":"default.I.js","properties":{":JSHash":"87ff7219e9f8a8164=
+006cbf28d5e911a",":Version":"0.4"}},":ima":{"versions":{":3":"1",":3.0":"=
+1"},"path":"/api/ima/3.0/28a914332232c9a8ac0ae8da68b1006e/","js":"default=
+.I.js","properties":{":JSHash":"28a914332232c9a8ac0ae8da68b1006e",":Versi=
+on":"3.0"}},":wave":{"versions":{":1":"1",":1.0":"1"},"path":"/api/wave/1=
+.0/3b6f7573ff78da6602dda5e09c9025bf/","js":"default.I.js","properties":{"=
+:JSHash":"3b6f7573ff78da6602dda5e09c9025bf",":Version":"1.0"}},":earth":{=
+"versions":{":1":"1",":1.0":"1"},"path":"/api/earth/1.0/109c7b2bae7fe6cc3=
+4ea875176165d81/","js":"default.I.js","properties":{":JSHash":"109c7b2bae=
+7fe6cc34ea875176165d81",":Version":"1.0"}},":annotations":{"versions":{":=
+1":"1",":1.0":"1"},"path":"/api/annotations/1.0/bacce7b6155a1bbadda3c05d6=
+5391b22/","js":"default+de.I.js","properties":{":JSHash":"bacce7b6155a1bb=
+adda3c05d65391b22",":Version":"1.0"}},":picker":{"versions":{":1":"1",":1=
+.0":"1"},"path":"/api/picker/1.0/15f21e4469f47194414fc9f09d27f1b0/","js":=
+"default.I.js","css":"default.css","properties":{":JSHash":"15f21e4469f47=
+194414fc9f09d27f1b0",":Version":"1.0"}}});=0A=
+google.loader.rpl({":scriptaculous":{"versions":{":1.8.3":{"uncompressed"=
+:"scriptaculous.js","compressed":"scriptaculous.js"},":1.9.0":{"uncompres=
+sed":"scriptaculous.js","compressed":"scriptaculous.js"},":1.8.2":{"uncom=
+pressed":"scriptaculous.js","compressed":"scriptaculous.js"},":1.8.1":{"u=
+ncompressed":"scriptaculous.js","compressed":"scriptaculous.js"}},"aliase=
+s":{":1.8":"1.8.3",":1":"1.9.0",":1.9":"1.9.0"}},":yui":{"versions":{":2.=
+6.0":{"uncompressed":"build/yuiloader/yuiloader.js","compressed":"build/y=
+uiloader/yuiloader-min.js"},":2.9.0":{"uncompressed":"build/yuiloader/yui=
+loader.js","compressed":"build/yuiloader/yuiloader-min.js"},":2.7.0":{"un=
+compressed":"build/yuiloader/yuiloader.js","compressed":"build/yuiloader/=
+yuiloader-min.js"},":2.8.0r4":{"uncompressed":"build/yuiloader/yuiloader.=
+js","compressed":"build/yuiloader/yuiloader-min.js"},":2.8.2r1":{"uncompr=
+essed":"build/yuiloader/yuiloader.js","compressed":"build/yuiloader/yuilo=
+ader-min.js"},":2.8.1":{"uncompressed":"build/yuiloader/yuiloader.js","co=
+mpressed":"build/yuiloader/yuiloader-min.js"},":3.3.0":{"uncompressed":"b=
+uild/yui/yui.js","compressed":"build/yui/yui-min.js"}},"aliases":{":3":"3=
+.3.0",":2":"2.9.0",":2.7":"2.7.0",":2.8.2":"2.8.2r1",":2.6":"2.6.0",":2.9=
+":"2.9.0",":2.8":"2.8.2r1",":2.8.0":"2.8.0r4",":3.3":"3.3.0"}},":swfobjec=
+t":{"versions":{":2.1":{"uncompressed":"swfobject_src.js","compressed":"s=
+wfobject.js"},":2.2":{"uncompressed":"swfobject_src.js","compressed":"swf=
+object.js"}},"aliases":{":2":"2.2"}},":ext-core":{"versions":{":3.1.0":{"=
+uncompressed":"ext-core-debug.js","compressed":"ext-core.js"},":3.0.0":{"=
+uncompressed":"ext-core-debug.js","compressed":"ext-core.js"}},"aliases":=
+{":3":"3.1.0",":3.0":"3.0.0",":3.1":"3.1.0"}},":webfont":{"versions":{":1=
+.0.28":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.=
+0.27":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0=
+.29":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.=
+12":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.1=
+3":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.14=
+":{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.15"=
+:{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.10":=
+{"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.11":{=
+"uncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.2":{"u=
+ncompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.1":{"unc=
+ompressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.0":{"uncom=
+pressed":"webfont_debug.js","compressed":"webfont.js"},":1.0.6":{"uncompr=
+essed":"webfont_debug.js","compressed":"webfont.js"},":1.0.19":{"uncompre=
+ssed":"webfont_debug.js","compressed":"webfont.js"},":1.0.5":{"uncompress=
+ed":"webfont_debug.js","compressed":"webfont.js"},":1.0.18":{"uncompresse=
+d":"webfont_debug.js","compressed":"webfont.js"},":1.0.4":{"uncompressed"=
+:"webfont_debug.js","compressed":"webfont.js"},":1.0.17":{"uncompressed":=
+"webfont_debug.js","compressed":"webfont.js"},":1.0.3":{"uncompressed":"w=
+ebfont_debug.js","compressed":"webfont.js"},":1.0.16":{"uncompressed":"we=
+bfont_debug.js","compressed":"webfont.js"},":1.0.9":{"uncompressed":"webf=
+ont_debug.js","compressed":"webfont.js"},":1.0.21":{"uncompressed":"webfo=
+nt_debug.js","compressed":"webfont.js"},":1.0.22":{"uncompressed":"webfon=
+t_debug.js","compressed":"webfont.js"},":1.0.25":{"uncompressed":"webfont=
+_debug.js","compressed":"webfont.js"},":1.0.26":{"uncompressed":"webfont_=
+debug.js","compressed":"webfont.js"},":1.0.23":{"uncompressed":"webfont_d=
+ebug.js","compressed":"webfont.js"},":1.0.24":{"uncompressed":"webfont_de=
+bug.js","compressed":"webfont.js"}},"aliases":{":1":"1.0.29",":1.0":"1.0.=
+29"}},":mootools":{"versions":{":1.3.1":{"uncompressed":"mootools.js","co=
+mpressed":"mootools-yui-compressed.js"},":1.1.1":{"uncompressed":"mootool=
+s.js","compressed":"mootools-yui-compressed.js"},":1.3.0":{"uncompressed"=
+:"mootools.js","compressed":"mootools-yui-compressed.js"},":1.3.2":{"unco=
+mpressed":"mootools.js","compressed":"mootools-yui-compressed.js"},":1.1.=
+2":{"uncompressed":"mootools.js","compressed":"mootools-yui-compressed.js=
+"},":1.2.3":{"uncompressed":"mootools.js","compressed":"mootools-yui-comp=
+ressed.js"},":1.2.4":{"uncompressed":"mootools.js","compressed":"mootools=
+-yui-compressed.js"},":1.2.1":{"uncompressed":"mootools.js","compressed":=
+"mootools-yui-compressed.js"},":1.2.2":{"uncompressed":"mootools.js","com=
+pressed":"mootools-yui-compressed.js"},":1.2.5":{"uncompressed":"mootools=
+.js","compressed":"mootools-yui-compressed.js"},":1.4.0":{"uncompressed":=
+"mootools.js","compressed":"mootools-yui-compressed.js"},":1.4.1":{"uncom=
+pressed":"mootools.js","compressed":"mootools-yui-compressed.js"},":1.4.2=
+":{"uncompressed":"mootools.js","compressed":"mootools-yui-compressed.js"=
+}},"aliases":{":1":"1.1.2",":1.11":"1.1.1",":1.4":"1.4.2",":1.3":"1.3.2",=
+":1.2":"1.2.5",":1.1":"1.1.2"}},":jqueryui":{"versions":{":1.8.0":{"uncom=
+pressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.2":{"uncom=
+pressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.1":{"uncom=
+pressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.15":{"unco=
+mpressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.14":{"unc=
+ompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.13":{"un=
+compressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.12":{"u=
+ncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.11":{"=
+uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.10":{=
+"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.17":=
+{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.16"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.6.0"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.9"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.7"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.8"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.7.2"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.5"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.7.3"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.6"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.7.0"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.7.1"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.8.4"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.5.3"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"},":1.5.2"=
+:{"uncompressed":"jquery-ui.js","compressed":"jquery-ui.min.js"}},"aliase=
+s":{":1.8":"1.8.17",":1.7":"1.7.3",":1.6":"1.6.0",":1":"1.8.17",":1.5":"1=
+.5.3",":1.8.3":"1.8.4"}},":chrome-frame":{"versions":{":1.0.2":{"uncompre=
+ssed":"CFInstall.js","compressed":"CFInstall.min.js"},":1.0.1":{"uncompre=
+ssed":"CFInstall.js","compressed":"CFInstall.min.js"},":1.0.0":{"uncompre=
+ssed":"CFInstall.js","compressed":"CFInstall.min.js"}},"aliases":{":1":"1=
+.0.2",":1.0":"1.0.2"}},":prototype":{"versions":{":1.7.0.0":{"uncompresse=
+d":"prototype.js","compressed":"prototype.js"},":1.6.0.2":{"uncompressed"=
+:"prototype.js","compressed":"prototype.js"},":1.6.1.0":{"uncompressed":"=
+prototype.js","compressed":"prototype.js"},":1.6.0.3":{"uncompressed":"pr=
+ototype.js","compressed":"prototype.js"}},"aliases":{":1.7":"1.7.0.0",":1=
+.6.1":"1.6.1.0",":1":"1.7.0.0",":1.6":"1.6.1.0",":1.7.0":"1.7.0.0",":1.6.=
+0":"1.6.0.3"}},":dojo":{"versions":{":1.3.1":{"uncompressed":"dojo/dojo.x=
+d.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},":1.3.0":{"uncompre=
+ssed":"dojo/dojo.xd.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},"=
+:1.6.1":{"uncompressed":"dojo/dojo.xd.js.uncompressed.js","compressed":"d=
+ojo/dojo.xd.js"},":1.1.1":{"uncompressed":"dojo/dojo.xd.js.uncompressed.j=
+s","compressed":"dojo/dojo.xd.js"},":1.3.2":{"uncompressed":"dojo/dojo.xd=
+.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},":1.6.0":{"uncompres=
+sed":"dojo/dojo.xd.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},":=
+1.2.3":{"uncompressed":"dojo/dojo.xd.js.uncompressed.js","compressed":"do=
+jo/dojo.xd.js"},":1.7.2":{"uncompressed":"dojo/dojo.js.uncompressed.js","=
+compressed":"dojo/dojo.js"},":1.7.0":{"uncompressed":"dojo/dojo.js.uncomp=
+ressed.js","compressed":"dojo/dojo.js"},":1.7.1":{"uncompressed":"dojo/do=
+jo.js.uncompressed.js","compressed":"dojo/dojo.js"},":1.4.3":{"uncompress=
+ed":"dojo/dojo.xd.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},":1=
+.5.1":{"uncompressed":"dojo/dojo.xd.js.uncompressed.js","compressed":"doj=
+o/dojo.xd.js"},":1.5.0":{"uncompressed":"dojo/dojo.xd.js.uncompressed.js"=
+,"compressed":"dojo/dojo.xd.js"},":1.2.0":{"uncompressed":"dojo/dojo.xd.j=
+s.uncompressed.js","compressed":"dojo/dojo.xd.js"},":1.4.0":{"uncompresse=
+d":"dojo/dojo.xd.js.uncompressed.js","compressed":"dojo/dojo.xd.js"},":1.=
+4.1":{"uncompressed":"dojo/dojo.xd.js.uncompressed.js","compressed":"dojo=
+/dojo.xd.js"}},"aliases":{":1.7":"1.7.2",":1":"1.6.1",":1.6":"1.6.1",":1.=
+5":"1.5.1",":1.4":"1.4.3",":1.3":"1.3.2",":1.2":"1.2.3",":1.1":"1.1.1"}},=
+":jquery":{"versions":{":1.6.2":{"uncompressed":"jquery.js","compressed":=
+"jquery.min.js"},":1.3.1":{"uncompressed":"jquery.js","compressed":"jquer=
+y.min.js"},":1.6.1":{"uncompressed":"jquery.js","compressed":"jquery.min.=
+js"},":1.3.0":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},"=
+:1.6.4":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},":1.6.3=
+":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},":1.3.2":{"un=
+compressed":"jquery.js","compressed":"jquery.min.js"},":1.6.0":{"uncompre=
+ssed":"jquery.js","compressed":"jquery.min.js"},":1.2.3":{"uncompressed":=
+"jquery.js","compressed":"jquery.min.js"},":1.7.0":{"uncompressed":"jquer=
+y.js","compressed":"jquery.min.js"},":1.7.1":{"uncompressed":"jquery.js",=
+"compressed":"jquery.min.js"},":1.2.6":{"uncompressed":"jquery.js","compr=
+essed":"jquery.min.js"},":1.4.3":{"uncompressed":"jquery.js","compressed"=
+:"jquery.min.js"},":1.4.4":{"uncompressed":"jquery.js","compressed":"jque=
+ry.min.js"},":1.5.1":{"uncompressed":"jquery.js","compressed":"jquery.min=
+.js"},":1.5.0":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},=
+":1.4.0":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},":1.5.=
+2":{"uncompressed":"jquery.js","compressed":"jquery.min.js"},":1.4.1":{"u=
+ncompressed":"jquery.js","compressed":"jquery.min.js"},":1.4.2":{"uncompr=
+essed":"jquery.js","compressed":"jquery.min.js"}},"aliases":{":1.7":"1.7.=
+1",":1.6":"1.6.4",":1":"1.7.1",":1.5":"1.5.2",":1.4":"1.4.4",":1.3":"1.3.=
+2",":1.2":"1.2.6"}}});=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CE75F6.199E1C40--
