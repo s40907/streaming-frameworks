@@ -1,7 +1,47 @@
 \chapter{Grundlagen}
+\label{chapter:grundlagen}
+
+Im folgenden Kapitel werden die Begriffe Event, Stream, Processing aus der Informatik im Bereich der verteilten Systeme erläutert und in einen Zusammenhang zu Streaming frameworks gebracht. Dabei wird ein Grundkonzept für eine streambasierte Nachrichtenverarbeitung vorgestellt. Im weiteren Verlauf und maßgeblich in Kapitel \ref{chapter:vorstellung} wird stets auf das Grundkonzept Bezug genommen. In der Einführung wurde die stream processing engine Borealis \citelit{abadi2005design} als ein einfaches Modell eines Stream processing-Systems erwähnt. Zuerst werden im Unterkapitel \ref{subchapter:grundbegriffe} die wesentlichen Fachbegriffe vorgestellt. Anschließend wird im Unterkapitel \ref{subchapter:technologie} ein Zeitbezug zu verwandten Technologien gegeben und die Streaming frameworks aus Kapitel \ref{chapter:vorstellung} werden eingeordnet. Das Kapitel \ref{chapter:grundlagen} endet mit einer Zusammenfassung und leitet in das Kapitel \ref{chapter:analyse} ein.
 
 \section{Grundbegriffe}
+\label{subchapter:grundbegriffe}
+
+Ein großer Teil der verwendeten Grundbegriffe sind in \citelit{tanenbaum:vs} definiert. An dieser Stelle werden nur die wesentlichen Grundbegriffe vorgestellt.
+Ein Verteiltes System wird von Andrew S. Tanenbaum und Maarten van Steen in \citelit[S. 19, K 1.1]{tanenbaum:vs} grob definiert:
+
+\begin{quote}
+Ein verteiltes System ist eine Ansammlung unabhängiger Computer, die den Benutzern wie ein einzelnes kohärentes System erscheinen.
+\end{quote}
+
+Verteilte Systeme bestehen also laut \citelit{tanenbaum:vs} aus unabhängigen Komponenten und enthalten eine bestimmte Form der Kommunikation zwischen den Komponenten. Informationen werden zwischen Sender und Empfänger über ein Signal ausgetauscht. Dazu hat Claude E. Shannon in \citelit[S. 2, A. 1]{shannon1948} ein Diagramm eines allgemeinen Kommunikationssystems vorgestellt. In der genannten Abbildung wird das Signal in einem Kanal codiert übertragen. Dabei ist das Signal einem Umgebungsrauschen ausgesetzt. Durch Einsatz geeigneter Kodierverfahren in Übertragungsprotokollen können Übertragungsfehler festgestellt und behoben werden. Im schlimmsten Fall wird eine fehlerhaft übertragene Nachricht zum Beispiel innerhalb des Transmission Control Protocol (TCP) auf OSI Schichtebene 4 in \citelit[S. 40, K. 7.4.4.6 Data transfer phase]{itux200} neu übertragen. Der Kanal ist das Medium in \citelit{shannon1948}, um die Nachricht zu übertragen. %% Signalarten
+Tanenbaum und van Steen beschreiben in \citelit[S. 184, K. 4.4.1]{tanenbaum:vs} ein kontinuierliches Medium Temperatursensor gegenüber einem diskreten Medium Quelltext als zeitkritisch zwischen Signalen. %Außerdem ist die Reihenfolge bei Audiosignalen für eine richtige Interpretation wichtig.
+Shannon beschreibt in \citelit[S. 3 und S. 34]{shannon1948} ein kontinuierliches System als:
+
+\begin{quote}
+A continuous system is one in which the message and signal are both treated as continuous functions, e.g., radio or television. [...]
+An ensemble of functions is the appropriate mathematical representation of the messages produced by
+a continuous source (for example, speech), of the signals produced by a transmitter, and of the perturbing
+noise. Communication theory is properly concerned, as has been emphasized by Wiener, not with operations
+on particular functions, but with operations on ensembles of functions. A communication system is designed
+not for a particular speech function and still less for a sine wave, but for the ensemble of speech functions.
+\end{quote}
+
+Ein Stream oder ein Datastream ist damit eine Folge von Signalen. Einem Signal entspricht ein Event und die Anwendung von Funktionen findet im Processing statt. Somit ist Event stream processing eine Signalfolgenverarbeitung in einem kontinuierlichen Medium. Weiterhin soll in diesem Zusammenhang von Event stream processing oder abgekürzt ESP gesprochen werden.
+
+Da zu Streams ebenfalls eine Paketierung von unterschiedlichen Substreams aus Audio, Video und Synchronisierungsspezifikation verstanden wird, wie in \citelit[S. 191, letzter Absatz]{tanenbaum:vs} mit MPEG gezeigt, soll an dieser Stelle keine tiefergehende Untersuchung in den Zusammenschluss unterschiedlicher Algorithmen zur Komprimierung der Substreams in einen Stream erfolgen. 
+
+% (1) basic terminology, (2) measures of event processing performance,
+% (3) streams dienstgüte (Pünktlichkeit, Umfang, Zuverlässigkeit): qos
+
+Während Streams auf einem Prozessorsystem verarbeitet werden können, muss eine hohe Kapazität von Daten auf einem oder mehreren Multiprozessorsystemen in einer geringen Latenz verteilt berechnet werden können. Tanenbaum und van Steen stellen die Grundlagen der Remote Procedure Call (RPC)-Verwendung in \citelit[S. 150, K. 4.2.1]{tanenbaum:vs} vor. Abstraktionen der Schnittstelle zur Transportebene, wie diese auf OSI Ebene 4 durch TCP angeboten werden, bilden dabei eine Vereinfachung um Funktionen mit übergebenen Parametern auf entfernten Rechnern aufzurufen. Nach der entfernten Berechnung wird das Ergebnis sofort an den Client zurückgeschickt. Dabei ist der Client bei einem synchronen Nachrichtenmodell blockiert bis der Server geantwortet hat. Im asynchronen Nachrichtenmodell wartet der Client nicht und wird erst vom Server informiert, sobald die Berechnung durchgeführt wurde. Währenddessen können weitere Anfragen durch den Client erfolgen. 
+
+Wie in \citelit[S. 170, K. 4.3.2]{tanenbaum:vs} vorgestellt, wurde durch den Einsatz von Warteschlangensystemen ein zeitlich lose gekoppelter Nachrichtenaustausch zwischen Sender und Empfänger möglich. Der Empfänger entscheidet selbst wann und ob eine Nachricht eines Senders von der Warteschlange abgeholt wird. Zusätzlich entsteht die Möglichkeit des Warteschlangensystems Nachrichten zwischenzuspeichern. Im Gegensatz zu RPC haben Nachrichten in Warteschlangensystemen eine Adresse und können beliebige Daten enthalten. 
+% Grafik Client/Server
+
+In einem Cluster übernehmen einzelne Rechner-Knoten die Berechnung. Außerhalb der Rechner-Knoten gibt es einen Master-Knoten mit dem die Rechenaufgaben auf die Rechner-Knoten verteilt werden. Dazu wird von Tanenbaum und van Steen in \citelit[S. 35, A. 1.6]{tanenbaum:vs} ein Cluster-Computersystem in einem Netzwerk gezeigt. Diese Prinzip wird auch in den Streaming frameworks eingesetzt. In dem Kapitel \ref{chapter:vorstellung} werden die einzelnen Frameworks im Detail vorgestellt. Die Streaming frameworks selbst bieten dabei ähnlich wie es bei den RPCs der Fall ist, eine Abstraktionsschicht um die Datenverarbeitung für den Entwickler zu vereinfachen. Dazu werden abstrakte Primitive und Aggregate für die Anwendung auf einem unterliegenden Cluster bereitgestellt.
 
 \section{Technologie}
+\label{subchapter:technologie}
+
 
 \section{Zusammenfassung}
