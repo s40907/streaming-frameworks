@@ -34,7 +34,12 @@
 \usepackage{bibgerm}
 \usepackage{MnSymbol}
 \usepackage{multibib}
+%\usepackage[acronyms]{glossaries}
+\usepackage[acronym,style=long,nopostdot,sanitizesort=false,toc=true,numberedsection=autolabel]{glossaries} 
 \usepackage[author={Eduard Bergen}]{pdfcomment}
+
+\makeglossaries
+
 
 \newcites{lit}{Literaturverzeichnis}
 \newcites{int}{Internetquellen}
@@ -61,7 +66,7 @@
 \typeout{----> thesis.tex ---- Zentrales Dokument-------------------}
 \typeout{-----------------------------------------------------------}
 
-\version{MILESTONE 4 (MS04)}
+\version{MILESTONE 5 (MS05)}
 \abgabedatum{{27}. {Oktober} {2014}}
 %%
 %% Titel, Autor und Betreuer
@@ -119,20 +124,33 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Literaturverzeichnis
+%% Verzeichnisse
 
-\clearpage\newpage
+\chapter*{Verzeichnisse}
+\addcontentsline{toc}{chapter}{Verzeichnisse}
+
 \bibliographystylelit{geralpha}
 \bibliographylit{literaturVerzeichnis}
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 
-\clearpage\newpage
+\newpage
 \bibliographystyleint{geralpha}
 \bibliographyint{internetQuellen}
+\addcontentsline{toc}{section}{Internetquellen}
 
+\newpage
+\listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Anhang
 
 \clearpage\newpage
 \begin{appendix}
   \input{anhang.tex}
 \end{appendix}
+
+
 
 \end{document}
