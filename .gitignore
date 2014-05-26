@@ -9,3 +9,11 @@
 *.blg
 *.bbl
 *.out
+*.bak
+*.acn
+*.acr
+*.alg
+*.glo
+*.glsdefs
+*.ist
+*.upa
