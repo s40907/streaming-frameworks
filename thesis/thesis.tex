@@ -1,4 +1,3 @@
-
 %%
 %% Beuth Hochschule für Technik --  Abschlussarbeit
 %%
@@ -33,9 +32,11 @@
 \usepackage{bytefield} %http://ftp.uni-erlangen.de/mirrors/CTAN/macros/latex/contrib/bytefield/bf-example.pdf
 \usepackage{bibgerm}
 \usepackage{MnSymbol}
+\usepackage{lmodern}
 \usepackage{multibib}
 %\usepackage[acronyms]{glossaries}
-\usepackage[acronym,style=long,nopostdot,sanitizesort=false,toc=true,numberedsection=autolabel]{glossaries} 
+\usepackage[acronym,style=long,toc=true,numberedsection=autolabel]{glossaries} 
+%\robustify{\gls}
 \usepackage[author={Eduard Bergen}]{pdfcomment}
 
 \makeglossaries
@@ -66,7 +67,7 @@
 \typeout{----> thesis.tex ---- Zentrales Dokument-------------------}
 \typeout{-----------------------------------------------------------}
 
-\version{MILESTONE 5 (MS05)}
+\version{MILESTONE 6 (MS06)}
 \abgabedatum{{27}. {Oktober} {2014}}
 %%
 %% Titel, Autor und Betreuer
@@ -86,14 +87,33 @@
 }
 
 %%\renewcommand{\baselinestretch}{1.05} 
+\pagenumbering{Alph}
 \begin{document}
 \pagestyle{fancy}
 
+
+\cleardoublepage
+
 \input{titelseiten.tex}
+\frontmatter
+
+
+
+\mainmatter
 
 \pagenumbering{arabic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Die Kapitel der Arbeit
+
+\newacronym{glo:mpeg}{MPEG}{Motion Pictures Expert Group}
+\newacronym{glo:tcp}{TCP}{Transmission Control Protocol}
+\newacronym{glo:esp}{ESP}{Event Stream Processing}
+\newacronym{glo:spe}{SPE}{Stream Processing Engine}
+\newacronym[plural=RPCs,firstplural=Remote Procedure Calls (RPCs)]{glo:rpc}{RPC}{Remote Procedure Call}
+\newacronym{glo:qos}{QoS}{Quality of Service}
+\newacronym[plural=CPs, firstplural=Connection Points (CPs)]{glo:cp}{CP}{Connection Point}
+\newacronym{glo:vecme}{VM}{Vector of Metrics}
+
 
 \input{einfuehrung.tex}
 \input{grundlagen.tex}
@@ -126,22 +146,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Verzeichnisse
 
-\chapter*{Verzeichnisse}
-\addcontentsline{toc}{chapter}{Verzeichnisse}
+\chapter{Verzeichnisse}
+%\addcontentsline{toc}{chapter}{Verzeichnisse}
 
 \bibliographystylelit{geralpha}
 \bibliographylit{literaturVerzeichnis}
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 
-\newpage
+%\newpage
 \bibliographystyleint{geralpha}
 \bibliographyint{internetQuellen}
 \addcontentsline{toc}{section}{Internetquellen}
 
-\newpage
+%\newpage
 \listoffigures
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
-
+\clearpage
+\cleardoublepage
+%\newpage
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+\clearpage
+\cleardoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Anhang

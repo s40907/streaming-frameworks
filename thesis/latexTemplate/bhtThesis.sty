@@ -11,7 +11,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Identification
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{bhtThesis}[2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style]
+\ProvidesPackage{latexTemplate/bhtThesis}[2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style]
 \message{2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de}
 \message {2014/04/28 v3 BHT-Thesis-Style, E. Bergen}
 
@@ -37,7 +37,7 @@
 \RequirePackage{tocvsec2}
 \RequirePackage{wrapfig}
 \RequirePackage{afterpage}
-\RequirePackage[config]{caption,subfig}
+\RequirePackage{caption,subfig}
 
 %% Standardschriftart für den Text festlegen
 %%\RequirePackage{times}                            %% Standardfont: Times (PS)
@@ -45,12 +45,13 @@
 %%\Requirepackage{arial}
 %%\RequirePackage{palatino}
 %%\RequirePackage{charter}
-%%\RequirePackage[T1]{fontenc}
+\RequirePackage[T1]{fontenc}
+
 \RequirePackage{lmodern}
 \renewcommand*\familydefault{\sfdefault}
 
+\RequirePackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false, plainpages=false, pdfpagelabels, citecolor = black,urlcolor = blue, breaklinks=true]{hyperref}
 
-\RequirePackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false,citecolor = black,urlcolor = blue, breaklinks=true]{hyperref}
 
 %\RequirePackage[minionint,mathlf]{MinionPro}
 %\renewcommand{\sfdefault}{Myriad-LF}
