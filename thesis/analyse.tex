@@ -1,0 +1,47 @@
+\chapter{Analyse}
+\label{chapter:analyse}
+
+In Kapitel \ref{chapter:grundlagen} wurden für die weitere Betrachtung der Streaming frameworks notwendige Grundbegriffe erläutert und ein Referenzmodell wie in Abbildung \ref{fig:basismodell} gezeigt vorgestellt. Zunächst wird der Markt anhand der Studie \citelit{studie:bidama} im Kontext von Big Data in dem Streaming frameworks zum Einsatz kommt vorgestellt. Die Studie \citelit{studie:bidama} wurde von Markl et al. im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWi) 2013 erstellt. 
+
+\begin{quote}
+Zentrales Ziel der vorliegenden Studie ist eine qualitative und quantitative Bewertung des Ist-Zustandes sowie der wirtschaftlichen Potenziale von neuen Technologien für das Management von Big Data. Daraus werden standortspezifische Chancen und Herausforderungen für Deutschland abgeleitet. In der Studie werden insbesondere auch rechtliche Rahmenbedingungen anhand von Einzelfällen betrachtet. Die Studie beinhaltet zudem konkrete Handlungsempfehlungen. 
+\citelit[S. 3]{studie:bidama}
+\end{quote}
+
+Big Data wurde im Artikel \citelit{laney:threevs} von Laney 2001 in drei Dimensionen \textit{Volume}, \textit{Velocity} und \textit{Variety} eingeordnet. Die Dimension \textit{Volume} beschreibt den Umgang mit dem rasanten Anstieg an Datentransaktionen. \textit{Velocity} gibt die Geschwindigkeit an und \textit{Variety} gibt die steigende Vielfalt der Daten an. Relationale Datenbanksysteme stoßen im Zusammenhang der horizontalen Skalierung in der Systemarchitektur auf Probleme. So zeigt Edlich et al. in dem Buch \citelit{edlich:nosql} einen alternativen Ansatz Daten zu halten. 
+
+Dabei wird der Begriff \textit{NoSQL} als nicht relationales Datenbanksystem eingeführt und definiert \citelit[S. 2, K 1.2]{edlich:nosql}. In Verbindung mit horizontaler Skalierung, Replikation und niedriger Reaktionszeit wird in \citelit[S. 30, K. 2.2]{edlich:nosql} das \gls{glo:cap}-Theorem erklärt. Beim CAP-Theorem besteht der Konflikt, ob die Konsistenz gelockert wird oder nicht. Falls nicht gelockert wird kann der Umstand in Kraft treten, sehr lange Reaktionszeiten zu erhalten. Daher wurde das Konsistenzmodell \gls{glo:base} eingeführt. Es basiert auf einem optimistischen Ansatz. Eine Transaktion nimmt den Status konsistent nicht unmittelbar ein. Erst nach einer gewissen Zeitspanne ist die Transaktion konsistent. Dieses Verhalten wird als \textit{Eventually Consistancy} bezeichnet. Als Beispiel gibt Edlich et al. in \citelit[S. 33, K. 2.2.3]{edlich:nosql} replizierende Knoten in einer Systemarchitektur an. 
+% 3V Darstellung, nächere Darstellung ACID(::CAP)->BASE
+
+So wurden in der Studie \citelit{studie:bidama} neben der Einführung in Big Data, Stärken, Schwächen, Chancen und Risiken für die Branchen Handel, Banken, Energie, Dienstleistungen, Öffentlicher Sektor, Industrie, Gesundheitssektor, Marktforschung, Mobilitätsleistungen, Energie und Versicherungen als tabellarische Übersicht in \citelit[S. 105, Tab. 18]{studie:bidama} ausgegeben. In \citelit[S. 107, Abb. 54]{studie:bidama} werden Branchenschwerpunkte abgeleitet. Die genannte Abbildung wird im folgenden Zitat textuell erneut wiedergegeben:
+
+\begin{quote}
+	\begin{enumerate}
+		\item Entwicklung neuartiger Technologien, um eine skalierbare Verarbeitung von komplexen Datenanalyseverfahren auf riesigen, heterogenen Datenmengen mit hoher Datenrate zu realisieren
+		\item Senkung der Zeit und Kosten der Datenanalyse durch automatische Parallelisierung und Optimierung von deklarativen Datenanalysespezifikationen
+		\item Schaffung von Technologieimpulsen, die zur erfolgreichen weltweiten Kommerzialisierung von in Deutschland entwickelten, skalierbaren Datenanalysesystemen führen
+		\item Ausbildung von Multiplikatoren im Bereich der Datenanalyse und der skalierbaren Datenverarbeitung, welche die Möglichkeiten von Big Data in Wissenschaft und Wirtschaft tragen werden
+		\item Technologietransfer an Pilotanwendungen in Wissenschaft und Wirtschaft
+		\item Schaffung eines Innovationsklimas durch Konzentration von kritischem Big Data Know-how, damit deutsche Unternehmen und Wissenschaft nicht im Schatten des Silicon Valleys stehen
+		\item Interaktive, iterative Informationsanalyse für Text und Weiterentwicklung geeigneter Geschäftsmodelle zur Schaffung von Marktplätzen für Daten, Datenqualität und Verwertung von Daten
+		\item Datenschutz und Datensicherheit
+	\end{enumerate}
+	\citelit[S. 107, Abb. 54]{studie:bidama}
+\end{quote}
+
+Aus den abgeleiteten Schwerpunkten können mehrere Kriterien für die Betrachtung der Streaming frameworks in Kapitel \ref{chapter:vorstellung} abgeleitet werden:
+
+\begin{enumerate}\label{refmodkrit}
+	\item Architektur
+	\item Prozesse
+	\item Kommunikation
+	\item Namensgebung
+	\item Synchronisierung
+	\item Konsistenz und Replikation
+	\item Pipelining und Materialisierung
+	\item Fehlertoleranz
+	\item Sicherheit	
+\end{enumerate}
+
+In der Liste \ref{refmodkrit} wurden Kriterien vorgestellt, die nun auf das Referenzmodell aus Kapitel \ref{section:technologie} angewendet werden.
+%Count-Min Sketches (82) -> Hash Kernels(144)

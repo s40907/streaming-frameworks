@@ -90,7 +90,7 @@
 \pagenumbering{Alph}
 \begin{document}
 \pagestyle{fancy}
-
+\input{glossary.tex}
 
 \cleardoublepage
 
@@ -105,21 +105,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Die Kapitel der Arbeit
 
-\newacronym{glo:mpeg}{MPEG}{Motion Pictures Expert Group}
-\newacronym{glo:tcp}{TCP}{Transmission Control Protocol}
-\newacronym{glo:esp}{ESP}{Event Stream Processing}
-\newacronym{glo:spe}{SPE}{Stream Processing Engine}
-\newacronym[plural=RPCs,firstplural=Remote Procedure Calls (RPCs)]{glo:rpc}{RPC}{Remote Procedure Call}
-\newacronym{glo:qos}{QoS}{Quality of Service}
-\newacronym[plural=CPs, firstplural=Connection Points (CPs)]{glo:cp}{CP}{Connection Point}
-\newacronym{glo:vecme}{VM}{Vector of Metrics}
-
-
 \input{einfuehrung.tex}
 \input{grundlagen.tex}
-
-\chapter{Analyse}
-\label{chapter:analyse}
+\input{analyse.tex}
 
 \chapter{Vor- und Gegenüberstellung Streaming Frameworks}
 \label{chapter:vorstellung}
