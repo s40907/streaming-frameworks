@@ -10,3 +10,13 @@
 
 \newcommand{\OPV}{Operations\-ver\-stär\-ker}
 
+\newcounter{itemlist}[chapter]
+\renewcommand*{\theitemlist}{\thechapter.\arabic{itemlist}}
+
+\newenvironment{itemlist}[2]{%
+  \refstepcounter{itemlist}%  
+  \hspace*{1em} \\ {Liste~\theitemlist ~-~#1:\ } \label{#2}	
+  \begin{itemize}
+}{%
+  \end{itemize}
+}
