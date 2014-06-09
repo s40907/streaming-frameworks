@@ -48,7 +48,9 @@ Aus den abgeleiteten Schwerpunkten können mehrere Kriterien für die Betrachtun
 	\item Konsistenz und Replikation
 	\item Pipelining und Materialisierung
 	\item Fehlertoleranz
-	\item Sicherheit	
+	\item Sicherheit
+	\item Qualität
+	\item Erweiterung
 \end{itemlist}
 
 Die ermittelten Bewertungskriterien aus Liste \ref{liste:bewkrit} unterstützen die Feststellung eines Streaming frameworks und des Referenzmodells. Damit die einzelnen Bewertungskriterien bei der Anwendung eindeutig und klar sind, werden diese zunächst definiert und zusätzlich erläutert.
@@ -63,10 +65,43 @@ Die ermittelten Bewertungskriterien aus Liste \ref{liste:bewkrit} unterstützen 
 	\item[Pipelining und Materialisierung] gibt eine Technik an, ob komplexe Aggregate berechnet werden und innerhalb der Abfragen wieder benutzt werden können.
 	\item[Fehlertoleranz] zeigt das verwendete Fehlermodell und stellt eine Strategie im Wiederherstellungsfall vor.
 	\item[Sicherheit] stellt das Konzept vor und beschreibt den Einsatz von sicheren Kanälen und der Zugriffssteuerung.
-	\item[Qualität] beschreibt das verwendete Modell für die Dienstgüte
+	\item[Qualität] zeigt das verwendete Modell für die Dienstgüte.
 	\item[Erweiterung] beschreibt Methoden weitere Systemarchitekturen anzuschließen.
 \end{description}
 
-In der Liste \ref{liste:bewkrit} wurden Bewertungskriterien vorgestellt und definiert, die nun auf das Referenzmodell aus Kapitel \ref{section:technologie} angewendet werden. Formal wird zuerst eine tabellarische Übersicht gezeigt, auf die anschließend in der Erläuterung Bezug genommen wird.
+In der Liste \ref{liste:bewkrit} wurden Bewertungskriterien vorgestellt und definiert, die nun auf das Referenzmodell aus Kapitel \ref{section:technologie} angewendet werden. In der Tabelle \ref{tab:bewrefaurbor} wird eine Übersicht über die Bewertung zum Referenzmodell Aurora Borealis gegeben. Als Architektur wird strukturierte Peer-to-Peer-Architektur angegeben. Die strukturierte Peer-to-Peer-Architektur wird in Tanenbaum et al. \citelit[S. 64, Kap. 2.2.2]{tanenbaum:vs} beschrieben. So wird in Abbildung \ref{fig:aurborinaction} eine Anwendung gezeigt in der ein Server 1 die Datenverarbeitung auf zwei Datenverarbeitungsservern 2 und 3 ausführen lässt und das Ergebnis aus der Daten- und Verarbeitungsebene an einen Rechner 4 mit der Benutzerschnittstelle zurückschickt.
 %Top-K, Count-Min Sketches -> Hash Kernels
+
+
+\begin{table}[htbp]
+	\centering
+		\begin{tabular}{@{}ll@{}} \toprule
+			\textbf{Kriterium} & \textbf{Bewertung} \\ \midrule
+			Architektur & Strukturierte Peer-to-Peer-Architektur \\
+			Prozesse und Threads &  \\ 
+			Kommunikation &  \\
+			Namenssystem &  \\
+			Synchronisierung &  \\
+			Konsistenz und Replikation &  \\
+			Pipelining und Materialisierung &  \\
+			Fehlertoleranz &  \\
+			Sicherheit &  \\
+			Qualität &  \\
+			Erweiterung &  \\
+			\bottomrule			
+		\end{tabular}
+	\caption{Bewertung Referenzmodell Aurora Borealis}
+	\label{tab:bewrefaurbor}
+\end{table}
+
+
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/auroraborealisinaction.png}
+\caption{Aurora Borealis mit einem Master zwei Servern und einem Konsumenten
+\label{fig:aurborinaction}}
+\end{figure}
+
+
 
