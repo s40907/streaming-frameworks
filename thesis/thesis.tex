@@ -45,6 +45,37 @@
 \newcites{lit}{Literaturverzeichnis}
 \newcites{int}{Internetquellen}
 
+\usepackage{listings,xcolor}
+
+\definecolor{listingBackground}{rgb}{0.97,0.97,0.97}
+\definecolor{stringColor}{rgb}{0.37,0.37,0.37}
+\lstset{
+	basicstyle=\footnotesize\ttfamily,
+	%numbers=left,
+	numberstyle=\tiny,
+	%stepnumber=2,
+	numbersep=5pt,
+	tabsize=2,
+	extendedchars=true,
+	breaklines=true,
+	keywordstyle=\color{red},
+	frame=b,
+	stringstyle=\color{stringColor}\ttfamily,
+	showspaces=false,
+	showtabs=false,
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=4pt,
+	backgroundcolor=\color{listingBackground},
+	showstringspaces=false
+}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{black}}
+\DeclareCaptionFormat{listing}{\colorbox[rgb]{0.87, 0.87, 0.87}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white,singlelinecheck=false,margin=0pt,font={bf,footnotesize}}
+
 
 
 %%
@@ -67,7 +98,7 @@
 \typeout{----> thesis.tex ---- Zentrales Dokument-------------------}
 \typeout{-----------------------------------------------------------}
 
-\version{MILESTONE 7 (MS07)}
+\version{MILESTONE 8 (MS08)}
 \abgabedatum{{27}. {Oktober} {2014}}
 %%
 %% Titel, Autor und Betreuer
@@ -156,6 +187,10 @@
 %\newpage
 \listoftables
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
+\clearpage
+\cleardoublepage
+\lstlistoflistings 
+\addcontentsline{toc}{section}{Quellenverzeichnis}
 \clearpage
 \cleardoublepage
 
