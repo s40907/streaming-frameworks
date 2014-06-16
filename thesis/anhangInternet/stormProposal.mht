@@ -1,0 +1,2532 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: StormProposal - Incubator Wiki
+Date: Mon, 16 Jun 2014 22:25:28 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF89B1.E040BEF0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/StormProposal
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" =
+"http://www.w3.org/TR/html4/strict.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8"> =
+
+<META name=3D"robots" content=3D"index,nofollow"> <TITLE>StormProposal - =
+Incubator=20
+Wiki</TITLE>=20
+<SCRIPT src=3D"http://wiki.apache.org/wiki/common/js/common.js" =
+type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--=0A=
+var search_hint =3D "Search";=0A=
+//-->=0A=
+</SCRIPT>
+ <LINK href=3D"http://wiki.apache.org/wiki/modernized/css/common.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"all" charset=3D"utf-8"> <LINK =
+href=3D"http://wiki.apache.org/wiki/modernized/css/screen.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"screen" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/projection.css" =
+
+rel=3D"stylesheet" type=3D"text/css" media=3D"projection" =
+charset=3D"utf-8"> <!-- css only for MS IE6/IE7 browsers --> <!--[if lt =
+IE 8]>=0A=
+   <link rel=3D"stylesheet" type=3D"text/css" charset=3D"utf-8" =
+media=3D"all" href=3D"/wiki/modernized/css/msie.css">=0A=
+<![endif]-->=20
+<LINK title=3D"Incubator Wiki: StormProposal" =
+href=3D"/incubator/StormProposal?diffs=3D1&amp;show_att=3D1&amp;action=3D=
+rss_rc&amp;unique=3D0&amp;page=3DStormProposal&amp;ddiffs=3D1"=20
+rel=3D"alternate" type=3D"application/rss+xml"> <LINK =
+href=3D"/incubator/FrontPage"=20
+rel=3D"Start"> <LINK title=3D"Wiki Markup" =
+href=3D"/incubator/StormProposal?action=3Draw"=20
+rel=3D"Alternate"> <LINK title=3D"Print View" =
+href=3D"/incubator/StormProposal?action=3Dprint"=20
+rel=3D"Alternate" media=3D"print"> <LINK href=3D"/incubator/FindPage" =
+rel=3D"Search">=20
+<LINK href=3D"/incubator/TitleIndex" rel=3D"Index"> <LINK =
+href=3D"/incubator/WordIndex"=20
+rel=3D"Glossary"> <LINK href=3D"/incubator/HelpOnFormatting" =
+rel=3D"Help">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17126"></HEAD>=20
+<BODY lang=3D"en" dir=3D"ltr">
+<DIV id=3D"header">
+<FORM id=3D"searchform" action=3D"/incubator/StormProposal" =
+method=3D"get">
+<DIV><INPUT name=3D"action" type=3D"hidden" value=3D"fullsearch"> <INPUT =
+name=3D"context" type=3D"hidden" value=3D"180">=20
+<LABEL for=3D"searchinput">Search:</LABEL>=20
+<INPUT name=3D"value" id=3D"searchinput" onkeyup=3D"searchChange(this)" =
+onfocus=3D"searchFocus(this)" onblur=3D"searchBlur(this)" =
+onchange=3D"searchChange(this)" type=3D"text" size=3D"20" =
+alt=3D"Search">=20
+<INPUT name=3D"titlesearch" id=3D"titlesearch" type=3D"submit" =
+alt=3D"Search Titles" value=3D"Titles">=20
+<INPUT name=3D"fullsearch" id=3D"fullsearch" type=3D"submit" =
+alt=3D"Search Full Text" value=3D"Text">=20
+</DIV></FORM>
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Initialize search form=0A=
+var f =3D document.getElementById('searchform');=0A=
+f.getElementsByTagName('label')[0].style.display =3D 'none';=0A=
+var e =3D document.getElementById('searchinput');=0A=
+searchChange(e);=0A=
+searchBlur(e);=0A=
+//-->=0A=
+</SCRIPT>
+=20
+<DIV id=3D"logo"><A =
+href=3D"http://wiki.apache.org/incubator/FrontPage">Incubator=20
+Wiki</A></DIV>
+<DIV id=3D"username"><A id=3D"login" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3Dlogin"=20
+rel=3D"nofollow">Login</A></DIV>
+<H1 id=3D"locationline"><SPAN id=3D"pagelocation"><A title=3D"Click to =
+do a full-text search for this title"=20
+class=3D"backlink" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3Dfullsearc=
+h&amp;value=3Dlinkto%3A%22StormProposal%22&amp;context=3D180"=20
+rel=3D"nofollow">StormProposal</A></SPAN> </H1>
+<UL id=3D"navibar">
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FrontPage">FrontPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/RecentChanges">RecentChanges</A>=
+</LI>
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FindPage">FindPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/HelpContents">HelpContents</A></=
+LI>
+  <LI class=3D"current"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/StormProposal">StormProposal</A>=
+</LI>=20
+</UL>
+<DIV id=3D"pageline">
+<HR style=3D"display: none;">
+</DIV>
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/StormProposal#">Comments</A></LI=
+>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3DAttachFil=
+e"=20
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/StormProposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL></DIV>
+<DIV id=3D"page" lang=3D"en" dir=3D"ltr">
+<DIV id=3D"content" lang=3D"en" dir=3D"ltr"><SPAN class=3D"anchor" =
+id=3D"top"></SPAN>=20
+<SPAN class=3D"anchor" id=3D"line-1"></SPAN>
+<P class=3D"line867">=20
+<H1 id=3D"Storm_Proposal">Storm Proposal</H1><SPAN class=3D"anchor"=20
+id=3D"line-2"></SPAN><SPAN class=3D"anchor" id=3D"line-3"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Abstract">Abstract</H2><SPAN class=3D"anchor" =
+id=3D"line-4"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-5"></SPAN>
+<P class=3D"line874">Storm is a distributed, fault-tolerant, and =
+high-performance=20
+realtime computation system that provides strong guarantees on the =
+processing of=20
+data. <SPAN class=3D"anchor" id=3D"line-6"></SPAN><SPAN class=3D"anchor" =
+
+id=3D"line-7"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Proposal">Proposal</H2><SPAN class=3D"anchor" =
+id=3D"line-8"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-9"></SPAN>
+<P class=3D"line862">Storm is a distributed real-time computation =
+system. Similar=20
+to how Hadoop provides a set of general primitives for doing batch =
+processing,=20
+Storm provides a set of general primitives for doing real-time =
+computation. Its=20
+use cases span stream processing, distributed RPC, continuous =
+computation, and=20
+more. Storm has become a preferred technology for near-realtime big-data =
+
+processing by many organizations worldwide (see a partial list at <A =
+class=3D"https"=20
+href=3D"https://github.com/nathanmarz/storm/wiki/Powered-By">https://gith=
+ub.com/nathanmarz/storm/wiki/Powered-By</A>).=20
+As an open source project, Storm=E2=80=99s developer community has grown =
+rapidly to 46=20
+members.  <SPAN class=3D"anchor" id=3D"line-10"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-11"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Background">Background</H2><SPAN class=3D"anchor"=20
+id=3D"line-12"></SPAN><SPAN class=3D"anchor" id=3D"line-13"></SPAN>
+<P class=3D"line862">The past decade has seen a revolution in data =
+processing. <A=20
+class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/MapReduce">MapReduce</A>, =
+Hadoop, and=20
+related technologies have made it possible to store and process data at =
+scales=20
+previously unthinkable. Unfortunately, these data processing =
+technologies are=20
+not realtime systems, nor are they meant to be. The lack of a "Hadoop of =
+
+realtime" has become the biggest hole in the data processing ecosystem. =
+Storm=20
+fills that hole. <SPAN class=3D"anchor" id=3D"line-14"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-15"></SPAN>
+<P class=3D"line862">Storm was initially developed and deployed at <A =
+class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/BackType">BackType</A> in 2011. =
+After 7=20
+months of development <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/BackType">BackType</A>=20
+was acquired by Twitter in July 2011. Storm was open sourced in =
+September 2011.=20
+<SPAN class=3D"anchor" id=3D"line-16"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-17"></SPAN>
+<P class=3D"line874">Storm has been under continuous development on its =
+Github=20
+repository since being open-sourced. It has undergone four major =
+releases (0.5,=20
+0.6, 0.7, 0.8) and many minor ones.  <SPAN class=3D"anchor"=20
+id=3D"line-18"></SPAN><SPAN class=3D"anchor" id=3D"line-19"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-20"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Rationale">Rationale</H2><SPAN class=3D"anchor" =
+id=3D"line-21"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-22"></SPAN>
+<P class=3D"line874">Storm is a general platform for low-latency =
+big-data=20
+processing. It is complementary to the existing Apache projects, such as =
+Hadoop.=20
+Many applications are actually exploring using both Hadoop and Storm for =
+
+big-data processing. Bringing Storm into Apache is very beneficial to =
+both=20
+Apache community and Storm community. <SPAN class=3D"anchor"=20
+id=3D"line-23"></SPAN><SPAN class=3D"anchor" id=3D"line-24"></SPAN>
+<P class=3D"line874">The rapid growth of Storm community is empowered by =
+open=20
+source. We believe the Apache foundation is a great fit as the long-term =
+home=20
+for Storm, as it provides an established process for community-driven=20
+development and decision making by consensus. This is exactly the model =
+we want=20
+for future Storm development. <SPAN class=3D"anchor" =
+id=3D"line-25"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-26"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Initial_Goals">Initial Goals</H2><SPAN class=3D"anchor"=20
+id=3D"line-27"></SPAN><SPAN class=3D"anchor" id=3D"line-28"></SPAN>
+<UL>
+  <LI>Move the existing codebase to Apache  <SPAN class=3D"anchor"=20
+  id=3D"line-29"></SPAN></LI>
+  <LI>Integrate with the Apache development process <SPAN =
+class=3D"anchor" id=3D"line-30"></SPAN></LI>
+  <LI>Ensure all dependencies are compliant with Apache License version =
+2.0=20
+  <SPAN class=3D"anchor" id=3D"line-31"></SPAN></LI>
+  <LI>Incremental development and releases per Apache guidelines <SPAN =
+class=3D"anchor"=20
+  id=3D"line-32"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-33"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Current_Status">Current Status</H2><SPAN class=3D"anchor"=20
+id=3D"line-34"></SPAN><SPAN class=3D"anchor" id=3D"line-35"></SPAN>
+<P class=3D"line874">Storm has undergone four major releases (0.5, 0.6, =
+0.7, 0.8)=20
+and many minor ones. Storm 0.9 is about to be released. Storm is being =
+used in=20
+production by over 50 organizations. Storm codebase is currently hosted =
+at=20
+github.com, which will seed the Apache git repository.   <SPAN =
+class=3D"anchor"=20
+id=3D"line-36"></SPAN><SPAN class=3D"anchor" id=3D"line-37"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Meritocracy">Meritocracy</H3><SPAN class=3D"anchor"=20
+id=3D"line-38"></SPAN><SPAN class=3D"anchor" id=3D"line-39"></SPAN>
+<P class=3D"line874">We plan to invest in supporting a meritocracy. We =
+will=20
+discuss the requirements in an open forum. Several companies have =
+already=20
+expressed interest in this project, and we intend to invite additional=20
+developers to participate. We will encourage and monitor community =
+participation=20
+so that privileges can be extended to those that contribute.  <SPAN =
+class=3D"anchor"=20
+id=3D"line-40"></SPAN><SPAN class=3D"anchor" id=3D"line-41"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Community">Community</H3><SPAN class=3D"anchor" =
+id=3D"line-42"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-43"></SPAN>
+<P class=3D"line862">The need for a low-latency big-data processing =
+platform in=20
+the open source is tremendous. Storm is currently being used by at least =
+50=20
+organizations worldwide (see <A class=3D"https" =
+href=3D"https://github.com/nathanmarz/storm/wiki/Powered-By">https://gith=
+ub.com/nathanmarz/storm/wiki/Powered-By</A>),=20
+and is the most starred Java project on Github. By bringing Storm into =
+Apache,=20
+we believe that the community will grow even bigger. <SPAN =
+class=3D"anchor" id=3D"line-44"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-45"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Core_Developers">Core Developers</H3><SPAN class=3D"anchor"=20
+id=3D"line-46"></SPAN><SPAN class=3D"anchor" id=3D"line-47"></SPAN>
+<P class=3D"line862">Storm was started by Nathan Marz at <A =
+class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/BackType">BackType</A>, and now =
+has=20
+developers from Yahoo!, Microsoft, Alibaba, Infochimps, and many other=20
+companies. <SPAN class=3D"anchor" id=3D"line-48"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-49"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Alignment">Alignment</H3><SPAN class=3D"anchor" =
+id=3D"line-50"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-51"></SPAN>
+<P class=3D"line874">In the big-data processing ecosystem, Storm is a =
+very popular=20
+low-latency platform, while Hadoop is the primary platform for batch =
+processing.=20
+We believe that it will help the further growth of big-data community by =
+having=20
+Hadoop and Storm aligned within Apache foundation. The alignment is also =
+
+beneficial to other Apache communities (such as Zookeeper, Thrift, =
+Mesos). We=20
+could include additional sub-projects, Storm-on-YARN and Storm-on-Mesos, =
+in the=20
+near future.  <SPAN class=3D"anchor" id=3D"line-52"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-53"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Known_Risks">Known Risks</H2><SPAN class=3D"anchor"=20
+id=3D"line-54"></SPAN><SPAN class=3D"anchor" id=3D"line-55"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Orphaned_Products">Orphaned Products</H3><SPAN =
+class=3D"anchor" id=3D"line-56"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-57"></SPAN>
+<P class=3D"line862">The risk of the Storm project being abandoned is =
+minimal.=20
+There are at least 50 organizations (Twitter, Yahoo!, Microsoft, =
+Groupon, Baidu,=20
+Alibaba, Alipay, Taobao, PARC, <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/RocketFuel">RocketFuel</A>=20
+etc) are highly incentivized to continue development. Many of these=20
+organizations have built critical business applications upon Storm, and =
+have=20
+devoted significant internal infrastructure investment in Storm.  <SPAN =
+class=3D"anchor"=20
+id=3D"line-58"></SPAN><SPAN class=3D"anchor" id=3D"line-59"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Inexperience_with_Open_Source">Inexperience with Open =
+Source</H3><SPAN=20
+class=3D"anchor" id=3D"line-60"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-61"></SPAN>
+<P class=3D"line874">Storm has existed as a healthy open source project =
+for=20
+several years. During that time, we have curated an open-source =
+community=20
+successfully, attracting over 40 developers from a diverse group of =
+companies=20
+including Twitter, Yahoo!, and Alibaba. <SPAN class=3D"anchor"=20
+id=3D"line-62"></SPAN><SPAN class=3D"anchor" id=3D"line-63"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Homogenous_Developers">Homogenous Developers</H3><SPAN =
+class=3D"anchor"=20
+id=3D"line-64"></SPAN><SPAN class=3D"anchor" id=3D"line-65"></SPAN>
+<P class=3D"line874">The initial committers are employed by large =
+companies=20
+(including Twitter, Yahoo!, Alibaba, Microsoft) and well-funded =
+startups. Storm=20
+has an active community of developers, and we are committed to =
+recruiting=20
+additional committers based on their contributions to the project. <SPAN =
+class=3D"anchor"=20
+id=3D"line-66"></SPAN><SPAN class=3D"anchor" id=3D"line-67"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Reliance_on_Salaried_Developers">Reliance on Salaried=20
+Developers</H3><SPAN class=3D"anchor" id=3D"line-68"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-69"></SPAN>
+<P class=3D"line874">It is expected that Storm development will occur on =
+both=20
+salaried time and on volunteer time, after hours. The majority of =
+initial=20
+committers are paid by their employer to contribute to this project. =
+However,=20
+they are all passionate about the project, and we are confident that the =
+project=20
+will continue even if no salaried developers contribute to the project. =
+We are=20
+committed to recruiting additional committers including non-salaried =
+developers.=20
+<SPAN class=3D"anchor" id=3D"line-70"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-71"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Relationships_with_Other_Apache_Products">Relationships with =
+Other=20
+Apache Products</H3><SPAN class=3D"anchor" id=3D"line-72"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-73"></SPAN>
+<P class=3D"line874">As mentioned in the Alignment section, Storm is =
+closely=20
+integrated with Hadoop, <SPAN class=3D"anchor" =
+id=3D"line-74"></SPAN>Zookeeper,=20
+Thrift, YARN and Mesos in a numerous ways. We look forward to =
+collaborating with=20
+those communities, as well as other Apache communities (including Apache =
+S4=20
+which focuses on stateful low-latency processing). <SPAN =
+class=3D"anchor" id=3D"line-75"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-76"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"An_Excessive_Fascination_with_the_Apache_Brand">An Excessive =
+Fascination=20
+with the Apache Brand</H3><SPAN class=3D"anchor" =
+id=3D"line-77"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-78"></SPAN>
+<P class=3D"line874">Storm is already a healthy and well known open =
+source=20
+project. This proposal is not for the purpose of generating publicity. =
+Rather,=20
+the primary benefits to joining Apache are those outlined in the =
+Rationale=20
+section. <SPAN class=3D"anchor" id=3D"line-79"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-80"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Documentation">Documentation</H2><SPAN class=3D"anchor"=20
+id=3D"line-81"></SPAN><SPAN class=3D"anchor" id=3D"line-82"></SPAN>
+<P class=3D"line874">The reader will find these websites highly =
+relevant: <SPAN=20
+class=3D"anchor" id=3D"line-83"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">Storm website: <A class=3D"http" =
+href=3D"http://storm-project.net/">http://storm-project.net/</A>=20
+  <SPAN class=3D"anchor" id=3D"line-84"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Storm documentation: <A class=3D"https" =
+href=3D"https://github.com/nathanmarz/storm/wiki">https://github.com/nath=
+anmarz/storm/wiki</A>=20
+  <SPAN class=3D"anchor" id=3D"line-85"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Codebase: <A class=3D"https" =
+href=3D"https://github.com/nathanmarz/storm">https://github.com/nathanmar=
+z/storm</A>=20
+  <SPAN class=3D"anchor" id=3D"line-86"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">User group: <A class=3D"https" =
+href=3D"https://groups.google.com/group/storm-user">https://groups.google=
+.com/group/storm-user</A>=20
+  <SPAN class=3D"anchor" id=3D"line-87"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-88"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Source_and_Intellectual_Property_Submission_Plan">Source and=20
+Intellectual Property Submission Plan</H2><SPAN class=3D"anchor"=20
+id=3D"line-89"></SPAN><SPAN class=3D"anchor" id=3D"line-90"></SPAN>
+<P class=3D"line862">The Storm codebase is currently hosted on Github: =
+<A class=3D"https"=20
+href=3D"https://github.com/nathanmarz/storm">https://github.com/nathanmar=
+z/storm</A>.=20
+<SPAN class=3D"anchor" id=3D"line-91"></SPAN>This is the exact codebase =
+that we=20
+would migrate to the Apache foundation.  <SPAN class=3D"anchor"=20
+id=3D"line-92"></SPAN><SPAN class=3D"anchor" id=3D"line-93"></SPAN>
+<P class=3D"line862">The Storm source code is currently licensed under =
+Eclipse=20
+Public License Version 1.0. Some source code was contributed under a =
+contributor=20
+agreement based on the Sun contributor agreement (v1.5). More recent =
+code has=20
+been contributed under an Apache style agreement (see <A class=3D"https" =
+href=3D"https://dl.dropboxusercontent.com/u/133901206/storm-apache-style-=
+cla.txt">https://dl.dropboxusercontent.com/u/133901206/storm-apache-style=
+-cla.txt</A>).=20
+<SPAN class=3D"anchor" id=3D"line-94"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-95"></SPAN>
+<P class=3D"line874">Upon entering Apache, Storm will migrate to an =
+Apache License=20
+2.0 with all contributions licensed to the Apache Foundation. In certain =
+cases=20
+where individuals or organizations hold copyright, we will ensure they =
+grant a=20
+license to the Apache Foundation. Going forward, all commits will be =
+licensed=20
+directly to the Apache foundation through our signed Individual =
+Contributor=20
+License Agreements for all committers on the project. <SPAN =
+class=3D"anchor" id=3D"line-96"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-97"></SPAN>
+<P class=3D"line874">storm-kafka, which lets one use Kafka as a source =
+for Storm,=20
+will also be submitted under the contrib folder for the Apache Storm =
+project.=20
+<SPAN class=3D"anchor" id=3D"line-98"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-99"></SPAN>
+<P class=3D"line874">Yahoo! is also willing to move Storm-on-YARN code =
+from github=20
+to be a subproject of Apache Storm project. Storm-on-YARN is currently =
+licensed=20
+under Apache License 2.0 and receive contribution under Apache style =
+CLA. Upon=20
+entering Apache, Yahoo! will sign over copyright to Apache foundation.  =
+<SPAN=20
+class=3D"anchor" id=3D"line-100"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-101"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"External_Dependencies">External Dependencies</H2><SPAN =
+class=3D"anchor"=20
+id=3D"line-102"></SPAN><SPAN class=3D"anchor" id=3D"line-103"></SPAN>
+<P class=3D"line874">To the best of our knowledge, all of Storm =
+dependencies=20
+(except 0MQ/JMQ) are distributed under Apache compatible licenses. Upon=20
+acceptance to the incubator, we would begin a thorough analysis of all=20
+transitive dependencies to verify this fact and introduce license =
+checking into=20
+the build and release process (for instance integrating Apache Rat).  =
+<SPAN=20
+class=3D"anchor" id=3D"line-104"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-105"></SPAN>
+<P class=3D"line874">Storm has used 0MQ and JMQ as the default mechanism =
+for=20
+internal messaging layer, and 0MQ/JMQ is licensed under GNU Lesser =
+General=20
+Public License. Recently, we have made Storm messaging layer pluggable, =
+and plan=20
+to use Netty (which is licensed under Apache License v2) as our default=20
+messaging plugin (while keep 0MQ as an optional plugin).   <SPAN =
+class=3D"anchor"=20
+id=3D"line-106"></SPAN><SPAN class=3D"anchor" id=3D"line-107"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Cryptography">Cryptography</H2><SPAN class=3D"anchor"=20
+id=3D"line-108"></SPAN><SPAN class=3D"anchor" id=3D"line-109"></SPAN>
+<P class=3D"line874">We do not expect Storm to be a controlled export =
+item due to=20
+the use of encryption. <SPAN class=3D"anchor" =
+id=3D"line-110"></SPAN>Storm enable=20
+encryptions via 2 plugins:  <SPAN class=3D"anchor" =
+id=3D"line-111"></SPAN>
+<UL>
+  <LI>SASL authentication plugins =E2=80=A6 Currently, we have provide =
+=E2=80=9Cno-op=E2=80=9D=20
+  authentication and digest authentication. In near future, we will =
+introduce=20
+  Kerberos authentication. <SPAN class=3D"anchor" =
+id=3D"line-112"></SPAN></LI>
+  <LI>Tuple payload serialization plugins =E2=80=A6 Storm provides =
+plugins for=20
+  plain-object serialization and blowfish encryption.  <SPAN =
+class=3D"anchor" id=3D"line-113"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-114"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Required_Resources">Required Resources</H2><SPAN =
+class=3D"anchor" id=3D"line-115"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-116"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Mailing_lists">Mailing lists</H3><SPAN class=3D"anchor"=20
+id=3D"line-117"></SPAN><SPAN class=3D"anchor" id=3D"line-118"></SPAN>
+<UL>
+  <LI>storm-user <SPAN class=3D"anchor" id=3D"line-119"></SPAN></LI>
+  <LI>storm-dev <SPAN class=3D"anchor" id=3D"line-120"></SPAN></LI>
+  <LI>storm-commits <SPAN class=3D"anchor" id=3D"line-121"></SPAN></LI>
+  <LI>storm-private (with moderated subscriptions) <SPAN =
+class=3D"anchor" id=3D"line-122"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-123"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Subversion_Directory">Subversion Directory</H3><SPAN =
+class=3D"anchor" id=3D"line-124"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-125"></SPAN>
+<P class=3D"line874">Git is the preferred source control system:=20
+git://git.apache.org/storm <SPAN class=3D"anchor" =
+id=3D"line-126"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-127"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-128"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Issue_Tracking">Issue Tracking</H3><SPAN class=3D"anchor"=20
+id=3D"line-129"></SPAN><SPAN class=3D"anchor" id=3D"line-130"></SPAN>
+<P class=3D"line874">JIRA Storm (STORM) <SPAN class=3D"anchor"=20
+id=3D"line-131"></SPAN><SPAN class=3D"anchor" id=3D"line-132"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Initial_Committers">Initial Committers</H2><SPAN =
+class=3D"anchor" id=3D"line-133"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-134"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">Nathan Marz &lt;nathan at nathanmarz dot com&gt;  =
+<SPAN=20
+  class=3D"anchor" id=3D"line-135"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">James Xu &lt;xumingmingv at gmail dot com&gt; =
+<SPAN class=3D"anchor"=20
+  id=3D"line-136"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Jason Jackson &lt;jason at cvk dot ca&gt; <SPAN =
+class=3D"anchor"=20
+  id=3D"line-137"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Andy Feng &lt;afeng at yahoo-inc dot com&gt; =
+<SPAN class=3D"anchor"=20
+  id=3D"line-138"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Flip Kromer  &lt;flip at infochimps dot com&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-139"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">David Lao &lt;davidlao at microsoft dot com&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-140"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">P. Taylor Goetz &lt;ptgoetz at gmail dot com&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-141"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-142"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Affiliations">Affiliations</H2><SPAN class=3D"anchor"=20
+id=3D"line-143"></SPAN><SPAN class=3D"anchor" id=3D"line-144"></SPAN>
+<UL>
+  <LI>Nathan Marz - Nathan=E2=80=99s Startup <SPAN class=3D"anchor"=20
+  id=3D"line-145"></SPAN></LI>
+  <LI>James Xu - Alibaba <SPAN class=3D"anchor" =
+id=3D"line-146"></SPAN></LI>
+  <LI>Jason Jackson - Twitter <SPAN class=3D"anchor" =
+id=3D"line-147"></SPAN></LI>
+  <LI>Andy Feng - Yahoo! <SPAN class=3D"anchor" =
+id=3D"line-148"></SPAN></LI>
+  <LI>Flip Kromer - Infochimps <SPAN class=3D"anchor" =
+id=3D"line-149"></SPAN></LI>
+  <LI>David Lao - Microsoft <SPAN class=3D"anchor" =
+id=3D"line-150"></SPAN></LI>
+  <LI>P. Taylor Goetz - Health Market Science <SPAN class=3D"anchor"=20
+  id=3D"line-151"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-152"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Sponsors">Sponsors</H2><SPAN class=3D"anchor" =
+id=3D"line-153"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-154"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-155"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Champion">Champion</H3><SPAN class=3D"anchor" =
+id=3D"line-156"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-157"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">Doug Cutting  &lt;cutting at apache dot org&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-158"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-159"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Nominated_Mentors">Nominated Mentors</H3><SPAN =
+class=3D"anchor" id=3D"line-160"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-161"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">Ted Dunning &lt;tdunning at maprtech dot com&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-162"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Arvind Prabhakar &lt;arvind at apache dot org&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-163"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Devaraj Das &lt;ddas at hortonworks dot com&gt; =
+<SPAN=20
+  class=3D"anchor" id=3D"line-164"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Matt Franklin &lt;m.ben.franklin at gmail dot =
+com&gt; <SPAN=20
+  class=3D"anchor" id=3D"line-165"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Benjamin Hindman &lt;benjamin.hindman at gmail =
+dot com&gt;=20
+  <SPAN class=3D"anchor" id=3D"line-166"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-167"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Sponsoring_Entity">Sponsoring Entity</H3><SPAN =
+class=3D"anchor" id=3D"line-168"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-169"></SPAN>
+<UL>
+  <LI style=3D"list-style-type: none;">The Apache Incubator <SPAN =
+class=3D"anchor"=20
+  id=3D"line-170"></SPAN></LI></UL><SPAN class=3D"anchor" =
+id=3D"bottom"></SPAN></DIV>
+<P class=3D"info" id=3D"pageinfo" lang=3D"en" dir=3D"ltr">StormProposal  =
+(last edited=20
+2013-09-09 01:02:12 by <SPAN title=3D"NathanMarz @ =
+122.212.234.130[122.212.234.130]"><A=20
+title=3D"NathanMarz @ 122.212.234.130[122.212.234.130]" =
+class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/NathanMarz">NathanMarz</A></SPAN=
+>)</P>
+<DIV id=3D"pagebottom"></DIV></DIV>
+<DIV id=3D"footer">
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/StormProposal#">Comments</A></LI=
+>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/StormProposal?action=3DAttachFil=
+e"=20
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/StormProposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL>
+<UL id=3D"credits">
+  <LI><A title=3D"This site uses the MoinMoin Wiki software." =
+href=3D"http://moinmo.in/">MoinMoin=20
+  Powered</A></LI>
+  <LI><A title=3D"MoinMoin is written in Python."=20
+  href=3D"http://moinmo.in/Python">Python Powered</A></LI>
+  <LI><A title=3D"MoinMoin is GPL licensed." =
+href=3D"http://moinmo.in/GPL">GPL=20
+  licensed</A></LI>
+  <LI><A title=3D"Click here to validate this page." =
+href=3D"http://validator.w3.org/check?uri=3Dreferer">Valid=20
+  HTML 4.01</A></LI> </UL></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/common.css
+
+html {
+	color: black; font-family: sans-serif; font-size: 1em; =
+background-color: white;
+}
+body {
+	margin: 0px;
+}
+a {
+	color: rgb(0, 68, 179);
+}
+a:visited {
+	color: rgb(255, 123, 179);
+}
+a.nonexistent:visited {
+	color: gray;
+}
+a.nonexistent {
+	color: gray;
+}
+a.badinterwiki:visited {
+	color: gray;
+}
+a.badinterwiki {
+	color: gray;
+}
+a.www::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.http::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.https::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.file::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.ftp::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.nntp::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.news::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.telnet::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ssh::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.irc::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ircs::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.mailto::before {
+	margin: 0px 0.2em; content: url(../img/moin-email.png);
+}
+a.attachment::before {
+	margin: 0px 0.2em; content: url(../img/moin-attach.png);
+}
+a.badinterwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+a.interwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+li p {
+	margin: 0.25em 0px;
+}
+li.gap {
+	margin-top: 0.5em;
+}
+dt {
+	font-weight: bold; margin-top: 0.5em;
+}
+dd {
+	margin-top: 0px; margin-bottom: 0px;
+}
+dd p {
+	margin: 0.25em 0px;
+}
+a {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+img.drawing {
+	border: 0px currentColor; border-image: none;
+}
+pre {
+	padding: 5pt; border: 1pt solid rgb(174, 189, 204); border-image: none; =
+font-family: courier, monospace; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(243, 245, 247);
+}
+pre.comment {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; color: red; background-color: rgb(204, 204, 204);
+}
+pre.comment::before {
+	content: url(../img/attention.png);
+}
+.comment {
+	color: rgb(85, 85, 85); background-color: rgb(221, 221, 255);
+}
+.red {
+	background-color: rgb(255, 204, 204);
+}
+.green {
+	background-color: rgb(204, 255, 204);
+}
+.blue {
+	background-color: rgb(204, 204, 255);
+}
+.yellow {
+	background-color: rgb(255, 242, 159);
+}
+.orange {
+	background-color: rgb(255, 213, 155);
+}
+.solid {
+	padding: 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+.dashed {
+	padding: 2px; border: 2px dashed rgb(0, 0, 0); border-image: none;
+}
+.dotted {
+	padding: 2px; border: 2px dotted rgb(0, 0, 0); border-image: none;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.justify {
+	text-align: justify;
+}
+table {
+	margin: 0.5em 0px 0px 0.5em; border-collapse: collapse;
+}
+th {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td p {
+	margin: 0px; padding: 0px;
+}
+div.table-of-contents {
+	margin: 0.5em 0px 0.5em 1em; padding: 0.5em 0.75em 0.5em 0.5em; border: =
+1px solid rgb(187, 187, 187); border-image: none; text-align: left; =
+color: black; font-size: 80%; display: inline-table; max-width: 50%; =
+background-color: rgb(238, 238, 238);
+}
+div.table-of-contents ol {
+	margin: 0px; padding: 0px 0px 0px 2em;
+}
+div.table-of-contents ul {
+	list-style: none; margin: 0px;
+}
+div.table-of-contents li {
+	margin: 0px; padding: 0px;
+}
+p.table-of-contents-heading {
+	margin: 0px 0px 0.5em; padding: 0px; letter-spacing: 0.07em; =
+font-weight: bold;
+}
+table.navigation {
+	background: rgb(255, 255, 255); margin: 0px;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+.footnotes ol {
+	margin: 0px 0px 1em; padding: 0px 2em;
+}
+.footnotes li {
+=09
+}
+.info {
+	color: gray; font-size: 0.7em; float: right;
+}
+#pageinfo {
+	margin-top: 2em;
+}
+.seperator {
+	color: gray;
+}
+#pagebottom {
+	clear: both;
+}
+hr {
+	border: 0px currentColor; border-image: none; height: 1pt; =
+background-color: rgb(156, 156, 156);
+}
+.hr1 {
+	height: 2pt;
+}
+.hr2 {
+	height: 3pt;
+}
+.hr3 {
+	height: 4pt;
+}
+.hr4 {
+	height: 5pt;
+}
+.hr5 {
+	height: 6pt;
+}
+.hr6 {
+	height: 7pt;
+}
+.u {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.warning {
+	color: red;
+}
+.error {
+	color: red;
+}
+strong.highlight {
+	padding: 1pt; background-color: rgb(204, 224, 255);
+}
+.rcrss {
+	margin: 0px 7px 0px 14px; top: 9px; height: 0px; float: right; =
+position: relative;
+}
+*[div=3D'rtl'] .rcrss {
+	float: left;
+}
+[dir=3D'rtl'].recentchanges .rcrss {
+	float: left;
+}
+.recentchanges table {
+	border: 1px solid rgb(77, 125, 169); border-image: none; clear: both; =
+border-collapse: collapse;
+}
+.recentchanges td {
+	background: rgb(230, 234, 240); border: currentColor; border-image: =
+none; vertical-align: top;
+}
+.recentchanges .rcdaybreak td {
+	background: rgb(129, 187, 242); border: 1px solid rgb(77, 125, 169); =
+border-image: none;
+}
+.rcdaybreak td a {
+	font-size: 0.88em;
+}
+.rcicon1 {
+	text-align: center;
+}
+.rcicon2 {
+	text-align: center;
+}
+.rcpagelink {
+	width: 33%;
+}
+.rctime {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rceditor {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rccomment {
+	width: 50%; color: gray; font-size: 0.88em;
+}
+.userpref table {
+	border: currentColor; border-image: none;
+}
+.userpref td {
+	border: currentColor; border-image: none;
+}
+div.codearea {
+	margin: 0.5em 0px; padding: 0px; border: 1pt solid rgb(174, 189, 204); =
+border-image: none; color: black; background-color: rgb(243, 245, 247);
+}
+div.codearea pre {
+	margin: 0px; padding: 10pt; border: currentColor; border-image: none;
+}
+a.codenumbers {
+	margin: 0px 10pt; color: gray; font-size: 0.85em;
+}
+div.codearea pre span.LineNumber {
+	color: gray;
+}
+div.codearea pre span.ID {
+	color: rgb(0, 0, 0);
+}
+div.codearea pre span.Operator {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.Char {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.Comment {
+	color: rgb(0, 128, 0);
+}
+div.codearea pre span.Number {
+	color: rgb(0, 128, 192);
+}
+div.codearea pre span.String {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.SPChar {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.ResWord {
+	color: rgb(160, 0, 0);
+}
+div.codearea pre span.ConsWord {
+	color: rgb(0, 128, 128); font-weight: bold;
+}
+div.codearea pre span.Error {
+	border: 1.5pt solid rgb(255, 0, 0); border-image: none; color: rgb(255, =
+128, 128);
+}
+div.codearea pre span.ResWord2 {
+	color: rgb(0, 128, 255); font-weight: bold;
+}
+div.codearea pre span.Special {
+	color: rgb(0, 0, 255);
+}
+div.codearea pre span.Preprc {
+	color: rgb(128, 57, 153);
+}
+div.codearea pre span.DiffAdded {
+	color: rgb(72, 118, 255);
+}
+div.codearea pre span.DiffRemoved {
+	color: rgb(255, 0, 0);
+}
+div.codearea pre span.DiffChanged {
+	color: rgb(255, 127, 80);
+}
+div.codearea pre span.DiffSeparator {
+	color: rgb(34, 139, 34); font-weight: bold;
+}
+.advancedsearch {
+	border: 1pt solid rgb(173, 185, 204); border-image: none;
+}
+.advancedsearch td {
+	border: 0px currentColor; border-image: none; vertical-align: top; =
+background-color: rgb(231, 231, 231);
+}
+.advancedsearch td.searchfor {
+	font-weight: bold;
+}
+.advancedsearch input {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch input[disabled] {
+	background-color: rgb(238, 238, 238);
+}
+.advancedsearch td.submit {
+	text-align: right; border-top-color: rgb(173, 185, 204); =
+border-top-width: 1px; border-top-style: solid; background-color: =
+rgb(255, 255, 255);
+}
+.advancedsearch optioni {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch select {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.searchresults dt {
+	font-weight: normal; margin-top: 1em;
+}
+.searchresults dd {
+	font-size: 0.85em;
+}
+.searchresults p {
+	font-size: 0.85em;
+}
+.searchresults .searchhitinfobar {
+	color: rgb(0, 128, 0); margin-top: 0px; margin-left: 15px;
+}
+p.searchstats {
+	padding: 2px; width: 100%; text-align: right; font-size: 0.8em; =
+border-top-color: rgb(144, 136, 220); border-top-width: 1px; =
+border-top-style: solid; background-color: rgb(230, 234, 240);
+}
+p.searchhint {
+	padding: 2px; border: 1px solid rgb(144, 136, 220); border-image: none; =
+background-color: rgb(230, 234, 240);
+}
+.searchpages {
+	margin-right: auto; margin-left: auto;
+}
+.searchpages tr {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td a {
+	text-decoration: underline;
+}
+.searchpages td a:link {
+	text-decoration: underline;
+}
+a.cal-emptyday {
+	text-align: center; color: rgb(119, 119, 119);
+}
+a.cal-usedday {
+	text-align: center; color: rgb(0, 0, 0); font-weight: bold;
+}
+td.cal-workday {
+	text-align: center; background-color: rgb(221, 221, 255);
+}
+td.cal-weekend {
+	text-align: center; background-color: rgb(255, 221, 221);
+}
+td.cal-today {
+	border-width: 2pt; border-style: solid; text-align: center; =
+background-color: rgb(204, 255, 204);
+}
+td.cal-invalidday {
+	background-color: rgb(204, 204, 204);
+}
+a.cal-link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+th.cal-header {
+	text-align: center; background-color: rgb(221, 187, 255);
+}
+table.tip {
+	border-width: 1px; border-style: solid; color: black; font-size: small; =
+font-weight: normal; background-color: rgb(255, 136, 136);
+}
+th.tip {
+	text-align: center; font-weight: bold; background-color: rgb(255, 68, =
+68);
+}
+td.tip {
+	text-align: left;
+}
+*[dir=3D'rtl'] td.tip {
+	text-align: right;
+}
+#message .hint {
+	font-style: italic;
+}
+#message .info {
+	color: black; font-size: 1em; float: none;
+}
+#message .info::before {
+	margin: 0px 0.2em; content: url('../img/icon-info.png');
+}
+#message .warning::before {
+	margin: 0px 0.2em; content: url('../img/alert.png');
+}
+#message .error::before {
+	margin: 0px 0.2em; content: url('../img/icon-error.png');
+}
+#content div.caution {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.important {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.note {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.tip {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.warning {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.caution p {
+	margin-top: 8px;
+}
+#content div.important p {
+	margin-top: 8px;
+}
+#content div.note p {
+	margin-top: 8px;
+}
+#content div.tip p {
+	margin-top: 8px;
+}
+#content div.warning p {
+	margin-top: 8px;
+}
+#content div.tip {
+	background-image: url("../img/admon-tip.png");
+}
+#content div.note {
+	background-image: url("../img/admon-note.png");
+}
+#content div.important {
+	background-image: url("../img/admon-important.png");
+}
+#content div.caution {
+	background-image: url("../img/admon-caution.png");
+}
+#content div.warning {
+	background-image: url("../img/admon-warning.png");
+}
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/print.css
+
+html {
+	font-family: Times, serif; font-size: 12pt;
+}
+body {
+	margin: 1.5cm;
+}
+a {
+	color: black; text-decoration: none;
+}
+a:visited {
+	color: black; text-decoration: none;
+}
+a.nonexistent {
+	color: black; text-decoration: none;
+}
+a.badinterwiki {
+	color: black; text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.info a {
+	color: gray;
+}
+pre {
+	font-size: 10pt;
+}
+a.interwiki::before {
+	content: attr(title) ":";
+}
+a.badinterwiki::before {
+	content: attr(title) ":";
+}
+a.interwiki img {
+	display: none;
+}
+a.badinterwiki img {
+	display: none;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+#header {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#timings {
+	display: none;
+}
+#credits {
+	display: none;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://wiki.apache.org/wiki/modernized/css/projection.css
+
+@import url( screen.css );
+html {
+	line-height: 1.8em;
+}
+body {
+	font-size: 18pt;
+}
+b {
+	font-size: 18pt;
+}
+em {
+	font-size: 18pt;
+}
+a {
+	font-size: 18pt;
+}
+span {
+	font-size: 18pt;
+}
+div {
+	font-size: 18pt;
+}
+p {
+	font-size: 18pt;
+}
+td {
+	font-size: 18pt;
+}
+h1 {
+	font-size: 26pt;
+}
+h2 {
+	font-size: 22pt;
+}
+h3 {
+	font-size: 20pt;
+}
+h4 {
+	font-size: 18pt;
+}
+h5 {
+	font-size: 16pt;
+}
+h6 {
+	font-size: 14pt;
+}
+tt {
+	font-size: 16pt;
+}
+pre {
+	font-size: 16pt;
+}
+sup {
+	font-size: 12pt;
+}
+sub {
+	font-size: 12pt;
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+.navigation td {
+	padding: 2px; font-size: 10pt;
+}
+.navigation a {
+	padding: 2px; font-size: 10pt;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+#pageinfo {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/common/js/common.js
+
+//=0A=
+// MoinMoin commonly used JavaScript functions=0A=
+//=0A=
+=0A=
+// We keep here the state of the search box=0A=
+searchIsDisabled =3D false;=0A=
+=0A=
+function searchChange(e) {=0A=
+    // Update search buttons status according to search box content.=0A=
+    // Ignore empty or whitespace search term.=0A=
+    var value =3D e.value.replace(/\s+/, '');=0A=
+    if (value =3D=3D '' || searchIsDisabled) { =0A=
+        searchSetDisabled(true);=0A=
+    } else {=0A=
+        searchSetDisabled(false);=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchSetDisabled(flag) {=0A=
+    // Enable or disable search=0A=
+    document.getElementById('fullsearch').disabled =3D flag;=0A=
+    document.getElementById('titlesearch').disabled =3D flag;=0A=
+}=0A=
+=0A=
+function searchFocus(e) {=0A=
+    // Update search input content on focus=0A=
+    if (e.value =3D=3D search_hint) {=0A=
+        e.value =3D '';=0A=
+        e.className =3D '';=0A=
+        searchIsDisabled =3D false;=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchBlur(e) {=0A=
+    // Update search input content on blur=0A=
+    if (e.value =3D=3D '') {=0A=
+        e.value =3D search_hint;=0A=
+        e.className =3D 'disabled';=0A=
+        searchIsDisabled =3D true;=0A=
+    }=0A=
+}=0A=
+=0A=
+function actionsMenuInit(title) {=0A=
+    // Initialize action menu=0A=
+    for (i =3D 0; i < document.forms.length; i++) {=0A=
+        var form =3D document.forms[i];=0A=
+        if (form.className =3D=3D 'actionsmenu') {=0A=
+            // Check if this form needs update=0A=
+            var div =3D form.getElementsByTagName('div')[0];=0A=
+            var label =3D div.getElementsByTagName('label')[0];=0A=
+            if (label) {=0A=
+                // This is the first time: remove label and do buton.=0A=
+                div.removeChild(label);=0A=
+                var dobutton =3D div.getElementsByTagName('input')[0];=0A=
+                div.removeChild(dobutton);=0A=
+                // and add menu title=0A=
+                var select =3D div.getElementsByTagName('select')[0];=0A=
+                var item =3D document.createElement('option');=0A=
+                item.appendChild(document.createTextNode(title));=0A=
+                item.value =3D 'show';=0A=
+                select.insertBefore(item, select.options[0]);=0A=
+                select.selectedIndex =3D 0;=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// use this instead of assigning to window.onload directly:=0A=
+function addLoadEvent(func) {=0A=
+    // alert("addLoadEvent " + func)=0A=
+    var oldonload =3D window.onload;=0A=
+    if (typeof window.onload !=3D 'function') {=0A=
+        window.onload =3D func;=0A=
+    } else {=0A=
+        window.onload =3D function() {=0A=
+            oldonload();=0A=
+            func();=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// copy from fckeditor browser check code (fckeditor.js:298, function : =
+FCKeditor_IsCompatibleBrowser)=0A=
+function can_use_gui_editor() {=0A=
+    var sAgent =3D navigator.userAgent.toLowerCase() ;=0A=
+=0A=
+    // Internet Explorer 5.5+=0A=
+    if ( /*@cc_on!@*/false && sAgent.indexOf("mac") =3D=3D -1 )=0A=
+    {=0A=
+        var sBrowserVersion =3D navigator.appVersion.match(/MSIE =
+(.\..)/)[1] ;=0A=
+        return ( sBrowserVersion >=3D 5.5 ) ;=0A=
+    }=0A=
+=0A=
+    // Gecko (Opera 9 tries to behave like Gecko at this point).=0A=
+    if ( navigator.product =3D=3D "Gecko" && navigator.productSub >=3D =
+20030210 && !( typeof(opera) =3D=3D 'object' && opera.postError ) )=0A=
+        return true ;=0A=
+=0A=
+    // Opera 9.50+=0A=
+    if ( window.opera && window.opera.version && parseFloat( =
+window.opera.version() ) >=3D 9.5 )=0A=
+        return true ;=0A=
+=0A=
+/*=0A=
+  // disable safari : until fck devteam fix =
+http://dev.fckeditor.net/ticket/2333=0A=
+  =0A=
+    // Adobe AIR=0A=
+    // Checked before Safari because AIR have the WebKit rich text editor=0A=
+    // features from Safari 3.0.4, but the version reported is 420.=0A=
+    if ( sAgent.indexOf( ' adobeair/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / adobeair\/(\d+)/ )[1] >=3D 1 ) ; // =
+Build must be at least v1=0A=
+=0A=
+    // Safari 3+=0A=
+    if ( sAgent.indexOf( ' applewebkit/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / applewebkit\/(\d+)/ )[1] >=3D 522 ) ;   =
+ // Build must be at least 522 (v3)=0A=
+*/=0A=
+    return false ;=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+function update_edit_links() {=0A=
+    // Update editlink according if if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("update_edit_links: can't use gui editor");=0A=
+        return;=0A=
+    }=0A=
+    var editlinks =3D document.getElementsByName("editlink");=0A=
+    for (i =3D 0; i < editlinks.length; i++) {=0A=
+        var link =3D editlinks[i];=0A=
+        href =3D =
+link.href.replace('editor=3Dtextonly','editor=3Dguipossible');=0A=
+        link.href =3D href;=0A=
+        //alert("update_edit_links: modified to guipossible");=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function add_gui_editor_links() {=0A=
+    // Add gui editor link after the text editor link=0A=
+    =0A=
+    // If the variable is not set or browser is not compatible, exit=0A=
+    try {gui_editor_link_href}=0A=
+    catch (e) {=0A=
+        //alert("add_gui_editor_links: gui_editor_link_href not here");=0A=
+        return=0A=
+    }=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("add_gui_editor_links: can't use gui_editor");=0A=
+        return;=0A=
+    }=0A=
+    var all =3D document.getElementsByName('texteditlink');=0A=
+    for (i =3D 0; i < all.length; i++) {=0A=
+        var textEditorLink =3D all[i];=0A=
+        // Create a list item with a link=0A=
+        var guiEditorLink =3D document.createElement('a');=0A=
+        guiEditorLink.href =3D gui_editor_link_href;=0A=
+        var text =3D document.createTextNode(gui_editor_link_text);=0A=
+        guiEditorLink.appendChild(text);=0A=
+        var listItem =3D document.createElement('li')=0A=
+        listItem.appendChild(guiEditorLink);=0A=
+        // Insert in the editbar=0A=
+        var editbar =3D textEditorLink.parentNode.parentNode=0A=
+        var nextListItem =3D textEditorLink.parentNode.nextSibling;=0A=
+        editbar.insertBefore(listItem, nextListItem);=0A=
+        //alert("add_gui_editor_links: added gui editor link");=0A=
+    }=0A=
+}=0A=
+ =0A=
+=0A=
+function show_switch2gui() {=0A=
+    // Show switch to gui editor link if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false) return;=0A=
+    =0A=
+    var switch2gui =3D document.getElementById('switch2gui')=0A=
+    if (switch2gui) {=0A=
+        switch2gui.style.display =3D 'inline';=0A=
+    }=0A=
+}=0A=
+=0A=
+// for long documents with many comments this is expensive to calculate,=0A=
+// thus we keep it here:=0A=
+comments =3D null;=0A=
+=0A=
+function toggleComments() {=0A=
+    // Toggle visibility of every tag with class "comment"=0A=
+    for (i =3D 0; i < comments.length; i++){=0A=
+        el =3D comments[i];=0A=
+        if ( el.style.display !=3D 'none' ) {=0A=
+            el.style.display =3D 'none';=0A=
+        } else {=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+function show_toggleComments() {=0A=
+    // Show edit bar item for toggling inline comments on/off only if =
+inline comments exist on the page=0A=
+    comments =3D getElementsByClassName('comment', null, document);=0A=
+    if (comments.length > 0) {=0A=
+        var buttons =3D getElementsByClassName('toggleCommentsButton', =
+null, document);=0A=
+        for (i =3D 0; i < buttons.length; i++){=0A=
+            el =3D buttons[i];=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function load() {=0A=
+    // Do not name this "onload", it does not work with IE :-)=0A=
+    // TODO: create separate onload for each type of view and set the=0A=
+    // correct function name in the html. =0A=
+    // e.g <body onlod=3D'editor_onload()'>=0A=
+=0A=
+    // login focus=0A=
+    if (document.forms['loginform']) {=0A=
+        document.forms['loginform'].elements['name'].focus();=0A=
+    }=0A=
+    =0A=
+    // Page view stuff=0A=
+    update_edit_links();=0A=
+    add_gui_editor_links();=0A=
+    =0A=
+    // Editor stuff=0A=
+    show_switch2gui();=0A=
+=0A=
+    // Enable menu item "ToggleComments" if inline comments exist=0A=
+    show_toggleComments();=0A=
+ =0A=
+    // data browser widget=0A=
+    dbw_hide_buttons();=0A=
+}=0A=
+=0A=
+=0A=
+function before_unload(evt) {=0A=
+    // TODO: Better to set this in the editor html, as it does not make=0A=
+    // sense elsehwere.=0A=
+    // confirmleaving is available when editing=0A=
+    try {return confirmleaving();}=0A=
+    catch (e) {}=0A=
+}=0A=
+=0A=
+// Initialize after loading the page=0A=
+addLoadEvent(load)=0A=
+=0A=
+// Catch before unloading the page=0A=
+window.onbeforeunload =3D before_unload=0A=
+=0A=
+function dbw_update_search(dbw_id)=0A=
+{=0A=
+    var table =3D document.getElementById(dbw_id+'table');=0A=
+    var cell;=0A=
+    var shown;=0A=
+    var i=0A=
+    var cols =3D table.rows[0].cells.length;=0A=
+    var filter =3D new Array();=0A=
+    var dofilter =3D new Array();=0A=
+    var form =3D document.forms[dbw_id+'form'];=0A=
+=0A=
+    for (i =3D 0; i < cols; i++) {=0A=
+        dofilter[i] =3D false;=0A=
+        if (form[dbw_id+'filter'+i]) {=0A=
+            dofilter[i] =3D true;=0A=
+            filter[i] =3D form[dbw_id+'filter'+i].value;=0A=
+            if (filter[i] =3D=3D '[all]')=0A=
+                dofilter[i] =3D false;=0A=
+            if (filter[i] =3D=3D '[empty]')=0A=
+                filter[i] =3D '';=0A=
+        }=0A=
+    }=0A=
+=0A=
+    for (i =3D 1; i < table.rows.length; i++) {=0A=
+        var show =3D true;=0A=
+        for (col =3D 0; col < cols; col++) {=0A=
+            if (!dofilter[col])=0A=
+                continue;=0A=
+=0A=
+            cell =3D table.rows[i].cells[col];=0A=
+=0A=
+            if (filter[col] =3D=3D '[notempty]') {=0A=
+                if (cell.abbr =3D=3D '') {=0A=
+                    show =3D false;=0A=
+                    break;=0A=
+                }=0A=
+            } else if (filter[col] !=3D cell.abbr) {=0A=
+                show =3D false;=0A=
+                break;=0A=
+            }=0A=
+        }=0A=
+        if (show)=0A=
+            table.rows[i].style.display =3D '';=0A=
+        else=0A=
+            table.rows[i].style.display =3D 'none';=0A=
+    }=0A=
+}=0A=
+=0A=
+function dbw_hide_buttons() {=0A=
+    var form;=0A=
+    var elem;=0A=
+    var name;=0A=
+=0A=
+    for (var fidx =3D 0; fidx < document.forms.length; fidx++) {=0A=
+        form =3D document.forms[fidx];=0A=
+        for (var eidx =3D 0; eidx < form.elements.length; eidx++) {=0A=
+            elem =3D form.elements[eidx];=0A=
+            name =3D elem.name;=0A=
+            if (name) {=0A=
+                if (name.indexOf('dbw.') >=3D 0 && name.substr(-7) =
+=3D=3D '.submit')=0A=
+                    elem.style.display =3D 'none';=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+/*  getElementsByClassName=0A=
+    Developed by Robert Nyman, http://www.robertnyman.com=0A=
+    Code/licensing: http://code.google.com/p/getelementsbyclassname/ =
+(MIT license)=0A=
+    Version: 1.0.1=0A=
+*/  =0A=
+var getElementsByClassName =3D function (className, tag, elm){=0A=
+    if (document.getElementsByClassName) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            elm =3D elm || document;=0A=
+            var elements =3D elm.getElementsByClassName(className),=0A=
+                nodeName =3D (tag)? new RegExp("\\b" + tag + "\\b", "i") =
+: null,=0A=
+                returnElements =3D [],=0A=
+                current;=0A=
+            for(var i=3D0, il=3Delements.length; i<il; i+=3D1){=0A=
+                current =3D elements[i];=0A=
+                if(!nodeName || nodeName.test(current.nodeName)) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else if (document.evaluate) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D "",=0A=
+                xhtmlNamespace =3D "http://www.w3.org/1999/xhtml",=0A=
+                namespaceResolver =3D =
+(document.documentElement.namespaceURI =3D=3D=3D xhtmlNamespace)? =
+xhtmlNamespace : null,=0A=
+                returnElements =3D [],=0A=
+                elements,=0A=
+                node;=0A=
+            for(var j=3D0, jl=3Dclasses.length; j<jl; j+=3D1){=0A=
+                classesToCheck +=3D "[contains(concat(' ', @class, ' '), =
+' " + classes[j] + " ')]";=0A=
+            }=0A=
+            try {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, namespaceResolver, 0, null);=0A=
+            }=0A=
+            catch (e) {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, null, 0, null);=0A=
+            }=0A=
+            while ((node =3D elements.iterateNext())) {=0A=
+                returnElements.push(node);=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D [],=0A=
+                elements =3D (tag =3D=3D=3D "*" && elm.all)? elm.all : =
+elm.getElementsByTagName(tag),=0A=
+                current,=0A=
+                returnElements =3D [],=0A=
+                match;=0A=
+            for(var k=3D0, kl=3Dclasses.length; k<kl; k+=3D1){=0A=
+                classesToCheck.push(new RegExp("(^|\\s)" + classes[k] + =
+"(\\s|$)"));=0A=
+            }=0A=
+            for(var l=3D0, ll=3Delements.length; l<ll; l+=3D1){=0A=
+                current =3D elements[l];=0A=
+                match =3D false;=0A=
+                for(var m=3D0, ml=3DclassesToCheck.length; m<ml; m+=3D1){=0A=
+                    match =3D classesToCheck[m].test(current.className);=0A=
+                    if (!match) {=0A=
+                        break;=0A=
+                    }=0A=
+                }=0A=
+                if (match) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    return getElementsByClassName(className, tag, elm);=0A=
+};=0A=
+=0A=
+
+------=_NextPart_000_0000_01CF89B1.E040BEF0--
