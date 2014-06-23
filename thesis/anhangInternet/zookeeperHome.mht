@@ -1,0 +1,1750 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: Apache ZooKeeper - Home
+Date: Mon, 23 Jun 2014 20:27:05 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF8F21.7F874D20"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF8F21.7F874D20
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://zookeeper.apache.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+ <!--=0A=
+=0A=
+    Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+    contributor license agreements.  See the NOTICE file distributed with=0A=
+    this work for additional information regarding copyright ownership.=0A=
+    The ASF licenses this file to You under the Apache License, Version =
+2.0=0A=
+    (the "License"); you may not use this file except in compliance with=0A=
+    the License.  You may obtain a copy of the License at=0A=
+=0A=
+       http://www.apache.org/licenses/LICENSE- 2.0=0A=
+=0A=
+    Unless required by applicable law or agreed to in writing, software=0A=
+    distributed under the License is distributed on an "AS IS" BASIS,=0A=
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+    See the License for the specific language governing permissions and=0A=
+    limitations under the License.=0A=
+-->
+	 <LINK href=3D"http://zookeeper.apache.org/css/site.css" =
+rel=3D"stylesheet" type=3D"text/css">
+	 <LINK href=3D"http://zookeeper.apache.org/css/type-settings.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css">	 <TITLE>Apache ZooKeeper - Home</TITLE>	=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17126"></HEAD>=20
+<BODY>
+<DIV class=3D"white_box">
+<DIV class=3D"header">
+<DIV class=3D"header_l">
+<DIV class=3D"header_r"></DIV></DIV></DIV>
+<DIV class=3D"content">
+<DIV class=3D"content_l">
+<DIV class=3D"content_r">
+<DIV><!-- Banner -->                                                     =
+       =20
+                                                                         =
+       =20
+              =20
+<DIV id=3D"header_background">
+<DIV id=3D"zookeeper_logo"><A href=3D"http://zookeeper.apache.org/"><IMG =
+src=3D"http://zookeeper.apache.org/images/zookeeper_small.gif"></A>=20
+<B><FONT color=3D"white" size=3D"+4">Apache =
+ZooKeeper=E2=84=A2</FONT></B> <A href=3D"http://apache.org/"><IMG=20
+src=3D"http://zookeeper.apache.org/images/feather_small.gif"></A>	 =
+</DIV></DIV>
+<TABLE border=3D"0">
+  <TBODY>
+  <TR>
+    <TD width=3D"100%" valign=3D"top" style=3D"overflow: hidden;">
+      <DIV class=3D"wiki-content">
+      <H1>Welcome to Apache ZooKeeper=E2=84=A2</H1>
+      <P>Apache ZooKeeper is an effort to develop and maintain an =
+open-source=20
+      server which enables highly reliable distributed coordination.</P>
+      <H2>What is ZooKeeper?</H2>
+      <P>ZooKeeper is a centralized service for maintaining =
+configuration=20
+      information, naming, providing distributed synchronization, and =
+providing=20
+      group services. All of these kinds of services are used in some =
+form or=20
+      another by distributed applications. Each time they are =
+implemented there=20
+      is a lot of work that goes into fixing the bugs and race =
+conditions that=20
+      are inevitable. Because of the difficulty of implementing these =
+kinds of=20
+      services, applications initially usually skimp on them ,which make =
+them=20
+      brittle in the presence of change and difficult to manage. Even =
+when done=20
+      correctly, different implementations of these services lead to =
+management=20
+      complexity when the applications are deployed.</P>
+      <P>Learn more about ZooKeeper on the <A =
+href=3D"https://cwiki.apache.org/confluence/display/ZOOKEEPER/Index">ZooK=
+eeper=20
+      Wiki</A>.</P>
+      <H2>Getting Started</H2>
+      <P>Start by installing ZooKeeper on a single machine or a very =
+small=20
+      cluster.</P>
+      <OL>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/trunk">Learn =
+about</A>=20
+        ZooKeeper by reading the documentation.</LI>
+        <LI><A =
+href=3D"http://zookeeper.apache.org/releases.html">Download</A>=20
+        ZooKeeper from the release page.</LI></OL>
+      <H2>Getting Involved</H2>
+      <P>Apache ZooKeeper is an open source volunteer project under the =
+Apache=20
+      Software Foundation. We encourage you to learn about the project =
+and=20
+      contribute your expertise. Here are some starter links:</P>
+      <OL>
+        <LI>See our <A =
+href=3D"https://cwiki.apache.org/confluence/display/ZOOKEEPER/HowToContri=
+bute">How=20
+        to Contribute to ZooKeeper</A> page.</LI>
+        <LI>Give us <A=20
+        =
+href=3D"https://issues.apache.org/jira/browse/ZOOKEEPER">feedback</A>:=20
+        What can we do better?</LI>
+        <LI>Join the <A =
+href=3D"http://zookeeper.apache.org/lists.html">mailing=20
+        list</A>: Meet the community.<BR></LI></OL></DIV></TD>
+    <TD valign=3D"top">
+      <DIV class=3D"navigation">
+      <DIV class=3D"navigation_top">
+      <DIV class=3D"searchbox">
+      <FORM action=3D"http://search-hadoop.com/zookeeper"=20
+method=3D"get"><INPUT name=3D"q" id=3D"query" onfocus=3D"getBlank (this, =
+'Search with Apache Solr');" type=3D"text" size=3D"25" value=3D"Search =
+with Apache Solr">&nbsp;
+      		  <INPUT type=3D"submit" value=3D"Search"> </FORM></DIV>
+      <DIV class=3D"navigation_bottom"><!-- sidenav -->                  =
+         =20
+                                                 =20
+      <H3>Project</H3>
+      <UL>
+        <LI><A=20
+        =
+href=3D"http://zookeeper.apache.org/releases.html#news">News</A></LI>
+        <LI><A=20
+href=3D"http://zookeeper.apache.org/releases.html">Releases</A></LI>
+        <LI><A =
+href=3D"https://cwiki.apache.org/confluence/display/ZOOKEEPER/Index">Wiki=
+</A></LI>
+        <LI><A =
+href=3D"http://zookeeper.apache.org/credits.html">Credits</A></LI>
+        <LI><A =
+href=3D"http://zookeeper.apache.org/bylaws.html">Bylaws</A></LI>
+        <LI><A href=3D"http://www.apache.org/licenses/">License</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/privacy.html">Privacy =
+
+        Policy</A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Sponsorship</A=
+></LI>
+        <LI><A=20
+        =
+href=3D"http://www.apache.org/foundation/thanks.html">Thanks</A></LI>
+        <LI><A =
+href=3D"http://www.apache.org/security/">Security</A></LI></UL>
+      <H3>Subprojects</H3>
+      <UL>
+        <LI><A =
+href=3D"http://zookeeper.apache.org/bookkeeper">BookKeeper (with=20
+        Hedwig)</A></LI></UL>
+      <H3>Documentation</H3>
+      <UL>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.6">Release=20
+        3.4.6(stable)</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.6">Release=20
+        3.4.6(current)</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.5">Release=20
+        3.4.5</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.5">Release=20
+        3.4.5</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.3">Release=20
+        3.4.3</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.2">Release=20
+        3.4.2</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.4.1">Release=20
+        3.4.1</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.3.6">Release=20
+        3.3.6(stable)</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.3.5">Release=20
+        3.3.5</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.3.4">Release=20
+        3.3.4</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.3.3">Release=20
+        3.3.3</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.3.2">Release=20
+        3.3.2</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.2.2">Release=20
+        3.2.2</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/doc/r3.1.2">Release=20
+        3.1.2</A></LI>
+        <LI><A =
+href=3D"http://zookeeper.apache.org/doc/trunk">Trunk</A></LI></UL>
+      <H3>Developers</H3>
+      <UL>
+        <LI><A href=3D"http://zookeeper.apache.org/lists.html">Mailing=20
+        Lists</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/irc.html"><SPAN=20
+        class=3D"caps">IRC</SPAN> Channel</A></LI>
+        <LI><A href=3D"http://zookeeper.apache.org/svn.html">Version=20
+        Control</A></LI>
+        <LI><A =
+href=3D"https://issues.apache.org/jira/browse/ZOOKEEPER">Issue=20
+        Tracker</A></LI></UL><!-- sidenav -->                            =
+         =20
+                                                     =20
+  </DIV></DIV></DIV></TD></TR></TBODY></TABLE><!--=0A=
+        <div class=3D"bottom_red_bar"></div>=0A=
+-->=20
+      </DIV></DIV></DIV></DIV>
+<DIV class=3D"black_box">
+<DIV class=3D"footer">
+<DIV class=3D"footer_l">
+<DIV class=3D"footer_r">
+<DIV></DIV></DIV></DIV></DIV></DIV></DIV><!--=0A=
+<div class=3D"design_attribution">Page Template Design By Marc =
+Prud'hommeaux based on <a href=3D"http://activemq.apache.org/">ActiveMQ =
+template</a></div>=0A=
+-->=20
+<DIV class=3D"copyright_footer">
+<P>Copyright =C2=A9 2010 The Apache Software Foundation, Licensed under =
+the <A href=3D"http://www.apache.org/licenses/LICENSE-2.0">Apache=20
+License, Version 2.0</A>.<BR>Apache ZooKeeper, ZooKeeper, Apache, the =
+Apache=20
+feather logo, and the Apache ZooKeeper project logo are trademarks of =
+The Apache=20
+Software Foundation.</P></DIV>
+<SCRIPT src=3D"" type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+_uacct =3D "UA-1940143-1";=0A=
+urchinTracker();=0A=
+</SCRIPT>
+ </BODY></HTML>
+
+------=_NextPart_000_0000_01CF8F21.7F874D20
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://zookeeper.apache.org/images/zookeeper_small.gif
+
+R0lGODlhTwBwAOf/AAYBAQEEAQQTHx4RBQEVNygRBiUUAwQZMxYZGBYaJTMVBi8XDREdLy0ZBgYh
+OxsfKi4cETkaDBQhNScfFjIeBjcdCDUdDwgpSzggFx0lNTohEgAqbEkeDD0iCBsnPBksE0UgEjcl
+GSUpLAAvYAAsfgstVUQmBzQpIkkmAiItOEIoGiMvQ1omEEwrC0ctHgA6dSk5Hh84USM9GFUuH1kv
+ClQwD0sxJ0UzJ0g2JCs6U2gvF1A2LGA1CQBFiy8+Tmc1BCtFHlE5KGc5DnkzGEw+NlI9MTRJKXA8
+DGE+LF1AJDJNJS9PIDZHYkZFSkRKLDxPInZBCUdJRltFOng/JwdWnEdKWDZVJjVWIXpEDWRHMiRS
+hzxVL4FFET5RZo5AJGFLP4ZIDEBUdD1dLTtfKH9KMWZRRmpSO4tNEl9WO4tKMY9PCz5kLEBnKUVl
+M5dREaRMK0tefzJkk0NpMZVSM3ZbPX5ZPZ1VDE1oPZFXOkRvL1NqNU1sNUxsO29fVkhuNUtuMKFY
+EE9mgUhxLHdhSqhVNF9rPGFlcmxoREV2L1BpkEp0NU91PFR1RE15OaNfP1B5M0p7M3xpX4xnSVdw
+mFJ9PU5/OFZ8Q5doTFV+OHJwdJ5nTGhzf2h7MoxuUodxRo1vTFKDO5VvTliDQq9pSFqEPVWGPmGC
+T3KCJGyAUF6FS2t6mF2IR4B9UapxU1mLQLFwT2CKQp53UGCBqKZ2WJ55WJh7WmGNS2SMUqh5T2CS
+R2aRT2mSSmmRVn2RKnORUWqWU6uEZZ+IY7SCY22ZVqeHZmuaXZGWHbWGWp6Kd3OaXm+cWYyTZLKJ
+YrmKanifY4mVonaiX3CawL+QY72UbrWWcoanXsqSaKGcm8WXasqecIipytCdbpOnv9OeZsagfcKi
+g9uia8+ke9qlc9aned+le+Csfduuf+StdOitg7TCVN6yiaG82snFDeizhuO1hu+6jOi8krjNheu9
+jrbG2b/FyfjClPPElPjJmf/Km+rhBP3Onf/Soe3xZeXp6vf4hv///yH+CVpvb0tlZXBlcgAh+QQB
+CgD/ACwAAAAATwBwAAAI/gD/CRxIsKDBgwgTFlTFsKGqQAojSpxI8eAKOIkSTcrIcZLHSWEqihxJ
+8cGKHDlOolzJpCWTMB7hkJxJU2AGDzc9eFjBs6fPHC3hyKxJdOLNDEiTZpDAVKfTnSfDDC1K1WAC
+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
+ADs=
+
+------=_NextPart_000_0000_01CF8F21.7F874D20
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://zookeeper.apache.org/images/feather_small.gif
+
+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
+
+------=_NextPart_000_0000_01CF8F21.7F874D20
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://zookeeper.apache.org/css/site.css
+
+body {
+	padding: 20px;
+}
+div.wiki-content thead {
+	background-color: rgb(240, 240, 240);
+}
+.wiki-content#div p {
+	margin: inherit;
+}
+div.wiki-content table {
+	border: 1px solid rgb(204, 204, 204); border-image: none; =
+border-collapse: collapse;
+}
+div.wiki-content th {
+	padding: 0.5em; border: 1px solid rgb(204, 204, 204); border-image: =
+none;
+}
+div.wiki-content td {
+	padding: 0.5em; border: 1px solid rgb(204, 204, 204); border-image: =
+none;
+}
+.wiki-content a {
+	font-weight: bold;
+}
+.wiki-content a:hover {
+	text-decoration: underline;
+}
+div.copyright_footer {
+	text-align: center; color: rgb(160, 160, 160); font-family: Verdana, =
+arial, sans-serif; font-size: 10px;
+}
+div.white_box div.header_r {
+	height: 18px;
+}
+div.white_box div.content {
+	background: rgb(255, 255, 255);
+}
+div.white_box div.content_r {
+	padding-right: 9px; padding-left: 6px;
+}
+div.white_box div.footer_r {
+	padding: 0px; height: 37px; color: rgb(255, 255, 255);
+}
+div.white_box div.footer_r {
+	padding-right: 9px; padding-left: 6px;
+}
+div.black_box div.footer_r {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+div.black_box div.footer_r {
+	padding-right: 9px; padding-left: 6px;
+}
+div#header_background {
+	background: rgb(41, 69, 99);
+}
+div.top_red_bar {
+	background: url("../images/top-red-bar.png") 0pt; overflow: hidden;
+}
+div.bottom_red_bar {
+	background: url("../images/bottom-red-bar.png") 0pt; height: 11px; =
+overflow: hidden;
+}
+div#searchbox {
+	background-position: left top; height: 42px; text-align: right; right: =
+10px; bottom: -1px; color: white; font-size: 70%; white-space: nowrap; =
+z-index: 0; background-image: =
+url("images/rc-t-l-5-1header-2searchbox-3searchbox.png"); =
+background-repeat: no-repeat;
+}
+div#searchbox form {
+	margin: 0px; padding: 5px 10px;
+}
+div#searchbox p {
+	margin: 0px; padding: 0px 0px 2px;
+}
+div#searchbox input {
+	font-size: 100%;
+}
+div#site-breadcrumbs {
+	margin: 0px; padding: 2px 2px 2px 20px; float: left;
+}
+div#site-quicklinks {
+	margin: 0px; padding: 2px 20px 2px 2px;
+}
+div#site-quicklinks p {
+	margin: 0px; padding: 0px; text-align: right;
+}
+div#site-quicklinks {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-breadcrumbs {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-quicklinks p {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-breadcrumbs p {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-quicklinks a:link {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-quicklinks a:visited {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-breadcrumbs a:link {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-breadcrumbs a:visited {
+	color: rgb(255, 255, 255); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+none;
+}
+div#site-quicklinks a:active {
+	color: rgb(192, 192, 192); line-height: 13px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+underline;
+}
+div#site-quicklinks a:hover {
+	color: rgb(192, 192, 192); line-height: 13px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+underline;
+}
+div#site-breadcrumbs a:active {
+	color: rgb(192, 192, 192); line-height: 13px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+underline;
+}
+div#site-breadcrumbs a:hover {
+	color: rgb(192, 192, 192); line-height: 13px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: bold; text-decoration: =
+underline;
+}
+div#site-quicklinks sup img {
+	width: 0px; height: 0px;
+}
+div.navigation {
+	background: url("../images/right-box-left.png") repeat-y left 0pt =
+rgb(255, 255, 255); width: 200px;
+}
+div.navigation_top {
+	background: url("../images/right-box-top.png") no-repeat left top;
+}
+div.navigation_bottom {
+	background: url("../images/right-box-bottom.png") no-repeat left =
+bottom;
+}
+div.navigation_bottom {
+	padding: 17px 11px 17px 5px;
+}
+div.navigation_bottom ol {
+	text-align: left; line-height: 13px; padding-left: 11px; font-family: =
+Verdana, arial, sans-serif; font-size: 11px; font-weight: bold;
+}
+div.navigation_bottom ul {
+	text-align: left; line-height: 13px; padding-left: 11px; font-family: =
+Verdana, arial, sans-serif; font-size: 11px; font-weight: bold;
+}
+div.navigation_bottom {
+	text-align: left; line-height: 13px; padding-left: 11px; font-family: =
+Verdana, arial, sans-serif; font-size: 11px; font-weight: bold;
+}
+div.navigation {
+	text-align: left; clear: left;
+}
+div.navigation li {
+	list-style-type: square;
+}
+div.navigation h3 {
+	margin: 5px; border: currentColor; border-image: none; color: rgb(102, =
+0, 51); line-height: 120%; font-family: Verdana, arial, sans-serif; =
+font-size: 15px; font-weight: bold; text-decoration: none;
+}
+div.navigation h3 a:link {
+	margin: 5px; border: currentColor; border-image: none; color: rgb(102, =
+0, 51); line-height: 120%; font-family: Verdana, arial, sans-serif; =
+font-size: 15px; font-weight: bold; text-decoration: none;
+}
+div.navigation h3 a:visited {
+	margin: 5px; border: currentColor; border-image: none; color: rgb(102, =
+0, 51); line-height: 120%; font-family: Verdana, arial, sans-serif; =
+font-size: 15px; font-weight: bold; text-decoration: none;
+}
+div.navigation h3 a:active {
+	margin: 5px; border: currentColor; border-image: none; color: rgb(102, =
+0, 51); line-height: 120%; font-family: Verdana, arial, sans-serif; =
+font-size: 15px; font-weight: bold; text-decoration: none;
+}
+div.navigation h3 a:hover {
+	margin: 5px; border: currentColor; border-image: none; color: rgb(102, =
+0, 51); line-height: 120%; font-family: Verdana, arial, sans-serif; =
+font-size: 15px; font-weight: bold; text-decoration: none;
+}
+Xdiv.navigation Xh3 {
+	background: url("../images/big-bullet.png") no-repeat left; =
+padding-left: 20px; margin-left: 15px;
+}
+div.navigation a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+div.navigation a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+div.navigation a:active {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+div.navigation a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+div.navigation a:active {
+	color: rgb(136, 0, 85); text-decoration: underline;
+}
+div.navigation a:hover {
+	color: rgb(136, 0, 85); text-decoration: underline;
+}
+div.navigation ul {
+	list-style: none; margin: 0px 0px 10px 10px; padding-bottom: 10px; =
+padding-left: 25px; border-bottom-color: rgb(202, 202, 202); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.navigation_bottom div {
+	padding-bottom: 10px; padding-left: 25px; margin-bottom: 10px; =
+margin-left: 10px; border-bottom-color: rgb(202, 202, 202); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.navigation img {
+	padding-left: 20px; margin-left: 15px;
+}
+div.navigation sup img {
+	width: 0px; height: 0px;
+}
+div.black_box div.footer_r div {
+	padding: 5px 5px 5px 20px; line-height: normal; font-family: Verdana, =
+arial, sans-serif; font-size: 10px; font-weight: normal;
+}
+div.design_attribution {
+	text-align: center; color: rgb(160, 160, 160); font-family: Verdana, =
+arial, sans-serif; font-size: 10px;
+}
+div.design_attribution a {
+	text-align: center; color: rgb(160, 160, 160); font-family: Verdana, =
+arial, sans-serif; font-size: 10px;
+}
+div.warning {
+	background: rgb(255, 204, 204); margin-right: 20px;
+}
+
+------=_NextPart_000_0000_01CF8F21.7F874D20
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://zookeeper.apache.org/css/type-settings.css
+
+body {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+p {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+ul {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+ol {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+.bodytext {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+.stepfield {
+	font-family: verdana,arial,helvetica,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: normal; font-size-adjust: none; =
+font-font-variant: normal;
+}
+ul {
+	font-size: 12px;
+}
+ol {
+	font-size: 12px;
+}
+td {
+	color: rgb(0, 0, 0); line-height: normal; font-family: =
+verdana,arial,helvetica,sans-serif; font-size: 10px; font-style: normal; =
+font-weight: normal; font-size-adjust: none; font-font-variant: normal;
+}
+table {
+	color: rgb(0, 0, 0); line-height: normal; font-family: =
+verdana,arial,helvetica,sans-serif; font-size: 10px; font-style: normal; =
+font-weight: normal; font-size-adjust: none; font-font-variant: normal;
+}
+tr {
+	color: rgb(0, 0, 0); line-height: normal; font-family: =
+verdana,arial,helvetica,sans-serif; font-size: 10px; font-style: normal; =
+font-weight: normal; font-size-adjust: none; font-font-variant: normal;
+}
+table.sectionMacro td {
+	line-height: 150%; font-size: 14px;
+}
+table.sectionMacro td p {
+	line-height: 150%; font-size: 14px;
+}
+.wiki-content {
+	padding: 10px 10px 10px 45px; line-height: 200%;
+}
+.monospaceInput {
+	font: 12px/normal monospace; font-size-adjust: none; font-stretch: =
+normal;
+}
+.wiki-content pX {
+	margin: 10px 0px 0px; padding: 0px;
+}
+.commentblock p {
+	margin: 10px 0px 0px; padding: 0px;
+}
+.wiki-content-preview {
+	padding: 5px; border-right-color: rgb(60, 120, 181); border-left-color: =
+rgb(60, 120, 181); border-right-width: 1px; border-left-width: 1px; =
+border-right-style: solid; border-left-style: solid;
+}
+a sup img {
+	width: 0px; height: 0px;
+}
+a:link {
+	color: rgb(136, 0, 85); text-decoration: none;
+}
+a:visited {
+	color: rgb(136, 0, 85); text-decoration: none;
+}
+a:active {
+	color: rgb(136, 0, 85); text-decoration: none;
+}
+a:hover {
+	color: rgb(136, 0, 85); text-decoration: none;
+}
+a:active {
+	color: rgb(32, 32, 32); text-decoration: underline;
+}
+a:hover {
+	color: rgb(32, 32, 32); text-decoration: underline;
+}
+ul {
+	padding: 0px; margin-top: 5px; margin-bottom: 5px; margin-left: 15px;
+}
+ol {
+	padding: 0px; margin-top: 5px; margin-bottom: 5px; margin-left: 15px;
+}
+ul li {
+	list-style-image: url("../images/small-bullet-red.png");
+}
+ul li ul li {
+	list-style-image: url("../images/small-bullet-gray.png");
+}
+pre {
+	margin: 5px 5px 5px 15px; padding: 0px; text-align: left;
+}
+.helpheading {
+	margin: 10px 0px 0px; padding: 4px; font-weight: bold; =
+border-bottom-color: rgb(60, 120, 181); border-bottom-width: 1px; =
+border-bottom-style: solid; background-color: rgb(208, 217, 189);
+}
+.helpcontent {
+	padding: 4px 4px 20px; background-color: rgb(245, 247, 241);
+}
+.code {
+	margin: 10px 10px 10px 0px; border: 1px dashed rgb(60, 120, 181); =
+border-image: none; line-height: 13px; font-family: Courier; font-size: =
+11px;
+}
+.focusedComment {
+	background: rgb(255, 255, 206);
+}
+.commentBox {
+	margin: 5px 0px; padding: 10px; border: 1px solid rgb(187, 187, 187); =
+border-image: none;
+}
+.focusedComment {
+	margin: 5px 0px; padding: 10px; border: 1px solid rgb(187, 187, 187); =
+border-image: none;
+}
+.codeHeader {
+	padding: 3px; text-align: center; border-bottom-color: rgb(60, 120, =
+181); border-bottom-width: 1px; border-bottom-style: dashed; =
+background-color: rgb(240, 240, 240);
+}
+.codeContent {
+	padding: 3px; text-align: left; background-color: rgb(240, 240, 240);
+}
+.preformatted {
+	margin: 10px; border: 1px dashed rgb(60, 120, 181); border-image: none; =
+line-height: 13px; font-family: Courier; font-size: 11px;
+}
+.preformattedHeader {
+	padding: 3px; text-align: center; border-bottom-color: rgb(60, 120, =
+181); border-bottom-width: 1px; border-bottom-style: dashed; =
+background-color: rgb(240, 240, 240);
+}
+.preformattedContent {
+	padding: 3px; background-color: rgb(240, 240, 240);
+}
+.panel {
+	margin: 0px 10px 10px; border: 1px dashed rgb(60, 120, 181); =
+border-image: none;
+}
+.panelHeader {
+	padding: 3px; text-align: center; border-bottom-color: rgb(60, 120, =
+181); border-bottom-width: 1px; border-bottom-style: dashed; =
+background-color: rgb(240, 240, 240);
+}
+.panelContent {
+	padding: 5px; background-color: rgb(240, 240, 240);
+}
+.anonymousAlert {
+	margin: 4px; padding: 10px 5px; border: 1px dashed red; border-image: =
+none; line-height: 13px; font-size: 11px; background-color: rgb(240, =
+240, 240);
+}
+.lockAlert {
+	margin: 4px; padding: 10px 5px; border: 1px dashed red; border-image: =
+none; width: 50%; line-height: 13px; font-size: 11px; background-color: =
+rgb(240, 240, 240);
+}
+.code-keyword {
+	color: rgb(0, 0, 145); background-color: inherit;
+}
+.code-object {
+	color: rgb(145, 0, 145); background-color: inherit;
+}
+.code-quote {
+	color: rgb(0, 145, 0); background-color: inherit;
+}
+.code-comment {
+	color: rgb(128, 128, 128); background-color: inherit;
+}
+.code-xml .code-keyword {
+	color: inherit; font-weight: bold;
+}
+.code-tag {
+	color: rgb(0, 0, 145); background-color: inherit;
+}
+.breadcrumbs {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(60, 120, =
+181); padding: 3px 0px; font-size: 11px; background-color: rgb(240, 240, =
+240);
+}
+.navmenu {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.menuheading {
+	padding: 4px 4px 2px; font-weight: bold; border-bottom-color: rgb(60, =
+120, 181); border-bottom-width: 1px; border-bottom-style: solid; =
+background-color: rgb(240, 240, 240);
+}
+.menuitems {
+	padding: 4px 4px 20px;
+}
+.rightpanel {
+	border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, =
+204, 204); border-bottom-width: 1px; border-left-width: 1px; =
+border-bottom-style: solid; border-left-style: solid;
+}
+#helpheading {
+	margin: 0px; padding: 4px; text-align: left; font-weight: bold; =
+border-bottom-color: rgb(60, 120, 181); border-bottom-width: 1px; =
+border-bottom-style: solid; background-color: rgb(208, 217, 189);
+}
+#helpcontent {
+	padding: 4px; background-color: rgb(245, 247, 241);
+}
+.helptab-unselected {
+	padding: 5px; font-weight: bold; background-color: rgb(245, 247, 241);
+}
+.helptab-selected {
+	padding: 5px; font-weight: bold; background-color: rgb(208, 217, 189);
+}
+.helptabs {
+	margin: 0px; padding: 5px; background-color: rgb(245, 247, 241);
+}
+.infopanel-heading {
+	padding: 4px 0px 2px; font-weight: bold;
+}
+.pagebody {
+=09
+}
+.pageheader {
+	padding: 5px 5px 5px 0px; border-bottom-color: rgb(60, 120, 181); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+.steptitle {
+	color: rgb(102, 0, 51); font-family: Arial, sans-serif; font-size: =
+18px; font-weight: bold; margin-bottom: 7px;
+}
+.substeptitle {
+	margin: 2px 4px 4px; padding: 2px 4px 1px; color: rgb(102, 0, 51); =
+font-family: Arial, sans-serif; font-size: 12px; font-weight: bold;
+}
+.stepdesc {
+	color: rgb(102, 102, 102); line-height: 16px; font-family: Verdana, =
+arial, sans-serif; font-size: 11px; font-weight: normal; margin-top: =
+7px; margin-bottom: 7px;
+}
+.steplabel {
+	width: 15%; text-align: right; color: black; font-weight: bold; =
+margin-right: 4px; float: left;
+}
+.stepfield {
+	background: rgb(240, 240, 240); padding: 5px;
+}
+.submitButtons {
+	text-align: right; margin-top: 5px;
+}
+.formtitle {
+	color: rgb(102, 0, 51); font-family: Arial, sans-serif; font-size: =
+12px; font-weight: bold;
+}
+.sectionbottom {
+	border-bottom-color: rgb(60, 120, 181); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+.topRow {
+	border-top-color: rgb(60, 120, 181); border-top-width: 2px; =
+border-top-style: solid;
+}
+.tabletitle {
+	margin: 8px 4px 2px 0px; padding: 3px 0px 2px; color: rgb(102, 0, 51); =
+font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; =
+border-bottom-color: rgb(60, 120, 181); border-bottom-width: 2px; =
+border-bottom-style: solid;
+}
+.pagesubheading {
+	padding: 0px 0px 5px; color: rgb(102, 102, 102); font-size: 10px;
+}
+hr {
+=09
+}
+h1 a:link {
+	text-decoration: none;
+}
+h1 a:visited {
+	text-decoration: none;
+}
+h1 a:active {
+	text-decoration: none;
+}
+h1 a:hover {
+	border-bottom-color: rgb(102, 0, 51); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+.wiki-content > :first-child {
+	margin-top: 3px;
+}
+.commentblock > :first-child {
+	margin-top: 3px;
+}
+.logocell {
+	padding: 10px;
+}
+input {
+	color: rgb(0, 0, 0); font-family: verdana, geneva, arial, sans-serif; =
+font-size: 11px;
+}
+textarea {
+	color: rgb(51, 51, 51); font-family: verdana, geneva, arial, =
+sans-serif; font-size: 11px;
+}
+textarea.editor {
+	color: rgb(51, 51, 51); font-family: verdana, geneva, arial, =
+sans-serif; font-size: 11px;
+}
+.spacenametitle-printable {
+	font: 100 20px/25px Impact, Arial, Helvetica; margin: 0px; color: =
+rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+.spacenametitle-printable a {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.spacenametitle-printable a:visited {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.blogDate {
+	color: black; font-weight: bold; text-decoration: none;
+}
+div.blogpost {
+	margin-left: 0px;
+}
+div.blogpost div.wiki-content {
+	margin: 0px; padding: 0px;
+}
+.blogSurtitle {
+	background: none; margin: 1px 10px 10px 1px; float: right;
+}
+.blogHeading {
+	background: rgb(240, 240, 240); margin: 1px 1px 10px; padding: 3px; =
+border: 1px solid rgb(221, 221, 221); border-image: none; line-height: =
+normal; font-size: 15px; font-weight: bold;
+}
+.blogHeading a {
+	color: black; text-decoration: none;
+}
+.endsection {
+	text-align: right; color: rgb(102, 102, 102); font-size: 10px; =
+margin-top: 10px; margin-bottom: 10px;
+}
+.endsectionleftnav {
+	color: rgb(102, 102, 102); margin-top: 10px; align: right;
+}
+h1 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h2 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h3 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h4 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h5 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h6 {
+	line-height: normal; font-family: Georgia,"Times New Roman",serif; =
+font-weight: bold;
+}
+h1 {
+	margin: 36px 0px 4px -25px; padding: 2px; font-size: 20px; =
+border-bottom-color: rgb(128, 128, 128); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+h2 {
+	margin: 27px 0px 4px -20px; padding: 2px; font-size: 18px; =
+border-bottom-color: rgb(160, 160, 160); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+h3 {
+	margin: 21px 0px 4px -15px; padding: 2px; font-size: 16px; =
+border-bottom-color: rgb(192, 192, 192); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+h4 {
+	margin: 18px 0px 4px -10px; padding: 2px; font-size: 15px; =
+border-bottom-color: rgb(192, 192, 192); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+h4.search {
+	margin: 18px 0px 4px; padding: 4px; line-height: normal; font-size: =
+12px; font-weight: normal; background-color: rgb(240, 240, 240);
+}
+h5 {
+	margin: 14px 0px 4px -5px; padding: 2px; font-size: 14px;
+}
+h6 {
+	margin: 14px 0px 4px -5px; padding: 2px; font-size: 13px;
+}
+.smallfont {
+	font-size: 10px;
+}
+.descfont {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+.smallerfont {
+	font-size: 9px;
+}
+.smalltext {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+.smalltext a {
+	color: rgb(102, 102, 102);
+}
+.smalltext-blue {
+	color: rgb(60, 120, 181); font-size: 10px;
+}
+.surtitle {
+	color: rgb(102, 102, 102); font-size: 14px; margin-bottom: 5px; =
+margin-left: 1px;
+}
+div.padded {
+	padding: 4px;
+}
+div.thickPadded {
+	padding: 10px;
+}
+h3.macrolibrariestitle {
+	margin: 0px;
+}
+div.centered {
+	margin: 10px; text-align: center;
+}
+div.centered table {
+	margin: 0px auto; text-align: left;
+}
+.tableview table {
+	margin: 0px;
+}
+.tableview th {
+	padding: 5px 0px 0px 5px; text-align: left; color: rgb(102, 0, 51); =
+font-size: 12px; border-bottom-color: rgb(60, 120, 181); =
+border-bottom-width: 2px; border-bottom-style: solid;
+}
+.tableview td {
+	border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, =
+204, 204); margin: 0px; padding: 4px 10px 4px 5px; text-align: left;
+}
+.grid {
+	margin: 2px 0px 5px; border-collapse: collapse;
+}
+.grid th {
+	background: rgb(240, 240, 240); padding: 2px 4px; border: 1px solid =
+rgb(204, 204, 204); border-image: none; text-align: center;
+}
+.grid td {
+	padding: 3px 4px; border: 1px solid rgb(204, 204, 204); border-image: =
+none;
+}
+.gridHover {
+	background-color: rgb(249, 249, 249);
+}
+td.infocell {
+	background-color: rgb(240, 240, 240);
+}
+.label {
+	color: rgb(102, 0, 51); font-weight: bold;
+}
+.error {
+	background-color: rgb(255, 204, 204);
+}
+.errorBox {
+	margin: 5px; padding: 5px; border: 1px solid rgb(204, 0, 0); =
+border-image: none; background-color: rgb(255, 204, 204);
+}
+.errorMessage {
+	color: rgb(204, 0, 0);
+}
+.success {
+	background-color: rgb(221, 255, 221);
+}
+.successBox {
+	padding: 5px; border: 1px solid rgb(0, 153, 0); border-image: none; =
+margin-top: 5px; margin-bottom: 5px; background-color: rgb(221, 255, =
+221);
+}
+blockquote {
+	padding-right: 10px; padding-left: 10px; margin-right: 0px; =
+margin-left: 5px; border-left-color: rgb(60, 120, 181); =
+border-left-width: 1px; border-left-style: solid;
+}
+table.confluenceTable {
+	margin: 5px; border-collapse: collapse;
+}
+table.confluenceTable td.confluenceTd {
+	padding: 3px 4px; border: 1px solid rgb(204, 204, 204);
+}
+table.confluenceTable th.confluenceTh {
+	padding: 3px 4px; border: 1px solid rgb(204, 204, 204); text-align: =
+center; background-color: rgb(240, 240, 240);
+}
+td.confluenceTd {
+	padding: 3px 4px; border: 1px solid rgb(204, 204, 204);
+}
+th.confluenceTh {
+	padding: 3px 4px; border: 1px solid rgb(204, 204, 204); text-align: =
+center; background-color: rgb(240, 240, 240);
+}
+div.small {
+	font-size: 9px;
+}
+h1.pagename {
+	margin-top: 0px;
+}
+img.inline {
+=09
+}
+.loginform {
+	margin: 5px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.previewnote {
+	text-align: center; color: red; font-size: 11px;
+}
+.previewcontent {
+	background: rgb(224, 224, 224);
+}
+.messagecontent {
+	background: rgb(224, 224, 224);
+}
+.conflictnote {
+=09
+}
+.createlink {
+	color: maroon;
+}
+a.createlink {
+	color: maroon;
+}
+.templateparameter {
+	color: darkblue; font-size: 9px;
+}
+.diffadded {
+	background: rgb(221, 255, 221); padding: 1px 1px 1px 4px; =
+border-left-color: darkgreen; border-left-width: 4px; border-left-style: =
+solid;
+}
+.diffdeleted {
+	background: rgb(255, 221, 221); padding: 1px 1px 1px 4px; color: =
+rgb(153, 153, 153); border-left-color: darkred; border-left-width: 4px; =
+border-left-style: solid;
+}
+.diffnochange {
+	padding: 1px 1px 1px 4px; border-left-color: lightgrey; =
+border-left-width: 4px; border-left-style: solid;
+}
+.differror {
+	background: brown;
+}
+.diff {
+	line-height: 14px; font-family: lucida console, courier new, =
+fixed-width; font-size: 12px;
+}
+.diffaddedchars {
+	font-weight: bolder; background-color: rgb(153, 255, 153);
+}
+.diffremovedchars {
+	font-weight: bolder; text-decoration: line-through; background-color: =
+rgb(255, 153, 153);
+}
+.greybackground {
+	background: rgb(240, 240, 240);
+}
+.greybox {
+	margin: 1px 1px 10px; padding: 3px; border: 1px solid rgb(221, 221, =
+221); border-image: none;
+}
+.borderedGreyBox {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: =
+none; background-color: rgb(240, 240, 240);
+}
+.greyboxfilled {
+	background: rgb(240, 240, 240); margin: 10px 1px; padding: 5px; border: =
+1px solid rgb(221, 221, 221); border-image: none;
+}
+.navBackgroundBox {
+	background: rgb(60, 120, 181); padding: 5px; color: white; font-family: =
+Arial, sans-serif; font-size: 22px; font-weight: bold; text-decoration: =
+none;
+}
+.previewBoxTop {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(60, =
+120, 181); margin: 5px 0px 0px; padding: 5px; text-align: center; =
+background-color: rgb(240, 240, 240);
+}
+.previewContent {
+	border-width: 0px 1px; border-style: solid; border-color: rgb(60, 120, =
+181); margin: 0px; padding: 10px; background-color: rgb(255, 255, 255);
+}
+.previewBoxBottom {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(60, =
+120, 181); margin: 0px 0px 5px; padding: 5px; text-align: center; =
+background-color: rgb(240, 240, 240);
+}
+.functionbox {
+	margin: 1px 1px 10px; padding: 3px; border: 1px solid rgb(60, 120, =
+181); border-image: none; background-color: rgb(240, 240, 240);
+}
+.functionbox-greyborder {
+	margin: 1px 1px 10px; padding: 3px; border: 1px solid rgb(221, 221, =
+221); border-image: none; background-color: rgb(240, 240, 240);
+}
+.search-highlight {
+	background-color: rgb(255, 255, 204);
+}
+.rowNormal {
+	background-color: rgb(255, 255, 255);
+}
+.rowAlternate {
+	background-color: rgb(247, 247, 247);
+}
+.rowAlternateNoBottomColor {
+	background-color: rgb(247, 247, 247);
+}
+.rowAlternateNoBottomNoColor {
+=09
+}
+.rowAlternateNoBottomColor td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; =
+border-bottom-style: none;
+}
+.rowAlternateNoBottomNoColor td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; =
+border-bottom-style: none;
+}
+.rowHighlight {
+	background-color: rgb(240, 240, 240);
+}
+td.greenbar {
+	background: rgb(0, 223, 0); padding: 0px; border: 1px solid rgb(156, =
+156, 156); border-image: none; font-size: 2px;
+}
+td.redbar {
+	background: rgb(223, 0, 0); padding: 0px; border: 1px solid rgb(156, =
+156, 156); border-image: none; font-size: 2px;
+}
+td.darkredbar {
+	background: rgb(175, 0, 0); padding: 0px; border: 1px solid rgb(156, =
+156, 156); border-image: none; font-size: 2px;
+}
+tr.testpassed {
+	background: rgb(221, 255, 221); padding: 0px; font-size: 2px;
+}
+tr.testfailed {
+	background: rgb(255, 221, 221); padding: 0px; font-size: 2px;
+}
+.toolbar {
+	margin: 0px; border-collapse: collapse;
+}
+.toolbar td {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none; =
+color: rgb(204, 204, 204);
+}
+td.noformatting {
+	border-width: 0px; padding: 0px; text-align: center;
+}
+.commentblock {
+	margin: 12px 0px;
+}
+.license-eval {
+	text-align: center; font-family: Verdana, Arial, Helvetica, sans-serif; =
+font-size: 10px; border-top-color: rgb(187, 187, 187); border-top-width: =
+1px; border-top-style: solid;
+}
+.license-none {
+	text-align: center; font-family: Verdana, Arial, Helvetica, sans-serif; =
+font-size: 10px; border-top-color: rgb(187, 187, 187); border-top-width: =
+1px; border-top-style: solid;
+}
+.license-nonprofit {
+	text-align: center; font-family: Verdana, Arial, Helvetica, sans-serif; =
+font-size: 10px; border-top-color: rgb(187, 187, 187); border-top-width: =
+1px; border-top-style: solid;
+}
+.license-eval {
+	background-color: rgb(255, 204, 204);
+}
+.license-none {
+	background-color: rgb(255, 204, 204);
+}
+.license-eval b {
+	color: rgb(153, 0, 0);
+}
+.license-none b {
+	color: rgb(153, 0, 0);
+}
+.license-nonprofit {
+	background-color: rgb(255, 255, 255);
+}
+.bottomshadow {
+	height: 12px; background-image: =
+url("$req.contextPath/images/border/border_bottom.gif"); =
+background-repeat: repeat-x;
+}
+.navmenu .operations li {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+.navmenu .operations ul {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+.navmenu .operations ul {
+	margin-bottom: 9px;
+}
+.navmenu .label {
+	font-weight: inherit;
+}
+.toolbar div {
+	display: none;
+}
+.toolbar .label {
+	display: none;
+}
+.toolbar .operations {
+	display: block;
+}
+.toolbar .operations ul {
+	list-style: none; padding-left: 0px; margin-left: 10px; display: =
+inline;
+}
+.toolbar .operations li {
+	list-style: none; display: inline;
+}
+.blogcalendar * {
+	padding: 2px; line-height: 140%; font-family: verdana, arial, =
+sans-serif; font-size: x-small; font-weight: normal;
+}
+table.blogcalendar {
+	border: 1px solid rgb(60, 120, 181); border-image: none;
+}
+.blogcalendar th.calendarhead {
+	padding: 2px; color: rgb(255, 255, 255); text-transform: uppercase; =
+letter-spacing: 0.3em; font-size: x-small; font-weight: bold; =
+background-color: rgb(60, 120, 181);
+}
+a.calendarhead {
+	padding: 2px; color: rgb(255, 255, 255); text-transform: uppercase; =
+letter-spacing: 0.3em; font-size: x-small; font-weight: bold; =
+background-color: rgb(60, 120, 181);
+}
+.calendarhead:visited {
+	color: white;
+}
+.calendarhead:active {
+	color: white;
+}
+.calendarhead:hover {
+	color: white;
+}
+.warningPanel {
+	background: rgb(255, 255, 206); margin: 10px; padding: 8px; border: 1px =
+solid rgb(240, 192, 0); border-image: none;
+}
+.alertPanel {
+	background: rgb(255, 204, 204); margin: 10px; padding: 8px; border: 1px =
+solid rgb(204, 0, 0); border-image: none;
+}
+.optionPadded {
+	padding: 2px;
+}
+.optionSelected {
+	margin: -1px; padding: 2px; border: 1px solid rgb(221, 221, 221); =
+border-image: none; background-color: rgb(255, 255, 204);
+}
+.optionSelected a {
+	color: black; font-weight: bold; text-decoration: none;
+}
+.noteMacro {
+	border: 1px solid rgb(240, 192, 0); text-align: left; margin-top: 15px; =
+margin-bottom: 5px; background-color: rgb(255, 255, 206);
+}
+.warningMacro {
+	text-align: left;
+}
+.infoMacro {
+	border: 1px solid rgb(60, 120, 181); text-align: left; margin-top: =
+15px; margin-bottom: 5px; background-color: rgb(216, 228, 241);
+}
+.tipMacro {
+	border: 1px solid rgb(0, 153, 0); text-align: left; margin-top: 15px; =
+margin-bottom: 5px; background-color: rgb(221, 255, 221);
+}
+.informationMacroPadding {
+	padding: 5px 0px 0px 5px;
+}
+table.infoMacro td {
+	border: currentColor; border-image: none;
+}
+table.warningMacro td {
+	border: currentColor; border-image: none;
+}
+table.tipMacro td {
+	border: currentColor; border-image: none;
+}
+table.noteMacro td {
+	border: currentColor; border-image: none;
+}
+table.sectionMacro td {
+	border: currentColor; border-image: none;
+}
+table.infoMacro p {
+	font-size: x-small;
+}
+table.warningMacro p {
+	font-size: x-small;
+}
+table.tipMacro p {
+	font-size: x-small;
+}
+table.noteMacro p {
+	font-size: x-small;
+}
+table.sectionMacro p {
+	font-size: x-small;
+}
+table.sectionMacroWithBorder td.columnMacro {
+	border: 1px dashed rgb(204, 204, 204);
+}
+div.headerField {
+	width: auto; height: 100%; float: left;
+}
+.headerFloat {
+	width: 50%; margin-left: auto;
+}
+.headerFloatLeft {
+	margin-right: 20px; margin-bottom: 10px; float: left;
+}
+#headerRow {
+	padding: 10px;
+}
+.top10 a {
+	color: rgb(102, 0, 51); font-size: 2em; font-weight: bold;
+}
+.top25 a {
+	color: rgb(102, 0, 51); font-size: 1.6em; font-weight: bold;
+}
+.top50 a {
+	color: rgb(102, 0, 51); font-size: 1.4em;
+}
+.top100 a {
+	color: rgb(102, 0, 51); font-size: 1.2em;
+}
+.heatmap {
+	list-style: none; margin: 0px auto; width: 95%;
+}
+.heatmap a {
+	text-decoration: none;
+}
+.heatmap a:hover {
+	text-decoration: underline;
+}
+.heatmap li {
+	display: inline;
+}
+.minitab {
+	font: bold 9px/normal Verdana, sans-serif; padding: 3px 0px 3px 8px; =
+text-decoration: none; margin-top: 1px; margin-bottom: 0px; margin-left: =
+0px; border-bottom-color: rgb(60, 120, 181); border-bottom-width: 1px; =
+border-bottom-style: solid; float: none; font-size-adjust: none; =
+font-stretch: normal;
+}
+.selectedminitab {
+	background: white; border-width: 1px; border-style: solid; =
+border-color: rgb(60, 120, 181) rgb(60, 120, 181) white; padding: 3px =
+0.5em; border-image: none; color: rgb(0, 0, 0); text-decoration: none; =
+margin-top: 1px; margin-left: 3px;
+}
+.unselectedminitab {
+	background: rgb(60, 120, 181); border-width: 1px 1px medium; =
+border-style: solid solid none; border-color: rgb(60, 120, 181) rgb(60, =
+120, 181) currentColor; padding: 3px 0.5em; border-image: none; color: =
+rgb(255, 255, 255); text-decoration: none; margin-top: 1px; margin-left: =
+3px;
+}
+a.unselectedminitab:hover {
+	background: rgb(102, 0, 51); border-color: rgb(102, 0, 51); color: =
+rgb(255, 255, 255);
+}
+a.unselectedminitab:link {
+	color: white;
+}
+a.unselectedminitab:visited {
+	color: white;
+}
+a.selectedminitab:link {
+	color: black;
+}
+a.selectedminitab:visited {
+	color: black;
+}
+.linkerror {
+	background-color: rgb(255, 204, 204);
+}
+a.labelOperationLink:link {
+	text-decoration: underline;
+}
+a.labelOperationLink:active {
+	text-decoration: underline;
+}
+a.labelOperationLink:visited {
+	text-decoration: underline;
+}
+a.labelOperationLink:hover {
+	text-decoration: underline;
+}
+a.newLabel:link {
+	background-color: rgb(221, 255, 221);
+}
+a.newLabel:active {
+	background-color: rgb(221, 255, 221);
+}
+a.newLabel:visited {
+	background-color: rgb(221, 255, 221);
+}
+a.newLabel:hover {
+	background-color: rgb(221, 255, 221);
+}
+ul.square {
+	list-style-type: square;
+}
+.inline-control-link {
+	background: rgb(255, 255, 204); padding: 2px; color: rgb(102, 102, =
+102); text-transform: uppercase; font-size: 9px; text-decoration: none;
+}
+.inline-control-link a:link {
+	text-decoration: none;
+}
+.inline-control-link a:active {
+	text-decoration: none;
+}
+.inline-control-link a:visited {
+	text-decoration: none;
+}
+.inline-control-link a:hover {
+	text-decoration: none;
+}
+.inline-control-link {
+	background: rgb(255, 255, 204); padding: 2px; color: rgb(102, 102, =
+102); text-transform: uppercase; font-size: 9px; text-decoration: none; =
+cursor: pointer;
+}
+div.auto_complete {
+	background: rgb(255, 255, 255); width: 350px;
+}
+div.auto_complete ul {
+	margin: 0px; padding: 0px; border: 1px solid rgb(136, 136, 136); =
+border-image: none; width: 100%; list-style-type: none;
+}
+div.auto_complete ul li {
+	margin: 0px; padding: 3px;
+}
+div.auto_complete ul li.selected {
+	background-color: rgb(255, 255, 187);
+}
+div.auto_complete ul strong.highlight {
+	margin: 0px; padding: 0px; color: rgb(136, 0, 0);
+}
+.toogleFormDiv {
+	padding: 5px; border: 1px solid rgb(167, 166, 170); border-image: none; =
+margin-top: 5px; background-color: white;
+}
+.toogleInfoDiv {
+	padding: 5px; border: 1px solid rgb(167, 166, 170); border-image: none; =
+margin-top: 10px; display: none; background-color: white;
+}
+.inputSection {
+	margin-bottom: 20px;
+}
+#editBox {
+	border: 1px solid lightgray; border-image: none; background-color: =
+rgb(240, 240, 240);
+}
+
+------=_NextPart_000_0000_01CF8F21.7F874D20--

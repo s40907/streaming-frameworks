@@ -1,6 +1,60 @@
 \section{Apache Storm}
 \label{section:storm}
 
-In diesem Unterkapitel wird Apache Storm vorgestellt. Storm wurde von der Firma Backtype 2011 entwickelt. Im gleichen Jahr wurde die Firma von Twitter übernommen und der Quelltext auf Github veröffentlicht. \citeint{storm:apache:StormProposal} 
+Apache Storm wird vom Hauptentwickler Nathan Marz im Proposal als verteiltes, fehlertolerantes und hochperformantes Echtzeitberechnungssystem definiert. Ursprünglich wurde die Anwendung von der Firma Backtype in 2011 entwickelt. Im gleichen Jahr wurde die Firma Backtype von Twitter übernommen und der Quelltext auf Github \citeint{GitHub} unter dem Repository \textit{storm} \citeint{storm:GitHub} von Nathan Marz veröffentlicht. In 2013 wurde die Aufnahme von Storm in die \gls{glo:asf} geplant. Dazu wurde ein Storm Proposal von Nathan Marz eingereicht. \citeint{storm:apache:stormProposal} 
 
-Ab Version 0.9.1-incubating befindet sich Storm im Apache Incubation-Prozess \citeint{storm:apache:stormIncubationStatus}. In der folgenden Tabelle wird eine Kurzübersicht über Apache Storm gegeben und erläutert. Anschließend werden die Bewertungskriterien aus Kapitel \ref{chapter:analyse} in Apache Storm geprüft. Zuletzt wird mit dem Referenzmodell ein Zusammenhang veranschaulicht und zusammengefasst.
+Seit 2013 befindet sich Storm im Apache Incubation-Prozess \citeint{storm:apache:stormIncubationStatus}. Eine Überführungsversion 0.9.1-incubating wurde dafür eingerichtet. Der Quelltext und das Lizenzmodell wird in die \gls{glo:asf} aufgenommen \citeint{apache:softwareFoundation}. Der Verlauf des Überführungsprozesses zur \gls{glo:asf} wird auf der Incubator-Statusseite \citeint{storm:IncubatorStatusPage} festgehalten. In der Tabelle \ref{tab:vorstorm} wird eine Kurzübersicht über Apache Storm gegeben. Darin wird ein aktiver Entwicklungsstatus angegeben. Die Aktivität wird aus dem GitHub \textit{Contributors-Graph} bei 84 Projektteilnehmern bestimmt \citeint{storm:Contributors}. Zur Entwicklung werden mehrere Sprachen Clojure, Java und Python angegeben. Nathan Marz gibt an Storm in der Programmiersprache Clojure \citeint{clojure} zu entwickeln und mit Java  \citeint{javaAbout} kompatibel zu sein, neben Java und Clojure  findet die Github Sprachen-Suche \citeint{storm:GitHubApacheMirror} im Repository \textit{storm} auch Python \citeint{pythonAbout}. Ab Version 0.9.1-incubating wird eine verbesserte Plattformkompatibilität zum Betriebssystem Microsoft Windows angeboten und die Standardtransportschicht ZeroMq \citeint{zeromq:guide} wurde durch Netty \citeint{netty} ersetzt \citeint{storm:Changelog}.
+
+\begin{table}[htbp]
+	\centering
+		\begin{tabular}{@{}ll@{}} \toprule
+			\textbf{Faktum} & \textbf{Beschreibung} \\ \midrule
+			Hauptentwickler & Nathan Marz \\
+			Stabile Version & 0.9.1-incubating vom 22.02.2014 \\ 
+			Entwicklungsstatus &  Aktiv \\
+			Entwicklungsversion & 0.9.2-incubating, 0.9.3-incubating \\
+			Sprache & Clojure, Java, Python \\
+			Betriebssystem & Platformübergreifend (Microsoft Windows mit Cygwin Umgebung) \\
+			Lizenz & Eclipse Public License 1.0 (Incubating Apache License version 2.0) \\
+			Webseite &  \citeint{storm:home} \\
+			Quelltext & \citeint{storm:GitHubApacheMirror} \\			
+			\bottomrule			
+		\end{tabular}
+	\caption{Kurzübersicht Apache Storm}
+	\label{tab:vorstorm}
+\end{table}
+
+In Tabelle \ref{tab:bewstorm} werden die Bewertungskriterien aus Kapitel \ref{chapter:analyse} in Apache Storm geprüft. Als Architektur wird die Strukturierte Peer-To-Peer-Architektur angegeben. Apache Storm besteht aus drei Komponenten: \textit{Nimbus}, \textit{Supervisor} und \textit{UI}. Der \textit{Nimbus} stellt die zentrale Stelle und übernimmt die Aufgabe des \textit{Scheduler} - einem Arbeitsplaner. Der \textit{Nimbus} is klein gehalten und verteilt die Aufgaben zwischen den Arbeitsknoten. Die Arbeitsknoten werden in Apache Storm \textit{Supervisor} genannt. Mehrere Supervisor-Instanzen sind in einem Apache Storm Cluster möglich. Die dritte Komponente \textit{UI} visualisiert den momentanen Status der Apache Storm Komponenten \textit{Nimbus} und \textit{Supervisor}. 
+
+Bei der Verarbeitung von Informationen kann in Apache Storm pro Verarbeitungseinheit die Anzahl an benötigten Threads als Argument explizit übergeben werden. Die Konfiguration dazu findet im Quelltext statt. Um eine komplexe Verarbeitung durchzuführen, muss in Apache Storm eine \textit{Topology} implementiert und veröffentlicht werden. Die \textit{Topology} wird auf dem Apache Storm Cluster permanent ausgeführt. Die Kommunikation erfolgt zwischen den einzelnen Apache Storm Komponenten mit einem zusätzlichen Werkzeug Apache ZooKeeper \citeint{zookeeper:Home}. Apache ZooKeeper wird als verteilte Synchronisation und Koordination der Aufgaben durch Nimbus auf tieferer Ebene verwendet. Auf der Transportebene kommunizieren Verarbeitungseinheiten durch das asynchrone Client-Server-Framework Netty \citeint{netty}.
+
+Eine komplexe Verarbeitung bzw. Abfrage in einer \textit{Topology} besteht aus \textit{Spouts} und \textit{Bolts}. Mit einem \textit{Spout} wird eine externe Datenquelle beschrieben und ein \textit{Spout} liefert eine permanente Folge von ungebunden Tupeln. Ein Tupel ist die Hauptdatenstruktur kann unterschiedliche Datentypen (integers, longs, shorts, bytes, strings, doubles, floats, booleans und selbstentwickelte) enthalten. Die Folge von ungebundenen Tupeln wird in Apache Storm als \textit{Stream} bezeichnet. Um einen \textit{Spout} zu implementieren reicht es die Schnittstelle \textit{IRichSpout} zu implementieren oder die Klasse \textit{BaseRichSpout} zu erweitern. 
+
+Bei einer Erweiterung von \textit{BaseRichSpout} müssen die Methodenamen \textit{open}, \textit{nextTuple}, \textit{declareOutputFields} zu implementieren. In der Methode \textit{open} kann zum Beispiel ein interne Liste über einen Java-Listener bei einem Dateneingang in einem Datenadapter gefüllt werden. Die Methode \textit{nextTuple} wird jede 1 Millisekunde ausgeführt und wenn Nachrichten in der Liste enthalten sind, kann der \textit{SpoutOutputCollector} mit einer StreamId und einem Tuple aussenden. Der \textit{SpoutOutputCollector} kann eine Nachricht ebenfalls markieren. Wenn die Nachricht nicht vollständig übertragen wurde, wird über ein \textit{Callback-Methode} \textit{ack} oder \textit{fail} in der implementieren Klasse \textit{Spout} zurückgegeben. Damit wird in Apache Storm sichergestellt, dass die Nachricht mindestens einmal vollständig verarbeitet wurde \citeint{storm:SpoutOutputCollector}. In der Methode \textit{declareOutputFields} wird die Felddefinition der Ausgabe für die weitere Verarbeitung angegeben. \citeint{storm:Spout}
+
+Ein \textit{Bolt} nimmt ein Tupel auf und gibt Tupel wieder aus. Innerhalb eines \textit{Bolt} können Tupel verändert werden. Nachdem Start der \textit{Topology} wird ein \textit{Bolt} erst auf den \textit{Supervisor} übertragen und deserialisiert. \textit{Nimbus} ruft auf der Instanz anschließend die Methode \textit{prepare} auf. In Java muss für die Implementierung eines \textit{Bolt} die Schnittstelle \textit{IRichBolt} implementiert werden. In der Methode \textit{execute} werden die Tupel angepasst und über den \textit{OutputCollector} ausgesendet. Apache Storm erwartet beim Eingang eines Tupels in einem \textit{Bolt} Bestätigung über die Methode \textit{ack} oder \textit{fail}. Andernfalls kann Apache Storm nicht feststellen, ob eine Nachricht vollständig verarbeitet wurde. \citeint{storm:Bolt}
+
+Eine komplexe Abfrage aus \textit{Spouts} und \textit{Bolts} wird über den \textit{TopologyBuilder} zusammengesetzt. Der stellt dazu \textit{set}-Methoden für \textit{Spouts} und \textit{Bolts} bereit. Beim setzen eines \textit{Spout} oder eines \textit{Bolt} muss immer einer Referenz-Identifikationsnummer angegeben werden. Andere Komponente können dadurch die Ausgabe aufnehmen. Weiterhin kann mit dem Argument \textit{parallelism\_hint} die Anzahl der \textit{Tasks}, die zur Ausführung benutzt werden. Jeder \textit{Task} wird im Storm Cluster auf einem eigenen \textit{Thread} ausgeführt. \citeint{storm:TopologyBuilder}
+
+\begin{table}[htbp]
+	\centering
+		\begin{tabular}{@{}ll@{}} \toprule
+			\textbf{Kriterium} & \textbf{Bewertung} \\ \midrule
+			Architektur & Strukturierte Peer-to-Peer-Architektur \\
+			Prozesse und Threads & Interaktion symmetrisch \\ 
+			Kommunikation &  TCP-basiert mit Apache Zookeeper \\
+			Namenssystem &  Attributbasierte Benennung\\
+			Synchronisierung &  Zentralisierter Algorithmus \\
+			Pipelining und Materialisierung &  \\
+			Konsistenz und Replikation & Push-basiertes Monitoring \\			
+			Fehlertoleranz &   \\
+			Sicherheit &  \\
+			Erweiterung & Nur Eigenentwicklung \\
+			Qualität &  \\
+			\bottomrule			
+		\end{tabular}
+	\caption{Bewertung Apache Storm}
+	\label{tab:bewstorm}
+\end{table}
+
+Zuletzt wird mit dem Referenzmodell ein Zusammenhang veranschaulicht und zusammengefasst.
