@@ -1,0 +1,24 @@
+\section{Apache Kafka}
+%http://de.slideshare.net/tim.lossen.de/eventstream-processing-with-kafka
+%http://de.slideshare.net/charmalloc/developingwithapachekafka-29910685
+
+Nach der Vorstellung von Apache Storm wird in diesem Kapitel Apache Kafka näher gebracht. Zu Beginn wird eine Kurzübersicht gegeben, um anschließend die Bewertungskriterien zu erläutern. Apache Kafka wird von Rao in \citeint{kafka:Proposal} als verteiltes publish-subscribe system für die Verarbeitung hoher Mengen an fließenden Daten. Am 04.07.2011 wurde der Apache Incubation-Prozess aufgenommen und am 23.10.2012 wurde Apache Kafka qualifiziert \citeint{kafka:IncubationStatus}. Ursprünglich wurde Apache Kafka von der Firma LinkedIn \citeint{linkedin} um auf die eingehenden unterschiedlichen hohen Datenmengen der Webseiten von LinkedIn Zugang zu bekommen und zu verarbeiten \citeint{kafka:Proposal}.
+
+\begin{table}[htbp]
+	\centering
+		\begin{tabular}{@{}ll@{}} \toprule
+			\textbf{Faktum} & \textbf{Beschreibung} \\ \midrule
+			Hauptentwickler & Jay Kreps, Neha Narkhede, Jun Rao \\
+			Stabile Version & 0.8.1.1 vom 29.04.2014 \\ 
+			Entwicklungsstatus &  Aktiv \\
+			Entwicklungsversion & 0.8.2, 0.9.0 \\
+			Sprache & Scala, Java, Python \\
+			Betriebssystem & Platformübergreifend (Microsoft Windows mit Cygwin Umgebung) \\
+			Lizenz & Apache License version 2.0 \\
+			Webseite & \citeint{kafka:home} \\
+			Quelltext & \citeint{kafka:GitHubApacheMirror} \\			
+			\bottomrule			
+		\end{tabular}
+	\caption{Kurzübersicht Apache Kafka}
+	\label{tab:vorkafka}
+\end{table}

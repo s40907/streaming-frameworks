@@ -1,30 +1,33 @@
-From: "Mit Windows Internet Explorer 10 gespeichert"
+From: "Von Internet Explorer 11 gespeichert"
 Subject: Apache Kafka
-Date: Sat, 29 Jun 2013 18:40:01 +0200
+Date: Mon, 30 Jun 2014 20:30:56 +0200
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----=_NextPart_000_006D_01CE74F8.103ABF40"
-X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+	boundary="----=_NextPart_000_0000_01CF94A2.32479AC0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
 
 This is a multi-part message in MIME format.
 
-------=_NextPart_000_006D_01CE74F8.103ABF40
+------=_NextPart_000_0000_01CF94A2.32479AC0
 Content-Type: text/html;
 	charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://kafka.apache.org/
+Content-Location: https://kafka.apache.org/
 
-=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+=EF=BB=BF<!DOCTYPE HTML>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" =
 "http://www.w3.org/TR/html4/strict.dtd"><HTML=20
-xmlns:og=3D"http://ogp.me/ns#"><HEAD><META content=3D"IE=3D10.000"=20
+xmlns:og=3D"http://ogp.me/ns#"><HEAD><META content=3D"IE=3D11.0000"=20
 http-equiv=3D"X-UA-Compatible">
 		 <TITLE>Apache Kafka</TITLE>		 <LINK =
-href=3D"http://kafka.apache.org/styles.css"=20
+href=3D"https://kafka.apache.org/styles.css"=20
 rel=3D"stylesheet" type=3D"text/css">		 <LINK =
 href=3D"/images/apache_feather.gif" rel=3D"icon"=20
-type=3D"image/gif">		=20
+type=3D"image/gif">		 <LINK =
+href=3D"http://fonts.googleapis.com/css?family=3DSource+Sans+Pro:400,400i=
+talic"=20
+rel=3D"stylesheet" type=3D"text/css">		=20
 <META name=3D"robots" content=3D"index,follow">		=20
 <META name=3D"language" content=3D"en"> 	=09
 <META name=3D"keywords" content=3D"apache kafka messaging queuing =
@@ -41,103 +44,100 @@ distributed, publish-subscribe messaging system.">
 messaging system."=20
 property=3D"og:description">		=20
 <META value=3D"sna-projects" property=3D"og:site_name">		=20
-<META value=3D"website" property=3D"og:type">	=20
-<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16612"></HEAD>	=20
+<META value=3D"website" property=3D"og:type">		=20
+<SCRIPT>=0A=
+		  =
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=3Dr;i[r]=3Di[r]||func=
+tion(){=0A=
+		  (i[r].q=3Di[r].q||[]).push(arguments)},i[r].l=3D1*new =
+Date();a=3Ds.createElement(o),=0A=
+		  =
+m=3Ds.getElementsByTagName(o)[0];a.async=3D1;a.src=3Dg;m.parentNode.inser=
+tBefore(a,m)=0A=
+		  =
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga=
+');=0A=
+=0A=
+		  ga('create', 'UA-7818013-4', 'apache.org');=0A=
+		  ga('send', 'pageview');=0A=
+=0A=
+		</SCRIPT>
+	=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17126"></HEAD>	=20
 <BODY>
-<DIV>
-<DIV id=3D"header"><A href=3D"http://www.apache.org/"><IMG =
-class=3D"feather" =
-src=3D"http://www.apache.org/images/feather-small.png">
-					 </A>					=20
-<DIV class=3D"title"><A =
-href=3D"http://kafka.apache.org/index.html">Apache=20
-Kafka</A></DIV>
-<DIV class=3D"subtitle">A high-throughput distributed messaging=20
-system.</DIV></DIV>
+<DIV id=3D"everything">
+<DIV id=3D"header">
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><A href=3D"https://kafka.apache.org/"><IMG =
+src=3D"https://kafka.apache.org/images/kafka_logo.png"></A></TD>
+    <TD class=3D"title"><A href=3D"https://kafka.apache.org/">Apache =
+Kafka</A>
+      							 <BR><SPAN class=3D"subtitle"><A =
+href=3D"https://kafka.apache.org/">A=20
+      high-throughput distributed messaging system.</A></SPAN>
+  						 </TD></TR></TBODY></TABLE></DIV>
 <DIV class=3D"lsidebar">
 <UL>
   <LI><A =
-href=3D"http://kafka.apache.org/downloads.html">download</A></LI>
-  <LI>0.8&nbsp;beta		                =20
-  <UL>
-    <LI><A =
-href=3D"http://kafka.apache.org/08/quickstart.html">quickstart</A></LI>
-    <LI><A =
-href=3D"http://kafka.apache.org/08/design.html">design</A></LI>
-    <LI><A =
-href=3D"http://kafka.apache.org/08/api.html">api&nbsp;docs</A></LI>
-    <LI><A=20
-    =
-href=3D"http://kafka.apache.org/08/configuration.html">configuration</A><=
-/LI>
-    <LI><A href=3D"http://kafka.apache.org/08/tools.html">tools</A></LI>
-    <LI><A href=3D"http://kafka.apache.org/08/migration.html">migration
-    						 </A></LI></UL><A=20
-  href=3D"http://kafka.apache.org/08/migration.html"></A></LI><A =
-href=3D"http://kafka.apache.org/08/migration.html"></A>
-  <LI><A href=3D"http://kafka.apache.org/08/migration.html">0.7	         =
-         =20
-    </A>
-  <UL><A href=3D"http://kafka.apache.org/08/migration.html">					        =
- </A>
-    <LI><A href=3D"http://kafka.apache.org/08/migration.html"><A =
-href=3D"http://kafka.apache.org/07/quickstart.html">quickstart</A></LI>
-    <LI><A =
-href=3D"http://kafka.apache.org/07/design.html">design</A></LI>
-    <LI><A=20
-    =
-href=3D"http://people.apache.org/~joestein/kafka-0.7.1-incubating-docs">a=
-pi&nbsp;docs</A></LI>
-    <LI><A=20
-    =
-href=3D"http://kafka.apache.org/07/configuration.html">configuration</A><=
-/LI>
-    <LI><A=20
-    =
-href=3D"http://kafka.apache.org/07/performance.html">performance</A></LI>=
-</UL></LI>
+href=3D"https://kafka.apache.org/downloads.html">download</A></LI>
+  <LI><A=20
+  =
+href=3D"https://kafka.apache.org/documentation.html#introduction">introdu=
+ction</A></LI>
+  <LI><A =
+href=3D"https://kafka.apache.org/documentation.html#uses">uses</A></LI>
+  <LI><A=20
+  =
+href=3D"https://kafka.apache.org/documentation.html">documentation</A></L=
+I>
+  <LI><A =
+href=3D"https://kafka.apache.org/performance.html">performance</A></LI>
   <LI><A=20
   =
 href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Clients">client=
 s</A></LI>
   <LI><A=20
   =
-href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Operations">ope=
-rations</A></LI>
-  <LI><A href=3D"http://kafka.apache.org/faq.html">faq</A></LI>
-  <LI><A=20
-  =
-href=3D"https://cwiki.apache.org/confluence/display/KAFKA">wiki</A></LI><=
-A href=3D"https://cwiki.apache.org/confluence/display/KAFKA"></A>
-  <LI><A href=3D"https://cwiki.apache.org/confluence/display/KAFKA"><A =
-href=3D"https://issues.apache.org/jira/browse/KAFKA">bugs</A></LI>
-  <LI><A =
-href=3D"http://kafka.apache.org/contact.html">mailing&nbsp;lists</A></LI>=
-
-  <LI><A =
-href=3D"http://kafka.apache.org/committers.html">committers</A></LI>
-  <LI><A=20
-  =
-href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Powered+By">pow=
-ered&nbsp;by</A></LI>
-  <LI><A=20
-  =
 href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Ecosystem">ecos=
 ystem</A></LI>
-  <LI><A =
-href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Kafka+papers+an=
-d+presentations">papers&nbsp;&amp;&nbsp;talks</A></LI>
-  <LI>developers						=20
+  <LI><A=20
+  =
+href=3D"https://cwiki.apache.org/confluence/display/KAFKA/FAQ">faq</A></L=
+I>
+  <LI>project					=20
   <UL>
-    <LI><A href=3D"http://kafka.apache.org/code.html">code</A></LI>
-    <LI><A =
-href=3D"http://kafka.apache.org/projects.html">projects</A></LI>
     <LI><A=20
-href=3D"http://kafka.apache.org/contributing.html">contributing</A></LI>
+href=3D"https://cwiki.apache.org/confluence/display/KAFKA">wiki</A></LI>
+    <LI><A =
+href=3D"https://issues.apache.org/jira/browse/KAFKA">bugs</A></LI>
     <LI><A=20
     =
-href=3D"http://kafka.apache.org/coding-guide.html">coding&nbsp;guide</A><=
-/LI>
+href=3D"https://kafka.apache.org/contact.html">mailing&nbsp;lists</A></LI=
+>
+    <LI><A =
+href=3D"https://kafka.apache.org/committers.html">committers</A></LI>
+    <LI><A=20
+    =
+href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Powered+By">pow=
+ered&nbsp;by</A></LI>
+    <LI><A =
+href=3D"https://cwiki.apache.org/confluence/display/KAFKA/Kafka+papers+an=
+d+presentations">papers&nbsp;&amp;&nbsp;talks</A></LI></UL></LI>
+  <LI>developers					=20
+  <UL>
+    <LI><A href=3D"https://kafka.apache.org/code.html">code</A></LI>
+    <LI><A =
+href=3D"https://kafka.apache.org/projects.html">projects</A></LI>
+    <LI><A=20
+    =
+href=3D"https://kafka.apache.org/contributing.html">contributing</A></LI>=
+
+    <LI><A=20
+    =
+href=3D"https://kafka.apache.org/coding-guide.html">coding&nbsp;guide</A>=
+</LI>
     <LI><A=20
 href=3D"https://builds.apache.org/">unit&nbsp;tests</A></LI></UL></LI></U=
 L></DIV>
@@ -166,9 +166,206 @@ messages without performance impact.=20
 <DIV class=3D"buzzword">Distributed by Design</DIV>Kafka has a modern=20
 cluster-centric design that offers strong durability and fault-tolerance =
 
-guarantees.		 </DIV></DIV></BODY></HTML>
+guarantees.		 </DIV>
+<DIV id=3D"footer"><A href=3D"http://www.apache.org/"><IMG =
+class=3D"feather" alt=3D"Apache Feather"=20
+src=3D"http://www.apache.org/images/feather-small.png">			 </A>
+		 </DIV></DIV></BODY></HTML>
 
-------=_NextPart_000_006D_01CE74F8.103ABF40
+------=_NextPart_000_0000_01CF94A2.32479AC0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://kafka.apache.org/images/kafka_logo.png
+
+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
+
+------=_NextPart_000_0000_01CF94A2.32479AC0
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: http://www.apache.org/images/feather-small.png
@@ -724,21 +921,21 @@ mX2vmNRbM8tB9S1Se+HZtf74y++YlK5d+f5Ms3WP5tjzJd9Vm5+OnfmLJ/Hz+149dDWUbzpcX788
 v1bPWw8/Iz83OdytDJckNNuh/8zl0Js5+H0YL6yjsvUgOs44GfkqPXkBkIt/ar16KdqrZrH32Ht8
 eyrBvUuw99h7fHs+/n+oCy63LVGizgAAAABJRU5ErkJggg==
 
-------=_NextPart_000_006D_01CE74F8.103ABF40
+------=_NextPart_000_0000_01CF94A2.32479AC0
 Content-Type: text/css;
 	charset="iso-8859-1"
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://kafka.apache.org/styles.css
+Content-Location: https://kafka.apache.org/styles.css
 
 html {
-	margin: 0px; padding: 0px; color: rgb(34, 34, 34); line-height: 175%; =
-font-family: Helvetica,sans-serif; font-size: 12pt; background-color: =
-rgb(255, 255, 255);
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 175%; =
+font-family: "Source Sans Pro", sans-serif; font-size: 13pt; =
+background-color: rgb(255, 255, 255);
 }
 body {
-	margin: 0px; padding: 0px; color: rgb(34, 34, 34); line-height: 175%; =
-font-family: Helvetica,sans-serif; font-size: 12pt; background-color: =
-rgb(255, 255, 255);
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 175%; =
+font-family: "Source Sans Pro", sans-serif; font-size: 13pt; =
+background-color: rgb(255, 255, 255);
 }
 code {
 	font: 1em/normal "courier new", courier, monospace; font-size-adjust: =
@@ -760,27 +957,52 @@ h3 {
 h4 {
 	color: rgb(46, 74, 142);
 }
+h1 {
+	font-size: 24pt;
+}
+h2 {
+	font-size: 18pt;
+}
+h3 {
+	font-size: 16pt;
+}
+h4 {
+	font-size: 14pt;
+}
 a {
 	color: rgb(46, 74, 142); text-decoration: none;
 }
+#everything {
+	margin: auto; width: 1000px;
+}
 #header {
-	margin: 0px; padding: 20px; overflow: hidden; min-width: 1000px; =
-background-color: rgb(46, 74, 142);
+	margin: auto; overflow: hidden; padding-top: 10px; padding-bottom: =
+10px; padding-left: 35px; min-width: 1000px; background-color: white;
 }
 #header a {
-	color: white; text-decoration: none;
+	color: black; text-decoration: none;
+}
+#header table {
+	border-collapse: collapse; border-spacing: 0px;
+}
+#header img {
+	margin: 5px;
+}
+#footer {
+	margin: auto; width: 500px; text-align: center; line-height: 100%; =
+font-size: 10pt;
 }
 .title {
-	margin: 15px; color: white; font-size: 40pt;
+	color: black; line-height: 55%; font-size: 50pt;
 }
 .subtitle {
-	margin: 15px; color: white; font-size: 40pt;
+	color: black; line-height: 55%; font-size: 50pt;
 }
 .subtitle {
-	font-size: 16pt; font-style: italic;
+	font-size: 16pt;
 }
 .feather {
-	margin: 5px; float: right;
+	margin: 5px; border: 0px currentColor; border-image: none;
 }
 .projects {
 	font-size: 11pt; font-style: normal;
@@ -790,7 +1012,7 @@ background-color: rgb(46, 74, 142);
 }
 .lsidebar {
 	width: 250px; color: rgb(46, 74, 142); line-height: 120%; font-size: =
-13pt; float: left;
+15pt; float: left;
 }
 .lsidebar li {
 	list-style-type: none;
@@ -802,29 +1024,63 @@ background-color: rgb(46, 74, 142);
 	list-style-type: circle;
 }
 .content {
-	padding: 10px; margin-left: 250px; min-height: 800px; min-width: 750px; =
-max-width: 900px; xpadding: 10px;
+	padding: 0px; width: 800px; margin-left: 250px; min-height: 550px;
 }
 .numeric {
 	text-align: right;
 }
 .data-table {
-	border: 1px solid rgb(169, 169, 169); border-collapse: collapse;
+	border: 1px solid rgb(169, 169, 169); border-image: none; width: =
+1000px; border-collapse: collapse;
 }
 .data-table td {
-	padding: 2px; border: 1px solid rgb(136, 136, 136);
+	padding: 2px; border: 1px solid rgb(136, 136, 136); border-image: none;
 }
 .data-table th {
-	padding: 2px; border: 1px solid rgb(136, 136, 136);
+	padding: 2px; border: 1px solid rgb(136, 136, 136); border-image: none;
 }
 .data-table th {
 	font-weight: bold; background-color: rgb(204, 204, 204);
 }
 .advert-message {
-	padding: 15px; border: 3px solid rgb(46, 74, 142);
+	padding: 15px; border: 3px solid rgb(46, 74, 142); border-image: none;
 }
 .buzzword {
-	line-height: 200%; font-size: 18pt; font-style: italic;
+	color: rgb(46, 74, 142); line-height: 200%; font-size: 18pt;
+}
+.caption {
+	font-size: 11pt; font-weight: bold;
+}
+.toc {
+	font-size: 15pt;
+}
+.toc ul {
+	font-size: 14pt;
+}
+.toc ul ul {
+	font-size: 13pt;
 }
 
-------=_NextPart_000_006D_01CE74F8.103ABF40--
+------=_NextPart_000_0000_01CF94A2.32479AC0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic
+
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro"), local("SourceSansPro-Regular"), =
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODe=
+lI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), =
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/M2J=
+d71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+
+------=_NextPart_000_0000_01CF94A2.32479AC0--
