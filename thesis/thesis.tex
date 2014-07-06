@@ -75,7 +75,34 @@
 \DeclareCaptionFormat{listing}{\colorbox[rgb]{0.87, 0.87, 0.87}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
 \captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white,singlelinecheck=false,margin=0pt,font={bf,footnotesize}}
 
+\usepackage[babel,german=quotes]{csquotes}
 
+\DeclareQuoteStyle{fquotes}
+  {\em}{}{\em}{}
+
+\newcommand*{\myfquote}[1]{%
+  \begingroup%
+    \setquotestyle{fquotes}%
+    \enquote{#1}%
+  \endgroup%
+}
+
+\newif\ifmyblockquote
+\newcommand*{\myblockquote}{%
+\myblockquotetrue\blockquote}
+
+\DeclareQuoteStyle[italics]{german}
+[\itshape]
+[\itshape]
+{\quotedblbase}
+{\textquotedblleft}
+[0.025em]
+{\quotesinglbase}
+{\fixligatures\textquoteleft}
+\DeclareQuoteAlias[italics]{german}{german}
+
+
+\renewcommand\mkblockquote[4]{\enquote{#1#2#3}#4}
 
 %%
 %% Pfad zu den Bildern
