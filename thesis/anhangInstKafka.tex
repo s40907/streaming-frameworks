@@ -1,0 +1,82 @@
+\section{Installationsanleitung Apache Kafka}
+\label{section:kafkainstall}
+
+
+Dieses Kapitel beschreibt schrittweise die Installation von Apache Kafka. Die Installation erfordert Kenntnisse in der Installation und Administration von Anwendungen unter dem Betriebssystem Linux. Eine Installation unter dem Betriebssystem Unix, Max OS X und Microsoft Windows wird in dieser Arbeit nicht behandelt. Bevor die Installation beginnen kann, werden zuerst Voraussetzung an das Betriebssystem aufgezählt. Im Kapitel Installation wird der Quelltext kompiliert und ein erster Start von Kafka wird gezeigt. Abschließend wird eine Konfiguration für ein Kafka Single Broker Cluster vorgestellt und Beispiel zwischen einem Producer, dem Nachrichtenerzeuger und einem Consumer, dem Nachrichtenempfänger gezeigt.
+
+
+\subsection{Voraussetzungen in Linux}
+
+Als Linux Distribution wird Debian 7 verwendet. Da Apache Kafka auf Scala basiert, werden folgende Linux-Pakete benötigt:
+
+\begin{itemize}
+	\item zookeeper
+	\item scala
+	\item openjdk-7-jdk	
+\end{itemize}
+
+Das Hinzufügen der Linux-Pakete kann mit der Paketverwaltung \textit{apt-get} oder mit \textit{aptitude} erfolgen. Weitere Paket-Abhängigkeiten werden automatisch vorgeschlagen. Die Installation der Paket-Abhängigkeiten ist zwingend und Konflikte müssen aufgelöst werden.  
+
+Um die notwendige Abhängigkeiten, wie unter Java mit Maven\footnote{Maven: Java Build Werkzeug \url{http://maven.apache.org/}} unter Scala aufzulösen, wird das Werkzeug \gls{glo:sbt} von der Webseite \url{http://www.scala-sbt.org/download.html} benötigt. Zunächst wird in das Verzeichnis \textit{opt} gewechselt und das Archiv \textit{sbt} heruntergeladen. Anschließend wird das Archiv entpackt und Drei \textit{sbt}-Dateien werden im System global bereitgestellt:
+
+\begin{verbatim}
+cd /opt
+wget http://dl.bintray.com/sbt/native-packages/sbt/0.13.5/sbt-0.13.5.tgz
+tar xvfz sbt-0.13.5.tgz
+cd sbt
+mv sbt /usr/local/bin
+mv sbt-launch-lib.bash /usr/local/bin
+mv sbt-launch.jar /usr/local/bin
+\end{verbatim}
+
+Mit \textit{sbt console} kann eine Scala-Shell eröffnet werden. Das \textit{Build}-Werkzeug ist korrekt bereitgestellt, wenn nach dem Aufruf eine Scala-Eingabezeile erscheint. Mit dem Befehl \textit{:quit} kann die Scala-Eingabeumgebung wieder geschlossen werden. Als nächstes wird der Quelltext von Apache Kafka heruntergeladen, entpackt, Apache Kafka kompiliert und der Packet-Cache aktualisiert. Beim ersten Aufruf von \textit{sbt} werden benötigte Scala-Bibliotheken automatisch heruntergeladen.
+
+\begin{verbatim}
+cd /root
+wget http://apache.openmirror.de/kafka/0.8.1.1/kafka-0.8.1.1-src.tgz 
+cd kafka-0.8.1.1
+gradlew jar
+sbt update
+sbt package
+sbt sbt-dependency
+\end{verbatim}
+
+Falls Zookeeper unter Debian in der Standardkonfiguration noch nicht ausgeführt wird, kann mit "`\textit{/etc/init.d/zookeeper start}"' der Dienst gestartet werden.
+
+\subsection{Start Single Broker Cluster}
+
+Im Kafka-Verzeichnis \textit{config} liegen die Konfigurationen für den Betrieb eines Clusters. In der Datei \textit{server.properties} wird eine eindeutige Nummer für den \textit{Broker}, eine Log-Datei und eine Referenz zum \textit{Zookeeper-Server} angegeben.
+
+\begin{verbatim}
+Broker.id=0
+log.dir=/tmp/kafka.log
+zookeeper.connect=localhost:2181
+\end{verbatim}
+
+Folgender Befehl startet den Kafka-Server in den Standardeinstellungen:
+\begin{verbatim}
+bin/kafka-server-start.sh config/server.properties
+\end{verbatim}
+
+
+\subsection{Producer und Consumer ausführen}
+
+Sobald der Single Broker Cluster läuft kann mit den Shell-Skripten in separaten Shells ein Konsolen-Producer und ein Konsolen-Consumer gestartet werden.
+
+Starten einer Topics:
+\begin{verbatim}
+bin/kafka-Console-topic.sh --replica 2 --zookeeper localhost:2181
+ --topic contop
+\end{verbatim}
+
+Starten einer Producers. Nach dem Start kann sofort in der Eingabezeile etwas eingetippt werden.
+\begin{verbatim}
+bin/kafka-Console-producer.sh --broker-list localhost:9092 --sync 
+ --topic contop
+\end{verbatim}
+
+Starten einer Consumers. Sobald der Consumer gestartet wurde, werden die Eingaben vom Producer auf der Kommandozeile ausgegeben.
+\begin{verbatim}
+bin/kafka-Console-consumer.sh --zookeeper localhost:2181 --from-beginning
+ --topic contop 
+\end{verbatim}
