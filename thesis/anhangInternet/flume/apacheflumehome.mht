@@ -1,26 +1,26 @@
-From: "Mit Windows Internet Explorer 10 gespeichert"
-Subject: =?iso-8859-1?Q?Welcome_to_Apache_Flume_=97_Apache_Flume?=
-Date: Sat, 29 Jun 2013 19:03:17 +0200
+From: "Von Internet Explorer 11 gespeichert"
+Subject: =?Windows-1252?Q?Welcome_to_Apache_Flume_=97_Apache_Flume?=
+Date: Mon, 14 Jul 2014 22:38:20 +0200
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----=_NextPart_000_002D_01CE74FB.5065B860"
-X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+	boundary="----=_NextPart_000_0000_01CF9FB4.50506750"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
 
 This is a multi-part message in MIME format.
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: text/html;
 	charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://flume.apache.org/
+Content-Location: http://flume.apache.org/index.html
 
 =EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
 "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
 xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META =
-content=3D"IE=3D10.000"=20
+content=3D"IE=3D11.0000"=20
 http-equiv=3D"X-UA-Compatible">
     =20
 <META http-equiv=3D"Content-Type" content=3D"text/html; =
@@ -51,18 +51,19 @@ type=3D"text/javascript"></SCRIPT>
      <LINK title=3D"Apache Flume" href=3D"#" rel=3D"top">     <LINK =
 title=3D"How to Get Involved"=20
 href=3D"getinvolved.html" rel=3D"next">  =20
-<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16612"></HEAD>  =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>  =20
 <BODY>
 <DIV class=3D"header">
 <TABLE width=3D"100%" border=3D"0">
   <TBODY>
   <TR>
     <TD width=3D"10%">
-      <DIV class=3D"logo"><A href=3D"http://flume.apache.org/#"><IMG =
-class=3D"logo"=20
-      alt=3D"Logo" =
-src=3D"http://flume.apache.org/_static/flume-logo.png">        =20
-      </A></DIV><A href=3D"http://flume.apache.org/#"></A></TD>
+      <DIV class=3D"logo"><A =
+href=3D"http://flume.apache.org/index.html#"><IMG=20
+      class=3D"logo" alt=3D"Logo" =
+src=3D"http://flume.apache.org/_static/flume-logo.png">=20
+              </A></DIV><A =
+href=3D"http://flume.apache.org/index.html#"></A></TD>
     <TD width=3D"2%"><SPAN class=3D"trademark">=E2=84=A2</SPAN>       =
 </TD>
     <TD width=3D"68%" align=3D"center" class=3D"pageTitle">Apache =
@@ -80,8 +81,8 @@ height=3D"70" alt=3D"Apache Software Foundation"=20
 <DIV class=3D"section" id=3D"welcome-to-apache-flume">
 <H1>Welcome to Apache Flume<A title=3D"Permalink to this headline" =
 class=3D"headerlink"=20
-href=3D"http://flume.apache.org/#welcome-to-apache-flume">=C2=B6</A></H1>=
-
+href=3D"http://flume.apache.org/index.html#welcome-to-apache-flume">=C2=B6=
+</A></H1>
 <P>Flume is a distributed, reliable, and available service for =
 efficiently=20
 collecting, aggregating, and moving large amounts of log data. It has a =
@@ -97,7 +98,151 @@ analytic application.</P>
 src=3D"http://flume.apache.org/_images/DevGuide_image00.png">=20
 </DIV>
 <P class=3D"rubric">News</P>
-<H3>January 2nd, 2013 - Apache Flume 1.3.1 Released</H3>
+<H3>May 20, 2014 - Apache Flume 1.5.0 Released</H3>
+<P>The Apache Flume team is pleased to announce the release of Flume =
+1.5.0.</P>
+<P>Flume is a distributed, reliable, and available service for =
+efficiently
+ collecting, aggregating, and moving large amounts of streaming event =
+data.</P>
+<P>Version 1.5.0 is the fifth Flume release as an Apache top-level =
+project.
+ Flume 1.5.0 is stable, production-ready software, and is =
+backwards-compatible
+ with previous versions of the Flume 1.x codeline.</P>
+<P>Several months of active development went into this release: 123 =
+patches were=20
+committed since 1.4.0, representing many features, enhancements, and bug =
+fixes.=20
+While the full change log can be found on the 1.5.0 release page (link =
+below),=20
+here are a few new feature highlights:</P>
+<UL class=3D"simple">
+  <LI>New in-memory channel that can spill to disk</LI>
+  <LI>A new dataset sink that use Kite API to write data to HDFS and =
+HBase</LI>
+  <LI>Support for Elastic Search HTTP API in Elastic Search Sink</LI>
+  <LI>Much faster replay in the File Channel.</LI></UL>
+<P>The full change log and documentation are available on the <A =
+class=3D"reference external"=20
+href=3D"http://flume.apache.org/releases/1.5.0.html">Flume 1.5.0 release =
+
+page</A>.</P>
+<P>This release can be downloaded from the Flume <A class=3D"reference =
+external"=20
+href=3D"http://flume.apache.org/download.html">Download</A> page.</P>
+<P>Your contributions, feedback, help and support make Flume better! For =
+more=20
+information on how to report problems or contribute, please visit our <A =
+class=3D"reference external"=20
+href=3D"http://flume.apache.org/getinvolved.html">Get Involved</A> =
+page.</P>
+<P>The Apache Flume Team</P>
+<H3>July 2, 2013 - Apache Flume 1.4.0 Released</H3>
+<P>The Apache Flume team is pleased to announce the release of Flume =
+1.4.0.</P>
+<P>Flume is a distributed, reliable, and available service for =
+efficiently
+ collecting, aggregating, and moving large amounts of streaming event =
+data.</P>
+<P>Version 1.4.0 is the fourth Flume release as an Apache top-level =
+project.
+ Flume 1.4.0 is stable, production-ready software, and is =
+backwards-compatible
+ with previous versions of the Flume 1.x codeline.</P>
+<P>Six months of active development went into this release: 261 patches =
+were=20
+committed since 1.3.1, representing many features, enhancements, and bug =
+fixes.=20
+While the full change log can be found on the 1.4.0 release page (link =
+below),=20
+here are a few new feature highlights:</P>
+<UL class=3D"simple">
+  <LI>New JMS Source</LI>
+  <LI>New Solr Sink with ETL capabilities</LI>
+  <LI>Updated ElasticSearch sink to support ES version 0.90</LI>
+  <LI>Support for secure SSL transport over Avro-RPC clients, sources =
+&amp;=20
+  sinks</LI>
+  <LI>Support for Thrift-RPC as a transport mechanism</LI>
+  <LI>Support for embedding a Flume agent within applications</LI>
+  <LI>Support for a new plugins.d directory structure for managing Flume =
+
+  addons</LI>
+  <LI>Support for reading Avro files via the Spooling Directory =
+source</LI>
+  <LI>Support for writing Avro files with arbitrary schemas via the HDFS =
+
+  sink</LI>
+  <LI>Support for ingesting Avro-serializable objects via the log4j =
+API</LI>
+  <LI>Improvements to the file channel to keep a backup checkpoint to =
+avoid=20
+  replays</LI>
+  <LI>Performance improvements to the file channel, including group =
+commit</LI>
+  <LI>New file channel consistency check tool</LI></UL>
+<P>Below is the list of people (from Git/SVN logs) who submitted and/or =
+reviewed
+ improvements to Flume during the 1.4.0 development cycle:</P>
+<UL class=3D"simple">
+  <LI>Alexander Alten-Lorenz</LI>
+  <LI>Aline Guedes Pinto</LI>
+  <LI>Brock Noland</LI>
+  <LI>Cameron Gandevia</LI>
+  <LI>Chris Birchall</LI>
+  <LI>Christopher Nagy</LI>
+  <LI>Deepesh Khandelwal</LI>
+  <LI>Denny Ye</LI>
+  <LI>Edward Sargisson</LI>
+  <LI>Hari Shreedharan</LI>
+  <LI>Israel Ekpo</LI>
+  <LI>Ivan Bogdanov</LI>
+  <LI>Jarek Jarcec Cecho</LI>
+  <LI>Jeff Lord</LI>
+  <LI>Joey Echeverria</LI>
+  <LI>Jolly Chen</LI>
+  <LI>Juhani Connolly</LI>
+  <LI>Mark Grover</LI>
+  <LI>Mike Percy</LI>
+  <LI>Mubarak Seyed</LI>
+  <LI>Nitin Verma</LI>
+  <LI>Oliver B. Fischer</LI>
+  <LI>Patrick Wendell</LI>
+  <LI>Paul Chavez</LI>
+  <LI>Pedro Urbina Escos</LI>
+  <LI>Phil Scala</LI>
+  <LI>Rahul Ravindran</LI>
+  <LI>Ralph Goers</LI>
+  <LI>Roman Shaposhnik</LI>
+  <LI>Roshan Naik</LI>
+  <LI>Sravya Tirukkovalur</LI>
+  <LI>Steve Hoffman</LI>
+  <LI>Ted Malaska</LI>
+  <LI>Thiruvalluvan M. G.</LI>
+  <LI>Thom DeCarlo</LI>
+  <LI>Tim Bacon</LI>
+  <LI>Tom White</LI>
+  <LI>Venkat Ranganathan</LI>
+  <LI>Venkatesh Sivasubramanian</LI>
+  <LI>Will McQueen</LI>
+  <LI>Wolfgang Hoschek</LI></UL>
+<P>The full change log and documentation are available on the <A =
+class=3D"reference external"=20
+href=3D"http://flume.apache.org/releases/1.4.0.html">Flume 1.4.0 release =
+
+page</A>.</P>
+<P>This release can be downloaded from the Flume <A class=3D"reference =
+external"=20
+href=3D"http://flume.apache.org/download.html">Download</A> page.</P>
+<P>Your contributions, feedback, help and support make Flume better! For =
+more=20
+information on how to report problems or contribute, please visit our <A =
+class=3D"reference external"=20
+href=3D"http://flume.apache.org/getinvolved.html">Get Involved</A> =
+page.</P>
+<P>The Apache Flume Team</P>
+<H3>January 2, 2013 - Apache Flume 1.3.1 Released</H3>
 <P>The Apache Flume team is pleased to announce the release of Flume =
 version=20
 1.3.1. Apache Flume 1.3.1 is the fifth release under the auspices of =
@@ -122,7 +267,7 @@ class=3D"reference external"=20
 href=3D"http://flume.apache.org/releases/1.3.1.html">http://flume.apache.=
 org/releases/1.3.1.html</A></P>
 <P>Your help and feedback is more than welcome!</P>
-<H3>December 2nd, 2012 - Apache Flume 1.3.0 Released</H3>
+<H3>December 2, 2012 - Apache Flume 1.3.0 Released</H3>
 <P>The Apache Flume team is pleased to announce the release of Flume =
 version=20
 1.3.0.</P>
@@ -216,7 +361,8 @@ questions.</P>
 <DIV class=3D"toctree-wrapper compound"></DIV></DIV></DIV></DIV></DIV>
 <DIV class=3D"sphinxsidebar">
 <DIV class=3D"sphinxsidebarwrapper">
-<H3><A href=3D"http://flume.apache.org/#">Apache Flume</A></H3>
+<H3><A href=3D"http://flume.apache.org/index.html#">Apache =
+Flume</A></H3>
 <UL>
   <LI class=3D"toctree-l1"><A class=3D"reference internal" =
 href=3D"http://flume.apache.org/getinvolved.html">How=20
@@ -281,7 +427,7 @@ Flume, Flume, Apache, the Apache feather logo, and the Apache Flume =
 project logo=20
 are trademarks of The Apache Software Foundation.. </DIV></BODY></HTML>
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: http://flume.apache.org/_static/flume-logo.png
@@ -872,7 +1018,7 @@ eyFSJbmS5KA/AFe6tvQZuwb/3gIj6N8j/1y0YQIIm5cHoE62wMJzkOeFxYtrjUPnEsKmVb5tufw7
 VUQCKlRFJKBCVUQCKlRFJPAX2OlvAttL8LsAAAAXdEVYdHBuZzpiaXQtZGVwdGgtd3JpdHRlbgAI
 p8Qs8gAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: http://flume.apache.org/_static/feather-small.png
@@ -1428,7 +1574,7 @@ mX2vmNRbM8tB9S1Se+HZtf74y++YlK5d+f5Ms3WP5tjzJd9Vm5+OnfmLJ/Hz+149dDWUbzpcX788
 v1bPWw8/Iz83OdytDJckNNuh/8zl0Js5+H0YL6yjsvUgOs44GfkqPXkBkIt/ar16KdqrZrH32Ht8
 eyrBvUuw99h7fHs+/n+oCy63LVGizgAAAABJRU5ErkJggg==
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: http://flume.apache.org/_images/DevGuide_image00.png
@@ -1642,7 +1788,7 @@ a52ScCRJkqQ2iWQewpD3AZk0MJ0PyQIlwPn5L3412vzNHdG2Rx5PkmB+8svfJZmirQDwZ8+cjB4/
 L7w4umj+JSMGVCnvZhbeh03t74/qeN2XvXfItpV1HuYCoiRJklQYAaWrvcc2FNtGV63Ys9t7c4dd
 tYxbaLVgF95/1D93r6tmmm7yr70ytiWxDWTxj/x/Zby5x5zmFp0AAAAASUVORK5CYII=
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: text/css;
 	charset="iso-8859-1"
 Content-Transfer-Encoding: quoted-printable
@@ -1688,8 +1834,8 @@ div.sphinxsidebar form {
 	margin-top: 10px;
 }
 div.sphinxsidebar input {
-	border: 1px solid rgb(152, 219, 204); font-family: sans-serif; =
-font-size: 1em;
+	border: 1px solid rgb(152, 219, 204); border-image: none; font-family: =
+sans-serif; font-size: 1em;
 }
 div.sphinxsidebar input[type=3D'text'] {
 	width: 170px;
@@ -1698,7 +1844,7 @@ div.sphinxsidebar input[type=3D'submit'] {
 	width: 30px;
 }
 img {
-	border: 0px currentColor;
+	border: 0px currentColor; border-image: none;
 }
 ul.search {
 	margin: 10px 0px 0px 20px; padding: 0px;
@@ -1838,15 +1984,15 @@ object.align-center {
 }
 div.sidebar {
 	margin: 0px 0px 0.5em 1em; padding: 7px 7px 0px; border: 1px solid =
-rgb(221, 221, 187); width: 40%; float: right; background-color: rgb(255, =
-255, 238);
+rgb(221, 221, 187); border-image: none; width: 40%; float: right; =
+background-color: rgb(255, 255, 238);
 }
 p.sidebar-title {
 	font-weight: bold;
 }
 div.topic {
 	margin: 10px 0px; padding: 7px 7px 0px; border: 1px solid rgb(204, 204, =
-204);
+204); border-image: none;
 }
 p.topic-title {
 	font-size: 1.1em; font-weight: bold; margin-top: 10px;
@@ -1867,7 +2013,8 @@ div.body p.centered {
 	text-align: center; margin-top: 25px;
 }
 table.docutils {
-	border: 0px currentColor; border-collapse: collapse;
+	border: 0px currentColor; border-image: none; border-collapse: =
+collapse;
 }
 table.docutils td {
 	border-width: 0px 0px 1px; border-style: none none solid; border-color: =
@@ -1878,16 +2025,16 @@ table.docutils th {
 currentColor currentColor rgb(170, 170, 170); padding: 1px 8px 1px 5px;
 }
 table.field-list td {
-	border: 0px currentColor !important;
+	border: 0px currentColor !important; border-image: none !important;
 }
 table.field-list th {
-	border: 0px currentColor !important;
+	border: 0px currentColor !important; border-image: none !important;
 }
 table.footnote td {
-	border: 0px currentColor !important;
+	border: 0px currentColor !important; border-image: none !important;
 }
 table.footnote th {
-	border: 0px currentColor !important;
+	border: 0px currentColor !important; border-image: none !important;
 }
 th {
 	text-align: left; padding-right: 5px;
@@ -1955,8 +2102,8 @@ dl.glossary dt {
 	font-style: italic;
 }
 .system-message {
-	padding: 5px; border: 3px solid red; background-color: rgb(255, 221, =
-170);
+	padding: 5px; border: 3px solid red; border-image: none; =
+background-color: rgb(255, 221, 170);
 }
 :target.footnote {
 	background-color: rgb(255, 255, 170);
@@ -1991,8 +2138,8 @@ pre {
 	overflow: auto; -ms-overflow-y: hidden;
 }
 td.linenos pre {
-	padding: 5px 0px; border: 0px currentColor; color: rgb(170, 170, 170); =
-background-color: transparent;
+	padding: 5px 0px; border: 0px currentColor; border-image: none; color: =
+rgb(170, 170, 170); background-color: transparent;
 }
 table.highlighttable {
 	margin-left: 0.5em;
@@ -2073,7 +2220,7 @@ div.footer {
 }
 }
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: text/css;
 	charset="iso-8859-1"
 Content-Transfer-Encoding: quoted-printable
@@ -2147,8 +2294,8 @@ div.sphinxsidebar a {
 	color: rgb(152, 219, 204);
 }
 div.sphinxsidebar input {
-	border: 1px solid rgb(152, 219, 204); font-family: sans-serif; =
-font-size: 1em;
+	border: 1px solid rgb(152, 219, 204); border-image: none; font-family: =
+sans-serif; font-size: 1em;
 }
 a {
 	color: rgb(53, 95, 124); text-decoration: none;
@@ -2245,19 +2392,19 @@ div.admonition ol {
 	margin-bottom: 5px;
 }
 div.note {
-	border: 1px solid rgb(204, 204, 204); background-color: rgb(238, 238, =
-238);
+	border: 1px solid rgb(204, 204, 204); border-image: none; =
+background-color: rgb(238, 238, 238);
 }
 div.seealso {
-	border: 1px solid rgb(255, 255, 102); background-color: rgb(255, 255, =
-204);
+	border: 1px solid rgb(255, 255, 102); border-image: none; =
+background-color: rgb(255, 255, 204);
 }
 div.topic {
 	background-color: rgb(238, 238, 238);
 }
 div.warning {
-	border: 1px solid rgb(255, 102, 102); background-color: rgb(255, 228, =
-228);
+	border: 1px solid rgb(255, 102, 102); border-image: none; =
+background-color: rgb(255, 228, 228);
 }
 p.rubric {
 	margin: 20px -20px 10px; padding: 3px 0px 3px 10px; color: darkblue; =
@@ -2273,8 +2420,9 @@ p.admonition-title::after {
 }
 pre {
 	border-width: 1px medium; border-style: solid none; border-color: =
-rgb(170, 204, 153) currentColor; padding: 5px; color: rgb(51, 51, 51); =
-line-height: 120%; background-color: rgb(238, 255, 204);
+rgb(170, 204, 153) currentColor; padding: 5px; border-image: none; =
+color: rgb(51, 51, 51); line-height: 120%; background-color: rgb(238, =
+255, 204);
 }
 tt {
 	padding: 0px 1px; font-size: 0.95em; background-color: rgb(236, 240, =
@@ -2299,7 +2447,7 @@ border-top-style: solid; border-bottom-style: solid; background-color: =
 rgb(244, 222, 191);
 }
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: text/css;
 	charset="iso-8859-1"
 Content-Transfer-Encoding: 7bit
@@ -2486,7 +2634,7 @@ Content-Location: http://flume.apache.org/_static/pygments.css
 	color: rgb(0, 153, 153);
 }
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: application/javascript
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://flume.apache.org/_static/jquery.js
@@ -3837,7 +3985,7 @@ ent["scroll"+b],e.body["offset"+b],e.documentElement["offset"+b]):f=3D=3D=
 =3Dw?c.css(e,d):this.css(d,typeof =
 f=3D=3D=3D"string"?f:f+"px")}});A.jQuery=3DA.$=3Dc})(window);=0A=
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: application/javascript
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://flume.apache.org/_static/underscore.js
@@ -4011,7 +4159,7 @@ l(c.apply(this._wrapped,arguments),this._chain)}});i.prototype.chain=3Dfu=
 nction(){this._chain=3Dtrue;return =
 this};i.prototype.value=3Dfunction(){return this._wrapped}})();=0A=
 
-------=_NextPart_000_002D_01CE74FB.5065B860
+------=_NextPart_000_0000_01CF9FB4.50506750
 Content-Type: application/javascript
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://flume.apache.org/_static/doctools.js
@@ -4270,4 +4418,4 @@ $(document).ready(function() {=0A=
   Documentation.init();=0A=
 });=0A=
 
-------=_NextPart_000_002D_01CE74FB.5065B860--
+------=_NextPart_000_0000_01CF9FB4.50506750--
