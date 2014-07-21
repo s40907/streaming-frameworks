@@ -1,0 +1,2409 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: =?Windows-1252?Q?Welcome_to_Apache=99_Hadoop=AE!?=
+Date: Mon, 21 Jul 2014 21:57:30 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_001B_01CFA52E.C5034C00"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207">=20
+<META name=3D"Forrest-version" content=3D"0.8">=20
+<META name=3D"Forrest-skin-name" content=3D"hadoop-pelt"> <TITLE>Welcome =
+to Apache=E2=84=A2=20
+Hadoop=C2=AE!</TITLE> <LINK =
+href=3D"http://hadoop.apache.org/skin/basic.css" rel=3D"stylesheet"=20
+type=3D"text/css"> <LINK =
+href=3D"http://hadoop.apache.org/skin/screen.css" rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"screen"> <LINK =
+href=3D"http://hadoop.apache.org/skin/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print"> <LINK =
+href=3D"http://hadoop.apache.org/skin/profile.css"=20
+rel=3D"stylesheet" type=3D"text/css">=20
+<SCRIPT language=3D"javascript" =
+src=3D"http://hadoop.apache.org/skin/getBlank.js" =
+type=3D"text/javascript"></SCRIPT>
+
+<SCRIPT language=3D"javascript" =
+src=3D"http://hadoop.apache.org/skin/getMenu.js" =
+type=3D"text/javascript"></SCRIPT>
+
+<SCRIPT language=3D"javascript" =
+src=3D"http://hadoop.apache.org/skin/fontsize.js" =
+type=3D"text/javascript"></SCRIPT>
+ <LINK href=3D"images/favicon.ico" rel=3D"shortcut icon">=20
+<SCRIPT type=3D"text/javascript">=0A=
+=0A=
+  var _gaq =3D _gaq || [];=0A=
+  _gaq.push(['_setAccount', 'UA-7453027-1']);=0A=
+  _gaq.push(['_setDomainName', 'apache.org']);=0A=
+  _gaq.push(['_trackPageview']);=0A=
+=0A=
+  (function() {=0A=
+    var ga =3D document.createElement('script'); ga.type =3D =
+'text/javascript'; ga.async =3D true;=0A=
+    ga.src =3D ('https:' =3D=3D document.location.protocol ? =
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';=0A=
+    var s =3D document.getElementsByTagName('script')[0]; =
+s.parentNode.insertBefore(ga, s);=0A=
+  })();=0A=
+=0A=
+        </SCRIPT>
+ </HEAD>=20
+<BODY onload=3D"init()">
+<SCRIPT type=3D"text/javascript">ndeSetTextSize();</SCRIPT>
+=20
+<DIV id=3D"top"><!--+=0A=
+    |breadtrail=0A=
+    +-->=20
+<DIV class=3D"breadtrail"><A href=3D"http://www.apache.org/">Apache</A> =
+&gt; <A=20
+href=3D"http://hadoop.apache.org/">Hadoop</A>
+<SCRIPT language=3D"JavaScript" =
+src=3D"http://hadoop.apache.org/skin/breadcrumbs.js" =
+type=3D"text/javascript"></SCRIPT>
+ </DIV><!--+=0A=
+    |header=0A=
+    +-->=20
+<DIV class=3D"header"><!--+=0A=
+    |start group logo=0A=
+    +-->=20
+<DIV class=3D"grouplogo"><A href=3D"http://www.apache.org/"><IMG =
+title=3D"Apache Software Foundation"=20
+class=3D"logoImage" alt=3D"Apache" =
+src=3D"http://hadoop.apache.org/images/apache_feather.gif"></A>=20
+</DIV><!--+=0A=
+    |end group logo=0A=
+    +--> <!--+=0A=
+    |start Project Logo=0A=
+    +-->=20
+<DIV class=3D"projectlogo"><A href=3D"http://hadoop.apache.org/"><IMG =
+title=3D"Scalable Distributed Computing"=20
+class=3D"logoImage" alt=3D"Hadoop" =
+src=3D"http://hadoop.apache.org/images/hadoop-logo.jpg"></A>=20
+</DIV><!--+=0A=
+    |end Project Logo=0A=
+    +--> <!--+=0A=
+    |start Search=0A=
+    +-->=20
+<DIV class=3D"searchbox">
+<FORM action=3D"http://search-hadoop.com/"=20
+method=3D"get"><INPUT name=3D"q" id=3D"query" onfocus=3D"getBlank (this, =
+'Search with Apache Solr');" type=3D"text" size=3D"25" value=3D"Search =
+with Apache Solr">&nbsp;
+		  <INPUT type=3D"submit" value=3D"Search"> </FORM></DIV><!--+=0A=
+    |end search=0A=
+    +--> <!--+=0A=
+    |start Tabs=0A=
+    +-->=20
+<UL id=3D"tabs">
+  <LI class=3D"current"><A class=3D"selected" =
+href=3D"http://hadoop.apache.org/index.html">Top</A></LI>
+  <LI><A class=3D"unselected"=20
+href=3D"http://wiki.apache.org/hadoop">Wiki</A></LI></UL><!--+=0A=
+    |end Tabs=0A=
+    +-->=20
+</DIV></DIV>
+<DIV id=3D"main">
+<DIV id=3D"publishedStrip"><!--+=0A=
+    |start Subtabs=0A=
+    +-->=20
+<DIV id=3D"level2tabs"></DIV><!--+=0A=
+    |end Endtabs=0A=
+    +-->=20
+<SCRIPT type=3D"text/javascript"><!--=0A=
+document.write("Last Published: " + document.lastModified);=0A=
+//  --></SCRIPT>
+ </DIV><!--+=0A=
+    |breadtrail=0A=
+    +-->=20
+<DIV class=3D"breadtrail">             &nbsp;           </DIV><!--+=0A=
+    |start Menu, mainarea=0A=
+    +--> <!--+=0A=
+    |start Menu=0A=
+    +-->=20
+<DIV id=3D"menu">
+<DIV class=3D"menutitle" id=3D"menu_selected_1.1Title" =
+style=3D'background-image: url("skin/images/chapter_open.gif");'=20
+onclick=3D"SwitchMenu('menu_selected_1.1', 'skin/')">About</DIV>
+<DIV class=3D"selectedmenuitemgroup" id=3D"menu_selected_1.1" =
+style=3D"display: block;">
+<DIV class=3D"menupage">
+<DIV class=3D"menupagetitle">Welcome</DIV></DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/releases.html">Releases</A> </DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/mailing_lists.html">Mailing Lists</A> =
+</DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/issue_tracking.html">Issue Tracking</A> =
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/who.html">Who We=20
+Are?</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://wiki.apache.org/hadoop/PoweredBy">Who Uses=20
+Hadoop?</A> </DIV>
+<DIV class=3D"menuitem"><A href=3D"http://www.cafepress.com/hadoop/">Buy =
+Stuff</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Sponsorship</A=
+>=20
+</DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://www.apache.org/foundation/thanks.html">Thanks</A> </DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/privacy_policy.html">Privacy Policy</A> =
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/bylaws.html">Bylaws</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://www.apache.org/licenses/">License</A>=20
+</DIV></DIV>
+<DIV class=3D"menutitle" id=3D"menu_1.2Title" =
+onclick=3D"SwitchMenu('menu_1.2', 'skin/')">Documentation</DIV>
+<DIV class=3D"menuitemgroup" id=3D"menu_1.2">
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/docs/current/">Current</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/docs/stable/">Stable</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/docs/r1.2.1/">Release=20
+1.2.1</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/docs/r2.2.0/">Release=20
+2.2.0</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/docs/r2.4.1/">Release=20
+2.4.1</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://hadoop.apache.org/docs/r0.23.11/">Release=20
+0.23.11</A> </DIV></DIV>
+<DIV class=3D"menutitle" id=3D"menu_1.3Title" =
+onclick=3D"SwitchMenu('menu_1.3', 'skin/')">Related=20
+Projects</DIV>
+<DIV class=3D"menuitemgroup" id=3D"menu_1.3">
+<DIV class=3D"menuitem"><A =
+href=3D"http://incubator.apache.org/ambari/">Ambari</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://avro.apache.org/">Avro</A> =
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://cassandra.apache.org/">Cassandra</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://incubator.apache.org/chukwa/">Chukwa</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://incubator.apache.org/hama/">Hama</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://hbase.apache.org/">HBase</A> =
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://hive.apache.org/">Hive</A> =
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://mahout.apache.org/">Mahout</A> =
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://pig.apache.org/">Pig</A> =
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://spark.incubator.apache.org/">Spark</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://tez.incubator.apache.org/">Tez</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://zookeeper.apache.org/">ZooKeeper</A>=20
+</DIV></DIV>
+<DIV id=3D"credit">
+<HR>
+<A href=3D"http://forrest.apache.org/"><IMG title=3D"Built with Apache =
+Forrest"=20
+style=3D"width: 88px; height: 31px;" alt=3D"Built with Apache Forrest - =
+logo" =
+src=3D"http://hadoop.apache.org/images/built-with-forrest-button.png"=20
+border=3D"0"></A> </DIV>
+<DIV id=3D"roundbottom"><IMG width=3D"15" height=3D"15" class=3D"corner" =
+style=3D"display: none;"=20
+alt=3D"" =
+src=3D"http://hadoop.apache.org/skin/images/rc-b-l-15-1body-2menu-3menu.p=
+ng"></DIV><!--+=0A=
+  |alternative credits=0A=
+  +-->=20
+<DIV id=3D"credit2"></DIV></DIV><!--+=0A=
+    |end Menu=0A=
+    +--> <!--+=0A=
+    |start content=0A=
+    +-->=20
+<DIV id=3D"content">
+<DIV title=3D"Portable Document Format" class=3D"pdflink"><A =
+class=3D"dida" href=3D"http://hadoop.apache.org/index.pdf"><IMG=20
+class=3D"skin" alt=3D"PDF -icon" =
+src=3D"http://hadoop.apache.org/skin/images/pdfdoc.gif"><BR>=20
+       PDF</A></DIV>
+<H1>Welcome to Apache=E2=84=A2 Hadoop=C2=AE!</H1>
+<DIV id=3D"minitoc-area">
+<UL class=3D"minitoc">
+  <LI><A =
+href=3D"http://hadoop.apache.org/#What+Is+Apache+Hadoop%3F">What Is=20
+  Apache Hadoop?</A> </LI>
+  <LI><A href=3D"http://hadoop.apache.org/#Getting+Started">Getting =
+Started </A>=20
+  </LI>
+  <LI><A href=3D"http://hadoop.apache.org/#Download+Hadoop">Download =
+Hadoop</A>=20
+  </LI>
+  <LI><A href=3D"http://hadoop.apache.org/#Who+Uses+Hadoop%3F">Who Uses=20
+  Hadoop?</A> </LI>
+  <LI><A href=3D"http://hadoop.apache.org/#News">News</A>=20
+  <UL class=3D"minitoc">
+    <LI><A =
+href=3D"http://hadoop.apache.org/#15+October%2C+2013%3A+release+2.2.0+ava=
+ilable">15=20
+    October, 2013: release 2.2.0 available </A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#25+August%2C+2013%3A+release+2.1.0-beta=
++available">25=20
+    August, 2013: release 2.1.0-beta available </A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#27+December%2C+2011%3A+release+1.0.0+av=
+ailable">27=20
+    December, 2011: release 1.0.0 available </A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#March+2011+-+Apache+Hadoop+takes+top+pr=
+ize+at+Media+Guardian+Innovation+Awards">March=20
+    2011 - Apache Hadoop takes top prize at Media Guardian Innovation =
+Awards</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://hadoop.apache.org/#January+2011+-+ZooKeeper+Graduates">Jan=
+uary=20
+    2011 - ZooKeeper Graduates</A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#September+2010+-+Hive+and+Pig+Graduate"=
+>September=20
+    2010 - Hive and Pig Graduate</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://hadoop.apache.org/#May+2010+-+Avro+and+HBase+Graduate">May=
+ 2010=20
+    - Avro and HBase Graduate</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://hadoop.apache.org/#July+2009+-+New+Hadoop+Subprojects">Jul=
+y=20
+    2009 - New Hadoop Subprojects</A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#March+2009+-+ApacheCon+EU">March 2009=20
+    - ApacheCon EU</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://hadoop.apache.org/#November+2008+-+ApacheCon+US">November =
+2008=20
+    - ApacheCon US</A> </LI>
+    <LI><A =
+href=3D"http://hadoop.apache.org/#July+2008+-+Hadoop+Wins+Terabyte+Sort+B=
+enchmark">July=20
+    2008 - Hadoop Wins Terabyte Sort Benchmark</A> =
+</LI></UL></LI></UL></DIV><A=20
+name=3D"N1000C"></A><A name=3D"What+Is+Apache+Hadoop%3F"></A>=20
+<H2 class=3D"h3">What Is Apache Hadoop?</H2>
+<DIV class=3D"section">
+<P>            The Apache=E2=84=A2 Hadoop=C2=AE project develops =
+open-source software for    =20
+ reliable, scalable, distributed computing.       </P>
+<P>            The Apache Hadoop software library is a framework that    =
+ =20
+allows for the distributed processing of large data sets across clusters =
+     of=20
+computers using simple programming models. It is designed to scale up    =
+  from=20
+single servers to thousands of machines, each offering local      =
+computation=20
+and storage. Rather than rely on hardware to deliver      =
+high-availability, the=20
+library itself is designed to detect and handle      failures at the =
+application=20
+layer, so delivering a highly-available      service on top of a cluster =
+of=20
+computers, each of which may be prone to      failures.             </P>
+<P>      The project includes these modules:        </P>
+<UL>
+  <LI><STRONG>Hadoop Common</STRONG>:        The common utilities that =
+support=20
+  the other Hadoop modules. </LI>
+  <LI><STRONG>Hadoop Distributed File System (HDFS=E2=84=A2)</STRONG>:   =
+     A=20
+  distributed file system that provides high-throughput access to =
+application=20
+  data.</LI>
+  <LI><STRONG>Hadoop YARN</STRONG>:        A framework for job =
+scheduling and=20
+  cluster resource management.</LI>
+  <LI><STRONG>Hadoop MapReduce</STRONG>:        A YARN-based system for =
+parallel=20
+  processing of large data sets.</LI></UL>
+<P>Other Hadoop-related projects at Apache include:</P>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://incubator.apache.org/ambari/"><STRONG>Ambari=E2=84=A2</STR=
+ONG></A>:      =20
+  A web-based tool for provisioning, managing, and monitoring Apache =
+Hadoop     =20
+   clusters which includes support for Hadoop HDFS, Hadoop MapReduce, =
+Hive,     =20
+   HCatalog, HBase, ZooKeeper, Oozie, Pig and Sqoop. Ambari also =
+provides      a=20
+  dashboard for viewing cluster health such as heatmaps and ability to   =
+   view=20
+  MapReduce, Pig and Hive applications visually alongwith features to    =
+  =20
+  diagnose their performance characteristics in a user-friendly =
+manner.</LI>
+  <LI><A =
+href=3D"http://avro.apache.org/"><STRONG>Avro=E2=84=A2</STRONG></A>:     =
+  A data=20
+  serialization system.</LI>
+  <LI><A =
+href=3D"http://cassandra.apache.org/"><STRONG>Cassandra=E2=84=A2</STRONG>=
+</A>:   =20
+     A scalable multi-master database with no single points of =
+failure.</LI>
+  <LI><A=20
+  =
+href=3D"http://incubator.apache.org/chukwa/"><STRONG>Chukwa=E2=84=A2</STR=
+ONG></A>:      =20
+  A data collection system for managing large distributed systems.  =
+</LI>
+  <LI><A =
+href=3D"http://hbase.apache.org/"><STRONG>HBase=E2=84=A2</STRONG></A>:   =
+    A=20
+  scalable, distributed database that supports structured data storage =
+for large=20
+  tables.  </LI>
+  <LI><A =
+href=3D"http://hive.apache.org/"><STRONG>Hive=E2=84=A2</STRONG></A>:     =
+   A=20
+  data warehouse infrastructure that provides data summarization and ad =
+hoc=20
+  querying. </LI>
+  <LI><A =
+href=3D"http://mahout.apache.org/"><STRONG>Mahout=E2=84=A2</STRONG></A>: =
+     A=20
+  Scalable machine learning and data mining library. </LI>
+  <LI><A =
+href=3D"http://pig.apache.org/"><STRONG>Pig=E2=84=A2</STRONG></A>:       =
+A=20
+  high-level data-flow language and execution framework for parallel=20
+  computation.</LI>
+  <LI><A =
+href=3D"http://spark.incubator.apache.org/"><STRONG>Spark=E2=84=A2</STRON=
+G></A>: =20
+      A fast and general compute engine for Hadoop data. Spark provides =
+a simple=20
+  and      expressive programming model that supports a wide range of=20
+  applications,      including ETL, machine learning, stream processing, =
+and=20
+  graph computation.</LI>
+  <LI><A =
+href=3D"http://tez.incubator.apache.org/"><STRONG>Tez=E2=84=A2</STRONG></=
+A>:     =20
+  A generalized data-flow programming framework, built on Hadoop YARN,   =
+   =20
+  which provides a powerful and flexible engine to execute an arbitrary  =
+    =20
+  DAG of tasks to process data for both batch and interactive use-cases. =
+     =20
+  Tez is being adopted by Hive=E2=84=A2, Pig=E2=84=A2 and other =
+frameworks in       the Hadoop=20
+  ecosystem, and also by other commercial software (e.g. ETL tools),     =
+  to=20
+  replace Hadoop=E2=84=A2 MapReduce as the underlying execution =
+engine.</LI>
+  <LI><A =
+href=3D"http://zookeeper.apache.org/"><STRONG>ZooKeeper=E2=84=A2</STRONG>=
+</A>:   =20
+     A high-performance coordination service for distributed =
+applications.=20
+</LI></UL></DIV><A name=3D"N10086"></A><A name=3D"Getting+Started"></A>=20
+<H2 class=3D"h3">Getting Started </H2>
+<DIV class=3D"section">
+<P>To get started, begin here:</P>
+<OL>
+  <LI><A href=3D"http://hadoop.apache.org/docs/current/">Learn about</A> =
+Hadoop by=20
+         reading the documentation.</LI>
+  <LI><A href=3D"http://hadoop.apache.org/releases.html">Download</A> =
+Hadoop from=20
+  the        release page.</LI>
+  <LI><A =
+href=3D"http://hadoop.apache.org/mailing_lists.html">Discuss</A> Hadoop=20
+  on the        mailing list.</LI></OL></DIV><A name=3D"N100A5"></A><A =
+name=3D"Download+Hadoop"></A>=20
+<H2 class=3D"h3">Download Hadoop</H2>
+<DIV class=3D"section">
+<P>        Please head to the <A=20
+href=3D"http://hadoop.apache.org/releases.html">releases</A> page to =
+download a=20
+release of Apache Hadoop.       </P></DIV><A name=3D"N100B3"></A><A =
+name=3D"Who+Uses+Hadoop%3F"></A>=20
+<H2 class=3D"h3">Who Uses Hadoop?</H2>
+<DIV class=3D"section">
+<P>      A wide variety of companies and organizations use Hadoop for =
+both=20
+research and production.       Users are encouraged to add themselves to =
+the=20
+Hadoop       <A =
+href=3D"http://wiki.apache.org/hadoop/PoweredBy">PoweredBy</A>=20
+wiki page.       </P></DIV><A name=3D"N100C1"></A><A name=3D"News"></A>=20
+<H2 class=3D"h3">News</H2>
+<DIV class=3D"section"><A name=3D"N100C7"></A><A =
+name=3D"15+October%2C+2013%3A+release+2.2.0+available"></A>=20
+<H3 class=3D"h4">15 October, 2013: release 2.2.0 available </H3>
+<P>     Apache Hadoop 2.x reaches GA milestone! 	        Full =
+information about=20
+this milestone release is available at	         <A =
+href=3D"http://hadoop.apache.org/releases.html#News">=20
+               Hadoop Releases</A>.           </P><A =
+name=3D"N100D5"></A><A =
+name=3D"25+August%2C+2013%3A+release+2.1.0-beta+available"></A>=20
+<H3 class=3D"h4">25 August, 2013: release 2.1.0-beta available </H3>
+<P>     Apache Hadoop 2.x reaches beta milestone! 	        Full =
+information=20
+about this milestone release is available at	         <A =
+href=3D"http://hadoop.apache.org/releases.html#News">=20
+               Hadoop Releases</A>.           </P><A =
+name=3D"N100E3"></A><A =
+name=3D"27+December%2C+2011%3A+release+1.0.0+available"></A>=20
+<H3 class=3D"h4">27 December, 2011: release 1.0.0 available </H3>
+<P>     Hadoop reaches 1.0.0!	        Full information about this =
+milestone=20
+release is available at	         <A =
+href=3D"http://hadoop.apache.org/releases.html#News">=20
+               Hadoop Releases</A>.           </P><A =
+name=3D"N100F1"></A><A =
+name=3D"March+2011+-+Apache+Hadoop+takes+top+prize+at+Media+Guardian+Inno=
+vation+Awards"></A>=20
+<H3 class=3D"h4">March 2011 - Apache Hadoop takes top prize at Media =
+Guardian=20
+Innovation Awards</H3>
+<P>              Described by the judging panel as a "Swiss army knife =
+of the=20
+21st century",       Apache Hadoop picked up the <EM>innovator of the =
+year</EM>=20
+award for having the       potential to change the face of media =
+innovations.   =20
+    </P>
+<P>See <A =
+href=3D"http://www.guardian.co.uk/technology/2011/mar/25/media-guardian-i=
+nnovation-awards-apache-hadoop">=20
+      The Guardian web site</A>        </P><A name=3D"N10105"></A><A =
+name=3D"January+2011+-+ZooKeeper+Graduates"></A>=20
+<H3 class=3D"h4">January 2011 - ZooKeeper Graduates</H3>
+<P>Hadoop's ZooKeeper subproject has graduated to become a     top-level =
+Apache=20
+project.</P>
+<P>Apache ZooKeeper can now be found     at <A =
+href=3D"http://zookeeper.apache.org/">http://zookeeper.apache.org/</A>=20
+</P><A name=3D"N10115"></A><A =
+name=3D"September+2010+-+Hive+and+Pig+Graduate"></A>=20
+<H3 class=3D"h4">September 2010 - Hive and Pig Graduate</H3>
+<P>Hadoop's Hive and Pig subprojects have graduated to become     =
+top-level=20
+Apache projects.</P>
+<P>Apache Hive can now be found     at <A=20
+href=3D"http://hive.apache.org/">http://hive.apache.org/</A> </P>
+<P>Pig can now be found     at <A=20
+href=3D"http://pig.apache.org/">http://pig.apache.org/</A> </P><A=20
+name=3D"N1012B"></A><A name=3D"May+2010+-+Avro+and+HBase+Graduate"></A>=20
+<H3 class=3D"h4">May 2010 - Avro and HBase Graduate</H3>
+<P>Hadoop's Avro and HBase subprojects have graduated to become     =
+top-level=20
+Apache projects.</P>
+<P>Apache Avro can now be found     at <A=20
+href=3D"http://avro.apache.org/">http://avro.apache.org/</A> </P>
+<P>Apache HBase can now be found     at <A=20
+href=3D"http://hbase.apache.org/">http://hbase.apache.org/</A> </P><A =
+name=3D"N10141"></A><A=20
+name=3D"July+2009+-+New+Hadoop+Subprojects"></A>=20
+<H3 class=3D"h4">July 2009 - New Hadoop Subprojects</H3>
+<P>Hadoop is getting bigger! </P>
+<UL>
+  <LI>Hadoop Core is renamed Hadoop Common.</LI>
+  <LI>MapReduce and the Hadoop Distributed File System (HDFS) are now =
+separate=20
+  subprojects.</LI>
+  <LI>Avro and Chukwa are new Hadoop subprojects.</LI></UL>
+<P></P>
+<P>See the summary descriptions for all subprojects above. Visit the =
+individual=20
+sites for more detailed information.</P><A name=3D"N1015C"></A><A =
+name=3D"March+2009+-+ApacheCon+EU"></A>=20
+<H3 class=3D"h4">March 2009 - ApacheCon EU</H3>
+<P>In case you missed it.... <A=20
+href=3D"http://www.eu.apachecon.com/c/aceu2009/">ApacheCon Europe =
+2009</A> </P><A=20
+name=3D"N1016A"></A><A name=3D"November+2008+-+ApacheCon+US"></A>=20
+<H3 class=3D"h4">November 2008 - ApacheCon US</H3>
+<P>In case you missed it.... <A=20
+href=3D"http://us.apachecon.com/c/acus2008/">ApacheCon US 2008</A> =
+</P><A name=3D"N10178"></A><A=20
+name=3D"July+2008+-+Hadoop+Wins+Terabyte+Sort+Benchmark"></A>=20
+<H3 class=3D"h4">July 2008 - Hadoop Wins Terabyte Sort Benchmark</H3>
+<P><A =
+href=3D"http://developer.yahoo.com/blogs/hadoop/2008/07/apache_hadoop_win=
+s_terabyte_sort_benchmark.html">Hadoop=20
+Wins Terabyte Sort Benchmark</A>:      One of Yahoo's Hadoop clusters =
+sorted 1=20
+terabyte of data in 209 seconds, which beat the previous record of 297 =
+seconds=20
+in the annual general purpose     (Daytona) <A=20
+href=3D"http://sortbenchmark.org/">terabyte sort benchmark</A>. This is =
+the first=20
+time that either a Java or an open source program has won.      =20
+</P></DIV></DIV><!--+=0A=
+    |end content=0A=
+    +-->=20
+<DIV class=3D"clearboth">&nbsp;</DIV></DIV>
+<DIV id=3D"footer"><!--+=0A=
+    |start bottomstrip=0A=
+    +-->=20
+<DIV class=3D"lastmodified">
+<SCRIPT type=3D"text/javascript"><!--=0A=
+document.write("Last Published: " + document.lastModified);=0A=
+//  --></SCRIPT>
+ </DIV>
+<DIV class=3D"copyright">        Copyright =C2=A9          2014 <A =
+href=3D"http://www.apache.org/licenses/">The=20
+Apache Software Foundation.</A> <BR>              Apache Hadoop, Hadoop, =
+Apache,=20
+the Apache feather logo, and the Apache              Hadoop project logo =
+are=20
+either registered trademarks or trademarks of              the Apache =
+Software=20
+Foundation in the United States and other              countries.        =
+    =20
+</DIV>
+<DIV id=3D"logos"></DIV><!--+=0A=
+    |end bottomstrip=0A=
+    +--> </DIV></BODY></HTML>
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://hadoop.apache.org/images/apache_feather.gif
+
+R0lGODlhkQA1APcAAB8cHiEdHyMeISkfKDoeKColKCshLDQoKzIiMzElMDcjOTw4O1AeLk0kOGUg
+NFVHNmVVPDslRUUmSVklSUM+QUYoU1QpWWsoWnImVk0rY1csalktc1svel0wfmksanopZ2cueHMt
+c3cueG8xe0xIS1pZXHRlQ2RiYW5xdp0fSqoeS7kbRbUdTbwcS7kfUpUmToomWpYlV5slW6knS7om
+Sbw5SKwhU6QkWKskW7MgVLkjWqs2U4gqZ5cpZ4gtdpYsc5UufZwte4cwe5QwdKUmY6koabMmZL0l
+Y7sna7UoaLQobbspbaQrdKsqc6YterUqcrMydscZR8MbTMwbStoWStQaS9saTMQeU8weU9McU9wb
+U9UfWtseWuQWTOsXTuQaTewaTvAbTuUZVOQaVOoZUvEcUMgmStQoS8c2S9c3TMYoVMUhW8whXdcl
+VtMhXsw7U+knTussT/EpUPI4UsQkZMsjY8QnadIiYco3bLpETLBQVItyTrhwV6tRaJtua7Z1ZK9z
+d8VHTdFLT8hVT8dYUdpaVelFUvJIVOlZVfJWV8ZnVNdnVct4WNt3W+hoWPNpWuZ3W/F1XclRactw
+b/Z/YJmDU66OW7ORcbymZrmrdM+IXeaDX8+Oa9iYZu+OY/SHYuSbZsipZtSoas20acm4adW4bMy0
+ePOxbuS7cdXCbc7DftvJcejIdPfLeejWdvnYfPbkfF8wgmkxhmQyi3Uyh3sxjGg0lWo0lXk0lGp8
+iXB8hocvgZMvgYwwhIYxiZcyh4Y1lKozhNA4hJFNhrZ6iepVhsR0gnSCjnaJmXyTpYeHiouRlZaX
+mrOWkbqsjbinmoiaqJadpK2YoJmiqI2muJeptqanqbqtp6yusaqzube4uMiOle2Jh8q1h8O2lc+a
+p8uwrsa6t9DElczGstbFuZuywq66w8+7wrzDx6/G1MfGxsvLzNvJytLRz9PU1djW2NfZ2t3d3uHV
+zeTb2ufj3t7f4OPe4d/g4eLj4+nn5uvr7O/v7/T09Pf4+P///wAAACH5BAAKAAAALAAAAACRADUA
+AAj+AP0JHEiwoEFs+AwqXMiwocOHECNKnOhPW76J8fjpq7aPosePIEOKLLishLSLD/VZw+cum7t8
+6vqNnEmzZkh+zAqQYBbP4bpy7tRli8ZMm8B+8ti9+7aNHbtz9mxKnTqzXz9rCwJQUPZOpsKf5syV
+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
+e7/4m7/6u7/827/+6yMBAQA7
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://hadoop.apache.org/images/hadoop-logo.jpg
+
+/9j/4AAQSkZJRgABAQEBLAEsAAD/4QX3RXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
+AAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAUAAAAcgEyAAIAAAAUAAAAhodp
+AAQAAAABAAAAmgAAAMQAAAEsAAAAAQAAASwAAAABQWRvYmUgUGhvdG9zaG9wIDcuMAAyMDA2OjAz
+OjIyIDAzOjE1OjA5AAADoAEAAwAAAAH//wAAoAIABAAAAAEAAAPooAMABAAAAAEAAADtAAAAAAAG
+AQMAAwAAAAEABgAAARoABQAAAAEAAAESARsABQAAAAEAAAEaASgAAwAAAAEAAgAAAgEABAAAAAEA
+AAEiAgIABAAAAAEAAATNAAAAAAAAAEgAAAABAAAASAAAAAH/2P/gABBKRklGAAEBAAABAAEAAP/b
+AEMACAYGBwYFCAcHBwkJCAoMFA0MCwsMGRITDxQdGh8eHRocHCAkLicgIiwjHBwoNyksMDE0NDQf
+Jzk9ODI8LjM0Mv/bAEMBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIABAARwMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAA
+AAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUG
+BwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS
+8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4
+eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri
+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
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://hadoop.apache.org/images/built-with-forrest-button.png
+
+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
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://hadoop.apache.org/skin/images/rc-b-l-15-1body-2menu-3menu.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAJcEhZcwAADsQAAA7EAZUr
+DhsAAADQSURBVHjaY/TJ6f/PQCZgYmFhZiBbMw8XO/maFaVEyddsqa/MwMHGSp5mUx0lhr///pGn
+WUSAh0FdUYKBiZGJdM0gIiPUiYGNlUzN8pLCDM4W2gwc7KykawaB1GB7BglhfgYWZmbSNTMzMTHU
+ZwYwgOKdWANQPAoKvP6yKAYZcUGivIARSiADJpRHMTibazGws7HgjQWsMiAvZIQ6MvSWRDJoKEky
+MDMzYU1ILPicBYqFzoJQhjcfvjCcvnKP4cj52wyPXrxl+PLtJ8OfP38ZANr8JTF54RTLAAAAAElF
+TkSuQmCC
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://hadoop.apache.org/skin/images/pdfdoc.gif
+
+R0lGODlhDQAQAOcAAMTM0s/U3M3V3MvT3cLN2LXC0qe0xbK8z9LY3efn5OTo593i5tHY4sHL17fC
+1LbCzufk4uZVOt2upeDl6NTc5MbR3cbP1sfR2rjBzefi4uc2FNeSh+Ln6Nne583S3a68yaezw52w
+xKKvvOfn5+ZlUtmroeTn6dzg59DX4sHN2KGuwqCyxYWUp9LZ3ubn5+R/ad5xYubn5t/i58/Z37nF
+1KSxwLK+0YqYqObn4+NtWOFgTNi+v9Ha3sLL2brF1pumtLzH1JCdrdLY3OXZ0thtXN3Dvd5RQsjH
+0sfH0sHM2q+4wsLL15OgrtLX3uOgj8+dlt6Uid1dUOc1H+JKO8DEz5mgqMrS3ZejsdK8vORYPtSA
+es+7vM/V39iur8KmpsbP2bO6xcrS2pmksd1nYNhdS8+dlNvg5tfe59Pc49LZ4c7U38nS3a21vc7V
+3pqlsuZ1ccs7NNF8cdve4Nnf5tnd59Xc5dLZ487V38rT3aOpssvS3JumstS5t9DV2t/k5drg5tfd
+5NTb5NLZ4s3V3rzDy9LW3d3h5tnf5dXc5NLa5NDY4czV4cjS3sXP28HN26mwtoqRm4qRnImRm4qS
+momRmoqRmZiepf//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH5BAEKAP8ALAAAAAANABAA
+AAjNAP8JHEiwIIAAAgYQKGDgQEEECRIoWMCggYMHBBFAiCBhAoUKFi5gGIggg4YNHDp4+AAihAiB
+CEaQKGHiBIoUKlawENjCxQsYMWTMoFHDxg2eOHLo2MGjh48fQIIIFDKESBEjR5AkUbKEicAmTp5A
+iSJlCpUqVq4IxJJFyxYuXbx8ARNGzL8xZMqYOYMmjZo1bNq4eQMnjpw5dOrYuYMnj549//j08fMH
+UCBBg/AQ0uNGYCFDhxAlUrSIUSNHnf89ghRJ0iRKlCBBqmQpIAA7
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/basic.css
+
+img {
+	border: 0px currentColor; border-image: none;
+}
+#content table {
+	border: 0px currentColor; border-image: none; width: 100%;
+}
+* html #content table {
+	margin-left: -3px;
+}
+#content th {
+	margin: 0px; padding: 0px; vertical-align: top;
+}
+#content td {
+	margin: 0px; padding: 0px; vertical-align: top;
+}
+.clearboth {
+	clear: both;
+}
+.note {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.warning {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.fixme {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.note .label {
+	background: rgb(51, 102, 153); padding: 5px 10px; color: white; =
+font-weight: bold;
+}
+.note .content {
+	background: rgb(240, 240, 255); padding: 5px 10px; color: black; =
+line-height: 120%; font-size: 90%;
+}
+.warning .label {
+	background: rgb(204, 0, 0); padding: 5px 10px; color: white; =
+font-weight: bold;
+}
+.warning .content {
+	background: rgb(255, 240, 240); padding: 5px 10px; color: black; =
+line-height: 120%; font-size: 90%;
+}
+.fixme .label {
+	background: rgb(198, 198, 0); padding: 5px 10px; color: black; =
+font-weight: bold;
+}
+.fixme .content {
+	padding: 5px 10px;
+}
+body {
+	font-family: verdana, "Trebuchet MS", arial, helvetica, sans-serif; =
+font-size: 100%;
+}
+#content {
+	font-family: Georgia, Palatino, Times, serif; font-size: 95%;
+}
+#tabs {
+	font-size: 70%;
+}
+#menu {
+	font-size: 80%;
+}
+#footer {
+	font-size: 70%;
+}
+h1 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h2 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h3 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h4 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h5 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h6 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h1 {
+	font-size: 1.4em; margin-top: 0px; margin-bottom: 1em;
+}
+#content h1 {
+	font-size: 160%; margin-bottom: 0.5em;
+}
+#menu h1 {
+	background: rgb(51, 102, 153); margin: 0px; padding: 10px; color: =
+white;
+}
+h2 {
+	font-size: 120%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 90%;
+}
+h5 {
+	font-size: 80%;
+}
+h6 {
+	font-size: 75%;
+}
+p {
+	text-align: left; line-height: 120%; margin-top: 0.5em; margin-bottom: =
+1em;
+}
+#content li {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content th {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content td {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li ul {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li ol {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li li {
+	margin-top: 0em; margin-bottom: 0em;
+}
+#minitoc-area li {
+	margin-top: 0em; margin-bottom: 0em;
+}
+#content .attribution {
+	text-align: right; font-size: 85%; font-style: italic; margin-top: 1em;
+}
+.codefrag {
+	font-family: "Courier New", Courier, monospace; font-size: 110%;
+}
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/screen.css
+
+body {
+	margin: 0px; font-family: Verdana, Helvetica, sans-serif;
+}
+h1 {
+	margin: 0px; padding: 0px; font-size: 160%;
+}
+h2 {
+	margin: 1em 0px 0.8em; padding: 0px; font-size: 140%; font-weight: =
+bold;
+}
+h3 {
+	margin: 0.8em 0px 0px; padding: 0px; font-size: 130%; font-weight: =
+bold;
+}
+.h3 {
+	margin: 22px 0px 3px;
+}
+h4 {
+	margin: 0.7em 0px 0px; padding: 0px; text-align: left; font-size: 120%; =
+font-weight: normal;
+}
+.h4 {
+	margin: 18px 0px 0px;
+}
+h4.faq {
+	margin: 18px 0px 0px; padding: 0px; text-align: left; font-size: 120%; =
+font-weight: bold;
+}
+h5 {
+	margin: 14px 0px 0px; padding: 0px; text-align: left; font-size: 100%; =
+font-weight: normal;
+}
+table .title {
+	background-color: rgb(0, 0, 0);
+}
+.ForrestTable {
+	width: 100%; color: rgb(255, 255, 255); font-size: 100%; empty-cells: =
+show; background-color: rgb(112, 153, 197);
+}
+table caption {
+	text-align: left; color: white; padding-left: 5px; font-weight: bold; =
+background-color: rgb(0, 0, 0);
+}
+.ForrestTable td {
+	color: black; background-color: rgb(240, 240, 255);
+}
+.ForrestTable th {
+	text-align: center;
+}
+#top {
+	background: rgb(41, 69, 99); width: 100%; float: left; position: =
+relative;
+}
+#top .breadtrail {
+	background: rgb(207, 220, 237); padding: 3px 10px; color: black; =
+font-size: 75%; border-bottom-color: white; border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#top .breadtrail a {
+	color: black;
+}
+#top .header {
+	background: url("images/header_white_line.gif") repeat-x bottom; width: =
+100%; float: left;
+}
+#top .grouplogo {
+	padding: 7px 0px 10px 10px; text-align: left; float: left;
+}
+#top .projectlogo {
+	padding: 7px 0px 10px 10px; width: 33%; text-align: right; float: left;
+}
+#top .projectlogoA1 {
+	padding: 7px 0px 10px 10px; float: right;
+}
+html > body #top .searchbox {
+	bottom: 0px;
+}
+#top .searchbox {
+	background-position: left top; height: 42px; text-align: right; right: =
+10px; bottom: -1px; color: white; font-size: 70%; white-space: nowrap; =
+position: absolute; z-index: 0; background-image: =
+url("images/rc-t-l-5-1header-2searchbox-3searchbox.png"); =
+background-repeat: no-repeat; background-color: rgb(0, 0, 0);
+}
+#top .searchbox form {
+	margin: 0px; padding: 5px 10px;
+}
+#top .searchbox p {
+	margin: 0px; padding: 0px 0px 2px;
+}
+#top .searchbox input {
+	font-size: 100%;
+}
+#tabs {
+	list-style: none; margin: 0px; padding-left: 10px; clear: both;
+}
+#tabs li {
+	background-position: right top; margin: 0px 3px 0px 0px; padding: 0px; =
+float: left; background-image: =
+url("images/rc-t-r-5-1header-2tab-unselected-3tab-unselected.png"); =
+background-repeat: no-repeat; background-color: rgb(0, 0, 0);
+}
+#tabs li a {
+	background-position: left top; padding: 5px 15px 4px; width: 0.1em; =
+color: black; font-family: verdana, arial, sans-serif; text-decoration: =
+none; float: left; display: block; white-space: nowrap; =
+background-image: =
+url("images/rc-t-l-5-1header-2tab-unselected-3tab-unselected.png"); =
+background-repeat: no-repeat;
+}
+#tabs li a:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#tabs > li a {
+	width: auto;
+}
+#tabs a {
+	float: none;
+}
+#top .header .current {
+	background-position: right top; background-image: =
+url("images/rc-t-r-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat; background-color: rgb(76, 108, 143);
+}
+#top .header .current a {
+	background-position: left top; color: white; padding-bottom: 5px; =
+font-weight: bold; background-image: =
+url("images/rc-t-l-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat;
+}
+#publishedStrip {
+	padding: 3px 10px 3px 20px; text-align: right; color: rgb(255, 255, =
+255); font-size: 60%; font-weight: bold; background-color: rgb(76, 108, =
+143);
+}
+#level2tabs {
+	margin: 0px; float: left; position: relative;
+}
+#level2tabs a:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#level2tabs a {
+	background-position: left; padding-left: 6px; text-decoration: none; =
+margin-left: 6px; cursor: pointer; background-image: =
+url("images/chapter.gif"); background-repeat: no-repeat;
+}
+#main {
+	background: white; clear: both; position: relative;
+}
+#main .breadtrail {
+	background: rgb(207, 220, 237); padding: 0px 180px; color: black; =
+clear: both; font-size: 75%; border-top-color: black; =
+border-bottom-color: black; border-top-width: 1px; border-bottom-width: =
+1px; border-top-style: solid; border-bottom-style: solid; position: =
+relative; z-index: 10;
+}
+#roundtop {
+	background-position: right top; background-image: =
+url("images/rc-t-r-15-1body-2menu-3menu.png"); background-repeat: =
+no-repeat;
+}
+#roundbottom {
+	background-position: right top; background-image: =
+url("images/rc-b-r-15-1body-2menu-3menu.png"); background-repeat: =
+no-repeat;
+}
+img.corner {
+	border: currentColor; border-image: none; width: 15px; height: 15px; =
+display: block !important;
+}
+.roundtopsmall {
+	background-position: right top; background-image: =
+url("images/rc-t-r-5-1header-2searchbox-3searchbox.png"); =
+background-repeat: no-repeat;
+}
+#roundbottomsmall {
+	background-position: right top; background-image: =
+url("images/rc-b-r-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat;
+}
+img.cornersmall {
+	border: currentColor; border-image: none; width: 5px; height: 5px; =
+display: block !important;
+}
+#menu a {
+	font-weight: normal; text-decoration: none;
+}
+#menu a:visited {
+	font-weight: normal;
+}
+#menu a:active {
+	font-weight: normal;
+}
+#menu a:hover {
+	font-weight: normal; text-decoration: underline;
+}
+#menuarea {
+	width: 10em;
+}
+#menu {
+	left: 10px; top: -18px; width: 160px; padding-top: 0px; font-size: 70%; =
+float: left; position: relative; z-index: 20; background-color: rgb(255, =
+153, 0);
+}
+.menutitle {
+	background-position: left; padding: 3px 12px; font-weight: bold; =
+margin-left: 10px; cursor: pointer; background-image: =
+url("images/chapter.gif"); background-repeat: no-repeat;
+}
+.menutitle:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#menu .menuitemgroup {
+	margin: 0px 0px 6px 8px; padding: 0px; font-weight: bold;
+}
+#menu .selectedmenuitemgroup {
+	margin: 0px 0px 0px 8px; padding: 0px; font-weight: normal;
+}
+#menu .menuitem {
+	background-position: left; padding: 2px 0px 1px 13px; font-weight: =
+normal; margin-left: 10px; background-image: url("images/page.gif"); =
+background-repeat: no-repeat;
+}
+#menu .menupage {
+	background-position: left; margin: 2px 0px 1px 10px; padding: 0px 3px =
+0px 12px; font-style: normal; background-image: url("images/page.gif"); =
+background-repeat: no-repeat;
+}
+#menu .menupagetitle {
+	border-width: 1px; border-style: solid; padding: 0px 0px 0px 1px; =
+font-style: normal; margin-right: 10px;
+}
+#menu .menupageitemgroup {
+	padding: 3px 0px 4px 6px; font-style: normal; margin-right: 10px; =
+border-right-color: currentColor; border-bottom-color: currentColor; =
+border-left-color: currentColor; border-right-width: 1px; =
+border-bottom-width: 1px; border-left-width: 1px; border-right-style: =
+solid; border-bottom-style: solid; border-left-style: solid;
+}
+#menu .menupageitem {
+	border-width: 0px; font-size: 90%; font-style: normal; font-weight: =
+normal;
+}
+#menu #credit {
+	text-align: center;
+}
+#menu #credit2 {
+	padding: 3px; text-align: center; background-color: rgb(255, 255, 255);
+}
+#menu .searchbox {
+	text-align: center;
+}
+#menu .searchbox form {
+	margin: 0px; padding: 3px;
+}
+#menu .searchbox input {
+	font-size: 100%;
+}
+#content {
+	font: 80%/normal Verdana, Helvetica, sans-serif; margin: 0px; padding: =
+20px 20px 20px 180px; font-size-adjust: none; font-stretch: normal;
+}
+#content ul {
+	margin: 0px; padding: 0px 25px;
+}
+#content li {
+	padding: 0px 5px;
+}
+#feedback {
+	background: rgb(207, 220, 237); text-align: center; color: black; =
+margin-top: 5px;
+}
+#feedback #feedbackto {
+	color: black; font-size: 90%;
+}
+#footer {
+	background: rgb(207, 220, 237); width: 100%; color: black; clear: both; =
+border-top-color: rgb(76, 108, 143); border-top-width: 1px; =
+border-top-style: solid; position: relative;
+}
+#footer .copyright {
+	margin: 0px; padding: 5px; width: 45%; position: relative;
+}
+#footer .lastmodified {
+	margin: 0px; padding: 5px; width: 45%; text-align: right; float: right; =
+position: relative;
+}
+#footer a {
+	color: white;
+}
+#footer #logos {
+	text-align: left;
+}
+acronym {
+	cursor: help;
+}
+.boxed {
+	background-color: rgb(165, 182, 198);
+}
+.underlined_5 {
+	border-bottom-color: rgb(76, 108, 143); border-bottom-width: 5px; =
+border-bottom-style: solid;
+}
+.underlined_10 {
+	border-bottom-color: rgb(76, 108, 143); border-bottom-width: 10px; =
+border-bottom-style: solid;
+}
+.trail {
+	margin: -10px 5px 0px; padding: 0px; text-align: right; font-size: 70%; =
+float: right; position: relative;
+}
+#motd-area {
+	width: 35%; padding-top: 5px; padding-bottom: 5px; margin-right: 10%; =
+margin-bottom: 15px; margin-left: 15px; border-top-color: rgb(76, 108, =
+143); border-bottom-color: rgb(76, 108, 143); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; float: right; position: relative; background-color: rgb(240, 240, =
+255);
+}
+#minitoc-area {
+	margin: 15px 10% 5px 15px; padding-top: 5px; padding-bottom: 7px; =
+border-top-color: rgb(76, 108, 143); border-bottom-color: rgb(76, 108, =
+143); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+.minitoc {
+	font-weight: normal; list-style-image: url("images/current.gif");
+}
+li p {
+	margin: 0px; padding: 0px;
+}
+.pdflink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.pdflink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.pdflink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.pdflink img {
+	width: 16px; height: 16px; display: block;
+}
+.xmllink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.xmllink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.xmllink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.xmllink img {
+	width: 16px; height: 16px; display: block;
+}
+.podlink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.podlink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.podlink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.podlink img {
+	width: 16px; height: 16px; display: block;
+}
+.printlink {
+	float: right; position: relative;
+}
+.printlink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.printlink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.printlink img {
+	width: 16px; height: 16px; display: block;
+}
+p.instruction {
+	margin-left: 2em; display: list-item; list-style-position: outside; =
+list-style-image: url("../images/instruction_arrow.png");
+}
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/print.css
+
+body {
+	background: white; font-family: Georgia, Palatino, serif; font-size: =
+12pt;
+}
+#tabs {
+	display: none;
+}
+#menu {
+	display: none;
+}
+#content .toc {
+	display: none;
+}
+#content {
+	background: inherit; padding: 0px; width: auto; color: black; float: =
+none !important;
+}
+a:link {
+	background: inherit; color: rgb(51, 102, 153); text-decoration: =
+underline;
+}
+a:visited {
+	background: inherit; color: rgb(51, 102, 153); text-decoration: =
+underline;
+}
+#top .logo {
+	margin: 0px 0px 2em; padding: 0px;
+}
+#footer {
+	margin-top: 4em;
+}
+acronym {
+	border: 0px currentColor; border-image: none;
+}
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/profile.css
+
+@media aural
+{
+h1 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h2 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h3 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h4 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h5 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h6 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h1 {
+	pitch: x-low; pitch-range: 90;
+}
+h2 {
+	pitch: x-low; pitch-range: 80;
+}
+h3 {
+	pitch: low; pitch-range: 70;
+}
+h4 {
+	pitch: medium; pitch-range: 60;
+}
+h5 {
+	pitch: medium; pitch-range: 50;
+}
+h6 {
+	pitch: medium; pitch-range: 40;
+}
+li {
+	richness: 60; pitch: medium;
+}
+dt {
+	richness: 60; pitch: medium;
+}
+dd {
+	richness: 60; pitch: medium;
+}
+dt {
+	stress: 80;
+}
+pre {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+code {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+tt {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+em {
+	stress: 60; richness: 50; pitch: medium; pitch-range: 60;
+}
+strong {
+	stress: 90; richness: 90; pitch: medium; pitch-range: 60;
+}
+dfn {
+	stress: 60; pitch: high; pitch-range: 60;
+}
+s {
+	richness: 0;
+}
+strike {
+	richness: 0;
+}
+i {
+	stress: 60; richness: 50; pitch: medium; pitch-range: 60;
+}
+b {
+	stress: 90; richness: 90; pitch: medium; pitch-range: 60;
+}
+u {
+	richness: 0;
+}
+:link {
+	voice-family: harry, male;
+}
+:visited {
+	voice-family: betty, female;
+}
+:active {
+	voice-family: betty, female; pitch: x-high; pitch-range: 80;
+}
+}
+a.external {
+	background-position: right; padding: 0px 20px 0px 0px; display: inline; =
+background-image: url("images/external-link.gif"); background-repeat: =
+no-repeat;
+}
+#top {
+	background-color: rgb(255, 255, 255);
+}
+#top .header .current {
+	background-color: rgb(76, 108, 143);
+}
+#top .header .current a:link {
+	color: rgb(255, 255, 255);
+}
+#top .header .current a:visited {
+	color: rgb(255, 255, 255);
+}
+#top .header .current a:hover {
+	color: rgb(255, 255, 255);
+}
+#tabs li {
+	background-color: rgb(229, 228, 217);
+}
+#tabs li a:link {
+	color: rgb(0, 0, 0);
+}
+#tabs li a:visited {
+	color: rgb(0, 0, 0);
+}
+#tabs li a:hover {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.selected {
+	background-color: rgb(76, 108, 143);
+}
+#level2tabs a:link {
+	color: rgb(255, 255, 255);
+}
+#level2tabs a:visited {
+	color: rgb(255, 255, 255);
+}
+#level2tabs a:hover {
+	color: rgb(255, 255, 255);
+}
+#level2tabs {
+	background-color: rgb(229, 228, 217);
+}
+#level2tabs a.unselected:link {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.unselected:visited {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.unselected:hover {
+	color: rgb(0, 0, 0);
+}
+.heading {
+	background-color: rgb(229, 228, 217);
+}
+.boxed {
+	background-color: rgb(229, 228, 217);
+}
+.underlined_5 {
+	border-bottom-color: rgb(229, 228, 217); border-bottom-width: 5px; =
+border-bottom-style: solid;
+}
+.underlined_10 {
+	border-bottom-color: rgb(229, 228, 217); border-bottom-width: 10px; =
+border-bottom-style: solid;
+}
+table caption {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+#feedback {
+	background: rgb(76, 108, 143); text-align: center; color: rgb(255, 255, =
+255);
+}
+#feedback #feedbackto {
+	color: rgb(255, 255, 255);
+}
+#publishedStrip {
+	background: rgb(76, 108, 143); color: rgb(255, 255, 255);
+}
+#publishedStrip {
+	background: rgb(229, 228, 217); color: rgb(0, 0, 0);
+}
+#menu .menupagetitle {
+	color: rgb(0, 0, 0); background-color: rgb(207, 220, 237);
+}
+#menu {
+	border-color: rgb(153, 153, 153);
+}
+#menu .menupagetitle {
+	border-color: rgb(153, 153, 153);
+}
+#menu .menupageitemgroup {
+	border-color: rgb(153, 153, 153);
+}
+#menu {
+	background-color: rgb(76, 108, 143);
+}
+#menu {
+	color: rgb(255, 255, 255);
+}
+#menu a:link {
+	color: rgb(255, 255, 255);
+}
+#menu a:visited {
+	color: rgb(255, 255, 255);
+}
+#menu a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(76, 108, 143);
+}
+#menu h1 {
+	color: rgb(0, 0, 0); background-color: rgb(207, 220, 237);
+}
+#top .searchbox {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+#menu .menupageitemgroup {
+	background-color: rgb(229, 228, 217);
+}
+#menu .menupageitem {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:link {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:visited {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:hover {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+body {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+a:link {
+	color: rgb(0, 0, 255);
+}
+a:visited {
+	color: rgb(0, 153, 153);
+}
+a:hover {
+	color: rgb(101, 135, 255);
+}
+.ForrestTable {
+	background-color: rgb(204, 204, 204);
+}
+.ForrestTable td {
+	background-color: rgb(255, 255, 255);
+}
+.highlight {
+	background-color: rgb(255, 255, 0);
+}
+.fixme {
+	border-color: rgb(204, 102, 0);
+}
+.note {
+	border-color: rgb(0, 102, 153);
+}
+.warning {
+	border-color: rgb(153, 0, 0);
+}
+.code {
+	border-color: rgb(165, 182, 198);
+}
+#footer {
+	background-color: rgb(229, 228, 217);
+}
+p.quote {
+	padding: 0.5em; font-family: monospace; margin-left: 2em; =
+background-color: rgb(240, 240, 240);
+}
+img.float-right {
+	padding: 0.5em; margin-left: 2em; float: right;
+}
+#footer a:visited {
+	color: black;
+}
+#footer a:hover {
+	color: black;
+}
+#footer a {
+	color: black;
+}
+#content h1 {
+	color: black; font-family: arial; font-size: 185%; margin-bottom: =
+0.5em;
+}
+h2 {
+	color: black; font-family: arial; font-size: 175%;
+}
+.h3 {
+	color: black; font-family: arial; font-size: 175%;
+}
+h3 {
+	color: black; font-family: arial; font-size: 135%; margin-bottom: =
+0.5em;
+}
+.h4 {
+	color: black; font-family: arial; font-size: 135%; margin-bottom: =
+0.5em;
+}
+h4 {
+	color: black; font-family: arial; font-size: 125%; font-style: italic; =
+font-weight: bold;
+}
+.h5 {
+	color: black; font-family: arial; font-size: 125%; font-style: italic; =
+font-weight: bold;
+}
+h5 {
+	color: rgb(54, 54, 54); font-size: 110%; font-weight: bold;
+}
+h6 {
+	color: rgb(54, 54, 54); font-size: 110%; font-weight: bold;
+}
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/getBlank.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+/**=0A=
+ * getBlank script - when included in a html file and called from a form =
+text field, will set the value of this field to ""=0A=
+ * if the text value is still the standard value.=0A=
+ * getPrompt script - when included in a html file and called from a =
+form text field, will set the value of this field to the prompt=0A=
+ * if the text value is empty.=0A=
+ *=0A=
+ * Typical usage:=0A=
+ * <script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"getBlank.js"></script>=0A=
+ * <input type=3D"text" id=3D"query" value=3D"Search the site:" =
+onFocus=3D"getBlank (this, 'Search the site:');" onBlur=3D"getBlank =
+(this, 'Search the site:');"/>=0A=
+ */=0A=
+<!--=0A=
+function getBlank (form, stdValue){=0A=
+if (form.value =3D=3D stdValue){=0A=
+	form.value =3D '';=0A=
+	}=0A=
+return true;=0A=
+}=0A=
+function getPrompt (form, stdValue){=0A=
+if (form.value =3D=3D ''){=0A=
+	form.value =3D stdValue;=0A=
+	}=0A=
+return true;=0A=
+}=0A=
+//-->=0A=
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/getMenu.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+/**=0A=
+ * This script, when included in a html file, can be used to make =
+collapsible menus=0A=
+ *=0A=
+ * Typical usage:=0A=
+ * <script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"menu.js"></script>=0A=
+ */=0A=
+=0A=
+if (document.getElementById){ =0A=
+  document.write('<style type=3D"text/css">.menuitemgroup{display: =
+none;}</style>')=0A=
+}=0A=
+=0A=
+=0A=
+function SwitchMenu(obj, thePath)=0A=
+{=0A=
+var open =3D 'url("'+thePath + 'images/chapter_open.gif")';=0A=
+var close =3D 'url("'+thePath + 'images/chapter.gif")';=0A=
+  if(document.getElementById)  {=0A=
+    var el =3D document.getElementById(obj);=0A=
+    var title =3D document.getElementById(obj+'Title');=0A=
+=0A=
+    if(el.style.display !=3D "block"){ =0A=
+      title.style.backgroundImage =3D open;=0A=
+      el.style.display =3D "block";=0A=
+    }else{=0A=
+      title.style.backgroundImage =3D close;=0A=
+      el.style.display =3D "none";=0A=
+    }=0A=
+  }// end -  if(document.getElementById) =0A=
+}//end - function SwitchMenu(obj)=0A=
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/fontsize.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+function init() =0A=
+{ //embedded in the doc=0A=
+  //ndeSetTextSize();=0A=
+}=0A=
+=0A=
+function checkBrowser(){=0A=
+  if (!document.getElementsByTagName){=0A=
+    return true;=0A=
+  }=0A=
+  else{=0A=
+    return false;=0A=
+  }=0A=
+}=0A=
+=0A=
+=0A=
+function ndeSetTextSize(chgsize,rs) =0A=
+{=0A=
+  var startSize;=0A=
+  var newSize;=0A=
+=0A=
+  if (!checkBrowser)=0A=
+  {=0A=
+    return;=0A=
+  }=0A=
+=0A=
+  startSize =3D parseInt(ndeGetDocTextSize());=0A=
+=0A=
+  if (!startSize)=0A=
+  {=0A=
+    startSize =3D 16;=0A=
+  }=0A=
+=0A=
+  switch (chgsize)=0A=
+  {=0A=
+  case 'incr':=0A=
+    newSize =3D startSize + 2;=0A=
+    break;=0A=
+=0A=
+  case 'decr':=0A=
+    newSize =3D startSize - 2;=0A=
+    break;=0A=
+=0A=
+  case 'reset':=0A=
+    if (rs) {newSize =3D rs;} else {newSize =3D 16;}=0A=
+    break;=0A=
+=0A=
+  default:=0A=
+    try{=0A=
+      newSize =3D parseInt(ndeReadCookie("nde-textsize"));=0A=
+    }=0A=
+    catch(e){=0A=
+      alert(e);=0A=
+    }=0A=
+    =0A=
+    if (!newSize || newSize =3D=3D 'NaN')=0A=
+    {=0A=
+      newSize =3D startSize;=0A=
+    }=0A=
+    break;=0A=
+=0A=
+  }=0A=
+=0A=
+  if (newSize < 10) =0A=
+  {=0A=
+    newSize =3D 10;=0A=
+  }=0A=
+=0A=
+  newSize +=3D 'px';=0A=
+=0A=
+  document.getElementsByTagName('html')[0].style.fontSize =3D newSize;=0A=
+  document.getElementsByTagName('body')[0].style.fontSize =3D newSize;=0A=
+=0A=
+  ndeCreateCookie("nde-textsize", newSize, 365);=0A=
+}=0A=
+=0A=
+function ndeGetDocTextSize() =0A=
+{=0A=
+  if (!checkBrowser)=0A=
+  {=0A=
+    return 0;=0A=
+  }=0A=
+=0A=
+  var size =3D 0;=0A=
+  var body =3D document.getElementsByTagName('body')[0];=0A=
+=0A=
+  if (body.style && body.style.fontSize)=0A=
+  {=0A=
+    size =3D body.style.fontSize;=0A=
+  }=0A=
+  else if (typeof(getComputedStyle) !=3D 'undefined')=0A=
+  {=0A=
+    size =3D getComputedStyle(body,'').getPropertyValue('font-size');=0A=
+  }=0A=
+  else if (body.currentStyle)=0A=
+  {=0A=
+   size =3D body.currentStyle.fontSize;=0A=
+  }=0A=
+=0A=
+  //fix IE bug=0A=
+  if( isNaN(size)){=0A=
+    if(size.substring(size.length-1)=3D=3D"%"){=0A=
+      return=0A=
+    }=0A=
+=0A=
+  }=0A=
+=0A=
+  return size;=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+function ndeCreateCookie(name,value,days) =0A=
+{=0A=
+  var cookie =3D name + "=3D" + value + ";";=0A=
+=0A=
+  if (days) =0A=
+  {=0A=
+    var date =3D new Date();=0A=
+    date.setTime(date.getTime()+(days*24*60*60*1000));=0A=
+    cookie +=3D " expires=3D" + date.toGMTString() + ";";=0A=
+  }=0A=
+  cookie +=3D " path=3D/";=0A=
+=0A=
+  document.cookie =3D cookie;=0A=
+=0A=
+}=0A=
+=0A=
+function ndeReadCookie(name) =0A=
+{=0A=
+  var nameEQ =3D name + "=3D";=0A=
+  var ca =3D document.cookie.split(';');=0A=
+=0A=
+ =0A=
+  for(var i =3D 0; i < ca.length; i++) =0A=
+  {=0A=
+    var c =3D ca[i];=0A=
+    while (c.charAt(0) =3D=3D ' ') =0A=
+    {=0A=
+      c =3D c.substring(1, c.length);=0A=
+    }=0A=
+=0A=
+    ctest =3D c.substring(0,name.length);=0A=
+ =0A=
+    if(ctest =3D=3D name){=0A=
+      return c.substring(nameEQ.length,c.length);=0A=
+    }=0A=
+  }=0A=
+  return null;=0A=
+}=0A=
+
+------=_NextPart_000_001B_01CFA52E.C5034C00
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hadoop.apache.org/skin/breadcrumbs.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+/**=0A=
+ * This script, when included in a html file, builds a neat breadcrumb =
+trail=0A=
+ * based on its url. That is, if it doesn't contains bugs (I'm relatively=0A=
+ * sure it does).=0A=
+ *=0A=
+ * Typical usage:=0A=
+ * <script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"breadcrumbs.js"></script>=0A=
+ */=0A=
+=0A=
+/**=0A=
+ * IE 5 on Mac doesn't know Array.push.=0A=
+ *=0A=
+ * Implement it - courtesy to fritz.=0A=
+ */=0A=
+var abc	=3D new Array();=0A=
+if (!abc.push) {=0A=
+  Array.prototype.push	=3D function(what){this[this.length]=3Dwhat}=0A=
+}=0A=
+=0A=
+/* =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A=
+	CONSTANTS=0A=
+   =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */=0A=
+=0A=
+/**=0A=
+ * Two-dimensional array containing extra crumbs to place at the front of=0A=
+ * the trail. Specify first the name of the crumb, then the URI that =
+belongs=0A=
+ * to it. You'll need to modify this for every domain or subdomain where=0A=
+ * you use this script (you can leave it as an empty array if you wish)=0A=
+ */=0A=
+var PREPREND_CRUMBS =3D new Array();=0A=
+=0A=
+var link1 =3D "@skinconfig.trail.link1.name@";=0A=
+var link2 =3D "@skinconfig.trail.link2.name@";=0A=
+var link3 =3D "@skinconfig.trail.link3.name@";=0A=
+=0A=
+var href1 =3D "@skinconfig.trail.link1.href@";=0A=
+var href2 =3D "@skinconfig.trail.link2.href@";=0A=
+var href3 =3D "@skinconfig.trail.link3.href@";=0A=
+=0A=
+   if(!(link1=3D=3D"")&&!link1.indexOf( "@" ) =3D=3D 0){=0A=
+     PREPREND_CRUMBS.push( new Array( link1, href1 ) );=0A=
+   }=0A=
+   if(!(link2=3D=3D"")&&!link2.indexOf( "@" ) =3D=3D 0){=0A=
+     PREPREND_CRUMBS.push( new Array( link2, href2 ) );=0A=
+   }=0A=
+   if(!(link3=3D=3D"")&&!link3.indexOf( "@" ) =3D=3D 0){=0A=
+     PREPREND_CRUMBS.push( new Array( link3, href3 ) );=0A=
+   }=0A=
+=0A=
+/**=0A=
+ * String to include between crumbs:=0A=
+ */=0A=
+var DISPLAY_SEPARATOR =3D " &gt; ";=0A=
+/**=0A=
+ * String to include at the beginning of the trail=0A=
+ */=0A=
+var DISPLAY_PREPREND =3D " &gt; ";=0A=
+/**=0A=
+ * String to include at the end of the trail=0A=
+ */=0A=
+var DISPLAY_POSTPREND =3D "";=0A=
+=0A=
+/**=0A=
+ * CSS Class to use for a single crumb:=0A=
+ */=0A=
+var CSS_CLASS_CRUMB =3D "breadcrumb";=0A=
+=0A=
+/**=0A=
+ * CSS Class to use for the complete trail:=0A=
+ */=0A=
+var CSS_CLASS_TRAIL =3D "breadcrumbTrail";=0A=
+=0A=
+/**=0A=
+ * CSS Class to use for crumb separator:=0A=
+ */=0A=
+var CSS_CLASS_SEPARATOR =3D "crumbSeparator";=0A=
+=0A=
+/**=0A=
+ * Array of strings containing common file extensions. We use this to=0A=
+ * determine what part of the url to ignore (if it contains one of the=0A=
+ * string specified here, we ignore it).=0A=
+ */=0A=
+var FILE_EXTENSIONS =3D new Array( ".html", ".htm", ".jsp", ".php", =
+".php3", ".php4" );=0A=
+=0A=
+/**=0A=
+ * String that separates parts of the breadcrumb trail from each other.=0A=
+ * When this is no longer a slash, I'm sure I'll be old and grey.=0A=
+ */=0A=
+var PATH_SEPARATOR =3D "/";=0A=
+=0A=
+/* =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A=
+	UTILITY FUNCTIONS=0A=
+   =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */=0A=
+/**=0A=
+ * Capitalize first letter of the provided string and return the modified=0A=
+ * string.=0A=
+ */=0A=
+function sentenceCase( string )=0A=
+{        return string;=0A=
+	//var lower =3D string.toLowerCase();=0A=
+	//return lower.substr(0,1).toUpperCase() + lower.substr(1);=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Returns an array containing the names of all the directories in the=0A=
+ * current document URL=0A=
+ */=0A=
+function getDirectoriesInURL()=0A=
+{=0A=
+	var trail =3D document.location.pathname.split( PATH_SEPARATOR );=0A=
+=0A=
+	// check whether last section is a file or a directory=0A=
+	var lastcrumb =3D trail[trail.length-1];=0A=
+	for( var i =3D 0; i < FILE_EXTENSIONS.length; i++ )=0A=
+	{=0A=
+		if( lastcrumb.indexOf( FILE_EXTENSIONS[i] ) )=0A=
+		{=0A=
+			// it is, remove it and send results=0A=
+			return trail.slice( 1, trail.length-1 );=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// it's not; send the trail unmodified=0A=
+	return trail.slice( 1, trail.length );=0A=
+}=0A=
+=0A=
+/* =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A=
+	BREADCRUMB FUNCTIONALITY=0A=
+   =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */=0A=
+/**=0A=
+ * Return a two-dimensional array describing the breadcrumbs based on the=0A=
+ * array of directories passed in.=0A=
+ */=0A=
+function getBreadcrumbs( dirs )=0A=
+{=0A=
+	var prefix =3D "/";=0A=
+	var postfix =3D "/";=0A=
+=0A=
+	// the array we will return=0A=
+	var crumbs =3D new Array();=0A=
+=0A=
+	if( dirs !=3D null )=0A=
+	{=0A=
+		for( var i =3D 0; i < dirs.length; i++ )=0A=
+		{=0A=
+			prefix +=3D dirs[i] + postfix;=0A=
+			crumbs.push( new Array( dirs[i], prefix ) );=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// preprend the PREPREND_CRUMBS=0A=
+	if(PREPREND_CRUMBS.length > 0 )=0A=
+	{=0A=
+		return PREPREND_CRUMBS.concat( crumbs );=0A=
+	}=0A=
+=0A=
+	return crumbs;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Return a string containing a simple text breadcrumb trail based on the=0A=
+ * two-dimensional array passed in.=0A=
+ */=0A=
+function getCrumbTrail( crumbs )=0A=
+{=0A=
+	var xhtml =3D DISPLAY_PREPREND;=0A=
+=0A=
+	for( var i =3D 0; i < crumbs.length; i++ )=0A=
+	{=0A=
+		xhtml +=3D '<a href=3D"' + crumbs[i][1] + '" >';=0A=
+		xhtml +=3D unescape( crumbs[i][0] ) + '</a>';=0A=
+		if( i !=3D (crumbs.length-1) )=0A=
+		{=0A=
+			xhtml +=3D DISPLAY_SEPARATOR;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	xhtml +=3D DISPLAY_POSTPREND;=0A=
+=0A=
+	return xhtml;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Return a string containing an XHTML breadcrumb trail based on the=0A=
+ * two-dimensional array passed in.=0A=
+ */=0A=
+function getCrumbTrailXHTML( crumbs )=0A=
+{=0A=
+	var xhtml =3D '<span class=3D"' + CSS_CLASS_TRAIL  + '">';=0A=
+	xhtml +=3D DISPLAY_PREPREND;=0A=
+=0A=
+	for( var i =3D 0; i < crumbs.length; i++ )=0A=
+	{=0A=
+		xhtml +=3D '<a href=3D"' + crumbs[i][1] + '" class=3D"' + =
+CSS_CLASS_CRUMB + '">';=0A=
+		xhtml +=3D unescape( crumbs[i][0] ) + '</a>';=0A=
+		if( i !=3D (crumbs.length-1) )=0A=
+		{=0A=
+			xhtml +=3D '<span class=3D"' + CSS_CLASS_SEPARATOR + '">' + =
+DISPLAY_SEPARATOR + '</span>';=0A=
+		}=0A=
+	}=0A=
+=0A=
+	xhtml +=3D DISPLAY_POSTPREND;=0A=
+	xhtml +=3D '</span>';=0A=
+=0A=
+	return xhtml;=0A=
+}=0A=
+=0A=
+/* =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=0A=
+	PRINT BREADCRUMB TRAIL=0A=
+   =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */=0A=
+=0A=
+// check if we're local; if so, only print the PREPREND_CRUMBS=0A=
+if( document.location.href.toLowerCase().indexOf( "http://" ) =3D=3D -1 )=0A=
+{=0A=
+	document.write( getCrumbTrail( getBreadcrumbs() ) );=0A=
+}=0A=
+else=0A=
+{=0A=
+	document.write( getCrumbTrail( getBreadcrumbs( getDirectoriesInURL() ) =
+) );=0A=
+}=0A=
+=0A=
+
+------=_NextPart_000_001B_01CFA52E.C5034C00--

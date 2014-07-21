@@ -1,17 +1,20 @@
 \section{Apache Flume}
 
-Nachdem Apache Storm und Apache Kafka bewertet wurden, wird als nächstes Apache Flume vorgestellt. Am Anfang wird in einer Tabelle eine Kurzübersicht gegeben. Anschließend werden die Bewertungskriterien zu Apache Flume erläutert.
+Nachdem Apache Storm und Apache Kafka bewertet wurden, wird als nächstes Apache Flume vorgestellt. Apache Flume wurde ursprünglich von Jonathan Hsieh im Jahr 2009 und der Firma Cloudera entwickelt und wird als ein verteiltes, zuverlässiges und verfügbares System für effizientes Sammeln, Aggregieren und Bewegen großer Datenmengen von Protokolldaten von verschiedene Quellen zu einem Zentralen Datenspeicher beschrieben \citeint{flume:Proposal}. Am 29 Juni 2010 wurde Apache Flume unter der Apache License Version 2.0 veröffentlicht und am 20 Juni 2012 in die Apache Software Foundation überführt \citeint{flume:IncubationStatus}. Nachdem Apache Flume am 13 Juni 2013 in den Apache Incubations Prozess überführt wurde, wurde nach Version 0.9.5 in der neuen Fassung ab Version 1.0.0-incubating eine weitreichende Refaktorierung\footnote{Refaktorierung ist ein Prozess in der Software-Entwicklung, um die interne Struktur zu verbessern, während das äußere Verhalten unverändert bleibt \citelit[S. 9]{Fowler99}.} von Arvind Prabhakar, Prasad Mujumdar und Eric Sammer mit der Unterstützung von Jonathan Hsieh, Patrick Hunt und Henry Robinson durchgeführt \citeint{flume:flumeNg}. Die Abkürzung \gls{glo:ng} in der neuen Version von Apache Flume steht für die Weiterentwicklung und der Refaktorierung \citeint{flume:flumeNgRefactoring}. In dieser Arbeit wird ausschließlich die neue Fassung der Apache Foundation ab Version 1.0.0-incubating vorgestellt. In der Tabelle \ref{tab:vorflume} wird eine Kurzübersicht über Apache Flume gezeigt. Dabei wird unter den Hauptentwicklern die ersten drei Entwickler der neuen Fassung Flume-NG und abschließend die drei Entwickler aus der ursprünglichen Fassung aufgelistet.
 
-\begin{table}[htbp]
+Apache Flume wurde aus der Anforderung heraus als ein allgemeines Werkzeug Daten für einen Datenlieferanten für Apache Hadoop\footnote{Apache Hadoop ist eine Bibliothek von Anwendungen für das verteilte Rechnen von großen Datenmengen in einem Cluster. Es besteht aus dem Dateisystem \gls{glo:hdfs}, dem Algorithmus MapReduce und dem Aufgabenplaner Yarn. \citeint{hadoop:home}} entwickelt. In der Entwicklung von der Apache Flume wird gleichzeitig eine Anbindung an das Apache Hadoop Dateisystem \gls{glo:hdfs} als \textit{HDFS Sink} bereitgestellt. Dennoch sind weitere Sink-Implementierungen gegeben und möglich. In dieser Arbeit steht der Fokus in der kontinuierlichen Datenverarbeitung, weshalb die Schnittstelle zu Apache Hadoop nicht näher beleuchtet wird. \citelit[S. 1]{flumeDistributed}
+
+\begin{table}[tbp]
 	\centering
 		\begin{tabular}{@{}ll@{}} \toprule
 			\textbf{Faktum} & \textbf{Beschreibung} \\ \midrule
-			Hauptentwickler & Prasad Mujumdar, Arvind Prabhakar und Eric Sammer \\
+			Hauptentwickler & Arvind Prabhakar, Prasad Mujumdar, Eric Sammer \\
+			& Jonathan Hsieh, Patrick Hunt, Henry Robinson \\
 			Stabile Version & 1.5.0.1 vom 16.06.2014 \\ 
 			Entwicklungsstatus &  Aktiv \\
 			Entwicklungsversion & 1.6.0 \\
 			Sprache & Java \\
-			Betriebssystem & Platformübergreifend (Microsoft Windows mit Cygwin Umgebung) \\
+			Betriebssystem & Linux/Unix konform, kein Support für Windows  \\
 			Lizenz & Apache License version 2.0 \\
 			Webseite & \citeint{flume:home} \\
 			Quelltext & \citeint{flume:GitHubApacheMirror} \\			
@@ -21,3 +24,32 @@ Nachdem Apache Storm und Apache Kafka bewertet wurden, wird als nächstes Apache
 	\label{tab:vorflume}
 \end{table}
 
+
+Die Architektur von Apache Flume besteht aus mehreren einzelnen Maschinen die als \textit{Agents} bezeichnet werden. Jedem \textit{Agent} wird über eine Konfigurationsdatei die Verbindung zu einem anderen \textit{Agent} angegeben. Ein \textit{Agent} besteht immer aus einer Quelle \textit{Source}, einem Kanal \textit{Channel} und einer Ausgabe \textit{Sink}. Zwischen der \textit{Source}, dem \textit{Channel} und dem \textit{Sink} werden Nachrichten die \textit{Flume events} ausgetauscht. Daten werden von der \textit{Source} in \textit{Flume events} umgewandelt und an einen oder mehrere \textit{Channels} geschrieben. Ein \textit{Channel} ist der Bereich in dem \textit{Events} gehalten und weiter an die den \textit{Sink} gereicht werden. Der \textit{Sink} erhält ausschließlich Events von einem \textit{Channel}. In einem Agent kann es mehrere \textit{Sources}, \textit{Channels} und \textit{Sinks} geben.
+
+\begin{table}[ht!]
+	\centering
+		\begin{tabular}{@{}ll@{}} \toprule
+			\textbf{Kriterium} & \textbf{Bewertung} \\ \midrule
+			Architektur & Strukturierte Peer-to-Peer-Architektur \\
+			Prozesse und Threads & Client-Server-Modell und \gls{glo:rpc} \\
+			Kommunikation & Streamorientierter synchroner Übertragungsmodus \\
+			Namenssystem & Hierarchische Benennung \\
+			Synchronisierung & Dezentraler Algorithmus \\
+			Pipelining und Materialisierung & Agent chaining \\
+			Konsistenz und Replikation & Replikation und Multiplexing \\
+			Fehlertoleranz & Load balancing und Failover \\ 
+			Sicherheit & FileChannel Verschlüsselung, \\
+			& vereinzelte \acrshort{glo:sasl}-Sink-Integration \\
+			Erweiterung & Eigenentwicklung und Community-Beiträge \\
+			Qualität & FileChannel \gls{glo:wal} \\
+			\bottomrule			
+		\end{tabular}
+	\caption{Bewertung Apache Flume}
+	\label{tab:bewflume}
+\end{table}
+
+%Instead of focusing on analytics, Flume focuses primarily upon data transport and integration with a wide set of data sources and data destinations.
+%http://www.ibm.com/developerworks/opensource/library/bd-flumews/index.html
+%http://blog.cloudera.com/blog/2013/01/how-to-do-apache-flume-performance-tuning-part-1/
+%\citelit{rfc4422}

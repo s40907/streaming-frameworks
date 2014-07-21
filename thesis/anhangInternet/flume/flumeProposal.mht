@@ -1,0 +1,2599 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: FlumeProposal - Incubator Wiki
+Date: Sun, 20 Jul 2014 19:02:20 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFA44D.21FBA250"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/FlumeProposal
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" =
+"http://www.w3.org/TR/html4/strict.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8"> =
+
+<META name=3D"robots" content=3D"index,nofollow"> <TITLE>FlumeProposal - =
+Incubator=20
+Wiki</TITLE>=20
+<SCRIPT src=3D"http://wiki.apache.org/wiki/common/js/common.js" =
+type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--=0A=
+var search_hint =3D "Search";=0A=
+//-->=0A=
+</SCRIPT>
+ <LINK href=3D"http://wiki.apache.org/wiki/modernized/css/common.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"all" charset=3D"utf-8"> <LINK =
+href=3D"http://wiki.apache.org/wiki/modernized/css/screen.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"screen" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/projection.css" =
+
+rel=3D"stylesheet" type=3D"text/css" media=3D"projection" =
+charset=3D"utf-8"> <!-- css only for MS IE6/IE7 browsers --> <!--[if lt =
+IE 8]>=0A=
+   <link rel=3D"stylesheet" type=3D"text/css" charset=3D"utf-8" =
+media=3D"all" href=3D"/wiki/modernized/css/msie.css">=0A=
+<![endif]-->=20
+<LINK title=3D"Incubator Wiki: FlumeProposal" =
+href=3D"/incubator/FlumeProposal?diffs=3D1&amp;show_att=3D1&amp;action=3D=
+rss_rc&amp;unique=3D0&amp;page=3DFlumeProposal&amp;ddiffs=3D1"=20
+rel=3D"alternate" type=3D"application/rss+xml"> <LINK =
+href=3D"/incubator/FrontPage"=20
+rel=3D"Start"> <LINK title=3D"Wiki Markup" =
+href=3D"/incubator/FlumeProposal?action=3Draw"=20
+rel=3D"Alternate"> <LINK title=3D"Print View" =
+href=3D"/incubator/FlumeProposal?action=3Dprint"=20
+rel=3D"Alternate" media=3D"print"> <LINK href=3D"/incubator/FindPage" =
+rel=3D"Search">=20
+<LINK href=3D"/incubator/TitleIndex" rel=3D"Index"> <LINK =
+href=3D"/incubator/WordIndex"=20
+rel=3D"Glossary"> <LINK href=3D"/incubator/HelpOnFormatting" =
+rel=3D"Help">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>=20
+<BODY lang=3D"en" dir=3D"ltr">
+<DIV id=3D"header">
+<FORM id=3D"searchform" action=3D"/incubator/FlumeProposal" =
+method=3D"get">
+<DIV><INPUT name=3D"action" type=3D"hidden" value=3D"fullsearch"> <INPUT =
+name=3D"context" type=3D"hidden" value=3D"180">=20
+<LABEL for=3D"searchinput">Search:</LABEL>=20
+<INPUT name=3D"value" id=3D"searchinput" onkeyup=3D"searchChange(this)" =
+onfocus=3D"searchFocus(this)" onblur=3D"searchBlur(this)" =
+onchange=3D"searchChange(this)" type=3D"text" size=3D"20" =
+alt=3D"Search">=20
+<INPUT name=3D"titlesearch" id=3D"titlesearch" type=3D"submit" =
+alt=3D"Search Titles" value=3D"Titles">=20
+<INPUT name=3D"fullsearch" id=3D"fullsearch" type=3D"submit" =
+alt=3D"Search Full Text" value=3D"Text">=20
+</DIV></FORM>
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Initialize search form=0A=
+var f =3D document.getElementById('searchform');=0A=
+f.getElementsByTagName('label')[0].style.display =3D 'none';=0A=
+var e =3D document.getElementById('searchinput');=0A=
+searchChange(e);=0A=
+searchBlur(e);=0A=
+//-->=0A=
+</SCRIPT>
+=20
+<DIV id=3D"logo"><A =
+href=3D"http://wiki.apache.org/incubator/FrontPage">Incubator=20
+Wiki</A></DIV>
+<DIV id=3D"username"><A id=3D"login" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3Dlogin"=20
+rel=3D"nofollow">Login</A></DIV>
+<H1 id=3D"locationline"><SPAN id=3D"pagelocation"><A title=3D"Click to =
+do a full-text search for this title"=20
+class=3D"backlink" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3Dfullsearc=
+h&amp;value=3Dlinkto%3A%22FlumeProposal%22&amp;context=3D180"=20
+rel=3D"nofollow">FlumeProposal</A></SPAN> </H1>
+<UL id=3D"navibar">
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FrontPage">FrontPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/RecentChanges">RecentChanges</A>=
+</LI>
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FindPage">FindPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/HelpContents">HelpContents</A></=
+LI>
+  <LI class=3D"current"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal">FlumeProposal</A>=
+</LI>=20
+</UL>
+<DIV id=3D"pageline">
+<HR style=3D"display: none;">
+</DIV>
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal#">Comments</A></LI=
+>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3DAttachFil=
+e"=20
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/FlumeProposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL></DIV>
+<DIV id=3D"page" lang=3D"en" dir=3D"ltr">
+<DIV id=3D"content" lang=3D"en" dir=3D"ltr"><SPAN class=3D"anchor" =
+id=3D"top"></SPAN>=20
+<SPAN class=3D"anchor" id=3D"line-1"></SPAN>
+<P class=3D"line867">=20
+<H1 id=3D"Flume_-_A_Distributed_Log_Collection_System">Flume - A =
+Distributed Log=20
+Collection System</H1><SPAN class=3D"anchor" id=3D"line-2"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-3"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Abstract">Abstract</H2><SPAN class=3D"anchor" =
+id=3D"line-4"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-5"></SPAN>
+<P class=3D"line874">Flume is a distributed, reliable, and available =
+system for=20
+efficiently collecting, aggregating, and moving large amounts of log =
+data to=20
+scalable data storage systems such as Apache Hadoop's HDFS. <SPAN =
+class=3D"anchor"=20
+id=3D"line-6"></SPAN><SPAN class=3D"anchor" id=3D"line-7"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Proposal">Proposal</H2><SPAN class=3D"anchor" =
+id=3D"line-8"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-9"></SPAN>
+<P class=3D"line874">Flume is a distributed, reliable, and available =
+system for=20
+efficiently collecting, aggregating, and moving large amounts of log =
+data from=20
+many different sources to a centralized data store. Its main goal is to =
+deliver=20
+data from applications to Hadoop=E2=80=99s HDFS.  It has a simple and =
+flexible=20
+architecture for transporting streaming event data via flume nodes to =
+the data=20
+store.  It is robust and fault-tolerant with tunable reliability =
+mechanisms that=20
+rely upon many failover and recovery mechanisms. The system is centrally =
+
+configured and allows for intelligent dynamic management. It uses a =
+simple=20
+extensible data model that allows for lightweight online analytic =
+applications. =20
+It provides a pluggable mechanism by which new sources, destinations, =
+and=20
+analytic functions which can be integrated within a Flume pipeline. =
+<SPAN class=3D"anchor"=20
+id=3D"line-10"></SPAN><SPAN class=3D"anchor" id=3D"line-11"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Background">Background</H2><SPAN class=3D"anchor"=20
+id=3D"line-12"></SPAN><SPAN class=3D"anchor" id=3D"line-13"></SPAN>
+<P class=3D"line862">Flume was initially developed by Cloudera to enable =
+reliable=20
+and simplified collection of log information from many distributed =
+sources. It=20
+was later open-sourced by Cloudera on <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/GitHub">GitHub</A>=20
+as an Apache 2.0 licensed project in June 2010. During this time Flume =
+has been=20
+formally released five times as versions 0.9.0 (June 2010), 0.9.1 (Aug =
+2010),=20
+0.9.1u1 (Oct 2010), 0.9.2 (Nov 2010), and 0.9.3 (Feb 2011).  These =
+releases are=20
+also distributed by Cloudera as source and binaries along with =
+enhancements as=20
+part of Cloudera Distribution including Apache Hadoop (CDH). <SPAN =
+class=3D"anchor"=20
+id=3D"line-14"></SPAN><SPAN class=3D"anchor" id=3D"line-15"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Rationale">Rationale</H2><SPAN class=3D"anchor" =
+id=3D"line-16"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-17"></SPAN>
+<P class=3D"line874">Collecting log information in a data center in a =
+timely,=20
+reliable, and efficient manner is a difficult challenge but important =
+because=20
+when aggregated and analyzed, log information can yield valuable =
+business=20
+insights.   We believe that users and operators need a manageable =
+systematic=20
+approach for log collection that simplifies the creation, the =
+monitoring, and=20
+the administration of reliable log data pipelines.  Oftentimes today, =
+this=20
+collection is attempted by periodically shipping data in batches and by =
+using=20
+potentially unreliable and inefficient ad-hoc methods.  <SPAN =
+class=3D"anchor" id=3D"line-18"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-19"></SPAN>
+<P class=3D"line874">Log data is typically generated in various systems =
+running=20
+within a data center that can range from a few machines to hundreds of =
+machines.=20
+ In aggregate, the data acts like a large-volume continuous stream with =
+contents=20
+that can have highly-varied format and highly-varied content.  The =
+volume and=20
+variety of raw log data makes Apache Hadoop's HDFS file system an ideal =
+storage=20
+location before the eventual analysis.  Unfortunately, HDFS has =
+limitations with=20
+regards to durability as well as scaling limitations when handling a =
+large=20
+number of low-bandwidth connections or small files.  Similar technical=20
+challenges are also suffered when attempting to write data to other data =
+storage=20
+services. <SPAN class=3D"anchor" id=3D"line-20"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-21"></SPAN>
+<P class=3D"line874">Flume addresses these challenges by providing a =
+reliable,=20
+scalable, manageable, and extensible solution.  It uses a streaming =
+design for=20
+capturing and aggregating log information from varied sources in a =
+distributed=20
+environment and has centralized management features for minimal =
+configuration=20
+and management overhead. <SPAN class=3D"anchor" =
+id=3D"line-22"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-23"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Initial_Goals">Initial Goals</H2><SPAN class=3D"anchor"=20
+id=3D"line-24"></SPAN><SPAN class=3D"anchor" id=3D"line-25"></SPAN>
+<P class=3D"line874">Flume is currently in its first major release with =
+a=20
+considerable number of enhancement requests, tasks, and issues recorded =
+towards=20
+its future development. The initial goal of this project will be to =
+continue to=20
+build community in the spirit of the "Apache Way", and to address the =
+highly=20
+requested features and bug-fixes towards the next dot release.  <SPAN =
+class=3D"anchor"=20
+id=3D"line-26"></SPAN><SPAN class=3D"anchor" id=3D"line-27"></SPAN>
+<P class=3D"line874">Some goals include: <SPAN class=3D"anchor" =
+id=3D"line-28"></SPAN>
+<UL>
+  <LI>To stand up a sustaining Apache-based community around the Flume =
+codebase.=20
+  <SPAN class=3D"anchor" id=3D"line-29"></SPAN></LI>
+  <LI>Implementing core functionality of a usable highly-available Flume =
+master.=20
+  <SPAN class=3D"anchor" id=3D"line-30"></SPAN></LI>
+  <LI>Performance, usability, and robustness improvements. <SPAN =
+class=3D"anchor"=20
+  id=3D"line-31"></SPAN></LI>
+  <LI>Improving the ability to monitor and diagnose problems as data is=20
+  transported. <SPAN class=3D"anchor" id=3D"line-32"></SPAN></LI>
+  <LI>Providing a centralized place for contributed connectors and =
+related=20
+  projects. <SPAN class=3D"anchor" id=3D"line-33"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-34"></SPAN></LI></UL>
+<P class=3D"line867">
+<H1 id=3D"Current_Status">Current Status</H1><SPAN class=3D"anchor"=20
+id=3D"line-35"></SPAN><SPAN class=3D"anchor" id=3D"line-36"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Meritocracy">Meritocracy</H2><SPAN class=3D"anchor"=20
+id=3D"line-37"></SPAN><SPAN class=3D"anchor" id=3D"line-38"></SPAN>
+<P class=3D"line874">Flume was initially developed by Jonathan Hsieh in =
+July 2009=20
+along with development team at Cloudera. Developers external to Cloudera =
+
+provided feedback, suggested features and fixes and implemented =
+extensions of=20
+Flume. Cloudera engineering team has since maintained the project with =
+Jonathan=20
+Hsieh, Henry Robinson, and Patrick Hunt dedicated towards its =
+improvement.=20
+Contributors to Flume and its connectors include developers from =
+different=20
+companies and different parts of the world. <SPAN class=3D"anchor"=20
+id=3D"line-39"></SPAN><SPAN class=3D"anchor" id=3D"line-40"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Community">Community</H2><SPAN class=3D"anchor" =
+id=3D"line-41"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-42"></SPAN>
+<P class=3D"line862">Flume is currently used by a number of =
+organizations all over=20
+the world. Flume has an active and growing user and developer community =
+with=20
+active participation in <A class=3D"https" =
+href=3D"https://groups.google.com/a/cloudera.org/group/flume-user/topics"=
+>user</A>=20
+and <A class=3D"https" =
+href=3D"https://groups.google.com/a/cloudera.org/group/flume-dev/topics">=
+developer</A>=20
+mailing lists.  The users and developers also communicate via IRC on =
+#flume at=20
+irc.freenode.net. <SPAN class=3D"anchor" id=3D"line-43"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-44"></SPAN>
+<P class=3D"line874">Since open sourcing the project, there have been =
+over 15=20
+different people from diverse organizations who have contributed code. =
+During=20
+this period, the project team has hosted open, in-person, quarterly =
+meetups to=20
+discuss new features, new designs, and new use-case stories. <SPAN =
+class=3D"anchor"=20
+id=3D"line-45"></SPAN><SPAN class=3D"anchor" id=3D"line-46"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Core_Developers">Core Developers</H2><SPAN class=3D"anchor"=20
+id=3D"line-47"></SPAN><SPAN class=3D"anchor" id=3D"line-48"></SPAN>
+<P class=3D"line874">The core developers for Flume project are: <SPAN =
+class=3D"anchor"=20
+id=3D"line-49"></SPAN>
+<UL>
+  <LI>Andrew Bayer: Andrew has a lot of expertise with build tools, =
+specifically=20
+  Jenkins continuous integration and Maven. <SPAN class=3D"anchor"=20
+  id=3D"line-50"></SPAN></LI>
+  <LI>Jonathan Hsieh: Jonathan designed and implemented much of the =
+original=20
+  code. <SPAN class=3D"anchor" id=3D"line-51"></SPAN></LI>
+  <LI>Patrick Hunt: Patrick has improved the web interfaces of Flume =
+components=20
+  and contributed several build quality  improvements. <SPAN =
+class=3D"anchor" id=3D"line-52"></SPAN></LI>
+  <LI>Bruce Mitchener: Bruce has improved the internal logging =
+infrastructure as=20
+  well as edited significant portions of the Flume manual. <SPAN =
+class=3D"anchor"=20
+  id=3D"line-53"></SPAN></LI>
+  <LI>
+  <P class=3D"line862">Henry Robinson: Henry has implemented much of the =
+<A class=3D"nonexistent"=20
+  href=3D"http://wiki.apache.org/incubator/ZooKeeper">ZooKeeper</A> =
+integration,=20
+  plugin mechanisms, as well as several Flume features and bug fixes. =
+<SPAN=20
+  class=3D"anchor" id=3D"line-54"></SPAN></P></LI>
+  <LI>Eric Sammer: Eric has implemented the Maven build, as well as =
+several=20
+  Flume features and bug fixes. <SPAN class=3D"anchor" =
+id=3D"line-55"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-56"></SPAN></LI></UL>
+<P class=3D"line874">All core developers of the Flume project have =
+contributed=20
+towards Hadoop or related Apache projects and are very familiar with =
+Apache=20
+principals and philosophy for community driven software development. =
+<SPAN=20
+class=3D"anchor" id=3D"line-57"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-58"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Alignment">Alignment</H2><SPAN class=3D"anchor" =
+id=3D"line-59"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-60"></SPAN>
+<P class=3D"line874">Flume complements Hadoop Map-Reduce, Pig, Hive, =
+HBase by=20
+providing a robust mechanism to allow log data integration from external =
+systems=20
+for effective analysis.  Its design enable efficient integration of =
+newly=20
+ingested data to Hive's data warehouse.   <SPAN class=3D"anchor"=20
+id=3D"line-61"></SPAN><SPAN class=3D"anchor" id=3D"line-62"></SPAN>
+<P class=3D"line874">Flume's architecture is open and easily extensible. =
+ This has=20
+encouraged many users to contribute integrate plugins to other projects. =
+ For=20
+example, several users have contributed connectors to message queuing =
+and bus=20
+services, to several open source data stores, to incremental search =
+indexes, and=20
+to a stream analysis engines. <SPAN class=3D"anchor" =
+id=3D"line-63"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-64"></SPAN>
+<P class=3D"line867">
+<H1 id=3D"Known_Risks">Known Risks</H1><SPAN class=3D"anchor"=20
+id=3D"line-65"></SPAN><SPAN class=3D"anchor" id=3D"line-66"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Orphaned_Products">Orphaned Products</H2><SPAN =
+class=3D"anchor" id=3D"line-67"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-68"></SPAN>
+<P class=3D"line874">Flume is already deployed in production at multiple =
+companies=20
+and they are actively participating in feature requests and user led=20
+discussions. Flume is getting traction with developers and thus the =
+risks of it=20
+being orphaned are minimal. <SPAN class=3D"anchor" =
+id=3D"line-69"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-70"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Inexperience_with_Open_Source">Inexperience with Open =
+Source</H2><SPAN=20
+class=3D"anchor" id=3D"line-71"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-72"></SPAN>
+<P class=3D"line874">All code developed for Flume has is open sourced by =
+Cloudera=20
+under Apache 2.0 license.  All committers of Flume project are =
+intimately=20
+familiar with the Apache model for open-source development and are =
+experienced=20
+with working with new contributors. <SPAN class=3D"anchor"=20
+id=3D"line-73"></SPAN><SPAN class=3D"anchor" id=3D"line-74"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Homogeneous_Developers">Homogeneous Developers</H2><SPAN =
+class=3D"anchor"=20
+id=3D"line-75"></SPAN><SPAN class=3D"anchor" id=3D"line-76"></SPAN>
+<P class=3D"line874">The initial set of committers is from a reduced set =
+of=20
+organizations. However, we expect that once approved for incubation, the =
+project=20
+will attract new contributors from diverse organizations and will thus =
+grow=20
+organically. The participation of developers from several different=20
+organizations in the mailing list is a strong indication for this =
+assertion.=20
+<SPAN class=3D"anchor" id=3D"line-77"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-78"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Reliance_on_Salaried_Developers">Reliance on Salaried=20
+Developers</H2><SPAN class=3D"anchor" id=3D"line-79"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-80"></SPAN>
+<P class=3D"line874">It is expected that Flume will be developed on =
+salaried and=20
+volunteer time, although all of the initial developers will work on it =
+mainly on=20
+salaried time. <SPAN class=3D"anchor" id=3D"line-81"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-82"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Relationships_with_Other_Apache_Products">Relationships with =
+Other=20
+Apache Products</H2><SPAN class=3D"anchor" id=3D"line-83"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-84"></SPAN>
+<P class=3D"line862">Flume depends upon other Apache Projects: Apache =
+Hadoop,=20
+Apache Log4J, Apache <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/ZooKeeper">ZooKeeper</A>,=20
+Apache Thrift, Apache Avro, multiple Apache Commons components. Its =
+build=20
+depends upon Apache Ant and Apache Maven. <SPAN class=3D"anchor"=20
+id=3D"line-85"></SPAN><SPAN class=3D"anchor" id=3D"line-86"></SPAN>
+<P class=3D"line874">Flume users have created connectors that interact =
+with=20
+several other Apache projects including Apache HBase and Apache =
+Cassandra. =20
+<SPAN class=3D"anchor" id=3D"line-87"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-88"></SPAN>
+<P class=3D"line862">Flume's functionality has some indirect or direct =
+overlap=20
+with the functionality of Apache Chukwa but has several significant=20
+architectural diffferences.  Both systems can be used to collect log =
+data to=20
+write to hdfs.  However, Chukwa's primary goals are the analytic and =
+monitoring=20
+aspects of a Hadoop cluster.  Instead of focusing on analytics, Flume =
+focuses=20
+primarily upon data transport and integration with a wide set of data =
+sources=20
+and data destinations.   Architecturally, Chukwa components are =
+individually and=20
+statically configured.  It also depends upon Hadoop <A =
+class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/MapReduce">MapReduce</A>=20
+for its core functionality.  In contrast, Flume's components are =
+dynamically and=20
+centrally configured and does not depend directly upon Hadoop <A =
+class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/MapReduce">MapReduce</A>.  =
+Furthermore,=20
+Flume provides a more general model for handling data and enables =
+integration=20
+with projects such as Apache Hive, data stores such as Apache HBase, =
+Apache=20
+Cassandra and Voldemort, and several Apache Lucene-related projects.  =
+<SPAN=20
+class=3D"anchor" id=3D"line-89"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-90"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"An_Excessive_Fascination_with_the_Apache_Brand">An Excessive =
+Fascination=20
+with the Apache Brand</H2><SPAN class=3D"anchor" =
+id=3D"line-91"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-92"></SPAN>
+<P class=3D"line874">We would like Flume to become an Apache project to =
+further=20
+foster a healthy community of contributors and consumers around the =
+project. =20
+Since Flume directly interacts with many Apache Hadoop-related projects =
+by=20
+solves an important problem of many Hadoop users, residing in the Apache =
+
+Software Foundation will increase interaction with the larger community. =
+<SPAN=20
+class=3D"anchor" id=3D"line-93"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-94"></SPAN>
+<P class=3D"line867">
+<H1 id=3D"Documentation">Documentation</H1><SPAN class=3D"anchor"=20
+id=3D"line-95"></SPAN><SPAN class=3D"anchor" id=3D"line-96"></SPAN>
+<UL>
+  <LI>All Flume documentation (User Guide, Developer Guide, Cookbook, =
+and=20
+  Windows Guide) is maintained within Flume sources and can be built =
+directly.=20
+  <SPAN class=3D"anchor" id=3D"line-97"></SPAN></LI>
+  <LI>
+  <P class=3D"line862">Cloudera provides documentation specific to its=20
+  distribution of Flume at: <A class=3D"http" =
+href=3D"http://archive.cloudera.com/cdh/3/flume/">http://archive.cloudera=
+.com/cdh/3/flume/</A>=20
+  <SPAN class=3D"anchor" id=3D"line-98"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Flume wiki at <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/GitHub">GitHub</A>:=20
+  <A class=3D"https"=20
+  =
+href=3D"https://github.com/cloudera/flume/wiki">https://github.com/cloude=
+ra/flume/wiki</A>=20
+  <SPAN class=3D"anchor" id=3D"line-99"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">Flume jira at Cloudera: <A class=3D"https" =
+href=3D"https://issues.cloudera.org/browse/flume">https://issues.cloudera=
+.org/browse/flume</A>=20
+  <SPAN class=3D"anchor" id=3D"line-100"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-101"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H1 id=3D"Initial_Source">Initial Source</H1><SPAN class=3D"anchor"=20
+id=3D"line-102"></SPAN><SPAN class=3D"anchor" id=3D"line-103"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line891"><A class=3D"https" =
+href=3D"https://github.com/cloudera/flume/tree/">https://github.com/cloud=
+era/flume/tree/</A>=20
+  <SPAN class=3D"anchor" id=3D"line-104"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-105"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Source_and_Intellectual_Property_Submission_Plan">Source and=20
+Intellectual Property Submission Plan</H2><SPAN class=3D"anchor"=20
+id=3D"line-106"></SPAN><SPAN class=3D"anchor" id=3D"line-107"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">The initial source is already licensed under the =
+Apache=20
+  License, Version 2.0. <A class=3D"https" =
+href=3D"https://github.com/cloudera/flume/blob/master/LICENSE">https://gi=
+thub.com/cloudera/flume/blob/master/LICENSE</A>=20
+  <SPAN class=3D"anchor" id=3D"line-108"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-109"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"External_Dependencies">External Dependencies</H2><SPAN =
+class=3D"anchor"=20
+id=3D"line-110"></SPAN><SPAN class=3D"anchor" id=3D"line-111"></SPAN>
+<P class=3D"line874">The required external dependencies are all Apache =
+License or=20
+compatible licenses. Following components with non-Apache licenses are=20
+enumerated: <SPAN class=3D"anchor" id=3D"line-112"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-113"></SPAN>
+<UL>
+  <LI>org.arabidopsis.ahocorasick : BSD-style <SPAN class=3D"anchor"=20
+  id=3D"line-114"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-115"></SPAN></LI></UL>
+<P class=3D"line874">Non-Apache build tools that are used by Flume are =
+as follows:=20
+<SPAN class=3D"anchor" id=3D"line-116"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-117"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line891"><A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/AsciiDoc">AsciiDoc</A>:=20
+  GNU GPLv2 <SPAN class=3D"anchor" id=3D"line-118"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line891"><A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/FindBugs">FindBugs</A>:=20
+  GNU LGPL <SPAN class=3D"anchor" id=3D"line-119"></SPAN></P></LI>
+  <LI>Cobertura: GNU GPLv2 <SPAN class=3D"anchor" =
+id=3D"line-120"></SPAN></LI>
+  <LI>PMD : BSD-style <SPAN class=3D"anchor" =
+id=3D"line-121"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-122"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Cryptography">Cryptography</H2><SPAN class=3D"anchor"=20
+id=3D"line-123"></SPAN><SPAN class=3D"anchor" id=3D"line-124"></SPAN>
+<P class=3D"line874">Flume uses standard APIs and tools for SSH and SSL=20
+communication where necessary. <SPAN class=3D"anchor" =
+id=3D"line-125"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-126"></SPAN>
+<P class=3D"line867">
+<H1 id=3D"Required__Resources">Required  Resources</H1><SPAN =
+class=3D"anchor" id=3D"line-127"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-128"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Mailing_lists">Mailing lists</H2><SPAN class=3D"anchor"=20
+id=3D"line-129"></SPAN><SPAN class=3D"anchor" id=3D"line-130"></SPAN>
+<UL>
+  <LI>flume-private (with moderated subscriptions) <SPAN =
+class=3D"anchor" id=3D"line-131"></SPAN></LI>
+  <LI>flume-dev <SPAN class=3D"anchor" id=3D"line-132"></SPAN></LI>
+  <LI>flume-commits <SPAN class=3D"anchor" id=3D"line-133"></SPAN></LI>
+  <LI>flume-user <SPAN class=3D"anchor" id=3D"line-134"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-135"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Subversion_Directory">Subversion Directory</H2><SPAN =
+class=3D"anchor" id=3D"line-136"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-137"></SPAN>
+<P class=3D"line867"><A class=3D"https" =
+href=3D"https://svn.apache.org/repos/asf/incubator/flume">https://svn.apa=
+che.org/repos/asf/incubator/flume</A>=20
+<SPAN class=3D"anchor" id=3D"line-138"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-139"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Issue_Tracking">Issue Tracking</H2><SPAN class=3D"anchor"=20
+id=3D"line-140"></SPAN><SPAN class=3D"anchor" id=3D"line-141"></SPAN>
+<P class=3D"line874">JIRA Flume (FLUME) <SPAN class=3D"anchor"=20
+id=3D"line-142"></SPAN><SPAN class=3D"anchor" id=3D"line-143"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Other_Resources">Other Resources</H2><SPAN class=3D"anchor"=20
+id=3D"line-144"></SPAN><SPAN class=3D"anchor" id=3D"line-145"></SPAN>
+<P class=3D"line874">The existing code already has unit and integration =
+tests so=20
+we would like a Jenkins instance to run them whenever a new patch is =
+submitted.=20
+This can be added after project creation. <SPAN class=3D"anchor"=20
+id=3D"line-146"></SPAN><SPAN class=3D"anchor" id=3D"line-147"></SPAN>
+<P class=3D"line867">
+<H1 id=3D"Initial_Committers">Initial Committers</H1><SPAN =
+class=3D"anchor" id=3D"line-148"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-149"></SPAN>
+<UL>
+  <LI>Andrew Bayer (abayer at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-150"></SPAN></LI>
+  <LI>Derek Deeter (ddeeterctrb at gmail dot com) <SPAN class=3D"anchor" =
+id=3D"line-151"></SPAN></LI>
+  <LI>Jonathan Hsieh (jon at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-152"></SPAN></LI>
+  <LI>Patrick Hunt (phunt at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-153"></SPAN></LI>
+  <LI>Aaron Kimball (akimball83 at gmail dot com)  <SPAN =
+class=3D"anchor" id=3D"line-154"></SPAN></LI>
+  <LI>Bruce Mitchener (bruce.mitchener at gmail dot com) <SPAN =
+class=3D"anchor"=20
+  id=3D"line-155"></SPAN></LI>
+  <LI>Arvind Prabhakar (arvind at cloudera dot com) <SPAN =
+class=3D"anchor" id=3D"line-156"></SPAN></LI>
+  <LI>Ahmed Radwan (ahmed at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-157"></SPAN></LI>
+  <LI>Henry Robinson (henry at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-158"></SPAN></LI>
+  <LI>Eric Sammer (esammer at cloudera dot com) <SPAN class=3D"anchor" =
+id=3D"line-159"></SPAN></LI>
+  <LI>Nick Verbeck (nerdynick at gmail dot com) <SPAN class=3D"anchor" =
+id=3D"line-160"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-161"></SPAN></LI></UL>
+<P class=3D"line867">
+<H1 id=3D"Affiliations">Affiliations</H1><SPAN class=3D"anchor"=20
+id=3D"line-162"></SPAN><SPAN class=3D"anchor" id=3D"line-163"></SPAN>
+<UL>
+  <LI>Andrew Bayer, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-164"></SPAN></LI>
+  <LI>Derek Deeter, Intuit  <SPAN class=3D"anchor" =
+id=3D"line-165"></SPAN></LI>
+  <LI>Jonathan Hsieh, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-166"></SPAN></LI>
+  <LI>Patrick Hunt, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-167"></SPAN></LI>
+  <LI>Aaron Kimball, Odiago  <SPAN class=3D"anchor" =
+id=3D"line-168"></SPAN></LI>
+  <LI>Bruce Mitchener, Independent <SPAN class=3D"anchor"=20
+  id=3D"line-169"></SPAN></LI>
+  <LI>Arvind Prabhakar, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-170"></SPAN></LI>
+  <LI>Ahmed Radwan, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-171"></SPAN></LI>
+  <LI>Henry Robinson, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-172"></SPAN></LI>
+  <LI>Eric Sammer, Cloudera <SPAN class=3D"anchor" =
+id=3D"line-173"></SPAN></LI>
+  <LI>Nick Verbeck, Lijit <SPAN class=3D"anchor" =
+id=3D"line-174"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-175"></SPAN></LI></UL>
+<P class=3D"line867">
+<H1 id=3D"Sponsors">Sponsors</H1><SPAN class=3D"anchor" =
+id=3D"line-176"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-177"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Champion">Champion</H2><SPAN class=3D"anchor" =
+id=3D"line-178"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-179"></SPAN>
+<UL>
+  <LI>Nigel Daley <SPAN class=3D"anchor" id=3D"line-180"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-181"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Nominated_Mentors">Nominated Mentors</H2><SPAN =
+class=3D"anchor" id=3D"line-182"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-183"></SPAN>
+<UL>
+  <LI>Tom White <SPAN class=3D"anchor" id=3D"line-184"></SPAN></LI>
+  <LI>Nigel Daley <SPAN class=3D"anchor" id=3D"line-185"></SPAN></LI>
+  <LI>Ralph Goers  <SPAN class=3D"anchor" id=3D"line-186"></SPAN></LI>
+  <LI>Patrick Hunt <SPAN class=3D"anchor" id=3D"line-187"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-188"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Sponsoring_Entity">Sponsoring Entity</H2><SPAN =
+class=3D"anchor" id=3D"line-189"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-190"></SPAN>
+<UL>
+  <LI>Apache Incubator PMC <SPAN class=3D"anchor"=20
+id=3D"line-191"></SPAN></LI></UL><SPAN class=3D"anchor" =
+id=3D"bottom"></SPAN></DIV>
+<P class=3D"info" id=3D"pageinfo" lang=3D"en" dir=3D"ltr">FlumeProposal  =
+(last edited=20
+2011-06-09 16:52:56 by <SPAN title=3D"NicholasVerbeck @ =
+67.50.84.126[67.50.84.126]"><A=20
+title=3D"NicholasVerbeck @ 67.50.84.126[67.50.84.126]" =
+class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/NicholasVerbeck">NicholasVerbeck=
+</A></SPAN>)</P>
+<DIV id=3D"pagebottom"></DIV></DIV>
+<DIV id=3D"footer">
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal#">Comments</A></LI=
+>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/FlumeProposal?action=3DAttachFil=
+e"=20
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/FlumeProposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL>
+<UL id=3D"credits">
+  <LI><A title=3D"This site uses the MoinMoin Wiki software." =
+href=3D"http://moinmo.in/">MoinMoin=20
+  Powered</A></LI>
+  <LI><A title=3D"MoinMoin is written in Python."=20
+  href=3D"http://moinmo.in/Python">Python Powered</A></LI>
+  <LI><A title=3D"MoinMoin is GPL licensed." =
+href=3D"http://moinmo.in/GPL">GPL=20
+  licensed</A></LI>
+  <LI><A title=3D"Click here to validate this page." =
+href=3D"http://validator.w3.org/check?uri=3Dreferer">Valid=20
+  HTML 4.01</A></LI> </UL></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/common.css
+
+html {
+	color: black; font-family: sans-serif; font-size: 1em; =
+background-color: white;
+}
+body {
+	margin: 0px;
+}
+a {
+	color: rgb(0, 68, 179);
+}
+a:visited {
+	color: rgb(255, 123, 179);
+}
+a.nonexistent:visited {
+	color: gray;
+}
+a.nonexistent {
+	color: gray;
+}
+a.badinterwiki:visited {
+	color: gray;
+}
+a.badinterwiki {
+	color: gray;
+}
+a.www::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.http::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.https::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.file::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.ftp::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.nntp::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.news::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.telnet::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ssh::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.irc::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ircs::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.mailto::before {
+	margin: 0px 0.2em; content: url(../img/moin-email.png);
+}
+a.attachment::before {
+	margin: 0px 0.2em; content: url(../img/moin-attach.png);
+}
+a.badinterwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+a.interwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+li p {
+	margin: 0.25em 0px;
+}
+li.gap {
+	margin-top: 0.5em;
+}
+dt {
+	font-weight: bold; margin-top: 0.5em;
+}
+dd {
+	margin-top: 0px; margin-bottom: 0px;
+}
+dd p {
+	margin: 0.25em 0px;
+}
+a {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+img.drawing {
+	border: 0px currentColor; border-image: none;
+}
+pre {
+	padding: 5pt; border: 1pt solid rgb(174, 189, 204); border-image: none; =
+font-family: courier, monospace; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(243, 245, 247);
+}
+pre.comment {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; color: red; background-color: rgb(204, 204, 204);
+}
+pre.comment::before {
+	content: url(../img/attention.png);
+}
+.comment {
+	color: rgb(85, 85, 85); background-color: rgb(221, 221, 255);
+}
+.red {
+	background-color: rgb(255, 204, 204);
+}
+.green {
+	background-color: rgb(204, 255, 204);
+}
+.blue {
+	background-color: rgb(204, 204, 255);
+}
+.yellow {
+	background-color: rgb(255, 242, 159);
+}
+.orange {
+	background-color: rgb(255, 213, 155);
+}
+.solid {
+	padding: 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+.dashed {
+	padding: 2px; border: 2px dashed rgb(0, 0, 0); border-image: none;
+}
+.dotted {
+	padding: 2px; border: 2px dotted rgb(0, 0, 0); border-image: none;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.justify {
+	text-align: justify;
+}
+table {
+	margin: 0.5em 0px 0px 0.5em; border-collapse: collapse;
+}
+th {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td p {
+	margin: 0px; padding: 0px;
+}
+div.table-of-contents {
+	margin: 0.5em 0px 0.5em 1em; padding: 0.5em 0.75em 0.5em 0.5em; border: =
+1px solid rgb(187, 187, 187); border-image: none; text-align: left; =
+color: black; font-size: 80%; display: inline-table; max-width: 50%; =
+background-color: rgb(238, 238, 238);
+}
+div.table-of-contents ol {
+	margin: 0px; padding: 0px 0px 0px 2em;
+}
+div.table-of-contents ul {
+	list-style: none; margin: 0px;
+}
+div.table-of-contents li {
+	margin: 0px; padding: 0px;
+}
+p.table-of-contents-heading {
+	margin: 0px 0px 0.5em; padding: 0px; letter-spacing: 0.07em; =
+font-weight: bold;
+}
+table.navigation {
+	background: rgb(255, 255, 255); margin: 0px;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+.footnotes ol {
+	margin: 0px 0px 1em; padding: 0px 2em;
+}
+.footnotes li {
+=09
+}
+.info {
+	color: gray; font-size: 0.7em; float: right;
+}
+#pageinfo {
+	margin-top: 2em;
+}
+.seperator {
+	color: gray;
+}
+#pagebottom {
+	clear: both;
+}
+hr {
+	border: 0px currentColor; border-image: none; height: 1pt; =
+background-color: rgb(156, 156, 156);
+}
+.hr1 {
+	height: 2pt;
+}
+.hr2 {
+	height: 3pt;
+}
+.hr3 {
+	height: 4pt;
+}
+.hr4 {
+	height: 5pt;
+}
+.hr5 {
+	height: 6pt;
+}
+.hr6 {
+	height: 7pt;
+}
+.u {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.warning {
+	color: red;
+}
+.error {
+	color: red;
+}
+strong.highlight {
+	padding: 1pt; background-color: rgb(204, 224, 255);
+}
+.rcrss {
+	margin: 0px 7px 0px 14px; top: 9px; height: 0px; float: right; =
+position: relative;
+}
+*[div=3D'rtl'] .rcrss {
+	float: left;
+}
+[dir=3D'rtl'].recentchanges .rcrss {
+	float: left;
+}
+.recentchanges table {
+	border: 1px solid rgb(77, 125, 169); border-image: none; clear: both; =
+border-collapse: collapse;
+}
+.recentchanges td {
+	background: rgb(230, 234, 240); border: currentColor; border-image: =
+none; vertical-align: top;
+}
+.recentchanges .rcdaybreak td {
+	background: rgb(129, 187, 242); border: 1px solid rgb(77, 125, 169); =
+border-image: none;
+}
+.rcdaybreak td a {
+	font-size: 0.88em;
+}
+.rcicon1 {
+	text-align: center;
+}
+.rcicon2 {
+	text-align: center;
+}
+.rcpagelink {
+	width: 33%;
+}
+.rctime {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rceditor {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rccomment {
+	width: 50%; color: gray; font-size: 0.88em;
+}
+.userpref table {
+	border: currentColor; border-image: none;
+}
+.userpref td {
+	border: currentColor; border-image: none;
+}
+div.codearea {
+	margin: 0.5em 0px; padding: 0px; border: 1pt solid rgb(174, 189, 204); =
+border-image: none; color: black; background-color: rgb(243, 245, 247);
+}
+div.codearea pre {
+	margin: 0px; padding: 10pt; border: currentColor; border-image: none;
+}
+a.codenumbers {
+	margin: 0px 10pt; color: gray; font-size: 0.85em;
+}
+div.codearea pre span.LineNumber {
+	color: gray;
+}
+div.codearea pre span.ID {
+	color: rgb(0, 0, 0);
+}
+div.codearea pre span.Operator {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.Char {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.Comment {
+	color: rgb(0, 128, 0);
+}
+div.codearea pre span.Number {
+	color: rgb(0, 128, 192);
+}
+div.codearea pre span.String {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.SPChar {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.ResWord {
+	color: rgb(160, 0, 0);
+}
+div.codearea pre span.ConsWord {
+	color: rgb(0, 128, 128); font-weight: bold;
+}
+div.codearea pre span.Error {
+	border: 1.5pt solid rgb(255, 0, 0); border-image: none; color: rgb(255, =
+128, 128);
+}
+div.codearea pre span.ResWord2 {
+	color: rgb(0, 128, 255); font-weight: bold;
+}
+div.codearea pre span.Special {
+	color: rgb(0, 0, 255);
+}
+div.codearea pre span.Preprc {
+	color: rgb(128, 57, 153);
+}
+div.codearea pre span.DiffAdded {
+	color: rgb(72, 118, 255);
+}
+div.codearea pre span.DiffRemoved {
+	color: rgb(255, 0, 0);
+}
+div.codearea pre span.DiffChanged {
+	color: rgb(255, 127, 80);
+}
+div.codearea pre span.DiffSeparator {
+	color: rgb(34, 139, 34); font-weight: bold;
+}
+.advancedsearch {
+	border: 1pt solid rgb(173, 185, 204); border-image: none;
+}
+.advancedsearch td {
+	border: 0px currentColor; border-image: none; vertical-align: top; =
+background-color: rgb(231, 231, 231);
+}
+.advancedsearch td.searchfor {
+	font-weight: bold;
+}
+.advancedsearch input {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch input[disabled] {
+	background-color: rgb(238, 238, 238);
+}
+.advancedsearch td.submit {
+	text-align: right; border-top-color: rgb(173, 185, 204); =
+border-top-width: 1px; border-top-style: solid; background-color: =
+rgb(255, 255, 255);
+}
+.advancedsearch optioni {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch select {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.searchresults dt {
+	font-weight: normal; margin-top: 1em;
+}
+.searchresults dd {
+	font-size: 0.85em;
+}
+.searchresults p {
+	font-size: 0.85em;
+}
+.searchresults .searchhitinfobar {
+	color: rgb(0, 128, 0); margin-top: 0px; margin-left: 15px;
+}
+p.searchstats {
+	padding: 2px; width: 100%; text-align: right; font-size: 0.8em; =
+border-top-color: rgb(144, 136, 220); border-top-width: 1px; =
+border-top-style: solid; background-color: rgb(230, 234, 240);
+}
+p.searchhint {
+	padding: 2px; border: 1px solid rgb(144, 136, 220); border-image: none; =
+background-color: rgb(230, 234, 240);
+}
+.searchpages {
+	margin-right: auto; margin-left: auto;
+}
+.searchpages tr {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td a {
+	text-decoration: underline;
+}
+.searchpages td a:link {
+	text-decoration: underline;
+}
+a.cal-emptyday {
+	text-align: center; color: rgb(119, 119, 119);
+}
+a.cal-usedday {
+	text-align: center; color: rgb(0, 0, 0); font-weight: bold;
+}
+td.cal-workday {
+	text-align: center; background-color: rgb(221, 221, 255);
+}
+td.cal-weekend {
+	text-align: center; background-color: rgb(255, 221, 221);
+}
+td.cal-today {
+	border-width: 2pt; border-style: solid; text-align: center; =
+background-color: rgb(204, 255, 204);
+}
+td.cal-invalidday {
+	background-color: rgb(204, 204, 204);
+}
+a.cal-link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+th.cal-header {
+	text-align: center; background-color: rgb(221, 187, 255);
+}
+table.tip {
+	border-width: 1px; border-style: solid; color: black; font-size: small; =
+font-weight: normal; background-color: rgb(255, 136, 136);
+}
+th.tip {
+	text-align: center; font-weight: bold; background-color: rgb(255, 68, =
+68);
+}
+td.tip {
+	text-align: left;
+}
+*[dir=3D'rtl'] td.tip {
+	text-align: right;
+}
+#message .hint {
+	font-style: italic;
+}
+#message .info {
+	color: black; font-size: 1em; float: none;
+}
+#message .info::before {
+	margin: 0px 0.2em; content: url('../img/icon-info.png');
+}
+#message .warning::before {
+	margin: 0px 0.2em; content: url('../img/alert.png');
+}
+#message .error::before {
+	margin: 0px 0.2em; content: url('../img/icon-error.png');
+}
+#content div.caution {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.important {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.note {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.tip {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.warning {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.caution p {
+	margin-top: 8px;
+}
+#content div.important p {
+	margin-top: 8px;
+}
+#content div.note p {
+	margin-top: 8px;
+}
+#content div.tip p {
+	margin-top: 8px;
+}
+#content div.warning p {
+	margin-top: 8px;
+}
+#content div.tip {
+	background-image: url("../img/admon-tip.png");
+}
+#content div.note {
+	background-image: url("../img/admon-note.png");
+}
+#content div.important {
+	background-image: url("../img/admon-important.png");
+}
+#content div.caution {
+	background-image: url("../img/admon-caution.png");
+}
+#content div.warning {
+	background-image: url("../img/admon-warning.png");
+}
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/print.css
+
+html {
+	font-family: Times, serif; font-size: 12pt;
+}
+body {
+	margin: 1.5cm;
+}
+a {
+	color: black; text-decoration: none;
+}
+a:visited {
+	color: black; text-decoration: none;
+}
+a.nonexistent {
+	color: black; text-decoration: none;
+}
+a.badinterwiki {
+	color: black; text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.info a {
+	color: gray;
+}
+pre {
+	font-size: 10pt;
+}
+a.interwiki::before {
+	content: attr(title) ":";
+}
+a.badinterwiki::before {
+	content: attr(title) ":";
+}
+a.interwiki img {
+	display: none;
+}
+a.badinterwiki img {
+	display: none;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+#header {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#timings {
+	display: none;
+}
+#credits {
+	display: none;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://wiki.apache.org/wiki/modernized/css/projection.css
+
+@import url( screen.css );
+html {
+	line-height: 1.8em;
+}
+body {
+	font-size: 18pt;
+}
+b {
+	font-size: 18pt;
+}
+em {
+	font-size: 18pt;
+}
+a {
+	font-size: 18pt;
+}
+span {
+	font-size: 18pt;
+}
+div {
+	font-size: 18pt;
+}
+p {
+	font-size: 18pt;
+}
+td {
+	font-size: 18pt;
+}
+h1 {
+	font-size: 26pt;
+}
+h2 {
+	font-size: 22pt;
+}
+h3 {
+	font-size: 20pt;
+}
+h4 {
+	font-size: 18pt;
+}
+h5 {
+	font-size: 16pt;
+}
+h6 {
+	font-size: 14pt;
+}
+tt {
+	font-size: 16pt;
+}
+pre {
+	font-size: 16pt;
+}
+sup {
+	font-size: 12pt;
+}
+sub {
+	font-size: 12pt;
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+.navigation td {
+	padding: 2px; font-size: 10pt;
+}
+.navigation a {
+	padding: 2px; font-size: 10pt;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+#pageinfo {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CFA44D.21FBA250
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/common/js/common.js
+
+//=0A=
+// MoinMoin commonly used JavaScript functions=0A=
+//=0A=
+=0A=
+// We keep here the state of the search box=0A=
+searchIsDisabled =3D false;=0A=
+=0A=
+function searchChange(e) {=0A=
+    // Update search buttons status according to search box content.=0A=
+    // Ignore empty or whitespace search term.=0A=
+    var value =3D e.value.replace(/\s+/, '');=0A=
+    if (value =3D=3D '' || searchIsDisabled) { =0A=
+        searchSetDisabled(true);=0A=
+    } else {=0A=
+        searchSetDisabled(false);=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchSetDisabled(flag) {=0A=
+    // Enable or disable search=0A=
+    document.getElementById('fullsearch').disabled =3D flag;=0A=
+    document.getElementById('titlesearch').disabled =3D flag;=0A=
+}=0A=
+=0A=
+function searchFocus(e) {=0A=
+    // Update search input content on focus=0A=
+    if (e.value =3D=3D search_hint) {=0A=
+        e.value =3D '';=0A=
+        e.className =3D '';=0A=
+        searchIsDisabled =3D false;=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchBlur(e) {=0A=
+    // Update search input content on blur=0A=
+    if (e.value =3D=3D '') {=0A=
+        e.value =3D search_hint;=0A=
+        e.className =3D 'disabled';=0A=
+        searchIsDisabled =3D true;=0A=
+    }=0A=
+}=0A=
+=0A=
+function actionsMenuInit(title) {=0A=
+    // Initialize action menu=0A=
+    for (i =3D 0; i < document.forms.length; i++) {=0A=
+        var form =3D document.forms[i];=0A=
+        if (form.className =3D=3D 'actionsmenu') {=0A=
+            // Check if this form needs update=0A=
+            var div =3D form.getElementsByTagName('div')[0];=0A=
+            var label =3D div.getElementsByTagName('label')[0];=0A=
+            if (label) {=0A=
+                // This is the first time: remove label and do buton.=0A=
+                div.removeChild(label);=0A=
+                var dobutton =3D div.getElementsByTagName('input')[0];=0A=
+                div.removeChild(dobutton);=0A=
+                // and add menu title=0A=
+                var select =3D div.getElementsByTagName('select')[0];=0A=
+                var item =3D document.createElement('option');=0A=
+                item.appendChild(document.createTextNode(title));=0A=
+                item.value =3D 'show';=0A=
+                select.insertBefore(item, select.options[0]);=0A=
+                select.selectedIndex =3D 0;=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// use this instead of assigning to window.onload directly:=0A=
+function addLoadEvent(func) {=0A=
+    // alert("addLoadEvent " + func)=0A=
+    var oldonload =3D window.onload;=0A=
+    if (typeof window.onload !=3D 'function') {=0A=
+        window.onload =3D func;=0A=
+    } else {=0A=
+        window.onload =3D function() {=0A=
+            oldonload();=0A=
+            func();=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// copy from fckeditor browser check code (fckeditor.js:298, function : =
+FCKeditor_IsCompatibleBrowser)=0A=
+function can_use_gui_editor() {=0A=
+    var sAgent =3D navigator.userAgent.toLowerCase() ;=0A=
+=0A=
+    // Internet Explorer 5.5+=0A=
+    if ( /*@cc_on!@*/false && sAgent.indexOf("mac") =3D=3D -1 )=0A=
+    {=0A=
+        var sBrowserVersion =3D navigator.appVersion.match(/MSIE =
+(.\..)/)[1] ;=0A=
+        return ( sBrowserVersion >=3D 5.5 ) ;=0A=
+    }=0A=
+=0A=
+    // Gecko (Opera 9 tries to behave like Gecko at this point).=0A=
+    if ( navigator.product =3D=3D "Gecko" && navigator.productSub >=3D =
+20030210 && !( typeof(opera) =3D=3D 'object' && opera.postError ) )=0A=
+        return true ;=0A=
+=0A=
+    // Opera 9.50+=0A=
+    if ( window.opera && window.opera.version && parseFloat( =
+window.opera.version() ) >=3D 9.5 )=0A=
+        return true ;=0A=
+=0A=
+/*=0A=
+  // disable safari : until fck devteam fix =
+http://dev.fckeditor.net/ticket/2333=0A=
+  =0A=
+    // Adobe AIR=0A=
+    // Checked before Safari because AIR have the WebKit rich text editor=0A=
+    // features from Safari 3.0.4, but the version reported is 420.=0A=
+    if ( sAgent.indexOf( ' adobeair/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / adobeair\/(\d+)/ )[1] >=3D 1 ) ; // =
+Build must be at least v1=0A=
+=0A=
+    // Safari 3+=0A=
+    if ( sAgent.indexOf( ' applewebkit/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / applewebkit\/(\d+)/ )[1] >=3D 522 ) ;   =
+ // Build must be at least 522 (v3)=0A=
+*/=0A=
+    return false ;=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+function update_edit_links() {=0A=
+    // Update editlink according if if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("update_edit_links: can't use gui editor");=0A=
+        return;=0A=
+    }=0A=
+    var editlinks =3D document.getElementsByName("editlink");=0A=
+    for (i =3D 0; i < editlinks.length; i++) {=0A=
+        var link =3D editlinks[i];=0A=
+        href =3D =
+link.href.replace('editor=3Dtextonly','editor=3Dguipossible');=0A=
+        link.href =3D href;=0A=
+        //alert("update_edit_links: modified to guipossible");=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function add_gui_editor_links() {=0A=
+    // Add gui editor link after the text editor link=0A=
+    =0A=
+    // If the variable is not set or browser is not compatible, exit=0A=
+    try {gui_editor_link_href}=0A=
+    catch (e) {=0A=
+        //alert("add_gui_editor_links: gui_editor_link_href not here");=0A=
+        return=0A=
+    }=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("add_gui_editor_links: can't use gui_editor");=0A=
+        return;=0A=
+    }=0A=
+    var all =3D document.getElementsByName('texteditlink');=0A=
+    for (i =3D 0; i < all.length; i++) {=0A=
+        var textEditorLink =3D all[i];=0A=
+        // Create a list item with a link=0A=
+        var guiEditorLink =3D document.createElement('a');=0A=
+        guiEditorLink.href =3D gui_editor_link_href;=0A=
+        var text =3D document.createTextNode(gui_editor_link_text);=0A=
+        guiEditorLink.appendChild(text);=0A=
+        var listItem =3D document.createElement('li')=0A=
+        listItem.appendChild(guiEditorLink);=0A=
+        // Insert in the editbar=0A=
+        var editbar =3D textEditorLink.parentNode.parentNode=0A=
+        var nextListItem =3D textEditorLink.parentNode.nextSibling;=0A=
+        editbar.insertBefore(listItem, nextListItem);=0A=
+        //alert("add_gui_editor_links: added gui editor link");=0A=
+    }=0A=
+}=0A=
+ =0A=
+=0A=
+function show_switch2gui() {=0A=
+    // Show switch to gui editor link if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false) return;=0A=
+    =0A=
+    var switch2gui =3D document.getElementById('switch2gui')=0A=
+    if (switch2gui) {=0A=
+        switch2gui.style.display =3D 'inline';=0A=
+    }=0A=
+}=0A=
+=0A=
+// for long documents with many comments this is expensive to calculate,=0A=
+// thus we keep it here:=0A=
+comments =3D null;=0A=
+=0A=
+function toggleComments() {=0A=
+    // Toggle visibility of every tag with class "comment"=0A=
+    for (i =3D 0; i < comments.length; i++){=0A=
+        el =3D comments[i];=0A=
+        if ( el.style.display !=3D 'none' ) {=0A=
+            el.style.display =3D 'none';=0A=
+        } else {=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+function show_toggleComments() {=0A=
+    // Show edit bar item for toggling inline comments on/off only if =
+inline comments exist on the page=0A=
+    comments =3D getElementsByClassName('comment', null, document);=0A=
+    if (comments.length > 0) {=0A=
+        var buttons =3D getElementsByClassName('toggleCommentsButton', =
+null, document);=0A=
+        for (i =3D 0; i < buttons.length; i++){=0A=
+            el =3D buttons[i];=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function load() {=0A=
+    // Do not name this "onload", it does not work with IE :-)=0A=
+    // TODO: create separate onload for each type of view and set the=0A=
+    // correct function name in the html. =0A=
+    // e.g <body onlod=3D'editor_onload()'>=0A=
+=0A=
+    // login focus=0A=
+    if (document.forms['loginform']) {=0A=
+        document.forms['loginform'].elements['name'].focus();=0A=
+    }=0A=
+    =0A=
+    // Page view stuff=0A=
+    update_edit_links();=0A=
+    add_gui_editor_links();=0A=
+    =0A=
+    // Editor stuff=0A=
+    show_switch2gui();=0A=
+=0A=
+    // Enable menu item "ToggleComments" if inline comments exist=0A=
+    show_toggleComments();=0A=
+ =0A=
+    // data browser widget=0A=
+    dbw_hide_buttons();=0A=
+}=0A=
+=0A=
+=0A=
+function before_unload(evt) {=0A=
+    // TODO: Better to set this in the editor html, as it does not make=0A=
+    // sense elsehwere.=0A=
+    // confirmleaving is available when editing=0A=
+    try {return confirmleaving();}=0A=
+    catch (e) {}=0A=
+}=0A=
+=0A=
+// Initialize after loading the page=0A=
+addLoadEvent(load)=0A=
+=0A=
+// Catch before unloading the page=0A=
+window.onbeforeunload =3D before_unload=0A=
+=0A=
+function dbw_update_search(dbw_id)=0A=
+{=0A=
+    var table =3D document.getElementById(dbw_id+'table');=0A=
+    var cell;=0A=
+    var shown;=0A=
+    var i=0A=
+    var cols =3D table.rows[0].cells.length;=0A=
+    var filter =3D new Array();=0A=
+    var dofilter =3D new Array();=0A=
+    var form =3D document.forms[dbw_id+'form'];=0A=
+=0A=
+    for (i =3D 0; i < cols; i++) {=0A=
+        dofilter[i] =3D false;=0A=
+        if (form[dbw_id+'filter'+i]) {=0A=
+            dofilter[i] =3D true;=0A=
+            filter[i] =3D form[dbw_id+'filter'+i].value;=0A=
+            if (filter[i] =3D=3D '[all]')=0A=
+                dofilter[i] =3D false;=0A=
+            if (filter[i] =3D=3D '[empty]')=0A=
+                filter[i] =3D '';=0A=
+        }=0A=
+    }=0A=
+=0A=
+    for (i =3D 1; i < table.rows.length; i++) {=0A=
+        var show =3D true;=0A=
+        for (col =3D 0; col < cols; col++) {=0A=
+            if (!dofilter[col])=0A=
+                continue;=0A=
+=0A=
+            cell =3D table.rows[i].cells[col];=0A=
+=0A=
+            if (filter[col] =3D=3D '[notempty]') {=0A=
+                if (cell.abbr =3D=3D '') {=0A=
+                    show =3D false;=0A=
+                    break;=0A=
+                }=0A=
+            } else if (filter[col] !=3D cell.abbr) {=0A=
+                show =3D false;=0A=
+                break;=0A=
+            }=0A=
+        }=0A=
+        if (show)=0A=
+            table.rows[i].style.display =3D '';=0A=
+        else=0A=
+            table.rows[i].style.display =3D 'none';=0A=
+    }=0A=
+}=0A=
+=0A=
+function dbw_hide_buttons() {=0A=
+    var form;=0A=
+    var elem;=0A=
+    var name;=0A=
+=0A=
+    for (var fidx =3D 0; fidx < document.forms.length; fidx++) {=0A=
+        form =3D document.forms[fidx];=0A=
+        for (var eidx =3D 0; eidx < form.elements.length; eidx++) {=0A=
+            elem =3D form.elements[eidx];=0A=
+            name =3D elem.name;=0A=
+            if (name) {=0A=
+                if (name.indexOf('dbw.') >=3D 0 && name.substr(-7) =
+=3D=3D '.submit')=0A=
+                    elem.style.display =3D 'none';=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+/*  getElementsByClassName=0A=
+    Developed by Robert Nyman, http://www.robertnyman.com=0A=
+    Code/licensing: http://code.google.com/p/getelementsbyclassname/ =
+(MIT license)=0A=
+    Version: 1.0.1=0A=
+*/  =0A=
+var getElementsByClassName =3D function (className, tag, elm){=0A=
+    if (document.getElementsByClassName) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            elm =3D elm || document;=0A=
+            var elements =3D elm.getElementsByClassName(className),=0A=
+                nodeName =3D (tag)? new RegExp("\\b" + tag + "\\b", "i") =
+: null,=0A=
+                returnElements =3D [],=0A=
+                current;=0A=
+            for(var i=3D0, il=3Delements.length; i<il; i+=3D1){=0A=
+                current =3D elements[i];=0A=
+                if(!nodeName || nodeName.test(current.nodeName)) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else if (document.evaluate) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D "",=0A=
+                xhtmlNamespace =3D "http://www.w3.org/1999/xhtml",=0A=
+                namespaceResolver =3D =
+(document.documentElement.namespaceURI =3D=3D=3D xhtmlNamespace)? =
+xhtmlNamespace : null,=0A=
+                returnElements =3D [],=0A=
+                elements,=0A=
+                node;=0A=
+            for(var j=3D0, jl=3Dclasses.length; j<jl; j+=3D1){=0A=
+                classesToCheck +=3D "[contains(concat(' ', @class, ' '), =
+' " + classes[j] + " ')]";=0A=
+            }=0A=
+            try {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, namespaceResolver, 0, null);=0A=
+            }=0A=
+            catch (e) {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, null, 0, null);=0A=
+            }=0A=
+            while ((node =3D elements.iterateNext())) {=0A=
+                returnElements.push(node);=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D [],=0A=
+                elements =3D (tag =3D=3D=3D "*" && elm.all)? elm.all : =
+elm.getElementsByTagName(tag),=0A=
+                current,=0A=
+                returnElements =3D [],=0A=
+                match;=0A=
+            for(var k=3D0, kl=3Dclasses.length; k<kl; k+=3D1){=0A=
+                classesToCheck.push(new RegExp("(^|\\s)" + classes[k] + =
+"(\\s|$)"));=0A=
+            }=0A=
+            for(var l=3D0, ll=3Delements.length; l<ll; l+=3D1){=0A=
+                current =3D elements[l];=0A=
+                match =3D false;=0A=
+                for(var m=3D0, ml=3DclassesToCheck.length; m<ml; m+=3D1){=0A=
+                    match =3D classesToCheck[m].test(current.className);=0A=
+                    if (!match) {=0A=
+                        break;=0A=
+                    }=0A=
+                }=0A=
+                if (match) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    return getElementsByClassName(className, tag, elm);=0A=
+};=0A=
+=0A=
+
+------=_NextPart_000_0000_01CFA44D.21FBA250--
