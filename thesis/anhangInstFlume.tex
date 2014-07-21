@@ -1,0 +1,129 @@
+\section{Installationsanleitung Apache Flume}
+\label{section:flumeinstall}
+
+
+In diesem Kapitel wird die Installation von Apache Flume schrittweise gezeigt. Für die Installation von Apache Flume wird die aktuelle Version 1.5.0.1 verwendet. Als Betriebssystem wird Linux mit der Distribution Debian 7 eingesetzt. Eine Kompilation der Anwendung Apache Flume wird nicht durchgeführtm, daher werden einfache Kenntnisse in der Administration und Pflege von Linux-Betriebssystemen in der Shell Bash vorausgesetzt. Nach der Installation wird eine kleine Anwendung eines Apache Flume Agenten vorgestellt. 
+
+Für den Einsatz von Apache Flume ist eine Java-Umgebung-Laufzeitumngebung notwendig. Die Installation der Debian Java7-Pakets kann mit Werkzeug \textit{aptitude} oder \textit{apt-get} durchgeführt werden.
+
+\begin{verbatim}
+aptitude install openjdk-7-jdk	
+\end{verbatim}
+
+Anschließend wird die vorkompilierte Apache Flume Anwenundung als Archiv vom Apache Server in das Verzeichnis \textit{/opt} heruntergeladen und entpackt. Abschließend wird das entpackte Verzeichnis in den Namen \textit{flume} umbenannt:
+
+\begin{verbatim}
+cd /opt
+wget http://www.apache.org/dist/flume/1.5.0.1/apache-flume-1.5.0.1-bin.tar.gz
+tar xvfz apache-flume-1.5.0.1-bin.tar.gz
+mv apache-flume-1.5.0.1-bin.tar.gz flume
+\end{verbatim}
+
+\subsection{Apache Flume Konfiguration}
+\label{section:flumeKonfiguration}
+
+Damit Apache Flume ordentlich ausgeführt wird, muss die Konfiguration von Apache Flume für die Java-Umgebung und die JAVA\_HOME-Variable gesetzt sein.
+Im Unterverzeichnis conf befinden sich template-Konfigurationsdateien. Zuerst werden die Template-Dateien in Konfigurationsdateien kopiert und anschließend bearbeitet:
+
+\begin{verbatim}
+cp flume-env.sh.template flume-env.sh
+cp flume-conf.properties.template flume-conf.properties
+\end{verbatim}
+
+Mit einem Texteditor wie zum Beispiel vim, emacs oder nano können Dateien bearbeitet werden:
+\begin{verbatim}
+vim flume-env.sh
+\end{verbatim}
+
+Die folgende Konfigurationsdatei \textit{flume-env.sh} stellt ein Beispiel für Apache Flume dar. Zum einen wird die JAVA\_HOME-Variable mit dem richtigen Pfad zum Java-Installationsort gesetzt und zum Anderen wird das Moninoring über JMX mit Optionen für den Java Heap bereitgestellt.
+
+\begin{lstlisting}[language=BASH, label=lst:flumeEnv, caption=Apache Flume Konfiguration]
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# If this file is placed at FLUME_CONF_DIR/flume-env.sh, it will be sourced
+# during Flume startup.
+
+# Enviroment variables can be set here.
+
+JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+
+# Give Flume more memory and pre-allocate, enable remote monitoring via JMX
+JAVA_OPTS="-Xms100m -Xmx200m -Dcom.sun.management.jmxremote"
+
+# Note that the Flume conf directory is always included in the classpath.
+#FLUME_CLASSPATH=""
+\end{lstlisting}
+
+Folgender Befehl startet den Kafka-Server in den Standardeinstellungen:
+\begin{verbatim}
+bin/kafka-server-start.sh config/server.properties
+\end{verbatim}
+
+Die Konfigurationsdatei \textit{flume-conf.properties} kann verändert werden, wenn das Standardprotokollverhalten unerwünscht ist. In der Standardeinstellung wird über einen eigenen Agenten mit Log4j im Verzeichnis \textit{logs} und der Datei \textit{flume.log} protokolliert. Weitere Einstellungen können in der Datei \textit{log4j.properties} vorgenommen werden.
+
+Folgender Aufruf zeigt Optionen für einen Apache Flume-Aufruf aus dem \textit{flume}-Verzeichnis:
+\begin{verbatim}
+ bin/flume-ng --help
+\end{verbatim}
+
+\subsection{Apache Flume Single-Node Beispiel}
+
+Folgendes Beispiel wird an dieser Stelle von der Apache Flume 1.5.0 User Guide \citeint{flume:userGuide} wieder gegeben und wird im Verzeichnis \textit{conf} als \textit{example.conf} abgepeichert.
+
+\begin{lstlisting}[language=BASH, label=lst:flumeExample, caption=Apache Flume Beispiel]
+# example.conf: A single-node Flume configuration
+
+# Name the components on this agent
+a1.sources = r1
+a1.sinks = k1
+a1.channels = c1
+
+# Describe/configure the source
+a1.sources.r1.type = netcat
+a1.sources.r1.bind = localhost
+a1.sources.r1.port = 44444
+
+# Describe the sink
+a1.sinks.k1.type = logger
+
+# Use a channel which buffers events in memory
+a1.channels.c1.type = memory
+a1.channels.c1.capacity = 1000
+a1.channels.c1.transactionCapacity = 100
+
+# Bind the source and sink to the channel
+a1.sources.r1.channels = c1
+a1.sinks.k1.channel = c1
+\end{lstlisting}
+
+Im Beispiel Listing \ref{lst:flumeExample} wird ein Agent \textit{a1} definiert. In der Quelle \textit{source r1} wird der Linux-Befehl \textit{netcat} auf der internen Netzwerkkarte unter dem Port 44444 als Server-Dienst aktiviert. Damit können beliebige Daten über einen Client wie zum Beispiel \textit{telnet} an den Apache Flume-Agenten gesendet werden. Die Quelle \textit{source r1} leitet die Nachrichten an den Kanal \textit{channel c1} im Zwischenspeicher weiter. In der Sänke \textit{sink c1} wird die Protokollanwendung \textit{log4j} mit dem Bezeichner \textit{logger} aus dem Unterkapitel \ref{section:flumeKonfiguration} gesetzt. Die Ausgabe erfolgt abschließend durch \textit{log4j}-\textit{Appender} (Konsole oder Datei).
+
+Der Apache Flume Agent wird in einer eigenen Shell mit der Beispiel Konfiguration gestartet:
+\begin{verbatim}
+bin/flume-ng agent --conf conf --conf-file conf/example.conf --name a1
+\end{verbatim}
+
+In einer separaten Shell kann eine erfolgreiche Verbindung über \textit{telnet} mit dem TCP-Endpunkt \textit{localhost} Port \textit{44444} aufgebaut, Nachrichten eingegeben und mit dem Bestätigen der Eingabetaste an den Agenten übermittelt werden:
+\begin{verbatim}
+telnet localhost 44444
+\end{verbatim}
+
+Bei einer Eingabe von \textit{Ich bin s40907.} über Telnet auf den Port 44444, wird vom Agenten folgende Nachricht an den LoggerSink ausgegeben:
+
+\begin{lstlisting}[language=BASH, label=lst:flumeLoggerSink, caption=Apache Flume Ausgabe LoggerSink]
+21 Jul 2014 20:59:19,820 INFO  [SinkRunner-PollingRunner-DefaultSinkProcessor] (org.apache.flume.sink.LoggerSink.process:70)  - Event: { headers:{} body: 49 63 68 20 62 69 6E 20 73 34 30 39 30 37 0D    Ich bin s40907. }
+\end{lstlisting}
