@@ -66,6 +66,9 @@ Apache Kafka kann \textit{Topic}-Partitionen replizieren. Mit einem \textit{Repl
 
 Da Apache Kafka auf einem Publish-Subscribe-Verfahren aufbaut ist die Wiederbenutzung bzw. Weitergabe von Nachrichten nur unter Angabe eines weiteren \textit{Topic} möglich. Dafür sind mindestens ein weiterer \textit{Publisher} und \textit{Consumer} zu implementieren. Aggregatoren und Operatoren, sowie es unter dem Referenzmodell Aurora/Borealis angeboten wird, kann unter Apache Kafka in der Hochsprache Scala oder Java in einem Producer entwickelt werden. Auch in der Sicherheit fehlen noch Anforderungen zur Authentifizierung und Verschlüsselung innerhalb des Kafka-Clusters \citeint{kafka:security}. Erweiterungen für das Monitoring werden über \gls{glo:jmx} angeboten. Eine Integration in ein Monitoringsystem wie Nagios kann mit dem Java JMX Nagios Plugin\footnote{Java JMX Nagios Plugin: check\_jmx -- \url{http://exchange.nagios.org/directory/Plugins/Java-Applications-and-Servers/check\_jmx/details}} erfolgen.
 
+%http://de.slideshare.net/JayKreps1/i-32858698
+%log aggregation: http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+
 In diesem Kapitel wurde die Installation und ein Beispielanwendung für den Austausch von Nachrichten gezeigt. Auf spezielle Eigenschaften wie das zero-copy \citelit{ibmZeroCopy}, Parallelisierung und Replikation wurde eingegangen. Außerdem wurden die Bewertungskriterien aus Tabelle \ref{tab:bewkafka} für Apache Kafka erläutert. Im nächsten Kapitel wird nun Apache Flume vorgestellt.
 
 
