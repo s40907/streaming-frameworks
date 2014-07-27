@@ -1,0 +1,2565 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: =?Windows-1252?Q?Lambda_Expressions_=28The_Java=99_Tutorials_=3E_Learning?=
+	=?Windows-1252?Q?_the_Java_Language_=3E_Classes_and_Objects=29?=
+Date: Sun, 27 Jul 2014 19:41:02 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFA9D2.B2FA7B20"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\eduar_000\VCS\streaming-frameworks\thesis\anhangInternet\Lambda Expressions (The Java Tutorials ) Learning the Java Language Classes and Objects.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!--?xml version=3D"1.0" encoding=3D"utf-8"?--><!DOCTYPE html PUBLIC =
+"-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+lang=3D"en-US" xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"content-type" content=3D"text/html; =
+charset=3Dwindows-1252">      =20
+  <TITLE>Lambda Expressions (The Java=99 Tutorials &gt;                  =
+ =20
+Learning the Java Language &gt; Classes and Objects) </TITLE>     =20
+<META name=3D"description" content=3D"This beginner Java tutorial =
+describes fundamentals of programming in the Java programming language"> =
+
+    =20
+<META name=3D"keywords" content=3D"java programming, learn java, java =
+sample code, java objects, java classes, java inheritance, interfaces, =
+variables, arrays, data types, operators, control flow, number, string"> =
+
+       =20
+<STYLE type=3D"text/css">=0A=
+    .FigureCaption   { =0A=
+        margin-left: 1in; =0A=
+        margin-right: 1in; =0A=
+        font-family: sans-serif; =0A=
+        font-size: smaller; =0A=
+        text-align: justify;=0A=
+    }=0A=
+    #TopBar_bl {=0A=
+        background: url(../../images/java_bar_bl.gif) 0 100% no-repeat;=0A=
+        width: 100%;=0A=
+        height: 60px;=0A=
+    }=0A=
+    #TopBar_br {=0A=
+        background: url(../../images/java_bar_br.gif) 100% 100% =
+no-repeat;=0A=
+        width: 100%;=0A=
+        height: 60px;=0A=
+    }=0A=
+    #TopBar_tl {=0A=
+        background: url(../../images/java_bar_tl.gif) 0 0 no-repeat;=0A=
+        width: 100%;=0A=
+        height: 60px;=0A=
+    }=0A=
+    #TopBar_tr {=0A=
+        background: url(../../images/java_bar_tr.gif) 100% 0 no-repeat;=0A=
+        width: 100%;=0A=
+        height: 60px;=0A=
+    }=0A=
+    #TopBar {=0A=
+        background: #35556B url(../../images/java_bar.gif);=0A=
+        margin: 10px 10px 0 10px;=0A=
+        height:60px;=0A=
+        min-width:700px;=0A=
+        color: white;=0A=
+        font-family: sans-serif; =0A=
+        font-weight: bold;=0A=
+    }=0A=
+    @media print {=0A=
+        #BreadCrumbs, #Download {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    #TopBar_right {=0A=
+        line-height: 14px;=0A=
+        float: right;=0A=
+        padding-top: 2px;=0A=
+        padding-right: 30px;=0A=
+        text-align: left;=0A=
+    }=0A=
+    @media print {=0A=
+        #TopBar_right {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    #TopBar_right a {=0A=
+        font-size: 12px;=0A=
+        margin: 3px;=0A=
+        padding: 0;=0A=
+    }=0A=
+    #TopBar a:visited, #TopBar a:link {=0A=
+        color: white;=0A=
+        text-decoration: none;=0A=
+    }=0A=
+    #TopBar a:hover, #TopBar a:active  {=0A=
+        background-color: white;=0A=
+        color: #35556B;=0A=
+    }=0A=
+    #BreadCrumbs {=0A=
+        padding: 4px 5px 0.5em 0;=0A=
+        font-family: sans-serif; =0A=
+        float: right;=0A=
+    }=0A=
+    #BreadCrumbs a {=0A=
+        color: blue;=0A=
+    }=0A=
+    #BreadCrumbs a:visited, #BreadCrumbs a:link {=0A=
+        text-decoration: none;=0A=
+    }=0A=
+    #BreadCrumbs a:hover, #BreadCrumbs a:active {=0A=
+        text-decoration: underline;=0A=
+    }=0A=
+    #PageTitle {=0A=
+        margin: 0 5px 0.5em 0;=0A=
+        color: #F90000;=0A=
+    }    =0A=
+    #PageContent{=0A=
+        margin: 0 5px 0 20px;=0A=
+    }=0A=
+    .LeftBar_shown {=0A=
+        width: 13em;=0A=
+        float: left;=0A=
+        margin-left: 10px;=0A=
+        margin-top: 4px;=0A=
+        margin-bottom: 2em;=0A=
+        margin-right: 10px;=0A=
+    }=0A=
+    @media print {=0A=
+        .LeftBar_shown {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    .LeftBar_hidden {=0A=
+        display: none;=0A=
+    }=0A=
+    #Footer {=0A=
+        padding-top: 10px;=0A=
+        padding-left: 10px;=0A=
+        margin-right: 10px;=0A=
+    }=0A=
+    =0A=
+    .footertext {=0A=
+        font-size: 10px;=0A=
+        font-family: sans-serif; =0A=
+        margin-top: 1px;=0A=
+    }=0A=
+    =0A=
+    #Footer2 {=0A=
+        padding-top: 10px;=0A=
+        padding-left: 10px;=0A=
+        margin-right: 10px;=0A=
+    }=0A=
+    .NavBit  {=0A=
+        padding: 4px 5px 0.5em 0;=0A=
+        font-family: sans-serif; =0A=
+    }=0A=
+    @media print {=0A=
+        .NavBit {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    #TagNotes {=0A=
+        text-align: right;        =0A=
+    }=0A=
+    =0A=
+    @media print {=0A=
+        #TagNotes a:visited, #TagNotes a:link {=0A=
+            color: #35556B;=0A=
+            text-decoration: none;=0A=
+        }=0A=
+    }=0A=
+    #Contents a, .NavBit a, #TagNotes a {=0A=
+        color: blue=0A=
+    }=0A=
+    #TagNotes a:visited, #TagNotes a:link,=0A=
+    #Contents a:visited, #Contents a:link,=0A=
+    .NavBit a:visited, .NavBit a:link {=0A=
+        text-decoration: none;=0A=
+    }=0A=
+    #TagNotes a:hover, #TagNotes a:active,   =0A=
+    #Contents a:hover, #Contents a:active,   =0A=
+    .NavBit a:hover, .NavBit a:active {  =0A=
+        text-decoration: underline;=0A=
+    }=0A=
+    #Contents {=0A=
+        float: left;=0A=
+        font-family: sans-serif; =0A=
+    }=0A=
+    @media print {=0A=
+        #Contents {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    @media screen {=0A=
+        div.PrintHeaders {=0A=
+            display: none;=0A=
+        }=0A=
+    }=0A=
+    .linkLESSON, .nolinkLESSON {=0A=
+        margin-left: 0.5em;=0A=
+        text-indent: -0.5em=0A=
+    }=0A=
+    .linkAHEAD, .nolinkAHEAD, .linkQUESTIONS, .nolinkQUESTIONS   {=0A=
+        margin-left: 1.5em; =0A=
+        text-indent: -0.5em=0A=
+    }=0A=
+    .linkBHEAD, .nolinkBHEAD   {=0A=
+        margin-left: 2.5em;=0A=
+        text-indent: -0.5em=0A=
+    }=0A=
+    .linkCHEAD, .nolinkCHEAD   {=0A=
+        margin-left: 3.5em;=0A=
+        text-indent: -0.5em=0A=
+    }=0A=
+    .nolinkLESSON, .nolinkAHEAD, .nolinkBHEAD, .nolinkCHEAD,=0A=
+    .nolinkQUESTIONS {=0A=
+        font-weight: bold;=0A=
+        color: #F90000;=0A=
+    }=0A=
+    .MainFlow_indented {=0A=
+        margin-right: 10px;=0A=
+        margin-left: 15em;=0A=
+        margin-bottom: 2em;=0A=
+=0A=
+    }=0A=
+    .MainFlow_wide {=0A=
+        margin-right: 10px;=0A=
+        margin-left: 10px;=0A=
+        margin-bottom: 2em;=0A=
+=0A=
+    }=0A=
+    @media print {=0A=
+        .MainFlow_indented, .MainFlow_wide {=0A=
+            padding-top: 0;=0A=
+            margin-top: 10px;=0A=
+            margin-right: 10px;=0A=
+            margin-left: 0;=0A=
+        }=0A=
+    }=0A=
+    h1, h2, h3, h4, h5 {=0A=
+        color: #F90000;=0A=
+        font-family: sans-serif;=0A=
+    }=0A=
+=0A=
+    h1 {=0A=
+        font-weight: bold;=0A=
+        font-size: 20px;=0A=
+    }=0A=
+=0A=
+    h2 {=0A=
+        font-weight: bold;=0A=
+        font-size: 17px;=0A=
+    }=0A=
+=0A=
+    h3 {=0A=
+        font-weight: bold;=0A=
+        font-size: 14px;=0A=
+    }=0A=
+=0A=
+    h4 {=0A=
+        font-size: 15px;=0A=
+    }=0A=
+=0A=
+    h5 {=0A=
+        font-size: 12px;=0A=
+    }=0A=
+=0A=
+=0A=
+    #ToggleLeft {=0A=
+        display: none;=0A=
+    }=0A=
+    =0A=
+    .note {=0A=
+        margin: 0 30px 0px 30px;=0A=
+    }=0A=
+    =0A=
+    .codeblock {=0A=
+        margin: 0 30px 0px 30px;=0A=
+    }=0A=
+    =0A=
+    .tocli {=0A=
+        list-style-type:none;=0A=
+    }=0A=
+=0A=
+    .betadraft {=0A=
+        color: red;=0A=
+    }=0A=
+</STYLE>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+/* <![CDATA[ */=0A=
+    function leftBar() {=0A=
+        var nameq =3D 'tutorial_showLeftBar=3D'=0A=
+        var cookies =3D document.cookie.split(';');=0A=
+        for (var i =3D 0; i < cookies.length; i++) {=0A=
+            var cookieString =3D cookies[i];=0A=
+            while (cookieString.charAt(0) =3D=3D ' ') {=0A=
+                cookieString =3D cookieString.substring(1, =
+cookieString.length);=0A=
+            }=0A=
+            if (cookieString.indexOf(nameq) =3D=3D 0) {=0A=
+                cookieValue =3D  cookieString.substring(nameq.length,=0A=
+                        cookieString.length);=0A=
+                return cookieValue =3D=3D 'yes';=0A=
+            }=0A=
+        }=0A=
+        return true;=0A=
+    }=0A=
+=0A=
+    function showLeft(b) {=0A=
+        var contents =3D document.getElementById("LeftBar");=0A=
+        var main =3D document.getElementById("MainFlow");=0A=
+        var toggle =3D document.getElementById("ToggleLeft");=0A=
+        if (b) {=0A=
+            contents.className =3D "LeftBar_shown";=0A=
+            main.className =3D "MainFlow_indented";=0A=
+            toggle.innerHTML =3D "Hide TOC";=0A=
+            document.cookie =3D 'tutorial_showLeftBar=3Dyes; path=3D/';=0A=
+        } else {=0A=
+            contents.className =3D "LeftBar_hidden";=0A=
+            main.className =3D "MainFlow_wide";=0A=
+            toggle.innerHTML =3D "Show the TOC";=0A=
+            document.cookie =3D 'tutorial_showLeftBar=3Dno; path=3D/';=0A=
+        }=0A=
+    }=0A=
+=0A=
+    function toggleLeft() {=0A=
+        showLeft(document.getElementById("LeftBar").className =3D=3D=0A=
+                "LeftBar_hidden");=0A=
+        document.getElementById("ToggleLeft").blur();=0A=
+    }=0A=
+=0A=
+    function load() {=0A=
+        showLeft(leftBar());=0A=
+        document.getElementById("ToggleLeft").style.display=3D"inline";=0A=
+    }=0A=
+=0A=
+    function showCode(displayCodePage, codePath) {=0A=
+        var codePathEls =3D codePath.split("/");=0A=
+        var currDocPathEls =3D location.href.split("/");=0A=
+        //alert ("codePathEls =3D " + codePathEls + "\n" + =
+"currDocPathEls =3D " + currDocPathEls);=0A=
+        currDocPathEls.pop(); // remove file name at the end=0A=
+        while (codePathEls.length > 0) {=0A=
+            if (codePathEls[0] =3D=3D "..") {=0A=
+                codePathEls.shift();=0A=
+                currDocPathEls.pop();=0A=
+            } else {=0A=
+                break;=0A=
+            }=0A=
+        }=0A=
+        var fullCodePath =3D currDocPathEls.join("/") + "/" + =
+codePathEls.join("/");=0A=
+        //alert ("fullCodePath =3D " + fullCodePath );=0A=
+        if (codePath.indexOf(".java") !=3D -1 || =
+codePath.indexOf(".jnlp") !=3D -1) {=0A=
+            window.location.href =3D displayCodePage + "?code=3D" + =
+encodeURI(fullCodePath);=0A=
+        } else {=0A=
+            window.location.href =3D fullCodePath;=0A=
+        }=0A=
+    }=0A=
+/* ]]> */    =0A=
+</SCRIPT>
+    =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>=20
+<BODY onload=3D"load()"><NOSCRIPT>        A browser with JavaScript =
+enabled is=20
+required for this page to operate properly.     </NOSCRIPT>    =20
+<DIV id=3D"TopBar">
+<DIV id=3D"TopBar_tr">
+<DIV id=3D"TopBar_tl">
+<DIV id=3D"TopBar_br">
+<DIV id=3D"TopBar_bl">
+<DIV id=3D"TopBar_right"><A =
+href=3D"http://www.oracle.com/technetwork/java/javase/downloads/java-se-7=
+-tutorial-2012-02-28-1536013.html"=20
+target=3D"_blank">Download Ebooks</A><BR><A =
+href=3D"http://www.oracle.com/technetwork/java/javase/downloads/index.htm=
+l"=20
+target=3D"_blank">Download JDK</A>                             <BR><A =
+href=3D"http://docs.oracle.com/javase/tutorial/search.html"=20
+target=3D"_blank">Search Java Tutorials</A>                             =
+<BR><A id=3D"ToggleLeft"=20
+href=3D"javascript:toggleLeft()">Hide TOC</A>                        =20
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=3D"PrintHeaders"><B>Trail:</B> Learning the Java Language     =
+   =20
+<BR><B>Lesson:</B> Classes and Objects         <BR><B>Section:</B> =
+Nested=20
+Classes     </DIV>
+<DIV class=3D"LeftBar_shown" id=3D"LeftBar">
+<DIV id=3D"Contents">
+<DIV class=3D"linkLESSON"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/index.html">Cl=
+asses=20
+and Objects</A></DIV>
+<DIV class=3D"linkAHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/classes.html">=
+Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/classdecl.html=
+">Declaring=20
+Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/variables.html=
+">Declaring=20
+Member Variables</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/methods.html">=
+Defining=20
+Methods</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/constructors.h=
+tml">Providing=20
+Constructors for Your Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html=
+">Passing=20
+Information to a Method or a Constructor</A></DIV>
+<DIV class=3D"linkAHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/objects.html">=
+Objects</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation=
+.html">Creating=20
+Objects</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/usingobject.ht=
+ml">Using=20
+Objects</A></DIV>
+<DIV class=3D"linkAHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/more.html">Mor=
+e=20
+on Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.ht=
+ml">Returning=20
+a Value from a Method</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html">=
+Using=20
+the this Keyword</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.=
+html">Controlling=20
+Access to Members of a Class</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html=
+">Understanding=20
+Class Members</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/initial.html">=
+Initializing=20
+Fields</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/summaryclasses=
+.html">Summary=20
+of Creating and Using Classes and Objects</A></DIV>
+<DIV class=3D"linkQUESTIONS"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/QandE/creating=
+-questions.html">Questions=20
+and Exercises</A></DIV>
+<DIV class=3D"linkQUESTIONS"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/QandE/objects-=
+questions.html">Questions=20
+and Exercises</A></DIV>
+<DIV class=3D"linkAHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html">N=
+ested=20
+Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/innerclasses.h=
+tml">Inner=20
+Class Example</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/localclasses.h=
+tml">Local=20
+Classes</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclass=
+es.html">Anonymous=20
+Classes</A></DIV>
+<DIV class=3D"nolinkBHEAD">Lambda Expressions</DIV>
+<DIV class=3D"linkCHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/methodreferenc=
+es.html">Method=20
+References</A></DIV>
+<DIV class=3D"linkBHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/whentouse.html=
+">When=20
+to Use Nested Classes, Local Classes, Anonymous Classes, and Lambda =
+Expressions=20
+</A></DIV>
+<DIV class=3D"linkQUESTIONS"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/QandE/nested-q=
+uestions.html">Questions=20
+and Exercises</A></DIV>
+<DIV class=3D"linkAHEAD"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/enum.html">Enu=
+m=20
+Types</A></DIV>
+<DIV class=3D"linkQUESTIONS"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/QandE/enum-que=
+stions.html">Questions=20
+and Exercises</A></DIV></DIV></DIV>
+<DIV class=3D"MainFlow_indented" id=3D"MainFlow"><SPAN =
+id=3D"BreadCrumbs"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/index.html"=20
+target=3D"_top">Home Page</A>                &gt;                 <A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/index.html"=20
+target=3D"_top">Learning the Java Language</A>                &gt;       =
+         =20
+<A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/index.html" =
+target=3D"_top">Classes=20
+and Objects</A>             </SPAN>            =20
+<DIV class=3D"NavBit"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclass=
+es.html"=20
+target=3D"_top">=AB&nbsp;Previous</A>&nbsp;=95&nbsp;<A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/TOC.html"=20
+target=3D"_top">Trail</A>&nbsp;=95&nbsp;<A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/methodreferenc=
+es.html"=20
+target=3D"_top">Next&nbsp;=BB</A>             </DIV>
+<DIV id=3D"PageTitle">
+<H1>Lambda Expressions</H1></DIV>
+<DIV id=3D"PageContent">
+<P>One issue with anonymous classes is that if the implementation of  =
+your=20
+anonymous class is very simple, such as an interface that contains  only =
+one=20
+method, then the syntax of anonymous classes may seem unwieldy  and =
+unclear. In=20
+these cases, you're usually trying to pass functionality as an argument =
+to=20
+another method, such as what action should be taken  when someone clicks =
+a=20
+button. Lambda expressions enable you to do this,  to treat =
+functionality as=20
+method argument, or code as data.</P>
+<P>The previous section, <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclass=
+es.html"=20
+target=3D"_top">Anonymous Classes</A>, shows you how to implement a base =
+class=20
+without giving it a name. Although this is often more concise than a =
+named=20
+class, for classes with only one method, even an anonymous class seems a =
+bit
+ excessive and cumbersome. Lambda expressions let you express instances =
+of
+ single-method classes more compactly.</P>
+<P>This section covers the following topics:</P>
+<UL>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#use-case">Ideal=20
+  Use Case for Lambda Expressions</A>    =20
+  <UL>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach1">Approach=20
+    1: Create Methods That Search for Members That Match One=20
+    Characteristic</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach2">Approach=20
+    2: Create More Generalized Search Methods</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach3">Approach=20
+    3: Specify Search Criteria Code in a Local Class</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach4">Approach=20
+    4: Specify Search Criteria Code in an Anonymous Class</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach5">Approach=20
+    5: Specify Search Criteria Code with a Lambda Expression</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach6">Approach=20
+    6: Use Standard Functional Interfaces with Lambda =
+Expressions</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach7">Approach=20
+    7: Use Lambda Expressions Throughout Your Application</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach8">Approach=20
+    8: Use Generics More Extensively</A></LI>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach9">Approach=20
+    9: Use Aggregate Operations That Accept Lambda Expressions as=20
+    Parameters</A></LI></UL></LI>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#lambda-expressions-in=
+-gui-applications">Lambda=20
+  Expressions in GUI Applications</A></LI>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#syntax">Syntax=20
+  of Lambda Expressions</A></LI>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#accessing-local-varia=
+bles">Accessing=20
+  Local Variables of the Enclosing Scope</A></LI>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#target-typing">Target=
+=20
+  Typing</A>    =20
+  <UL>
+    <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#target-types-and-meth=
+od-arguments">Target=20
+    Types and Method Arguments</A></LI></UL></LI>
+  <LI><A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#serialization">Serial=
+ization</A></LI></UL>
+<H2><A name=3D"use-case">Ideal Use Case for Lambda Expressions</A></H2>
+<P>Suppose that you are creating a social networking application. You =
+want to=20
+create a feature that enables an administrator to perform any kind of =
+action,=20
+such as sending a message, on members of the social networking =
+application that=20
+satisfy certain criteria. The following table describes this use case in =
+
+detail:</P>
+<TABLE border=3D"1" summary=3D"Use case for social networking =
+application">
+  <TBODY>
+  <TR>
+    <TH id=3D"h1">Field</TH>
+    <TH id=3D"h2">Description</TH></TR>
+  <TR>
+    <TD headers=3D"h1">Name</TD>
+    <TD headers=3D"h2">Perform action on selected members</TD></TR>
+  <TR>
+    <TD headers=3D"h1">Primary Actor</TD>
+    <TD headers=3D"h2">Administrator</TD></TR>
+  <TR>
+    <TD headers=3D"h1">Preconditions</TD>
+    <TD headers=3D"h2">Administrator is logged in to the =
+system.</TD></TR>
+  <TR>
+    <TD headers=3D"h1">Postconditions</TD>
+    <TD headers=3D"h2">Action is performed only on members that fit the=20
+      specified criteria.</TD></TR>
+  <TR>
+    <TD headers=3D"h1">Main Success Scenario</TD>
+    <TD headers=3D"h2">
+      <OL>
+        <LI>Administrator specifies criteria of members on which to =
+perform a=20
+        certain action.</LI>
+        <LI>Administrator specifies an action to perform on those =
+selected=20
+        members.</LI>
+        <LI>Administrator selects the <STRONG>Submit</STRONG> =
+button.</LI>
+        <LI>The system finds all members that match the specified =
+criteria.</LI>
+        <LI>The system performs the specified action on all matching=20
+        members.</LI></OL></TD></TR>
+  <TR>
+    <TD headers=3D"h1">Extensions</TD>
+    <TD headers=3D"h2">
+      <P>1a. Administrator has an option to preview those members who  =
+match the=20
+      specified criteria before he or she specifies the action to be =
+performed=20
+      or before selecting the <STRONG>Submit</STRONG> =
+button.</P></TD></TR>
+  <TR>
+    <TD headers=3D"h1">Frequency of Occurrence</TD>
+    <TD headers=3D"h2">Many times during the =
+day.</TD></TR></TBODY></TABLE>
+<P>Suppose that members of this social networking application are =
+represented by=20
+the following <A class=3D"SourceLink" =
+onclick=3D"showCode('../../displayCode.html', 'examples/Person.java'); =
+return false;"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/examples/Perso=
+n.java"=20
+target=3D"_blank"><CODE>Person</CODE></A> class:</P>
+<PRE class=3D"codeblock">public class Person {=0A=
+=0A=
+    public enum Sex {=0A=
+        MALE, FEMALE=0A=
+    }=0A=
+=0A=
+    String name;=0A=
+    LocalDate birthday;=0A=
+    Sex gender;=0A=
+    String emailAddress;=0A=
+=0A=
+    public int getAge() {=0A=
+        // ...=0A=
+    }=0A=
+=0A=
+    public void printPerson() {=0A=
+        // ...=0A=
+    }=0A=
+}</PRE>
+<P>Suppose that the members of your social networking application are =
+stored in=20
+a <CODE>List&lt;Person&gt;</CODE> instance.</P>
+<P>This section begins with a naive approach to this use case. It  =
+improves upon=20
+this approach with local and anonymous classes, and then  finishes with =
+an=20
+efficient and concise approach using lambda  expressions. Find the code =
+excerpts=20
+described in this section in the  example <A class=3D"SourceLink" =
+onclick=3D"showCode('../../displayCode.html', =
+'examples/RosterTest.java'); return false;"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/examples/Roste=
+rTest.java"=20
+target=3D"_blank"><CODE>RosterTest</CODE></A>. </P>
+<H3><A name=3D"approach1">Approach 1: Create Methods That Search for =
+Members That=20
+Match One Characteristic</A></H3>
+<P>One simplistic approach is to create several methods; each method  =
+searches=20
+for members that match one characteristic, such as gender or  age. The =
+following=20
+method prints members that are older than a specified age:</P>
+<PRE class=3D"codeblock">public static void =
+printPersonsOlderThan(List&lt;Person&gt; roster, int age) {=0A=
+    for (Person p : roster) {=0A=
+        if (p.getAge() &gt;=3D age) {=0A=
+            p.printPerson();=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P><B>Note</B>: A <A class=3D"APILink" =
+href=3D"http://docs.oracle.com/javase/8/docs/api/java/util/List.html"=20
+target=3D"_blank"><CODE>List</CODE></A> is an ordered <A =
+class=3D"APILink" =
+href=3D"http://docs.oracle.com/javase/8/docs/api/java/util/Collection.htm=
+l"=20
+target=3D"_blank"><CODE>Collection</CODE></A>. A <EM>collection</EM> is =
+an object
+ that groups multiple elements into a single unit. Collections are used =
+to=20
+store, retrieve, manipulate, and communicate aggregate data. For more=20
+information about collections, see the <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/collections/index.html"=20
+target=3D"_top">Collections</A> trail.</P>
+<P>This approach can potentially make your application <EM>brittle</EM>, =
+which=20
+is the likelihood of an application not working because of the  =
+introduction of=20
+updates (such as newer data types). Suppose that you  upgrade your =
+application=20
+and change the structure of the <CODE>Person</CODE> class such that it =
+contains=20
+different member variables; perhaps the  class records and measures ages =
+with a=20
+different data type or algorithm. You would have to rewrite a lot of =
+your API to=20
+accommodate this change. In addition, this approach is unnecessarily=20
+restrictive; what if you wanted to print members younger than a certain =
+age, for=20
+example?</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach2">Approach 2: Create More Generalized Search=20
+Methods</A></H3>
+<P>The following method is more generic than =
+<CODE>printPersonsOlderThan</CODE>;=20
+it prints members within a specified range of ages:</P>
+<PRE class=3D"codeblock">public static void printPersonsWithinAgeRange(=0A=
+    List&lt;Person&gt; roster, int low, int high) {=0A=
+    for (Person p : roster) {=0A=
+        if (low &lt;=3D p.getAge() &amp;&amp; p.getAge() &lt; high) {=0A=
+            p.printPerson();=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>What if you want to print members of a specified sex, or a  =
+combination of a=20
+specified gender and age range? What if you decide to  change the=20
+<CODE>Person</CODE> class and add other attributes such as relationship =
+status=20
+or geographical location? Although this method is more generic than=20
+<CODE>printPersonsOlderThan</CODE>, trying to create a separate method =
+for each=20
+possible search query can  still lead to brittle code. You can instead =
+separate=20
+the code that  specifies the criteria for which you want to search in a=20
+different  class.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach3">Approach 3: Specify Search Criteria Code in a =
+Local=20
+Class</A></H3>
+<P>The following method prints members that match search criteria that =
+you=20
+specify:</P>
+<PRE class=3D"codeblock">public static void printPersons(=0A=
+    List&lt;Person&gt; roster, CheckPerson tester) {=0A=
+    for (Person p : roster) {=0A=
+        if (tester.test(p)) {=0A=
+            p.printPerson();=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>This method checks each <CODE>Person</CODE> instance contained in the =
+
+<CODE>List</CODE> parameter <CODE>roster</CODE> whether it satisfies the =
+search=20
+criteria specified in the <CODE>CheckPerson</CODE> parameter =
+<CODE>tester</CODE>=20
+by invoking the method <CODE>tester.test</CODE>. If the method=20
+<CODE>tester.test</CODE> returns a <CODE>true</CODE> value, then the =
+method=20
+<CODE>printPersons</CODE> is invoked on the <CODE>Person</CODE> =
+instance.</P>
+<P>To specify the search criteria, you implement the =
+<CODE>CheckPerson</CODE>=20
+interface:</P>
+<PRE class=3D"codeblock">interface CheckPerson {=0A=
+    boolean test(Person p);=0A=
+}</PRE>
+<P>The following class implements the <CODE>CheckPerson</CODE> interface =
+by=20
+specifying an implementation for the method <CODE>test</CODE>. This =
+method=20
+filters members that are eligible for Selective Service in the United =
+States: it=20
+returns a <CODE>true</CODE> value if its <CODE>Person</CODE> parameter =
+is male=20
+and between the ages of 18 and 25:</P>
+<PRE class=3D"codeblock">class CheckPersonEligibleForSelectiveService =
+implements CheckPerson {=0A=
+    public boolean test(Person p) {=0A=
+        return p.gender =3D=3D Person.Sex.MALE &amp;&amp;=0A=
+            p.getAge() &gt;=3D 18 &amp;&amp;=0A=
+            p.getAge() &lt;=3D 25;=0A=
+    }=0A=
+}</PRE>
+<P>To use this class, you create a new instance of it and invoke the=20
+<CODE>printPersons</CODE> method:</P>
+<PRE class=3D"codeblock">printPersons(=0A=
+    roster, new CheckPersonEligibleForSelectiveService());</PRE>
+<P>Although this approach is less brittle=97you don't have to rewrite =
+methods if=20
+you change the structure of the <CODE>Person</CODE>=97you still have =
+additional=20
+code: a new interface and a local class for each  search you plan to =
+perform in=20
+your application. Because =
+<CODE>CheckPersonEligibleForSelectiveService</CODE>
+ implements an interface, you can use an anonymous class instead of a =
+local=20
+class and bypass the need to declare a new class for each =
+search.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach4">Approach 4: Specify Search Criteria Code in an =
+Anonymous=20
+Class</A></H3>
+<P>One of the arguments of the following invocation of the method=20
+<CODE>printPersons</CODE> is an anonymous class that filters members =
+that are=20
+eligible for  Selective Service in the United States: those who are male =
+and=20
+between  the ages of 18 and 25:</P>
+<PRE class=3D"codeblock">printPersons(=0A=
+    roster,=0A=
+    new CheckPerson() {=0A=
+        public boolean test(Person p) {=0A=
+            return p.getGender() =3D=3D Person.Sex.MALE=0A=
+                &amp;&amp; p.getAge() &gt;=3D 18=0A=
+                &amp;&amp; p.getAge() &lt;=3D 25;=0A=
+        }=0A=
+    }=0A=
+);</PRE>
+<P>This approach reduces the amount of code required because you don't  =
+have to=20
+create a new class for each search that you want to perform.  However, =
+the=20
+syntax of anonymous classes is bulky considering that the=20
+<CODE>CheckPerson</CODE> interface contains only one method. In this =
+case, you=20
+can use a lambda expression instead of an anonymous class, as described =
+in the=20
+next section.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach5">Approach 5: Specify Search Criteria Code with =
+a Lambda=20
+Expression</A></H3>
+<P>The <CODE>CheckPerson</CODE> interface is a <I>functional =
+interface</I>. A=20
+functional interface is any interface that contains only one <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html" =
+target=3D"_top">abstract=20
+method</A>. (A functional interface may contain one or more  <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.=
+html"=20
+target=3D"_top">default methods</A> or <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.=
+html#static"=20
+target=3D"_top">static methods</A>.) Because a functional interface =
+contains only=20
+one abstract method, you can omit the name of that method when you =
+implement it.=20
+To do this, instead of using an anonymous class expression, you use a =
+<I>lambda
+ expression</I>, which is highlighted in the following method =
+invocation:</P>
+<PRE class=3D"codeblock">printPersons(=0A=
+    roster,=0A=
+    <STRONG>(Person p) -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+        &amp;&amp; p.getAge() &gt;=3D 18=0A=
+        &amp;&amp; p.getAge() &lt;=3D 25</STRONG>=0A=
+);</PRE>
+<P>See <A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#syntax">Syntax=20
+of Lambda Expressions</A> for information about how to define lambda=20
+expressions.</P>
+<P>You can use a standard functional interface in place of the interface =
+
+<CODE>CheckPerson</CODE>, which reduces even further the amount of code=20
+required.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach6">Approach 6: Use Standard Functional Interfaces =
+with=20
+Lambda Expressions</A></H3>
+<P>Reconsider the <CODE>CheckPerson</CODE> interface:</P>
+<PRE class=3D"codeblock">interface CheckPerson {=0A=
+    boolean test(Person p);=0A=
+}</PRE>
+<P>This is a very simple interface. It's a functional interface because =
+it=20
+contains only one abstract method. This method takes one parameter and =
+returns a=20
+<CODE>boolean</CODE> value. The method is so simple that it might not be =
+worth
+ it to define one in your application. Consequently, the JDK defines =
+several=20
+standard functional interfaces, which you can find in the package=20
+<CODE>java.util.function</CODE>.</P>
+<P>For example, you can use the <CODE>Predicate&lt;T&gt;</CODE> =
+interface in=20
+place of <CODE>CheckPerson</CODE>. This interface contains the method=20
+<CODE>boolean test(T t)</CODE>:</P>
+<PRE class=3D"codeblock">interface Predicate&lt;T&gt; {=0A=
+    boolean test(T t);=0A=
+}</PRE>
+<P>The interface <CODE>Predicate&lt;T&gt;</CODE> is an example of a =
+generic=20
+interface. (For more information about generics, see the <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/generics/index.html" =
+target=3D"_top">Generics=20
+(Updated)</A> lesson.) Generic types (such as generic interfaces) =
+specify one or=20
+more type parameters within angle brackets (<CODE>&lt;&gt;</CODE>). This =
+
+interface contains only one type parameter, <CODE>T</CODE>. When you =
+declare or=20
+instantiate a generic type with actual type  arguments, you have a =
+parameterized=20
+type. For example, the parameterized type =
+<CODE>Predicate&lt;Person&gt;</CODE>=20
+is the following:</P>
+<PRE class=3D"codeblock">interface Predicate&lt;<CODE>Person</CODE>&gt; {=0A=
+    boolean test(<CODE>Person</CODE> t);=0A=
+}</PRE>
+<P>This parameterized type contains a method that has the same return =
+type and=20
+parameters as <CODE>CheckPerson.boolean test(Person p)</CODE>. =
+Consequently, you=20
+can use <CODE>Predicate&lt;T&gt;</CODE> in place of =
+<CODE>CheckPerson</CODE> as=20
+the following method demonstrates:</P>
+<PRE class=3D"codeblock">public static void printPersonsWithPredicate(=0A=
+    List&lt;Person&gt; roster, Predicate&lt;Person&gt; tester) {=0A=
+    for (Person p : roster) {=0A=
+        if (tester.test(p)) {=0A=
+            p.printPerson();=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>As a result, the following method invocation is the same as when you =
+invoked=20
+<CODE>printPersons</CODE> in <A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach3">Approach=20
+3: Specify Search Criteria Code in a Local Class</A> to obtain members =
+who are=20
+eligible for Selective Service:</P>
+<PRE class=3D"codeblock">printPersonsWithPredicate(=0A=
+    roster,=0A=
+    p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+        &amp;&amp; p.getAge() &gt;=3D 18=0A=
+        &amp;&amp; p.getAge() &lt;=3D 25=0A=
+);</PRE>
+<P>This is not the only possible place in this method to use a lambda=20
+ expression. The following approach suggests other ways to use lambda=20
+ expressions.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach7">Approach 7: Use Lambda Expressions Throughout =
+Your=20
+Application</A></H3>
+<P>Reconsider the method <CODE>printPersonsWithPredicate</CODE> to see =
+where=20
+else you could use lambda expressions:</P>
+<PRE class=3D"codeblock">public static void printPersonsWithPredicate(=0A=
+    List&lt;Person&gt; roster, Predicate&lt;Person&gt; tester) {=0A=
+    for (Person p : roster) {=0A=
+        if (tester.test(p)) {=0A=
+            p.printPerson();=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>This method checks each <CODE>Person</CODE> instance contained in the =
+
+<CODE>List</CODE> parameter <CODE>roster</CODE> whether it satisfies the =
+
+criteria specified in the <CODE>Predicate</CODE> parameter =
+<CODE>tester</CODE>.=20
+If the <CODE>Person</CODE> instance does satisfy the criteria specified =
+by=20
+<CODE>tester</CODE>, the method <CODE>printPersron</CODE> is invoked on =
+the=20
+<CODE>Person</CODE> instance.</P>
+<P>Instead of invoking the method <CODE>printPerson</CODE>, you can =
+specify a=20
+different action to perform on those <CODE>Person</CODE> instances that =
+satisfy=20
+the criteria specified by <CODE>tester</CODE>. You can specify this =
+action with=20
+a lambda expression. Suppose you want a lambda expression similar to=20
+<CODE>printPerson</CODE>, one that takes one argument (an object of type =
+
+<CODE>Person</CODE>) and returns void. Remember, to use a lambda =
+expression, you=20
+need to  implement a functional interface. In this case, you need a =
+functional=20
+ interface that contains an abstract method that can take one argument =
+of type=20
+<CODE>Person</CODE> and returns void. The <CODE>Consumer&lt;T&gt;</CODE> =
+
+interface contains the method <CODE>void accept(T t)</CODE>, which has =
+these=20
+characteristics. The following method replaces the invocation=20
+<CODE>p.printPerson()</CODE> with an instance of=20
+<CODE>Consumer&lt;Person&gt;</CODE> that invokes the method=20
+<CODE>accept</CODE>:</P>
+<PRE class=3D"codeblock">public static void processPersons(=0A=
+    List&lt;Person&gt; roster,=0A=
+    Predicate&lt;Person&gt; tester,=0A=
+    <STRONG>Consumer&lt;Person&gt; block</STRONG>) {=0A=
+        for (Person p : roster) {=0A=
+            if (tester.test(p)) {=0A=
+                <STRONG>block.accept(p);</STRONG>=0A=
+            }=0A=
+        }=0A=
+}</PRE>
+<P>As a result, the following method invocation is the same as when you =
+invoked=20
+<CODE>printPersons</CODE> in <A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach3">Approach=20
+3: Specify Search Criteria Code in a Local Class</A> to obtain members =
+who are=20
+eligible for Selective Service. The lambda expression used to print =
+members is=20
+highlighted:</P>
+<PRE class=3D"codeblock">processPersons(=0A=
+     roster,=0A=
+     p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+         &amp;&amp; p.getAge() &gt;=3D 18=0A=
+         &amp;&amp; p.getAge() &lt;=3D 25,=0A=
+     <STRONG>p -&gt; p.printPerson()</STRONG>=0A=
+);</PRE>
+<P>What if you want to do more with your members' profiles than printing =
+them=20
+out. Suppose that you want to validate the members' profiles or  =
+retrieve their=20
+contact information? In this case, you need a functional interface that =
+contains=20
+an abstract method that returns a value. The =
+<CODE>Function&lt;T,R&gt;</CODE>=20
+interface contains the method <CODE>R apply(T t)</CODE>. The following =
+method=20
+retrieves the data specified by the parameter <CODE>mapper</CODE>, and =
+then=20
+performs an action on it specified by the parameter =
+<CODE>block</CODE>:</P>
+<PRE class=3D"codeblock">public static void processPersonsWithFunction(=0A=
+    List&lt;Person&gt; roster,=0A=
+    Predicate&lt;Person&gt; tester,=0A=
+    Function&lt;Person, String&gt; mapper,=0A=
+    Consumer&lt;String&gt; block) {=0A=
+    for (Person p : roster) {=0A=
+        if (tester.test(p)) {=0A=
+            String data =3D mapper.apply(p);=0A=
+            block.accept(data);=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>The following method retrieves the email address from each member =
+contained=20
+in <CODE>roster</CODE> who are eligible for Selective Service and then =
+prints=20
+it:</P>
+<PRE class=3D"codeblock">processPersonsWithFunction(=0A=
+    roster,=0A=
+    p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+        &amp;&amp; p.getAge() &gt;=3D 18=0A=
+        &amp;&amp; p.getAge() &lt;=3D 25,=0A=
+    p -&gt; p.getEmailAddress(),=0A=
+    email -&gt; System.out.println(email)=0A=
+);</PRE><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach8">Approach 8: Use Generics More =
+Extensively</A></H3>
+<P>Reconsider the method <CODE>processPersonsWithFunction</CODE>. The =
+following=20
+is a generic version of it that accepts, as a parameter, a collection =
+that=20
+contains elements of any data type:</P>
+<PRE class=3D"codeblock">public static &lt;X, Y&gt; void processElements(=0A=
+    Iterable&lt;X&gt; source,=0A=
+    Predicate&lt;X&gt; tester,=0A=
+    Function &lt;X, Y&gt; mapper,=0A=
+    Consumer&lt;Y&gt; block) {=0A=
+    for (X p : source) {=0A=
+        if (tester.test(p)) {=0A=
+            Y data =3D mapper.apply(p);=0A=
+            block.accept(data);=0A=
+        }=0A=
+    }=0A=
+}</PRE>
+<P>To print the e-mail address of members who are eligible for Selective =
+
+Service, invoke the <CODE>processElements</CODE> method as follows:</P>
+<PRE class=3D"codeblock">processElements(=0A=
+    roster,=0A=
+    p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+        &amp;&amp; p.getAge() &gt;=3D 18=0A=
+        &amp;&amp; p.getAge() &lt;=3D 25,=0A=
+    p -&gt; p.getEmailAddress(),=0A=
+    email -&gt; System.out.println(email)=0A=
+);</PRE>
+<P>This method invocation performs the following actions:</P>
+<OL>
+  <LI>Obtains a source of objects from the collection =
+<CODE>source</CODE>. In=20
+  this example, it obtains a source of <CODE>Person</CODE> objects from =
+the=20
+  collection <CODE>roster</CODE>. Notice that the collection=20
+  <CODE>roster</CODE>, which is a collection of type <CODE>List</CODE>, =
+is also=20
+  an object of type <CODE>Iterable</CODE>.</LI>
+  <LI>Filters objects that match the <CODE>Predicate</CODE> object=20
+  <CODE>tester</CODE>. In this example, the <CODE>Predicate</CODE> =
+object is a=20
+  lambda expression that specifies which members would be eligible for =
+Selective=20
+  Service.</LI>
+  <LI>Maps each filtered object to a value as specified by the=20
+  <CODE>Function</CODE> object <CODE>mapper</CODE>. In this example, the =
+
+  <CODE>Function</CODE> object is a lambda expression that returns the =
+e-mail=20
+  address of a member.</LI>
+  <LI>Performs an action on each mapped object as specified by the=20
+  <CODE>Consumer</CODE> object <CODE>block</CODE>. In this example, the=20
+  <CODE>Consumer</CODE> object is a lambda expression that prints a =
+string,=20
+  which is the e-mail address returned by the <CODE>Function</CODE>=20
+object.</LI></OL>
+<P>You can replace each of these actions with an aggregate =
+operation.</P><!-- =
+********************************************************************** =
+-->=20
+<H3><A name=3D"approach9">Approach 9: Use Aggregate Operations That =
+Accept Lambda=20
+Expressions as Parameters</A></H3>
+<P>The following example uses aggregate operations to print the e-mail =
+addresses=20
+of those members contained in the collection <CODE>roster</CODE> who are =
+
+eligible for Selective Service:</P>
+<PRE class=3D"codeblock">roster=0A=
+    .stream()=0A=
+    .filter(=0A=
+        p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+            &amp;&amp; p.getAge() &gt;=3D 18=0A=
+            &amp;&amp; p.getAge() &lt;=3D 25)=0A=
+    .map(p -&gt; p.getEmailAddress())=0A=
+    .forEach(email -&gt; System.out.println(email));</PRE>
+<P>The following table maps each of the operations the method=20
+<CODE>processElements</CODE> performs with the corresponding aggregate=20
+operation:</P>
+<TABLE border=3D"1" summary=3D"Mapping of each of the actions the method =
+processElements performs with the corresponding aggregate operation">
+  <TBODY>
+  <TR>
+    <TH id=3D"h101"><CODE>processElements</CODE> Action</TH>
+    <TH id=3D"h102">Aggregate Operation</TH></TR>
+  <TR>
+    <TD headers=3D"h101">Obtain a source of objects</TD>
+    <TD headers=3D"h102"><CODE>Stream&lt;E&gt;=20
+    <STRONG>stream</STRONG>()</CODE></TD></TR>
+  <TR>
+    <TD headers=3D"h101">Filter objects that match a =
+<CODE>Predicate</CODE>=20
+      object</TD>
+    <TD headers=3D"h102"><CODE>Stream&lt;T&gt;=20
+      <STRONG>filter</STRONG>(Predicate&lt;? super T&gt; =
+predicate)</CODE></TD></TR>
+  <TR>
+    <TD headers=3D"h101">Map objects to another value as specified by a=20
+      <CODE>Function</CODE> object</TD>
+    <TD headers=3D"h102"><CODE>&lt;R&gt; Stream&lt;R&gt;=20
+      <STRONG>map</STRONG>(Function&lt;? super T,? extends R&gt;=20
+    mapper)</CODE></TD></TR>
+  <TR>
+    <TD headers=3D"h101">Perform an action as specified by a=20
+      <CODE>Consumer</CODE> object</TD>
+    <TD headers=3D"h102"><CODE>void =
+<STRONG>forEach</STRONG>(Consumer&lt;? super=20
+      T&gt; action)</CODE></TD></TR></TBODY></TABLE>
+<P>The operations <CODE>filter</CODE>, <CODE>map</CODE>, and=20
+<CODE>forEach</CODE> are <EM>aggregate operations</EM>. Aggregate =
+operations=20
+process elements from a stream, not directly from a collection (which is =
+the=20
+reason why the first method invoked in this  example is =
+<CODE>stream</CODE>). A=20
+<EM>stream</EM> is a sequence of  elements. Unlike a collection, it is =
+not a=20
+data structure that stores  elements. Instead, a stream carries values =
+from a=20
+source, such as  collection, through a pipeline. A <EM>pipeline</EM> is =
+a=20
+sequence of stream operations, which in this example is =
+<CODE>filter</CODE>-=20
+<CODE>map</CODE>-<CODE>forEach</CODE>. In addition, aggregate operations =
+
+typically accept lambda expressions  as parameters, enabling you to =
+customize=20
+how they behave.</P>
+<P>For a more thorough discussion of aggregate operations, see the <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/collections/streams/index.=
+html"=20
+target=3D"_top">Aggregate Operations</A> lesson.</P>
+<H2><A name=3D"lambda-expressions-in-gui-applications">Lambda =
+Expressions in GUI=20
+Applications</A></H2>
+<P>To process events in a graphical user interface (GUI) application, =
+such as=20
+keyboard actions, mouse actions, and scroll actions, you typically =
+create event=20
+handlers, which usually involves implementing a particular interface. =
+Often,=20
+event handler interfaces are functional interfaces; they tend to have =
+only one=20
+method.</P>
+<P>In the JavaFX example <A =
+href=3D"http://docs.oracle.com/javase/8/javafx/get-started-tutorial/hello=
+_world.htm"><CODE>HelloWorld.java</CODE></A>=20
+(discussed in the previous section <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclass=
+es.html"=20
+target=3D"_top">Anonymous Classes</A>), you can replace the highlighted =
+anonymous=20
+class with a lambda expression in this statement:</P>
+<PRE class=3D"codeblock">        btn.setOnAction(<B>new =
+EventHandler&lt;ActionEvent&gt;() {</B>=0A=
+=0A=
+            <B>@Override</B>=0A=
+            <B>public void handle(ActionEvent event) {</B>=0A=
+                <B>System.out.println("Hello World!");</B>=0A=
+            <B>}</B>=0A=
+        <B>}</B>);</PRE>
+<P>The method invocation <CODE>btn.setOnAction</CODE> specifies what =
+happens=20
+when you select the button represented by the <CODE>btn</CODE> object. =
+This=20
+method requires an object of type =
+<CODE>EventHandler&lt;ActionEvent&gt;</CODE>.=20
+The <CODE>EventHandler&lt;ActionEvent&gt;</CODE> interface contains only =
+one=20
+method, <CODE>void handle(T event)</CODE>. This interface is a =
+functional=20
+interface, so you could use the following highlighted lambda expression =
+to=20
+replace it:</P>
+<PRE class=3D"codeblock">        btn.setOnAction(=0A=
+          <B>event -&gt; System.out.println("Hello World!")</B>=0A=
+        );</PRE>
+<H2><A name=3D"syntax">Syntax of Lambda Expressions</A></H2>
+<P>A lambda expression consists of the following:</P>
+<UL>
+  <LI>
+  <P>A comma-separated list of formal parameters enclosed in =
+parentheses. The=20
+  <CODE>CheckPerson.test</CODE> method contains one parameter, =
+<CODE>p</CODE>,=20
+  which represents an instance of the <CODE>Person</CODE> class.</P>
+  <P><B>Note</B>: You can omit the data type of the parameters in a =
+lambda=20
+  expression. In addition, you can omit the parentheses if there is only =
+one
+   parameter. For example, the following lambda expression is also =
+valid:</P>
+<PRE class=3D"codeblock">p -&gt; p.getGender() =3D=3D Person.Sex.MALE =0A=
+    &amp;&amp; p.getAge() &gt;=3D 18=0A=
+    &amp;&amp; p.getAge() &lt;=3D 25</PRE></LI>
+  <LI>
+  <P>The arrow token, <CODE>-&gt;</CODE></P></LI>
+  <LI>
+  <P>A body, which consists of a single expression or a statement block. =
+This=20
+  example uses the following expression:</P>
+<PRE class=3D"codeblock">p.getGender() =3D=3D Person.Sex.MALE =0A=
+    &amp;&amp; p.getAge() &gt;=3D 18=0A=
+    &amp;&amp; p.getAge() &lt;=3D 25</PRE>
+  <P>If you specify a single expression, then the Java runtime evaluates =
+the
+   expression and then returns its value. Alternatively, you can use a =
+return=20
+  statement:</P>
+<PRE class=3D"codeblock">p -&gt; {=0A=
+    return p.getGender() =3D=3D Person.Sex.MALE=0A=
+        &amp;&amp; p.getAge() &gt;=3D 18=0A=
+        &amp;&amp; p.getAge() &lt;=3D 25;=0A=
+}</PRE>
+  <P>A return statement is not an expression; in a lambda expression, =
+you must=20
+  enclose statements in braces (<CODE>{}</CODE>). However, you do not =
+have to=20
+  enclose a void method invocation in braces. For example,  the =
+following is a=20
+  valid lambda expression:</P>
+<PRE class=3D"codeblock">email -&gt; =
+System.out.println(email)</PRE></LI></UL>
+<P>Note that a lambda expression looks a lot like a method declaration; =
+you can=20
+consider lambda expressions as anonymous methods=97methods without a =
+name.</P>
+<P>The following example, <A class=3D"SourceLink" =
+onclick=3D"showCode('../../displayCode.html', =
+'examples/Calculator.java'); return false;"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/examples/Calcu=
+lator.java"=20
+target=3D"_blank"><CODE>Calculator</CODE></A>, is an example of lambda =
+expressions=20
+that take more than one formal parameter:</P>
+<PRE class=3D"codeblock">public class Calculator {=0A=
+  =0A=
+    interface IntegerMath {=0A=
+        int operation(int a, int b);   =0A=
+    }=0A=
+  =0A=
+    public int operateBinary(int a, int b, IntegerMath op) {=0A=
+        return op.operation(a, b);=0A=
+    }=0A=
+ =0A=
+    public static void main(String... args) {=0A=
+    =0A=
+        Calculator myApp =3D new Calculator();=0A=
+        IntegerMath addition =3D (a, b) -&gt; a + b;=0A=
+        IntegerMath subtraction =3D (a, b) -&gt; a - b;=0A=
+        System.out.println("40 + 2 =3D " +=0A=
+            myApp.operateBinary(40, 2, addition));=0A=
+        System.out.println("20 - 10 =3D " +=0A=
+            myApp.operateBinary(20, 10, subtraction));    =0A=
+    }=0A=
+}=0A=
+=0A=
+</PRE>
+<P>The method <CODE>operateBinary</CODE> performs a mathematical =
+operation on=20
+two integer operands. The operation itself is specified by an instance =
+of=20
+<CODE>IntegerMath</CODE>. The example defines two operations with lambda =
+
+expressions, <CODE>addition</CODE> and <CODE>subtraction</CODE>. The =
+example=20
+prints the following:</P>
+<PRE class=3D"codeblock">40 + 2 =3D 42=0A=
+20 - 10 =3D 10</PRE>
+<H2><A name=3D"accessing-local-variables">Accessing Local Variables of =
+the=20
+Enclosing Scope</A></H2>
+<P>Like local and anonymous classes, lambda expressions can <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/localclasses.h=
+tml#accessing-members-of-an-enclosing-class"=20
+target=3D"_top">capture variables</A>; they have the same access to =
+local=20
+variables of the enclosing scope.  However, unlike local and anonymous =
+classes,=20
+lambda expressions do not  have any shadowing issues (see <A =
+class=3D"TutorialLink"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html#sh=
+adowing"=20
+target=3D"_top">Shadowing</A> for more information). Lambda expressions =
+are=20
+lexically scoped. This  means that they do not inherit any names from a=20
+supertype or introduce a new level of scoping. Declarations in a lambda=20
+expression are  interpreted just as they are in the enclosing =
+environment. The=20
+following example, <A class=3D"SourceLink" =
+onclick=3D"showCode('../../displayCode.html', =
+'examples/LambdaScopeTest.java'); return false;"=20
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/examples/Lambd=
+aScopeTest.java"=20
+target=3D"_blank"><CODE>LambdaScopeTest</CODE></A>, demonstrates =
+this:</P>
+<PRE class=3D"codeblock">import java.util.function.Consumer;=0A=
+=0A=
+public class LambdaScopeTest {=0A=
+=0A=
+    public int x =3D 0;=0A=
+=0A=
+    class FirstLevel {=0A=
+=0A=
+        public int x =3D 1;=0A=
+=0A=
+        void methodInFirstLevel(int x) {=0A=
+            =0A=
+            // The following statement causes the compiler to generate=0A=
+            // the error "local variables referenced from a lambda =
+expression=0A=
+            // must be final or effectively final" in statement A:=0A=
+            //=0A=
+            // x =3D 99;=0A=
+            =0A=
+            Consumer&lt;Integer&gt; myConsumer =3D (y) -&gt; =0A=
+            {=0A=
+                System.out.println("x =3D " + x); // Statement A=0A=
+                System.out.println("y =3D " + y);=0A=
+                System.out.println("this.x =3D " + this.x);=0A=
+                System.out.println("LambdaScopeTest.this.x =3D " +=0A=
+                    LambdaScopeTest.this.x);=0A=
+            };=0A=
+=0A=
+            myConsumer.accept(x);=0A=
+=0A=
+        }=0A=
+    }=0A=
+=0A=
+    public static void main(String... args) {=0A=
+        LambdaScopeTest st =3D new LambdaScopeTest();=0A=
+        LambdaScopeTest.FirstLevel fl =3D st.new FirstLevel();=0A=
+        fl.methodInFirstLevel(23);=0A=
+    }=0A=
+}=0A=
+</PRE>
+<P>This example generates the following output:</P>
+<PRE class=3D"codeblock">x =3D 23=0A=
+y =3D 23=0A=
+this.x =3D 1=0A=
+LambdaScopeTest.this.x =3D 0</PRE>
+<P>If you substitute the parameter <CODE>x</CODE> in place of =
+<CODE>y</CODE> in=20
+the declaration of the lambda expression <CODE>myConsumer</CODE>, then =
+the=20
+compiler generates an error:</P>
+<PRE class=3D"codeblock">Consumer&lt;Integer&gt; myConsumer =3D (x) =
+-&gt; {=0A=
+    // ...=0A=
+}</PRE>
+<P>The compiler generates the error "variable x is already defined in  =
+method=20
+methodInFirstLevel(int)" because the lambda expression does not  =
+introduce a new=20
+level of scoping. Consequently, you can directly access  fields, =
+methods, and=20
+local variables of the enclosing scope. For  example, the lambda =
+expression=20
+directly accesses the parameter <CODE>x</CODE> of the method=20
+<CODE>methodInFirstLevel</CODE>. To access variables in the enclosing =
+class, use=20
+the keyword <CODE>this</CODE>. In this example, <CODE>this.x</CODE> =
+refers to=20
+the member variable <CODE>FirstLevel.x</CODE>.</P>
+<P>However, like local and anonymous classes, a lambda expression can  =
+only=20
+access local variables and parameters of the enclosing block that  are =
+final or
+ effectively final. For example, suppose that you add the following =
+assignment=20
+statement immediately after the <CODE>methodInFirstLevel</CODE> =
+definition=20
+statement:</P>
+<PRE class=3D"codeblock">void methodInFirstLevel(int x) {=0A=
+    <STRONG>x =3D 99;</STRONG>=0A=
+    // ...=0A=
+}</PRE>
+<P>Because of this assignment statement, the variable =
+<CODE>FirstLevel.x</CODE>=20
+is not effectively final anymore. As a result, the Java compiler =
+generates an=20
+error message similar to "local variables referenced from a lambda =
+expression=20
+must be final or effectively final" where the lambda expression=20
+<CODE>myConsumer</CODE> tries to access the <CODE>FirstLevel.x</CODE>=20
+variable:</P>
+<PRE class=3D"codeblock">System.out.println("x =3D " + x);</PRE>
+<H2><A name=3D"target-typing">Target Typing</A></H2>
+<P>How do you determine the type of a lambda expression? Recall the =
+lambda=20
+expression that selected members who are male and between the ages 18 =
+and 25=20
+years:</P>
+<PRE class=3D"codeblock">p -&gt; p.getGender() =3D=3D Person.Sex.MALE=0A=
+    &amp;&amp; p.getAge() &gt;=3D 18=0A=
+    &amp;&amp; p.getAge() &lt;=3D 25</PRE>
+<P>This lambda expression was used in the following two methods:</P>
+<UL>
+  <LI>
+  <P><CODE>public static void printPersons(List&lt;Person&gt; roster,=20
+  CheckPerson tester)</CODE> in <A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach3">Approach=20
+  3: Specify Search Criteria Code in a Local Class</A></P></LI>
+  <LI>
+  <P><CODE>public void printPersonsWithPredicate(List&lt;Person&gt; =
+roster,=20
+  Predicate&lt;Person&gt; tester)</CODE> in <A =
+href=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhang=
+Internet/Lambda%20Expressions%20(The%20Java%20Tutorials%20)%20Learning%20=
+the%20Java%20Language%20Classes%20and%20Objects.htm#approach6">Approach=20
+  6: Use Standard Functional Interfaces with Lambda =
+Expressions</A></P></LI></UL>
+<P>When the Java runtime invokes the method <CODE>printPersons</CODE>, =
+it's=20
+expecting a data type of <CODE>CheckPerson</CODE>, so the lambda =
+expression is=20
+of this type. However, when the Java runtime invokes the method=20
+<CODE>printPersonsWithPredicate</CODE>, it's expecting a data type of=20
+<CODE>Predicate&lt;Person&gt;</CODE>, so the lambda expression is of =
+this type.=20
+The data type that these methods expect is called the <EM>target =
+type</EM>. To=20
+determine the type of a lambda expression, the Java compiler uses the =
+target=20
+type of the context or situation in which the lambda expression was =
+found. It=20
+follows that you can only use lambda expressions in situations in which =
+the Java=20
+compiler can determine a target type:</P>
+<UL>
+  <LI>
+  <P>Variable declarations</P></LI>
+  <LI>
+  <P>Assignments</P></LI>
+  <LI>
+  <P>Return statements</P></LI>
+  <LI>
+  <P>Array initializers</P></LI>
+  <LI>
+  <P>Method or constructor arguments</P></LI>
+  <LI>
+  <P>Lambda expression bodies</P></LI>
+  <LI>
+  <P>Conditional expressions, <CODE>?:</CODE></P></LI>
+  <LI>
+  <P>Cast expressions</P></LI></UL>
+<H3><A name=3D"target-types-and-method-arguments">Target Types and =
+Method=20
+Arguments</A></H3>
+<P>For method arguments, the Java compiler determines the target type =
+with two=20
+other language features: overload resolution and type argument =
+inference.</P>
+<P>Consider the following two functional interfaces ( <A =
+class=3D"APILink" =
+href=3D"http://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html"=
+=20
+target=3D"_blank"><CODE>java.lang.Runnable</CODE></A> and <A =
+class=3D"APILink" =
+href=3D"http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Cal=
+lable.html"=20
+target=3D"_blank"><CODE>java.util.concurrent.Callable&lt;V&gt;</CODE></A>=
+):</P>
+<PRE class=3D"codeblock">public interface Runnable {=0A=
+    void run();=0A=
+}=0A=
+=0A=
+public interface Callable&lt;V&gt; {=0A=
+    V call();=0A=
+}</PRE>
+<P>The method <CODE>Runnable.run</CODE> does not return a value, whereas =
+
+<CODE>Callable&lt;V&gt;.call</CODE> does.</P>
+<P>Suppose that you have overloaded the method <CODE>invoke</CODE> as =
+follows
+ (see <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/methods.html" =
+
+target=3D"_top">Defining Methods</A> for more information about =
+overloading=20
+methods):</P>
+<PRE class=3D"codeblock">void invoke(Runnable r) {=0A=
+    r.run();=0A=
+}=0A=
+=0A=
+&lt;T&gt; T invoke(Callable&lt;T&gt; c) {=0A=
+    return c.call();=0A=
+}</PRE>
+<P>Which method will be invoked in the following statement?</P>
+<PRE class=3D"codeblock">String s =3D invoke(() -&gt; "done");</PRE>
+<P>The method <CODE>invoke(Callable&lt;T&gt;)</CODE> will be invoked =
+because=20
+that method returns a value; the method <CODE>invoke(Runnable)</CODE> =
+does not.=20
+In this case, the type of the lambda expression <CODE>() -&gt; =
+"done"</CODE> is=20
+<CODE>Callable&lt;T&gt;</CODE>.</P>
+<H2><A name=3D"serialization">Serialization</A></H2>
+<P>You can  <A class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html" =
+
+target=3D"_top">serialize</A> a lambda expression if its target type and =
+its=20
+captured arguments are serializable. However, like <A =
+class=3D"TutorialLink" =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html#se=
+rialization"=20
+target=3D"_top">inner classes</A>, the serialization of lambda =
+expressions is=20
+strongly discouraged.</P></DIV>
+<DIV class=3D"NavBit"><A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclass=
+es.html"=20
+target=3D"_top">=AB Previous</A>             =95             <A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/TOC.html"=20
+target=3D"_top">Trail</A>             =95             <A =
+href=3D"http://docs.oracle.com/javase/tutorial/java/javaOO/methodreferenc=
+es.html"=20
+target=3D"_top">Next =BB</A>         </DIV></DIV>
+<DIV id=3D"Footer2">
+<HR>
+
+<DIV id=3D"TagNotes">
+<P class=3D"footertext">Problems with the examples? Try <A =
+href=3D"http://docs.oracle.com/javase/tutorial/information/run-examples.h=
+tml"=20
+target=3D"_blank">Compiling and Running        the Examples: FAQs</A>.   =
+  <BR>   =20
+Complaints? Compliments? Suggestions? <A =
+href=3D"http://docs.oracle.com/javase/feedback.html"=20
+target=3D"_blank">Give    us your feedback</A>.     </P></DIV>
+<DIV id=3D"Footer">
+<P class=3D"footertext"><A name=3D"license_info">Your use of this</A> =
+page and all=20
+the material on pages under "The Java Tutorials" banner  is subject to =
+these <A=20
+href=3D"http://docs.oracle.com/javase/tutorial/information/cpyr.html">leg=
+al=20
+notices</A>. </P>
+<TABLE border=3D"0" cellspacing=3D"0" cellpadding=3D"5" summary=3D"">
+  <TBODY>
+  <TR>
+    <TD width=3D"20%">
+      <TABLE width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"5">
+        <TBODY>
+        <TR>
+          <TD align=3D"center" headers=3D"h201"><IMG width=3D"55" =
+height=3D"55" id=3D"duke"=20
+            alt=3D"duke image" =
+src=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangI=
+nternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning=
+%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/DukeWave.gif">=
+</TD>
+          <TD align=3D"left" valign=3D"middle" headers=3D"h202"><IMG =
+width=3D"100"=20
+            height=3D"29" id=3D"oracle" alt=3D"Oracle logo" =
+src=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangI=
+nternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning=
+%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/logo_oracle_fo=
+oter.gif"></TD></TR></TBODY></TABLE></TD>
+    <TD width=3D"55%" align=3D"center" valign=3D"middle">
+      <P class=3D"footertext"><A =
+href=3D"http://www.oracle.com/us/corporate/index.html">About=20
+      Oracle</A> | <A =
+href=3D"http://www.oracle.com/technology/index.html">Oracle=20
+      Technology Network</A> | <A =
+href=3D"http://www.oracle.com/us/legal/terms/index.html">Terms=20
+      of Use</A></P></TD>
+    <TD width=3D"25%" align=3D"right" valign=3D"middle">
+      <P class=3D"footertext">Copyright =A9 1995, 2014 Oracle and/or its =
+affiliates.=20
+      All rights reserved.</P></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=3D"PrintHeaders"><B>Previous page:</B> Anonymous Classes      =
+  =20
+<BR><B>Next page:</B> Method References     </DIV><!-- Start =
+SiteCatalyst code   -->=20
+<SCRIPT language=3D"JavaScript" =
+src=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangI=
+nternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning=
+%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/s_code_downloa=
+d.js" type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT language=3D"JavaScript" =
+src=3D"file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangI=
+nternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning=
+%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/s_code.js" =
+type=3D"text/javascript"></SCRIPT>
+ <NOSCRIPT>A browser with JavaScript enabled is required for this page =
+to=20
+operate properly. </NOSCRIPT> <!-- ********** DO NOT ALTER ANYTHING =
+BELOW THIS LINE ! *********** --> <!--  Below code will send the info to =
+Omniture server -->=20
+<SCRIPT language=3D"javascript" type=3D"text/javascript">var =
+s_code=3Ds.t();if(s_code)document.write(s_code)</SCRIPT>
+ <!-- End SiteCatalyst code -->  </BODY></HTML>
+
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangInternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/DukeWave.gif
+
+R0lGODlhNwA3APcAAP////j48Pj46Pj46vj47RgQEAAAACEZGRQLDPDw4Obk2FFNS/Dw6PL06Xt3
+dvljmFdTTxsTE/fw5x4WFh0UFLu6t+np3+Li4tEhNhcVFfj49kA6Oh0ZGXZzbsrHxBcOE0xGR2lp
+Z9vVy/Hw4vn4+VpZVS0oKBUPD0ZAPqKfo19YWWdhYvPz89XV1XJsZw8GCePd1BcYGPP46/j06e/x
+8ZeWjfJWjSggH2NfXLWwtPVQfu0vV6enpvo7crCtqPr78erp6S4rL4eDftTQyBkYGDYyL8vGz/Dq
+4Judmerv4DQqKjs1Nvr7+8DCwRkQFtEsUhwUGRQTEjQvMce7trm0qoR6fCASF6KblRgTEygZJJKP
+hmxxbJOMj/z8/KWjnJeUlqgsTcjHuG9qcvTu5hcUGkgqM46BhYV9hK2wq///9yAgInEdLUUfKv/7
+7xARD4EbOLiRp42TkP7+8vv863wwSv7/7lQlL3IkOx0VIvz96/399dBYtvj+8aeksfy36eVJpn6H
+hgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAA3ADcA
+AAj/AAEIHEiwoMGDCAnyWHEhocOHEBN6IOPERMSLGBMWOXFASsaPH3O8oGDFhcAaHUCqTLgBD5EJ
+NAAsuAElxMqbBG8cmBCEBIwYExCUwPmRhoeGAIBk4PCiSooMH6KYaEFUoJeIQpZA8AGgCpYML7io
+iQBlQo6qApU4gHgjAgIlAFyQKfDBRIEDUfqgFYiCwgISDs9EmEBhxYoCMQogOIBAzAUfISA46IIT
+AkcUSA8y2YKAyIEDRAogLuAECYoJoAtcwSnkBZQCSzw4RPE5w4EToqFwQMBhgls1Z286QPDhQIEi
+wQ/ysGIcyokPFCjEcIIgyxIVKYh+KeD7AAUTXA/S/6j9oUCGCEs/oKhgJPPNFE7QFyAS4cYXygal
+3EWM5a6VIEDsBUAKahTAgWjeHcDFQZwlNgFpE7xghIADBnHCgRGQdAAHTRhkBAIZ9BdBDAisQCEA
+PEhxQnQRRBGFG26AZ1AHFHDwQVAguIcWD0vQdQAZdtCxBhsnKJGcQEBscEAEUohB1YksbFDACVk8
+YcOVNtCRhRRMFMRFBipcwMKJA6FAxAZ7PKDmmm9wAMGYA1VgQpdkDrQAhw3AYcOaD/SwwQprDRTH
+F3UStEAZfgzxh5o6NLrDBiIUUcFAJhU6EAhg6GCDoxhgsMMTC0hQwQIDBWqpTGD0oGqnne5QhhkS
+JP/ggBZMtMDDqQKVoISqO7D6xBoQiBCrCBs4oAJ+p6oAwhtP9PoEGGyoMMURIxwhQQ0FkIorACo0
+cegdd9gBQgdTwDBDrAlYUARc2+IwgwhXCCFEDXAMYcEMAszQQAJjXIHAhKd2oIIAbUiggAgiwDDG
+DAEEIECsScBgQnaWsoCAGQIMEMAAGW88AMcSJJHAEQqcUcOpSLzgxQAENKyxAAEQQMAA+yaQgAIV
+VFrnEGJ8UIHMMTcMswAyCzBCugooAIGlHbQAwRAdZ8zx1ATkm0ASFiQAyBRkMtHBWTjAUDXHDwtg
+dsZGH2HB2mGAQKYHGwgEgQQaT133zBIIwEACe1P/WwScFN5AAxAQNOyy4RvPnPG+DCQxwxa3nhiE
+D0g4QALihtcdc9UNNDBCA1TYdGIIC5RAxeUBaIB4y4bL3IDeI8CgLYU0ZGGCAqpjnnruh8ugtwU4
+ILuXBjcssbHuyHPMgN5JbCEbhU0g4ELQuzfMe8MtCyBDAwyMoAXFAsbxAhUsB4A66pi/LAMD7Hth
+huRRtDAz4uinvvr23aNRBYUkILDBGEG7XgB+QMAfrI4A6wuD6PaygAK4QGOY+4Ec6jACBVhAAGlA
+HMsY4AEVUAgLCEAC0bBHADnkwQM1EEIHXCCEMGQwczIQwVAEBIEgVEBqMvuBAjqAgxAgoQJo4AII
+qqjwwpg1QAEzNIASDTAQJn6kBSCAWswEwIcKlMABHojJQDyAgim0TgZIbCIAlDhGJ34EBQpYXAKu
+AAExHeQCC7AABAmgAByIkYxkBAkI0nhELawAMAnRggPmILQhLJCJiByjSkAAgzaIoANniMgCKqAH
+AjRAf3dUpBkzgoMaQAZ8D6nABhRQhzk4AGACasECQtAhjDigBCLwwgxPdIEAZYQFDoDACmwZkYAA
+ADs=
+
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangInternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/logo_oracle_footer.gif
+
+R0lGODlhZAAdAPcQAP8QEP/v7//f3//Pz/+Pj/+vr/8wMP8gIP+fn/9QUP9wcP9gYP+/v/9AQP9/
+f/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAABkAB0A
+AAj/ACEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGAFo3Mixo8ePIEOKHEmypMgDKFOqXMmypcuX
+MGPKnNkSwAGbOG/qzMlzp8+eQH8KDUp0qNGiGmkqXcq0adOkQEfuJHkU6tCSR6eCvNlzpUYDCcKK
+FesT7NizBmyiVHuzwQKda9cCMHs27AG3BmJqbFA3wYIGd/PC5WmgQIDDiBMHIMDVgeLHDpLKbXCY
+Qdy4CB4jRgBAQAAFVnkCSMBA8+EGhRlzTDnXc4ABAxjEnu3aMgDHAWTrju0a9OABiCPvNOBawG7Z
+BW4C9315rQLEs3dHbkDAgdzrwAUkCLngMGfHA0Bm/xYwGLfhAGnXlg6wfevynHHnVk77EaUBwXBv
+dg/QIPTU5wEc4BgD/gFAWYBcGXBYZMARqFECpxW41nvNaZRZeCGxdhlOBARQgGQ1dcbecw561CF5
+6r324GGgAdAhhjXd5FmLGsr4GgIIFJDjjgWoFh9UABjGWXw+3VSaAiQeQAADBTRZwHrCAQBgfxYe
+llZmHxLJFgAUbniAa6Z9xtZ1a3XooEpj2nRYAs+FZwBwinH2lXcrefYheCBqaBOFW6IE3ABIBhro
+AmrBx9OBhK7WUYcB3JZbUucNsEB6NxkmQANgJjYpi/Xh9F5HjQVAXoZb9hnkgvipZEBmAUQ2IE4A
+sOQaGU77bceoYuTJmupKwFl3QF6pEidqAnrJ1ed6YXqnEXhT4WbbAYd9mOevyiKr2QBfJsuegskS
+AKJkhUoJp2YMJOoogawBsB8DBpxIKZrqrimuabYmK62SmSKGopcV2nTfr/9y1Vx+SQWcV6FFzmUs
+wAwfbN+/EMM7F8SCGYpwjQJLiHGaNV5MpJ6w5sdVUel2tSG4BMsE32As87tykS69HLPIXsE7sKlG
+bYxmhTeLTLKWQukJs8kpz9QnxkgnTXOMRr+E88oII9Uxy1AnbDXJUj9d9E0Yde3112CHLfbYZJf9
+UEAAOw==
+
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangInternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/s_code_download.js
+
+/* Setting the s_account */
+function s_setAccount(){
+
+var s_account=3D"";
+
+var curUrl =3D location.href;
+=09
+		if(curUrl.indexOf("fmwdocs.us.oracle.com") !=3D -1 ) {
+				s_account =3D "oracledevall,oracledevdocs";
+		}
+		else {
+				s_account =3D "oracledocs";
+		}
+	=09
+		return s_account;
+	=09
+	}
+
+function s_prePlugins(s){
+
+	var arr=3Dlocation.href.split('/');
+	s.pageName =3D arr[3]+':';
+	s.channel =3D arr[3]+':';
+=09
+	for(i=3D4;i<=3Darr.length-1;i++) {
+		s.pageName+=3Darr[i] + ((i=3D=3Darr.length-1)?'':'/');
+	}=20
+     if ( s.pageName.indexOf("index.html") !=3D -1 )
+	s.pageName=3Ds.pageName.replace(/index\.html$/,"");
+	if ( s.pageName.indexOf("index.htm") !=3D -1 )
+	s.pageName=3Ds.pageName.replace(/index\.htm$/,"");
+=09
+	for(i=3D4;i<=3Darr.length-2;i++) {
+	s.channel+=3Darr[i] + ((i=3D=3Darr.length-2)?'':'/');
+	}=20
+}
+function navTrack(sitename,language,pagearea,linklabel)
+{
+var linkvalue =3D'';
+linkvalue =3D (typeof(sitename) !=3D 'undefined'  || sitename !=3D '') ? =
+(sitename)  : '';
+linkvalue =3D (typeof(language) !=3D 'undefined' || language !=3D '') ? =
+(linkvalue + ':' + language)  : linkvalue;
+linkvalue =3D (typeof(pagearea) !=3D 'undefined' || pagearea !=3D '') ? =
+(linkvalue + ':' + pagearea)  : linkvalue;
+linkvalue =3D (typeof(linklabel) !=3D 'undefined' || linklabel !=3D '') =
+? (linkvalue + ':' + linklabel) : linkvalue;
+linkvalue =3D linkvalue.toLowerCase();
+  if (linkvalue !=3D '') {  =20
+ =20
+	var s=3Ds_gi(s_setAccount());=20
+	s.prop22 =3D linkvalue;
+	s.linkTrackVars=3D"prop22";
+	s.tl(this,'o',linkvalue);=20
+	// Set after previous image is sent to server.
+	s_objectID =3D linkvalue;
+	// unset s.prop22 and s.linkTrackVars variable
+	s.prop22 =3D '';
+	s.linkTrackVars=3D'';
+  }
+}
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/eduar_000/VCS/streaming-frameworks/thesis/anhangInternet/Lambda%20Expressions%20%28The%20Java%20Tutorials%20%29%20Learning%20the%20Java%20Language%20Classes%20and%20Objects-Dateien/s_code.js
+
+/* SiteCatalyst code version: H.19.4.
+Copyright 1997-2009 Omniture, Inc. More info available at
+http://www.omniture.com */
+/************************ ADDITIONAL FEATURES ************************
+     Plugins
+*/
+
+var s=3Ds_gi(s_setAccount())
+/************************** CONFIG SECTION **************************/
+/* You may add or alter any code config here. */
+/* Conversion Config */
+s.currencyCode=3D"USD"
+/* Link Tracking Config */
+s.trackDownloadLinks=3Dtrue
+s.trackExternalLinks=3Dtrue
+s.trackInlineStats=3Dtrue
+s.linkDownloadFileTypes=3D"exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls,bat,bi=
+n,brk,cpio,dll,dmg,gz,jar,rm,rpm,sh,so,tar,tgz,z,smil,smi,swf,wmv,wma,doc=
+x,xls,xlsx,ppt,pptx"
+s.linkInternalFilters=3D"javascript:,oracle,sellingpoint,oramag,crmondema=
+nd.com,oracle.com,education.oracle.com,oss.oracle.com,otn.oracle.com,opn.=
+oracle.com,blogs.oracle.com,pressroom.oracle.com,apps.oraclecorp.com"
+s.linkLeaveQueryString=3Dfalse
+s.linkTrackVars=3D"None"
+s.linkTrackEvents=3D"None"
+
+// Added 15th November 2011
+s.charSet=3D"UTF-8"
+
+// Added 19th September 2011
+s.visitorNamespace=3D"oracle"
+
+
+/* Plugin Config */
+s.usePlugins=3Dtrue
+function s_doPlugins(s) {
+	/* Add calls to plugins here */
+
+	/**** prePlugins ****/
+	if (window.s_prePlugins) { s_prePlugins(s) }
+=09
+	/********************/
+
+	/* Base URL */
+	=
+s.baseURL=3DdecodeURI(location.protocol+"//"+location.hostname+location.p=
+athname.replace(/\/index\.html$/,""));
+=09
+	/* Plugin Example: getNewRepeat 1.0 */
+	/* -------------------------------- */
+	s.prop20=3Ds.getNewRepeat();
+	s.eVar20=3Ds.getNewRepeat();
+=09
+	/* get previous value for s.pageName variable, set to prop24 on every =
+page */
+	/* =
+----------------------------------------------------------------------- =
+*/
+	s.prop24=3Ds.getPreviousValue(s.pageURL,'gpv_p24','');
+	s.eVar24=3Ds.getPreviousValue(s.pageURL,'gpw_e24','');
+=09
+	/* track RSS click-throughs */
+	/* ------------------------ */
+	if(s.getQueryParam('rssid')) {
+		s.eVar2=3Ds.getQueryParam('rssid');
+		s.eVar3=3Ds.getQueryParam('rssid')+": "+s.baseURL;
+		s.events=3Ds.apl(s.events,"event4",",",1);
+	}
+=09
+	/* track eBlast click-throughs */
+	/* --------------------------- */
+	if (s.getQueryParam('msgid')){
+		s.eVar4 =3D s.getQueryParam('msgid');
+		s.eVar5 =3D s.getQueryParam('msgid')+": "+s.baseURL;
+		s.events=3Ds.apl(s.events,"event5",",",1);
+	}
+=09
+	/* track Paid Search click-throughs */
+	/* -------------------------------- */
+		if (s.getQueryParam('sckw')){
+		s.eVar6 =3D s.getQueryParam('sckw');
+		s.eVar7 =3D s.getQueryParam('sckw')+": "+s.baseURL;
+		s.events=3Ds.apl(s.events,"event6",",",1);
+	}
+
+	/* track page region activity */
+	/* --------------------------- */
+	if (s.getQueryParam('pageregion')){
+		s.prop8 =3D s.getQueryParam('pageregion');
+	}
+
+	/* track campaign activity */
+	/* ------------------------ */
+	if (s.getQueryParam('SC')){
+		s.campaign =3D s.getQueryParam('SC');
+	}
+		/* track evite channel activity  */
+	/* ------------------------ */
+	if (s.getQueryParam('evite')){
+		s.eVar8 =3D s.getQueryParam('evite');
+	}
+=09
+	/* MP email to a friend referrer */
+	/* ------------------------ */
+	if (s.getQueryParam('refid')){
+		s.prop31 =3D s.getQueryParam('refid');=09
+	=09
+	}
+=09
+	/* If click comes from a redirect */
+ 	/* ------------------------------ */
+ 	if(s.getQueryParam('origref')) {
+       s.referrer=3Ds.getQueryParam('origref');
+ 	}
+=09
+	/* Populate eVar15 with file name and fire event15 for enhanced =
+download tracking */
+	s.url=3Ds.downloadLinkHandler();
+	if(s.url){
+		 //Track FileName
+         	=
+s.eVar15=3Ds.url.substring(s.url.lastIndexOf("/")+1,s.url.length);
+		 	s.eVar16=3Ds.url;=20
+	     	s.events=3Ds.apl(s.events,"event15",",",1)             =20
+                                                        =20
+         //Track eVar & Event
+         	s.linkTrackVars=3D"eVar15,eVar16,events"
+         	s.linkTrackEvents=3D"event15"
+	}
+=09
+	/* Populate eVar with URL of the Page they are on, eVar with name of =
+feed and fire event16 */
+	s.linkLeaveQueryString=3Dtrue
+	s.url=3Ds.linkHandler('.xml|http://events.oracle.com/rss.jsp','o');
+	if(s.url){
+		s.eVar16=3Ds.url;
+		s.eVar17=3Ds.url.substring(s.url.lastIndexOf("/")+1,s.url.length);
+		s.events=3Ds.apl(s.events,"event16",",",1)
+		s.linkTrackVars=3D"eVar16,eVar17,events"
+		s.linkTrackEvents=3D"event16"
+	}
+	s.linkLeaveQueryString=3Dfalse
+
+	/**** postPlugins ****/
+	if (window.s_postPlugins) { s_postPlugins(s) }
+	/********************/
+
+}
+s.doPlugins=3Ds_doPlugins
+/************************** PLUGINS SECTION *************************/
+/* You may insert any plugins you wish to use here.                 */
+
+/*=20
+*   CUSTOM ORACLE DEFINED PLUGIN FOR S_ACCOUNT VARIABLE SETTING
+*/
+
+
+/*
+ * Plugin: getQueryParam 2.1 - return query string parameter(s)
+ */
+s.getQueryParam=3Dnew Function("p","d","u",""
++"var =
+s=3Dthis,v=3D'',i,t;d=3Dd?d:'';u=3Du?u:(s.pageURL?s.pageURL:s.wd.locati"
++"on);if(u=3D=3D'f')u=3Ds.gtfs().location;while(p){i=3Dp.indexOf(',');i=3D=
+i<0?p"
++".length:i;t=3Ds.p_gpv(p.substring(0,i),u+'');if(t)v+=3Dv?d+t:t;p=3Dp.su=
+bs"
++"tring(i=3D=3Dp.length?i:i+1)}return v");
+s.p_gpv=3Dnew Function("k","u",""
++"var =
+s=3Dthis,v=3D'',i=3Du.indexOf('?'),q;if(k&&i>-1){q=3Du.substring(i+1);v"
++"=3Ds.pt(q,'&','p_gvf',k)}return v");
+s.p_gvf=3Dnew Function("t","k",""
++"if(t){var =
+s=3Dthis,i=3Dt.indexOf('=3D'),p=3Di<0?t:t.substring(0,i),v=3Di<0?'T"
++"rue':t.substring(i+1);if(p.toLowerCase()=3D=3Dk.toLowerCase())return =
+s."
++"epa(v)}return ''");
+
+/*
+ * Plugin: downloadLinkHandler 0.5 - identify and report download links
+ */
+s.downloadLinkHandler=3Dnew Function("p",""
++"var =
+s=3Dthis,h=3Ds.p_gh(),n=3D'linkDownloadFileTypes',i,t;if(!h||(s.linkT"
++"ype&&(h||s.linkName)))return =
+'';i=3Dh.indexOf('?');t=3Ds[n];s[n]=3Dp?p:t;"
++"if(s.lt(h)=3D=3D'd')s.linkType=3D'd';else h=3D'';s[n]=3Dt;return h;");
+
+/*
+ * Plugin: linkHandler 0.5 - identify and report custom links
+ */
+s.linkHandler=3Dnew Function("p","t",""
++"var =
+s=3Dthis,h=3Ds.p_gh(),i,l;t=3Dt?t:'o';if(!h||(s.linkType&&(h||s.linkN"
++"ame)))return =
+'';i=3Dh.indexOf('?');h=3Ds.linkLeaveQueryString||i<0?h:h."
++"substring(0,i);l=3Ds.pt(p,'|','p_gn',h.toLowerCase());if(l){s.linkNam"
++"e=3Dl=3D=3D'[['?'':l;s.linkType=3Dt;return h;}return '';");
+s.p_gn=3Dnew Function("t","h",""
++"var =
+i=3Dt?t.indexOf('~'):-1,n,x;if(t&&h){n=3Di<0?'':t.substring(0,i);x=3D"
++"t.substring(i+1);if(h.indexOf(x.toLowerCase())>-1)return n?n:'[[';}"
++"return 0;");
+
+/* getNewRepeat_v_1.0 - Return whether user is new or repeat          */
+s.getNewRepeat=3Dnew Function(""
++"var s=3Dthis,e=3Dnew =
+Date(),cval,ct=3De.getTime(),y=3De.getYear();e.setTime"
++"(ct+30*24*60*60*1000);cval=3Ds.c_r('s_nr');if(cval.length=3D=3D0){s.c_w=
+("
++"'s_nr',ct,e);return 'New';}if(cval.length!=3D0&&ct-cval<30*60*1000){s"
++".c_w('s_nr',ct,e);return 'New';}if(cval<1123916400001){e.setTime(cv"
++"al+30*24*60*60*1000);s.c_w('s_nr',ct,e);return 'Repeat';}else retur"
++"n 'Repeat';");
+
+/*
+* Plugin: getPreviousValue_v1.0 - return previous value of designated
+* variable (requires split utility)
+*/
+s.getPreviousValue=3Dnew Function("v","c","el",""
++"var s=3Dthis,t=3Dnew =
+Date,i,j,r=3D'';t.setTime(t.getTime()+1800000);if(el"
++"){if(s.events){i=3Ds.split(el,',');j=3Ds.split(s.events,',');for(x in =
+i"
++"){for(y in j){if(i[x]=3D=3Dj[y]){if(s.c_r(c)) =
+r=3Ds.c_r(c);v?s.c_w(c,v,t)"
++":s.c_w(c,'no value',t);return r}}}}}else{if(s.c_r(c)) r=3Ds.c_r(c);v?"
++"s.c_w(c,v,t):s.c_w(c,'no value',t);return r}");
+
+/*
+ * Plugin Utility: apl v1.1
+ */
+s.apl=3Dnew Function("L","v","d","u",""
++"var s=3Dthis,m=3D0;if(!L)L=3D'';if(u){var =
+i,n,a=3Ds.split(L,d);for(i=3D0;i<a."
++"length;i++){n=3Da[i];m=3Dm||(u=3D=3D1?(n=3D=3Dv):(n.toLowerCase()=3D=3D=
+v.toLowerCas"
++"e()));}}if(!m)L=3DL?L+d+v:v;return L");
+
+
+/*
+ * Utility Function: split v1.5 - split a string (JS 1.0 compatible)
+ */
+s.split=3Dnew Function("l","d",""
++"var i,x=3D0,a=3Dnew =
+Array;while(l){i=3Dl.indexOf(d);i=3Di>-1?i:l.length;a[x"
++"++]=3Dl.substring(0,i);l=3Dl.substring(i+d.length);}return a");
+
+
+/*
+ * Utility Function: p_gh
+ */
+s.p_gh=3Dnew Function(""
++"var s=3Dthis;if(!s.eo&&!s.lnk)return '';var =
+o=3Ds.eo?s.eo:s.lnk,y=3Ds.ot("
++"o),n=3Ds.oid(o),x=3Do.s_oidt;if(s.eo&&o=3D=3Ds.eo){while(o&&!n&&y!=3D'B=
+ODY'){"
++"o=3Do.parentElement?o.parentElement:o.parentNode;if(!o)return =
+'';y=3Ds."
++"ot(o);n=3Ds.oid(o);x=3Do.s_oidt}}return o.href?o.href:'';");
+
+
+/* Configure Modules and Plugins */
+s.loadModule("Media")
+s.Media.autoTrack=3Dfalse
+s.Media.trackWhilePlaying=3Dtrue
+s.Media.trackVars=3D"None"
+s.Media.trackEvents=3D"None"
+s.Media.trackSeconds=3D"30"
+
+/* WARNING: Changing any of the below variables will cause drastic
+changes to how your visitor data is collected.  Changes should only be
+made when instructed to do so by your account manager.*/
+s.dc=3D"d1"
+
+/****************************** MODULES *****************************/
+/* Module: Media */
+s.m_Media_c=3D"(`OWhilePlaying~=3D's_media_'+m._in+'_~unc^D(~;`E~m.ae(mn,=
+l,\"'+p+'\",~){var =
+m=3Dthis~o;w.percent=3D((w.off^e+1)/w`X)*100;w.percent=3Dw.percent>1~o.'+=
+f~=3Dnew ~o.Get~:Math.floor(w.percent);w.timeP"
++"layed=3Di.t~}`x =
+p');p=3Dtcf(o)~Time~x,x!=3D2?p:-1,o)}~if(~m.monitor)m.monitor(m.s,w)}~m.s=
+.d.getElementsByTagName~ersionInfo~'^N_c_il['+m._in+'],~'o','var =
+e,p=3D~else~i.to~=3DMath.floor(~}catch(e){p=3D~m.track~"
++"s.wd.addEventListener~.name~m.s.rep(~layState~||^8~Object~m.s.wd[f1]~^A=
++=3Di.t+d+i.s+d+~.length~parseInt(~Player =
+'+~s.wd.attachEvent~'a','b',c~Media~pe=3D'm~;o[f1]~m.s.isie~.current~);i.=
+~p<p2||p-p2>5)~"
++".event=3D~m.close~i.lo~vo.linkTrack~=3Dv+',n,~.open~){w.off^e=3D~;n=3Dm=
+.cn(n);~){this.e(n,~v=3De=3D'None';~Quick~MovieName()~);o[f~out(\"'+v+';~=
+return~1000~i.lx~m.ol~o.controls~m.s.ape(i.~load',m.as~)}};m.~scr"
++"ipt';x.~,t;try{t=3D~Version()~n=3D=3D~'--**--',~pev3~o.id~i.ts~tion~){m=
+n=3D~1;o[f7]=3D~();~(x=3D=3D~){p=3D'~&&m.l~l[n])~:'')+i.e~':'E')+o~var =
+m=3Ds~!p){tcf~xc=3Dm.s.~Title()~()/~7+'~+1)/i.l~;i.e=3D''~3,p,o);~m.l[n]=3D=
+~Dat"
++"e~5000~;if~i.lt~';c2=3D'~tm.get~Events~set~Change~)};m~',f~(x!=3D~4+'=3D=
+n;~~^N.m_i('`c');m.cn=3Df`2n`5;`x =
+`Rm.s.rep(`Rn,\"\\n\",''),\"\\r\",''),^9''^g`o=3Df`2n,l,p,b`5,i`8`U,tm`8^=
+X,a=3D'',x`ql=3D`Yl)`3!l)l=3D1`3n&"
++"&p){`E!m.l)m.l`8`U`3m.^K`k(n)`3b&&b.id)a=3Db.id;for (x in =
+m.l)`Em.l[x]^J[x].a=3D=3Da)`k(m.l[x].n`hn=3Dn;i.l=3Dl;i.p=3Dm.cn(p`ha=3Da=
+;i.t=3D0;^C=3D0;i.s`M^c`C^R`y`hlx=3D0;^a=3Di.s;`l=3D0^U;`L=3D-1;^Wi}};`k=3D=
+f`2n`r0,-1^g.play=3Df"
++"`2n,o`5,i;i=3Dm.e(n,1,o`hm`8F`2`Ii`3m.l){i=3Dm.l[\"'+`Ri.n,'\"','\\\\\"=
+')+'\"]`3i){`E`z=3D=3D1)m.e(i.n,3,-1`hmt=3D^e`Cout(i.m,^Y)}}'`hm(^g.stop=3D=
+f`2n,o`r2,o)};`O=3Df`2n`5^Z `0) {m.e(n,4,-1^4e=3Df`2n,x,o`5,i,tm`8^"
++"X,ts`M^c`C^R`y),ti=3D`OSeconds,tp=3D`OMilestones,z`8Array,j,d=3D^9t=3D1=
+,b,v=3D`OVars,e=3D`O^d,`dedia',^A,w`8`U,vo`8`U`qi=3Dn^J&&m.l[n]?m.l[n]:0`=
+3i){w`Q=3Dn;w`X=3Di.l;w.playerName=3Di.p`3`L<0)w`j\"OPEN\";`K =
+w`j^H1?\"PL"
++"AY\":^H2?\"STOP\":^H3?\"MONITOR\":\"CLOSE\")));w`o`C`8^X^Gw`o`C.^e`C(i.=
+s*`y)`3x>2||^i`z&&^i2||`z=3D=3D1))) {b=3D\"`c.\"+name;^A =3D =
+^2n)+d+i.l+d+^2p)+d`3x){`Eo<0&&^a>0){o=3D(ts-^a)+`l;o=3Do<i.l?o:i.l-1}o`M=
+o)`3"
++"x>=3D2&&`l<o){i.t+=3Do-`l;^C+=3Do-`l;}`Ex<=3D2){i.e+=3D^H1?'S^M;`z=3Dx;=
+}`K =
+`E`z!=3D1)m.e(n,1,o`hlt=3Dts;`l=3Do;`W`0&&`L>=3D0?'L'+`L^L+^i2?`0?'L^M:''=
+)^Z`0){b=3D0;`d_o'`3x!=3D4`p`600?100`A`3`F`E`L<0)`d_s';`K =
+`Ex=3D=3D4)`d_i';`K"
++"{t=3D0;`sti=3Dti?`Yti):0;z=3Dtp?m.s.sp(tp,','):0`3ti&&^C>=3Dti)t=3D1;`K=
+ =
+`Ez){`Eo<`L)`L=3Do;`K{for(j=3D0;j<z`X;j++){ti=3Dz[j]?`Yz[j]):0`3ti&&((`L^=
+T<ti/100)&&((o^T>=3Dti/100)){t=3D1;j=3Dz`X}}}}}}}`K{m.e(n,2,-1)^Z`0`pi.l`=
+6"
++"00?100`A`3`F^W0`3i.e){`W`0&&`L>=3D0?'L'+`L^L^Z`0){`s`d_o'}`K{t=3D0;m.s.=
+fbr(b)}}`K =
+t=3D0;b=3D0}`Et){`mVars=3Dv;`m^d=3De;vo.pe=3Dpe;vo.^A=3D^A;m.s.t(vo,b)^Z`=
+0){^C=3D0;`L=3Do^U}}}}`x i};m.ae=3Df`2n,l,p,x,o,b){`En&&p`5`3!m."
++"l||!m.^Km`o(n,l,p,b);m.e(n,x,o^4a=3Df`2o,t`5,i=3D^B?^B:o`Q,n=3Do`Q,p=3D=
+0,v,c,c1,c2,^Ph,x,e,f1,f2`1oc^h3`1t^h4`1s^h5`1l^h6`1m^h7`1c',tcf,w`3!i){`=
+E!m.c)m.c=3D0;i`1'+m.c;m.c++}`E!^B)^B=3Di`3!o`Q)o`Q=3Dn=3Di`3!^0)^0`8"
++"`U`3^0[i])`x;^0[i]=3Do`3!xc)^Pb;tcf`8F`2`J0;try{`Eo.v`H&&o`g`c&&^1)p=3D=
+1`N0`B`3^O`8F`2`J0^6`9`t`C^7`3t)p=3D2`N0`B`3^O`8F`2`J0^6`9V`H()`3t)p=3D3`=
+N0`B}}v=3D\"^N_c_il[\"+m._in+\"],o=3D^0['\"+i+\"']\"`3p=3D=3D1^IWindo"
++"ws `c =
+`Zo.v`H;c1`np,l,x=3D-1,cm,c,mn`3o){cm=3Do`g`c;c=3D^1`3cm&&c^Ecm`Q?cm`Q:c.=
+URL;l=3Dcm.dura^D;p=3Dc`gPosi^D;n=3Do.p`S`3n){`E^88)x=3D0`3^83)x=3D1`3^81=
+`T2`T4`T5`T6)x=3D2;}^b`Ex>=3D0)`4`D}';c=3Dc1+c2`3`f&&xc){x=3Dm.s.d.cr"
++"eateElement('script');x.language=3D'j^5type=3D'text/java^5htmlFor=3Di;x=
+`j'P`S^f(NewState)';x.defer=3Dtrue;x.text=3Dc;xc.appendChild(x`v6]`8F`2c1=
++'`E^83){x=3D3;'+c2+'}^e`Cout(`76+',^Y)'`v6]()}}`Ep=3D=3D2^I`t`C `Z(`"
++"9Is`t`CRegistered()?'Pro =
+':'')+`9`t`C^7;f1=3Df2;c`nx,t,l,p,p2,mn`3o^E`9`u?`9`u:`9URL^Gn=3D`9Rate^G=
+t=3D`9`CScale^Gl=3D`9Dura^D^Rt;p=3D`9`C^Rt;p2=3D`75+'`3n!=3D`74+'||`i{x=3D=
+2`3n!=3D0)x=3D1;`K `Ep>=3Dl)x=3D0`3`i`42,p2,o);`4"
++"`D`En>0&&`7^S>=3D10){`4^V`7^S=3D0}`7^S++;`7^j`75+'=3Dp;^e`C`w`72+'(0,0)=
+\",500)}'`e`8F`2`b`v4]=3D-^F0`e(0,0)}`Ep=3D=3D3^IReal`Z`9V`H^Gf1=3Dn+'_On=
+P`S^f';c1`nx=3D-1,l,p,mn`3o^E`9^Q?`9^Q:`9Source^Gn=3D`9P`S^Gl=3D`9Length^=
+"
++"R`y;p=3D`9Posi^D^R`y`3n!=3D`74+'){`E^83)x=3D1`3^80`T2`T4`T5)x=3D2`3^80&=
+&(p>=3Dl||p=3D=3D0))x=3D0`3x>=3D0)`4`D`E^83&&(`7^S>=3D10||!`73+')){`4^V`7=
+^S=3D0}`7^S++;`7^j^b`E`72+')`72+'(o,n)}'`3`V)o[f2]=3D`V;`V`8F`2`b1+c2)`e`=
+8F`2"
++"`b1+'^e`C`w`71+'(0,0)\",`73+'?500:^Y);'+c2`v4]=3D-1`3`f)o[f3]=3D^F0`e(0=
+,0^4as`8F`2'e',`Il,n`3m.autoTrack&&`G){l=3D`G(`f?\"OBJECT\":\"EMBED\")`3l=
+)for(n=3D0;n<l`X;n++)m.a(^K;}')`3`a)`a('on^3);`K `E`P)`P('^3,"
++"false)";
+s.m_i("Media");
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=3D'',s_objectID;function s_gi(un,pg,ss){var =
+c=3D"=3Dfun^I(~){`Ls=3D^Z~$y ~.substring(~.indexOf(~;@u~`c@u~=3Dnew =
+Fun^I(~.toLowerCase()~};s.~.length~s_c_il['+s@4n+']~=3Dnew =
+Object~`ZMigrationServer~.toU"
++"pperCase~){@u~`U$z=3D^O=3Ds.`W`q=3Ds.`W^c=3D`I^zobjectID=3Ds.ppu=3D$9=3D=
+$9v1=3D$9v2=3D$9v3=3D~','~s.wd~t^S~')q=3D'~var ~s.pt(~=3Dnew =
+Array~ookieDomainPeriods~.location~^KingServer~dynamicAccount~s.apv~Buffe=
+redRequests~);s"
++".~)@ux^w!Object$rObject.prototype$rObject.prototype[x])~link~s.m_~Eleme=
+nt~visitor~$q@h~referrer~else =
+~.get#B()~}c#D(e){~.lastIndexOf(~.protocol~=3Dnew =
+Date~=3D''~;@d^ss[k],255)}~javaEnabled~conne^I^c~^"
++"zc_i~:'')~onclick~}@u~Name~ternalFilters~javascript~s.dl~@9s.b.addBehav=
+ior(\"# default# =
+~for(~=3DparseFloat(~'+tm.get~typeof(v)=3D=3D\"~window~cookie~s.rep(~s.vl=
+_g~tfs~s.un~&&s.~o^zoid~browser~.parent~do"
++"cument~colorDepth~String~while(~.host~s.maxDelay~r=3Ds.m(f)?s[f](~s.sq~=
+parseInt(~ction~t=3Ds.ot(o)~track~nload~j=3D'1.~#NURL~s.eo~lugins~'){q=3D=
+'~dynamicVariablePrefix~=3D=3D'~set#Bout(~Sampling~s.rc[un]~Event"
++"~;i++)~');~this~resolution~}else{~Type~s.c_r(~s.c_w(~s.eh~s.isie~s.vl_l=
+~s.vl_t~Secure~Height~t,h#Wt?t~tcf~isopera~ismac~escape(~.href~screen.~s.=
+fl(~s=3Ds_gi(~Version~harCode~&&(~_'+~variableProvider~"
++".s_~f',~){s.~)?'Y':'N'~:'';h=3Dh?h~._i~e&&l!=3D'SESSION'~s_sv(v,n[k],i)=
+}~name~home#N~;try{~s.ssl~s.oun~s.rl[u~Width~o.type~\"m_\"+n~Lifetime~s.g=
+g('objectID~sEnabled~.mrq($tun+'\"~ExternalLinks~charSet~"
++"onerror~currencyCode~.src~disable~etYear(~MigrationKey~&&!~Opera~'s_~Ma=
+th.~s.fsg~s.$z~s.ns6~InlineStats~&&l!=3D'NONE'~Track~'0123456789~s[k]=3D~=
+'+n+'~loadModule~+\"_c\"]~s.ape(~s.epa(~t.m_nl~m._d~n=3Ds.o"
++"id(o)~,'sqs',q);~LeaveQuery~(''+~')>=3D~'=3D')~){n=3D~\",''),~&&t!=3D'~=
+if(~vo)~s.sampled~=3Ds.oh(o);~+(y<1900?~n]=3D~true~sess~campaign~lif~ in =
+~'http~,100)~s.co(~ffset~s.pe~'&pe~m._l~s.c_d~s.brl~s.nrs~s.gv(~s"
++"[mn]~s.qav~,'vo~s.pl~=3D(apn~Listener~\"s_gs(\")~vo._t~b.attach~2o7.net=
+'~d.create~=3Ds.n.app~n){~t&&~)+'/~s()+'~){p=3D~():''~a):f(~'+n;~+1))~a['=
+!'+t]~){v=3Ds.n.~channel~.target~x.split~o.value~[\"s_\"+g~s_"
++"si(t)~')dc=3D'1~\".tl(\")~etscape~s_')t=3Dt~omePage~s.d.get~')<~=3D'+~|=
+|!~'||~\"'+~[b](e);~\"){n[k]~a+1,b):~m[t+1](~return~lnk~mobile~height~eve=
+nts~random~code~wd.~=3Dun~un,~,pev~'MSIE ~rs,~Time~floor(~atc"
++"h~s.num(~s.pg~m._e~s.c_gd~,'lt~.inner~transa~;s.gl(~',s.bc~page~Group,~=
+.fromC~sByTag~?'&~+';'~&&o~1);~}}}}~){t=3D~[t]=3D~[n];~>=3D5)~[t](~!a[t])=
+~~s._c=3D@Uc';`I=3D`z`5!`I`m$S`I`ml`N;`I`mn=3D0;}s@4l=3D`I`ml;s@4n=3D"
++"`I`mn;s@4l[s@4@zs;`I`mn++;s.m`0m){`2@om)`4'{$p0`9fl`0x,l){`2x?@ox)`30,l=
+):x`9co`0o`F!o)`2o;`Ln`C,x;`vx$4o)@ux`4'select$p0&&x`4'filter$p0)n[x]=3Do=
+[x];`2n`9num`0x){x`i+x;`v`Lp=3D0;p<x`A;p++)@u(@c')`4x`3p,"
++"p$a<0)`20;`21`9rep=3Ds_r;s.spf`0t,a){a[a`A]=3Dt;`20`9sp`0x,d`1,a`N`5$f)=
+a=3D$f(d);`c`Mx,d,'sp@0a);`2a`9ape`0x`1,h=3D@cABCDEF',i,c=3Ds.@L,n,l,e,y`=
+i;c=3Dc?c`E$X`5x){x`i+x`5c^SAUTO'^w'').c^vAt){`vi=3D0;i<x`A^X{c=3Dx`3"
++"i,i+#Un=3Dx.c^vAt(i)`5n>127){l=3D0;e`i;^Cn||l<4){e=3Dh`3n%16,n%16+1)+e;=
+n=3D(n-n%16)/16;l++}y+=3D'%u'+e}`6c^S+')y+=3D'%2B';`cy+=3D^pc)}x=3Dy^bx=3D=
+x?^1^p''+x),'+`H%2B'):x`5x&&c^5em=3D=3D1&&x`4'%u$p0&&x`4'%U$p0){i=3Dx`4'%=
+^Y^"
++"Ci>=3D0){i++`5h`38)`4x`3i,i+1)`E())>=3D0)`2x`30,i)+'u00'+x`3i);i=3Dx`4'=
+%',i)#V`2x`9epa`0x`1;`2x?un^p^1''+x,'+`H =
+')):x`9pt`0x,d,f,a`1,t=3Dx,z=3D0,y,r;^Ct){y=3Dt`4d);y=3Dy<0?t`A:y;t=3Dt`3=
+0,y);^Ft,$Yt,a)`5r)`2r;z+=3Dy+"
++"d`A;t=3Dx`3z,x`A);t=3Dz<x`A?t:''}`2''`9isf`0t,a){`Lc=3Da`4':')`5c>=3D0)=
+a=3Da`30,c)`5t`30,2)^S$m`32);`2(t!`i&&t=3D=3Da)`9fsf`0t,a`1`5`Ma,`H,'is@0=
+t))@W+=3D(@W!`i?`H`n+t;`20`9fs`0x,f`1;@W`i;`Mx,`H,'fs@0f);`2@W`9si`0w"
++"d`1,c`i+s_gi,a=3Dc`4\"{\"),b=3Dc`f\"}\"),m;c=3Ds_fe(a>0&&b>0?c`3$w0)`5w=
+d&&#5^9&&c){#5^T'fun^I =
+s_sv(o,n,k){`Lv=3Do[k],i`5v`F`ystring\"||`ynumber\")n[k]=3Dv;`cif =
+(`yarray$v`N;`vi=3D0;i<v`A^X@6`cif (`yobject$v`C;"
++"`vi$4v)@6}}fun^I =
+$i{`Lwd=3D`z,s,i,j,c,a,b;wd^zgi`7\"un\",\"pg\",\"ss\",$tc+'\");#5^t$t@B+'=
+\");s=3D#5s;s.sa($t^4+'\"`U^3=3Dwd;`M^2,\",\",\"vo1\",t`G\\'\\'`5t.m_l&&@=
+j)`vi=3D0;i<@j`A^X{n=3D@j[i]`5$Sm=3Dt#Yc=3Dt[@F]"
++"`5m&&c){c=3D\"\"+c`5c`4\"fun^I\")>=3D0){a=3Dc`4\"{\");b=3Dc`f\"}\");c=3D=
+a>0&&b>0?c`3$w0;s[@F@g=3Dc`5#G)s.@f(n)`5s[n])`vj=3D0;j<$B`A;j++)s_sv(m,s[=
+n],$B[j])#V}`Le,o,t@9o=3D`z.opener`5o#T^zgi#Wo^zgi($t^4+'\")`5t)$i}`"
++"e}',1)}`9c_d`i;#Hf`0t,a`1`5!#Et))`21;`20`9c_gd`0`1,d=3D`I`P^D@7,n=3Ds.f=
+pC`O,p`5!n)n=3Ds.c`O`5d@S$C@rn?^Hn):2;n=3Dn>2?n:2;p=3Dd`f'.')`5p>=3D0){^C=
+p>=3D0&&n>1$Wd`f'.',p-#Un--}$C=3Dp>0&&`Md,'.`Hc_gd@00)?d`3p):d}}`2$C`"
++"9c_r`0k`1;k=3D@hk);`Lc=3D' '+s.d.^0,i=3Dc`4' =
+'+k+@q,e=3Di<0?i:c`4';',i),v=3Di<0?'':@ic`3i+2+k`A,e<0?c`A:e));`2v!=3D'[[=
+B]]'?v:''`9c_w`0k,v,e`1,d=3D#H(),l=3Ds.^0@G,t;v`i+v;l=3Dl?@ol)`E$X`5@5@a#=
+W(v!`i?^Hl?l:0):-60)`5t)"
++"{e`h;e.set#B(e`d+(t*1000))}`pk@a@1d.^0=3Dk+'`av!`i?v:'[[B]]')+'; =
+path=3D/;'+(@5?' expires$qe.toGMT^B()#S`n+(d?' =
+domain$qd#S`n;`2^dk)=3D=3Dv}`20`9eh`0o,e,r,f`1,b=3D's^xe+'^xs@4n,n=3D-1,l=
+,i,x`5!^fl)^fl`N;l=3D^fl;`"
++"vi=3D0;i<l`A&&n<0;i++`Fl[i].o=3D=3Do&&l[i].e=3D=3De)n=3Di`pn<0@ri;l[n]`=
+C}x=3Dl#Yx.o=3Do;x.e=3De;f=3Dr?x.b:f`5r||f){x.b=3Dr?0:o[e];x.o[e]=3Df`px.=
+b){x.o[b]=3Dx.b;`2b}`20`9cet`0f,a,t,o,b`1,r,^m`5`S>=3D5^w!s.^n||`S>=3D7))=
+{^m`7's`Hf"
++"`Ha`Ht`H`Le,r@9^F$Ya)`er=3Ds.m(t)?s#ae):t(e)}`2r^Yr=3D^m(s,f,a,t)^b@us.=
+^o^5u`4#94@p0)r=3Ds.m(b)?s[b](a):b(a);else{^f(`I,'@M',0,o);^F$Ya`Ueh(`I,'=
+@M',1)}}`2r`9g^3et`0e`1;`2s.^3`9g^3oe`7'e`H`Ls=3D`B,c;^f(`z,"
++"\"@M\",1`Ue^3=3D1;c=3Ds.t()`5c)s.d.write(c`Ue^3=3D0;`2$0'`Ug^3fb`0a){`2=
+`z`9g^3f`0w`1,p=3Dw^8,l=3Dw`P;s.^3=3Dw`5p&&p`P!=3Dl&&p`P^D=3D=3Dl^D@1^3=3D=
+p;`2s.g^3f(s.^3)}`2s.^3`9g^3`0`1`5!s.^3@1^3=3D`I`5!s.e^3)s.^3=3Ds.cet('g^=
+3@0"
++"s.^3,'g^3et',s.g^3oe,'g^3fb')}`2s.^3`9mrq`0u`1,l=3D@C],n,r;@C]=3D0`5l)`=
+vn=3D0;n<l`A;n++){r=3Dl#Ys.mr(0,0,r.r,0,r.t,r.u)}`9br`0id,rs`1`5s.@P`T$r^=
+e@Ubr',rs))$D=3Drs`9flush`T`0`1;s.fbr(0)`9fbr`0id`1,br=3D^d@Ubr')"
++"`5!br)br=3D$D`5br`F!s.@P`T)^e@Ubr`H'`Umr(0,0,br)}$D=3D0`9mr`0$1,q,#Aid,=
+ta,u`1,dc=3Ds.dc,t1=3Ds.`Q,t2=3Ds.`Q^j,tb=3Ds.`QBase,p=3D'.sc',ns=3Ds.`Z`=
+qspace,un=3Du?u:(ns?ns:s.fun),unc=3D^1#7'_`H-'),r`C,l,imn=3D@Ui^x(un),im,=
+b,"
++"e`5!rs`Ft1`Ft2^5ssl)t1=3Dt2^b@u!ns)ns#6c`5!tb)tb=3D'$P`5dc)dc=3D@odc)`8=
+;`cdc=3D'd1'`5tb^S$P`Fdc^Sd1$j12';`6dc^Sd2$j22';p`i}t1=3Dns+'.'+dc+'.'+p+=
+tb}rs=3D$5'+(@A?'s'`n+'://'+t1+'/b/ss/'+^4+'/'+(s.#0?'5.1':'1'$UH"
++".19.4/'+$1+'?AQB=3D1&ndh=3D1'+(q?q`n+'&AQE=3D1'`5^g@Ss.^o`F`S>5.5)rs=3D=
+^s#A4095);`crs=3D^s#A2047)`pid@1br(id,rs);$y}`ps.d.images&&`S>=3D3^w!s.^n=
+||`S>=3D7)^w@Y<0||`S>=3D6.1)`F!s.rc)s.rc`C`5!^V){^V=3D1`5!s.rl)s.rl`C;@"
++"Cn]`N;^T'@u`z`ml)`z.`B@J)',750)^bl=3D@Cn]`5l){r.t=3Dta;r.u#6;r.r=3Drs;l=
+[l`A]=3Dr;`2''}imn+=3D'^x^V;^V++}im=3D`I[imn]`5!im)im=3D`I[im@znew =
+Image;im^zl=3D0;im.o^L`7'e`H^Z^zl=3D1;`Lwd=3D`z,s`5wd`ml){s=3D#5`B;s@J`Un=
+rs--`5!$"
++"E)`Xm(\"rr\")}')`5!$E@1nrs=3D1;`Xm('rs')}`c$E++;im@O=3Drs`5rs`4$A=3D@p0=
+^w!ta||ta^S_self$sta^S_top$s(`I.@7&&ta=3D=3D`I.@7))){b=3De`h;^C!im^zl&&e`=
+d-b`d<500)e`h}`2''}`2'<im'+'g sr'+'c=3D$trs+'\" width=3D1 #1=3D1 border"
++"=3D0 =
+alt=3D\"\">'`9gg`0v`1`5!`I['s^xv])`I['s^xv]`i;`2`I['s^xv]`9glf`0t,a`Ft`30=
+,2)^S$m`32);`Ls=3D^Z,v=3Ds.gg(t)`5v)s#Xv`9gl`0v`1`5#F)`Mv,`H,'gl@00)`9gv`=
+0v`1;`2s['vpm^xv]?s['vpv^xv]:(s[v]?s[v]`n`9havf`0t,a`1"
++",b=3Dt`30,4),x=3Dt`34),n=3D^Hx),k=3D'g^xt,m=3D'vpm^xt,q=3Dt,v=3Ds.`W@bV=
+a#Ae=3Ds.`W@b^Ws,mn;@d$Ft)`5s[k]`F$9||@X||^O`F$9){mn=3D$9`30,1)`E()+$9`31=
+)`5$G){v=3D$G.^KVars;e=3D$G.^K^Ws}}v=3Dv?v+`H+^h+`H+^h2:''`5v@S`Mv,`H,'is=
+@0t)"
++")s[k]`i`5`J#2'&&e)@ds.fs(s[k],e)}s[m]=3D0`5`J^R`KD';`6`J`ZID`Kvid';`6`J=
+^N^Qg'`j`6`J`b^Qr'`j`6`Jvmk$s`J`Z@R`Kvmt';`6`J`D^Qvmf'`5@A^5`D^j)s[k]`i}`=
+6`J`D^j^Qvmf'`5!@A^5`D)s[k]`i}`6`J@L^Qce'`5s[k]`E()^SAU"
++"TO')@d'ISO8859-1';`6s.em=3D=3D2)@d'UTF-8'}`6`J`Z`qspace`Kns';`6`Jc`O`Kc=
+dp';`6`J^0@G`Kcl';`6`J^y`Kvvp';`6`J@N`Kcc';`6`J$d`Kch';`6`J#K^IID`Kxact';=
+`6`J$2`Kv0';`6`J^a`Ks';`6`J^A`Kc';`6`J`s^u`Kj';`6`J`k`Kv'"
++";`6`J^0@I`Kk';`6`J^7@D`Kbw';`6`J^7^k`Kbh';`6`J`l`Kct';`6`J@8`Khp';`6`Jp=
+^P`Kp';`6#Ex)`Fb^Sprop`Kc$Z`6b^SeVar`Kv$Z`6b^Slist`Kl$Z`6b^Shier^Qh'+n`j`=
+ps[k]@t`W`q'@t`W^c')$H+=3D'&'+q+'$q(t`30,3)!=3D'pev'?@hs["
++"k]):s[k]);}`2''`9hav`0`1;$H`i;`M^i,`H,'hav@00);`2$H`9lnf`0^l`8@3`8:'';`=
+Lte=3Dt`4@q`5$Tte>0&&h`4t`3te$a>=3D0)`2t`30,te);`2''`9ln`0h`1,n=3Ds.`W`qs=
+`5n)`2`Mn,`H,'ln@0h);`2''`9ltdf`0^l`8@3`8:'';`Lqi=3Dh`4'?^Yh=3D"
++"qi>=3D0?h`30,qi):h`5$Th`3h`A-(t`A$a^S.'+t)`21;`20`9ltef`0^l`8@3`8:''`5$=
+Th`4t)>=3D0)`21;`20`9lt`0h`1,lft=3Ds.`WDow^LFile^cs,lef=3Ds.`WEx`r,$3=3Ds=
+.`WIn`r;$3=3D$3?$3:`I`P^D@7;h=3Dh`8`5s.^KDow^LLinks&&lf$T`Mlft,`H#I"
++"d@0h))`2'd'`5s.^K@K&&h`30,1)!=3D'# =
+'^wlef||$3)^w!lef||`Mlef,`H#Ie@0h))^w!$3$r`M$3,`H#Ie@0h)))`2'e';`2''`9lc`=
+7'e`H`Ls=3D`B,b=3D^f(^Z,\"`o\"`U$z=3D$7^Z`Ut(`U$z=3D0`5b)`2^Z$u`2$0'`Ubc`=
+7'e`H`Ls=3D`B,f,^m`5s.d^5d.a"
++"ll^5d.all.cppXYctnr)$y;^O=3De@O`Y?e@O`Y:e$e;^m`7\"s\",\"`Le@9@u^O^w^O.t=
+ag`q||^O^8`Y||^O^8Node))s.t()`e}\");^m(s`Ueo=3D0'`Uoh`0o`1,l=3D`I`P,h=3Do=
+^q?o^q:'',i,j,k,p;i=3Dh`4':^Yj=3Dh`4'?^Yk=3Dh`4'/')`5h^wi<0||(j>=3D0&"
++"&i>j)||(k>=3D0&&i>k))$Wo`g#T`g`A>1?o`g:(l`g?l`g`n;i=3Dl.path@7`f'/^Yh=3D=
+(p?p+'//'`n+(o^D?o^D:(l^D?l^D`n)+(h`30,1)!=3D'/'?l.path@7`30,i<0?0:i$U'`n=
++h}`2h`9ot`0o){`Lt=3Do.tag`q;t=3D$Tt`E?t`E$X`5`JSHAPE')t`i`5t`F`"
++"JINPUT'&&@E&&@E`E)t=3D@E`E();`6!$To^q)t=3D'A';}`2t`9oid`0o`1,^J,p,c,n`i=
+,x=3D0`5t@S^6$Wo`g;c=3Do.`o`5o^q^w`JA$s`JAREA')^w!c$rp||p`8`4'`s$p0))n@x`=
+6c@r^1s.rep(^1s.rep@oc,\"\\r@s\"\\n@s\"\\t@s' `H^Yx=3D2}`6$g^w`"
++"JINPUT$s`JSUBMIT')@r$g;x=3D3}`6o@O&&`JIMAGE')n=3Do@O`5$S^6=3D^sn$6;^6t=3D=
+x}}`2^6`9rqf`0t,un`1,e=3Dt`4@q,u=3De>=3D0?`H+t`30,e)+`H:'';`2u&&u`4`H+un+=
+`H)>=3D0?@it`3e$a:''`9rq`0un`1,c#6`4`H),v=3D^d@Usq'),q`i`5c<0)`2`Mv,'"
++"&`Hrq@0un);`2`M#7`H,'rq',0)`9sqp`0t,a`1,e=3Dt`4@q,q=3De<0?'':@it`3e+1)`=
+Usqq[q]`i`5e>=3D0)`Mt`30,e),`H@m`20`9sqs`0#7q`1;^Gu[u@zq;`20`9sq`0q`1,k=3D=
+@Usq',v=3D^dk),x,c=3D0;^Gq`C;^Gu`C;^Gq[q]`i;`Mv,'&`Hsqp',0);`M^4"
++",`H@mv`i;`vx$4^Gu`V)^Gq[^Gu[x]]+=3D(^Gq[^Gu[x]]?`H`n+x;`vx$4^Gq`V^5sqq[=
+x]^wx=3D=3Dq||c<2)){v+=3D(v#R'`n+^Gq[x]+'`ax);c++}`2^ek,v,0)`9wdl`7'e`H`L=
+s=3D`B,r=3D$0,b=3D^f(`I,\"o^L\"),i,o,oc`5b)r=3D^Z$u`vi=3D0;i<s.d.`Ws`A^"
++"X{o=3Ds.d.`Ws[i];oc=3Do.`o?\"\"+o.`o:\"\"`5(oc`4$M<0||oc`4\"^zoc(\")>=3D=
+0)#Tc`4$k<0)^f(o,\"`o\",0,s.lc);}`2r^Y`Is`0`1`5`S>3^w!^g$rs.^o||`S#Z`Fs.b=
+^5$O^W)s.$O^W('`o#M);`6s.b^5b.add^W$L)s.b.add^W$L('click#M"
++",false);`c^f(`I,'o^L',0,`Il)}`9vs`0x`1,v=3Ds.`Z^U,g=3Ds.`Z^U#Ok=3D@Uvsn=
+^x^4+(g?'^xg`n,n=3D^dk),e`h,y=3De.g@Q);e.s@Qy+10@y1900:0))`5v){v*=3D100`5=
+!n`F!^ek,x,e))`20;n=3Dx`pn%10000>v)`20}`21`9dyasmf`0t,m`F$Tm&&m`4t)"
++">=3D0)`21;`20`9dyasf`0t,m`1,i=3Dt?t`4@q:-1,n,x`5i>=3D0&&m){`Ln=3Dt`30,i=
+),x=3Dt`3i+1)`5`Mx,`H,'dyasm@0m))`2n}`20`9uns`0`1,x=3Ds.`RSele^I,l=3Ds.`R=
+List,m=3Ds.`RM#D,n,i;^4=3D^4`8`5x&&l`F!m)m=3D`I`P^D`5!m.toLowerCase)m`i+m=
+"
++";l=3Dl`8;m=3Dm`8;n=3D`Ml,';`Hdyas@0m)`5n)^4=3Dn}i=3D^4`4`H`Ufun=3Di<0?^=
+4:^4`30,i)`9sa`0un`1;^4#6`5!@B)@B#6;`6(`H+@B+`H)`4un)<0)@B+=3D`H+un;^4s()=
+`9m_i`0n,a`1,m,f=3Dn`30,1),r,l,i`5!`Xl)`Xl`C`5!`Xnl)`Xnl`N;m=3D`Xl[n]`5"
++"!a&&m&&#G@Sm@4)`Xa(n)`5!m){m`C,m._c=3D@Um';m@4n=3D`I`mn;m@4l=3Ds@4l;m@4=
+l[m@4@zm;`I`mn++;m.s=3Ds;m._n=3Dn;$B`N('_c`H_in`H_il`H_i`H_e`H_d`H_dl`Hs`=
+Hn`H_r`H_g`H_g1`H_t`H_t1`H_x`H_x1`H_rs`H_rr`H_l'`Um_l[@zm;`Xnl["
++"`Xnl`A]=3Dn}`6m._r@Sm._m){r=3Dm._r;r._m=3Dm;l=3D$B;`vi=3D0;i<l`A^X@um[l=
+[i]])r[l[i]]=3Dm[l[i]];r@4l[r@4@zr;m=3D`Xl[@zr`pf=3D=3Df`E())s[@zm;`2m`9m=
+_a`7'n`Hg`H@u!g)g=3D@F;`Ls=3D`B,c=3Ds[g@g,m,x,f=3D0`5!c)c=3D`I$h@g`5c&&s_=
+d)s[g]`7"
++"\"s\",s_ft(s_d(c)));x=3Ds[g]`5!x)x=3Ds[g]=3D`I$h];m=3D`Xi(n,1)`5x){m@4=3D=
+f=3D1`5(\"\"+x)`4\"fun^I\")>=3D0)x(s);`c`Xm(\"x\",n,x)}m=3D`Xi(n,1)`5@kl)=
+@kl=3D@k=3D0;`tt();`2f'`Um_m`0t,n,d#W'^xt;`Ls=3D^Z,i,x,m,f=3D'^xt`5`Xl&&`=
+Xn"
++"l)`vi=3D0;i<`Xnl`A^X{x=3D`Xnl[i]`5!n||x=3D=3D$Sm=3D`Xi(x)`5m[t]`F`J_d')=
+`21`5d)m#ad);`cm#a)`pm[t+1]@Sm[f]`Fd)$xd);`c$x)}m[f]=3D1}}`20`9@f`0n,u,d,=
+l`1,m,i=3Dn`4':'),g=3Di<0?@F:n`3i+1),o=3D0,f,c=3Ds.h?s.h:s.b,^m`5i>=3D0)n=
+=3Dn"
++"`30,i);m=3D`Xi(n)`5(l$r`Xa(n,g))&&u^5d&&c^5$Q`Y`Fd){@k=3D1;@kl=3D1`p@A)=
+u=3D^1u,$5:`Hhttps:^Yf`7'e`H`B.m_a(\"@e\",$tg+'\")^Y^m`7's`Hf`Hu`Hc`H`Le,=
+o=3D0@9o=3Ds.$Q`Y(\"script\")`5o){@E=3D\"text/`s\"`5f)o.o^L=3Df;o@O=3Du"
++";c.appendChild(o)}`eo=3D0}`2o^Yo=3D^m(s,f,u,c)}`cm=3D`Xi(n);#G=3D1;`2m`=
+9vo1`0t,a`Fa[t]||$b)^Z#Xa[t]`9vo2`0t,a`F#b{a#X^Z[t]`5#b$b=3D1}`9dlt`7'`Ls=
+=3D`B,d`h,i,vo,f=3D0`5`tl)`vi=3D0;i<`tl`A^X{vo=3D`tl[i]`5vo`F!`Xm(\"d\""
++")||d`d-$N>=3D^E){`tl[i]=3D0;s.t(@v}`cf=3D1}`p`ti)clear#Bout(`ti`Udli=3D=
+0`5f`F!`ti)`ti=3D^T`tt,^E)}`c`tl=3D0'`Udl`0vo`1,d`h`5!@vvo`C;`M^2,`H$I2',=
+@v;$N=3Dd`d`5!`tl)`tl`N;`tl[`tl`A]=3Dvo`5!^E)^E=3D250;`tt()`9t`0vo,id`1"
++",trk=3D1,tm`h,sed=3DMath&&@V#3?@V#C@V#3()*10000000000000):tm`d,$1=3D's'=
++@V#Ctm`d/10800000)%10+sed,y=3Dtm.g@Q),vt=3Dtm.getDate($U`xMonth($U'@yy+1=
+900:y)+' `xHour$V:`xMinute$V:`xSecond$V `xDay()+' `x#BzoneO$8()"
++",^m,^3=3Ds.g^3(),ta`i,q`i,qs`i,#4`i,vb`C#L^2`Uuns()`5!s.td){`Ltl=3D^3`P=
+,a,o,i,x`i,c`i,v`i,p`i,bw`i,bh`i,^M0',k=3D^e@Ucc`H$0',0@2,hp`i,ct`i,pn=3D=
+0,ps`5^B&&^B.prototype){^M1'`5j.m#D){^M2'`5tm.setUTCDate){^M3"
++"'`5^g^5^o&&`S#Z^M4'`5pn.toPrecisio$S^M5';a`N`5a.forEach){^M6';i=3D0;o`C=
+;^m`7'o`H`Le,i=3D0@9i=3Dnew =
+Iterator(o)`e}`2i^Yi=3D^m(o)`5i&&i.next)^M7'#V`p`S>=3D4)x=3D^rwidth+'x'+^=
+r#1`5s.isns||s.^n`F`S>=3D3$c`k(@2`5`S>=3D"
++"4){c=3D^rpixelDepth;bw=3D`I#J@D;bh=3D`I#J^k}}$J=3Ds.n.p^P}`6^g`F`S>=3D4=
+$c`k(@2;c=3D^r^A`5`S#Z{bw=3Ds.d.^9`Y.o$8@D;bh=3Ds.d.^9`Y.o$8^k`5!s.^o^5b)=
+{^m`7's`Htl`H`Le,hp=3D0`uh$n\");hp=3Ds.b.isH$n(tl)?\"Y\":\"N\"`e}`2hp^Yhp=
+"
++"=3D^m(s,tl);^m`7's`H`Le,ct=3D0`uclientCaps\");ct=3Ds.b.`l`e}`2ct^Yct=3D=
+^m(s)}}}`cr`i`p$J)^Cpn<$J`A&&pn<30){ps=3D^s$J[pn].@7$6#S`5p`4ps)<0)p+=3Dp=
+s;pn++}s.^a=3Dx;s.^A=3Dc;s.`s^u=3Dj;s.`k=3Dv;s.^0@I=3Dk;s.^7@D=3Dbw;s.^7^=
+k=3Dbh"
++";s.`l=3Dct;s.@8=3Dhp;s.p^P=3Dp;s.td=3D1`p@v{`M^2,`H$I2',vb);`M^2,`H$I1'=
+,@v`ps.useP^P)s.doP^P(s);`Ll=3D`I`P,r=3D^3.^9.`b`5!s.^N)s.^N=3Dl^q?l^q:l`=
+5!s.`b@Ss._1_`b@1`b=3Dr;s._1_`b=3D1}`Xm('g')`5(vo&&$N)$r`Xm('d')`F@X||^"
++"O){`Lo=3D^O?^O:@X`5!o)`2'';`Lp=3D$F'#N`q'),w=3D1,^J,@l,x=3D^6t,h,l,i,oc=
+`5^O#T=3D=3D^O){^Co@Sn@tBODY'){o=3Do^8`Y?o^8`Y:o^8Node`5!o)`2'';^J;@l;x=3D=
+^6t}oc=3Do.`o?''+o.`o:''`5(oc`4$M>=3D0#Tc`4\"^zoc(\")<0)||oc`4$k>=3D0)`2'=
+'"
++"}ta=3Dn?o$e:1;h@xi=3Dh`4'?^Yh=3Ds.`W@n^B||i<0?h:h`30,i);l=3Ds.`W`q?s.`W=
+`q:s.ln(h);t=3Ds.`W^c?s.`W^c`8:s.lt(h)`5t^wh||l))q+=3D$A=3D$z^x(`Jd$s`Je'=
+?@ht):'o')+(h?$Av1`ah)`n+(l?$Av2`al)`n;`ctrk=3D0`5s.^K@Z`F!p$W$F'^N^Y"
++"w=3D0}^J;i=3Do.sourceIndex`5@H')@r@H^Yx=3D1;i=3D1`pp&&n&&t)qs=3D'&pid`a=
+^sp,255))+(w#Rpidt$qw`n+'&oid`a^sn$6)+(x#Roidt$qx`n+'&ot`at)+(i#Roi$qi`n}=
+`p!trk@Sqs)`2'';@w=3Ds.vs(sed)`5trk`F@w)#4=3Ds.mr($1,(vt#Rt`avt)`n+"
++"s.hav()+q+(qs?qs:s.rq(^4)),0,id,ta);qs`i;`Xm('t')`5s.p_r)s.p_r(`U`b`i}^=
+G(qs);^b`t(@v;`p@v`M^2,`H$I1',vb`G''`5#F)`I^z$z=3D`I^zeo=3D`I^z`W`q=3D`I^=
+z`W^c`i`5!id@Ss.tc@1tc=3D1;s.flush`T()}`2#4`9tl`0o,t,n,vo`1;@"
++"X=3D$7o`U`W^c=3Dt;s.`W`q=3Dn;s.t(@v}`5pg){`I^zco`0o){`L^t\"_\",1,#U`2$7=
+o)`9wd^zgs`0u$S`L^t#71,#U`2s.t()`9wd^zdc`0u$S`L^t#7#U`2s.t()}}@A=3D(`I`P`=
+g`8`4$5s@p0`Ud=3D^9;s.b=3Ds.d.body`5$o`Y#Q`q@1h=3D$o`Y#Q`q('HEAD')`"
++"5s.h)s.h=3Ds.h[0]}s.n=3Dnavigator;s.u=3Ds.n.userAgent;@Y=3Ds.u`4'N$l6/^=
+Y`Lapn$R`q,v$R^u,ie=3Dv`4#9'),o=3Ds.u`4'@T =
+'),i`5v`4'@T@p0||o>0)apn=3D'@T';^g$K^SMicrosoft Internet =
+Explorer'`Uisns$K^SN$l'`U^n$K^S@T'`U^o=3D("
++"s.u`4'Mac@p0)`5o>0)`S`ws.u`3o+6));`6ie>0){`S=3D^Hi=3Dv`3ie+5))`5`S>3)`S=
+`wi)}`6@Y>0)`S`ws.u`3@Y+10));`c`S`wv`Uem=3D0`5^B#P^v){i=3D^p^B#P^v(256))`=
+E(`Uem=3D(i^S%C4%80'?2:(i^S%U0100'?1:0))}s.sa(un`Uvl_l=3D'^R,`ZID"
++",vmk,`Z@R,`D,`D^j,ppu,@L,`Z`qspace,c`O,^0@G,#N`q,^N,`b,@N';^i=3D^h+',^y=
+,$d,server,#N^c,#K^IID,purchaseID,$2,state,zip,#2,products,`W`q,`W^c';`v`=
+Ln=3D1;n<51;n++)^i+=3D',prop@e,eVar@e,hier@e,list$Z^h2=3D',tn"
++"t,pe#81#82#83,^a,^A,`s^u,`k,^0@I,^7@D,^7^k,`l,@8,p^P';^i+=3D^h2;^2=3D^i=
++',`Q,`Q^j,`QBase,fpC`O,@P`T,#0,`Z^U,`Z^U#O`RSele^I,`RList,`RM#D,^KDow^LL=
+inks,^K@K,^K@Z,`W@n^B,`WDow^LFile^cs,`WEx`r,`WIn`r,`W@bVa"
++"#A`W@b^Ws,`W`qs,$z,eo,_1_`b';#F=3Dpg#L^2)`5!ss)`Is()",
+w=3Dwindow,l=3Dw.s_c_il,n=3Dnavigator,u=3Dn.userAgent,v=3Dn.appVersion,e=3D=
+v.indexOf('MSIE =
+'),m=3Du.indexOf('Netscape6/'),a,i,s;if(un){un=3Dun.toLowerCase();if(l)fo=
+r(i=3D0;i<l.length;i++){s=3Dl[i];if(s._c=3D=3D's_c'){if(s.oun=3D=3Dun)ret=
+urn s;else if(s.fs&&s.sa&&s.fs(s.oun,un)){s.sa(un);return s}}}}
+w.s_r=3Dnew Function("x","o","n","var =
+i=3Dx.indexOf(o);if(i>=3D0&&x.split)x=3D(x.split(o)).join(n);else =
+while(i>=3D0){x=3Dx.substring(0,i)+n+x.substring(i+o.length);i=3Dx.indexO=
+f(o)}return x");
+w.s_d=3Dnew Function("x","var =
+t=3D'`^@$#',l=3D'0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrst=
+uvwxyz',d,n=3D0,b,k,w,i=3Dx.lastIndexOf('~~');if(i>0){d=3Dx.substring(0,i=
+);x=3Dx.substring(i+2);while(d){w=3Dd;i"
++"=3Dd.indexOf('~');if(i>0){w=3Dd.substring(0,i);d=3Dd.substring(i+1)}els=
+e =
+d=3D'';b=3D(n-n%62)/62;k=3Dn-b*62;k=3Dt.substring(b,b+1)+l.substring(k,k+=
+1);x=3Ds_r(x,k,w);n++}for(i=3D0;i<5;i++){w=3Dt.substring(i,i+1);x=3Ds_r(x=
+"
++",w+' ',w)}}return x");
+w.s_fe=3Dnew Function("c","return =
+s_r(s_r(s_r(c,'\\\\','\\\\\\\\'),'\"','\\\\\"'),\"\\n\",\"\\\\n\")");
+w.s_fa=3Dnew Function("f","var =
+s=3Df.indexOf('(')+1,e=3Df.indexOf(')'),a=3D'',c;while(s>=3D0&&s<e){c=3Df=
+.substring(s,s+1);if(c=3D=3D',')a+=3D'\",\"';else if((\"\\n\\r\\t =
+\").indexOf(c)<0)a+=3Dc;s++}return a?'\"'+a+'\"':"
++"a");
+w.s_ft=3Dnew Function("c","c+=3D'';var =
+s,e,o,a,d,q,f,h,x;s=3Dc.indexOf('=3Dfunction(');while(s>=3D0){s++;d=3D1;q=
+=3D'';x=3D0;f=3Dc.substring(s);a=3Ds_fa(f);e=3Do=3Dc.indexOf('{',s);e++;w=
+hile(d>0){h=3Dc.substring(e,e+1);if(q){i"
++"f(h=3D=3Dq&&!x)q=3D'';if(h=3D=3D'\\\\')x=3Dx?0:1;else =
+x=3D0}else{if(h=3D=3D'\"'||h=3D=3D\"'\")q=3Dh;if(h=3D=3D'{')d++;if(h=3D=3D=
+'}')d--}if(d>0)e++}c=3Dc.substring(0,s)+'new =
+Function('+(a?a+',':'')+'\"'+s_fe(c.substring(o+1,e))+'\")"
++"'+c.substring(e+1);s=3Dc.indexOf('=3Dfunction(')}return c;");
+c=3Ds_d(c);if(e>0){a=3DparseInt(i=3Dv.substring(e+5));if(a>3)a=3DparseFlo=
+at(i)}else if(m>0)a=3DparseFloat(u.substring(m+10));else =
+a=3DparseFloat(v);if(a>=3D5&&v.indexOf('Opera')<0&&u.indexOf('Opera')<0){=
+w.s_c=3Dnew Function("un","pg","ss","var s=3Dthis;"+c);return new =
+s_c(un,pg,ss)}else s=3Dnew Function("un","pg","ss","var s=3Dnew =
+Object;"+s_ft(c)+";return s");return s(un,pg,ss)}
+
+
+------=_NextPart_000_0000_01CFA9D2.B2FA7B20--
