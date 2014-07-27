@@ -45,18 +45,16 @@
 %%\Requirepackage{arial}
 %%\RequirePackage{palatino}
 %%\RequirePackage{charter}
+\RequirePackage{scrlfile} 
 \RequirePackage[T1]{fontenc}
+
+\AfterFile{t1lmss.fd}{%
+  \DeclareFontShape{T1}{lmss}{m}{sc}
+  {<->ssub*lmr/m/sc}{}
+}
 
 \RequirePackage{lmodern}
 \renewcommand*\familydefault{\sfdefault}
-
-\RequirePackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false, plainpages=false, pdfpagelabels, citecolor = black,urlcolor = black, breaklinks=true]{hyperref}
-
-
-%\RequirePackage[minionint,mathlf]{MinionPro}
-%\renewcommand{\sfdefault}{Myriad-LF}
-%%\RequirePackage{microtype}
-
 
 %% Mathematik
 \RequirePackage{amssymb, amsmath}
@@ -76,6 +74,9 @@
 \newcommand{\studiengang}[1]{\renewcommand{\thestudiengang}{#1}}
 \newcommand{\thesistyp}[1]{\renewcommand{\thethesistyp}{#1}}
 \newcommand{\betreuerFeld}[1]{\renewcommand{\thebetreuerFeld}{#1}}
+
+\usepackage[author={Eduard Bergen}]{pdfcomment}
+\hypersetup{colorlinks, pdfstartview = FitH, bookmarksopen = true, bookmarksnumbered = true, linkcolor = black, plainpages = false, plainpages=false, citecolor = black,urlcolor = black, breaklinks=true, pdfauthor={Eduard Bergen}, pdfsubject={Master Thesis}, pdftitle={Vergleich von Streamingframeworks: STORM, KAFKA, FLUME, S4}, pdfkeywords={Apache Storm, Apache Kafka, Apache Flume, Apache S4}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,7 +113,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PDF output oder DVI output erkennen
 %
-\newif\ifpdf
+\newif\ifIspdf
 \ifx\pdfoutput\undefined
   \pdffalse % we are not running PDFLaTeX
   \message{BHT style for LaTeX is used.}
