@@ -1,0 +1,1615 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: Welcome to Apache Avro!
+Date: Mon, 28 Jul 2014 00:11:15 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFA9F8.72A1E5B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207">=20
+<META name=3D"Forrest-version" content=3D"0.9">=20
+<META name=3D"Forrest-skin-name" content=3D"hadoop-pelt"> <TITLE>Welcome =
+to Apache=20
+Avro!</TITLE> <LINK href=3D"http://avro.apache.org/skin/basic.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css"> <LINK href=3D"http://avro.apache.org/skin/screen.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"screen"> <LINK =
+href=3D"http://avro.apache.org/skin/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print"> <LINK =
+href=3D"http://avro.apache.org/skin/profile.css"=20
+rel=3D"stylesheet" type=3D"text/css">=20
+<SCRIPT language=3D"javascript" =
+src=3D"http://avro.apache.org/skin/getBlank.js" =
+type=3D"text/javascript"></SCRIPT>
+
+<SCRIPT language=3D"javascript" =
+src=3D"http://avro.apache.org/skin/getMenu.js" =
+type=3D"text/javascript"></SCRIPT>
+
+<SCRIPT language=3D"javascript" =
+src=3D"http://avro.apache.org/skin/fontsize.js" =
+type=3D"text/javascript"></SCRIPT>
+ <LINK href=3D"images/favicon.ico" rel=3D"shortcut icon">=20
+<SCRIPT type=3D"text/javascript">=0A=
+=0A=
+  var _gaq =3D _gaq || [];=0A=
+  _gaq.push(['_setAccount', 'UA-7453027-1']);=0A=
+  _gaq.push(['_setDomainName', 'apache.org']);=0A=
+  _gaq.push(['_trackPageview']);=0A=
+=0A=
+  (function() {=0A=
+    var ga =3D document.createElement('script'); ga.type =3D =
+'text/javascript'; ga.async =3D true;=0A=
+    ga.src =3D ('https:' =3D=3D document.location.protocol ? =
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';=0A=
+    var s =3D document.getElementsByTagName('script')[0]; =
+s.parentNode.insertBefore(ga, s);=0A=
+  })();=0A=
+=0A=
+        </SCRIPT>
+ </HEAD>=20
+<BODY onload=3D"init()">
+<SCRIPT type=3D"text/javascript">ndeSetTextSize();</SCRIPT>
+=20
+<DIV id=3D"top"><!--+=0A=
+    |header=0A=
+    +-->=20
+<DIV class=3D"header"><!--+=0A=
+    |start group logo=0A=
+    +-->=20
+<DIV class=3D"grouplogo"><A href=3D"http://www.apache.org/"><IMG =
+title=3D"Apache Software Foundation"=20
+class=3D"logoImage" alt=3D"Apache" =
+src=3D"http://avro.apache.org/images/apache_feather.gif"></A>=20
+</DIV><!--+=0A=
+    |end group logo=0A=
+    +--> <!--+=0A=
+    |start Project Logo=0A=
+    +-->=20
+<DIV class=3D"projectlogo"><A href=3D"http://avro.apache.org/"><IMG =
+title=3D"Avro, a serialization system"=20
+class=3D"logoImage" alt=3D"Avro"=20
+src=3D"http://avro.apache.org/images/avro-logo.png"></A> </DIV><!--+=0A=
+    |end Project Logo=0A=
+    +--> <!--+=0A=
+    |start Search=0A=
+    +-->=20
+<DIV class=3D"searchbox">
+<FORM action=3D"http://search-hadoop.com/avro" method=3D"get"><INPUT =
+name=3D"q" id=3D"query" onfocus=3D"getBlank (this, 'Search with Apache =
+Solr');" type=3D"text" size=3D"25" value=3D"Search with Apache =
+Solr">&nbsp;
+		  <INPUT type=3D"submit" value=3D"Search"> </FORM></DIV><!--+=0A=
+    |end search=0A=
+    +--> <!--+=0A=
+    |start Tabs=0A=
+    +-->=20
+<UL id=3D"tabs">
+  <LI class=3D"current"><A class=3D"selected" =
+href=3D"http://avro.apache.org/index.html">Project</A></LI>
+  <LI><A class=3D"unselected" =
+href=3D"https://cwiki.apache.org/confluence/display/AVRO/Index">Wiki</A><=
+/LI></UL><!--+=0A=
+    |end Tabs=0A=
+    +-->=20
+</DIV></DIV>
+<DIV id=3D"main">
+<DIV id=3D"publishedStrip"><!--+=0A=
+    |start Subtabs=0A=
+    +-->=20
+<DIV id=3D"level2tabs"></DIV><!--+=0A=
+    |end Endtabs=0A=
+    +-->=20
+<SCRIPT type=3D"text/javascript"><!--=0A=
+document.write("Last Published: " + document.lastModified);=0A=
+//  --></SCRIPT>
+ </DIV><!--+=0A=
+    |breadtrail=0A=
+    +-->=20
+<DIV class=3D"breadtrail">             &nbsp;           </DIV><!--+=0A=
+    |start Menu, mainarea=0A=
+    +--> <!--+=0A=
+    |start Menu=0A=
+    +-->=20
+<DIV id=3D"menu">
+<DIV class=3D"menutitle" id=3D"menu_1.1Title" =
+onclick=3D"SwitchMenu('menu_1.1', 'skin/')">Project</DIV>
+<DIV class=3D"menuitemgroup" id=3D"menu_1.1">
+<DIV class=3D"menuitem"><A=20
+href=3D"http://avro.apache.org/releases.html">Releases</A> </DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://avro.apache.org/releases.html#News">News</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/credits.html">Credits</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://www.apache.org/licenses/">License</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://hadoop.apache.org/privacy_policy.html">Privacy Policy</A> =
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://www.apache.org/security/">Security</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Donate</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://www.apache.org/foundation/thanks.html">Thanks</A> =
+</DIV></DIV>
+<DIV class=3D"menutitle" id=3D"menu_1.2Title" =
+onclick=3D"SwitchMenu('menu_1.2', 'skin/')">Documentation</DIV>
+<DIV class=3D"menuitemgroup" id=3D"menu_1.2">
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/docs/current">Current</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/docs/1.7.7">1.7.7</A>=20
+</DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/docs/1.6.3">1.6.3</A>=20
+</DIV></DIV>
+<DIV class=3D"menutitle" id=3D"menu_1.3Title" =
+onclick=3D"SwitchMenu('menu_1.3', 'skin/')">Developers</DIV>
+<DIV class=3D"menuitemgroup" id=3D"menu_1.3">
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/mailing_lists.html#Developers">Mailing=20
+Lists</A> </DIV>
+<DIV class=3D"menuitem"><A =
+href=3D"http://avro.apache.org/issue_tracking.html">Issue=20
+Tracking</A> </DIV>
+<DIV class=3D"menuitem"><A=20
+href=3D"http://avro.apache.org/version_control.html">Version Control</A> =
+</DIV>
+<DIV class=3D"menuitem"><A href=3D"http://avro.apache.org/irc.html">IRC =
+Channel</A>=20
+</DIV></DIV>
+<DIV id=3D"credit">
+<HR>
+<A href=3D"http://forrest.apache.org/"><IMG title=3D"Built with Apache =
+Forrest"=20
+style=3D"width: 88px; height: 31px;" alt=3D"Built with Apache Forrest - =
+logo" =
+src=3D"http://avro.apache.org/images/built-with-forrest-button.png"=20
+border=3D"0"></A> </DIV>
+<DIV id=3D"roundbottom"><IMG width=3D"15" height=3D"15" class=3D"corner" =
+style=3D"display: none;"=20
+alt=3D""=20
+src=3D"http://avro.apache.org/skin/images/rc-b-l-15-1body-2menu-3menu.png=
+"></DIV><!--+=0A=
+  |alternative credits=0A=
+  +-->=20
+<DIV id=3D"credit2"></DIV></DIV><!--+=0A=
+    |end Menu=0A=
+    +--> <!--+=0A=
+    |start content=0A=
+    +-->=20
+<DIV id=3D"content">
+<H1>Welcome to Apache Avro!</H1>
+<P>Apache Avro=E2=84=A2 is a data serialization system.</P>
+<P>To learn more about Avro, please read  the <A =
+href=3D"http://avro.apache.org/docs/current/">current=20
+documentation</A>.</P>
+<P>To download Avro, please visit  the <A =
+href=3D"http://avro.apache.org/releases.html">releases</A>=20
+page.</P>
+<P>Developers interested in getting more involved with Avro may join  =
+the <A=20
+href=3D"http://avro.apache.org/mailing_lists.html">mailing lists</A>,  =
+report <A=20
+href=3D"http://avro.apache.org/issue_tracking.html">bugs</A>, retrieve =
+code from =20
+the <A href=3D"http://avro.apache.org/version_control.html">version =
+control</A>=20
+system, and make   <A =
+href=3D"https://cwiki.apache.org/confluence/display/AVRO/How+To+Contribut=
+e">contributions</A>.</P></DIV><!--+=0A=
+    |end content=0A=
+    +-->=20
+<DIV class=3D"clearboth">&nbsp;</DIV></DIV>
+<DIV id=3D"footer"><!--+=0A=
+    |start bottomstrip=0A=
+    +-->=20
+<DIV class=3D"lastmodified">
+<SCRIPT type=3D"text/javascript"><!--=0A=
+document.write("Last Published: " + document.lastModified);=0A=
+//  --></SCRIPT>
+ </DIV>
+<DIV class=3D"copyright">        Copyright =C2=A9          2012 <A =
+href=3D"http://www.apache.org/licenses/">The=20
+Apache Software Foundation.</A> <BR>              Apache Hadoop, Hadoop, =
+Apache,=20
+the Apache feather logo, and the Apache              Hadoop project logo =
+are=20
+either registered trademarks or trademarks of              the Apache =
+Software=20
+Foundation in the United States and other              countries.        =
+    =20
+</DIV>
+<DIV id=3D"logos"></DIV><!--+=0A=
+    |end bottomstrip=0A=
+    +--> </DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://avro.apache.org/images/apache_feather.gif
+
+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
+sA0QYBs3UA0BkA39sAPr0ARhOhUBAQA7
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://avro.apache.org/images/avro-logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAASgAAABcCAMAAADqHdhIAAAAAXNSR0IArs4c6QAAAwBQTFRF////
+AED/Zoz/M2b/mbP/zNn/pbz/A0L//P3/CUf/DEn/9vj/D0v/PG3/BkT/IVn/8/b/0t3/3ub/8PT/
+wND/FVD/6u//WoP/Nmj/+fv/SHb/P2//cpX/S3j/G1T/Ek3/LWL/rsL/UX3/5Ov/ydf/jar/2OL/
+J13/t8n/hKP/lrD/e5z/Hlb/h6X/tMf/Tnr/2+T/aY//JFv/RXT/4en/1eD/k67/MGT/eJr/5+3/
+OWv/xtT/7fL/XYb/usv/gaH/GFL/orn/QnH/Kl//q8D/bJH/VH//kKz/YIj/n7f/w9L/vc7/Y4r/
+V4H/dZj/iqf/nLX/fp7/b5P/qL7/scX/z9v/scX/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAoU1e6QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAINYAACDW
+AQ6Q9HMAAAAHdElNRQfbAQgAMxClJTJHAAAPIklEQVR42u1dTY+qSBSFBSYEogkuiAobE2MIhsQF
+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
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://avro.apache.org/images/built-with-forrest-button.png
+
+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
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://avro.apache.org/skin/images/rc-b-l-15-1body-2menu-3menu.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAJcEhZcwAADsQAAA7EAZUr
+DhsAAADQSURBVHjaY/TJ6f/PQCZgYmFhZiBbMw8XO/maFaVEyddsqa/MwMHGSp5mUx0lhr///pGn
+WUSAh0FdUYKBiZGJdM0gIiPUiYGNlUzN8pLCDM4W2gwc7KykawaB1GB7BglhfgYWZmbSNTMzMTHU
+ZwYwgOKdWANQPAoKvP6yKAYZcUGivIARSiADJpRHMTibazGws7HgjQWsMiAvZIQ6MvSWRDJoKEky
+MDMzYU1ILPicBYqFzoJQhjcfvjCcvnKP4cj52wyPXrxl+PLtJ8OfP38ZANr8JTF54RTLAAAAAElF
+TkSuQmCC
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/basic.css
+
+img {
+	border: 0px currentColor; border-image: none;
+}
+#content table {
+	border: 0px currentColor; border-image: none; width: 100%;
+}
+* html #content table {
+	margin-left: -3px;
+}
+#content th {
+	margin: 0px; padding: 0px; vertical-align: top;
+}
+#content td {
+	margin: 0px; padding: 0px; vertical-align: top;
+}
+.clearboth {
+	clear: both;
+}
+.note {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.warning {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.fixme {
+	margin: 1em 3em; border: 1px solid black; border-image: none;
+}
+.note .label {
+	background: rgb(51, 102, 153); padding: 5px 10px; color: white; =
+font-weight: bold;
+}
+.note .content {
+	background: rgb(240, 240, 255); padding: 5px 10px; color: black; =
+line-height: 120%; font-size: 90%;
+}
+.warning .label {
+	background: rgb(204, 0, 0); padding: 5px 10px; color: white; =
+font-weight: bold;
+}
+.warning .content {
+	background: rgb(255, 240, 240); padding: 5px 10px; color: black; =
+line-height: 120%; font-size: 90%;
+}
+.fixme .label {
+	background: rgb(198, 198, 0); padding: 5px 10px; color: black; =
+font-weight: bold;
+}
+.fixme .content {
+	padding: 5px 10px;
+}
+body {
+	font-family: verdana, "Trebuchet MS", arial, helvetica, sans-serif; =
+font-size: 100%;
+}
+#content {
+	font-family: Georgia, Palatino, Times, serif; font-size: 95%;
+}
+#tabs {
+	font-size: 70%;
+}
+#menu {
+	font-size: 80%;
+}
+#footer {
+	font-size: 70%;
+}
+h1 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h2 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h3 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h4 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h5 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h6 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif; =
+font-weight: bold; margin-top: 1em; margin-bottom: 0.5em;
+}
+h1 {
+	font-size: 1.4em; margin-top: 0px; margin-bottom: 1em;
+}
+#content h1 {
+	font-size: 160%; margin-bottom: 0.5em;
+}
+#menu h1 {
+	background: rgb(51, 102, 153); margin: 0px; padding: 10px; color: =
+white;
+}
+h2 {
+	font-size: 120%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 90%;
+}
+h5 {
+	font-size: 80%;
+}
+h6 {
+	font-size: 75%;
+}
+p {
+	text-align: left; line-height: 120%; margin-top: 0.5em; margin-bottom: =
+1em;
+}
+#content li {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content th {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content td {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li ul {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li ol {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+#content li li {
+	margin-top: 0em; margin-bottom: 0em;
+}
+#minitoc-area li {
+	margin-top: 0em; margin-bottom: 0em;
+}
+#content .attribution {
+	text-align: right; font-size: 85%; font-style: italic; margin-top: 1em;
+}
+.codefrag {
+	font-family: "Courier New", Courier, monospace; font-size: 110%;
+}
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/screen.css
+
+body {
+	margin: 0px; font-family: Verdana, Helvetica, sans-serif;
+}
+h1 {
+	margin: 0px; padding: 0px; font-size: 160%;
+}
+h2 {
+	margin: 1em 0px 0.8em; padding: 0px; font-size: 140%; font-weight: =
+bold;
+}
+h3 {
+	margin: 0.8em 0px 0px; padding: 0px; font-size: 130%; font-weight: =
+bold;
+}
+.h3 {
+	margin: 22px 0px 3px;
+}
+h4 {
+	margin: 0.7em 0px 0px; padding: 0px; text-align: left; font-size: 120%; =
+font-weight: normal;
+}
+.h4 {
+	margin: 18px 0px 0px;
+}
+h4.faq {
+	margin: 18px 0px 0px; padding: 0px; text-align: left; font-size: 120%; =
+font-weight: bold;
+}
+h5 {
+	margin: 14px 0px 0px; padding: 0px; text-align: left; font-size: 100%; =
+font-weight: normal;
+}
+table .title {
+	background-color: rgb(0, 0, 0);
+}
+.ForrestTable {
+	width: 100%; color: rgb(255, 255, 255); font-size: 100%; empty-cells: =
+show; background-color: rgb(112, 153, 197);
+}
+table caption {
+	text-align: left; color: white; padding-left: 5px; font-weight: bold; =
+background-color: rgb(0, 0, 0);
+}
+.ForrestTable td {
+	color: black; background-color: rgb(240, 240, 255);
+}
+.ForrestTable th {
+	text-align: center;
+}
+#top {
+	background: rgb(41, 69, 99); width: 100%; float: left; position: =
+relative;
+}
+#top .breadtrail {
+	background: rgb(207, 220, 237); padding: 3px 10px; color: black; =
+font-size: 75%; border-bottom-color: white; border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#top .breadtrail a {
+	color: black;
+}
+#top .header {
+	background: url("images/header_white_line.gif") repeat-x bottom; width: =
+100%; float: left;
+}
+#top .grouplogo {
+	padding: 7px 0px 10px 10px; text-align: left; float: left;
+}
+#top .projectlogo {
+	padding: 7px 0px 10px 10px; width: 33%; text-align: right; float: left;
+}
+#top .projectlogoA1 {
+	padding: 7px 0px 10px 10px; float: right;
+}
+html > body #top .searchbox {
+	bottom: 0px;
+}
+#top .searchbox {
+	background-position: left top; height: 42px; text-align: right; right: =
+10px; bottom: -1px; color: white; font-size: 70%; white-space: nowrap; =
+position: absolute; z-index: 0; background-image: =
+url("images/rc-t-l-5-1header-2searchbox-3searchbox.png"); =
+background-repeat: no-repeat; background-color: rgb(0, 0, 0);
+}
+#top .searchbox form {
+	margin: 0px; padding: 5px 10px;
+}
+#top .searchbox p {
+	margin: 0px; padding: 0px 0px 2px;
+}
+#top .searchbox input {
+	font-size: 100%;
+}
+#tabs {
+	list-style: none; margin: 0px; padding-left: 10px; clear: both;
+}
+#tabs li {
+	background-position: right top; margin: 0px 3px 0px 0px; padding: 0px; =
+float: left; background-image: =
+url("images/rc-t-r-5-1header-2tab-unselected-3tab-unselected.png"); =
+background-repeat: no-repeat; background-color: rgb(0, 0, 0);
+}
+#tabs li a {
+	background-position: left top; padding: 5px 15px 4px; width: 0.1em; =
+color: black; font-family: verdana, arial, sans-serif; text-decoration: =
+none; float: left; display: block; white-space: nowrap; =
+background-image: =
+url("images/rc-t-l-5-1header-2tab-unselected-3tab-unselected.png"); =
+background-repeat: no-repeat;
+}
+#tabs li a:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#tabs > li a {
+	width: auto;
+}
+#tabs a {
+	float: none;
+}
+#top .header .current {
+	background-position: right top; background-image: =
+url("images/rc-t-r-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat; background-color: rgb(76, 108, 143);
+}
+#top .header .current a {
+	background-position: left top; color: white; padding-bottom: 5px; =
+font-weight: bold; background-image: =
+url("images/rc-t-l-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat;
+}
+#publishedStrip {
+	padding: 3px 10px 3px 20px; text-align: right; color: rgb(255, 255, =
+255); font-size: 60%; font-weight: bold; background-color: rgb(76, 108, =
+143);
+}
+#level2tabs {
+	margin: 0px; float: left; position: relative;
+}
+#level2tabs a:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#level2tabs a {
+	background-position: left; padding-left: 6px; text-decoration: none; =
+margin-left: 6px; cursor: pointer; background-image: =
+url("images/chapter.gif"); background-repeat: no-repeat;
+}
+#main {
+	background: white; clear: both; position: relative;
+}
+#main .breadtrail {
+	background: rgb(207, 220, 237); padding: 0px 180px; color: black; =
+clear: both; font-size: 75%; border-top-color: black; =
+border-bottom-color: black; border-top-width: 1px; border-bottom-width: =
+1px; border-top-style: solid; border-bottom-style: solid; position: =
+relative; z-index: 10;
+}
+#roundtop {
+	background-position: right top; background-image: =
+url("images/rc-t-r-15-1body-2menu-3menu.png"); background-repeat: =
+no-repeat;
+}
+#roundbottom {
+	background-position: right top; background-image: =
+url("images/rc-b-r-15-1body-2menu-3menu.png"); background-repeat: =
+no-repeat;
+}
+img.corner {
+	border: currentColor; border-image: none; width: 15px; height: 15px; =
+display: block !important;
+}
+.roundtopsmall {
+	background-position: right top; background-image: =
+url("images/rc-t-r-5-1header-2searchbox-3searchbox.png"); =
+background-repeat: no-repeat;
+}
+#roundbottomsmall {
+	background-position: right top; background-image: =
+url("images/rc-b-r-5-1header-2tab-selected-3tab-selected.png"); =
+background-repeat: no-repeat;
+}
+img.cornersmall {
+	border: currentColor; border-image: none; width: 5px; height: 5px; =
+display: block !important;
+}
+#menu a {
+	font-weight: normal; text-decoration: none;
+}
+#menu a:visited {
+	font-weight: normal;
+}
+#menu a:active {
+	font-weight: normal;
+}
+#menu a:hover {
+	font-weight: normal; text-decoration: underline;
+}
+#menuarea {
+	width: 10em;
+}
+#menu {
+	left: 10px; top: -18px; width: 160px; padding-top: 0px; font-size: 70%; =
+float: left; position: relative; z-index: 20; background-color: rgb(255, =
+153, 0);
+}
+.menutitle {
+	background-position: left; padding: 3px 12px; font-weight: bold; =
+margin-left: 10px; cursor: pointer; background-image: =
+url("images/chapter.gif"); background-repeat: no-repeat;
+}
+.menutitle:hover {
+	text-decoration: underline; cursor: pointer;
+}
+#menu .menuitemgroup {
+	margin: 0px 0px 6px 8px; padding: 0px; font-weight: bold;
+}
+#menu .selectedmenuitemgroup {
+	margin: 0px 0px 0px 8px; padding: 0px; font-weight: normal;
+}
+#menu .menuitem {
+	background-position: left; padding: 2px 0px 1px 13px; font-weight: =
+normal; margin-left: 10px; background-image: url("images/page.gif"); =
+background-repeat: no-repeat;
+}
+#menu .menupage {
+	background-position: left; margin: 2px 0px 1px 10px; padding: 0px 3px =
+0px 12px; font-style: normal; background-image: url("images/page.gif"); =
+background-repeat: no-repeat;
+}
+#menu .menupagetitle {
+	border-width: 1px; border-style: solid; padding: 0px 0px 0px 1px; =
+font-style: normal; margin-right: 10px;
+}
+#menu .menupageitemgroup {
+	padding: 3px 0px 4px 6px; font-style: normal; margin-right: 10px; =
+border-right-color: currentColor; border-bottom-color: currentColor; =
+border-left-color: currentColor; border-right-width: 1px; =
+border-bottom-width: 1px; border-left-width: 1px; border-right-style: =
+solid; border-bottom-style: solid; border-left-style: solid;
+}
+#menu .menupageitem {
+	border-width: 0px; font-size: 90%; font-style: normal; font-weight: =
+normal;
+}
+#menu #credit {
+	text-align: center;
+}
+#menu #credit2 {
+	padding: 3px; text-align: center; background-color: rgb(255, 255, 255);
+}
+#menu .searchbox {
+	text-align: center;
+}
+#menu .searchbox form {
+	margin: 0px; padding: 3px;
+}
+#menu .searchbox input {
+	font-size: 100%;
+}
+#content {
+	font: 80%/normal Verdana, Helvetica, sans-serif; margin: 0px; padding: =
+20px 20px 20px 180px; font-size-adjust: none; font-stretch: normal;
+}
+#content ul {
+	margin: 0px; padding: 0px 25px;
+}
+#content li {
+	padding: 0px 5px;
+}
+#feedback {
+	background: rgb(207, 220, 237); text-align: center; color: black; =
+margin-top: 5px;
+}
+#feedback #feedbackto {
+	color: black; font-size: 90%;
+}
+#footer {
+	background: rgb(207, 220, 237); width: 100%; color: black; clear: both; =
+border-top-color: rgb(76, 108, 143); border-top-width: 1px; =
+border-top-style: solid; position: relative;
+}
+#footer .copyright {
+	margin: 0px; padding: 5px; width: 45%; position: relative;
+}
+#footer .lastmodified {
+	margin: 0px; padding: 5px; width: 45%; text-align: right; float: right; =
+position: relative;
+}
+#footer a {
+	color: white;
+}
+#footer #logos {
+	text-align: left;
+}
+acronym {
+	cursor: help;
+}
+.boxed {
+	background-color: rgb(165, 182, 198);
+}
+.underlined_5 {
+	border-bottom-color: rgb(76, 108, 143); border-bottom-width: 5px; =
+border-bottom-style: solid;
+}
+.underlined_10 {
+	border-bottom-color: rgb(76, 108, 143); border-bottom-width: 10px; =
+border-bottom-style: solid;
+}
+.trail {
+	margin: -10px 5px 0px; padding: 0px; text-align: right; font-size: 70%; =
+float: right; position: relative;
+}
+#motd-area {
+	width: 35%; padding-top: 5px; padding-bottom: 5px; margin-right: 10%; =
+margin-bottom: 15px; margin-left: 15px; border-top-color: rgb(76, 108, =
+143); border-bottom-color: rgb(76, 108, 143); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; float: right; position: relative; background-color: rgb(240, 240, =
+255);
+}
+#minitoc-area {
+	margin: 15px 10% 5px 15px; padding-top: 5px; padding-bottom: 7px; =
+border-top-color: rgb(76, 108, 143); border-bottom-color: rgb(76, 108, =
+143); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+.minitoc {
+	font-weight: normal; list-style-image: url("images/current.gif");
+}
+li p {
+	margin: 0px; padding: 0px;
+}
+.pdflink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.pdflink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.pdflink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.pdflink img {
+	width: 16px; height: 16px; display: block;
+}
+.xmllink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.xmllink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.xmllink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.xmllink img {
+	width: 16px; height: 16px; display: block;
+}
+.podlink {
+	margin: 0px 5px; padding: 0px; float: right; position: relative;
+}
+.podlink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.podlink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.podlink img {
+	width: 16px; height: 16px; display: block;
+}
+.printlink {
+	float: right; position: relative;
+}
+.printlink br {
+	padding-left: 1px; margin-top: -10px;
+}
+.printlink a {
+	margin: 0px; padding: 0px; text-align: center; font-size: 70%; display: =
+block;
+}
+.printlink img {
+	width: 16px; height: 16px; display: block;
+}
+p.instruction {
+	margin-left: 2em; display: list-item; list-style-position: outside; =
+list-style-image: url("../images/instruction_arrow.png");
+}
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/print.css
+
+body {
+	background: white; font-family: Georgia, Palatino, serif; font-size: =
+12pt;
+}
+#tabs {
+	display: none;
+}
+#menu {
+	display: none;
+}
+#content .toc {
+	display: none;
+}
+#content {
+	background: inherit; padding: 0px; width: auto; color: black; float: =
+none !important;
+}
+a:link {
+	background: inherit; color: rgb(51, 102, 153); text-decoration: =
+underline;
+}
+a:visited {
+	background: inherit; color: rgb(51, 102, 153); text-decoration: =
+underline;
+}
+#top .logo {
+	margin: 0px 0px 2em; padding: 0px;
+}
+#footer {
+	margin-top: 4em;
+}
+acronym {
+	border: 0px currentColor; border-image: none;
+}
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/profile.css
+
+@media aural
+{
+h1 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h2 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h3 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h4 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h5 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h6 {
+	voice-family: paul, male; stress: 20; richness: 90;
+}
+h1 {
+	pitch: x-low; pitch-range: 90;
+}
+h2 {
+	pitch: x-low; pitch-range: 80;
+}
+h3 {
+	pitch: low; pitch-range: 70;
+}
+h4 {
+	pitch: medium; pitch-range: 60;
+}
+h5 {
+	pitch: medium; pitch-range: 50;
+}
+h6 {
+	pitch: medium; pitch-range: 40;
+}
+li {
+	richness: 60; pitch: medium;
+}
+dt {
+	richness: 60; pitch: medium;
+}
+dd {
+	richness: 60; pitch: medium;
+}
+dt {
+	stress: 80;
+}
+pre {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+code {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+tt {
+	stress: 0; richness: 80; pitch: medium; pitch-range: 0;
+}
+em {
+	stress: 60; richness: 50; pitch: medium; pitch-range: 60;
+}
+strong {
+	stress: 90; richness: 90; pitch: medium; pitch-range: 60;
+}
+dfn {
+	stress: 60; pitch: high; pitch-range: 60;
+}
+s {
+	richness: 0;
+}
+strike {
+	richness: 0;
+}
+i {
+	stress: 60; richness: 50; pitch: medium; pitch-range: 60;
+}
+b {
+	stress: 90; richness: 90; pitch: medium; pitch-range: 60;
+}
+u {
+	richness: 0;
+}
+:link {
+	voice-family: harry, male;
+}
+:visited {
+	voice-family: betty, female;
+}
+:active {
+	voice-family: betty, female; pitch: x-high; pitch-range: 80;
+}
+}
+a.external {
+	background-position: right; padding: 0px 20px 0px 0px; display: inline; =
+background-image: url("images/external-link.gif"); background-repeat: =
+no-repeat;
+}
+#top {
+	background-color: rgb(255, 255, 255);
+}
+#top .header .current {
+	background-color: rgb(76, 108, 143);
+}
+#top .header .current a:link {
+	color: rgb(255, 255, 255);
+}
+#top .header .current a:visited {
+	color: rgb(255, 255, 255);
+}
+#top .header .current a:hover {
+	color: rgb(255, 255, 255);
+}
+#tabs li {
+	background-color: rgb(229, 228, 217);
+}
+#tabs li a:link {
+	color: rgb(0, 0, 0);
+}
+#tabs li a:visited {
+	color: rgb(0, 0, 0);
+}
+#tabs li a:hover {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.selected {
+	background-color: rgb(76, 108, 143);
+}
+#level2tabs a:link {
+	color: rgb(255, 255, 255);
+}
+#level2tabs a:visited {
+	color: rgb(255, 255, 255);
+}
+#level2tabs a:hover {
+	color: rgb(255, 255, 255);
+}
+#level2tabs {
+	background-color: rgb(229, 228, 217);
+}
+#level2tabs a.unselected:link {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.unselected:visited {
+	color: rgb(0, 0, 0);
+}
+#level2tabs a.unselected:hover {
+	color: rgb(0, 0, 0);
+}
+.heading {
+	background-color: rgb(229, 228, 217);
+}
+.boxed {
+	background-color: rgb(229, 228, 217);
+}
+.underlined_5 {
+	border-bottom-color: rgb(229, 228, 217); border-bottom-width: 5px; =
+border-bottom-style: solid;
+}
+.underlined_10 {
+	border-bottom-color: rgb(229, 228, 217); border-bottom-width: 10px; =
+border-bottom-style: solid;
+}
+table caption {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+#feedback {
+	background: rgb(76, 108, 143); text-align: center; color: rgb(255, 255, =
+255);
+}
+#feedback #feedbackto {
+	color: rgb(255, 255, 255);
+}
+#publishedStrip {
+	background: rgb(76, 108, 143); color: rgb(255, 255, 255);
+}
+#publishedStrip {
+	background: rgb(229, 228, 217); color: rgb(0, 0, 0);
+}
+#menu .menupagetitle {
+	color: rgb(0, 0, 0); background-color: rgb(207, 220, 237);
+}
+#menu {
+	border-color: rgb(153, 153, 153);
+}
+#menu .menupagetitle {
+	border-color: rgb(153, 153, 153);
+}
+#menu .menupageitemgroup {
+	border-color: rgb(153, 153, 153);
+}
+#menu {
+	background-color: rgb(76, 108, 143);
+}
+#menu {
+	color: rgb(255, 255, 255);
+}
+#menu a:link {
+	color: rgb(255, 255, 255);
+}
+#menu a:visited {
+	color: rgb(255, 255, 255);
+}
+#menu a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(76, 108, 143);
+}
+#menu h1 {
+	color: rgb(0, 0, 0); background-color: rgb(207, 220, 237);
+}
+#top .searchbox {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+#menu .menupageitemgroup {
+	background-color: rgb(229, 228, 217);
+}
+#menu .menupageitem {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:link {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:visited {
+	color: rgb(0, 0, 0);
+}
+#menu .menupageitem a:hover {
+	color: rgb(0, 0, 0); background-color: rgb(229, 228, 217);
+}
+body {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+a:link {
+	color: rgb(0, 0, 255);
+}
+a:visited {
+	color: rgb(0, 153, 153);
+}
+a:hover {
+	color: rgb(101, 135, 255);
+}
+.ForrestTable {
+	background-color: rgb(204, 204, 204);
+}
+.ForrestTable td {
+	background-color: rgb(255, 255, 255);
+}
+.highlight {
+	background-color: rgb(255, 255, 0);
+}
+.fixme {
+	border-color: rgb(204, 102, 0);
+}
+.note {
+	border-color: rgb(0, 102, 153);
+}
+.warning {
+	border-color: rgb(153, 0, 0);
+}
+.code {
+	border-color: rgb(165, 182, 198);
+}
+#footer {
+	background-color: rgb(229, 228, 217);
+}
+p.quote {
+	padding: 0.5em; font-family: monospace; margin-left: 2em; =
+background-color: rgb(240, 240, 240);
+}
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/getBlank.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+/**=0A=
+ * getBlank script - when included in a html file and called from a form =
+text field, will set the value of this field to ""=0A=
+ * if the text value is still the standard value.=0A=
+ * getPrompt script - when included in a html file and called from a =
+form text field, will set the value of this field to the prompt=0A=
+ * if the text value is empty.=0A=
+ *=0A=
+ * Typical usage:=0A=
+ * <script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"getBlank.js"></script>=0A=
+ * <input type=3D"text" id=3D"query" value=3D"Search the site:" =
+onFocus=3D"getBlank (this, 'Search the site:');" onBlur=3D"getBlank =
+(this, 'Search the site:');"/>=0A=
+ */=0A=
+<!--=0A=
+function getBlank (form, stdValue){=0A=
+if (form.value =3D=3D stdValue){=0A=
+	form.value =3D '';=0A=
+	}=0A=
+return true;=0A=
+}=0A=
+function getPrompt (form, stdValue){=0A=
+if (form.value =3D=3D ''){=0A=
+	form.value =3D stdValue;=0A=
+	}=0A=
+return true;=0A=
+}=0A=
+//-->=0A=
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/getMenu.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+/**=0A=
+ * This script, when included in a html file, can be used to make =
+collapsible menus=0A=
+ *=0A=
+ * Typical usage:=0A=
+ * <script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"menu.js"></script>=0A=
+ */=0A=
+=0A=
+if (document.getElementById){ =0A=
+  document.write('<style type=3D"text/css">.menuitemgroup{display: =
+none;}</style>')=0A=
+}=0A=
+=0A=
+=0A=
+function SwitchMenu(obj, thePath)=0A=
+{=0A=
+var open =3D 'url("'+thePath + 'images/chapter_open.gif")';=0A=
+var close =3D 'url("'+thePath + 'images/chapter.gif")';=0A=
+  if(document.getElementById)  {=0A=
+    var el =3D document.getElementById(obj);=0A=
+    var title =3D document.getElementById(obj+'Title');=0A=
+=0A=
+    if(el.style.display !=3D "block"){ =0A=
+      title.style.backgroundImage =3D open;=0A=
+      el.style.display =3D "block";=0A=
+    }else{=0A=
+      title.style.backgroundImage =3D close;=0A=
+      el.style.display =3D "none";=0A=
+    }=0A=
+  }// end -  if(document.getElementById) =0A=
+}//end - function SwitchMenu(obj)=0A=
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://avro.apache.org/skin/fontsize.js
+
+/*=0A=
+* Licensed to the Apache Software Foundation (ASF) under one or more=0A=
+* contributor license agreements.  See the NOTICE file distributed with=0A=
+* this work for additional information regarding copyright ownership.=0A=
+* The ASF licenses this file to You under the Apache License, Version 2.0=0A=
+* (the "License"); you may not use this file except in compliance with=0A=
+* the License.  You may obtain a copy of the License at=0A=
+*=0A=
+*     http://www.apache.org/licenses/LICENSE-2.0=0A=
+*=0A=
+* Unless required by applicable law or agreed to in writing, software=0A=
+* distributed under the License is distributed on an "AS IS" BASIS,=0A=
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+* See the License for the specific language governing permissions and=0A=
+* limitations under the License.=0A=
+*/=0A=
+function init() =0A=
+{ //embedded in the doc=0A=
+  //ndeSetTextSize();=0A=
+}=0A=
+=0A=
+function checkBrowser(){=0A=
+  if (!document.getElementsByTagName){=0A=
+    return true;=0A=
+  }=0A=
+  else{=0A=
+    return false;=0A=
+  }=0A=
+}=0A=
+=0A=
+=0A=
+function ndeSetTextSize(chgsize,rs) =0A=
+{=0A=
+  var startSize;=0A=
+  var newSize;=0A=
+=0A=
+  if (!checkBrowser)=0A=
+  {=0A=
+    return;=0A=
+  }=0A=
+=0A=
+  startSize =3D parseInt(ndeGetDocTextSize());=0A=
+=0A=
+  if (!startSize)=0A=
+  {=0A=
+    startSize =3D 16;=0A=
+  }=0A=
+=0A=
+  switch (chgsize)=0A=
+  {=0A=
+  case 'incr':=0A=
+    newSize =3D startSize + 2;=0A=
+    break;=0A=
+=0A=
+  case 'decr':=0A=
+    newSize =3D startSize - 2;=0A=
+    break;=0A=
+=0A=
+  case 'reset':=0A=
+    if (rs) {newSize =3D rs;} else {newSize =3D 16;}=0A=
+    break;=0A=
+=0A=
+  default:=0A=
+    try{=0A=
+      newSize =3D parseInt(ndeReadCookie("nde-textsize"));=0A=
+    }=0A=
+    catch(e){=0A=
+      alert(e);=0A=
+    }=0A=
+    =0A=
+    if (!newSize || newSize =3D=3D 'NaN')=0A=
+    {=0A=
+      newSize =3D startSize;=0A=
+    }=0A=
+    break;=0A=
+=0A=
+  }=0A=
+=0A=
+  if (newSize < 10) =0A=
+  {=0A=
+    newSize =3D 10;=0A=
+  }=0A=
+=0A=
+  newSize +=3D 'px';=0A=
+=0A=
+  document.getElementsByTagName('html')[0].style.fontSize =3D newSize;=0A=
+  document.getElementsByTagName('body')[0].style.fontSize =3D newSize;=0A=
+=0A=
+  ndeCreateCookie("nde-textsize", newSize, 365);=0A=
+}=0A=
+=0A=
+function ndeGetDocTextSize() =0A=
+{=0A=
+  if (!checkBrowser)=0A=
+  {=0A=
+    return 0;=0A=
+  }=0A=
+=0A=
+  var size =3D 0;=0A=
+  var body =3D document.getElementsByTagName('body')[0];=0A=
+=0A=
+  if (body.style && body.style.fontSize)=0A=
+  {=0A=
+    size =3D body.style.fontSize;=0A=
+  }=0A=
+  else if (typeof(getComputedStyle) !=3D 'undefined')=0A=
+  {=0A=
+    size =3D getComputedStyle(body,'').getPropertyValue('font-size');=0A=
+  }=0A=
+  else if (body.currentStyle)=0A=
+  {=0A=
+   size =3D body.currentStyle.fontSize;=0A=
+  }=0A=
+=0A=
+  //fix IE bug=0A=
+  if( isNaN(size)){=0A=
+    if(size.substring(size.length-1)=3D=3D"%"){=0A=
+      return=0A=
+    }=0A=
+=0A=
+  }=0A=
+=0A=
+  return size;=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+function ndeCreateCookie(name,value,days) =0A=
+{=0A=
+  var cookie =3D name + "=3D" + value + ";";=0A=
+=0A=
+  if (days) =0A=
+  {=0A=
+    var date =3D new Date();=0A=
+    date.setTime(date.getTime()+(days*24*60*60*1000));=0A=
+    cookie +=3D " expires=3D" + date.toGMTString() + ";";=0A=
+  }=0A=
+  cookie +=3D " path=3D/";=0A=
+=0A=
+  document.cookie =3D cookie;=0A=
+=0A=
+}=0A=
+=0A=
+function ndeReadCookie(name) =0A=
+{=0A=
+  var nameEQ =3D name + "=3D";=0A=
+  var ca =3D document.cookie.split(';');=0A=
+=0A=
+ =0A=
+  for(var i =3D 0; i < ca.length; i++) =0A=
+  {=0A=
+    var c =3D ca[i];=0A=
+    while (c.charAt(0) =3D=3D ' ') =0A=
+    {=0A=
+      c =3D c.substring(1, c.length);=0A=
+    }=0A=
+=0A=
+    ctest =3D c.substring(0,name.length);=0A=
+ =0A=
+    if(ctest =3D=3D name){=0A=
+      return c.substring(nameEQ.length,c.length);=0A=
+    }=0A=
+  }=0A=
+  return null;=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CFA9F8.72A1E5B0--

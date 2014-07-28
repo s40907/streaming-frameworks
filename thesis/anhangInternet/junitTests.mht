@@ -1,0 +1,955 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: Test Infected:
+Date: Mon, 28 Jul 2014 21:12:55 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFAAA8.B32BBF10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFAAA8.B32BBF10
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://junit.sourceforge.net/doc/testinfected/testing.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en" =
+""><HTML><HEAD><META=20
+content=3D"IE=3D5.0000" http-equiv=3D"X-UA-Compatible">
+   =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Diso-8859-1">   =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207">    =
+<TITLE>Test=20
+Infected: </TITLE> </HEAD>=20
+<BODY>
+<H1><B><FONT color=3D"#00cc00">J</FONT><FONT =
+color=3D"#ff0000">U</FONT><FONT color=3D"#000000">nit</FONT>=20
+<FONT size=3D"+3">Test Infected: Programmers Love Writing=20
+Tests</FONT></B></H1><BR>Note: this article describes JUnit 3.8.x.=20
+<HR width=3D"100%">
+
+<P>Testing is not closely integrated with development. This prevents you =
+from=20
+measuring the progress of development- you can't tell when something =
+starts=20
+working or when something stops working. Using <I>JUnit</I> you can =
+cheaply and=20
+incrementally build a test suite that will help you measure your =
+progress, spot=20
+unintended side effects, and focus your development efforts.=20
+<H1>Contents</H1>
+<UL>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#TheProb=
+lem">The=20
+  Problem</A></LI>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Example=
+">Example</A></LI>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Testing=
+Practices">Testing=20
+  Practices</A></LI>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Conclus=
+ion">Conclusions</A></LI></UL>
+<H1><A name=3D"TheProblem"></A>The Problem</H1>Every programmer knows =
+they should=20
+write tests for their code. Few do. The universal response to "Why not?" =
+is "I'm=20
+in too much of a hurry." This quickly becomes a vicious cycle- the more =
+pressure=20
+you feel, the fewer tests you write. The fewer tests you write, the less =
+
+productive you are and the less stable your code becomes. The less =
+productive=20
+and accurate you are, the more pressure you feel.=20
+<P>Programmers burn out from just such cycles. Breaking out requires an =
+outside=20
+influence. We found the outside influence we needed in a simple testing=20
+framework that lets us do a little testing that makes a big difference.=20
+<P>The best way to convince you of the value of writing your own tests =
+would be=20
+to sit down with you and do a bit of development. Along the way, we =
+would=20
+encounter new bugs, catch them with tests, fix them, have them come =
+back, fix=20
+them again, and so on. You would see the value of the immediate feedback =
+you get=20
+from writing and saving and rerunning your own unit tests.=20
+<P>Unfortunately, this is an article, not an office overlooking charming
+ old-town Z=FCrich, with the bustle of medieval commerce outside and the =
+thump of=20
+techno from the record store downstairs, so we'll have to simulate the =
+process=20
+of development. We'll write a simple program and its tests, and show you =
+the=20
+results of running the tests. This way you can get a feel for the =
+process we use=20
+and advocate without having to pay for our presence.=20
+<H1><A name=3D"Example"></A>Example</H1>As you read, pay attention to =
+the=20
+interplay of the code and the tests. The style here is to write a few =
+lines of=20
+code, then a test that should run, or even better, to write a test that =
+won't=20
+run, then write the code that will make it run.=20
+<P>The program we write will solve the problem of representing =
+arithmetic with=20
+multiple currencies. Arithmetic between single currencies is trivial, =
+you can=20
+just add the two amounts. Simple numbers suffice. You can ignore the =
+presence of=20
+currencies altogether.=20
+<P>Things get more interesting once multiple currencies are involved. =
+You cannot=20
+just convert one currency into another for doing arithmetic since there =
+is no=20
+single conversion rate- you may need to compare the value of a portfolio =
+at=20
+yesterday's rate and today's rate.=20
+<P>Let's start simple and define a class <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#classMo=
+ney">Money</A>
+ to represent a value in a single currency. We represent the amount by a =
+simple=20
+int. To get full accuracy you would probably use double or =
+java.math.BigDecimal
+ to store arbitrary-precision signed decimal numbers. We represent a =
+currency as=20
+a string holding the ISO three letter abbreviation (USD, CHF, etc.). In =
+more=20
+complex implementations, currency might deserve its own object.=20
+<PRE><A name=3D"classMoney"></A><TT>class Money {=0A=
+&nbsp;&nbsp;&nbsp; private int fAmount;=0A=
+&nbsp;&nbsp;&nbsp; private String fCurrency;</TT></PRE>
+<PRE><TT>&nbsp;&nbsp;&nbsp; public Money(int amount, String currency) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fAmount=3D amount;=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fCurrency=3D currency;=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; public int amount() {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return fAmount;=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; public String currency() {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return fCurrency;=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+}</TT></PRE>
+When<FONT size=3D"-1"></FONT>you add two Moneys of the same currency, =
+the
+ resulting Money has as its amount the sum of the other two amounts.=20
+<PRE><A name=3D"MoneyAdd"></A><TT>public Money add(Money m) {=0A=
+&nbsp;&nbsp;&nbsp; return new Money(amount()+m.amount(), currency());=0A=
+}</TT></PRE>
+Now, instead of just coding on, we want to get immediate feedback and =
+practice
+ "code a little, test a little, code a little, test a little". To =
+implement our=20
+tests we use the JUnit framework. To write tests you need to get the <A =
+href=3D"http://sourceforge.net/projects/junit/">latest
+ copy</A> JUnit (or write your own equivalent- it's not so much work).=20
+<P>JUnit defines how to structure your test cases and provides the tools =
+to run=20
+them. You implement a test in a subclass of TestCase. To test our Money=20
+implementation we therefore define <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#class =
+MoneyTest">MoneyTest</A>
+ as a subclass of TestCase. In Java, classes are contained in packages =
+and we=20
+have to decide where to put MoneyTest. Our current practice is to put =
+MoneyTest=20
+in the same package as the classes under test. In this way a test case =
+has=20
+access to the package private methods. We add a test method =
+testSimpleAdd, that=20
+will exercise the simple version of <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#MoneyAd=
+d">Money.add()</A>
+ above. A JUnit test method is an ordinary method without any =
+parameters.=20
+<PRE><A name=3D"class MoneyTest"></A><TT>public class MoneyTest extends =
+TestCase {=0A=
+&nbsp;&nbsp;&nbsp; //=85=0A=
+&nbsp;&nbsp;&nbsp; public void testSimpleAdd() {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Money m12CHF=3D new Money(12, =
+"CHF");&nbsp; //&nbsp;<A name=3D"MoneyTest1"></A>(1)=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Money m14CHF=3D new Money(14, =
+"CHF");&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Money expected=3D new =
+Money(26, "CHF");=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Money result=3D =
+m12CHF.add(m14CHF);&nbsp;&nbsp;&nbsp; //&nbsp;<A =
+name=3D"MoneyTest2"></A>(2)=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Assert.assertTrue(expected.equals(result));&nbsp;&nbsp;&nbsp;&nbsp; =
+//&nbsp;<A name=3D"MoneyTest3"></A>(3)=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+}</TT></PRE>
+The testSimpleAdd() test case consists of:=20
+<OL>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#MoneyTe=
+st1">Code</A>=20
+  which creates the objects we will interact with during the test. This =
+testing=20
+  context is commonly referred to as a test's<I> fixture</I>. All we =
+need for=20
+  the testSimpleAdd test are some Money objects.</LI>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#MoneyTe=
+st2">Code</A>=20
+  which exercises the objects in the fixture.</LI>
+  <LI><A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#MoneyTe=
+st3">Code</A>=20
+  which verifies the result.</LI></OL>Before we can verify the result we =
+have to=20
+digress a little since we need a way to test that two Money objects are =
+equal.=20
+The Java idiom to do so is to override the method <I>equals</I> defined =
+in=20
+Object. Before we implement equals let's a write a test for equals in =
+MoneyTest.=20
+<PRE><TT>public void testEquals() {=0A=
+&nbsp;&nbsp;&nbsp; Money m12CHF=3D new Money(12, "CHF");=0A=
+&nbsp;&nbsp;&nbsp; Money m14CHF=3D new Money(14, "CHF");=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!m12CHF.equals(null));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(m12CHF, m12CHF);=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(m12CHF, new Money(12, "CHF")); =
+//&nbsp;<A name=3D"TestEquals1"></A>(1)=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!m12CHF.equals(m14CHF));=0A=
+}</TT></PRE>
+The equals method in Object returns true when both objects are the same.
+ However, Money is a <I>value object</I>. Two Monies are considered =
+equal if=20
+they have the same currency and value. To test this property we have =
+added a=20
+test <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#TestEqu=
+als1">(1)</A>=20
+to verify that Monies are equal when they have the same value but are =
+not the=20
+same object.=20
+<P>Next let's write the equals method in Money:=20
+<PRE><TT>public boolean equals(Object anObject) {=0A=
+&nbsp;&nbsp;&nbsp; if (anObject instanceof Money) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Money aMoney=3D =
+(Money)anObject;=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return =
+aMoney.currency().equals(currency())=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+&amp;&amp; amount() =3D=3D aMoney.amount();=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+&nbsp;&nbsp;&nbsp; return false;=0A=
+}</TT></PRE>
+Since equals can receive any kind of object as its argument we first =
+have to=20
+check its type before we cast it as a Money. As an aside, it is a =
+recommended
+ practice to also override the method hashCode whenever you override =
+method
+ equals. However, we want to get back to our test case.=20
+<P>With an equals method in hand we can verify the outcome of =
+testSimpleAdd. In=20
+JUnit you do so by a calling <A =
+href=3D"http://junit.sourceforge.net/javadoc/junit/framework/Assert.html#=
+assertTrue(boolean)">Assert.assertTrue</A>,
+ which triggers a failure that is recorded by JUnit when the argument =
+isn't
+ true. Since assertions for equality are very common, there is also an=20
+Assert.assertEquals convenience method. In addition to testing for =
+equality with=20
+equals, it reports the printed value of the two objects in the case they =
+differ.=20
+This lets us immediately see why a test failed in a JUnit test result =
+report.=20
+The value a string representation created by the toString converter =
+method.
+ There are <A =
+href=3D"http://junit.sourceforge.net/javadoc/junit/framework/Assert.html"=
+>
+other asertXXXX variants</A> not discussed here.=20
+<P>Now that we have implemented two test cases we notice some code =
+duplication
+ for setting-up the tests. It would be nice to reuse some of this test =
+set-up
+ code. In other words, we would like to have a common fixture for =
+running the=20
+tests. With JUnit you can do so by storing the fixture's objects in =
+instance=20
+variables of your <A =
+href=3D"http://junit.sourceforge.net/javadoc/junit/framework/TestCase.htm=
+l">TestCase</A>
+ subclass and initialize them by overridding the setUp method. The =
+symmetric=20
+operation to setUp is tearDown which you can override to clean up the =
+test=20
+fixture at the end of a test. Each test runs in its own fixture and =
+JUnit calls=20
+setUp and tearDown for each test so that there can be no side effects =
+among test=20
+runs.=20
+<PRE><TT>public class MoneyTest extends TestCase {=0A=
+&nbsp;&nbsp;&nbsp; private Money f12CHF;=0A=
+&nbsp;&nbsp;&nbsp; private Money f14CHF;&nbsp;&nbsp;&nbsp;=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; protected void setUp() {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f12CHF=3D new Money(12, =
+"CHF");=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f14CHF=3D new Money(14, =
+"CHF");=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+}</TT></PRE>
+We can rewrite the two test case methods, removing the common setup =
+code:=20
+<PRE><TT>public void testEquals() {=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!f12CHF.equals(null));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(f12CHF, f12CHF);=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(f12CHF, new Money(12, "CHF"));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!f12CHF.equals(f14CHF));=0A=
+}=0A=
+=0A=
+public void testSimpleAdd() {=0A=
+&nbsp;&nbsp;&nbsp; Money expected=3D new Money(26, "CHF");=0A=
+&nbsp;&nbsp;&nbsp; Money result=3D f12CHF.add(f14CHF);=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(expected.equals(result));=0A=
+}</TT></PRE>
+Two additional steps are needed to run the two test cases:=20
+<OL>
+  <LI>define how to run an individual test case,</LI>
+  <LI>define how to run a <I>test suite</I>.</LI></OL>JUnit supports two =
+ways of=20
+running single tests:=20
+<UL>
+  <LI>static</LI>
+  <LI>dynamic</LI></UL>In the static way you override the runTest method =
+inherited=20
+from TestCase and call the desired test case. A convenient way to do =
+this is=20
+with an anonymous inner class. Note that each test must be given a name, =
+so you
+ can identify it if it fails.=20
+<PRE><TT>TestCase test=3D new MoneyTest("simple add") {=0A=
+&nbsp;&nbsp;&nbsp; public void runTest() {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; testSimpleAdd();=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+};</TT></PRE>
+A template method<A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Gamma, =
+E., et al. Design Patterns: Elements of">[1]</A>
+ in the superclass will make sure runTest is executed when the time =
+comes.=20
+<P>The dynamic way to create a test case to be run uses reflection to =
+implement
+ runTest. It assumes the name of the test is the name of the test case =
+method to=20
+invoke. It dynamically finds and invokes the test method. To invoke the=20
+testSimpleAdd test we therefore construct a MoneyTest as shown below:=20
+<PRE><TT>TestCase test=3D new MoneyTest("testSimpleAdd");</TT></PRE>The =
+dynamic=20
+way is more compact to write but it is less static type safe. An error =
+in the=20
+name of the test case goes unnoticed until you run it and get a=20
+NoSuchMethodException. Since both approaches have advantages, we decided =
+to=20
+leave the choice of which to use up to you.=20
+<P>As the last step to getting both test cases to run together, we have =
+to=20
+define a test suite. In JUnit this requires the definition of a static =
+method=20
+called suite. The suite method is like a main method that is specialized =
+to run=20
+tests. Inside suite you add the tests to be run to a <A =
+href=3D"http://junit.sourceforge.net/javadoc/junit/framework/TestSuite.ht=
+ml">TestSuite</A>=20
+object and return it. A TestSuite can run a collection of tests. =
+TestSuite and
+ TestCase both implement an interface called Test which defines the =
+methods to=20
+run a test. This enables the creation of test suites by composing =
+arbitrary
+ TestCases and TestSuites. In short TestSuite is a Composite <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Gamma, =
+E., et al. Design Patterns: Elements of">[1].</A>
+ The code below illustrates the creation of a test suite with the =
+dynamic way to=20
+run a test.=20
+<PRE><TT>public static Test suite() {=0A=
+&nbsp;&nbsp;&nbsp; TestSuite suite=3D new TestSuite();=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testEquals"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testSimpleAdd"));=0A=
+&nbsp;&nbsp;&nbsp; return suite;=0A=
+}</TT></PRE>
+Since JUnit 2.0 there is an even simpler dynamic way. You only pass the =
+class=20
+with the tests to a TestSuite and it extracts the test methods =
+automatically.=20
+<P><TT>public static Test suite() {<BR>&nbsp;&nbsp;&nbsp; return new=20
+TestSuite(MoneyTest.class);<BR>}</TT><TT></TT>=20
+<P>Here is the corresponding code using the static way.=20
+<PRE><TT>public static Test suite() {=0A=
+&nbsp;&nbsp;&nbsp; TestSuite suite=3D new TestSuite();=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new MoneyTest("money equals") =
+{=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+protected void runTest() { testEquals(); }=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }=0A=
+&nbsp;&nbsp;&nbsp; );=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new MoneyTest("simple add") {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+protected void runTest() { testSimpleAdd(); }=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }=0A=
+&nbsp;&nbsp;&nbsp; );=0A=
+&nbsp;&nbsp;&nbsp; return suite;=0A=
+}</TT></PRE>
+Now we are ready to run our tests. JUnit comes with a graphical&nbsp; =
+interface
+ to run tests. Type the name of your test class in the field at the top =
+of the=20
+window. Press the Run button. While the test is run JUnit shows its =
+progress=20
+with a progress bar below the input field. The bar is initially green =
+but turns=20
+into red as soon as there is an unsuccessful test. Failed tests are =
+shown in a=20
+list at the bottom. <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Figure1=
+">Figure=20
+1</A> shows the TestRunner window after we run our trivial test suite.=20
+<CENTER><IMG =
+src=3D"http://junit.sourceforge.net/doc/testinfected/IMG00001.GIF">=20
+<BR><A name=3D"Figure1"></A><B>Figure 1</B>: A Successful Run</CENTER>
+<P>After having verified that the simple currency case works we move on =
+to=20
+multiple currencies. As mentioned above the problem of mixed currency =
+arithmetic=20
+is that there isn't a single exchange rate. To avoid this problem we =
+introduce a=20
+MoneyBag which defers exchange rate conversions. For example adding 12 =
+Swiss=20
+Francs to 14 US Dollars is represented as a bag containing the two =
+Monies 12 CHF=20
+and 14 USD. Adding another 10 Swiss francs gives a bag with 22 CHF and =
+14 USD.=20
+We can later evaluate a MoneyBag with different exchange rates.=20
+<P>A MoneyBag is represented as a list of Monies and provides different
+ constructors to create a MoneyBag. Note, that the constructors are =
+package
+ private since MoneyBags are created behind the scenes when doing =
+currency
+ arithmetic.=20
+<PRE><TT>class MoneyBag {=0A=
+&nbsp;&nbsp;&nbsp; private Vector fMonies=3D new Vector();=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; MoneyBag(Money m1, Money m2) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; appendMoney(m1);=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; appendMoney(m2);=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+=0A=
+&nbsp;&nbsp;&nbsp; MoneyBag(Money bag[]) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int i=3D 0; i &lt; =
+bag.length; i++)=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+appendMoney(bag[i]);=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+}</TT></PRE>
+The method appendMoney is an internal helper method that adds a Money to =
+the=20
+list of Moneys and takes care of consolidating Monies with the same =
+currency.=20
+MoneyBag also needs an equals method together with a corresponding test. =
+We skip=20
+the implementation of equals and only show the testBagEquals method. In =
+a first=20
+step we extend the fixture to include two MoneyBags.=20
+<PRE><TT>protected void setUp() {=0A=
+&nbsp;&nbsp;&nbsp; f12CHF=3D new Money(12, "CHF");=0A=
+&nbsp;&nbsp;&nbsp; f14CHF=3D new Money(14, "CHF");=0A=
+&nbsp;&nbsp;&nbsp; f7USD=3D&nbsp; new Money( 7, "USD");=0A=
+&nbsp;&nbsp;&nbsp; f21USD=3D new Money(21, "USD");=0A=
+&nbsp;&nbsp;&nbsp; fMB1=3D new MoneyBag(f12CHF, f7USD);=0A=
+&nbsp;&nbsp;&nbsp; fMB2=3D new MoneyBag(f14CHF, f21USD);=0A=
+}</TT></PRE>
+With this fixture the testBagEquals test case becomes:=20
+<PRE><TT>public void testBagEquals() {=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!fMB1.equals(null));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(fMB1, fMB1);=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!fMB1.equals(f12CHF));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!f12CHF.equals(fMB1));=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertTrue(!fMB1.equals(fMB2));=0A=
+}</TT></PRE>
+Following "code a little, test a little" we run our extended test with =
+JUnit and=20
+verify that we are still doing fine. With MoneyBag in hand, we can now =
+fix the=20
+add method in Money.=20
+<PRE><TT>public Money add(Money m) {=0A=
+&nbsp;&nbsp;&nbsp; if (m.currency().equals(currency()) )=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return new =
+Money(amount()+m.amount(), currency());=0A=
+&nbsp;&nbsp;&nbsp; return new MoneyBag(this, m);=0A=
+}</TT></PRE>
+As defined above this method will not compile since it expects a Money =
+and not a=20
+MoneyBag as its return value. With the introduction of MoneyBag there =
+are now=20
+two representations for Moneys which we would like to hide from the =
+client code.=20
+To do so we introduce an interface IMoney that both representations =
+implement.=20
+Here is the IMoney interface:=20
+<PRE><TT>interface IMoney {=0A=
+&nbsp;&nbsp;&nbsp; public abstract IMoney add(IMoney aMoney);=0A=
+&nbsp;&nbsp;&nbsp; //=85=0A=
+}</TT></PRE>To=20
+fully hide the different representations from the client we have to =
+support=20
+arithmetic between all combinations of Moneys with MoneyBags. Before we =
+code on,=20
+we therefore define a couple more test cases. The expected MoneyBag =
+results use=20
+the convenience constructor shown above, initializing a MoneyBag from an =
+array.=20
+<PRE><TT>public void testMixedSimpleAdd() {&nbsp;=0A=
+&nbsp;&nbsp;&nbsp; // [12 CHF] + [7 USD] =3D=3D {[12 CHF][7 USD]}&nbsp;=0A=
+&nbsp;&nbsp;&nbsp; Money bag[]=3D { f12CHF, f7USD };&nbsp;=0A=
+&nbsp;&nbsp;&nbsp; MoneyBag expected=3D new MoneyBag(bag);&nbsp;=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(expected, =
+f12CHF.add(f7USD));&nbsp;=0A=
+}</TT></PRE>
+The other tests follow the same pattern:=20
+<MENU>
+  <LI>testBagSimpleAdd - to add a MoneyBag to a simple Money</LI>
+  <LI>testSimpleBagAdd - to add a simple Money to a MoneyBag</LI>
+  <LI>testBagBagAdd - to add two MoneyBags</LI></MENU>Next, we extend =
+our test=20
+suite accordingly:=20
+<PRE><TT>public static Test suite() {=0A=
+&nbsp;&nbsp;&nbsp; TestSuite suite=3D new TestSuite();=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testMoneyEquals"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testBagEquals"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testSimpleAdd"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testMixedSimpleAdd"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testBagSimpleAdd"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testSimpleBagAdd"));=0A=
+&nbsp;&nbsp;&nbsp; suite.addTest(new MoneyTest("testBagBagAdd"));=0A=
+&nbsp;&nbsp;&nbsp; return suite;=0A=
+}</TT></PRE>
+Having defined the test cases we can start to implement them. The =
+implementation
+ challenge here is dealing with all the different combinations of Money =
+with=20
+MoneyBag. Double dispatch <A =
+href=3D"http://junit.sourceforge.net/doc/testinfected/testing.htm#Beck, =
+K. Smalltalk Best Practice Patterns,">[2]</A>
+ is an elegant way to solve this problem. The idea behind double =
+dispatch is to=20
+use an additional call to discover the kind of argument we are dealing =
+with. We=20
+call a method on the argument with the name of the original method =
+followed by=20
+the class name of the receiver. The add method in Money and MoneyBag =
+becomes:=20
+<PRE><TT>class Money implements IMoney {=0A=
+&nbsp;&nbsp;&nbsp; public IMoney add(IMoney m) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return m.addMoney(this);=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+&nbsp;&nbsp;&nbsp; //=85=0A=
+}</TT></PRE>
+<PRE><TT>class MoneyBag implements IMoney {=0A=
+&nbsp;&nbsp;&nbsp; public IMoney add(IMoney m) {=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return m.addMoneyBag(this);=0A=
+&nbsp;&nbsp;&nbsp; }=0A=
+&nbsp;&nbsp;&nbsp; //=85=0A=
+}</TT></PRE>In=20
+order to get this to compile we need to extend the interface of IMoney =
+with the=20
+two helper methods:=20
+<PRE><TT>interface IMoney {=0A=
+//=85=0A=
+&nbsp;&nbsp;&nbsp; IMoney addMoney(Money aMoney);=0A=
+&nbsp;&nbsp;&nbsp; IMoney addMoneyBag(MoneyBag aMoneyBag);=0A=
+}</TT></PRE>
+To complete the implementation of double dispatch, we have to implement =
+these=20
+methods in Money and MoneyBag. This is the implementation in Money.=20
+<PRE><TT>public IMoney addMoney(Money m) {=0A=
+&nbsp;&nbsp;&nbsp; if (m.currency().equals(currency()) )=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return new =
+Money(amount()+m.amount(), currency());=0A=
+&nbsp;&nbsp;&nbsp; return new MoneyBag(this, m);=0A=
+}=0A=
+=0A=
+public IMoney addMoneyBag(MoneyBag s) {=0A=
+&nbsp;&nbsp;&nbsp; return s.addMoney(this);=0A=
+}</TT></PRE>
+Here is the implemenation in MoneyBag which assumes additional =
+constructors to=20
+create a MoneyBag from a Money and a MoneyBag and from two MoneyBags.=20
+<PRE><TT>public IMoney addMoney(Money m) {=0A=
+&nbsp;&nbsp;&nbsp; return new MoneyBag(m, this);=0A=
+}=0A=
+=0A=
+public IMoney addMoneyBag(MoneyBag s) {=0A=
+&nbsp;&nbsp;&nbsp; return new MoneyBag(s, this);=0A=
+}</TT></PRE>
+We run the tests, and they pass. However, while reflecting on the =
+implementation
+ we discover another interesting case. What happens when as the result =
+of an=20
+addition a MoneyBag turns into a bag with only one Money? For example, =
+adding=20
+-12 CHF to a Moneybag holding 7 USD and 12 CHF results in a bag with =
+just 7 USD.=20
+Obviously, such a bag should be equal with a single Money of 7 USD. To =
+verify=20
+the problem let's implement a test case and run it.=20
+<PRE><TT>public void testSimplify() {=0A=
+&nbsp;&nbsp;&nbsp; // {[12 CHF][7 USD]} + [-12 CHF] =3D=3D [7 USD]=0A=
+&nbsp;&nbsp;&nbsp; Money expected=3D new Money(7, "USD");=0A=
+&nbsp;&nbsp;&nbsp; Assert.assertEquals(expected, fMB1.add(new Money(-12, =
+"CHF")));=0A=
+}</TT></PRE>
+When you are developing in this style you will often have a thought and =
+turn=20
+immediately to writing a test, rather than going straight to the code.=20
+<P>It comes to no surprise that our test run ends with a red progress =
+bar
+ indicating the failure. So we fix the code in MoneyBag to get back to a =
+green=20
+state.=20
+<PRE><TT>public IMoney addMoney(Money m) {=0A=
+&nbsp;&nbsp;&nbsp; return (new MoneyBag(m, this)).simplify();=0A=
+}=0A=
+=0A=
+public IMoney addMoneyBag(MoneyBag s) {=0A=
+&nbsp;&nbsp;&nbsp; return (new MoneyBag(s, this)).simplify();=0A=
+}=0A=
+=0A=
+private IMoney simplify() {=0A=
+&nbsp;&nbsp;&nbsp; if (fMonies.size() =3D=3D 1)=0A=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return =
+(IMoney)fMonies.firstElement()=0A=
+&nbsp;&nbsp;&nbsp; return this;=0A=
+}</TT></PRE>
+Now we run our tests again and voila we end up with green.=20
+<P>The code above solves only a small portion of the multi-currency =
+arithmetic
+ problem. We have to represent different exchange rates, print =
+formatting, and=20
+the other arithmetic operations, and do it all with reasonable speed. =
+However,=20
+we hope you can see how you could develop the rest of the objects one =
+test at a=20
+time- a little test, a little code, a little test, a little code.=20
+<P>In particular, review how in the development above:=20
+<UL>
+  <LI>We wrote the first test, testSimpleAdd, immediately after we had =
+written
+   add(). In general, your development will go much smoother if you =
+write tests=20
+  a little at a time as you develop. It is at the moment that you are =
+coding=20
+  that you are imagining how that code will work. That's the perfect =
+time to=20
+  capture your thoughts in a test.</LI>
+  <LI>We refactored the existing tests, testSimpleAdd and testEqual, as =
+soon as=20
+  we introduced the common setUp code. Test code is just like model code =
+in=20
+  working best if it is factored well. When you see you have the same =
+test code=20
+  in two places, try to find a way to refactor it so it only appears =
+once.</LI>
+  <LI>We created a suite method, then extended it when we applied Double =
+
+  Dispatch. Keeping old tests running is just as important as making new =
+ones=20
+  run. The ideal is to always run all of your tests. Sometimes that will =
+be too
+   slow to do 10 times an hour. Make sure you run all of your tests at =
+least
+   daily.</LI>
+  <LI>We created a new test immediately when we thought of the =
+requirement that
+   a one element MoneyBag should just return its element. It can be =
+difficult to=20
+  learn to switch gears like this, but we have found it valuable. When =
+you are=20
+  struck by an idea of what your system should do, defer thinking about =
+the=20
+  implementation. Instead, first write the test. Then run it (you never =
+know, it=20
+  might already work). Then work on the implementation.</LI></UL>
+<H1><A name=3D"TestingPractices"></A>Testing Practices</H1>Martin Fowler =
+makes=20
+this easy for you. He says, "Whenever you are tempted to type something =
+into a=20
+print statement or a debugger expression, write it as a test instead." =
+At first=20
+you will find that you have to create a new fixtures all the time, and =
+testing=20
+will seem to slow you down a little. Soon, however, you will begin =
+reusing your=20
+library of fixtures and new tests will usually be as simple as adding a =
+method=20
+to an existing TestCase subclass.=20
+<P>You can always write more tests. However, you will quickly find that =
+only a=20
+fraction of the tests you can imagine are actually useful. What you want =
+is to=20
+write tests that fail even though you think they should work, or tests =
+that=20
+succeed even though you think they should fail. Another way to think of =
+it is in=20
+cost/benefit terms. You want to write tests that will pay you back with=20
+information.=20
+<P>Here are a couple of the times that you will receive a reasonable =
+return on=20
+your testing investment:=20
+<UL>
+  <LI>During Development- When you need to add new functionality to the =
+system,
+   write the tests first. Then, you will be done developing when the =
+test
+   runs.</LI>
+  <LI>During Debugging- When someone discovers a defect in your code, =
+first=20
+  write a test that will succeed if the code is working. Then debug =
+until the=20
+  test succeeds.</LI></UL>One word of caution about your tests. Once you =
+get them=20
+running, make sure they stay running. There is a huge difference between =
+having=20
+your suite running and having it broken. Ideally, you would run every =
+test in=20
+your suite every time you change a method. Practically, your suite will =
+soon
+ grow too large to run all the time. Try to optimize your setup code so =
+you can=20
+run all the tests. Or, at the very least, create special suites that =
+contain all=20
+the tests that might possibly be affected by your current development. =
+Then, run=20
+the suite every time you compile. And make sure you run every test at =
+least once=20
+a day: overnight, during lunch, during one of those long meetings=85.=20
+<H1><A name=3D"Conclusion"></A>Conclusion</H1>This article only =
+scratches the=20
+surface of testing. However, it focuses on a style of testing that with =
+a=20
+remarkably small investment will make you a faster, more productive, =
+more=20
+predictable, and less stressed developer.=20
+<P>Once you've been test infected, your attitude toward development is =
+likely to=20
+change. Here are some of the changes we have noticed:=20
+<P>There is a huge difference between tests that are all running =
+correctly and=20
+tests that aren't. Part of being test infected is not being able to go =
+home if=20
+your tests aren't 100%. If you run your suite ten or a hundred times an =
+hour,=20
+though, you won't be able to create enough havoc to make you late for =
+supper.=20
+<P>Sometimes you just won't feel like writing tests, especially at =
+first. Don't.=20
+However, pay attention to how much more trouble you get into, how much =
+more time=20
+you spend debugging, and how much more stress you feel when you don't =
+have=20
+tests. We have been amazed at how much more fun programming is and how =
+much more=20
+aggressive we are willing to be and how much less stress we feel when we =
+are=20
+supported by tests. The difference is dramatic enough to keep us writing =
+tests=20
+even when we don't feel like it.=20
+<P>You will be able to refactor much more aggressively once you have the =
+tests.=20
+You won't understand at first just how much you can do, though. Try to =
+catch=20
+yourself saying, "Oh, I see, I should have designed this thus and so. I =
+can't=20
+change it now. I don't want to break anything." When you say this, save =
+a copy=20
+of your current code and give yourself a couple of hours to clean up. =
+(This part=20
+works best you can get a buddy to look over your shoulder while you =
+work.) Make=20
+your changes, all the while running your tests. You will be surprised at =
+how=20
+much ground you can cover in a couple of hours if you aren't worrying =
+every=20
+second about what you might be breaking.=20
+<P>For example, we switched from the Vector-based implementation of =
+MoneyBag to=20
+one based on HashTable. We were able to make the switch very quickly and =
+
+confidently because we had so many tests to rely on. If the tests all =
+worked, we=20
+were sure we hadn't changed the answers the system produced at all.=20
+<P>You will want to get the rest of your team writing tests. The best =
+way we=20
+have found to spread the test infection is through direct contact. The =
+next time=20
+someone asks you for help debugging, get them to talk about the problem =
+in terms=20
+of a fixture and expected results. Then say, "I'd like to write down =
+what you=20
+just told me in a form we can use." Have them watch while you write one =
+little=20
+test. Run it. Fix it. Write another. Pretty soon they will be writing =
+their own.=20
+<P>So- give JUnit a try. If you make it better, please send us the =
+changes so we=20
+can spread them around. Our next article will double click on the JUnit=20
+framework itself. We will show you how it is constructed, and talk a =
+little=20
+about our philosophy of framework development.=20
+<P>We would like to thank Martin Fowler, as good a programmer as any =
+analyst can=20
+ever hope to be, for his helpful comments in spite of being subjected to =
+early=20
+versions of JUnit.=20
+<H1>References</H1>
+<OL>
+  <LI><A name=3D"Gamma, E., et al. Design Patterns: Elements =
+of"></A>Gamma, E., et=20
+  al. Design Patterns: Elements of Reusable Object-Oriented Software,
+   Addison-Wesley, Reading, MA, 1995</LI>
+  <LI><A name=3D"Beck, K. Smalltalk Best Practice Patterns,"></A>Beck, =
+K.=20
+  Smalltalk Best Practice Patterns, Prentice Hall, 1996</LI></OL>
+<HR width=3D"100%" size=3D"1">
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CFAAA8.B32BBF10
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://junit.sourceforge.net/doc/testinfected/IMG00001.GIF
+
+R0lGODlhlgE2AfcAAAAAAAAAQAAAgAAA/wAgAAAgQAAggAAg/wBAAABAQABAgABA/wBgAABgQABg
+gABg/wCAAACAQACAgACA/wCgAACgQACggACg/wDAAADAQADAgADA/wD/AAD/QAD/gAD//yAAACAA
+QCAAgCAA/yAgACAgQCAggCAg/yBAACBAQCBAgCBA/yBgACBgQCBggCBg/yCAACCAQCCAgCCA/yCg
+ACCgQCCggCCg/yDAACDAQCDAgCDA/yD/ACD/QCD/gCD//0AAAEAAQEAAgEAA/0AgAEAgQEAggEAg
+/0BAAEBAQEBAgEBA/0BgAEBgQEBggEBg/0CAAECAQECAgECA/0CgAECgQECggECg/0DAAEDAQEDA
+gEDA/0D/AED/QED/gED//2AAAGAAQGAAgGAA/2AgAGAgQGAggGAg/2BAAGBAQGBAgGBA/2BgAGBg
+QGBggGBg/2CAAGCAQGCAgGCA/2CgAGCgQGCggGCg/2DAAGDAQGDAgGDA/2D/AGD/QGD/gGD//4AA
+AIAAQIAAgIAA/4AgAIAgQIAggIAg/4BAAIBAQIBAgIBA/4BgAIBgQIBggIBg/4CAAICAQICAgICA
+/4CgAICgQICggICg/4DAAIDAQIDAgIDA/4D/AID/QID/gID//6AAAKAAQKAAgKAA/6AgAKAgQKAg
+gKAg/6BAAKBAQKBAgKBA/6BgAKBgQKBggKBg/6CAAKCAQKCAgKCA/6CgAKCgQKCggKCg/6DAAKDA
+QKDAgKDA/6D/AKD/QKD/gKD//8AAAMAAQMAAgMAA/8AgAMAgQMAggMAg/8BAAMBAQMBAgMBA/8Bg
+AMBgQMBggMBg/8CAAMCAQMCAgMCA/8CgAMCgQMCggMCg/8DAAMDAQMDAgMDA/8D/AMD/QMD/gMD/
+//8AAP8AQP8AgP8A//8gAP8gQP8ggP8g//9AAP9AQP9AgP9A//9gAP9gQP9ggP9g//+AAP+AQP+A
+gP+A//+gAP+gQP+ggP+g///AAP/AQP/AgP/A////AP//QP//gP///yH5BAAAAPcALAAAAACWATYB
+AAj+ALcJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3KgRwL9t/0KKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPqvNnGI0hbQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNW7fnxn9avYMOK
+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
+
+------=_NextPart_000_0000_01CFAAA8.B32BBF10--
