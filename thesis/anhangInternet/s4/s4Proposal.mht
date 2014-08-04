@@ -1,0 +1,2603 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: S4Proposal - Incubator Wiki
+Date: Mon, 4 Aug 2014 22:27:30 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFB033.47A57480"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/S4Proposal
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" =
+"http://www.w3.org/TR/html4/strict.dtd"><HTML><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+=20
+<META http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8"> =
+
+<META name=3D"robots" content=3D"index,nofollow"> <TITLE>S4Proposal - =
+Incubator=20
+Wiki</TITLE>=20
+<SCRIPT src=3D"http://wiki.apache.org/wiki/common/js/common.js" =
+type=3D"text/javascript"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--=0A=
+var search_hint =3D "Search";=0A=
+//-->=0A=
+</SCRIPT>
+ <LINK href=3D"http://wiki.apache.org/wiki/modernized/css/common.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"all" charset=3D"utf-8"> <LINK =
+href=3D"http://wiki.apache.org/wiki/modernized/css/screen.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"screen" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print" charset=3D"utf-8"> =
+<LINK href=3D"http://wiki.apache.org/wiki/modernized/css/projection.css" =
+
+rel=3D"stylesheet" type=3D"text/css" media=3D"projection" =
+charset=3D"utf-8"> <!-- css only for MS IE6/IE7 browsers --> <!--[if lt =
+IE 8]>=0A=
+   <link rel=3D"stylesheet" type=3D"text/css" charset=3D"utf-8" =
+media=3D"all" href=3D"/wiki/modernized/css/msie.css">=0A=
+<![endif]-->=20
+<LINK title=3D"Incubator Wiki: S4Proposal" =
+href=3D"/incubator/S4Proposal?diffs=3D1&amp;show_att=3D1&amp;action=3Drss=
+_rc&amp;unique=3D0&amp;page=3DS4Proposal&amp;ddiffs=3D1"=20
+rel=3D"alternate" type=3D"application/rss+xml"> <LINK =
+href=3D"/incubator/FrontPage"=20
+rel=3D"Start"> <LINK title=3D"Wiki Markup" =
+href=3D"/incubator/S4Proposal?action=3Draw"=20
+rel=3D"Alternate"> <LINK title=3D"Print View" =
+href=3D"/incubator/S4Proposal?action=3Dprint"=20
+rel=3D"Alternate" media=3D"print"> <LINK href=3D"/incubator/FindPage" =
+rel=3D"Search">=20
+<LINK href=3D"/incubator/TitleIndex" rel=3D"Index"> <LINK =
+href=3D"/incubator/WordIndex"=20
+rel=3D"Glossary"> <LINK href=3D"/incubator/HelpOnFormatting" =
+rel=3D"Help">=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>=20
+<BODY lang=3D"en" dir=3D"ltr">
+<DIV id=3D"header">
+<FORM id=3D"searchform" action=3D"/incubator/S4Proposal" method=3D"get">
+<DIV><INPUT name=3D"action" type=3D"hidden" value=3D"fullsearch"> <INPUT =
+name=3D"context" type=3D"hidden" value=3D"180">=20
+<LABEL for=3D"searchinput">Search:</LABEL>=20
+<INPUT name=3D"value" id=3D"searchinput" onkeyup=3D"searchChange(this)" =
+onfocus=3D"searchFocus(this)" onblur=3D"searchBlur(this)" =
+onchange=3D"searchChange(this)" type=3D"text" size=3D"20" =
+alt=3D"Search">=20
+<INPUT name=3D"titlesearch" id=3D"titlesearch" type=3D"submit" =
+alt=3D"Search Titles" value=3D"Titles">=20
+<INPUT name=3D"fullsearch" id=3D"fullsearch" type=3D"submit" =
+alt=3D"Search Full Text" value=3D"Text">=20
+</DIV></FORM>
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Initialize search form=0A=
+var f =3D document.getElementById('searchform');=0A=
+f.getElementsByTagName('label')[0].style.display =3D 'none';=0A=
+var e =3D document.getElementById('searchinput');=0A=
+searchChange(e);=0A=
+searchBlur(e);=0A=
+//-->=0A=
+</SCRIPT>
+=20
+<DIV id=3D"logo"><A =
+href=3D"http://wiki.apache.org/incubator/FrontPage">Incubator=20
+Wiki</A></DIV>
+<DIV id=3D"username"><A id=3D"login" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3Dlogin"=20
+rel=3D"nofollow">Login</A></DIV>
+<H1 id=3D"locationline"><SPAN id=3D"pagelocation"><A title=3D"Click to =
+do a full-text search for this title"=20
+class=3D"backlink" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3Dfullsearch&a=
+mp;value=3Dlinkto%3A%22S4Proposal%22&amp;context=3D180"=20
+rel=3D"nofollow">S4Proposal</A></SPAN> </H1>
+<UL id=3D"navibar">
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FrontPage">FrontPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/RecentChanges">RecentChanges</A>=
+</LI>
+  <LI class=3D"wikilink"><A=20
+  href=3D"http://wiki.apache.org/incubator/FindPage">FindPage</A></LI>
+  <LI class=3D"wikilink"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/HelpContents">HelpContents</A></=
+LI>
+  <LI class=3D"current"><A=20
+  =
+href=3D"http://wiki.apache.org/incubator/S4Proposal">S4Proposal</A></LI> =
+</UL>
+<DIV id=3D"pageline">
+<HR style=3D"display: none;">
+</DIV>
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal#">Comments</A></LI>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3DAttachFile" =
+
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/S4Proposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL></DIV>
+<DIV id=3D"page" lang=3D"en" dir=3D"ltr">
+<DIV id=3D"content" lang=3D"en" dir=3D"ltr"><SPAN class=3D"anchor" =
+id=3D"top"></SPAN>=20
+<SPAN class=3D"anchor" id=3D"line-1"></SPAN>
+<P class=3D"line867">=20
+<H1 id=3D"S4_Proposal">S4 Proposal</H1><SPAN class=3D"anchor"=20
+id=3D"line-2"></SPAN><SPAN class=3D"anchor" id=3D"line-3"></SPAN>
+<P class=3D"line867">=20
+<H2 id=3D"Abstract">Abstract</H2><SPAN class=3D"anchor" =
+id=3D"line-4"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-5"></SPAN>
+<P class=3D"line874">S4 (Simple Scalable Streaming System) is a =
+general-purpose,=20
+distributed, scalable, partially fault-tolerant, pluggable platform that =
+allows=20
+programmers to easily develop applications for processing continuous, =
+unbounded=20
+streams of data. <SPAN class=3D"anchor" id=3D"line-6"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-7"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Proposal">Proposal</H2><SPAN class=3D"anchor" =
+id=3D"line-8"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-9"></SPAN>
+<P class=3D"line862">S4 is a software platform written in Java. Clients =
+that send=20
+and receive events can be written in any programming language. S4 also =
+includes=20
+a collection of modules called Processing Elements (or PEs for short) =
+that=20
+implement basic functionality and can be used by application developers. =
+In S4,=20
+keyed data events are routed with affinity to Processing Elements (PEs), =
+which=20
+consume the events and do one or both of the following: (1) =
+<EM>emit</EM> one or=20
+more events which may be consumed by other PEs, (2) <EM>publish</EM> =
+results.=20
+The architecture resembles the Actors model, providing semantics of=20
+encapsulation and location transparency, thus allowing applications to =
+be=20
+massively concurrent while exposing a simple programming  interface to=20
+application developers. <SPAN class=3D"anchor" =
+id=3D"line-10"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-11"></SPAN>
+<P class=3D"line874">To drive adoption and increase the number of =
+contributors to=20
+the project, we may need to prioritize the focus based on feedback from =
+the=20
+community. We believe that one of the top priorities and driving design=20
+principle for the S4 project is to provide a simple API that hides most =
+of the=20
+complexity associated with distributed systems and concurrency. The =
+project grew=20
+out of the need to provide a flexible platform for application =
+developers and=20
+scientists that can be used for quick experimentation and production. =
+<SPAN=20
+class=3D"anchor" id=3D"line-12"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-13"></SPAN>
+<P class=3D"line874">S4 differs from existing Apache projects in a =
+number of=20
+fundamental ways. Flume is an Incubator project that focuses on log =
+processing,=20
+performing lightweight processing in a distributed fashion and =
+accumulating log=20
+data in a centralized repository for batch processing. S4 instead =
+performs all=20
+stream processing in a distributed fashion and enables applications to =
+form=20
+arbitrary graphs to process streams of events. We see Flume as a =
+complementary=20
+project. We also expect S4 to complement Hadoop processing and in some =
+cases to=20
+supersede it. Kafka is another Incubator project that focuses on =
+processing=20
+large amounts of stream data. The design of Kafka, however, follows the =
+pub-sub=20
+paradigm, which focuses on delivering messages containing arbitrary data =
+from=20
+source processes (publishers) to consumer processes (subscribers). =
+Compared to=20
+S4, Kafka is an intermediate step between data generation and =
+processing, while=20
+S4 is itself a platform for processing streams of events. <SPAN =
+class=3D"anchor"=20
+id=3D"line-14"></SPAN><SPAN class=3D"anchor" id=3D"line-15"></SPAN>
+<P class=3D"line874">S4 overall addresses a need of existing =
+applications to=20
+process streams of events beyond moving data to a centralized repository =
+for=20
+batch processing. It complements the features of existing Apache =
+projects, such=20
+as Hadoop, Flume, and Kafka, by providing a flexible platform for =
+distributed=20
+event processing. <SPAN class=3D"anchor" id=3D"line-16"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-17"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Background">Background</H2><SPAN class=3D"anchor"=20
+id=3D"line-18"></SPAN><SPAN class=3D"anchor" id=3D"line-19"></SPAN>
+<P class=3D"line862">S4 was initially developed at Yahoo! Labs starting =
+in 2008 to=20
+process user feedback in the context of search advertising. The project =
+was=20
+licensed under the Apache License version 2.0 in October 2010. The =
+project=20
+documentation is currently available at <A class=3D"http"=20
+href=3D"http://s4.io/">http://s4.io/</A> . <SPAN class=3D"anchor"=20
+id=3D"line-20"></SPAN><SPAN class=3D"anchor" id=3D"line-21"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Rationale">Rationale</H2><SPAN class=3D"anchor" =
+id=3D"line-22"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-23"></SPAN>
+<P class=3D"line874">Stream computing has been growing steadily over the =
+last 20=20
+years. However, recently there has been an explosion in real-time data =
+sources=20
+including the Web, sensor networks, financial securities analysis and =
+trading,=20
+traffic monitoring, natural language processing of news and social data, =
+and=20
+much more. <SPAN class=3D"anchor" id=3D"line-24"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-25"></SPAN>
+<P class=3D"line874">As Hadoop evolved as a standard open source =
+solution for=20
+batch processing of massive data sets, there is no equivalent community=20
+supported open source platform for processing data streams in real-time. =
+While=20
+various research projects have evolved into proprietary commercial =
+products, S4=20
+has the potential to fill the gap. Many projects that require a scalable =
+stream=20
+processing architecture currently use Hadoop by segmenting the input =
+stream into=20
+data batches. This solution is not efficient, results in high latency, =
+and=20
+introduces unnecessary complexity. <SPAN class=3D"anchor"=20
+id=3D"line-26"></SPAN><SPAN class=3D"anchor" id=3D"line-27"></SPAN>
+<P class=3D"line874">The S4 design is primarily driven by large scale =
+applications=20
+for data mining and machine learning in a production environment. We =
+think that=20
+the S4 design is surprisingly flexible and lends itself to run in large =
+clusters=20
+built with commodity hardware. <SPAN class=3D"anchor" =
+id=3D"line-28"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-29"></SPAN>
+<P class=3D"line874">S4 enables application programmers to focus more on =
+the=20
+application and less on the infrastructure. S4 also provides a =
+consistent graph=20
+oriented programming model that, if widely adopted, will facilitate =
+sharing of=20
+basic component across developers. <SPAN class=3D"anchor"=20
+id=3D"line-30"></SPAN><SPAN class=3D"anchor" id=3D"line-31"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Initial_Goals">Initial Goals</H2><SPAN class=3D"anchor"=20
+id=3D"line-32"></SPAN><SPAN class=3D"anchor" id=3D"line-33"></SPAN>
+<P class=3D"line874">The basic S4 infrastructure is complete and can be =
+used in=20
+real-world applications. However, many additional components need to be=20
+developed and improved. Some areas we hope to focus on in Apache: <SPAN =
+class=3D"anchor"=20
+id=3D"line-34"></SPAN><SPAN class=3D"anchor" id=3D"line-35"></SPAN>
+<UL>
+  <LI>Add a reliable communication protocol option to the communication =
+layer=20
+  for low bandwidth control messages that require guaranteed delivery. =
+<SPAN=20
+  class=3D"anchor" id=3D"line-36"></SPAN></LI>
+  <LI>Higher-performance serialization and inter-node communication. =
+<SPAN=20
+  class=3D"anchor" id=3D"line-37"></SPAN></LI>
+  <LI>Functionality to save the state of PEs at runtime transparently =
+and=20
+  restore it at startup. <SPAN class=3D"anchor" =
+id=3D"line-38"></SPAN></LI>
+  <LI>Intelligent load shedding strategies. <SPAN class=3D"anchor"=20
+  id=3D"line-39"></SPAN></LI>
+  <LI>Dynamic load balancing to make it possible to add and remove nodes =
+from=20
+  the cluster without data loss. <SPAN class=3D"anchor" =
+id=3D"line-40"></SPAN></LI>
+  <LI>Dynamic application loading and unloading. <SPAN class=3D"anchor" =
+id=3D"line-41"></SPAN></LI>
+  <LI>Migration to a pure object-oriented design that takes advantage of =
+Java=20
+  static typing using Generics in the framework code. (Keep it simple =
+for the=20
+  application developer.) <SPAN class=3D"anchor" =
+id=3D"line-42"></SPAN></LI>
+  <LI>Eliminate string identifiers and XML configuration. <SPAN =
+class=3D"anchor"=20
+  id=3D"line-43"></SPAN></LI>
+  <LI>Adopt JSR 330 (Dependency Injection for Java). <SPAN =
+class=3D"anchor" id=3D"line-44"></SPAN></LI>
+  <LI>Add real-time query support. <SPAN class=3D"anchor"=20
+id=3D"line-45"></SPAN></LI>
+  <LI>Add a cluster management system. <SPAN class=3D"anchor"=20
+  id=3D"line-46"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-47"></SPAN></LI></UL>
+<P class=3D"line874">Clearly this is a long list but sets the high level =
+roadmap=20
+for the project. <SPAN class=3D"anchor" id=3D"line-48"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-49"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Current_Status">Current Status</H2><SPAN class=3D"anchor"=20
+id=3D"line-50"></SPAN><SPAN class=3D"anchor" id=3D"line-51"></SPAN>
+<P class=3D"line874">The project has been under development at Yahoo! =
+since late=20
+2008, and it was open sourced in October 2010. Since then we have =
+received=20
+patches from developers, started a discussion forum, and improved the =
+<SPAN=20
+class=3D"anchor" id=3D"line-52"></SPAN>documentation. <SPAN =
+class=3D"anchor" id=3D"line-53"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-54"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Meritocracy">Meritocracy</H3><SPAN class=3D"anchor"=20
+id=3D"line-55"></SPAN><SPAN class=3D"anchor" id=3D"line-56"></SPAN>
+<P class=3D"line874">The S4 project was initially developed at Yahoo! =
+Labs, a=20
+research-oriented organization that values original ideas and individual =
+
+contributions. The design evolved in a bottom up fashion, where =
+decisions were=20
+driven by the application and the long-term viability and flexibility of =
+the=20
+platform. Once the project became open-source it continued to be managed =
+by=20
+those who were actively doing the work. <SPAN class=3D"anchor"=20
+id=3D"line-57"></SPAN><SPAN class=3D"anchor" id=3D"line-58"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Community">Community</H3><SPAN class=3D"anchor" =
+id=3D"line-59"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-60"></SPAN>
+<P class=3D"line874">S4 is currently in use internally at Yahoo!, and =
+since it was=20
+released as an open source project it has received positive feedback and =
+
+contributions from developers. <SPAN class=3D"anchor" =
+id=3D"line-61"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-62"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Core_Developers">Core Developers</H3><SPAN class=3D"anchor"=20
+id=3D"line-63"></SPAN><SPAN class=3D"anchor" id=3D"line-64"></SPAN>
+<P class=3D"line874">S4 developers span a few companies and work on a =
+voluntary=20
+basis. We expect to have developers from other organizations joining the =
+team in=20
+the next few months, especially if S4 joins the Apache Incubator =
+project. Being=20
+an Apache Incubator project is likely to attract the attention of more =
+talented=20
+developers. <SPAN class=3D"anchor" id=3D"line-65"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-66"></SPAN>
+<P class=3D"line874">One interesting aspect of the current group of =
+developers is=20
+the diverse background: <SPAN class=3D"anchor" =
+id=3D"line-67"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-68"></SPAN>
+<UL>
+  <LI>Kishore Gopalakrishna was the main developer of the communication =
+layer=20
+  and the integration with Zookeeper. He has been an active contributor =
+to=20
+  Hadoop. <SPAN class=3D"anchor" id=3D"line-69"></SPAN></LI>
+  <LI>
+  <P class=3D"line862">Flavio Junqueira has a background in distributed =
+computing.=20
+  He is a committer of <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/ZooKeeper">ZooKeeper</A>,=20
+  a <A class=3D"nonexistent"=20
+  href=3D"http://wiki.apache.org/incubator/ZooKeeper">ZooKeeper</A> PMC =
+member,=20
+  and a committer of <A class=3D"nonexistent" =
+href=3D"http://wiki.apache.org/incubator/BookKeeper">BookKeeper</A>;=20
+  <SPAN class=3D"anchor" id=3D"line-70"></SPAN></P></LI>
+  <LI>Matthieu Morel has extensive background in distributed systems, he =
+likes=20
+  theory and loves to implement things. He has been the main designer =
+and=20
+  implementor of S4 checkpointing.* Anish Nair has been the =
+project=E2=80=99s main=20
+  customer. With his background on natural language processing and =
+algorithms he=20
+  developed the applications that drove the S4 design including =
+processing of=20
+  social feeds and real-time recommendation engines. <SPAN =
+class=3D"anchor" id=3D"line-71"></SPAN></LI>
+  <LI>Leo Neumeyer has a background in signal processing and statistical =
+
+  modeling but has been advocating clean simple software design =
+throughout his=20
+  career. At Yahoo! he conceived and championed the S4 project as a =
+solution to=20
+  improve monetization in search advertising. <SPAN class=3D"anchor"=20
+  id=3D"line-72"></SPAN></LI>
+  <LI>Bruce Robbins has been the main S4 developer, taking the concept =
+from idea=20
+  to releases. Bruce engineering experience ranges from programming =
+Mainframe=20
+  computers to assembly code. <SPAN class=3D"anchor" =
+id=3D"line-73"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-74"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Alignment">Alignment</H3><SPAN class=3D"anchor" =
+id=3D"line-75"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-76"></SPAN>
+<P class=3D"line874">S4 brings stream processing capabilities that =
+complement=20
+Hadoop's batch processing capabilities. <SPAN class=3D"anchor"=20
+id=3D"line-77"></SPAN><SPAN class=3D"anchor" id=3D"line-78"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Known_Risks">Known Risks</H2><SPAN class=3D"anchor"=20
+id=3D"line-79"></SPAN><SPAN class=3D"anchor" id=3D"line-80"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Orphaned_Products">Orphaned Products</H3><SPAN =
+class=3D"anchor" id=3D"line-81"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-82"></SPAN>
+<P class=3D"line874">S4 has been used in production at Yahoo! and is =
+being=20
+evaluated by other organizations. The developers have continued to =
+support the=20
+project on their own time. We believe that adoption will increase =
+significantly=20
+as more tools and documentation become available. As the project =
+evolves, we may=20
+see new ideas that we may want to adopt or, if it makes sense and is =
+practical,=20
+we may want to merge two or more open source projects. We believe that =
+there is=20
+a clear need to have a well supported open source stream processing =
+platform and=20
+therefore, there is low risk of the project becoming orphan. However, we =
+are=20
+open to combining projects in order to have fewer projects with a more =
+active=20
+community. Ultimately, this will be decided by the design ideas, the=20
+implementation quality, and the adoption. <SPAN class=3D"anchor"=20
+id=3D"line-83"></SPAN><SPAN class=3D"anchor" id=3D"line-84"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Inexperience_with_Open_Source">Inexperience with Open =
+Source</H3><SPAN=20
+class=3D"anchor" id=3D"line-85"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-86"></SPAN>
+<P class=3D"line862">The S4 code was open sourced by Yahoo! under Apache =
+2.0=20
+license. One committer of the S4 project, Flavio Junqueira, is =
+intimately=20
+familiar with the Apache model for open-source development and is =
+experienced=20
+with working with new contributors.  Flavio is both a committer a PMC =
+member for=20
+<A class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/ZooKeeper">ZooKeeper</A>. The =
+other=20
+developers have had experience as contributors in other open-source =
+projects.=20
+Most of the original S4 developers continue to be committers. <SPAN =
+class=3D"anchor"=20
+id=3D"line-87"></SPAN><SPAN class=3D"anchor" id=3D"line-88"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Homogeneous_Developers">Homogeneous Developers</H3><SPAN =
+class=3D"anchor"=20
+id=3D"line-89"></SPAN><SPAN class=3D"anchor" id=3D"line-90"></SPAN>
+<P class=3D"line874">The initial set of committers for S4 represent four =
+different=20
+companies: A9, Linkedin, Quantbench, and Yahoo!. This set is diverse =
+enough for=20
+a starting project. <SPAN class=3D"anchor" id=3D"line-91"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-92"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Reliance_on_Salaried_Developers">Reliance on Salaried=20
+Developers</H3><SPAN class=3D"anchor" id=3D"line-93"></SPAN><SPAN =
+class=3D"anchor" id=3D"line-94"></SPAN>
+<P class=3D"line874">Some committers are contributing as part of their =
+jobs, but=20
+as we move to a more diverse set of developers we expect a good mix of =
+salaried=20
+and volunteer time. <SPAN class=3D"anchor" id=3D"line-95"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-96"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Relationships_with_Other_Apache_Projects">Relationships with =
+Other=20
+Apache Projects</H3><SPAN class=3D"anchor" id=3D"line-97"></SPAN><SPAN =
+class=3D"anchor"=20
+id=3D"line-98"></SPAN>
+<P class=3D"line874">S4 relies on the following Apache projects: <SPAN =
+class=3D"anchor"=20
+id=3D"line-99"></SPAN><SPAN class=3D"anchor" id=3D"line-100"></SPAN>
+<UL>
+  <LI>BCEL (bytecode generation library) <SPAN class=3D"anchor"=20
+  id=3D"line-101"></SPAN></LI>
+  <LI>commons cli (command line interface) <SPAN class=3D"anchor"=20
+  id=3D"line-102"></SPAN></LI>
+  <LI>commons logging (needed by some other dependency) <SPAN =
+class=3D"anchor" id=3D"line-103"></SPAN></LI>
+  <LI>log4j <SPAN class=3D"anchor" id=3D"line-104"></SPAN></LI>
+  <LI>commons jexl (expression processing) <SPAN class=3D"anchor"=20
+  id=3D"line-105"></SPAN></LI>
+  <LI>zookeeper <SPAN class=3D"anchor" id=3D"line-106"></SPAN></LI>
+  <LI>Maven and its usual plug-ins (build time only) <SPAN =
+class=3D"anchor" id=3D"line-107"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-108"></SPAN></LI></UL>
+<P class=3D"line874">Compared to existing projects, S4 complements =
+existing=20
+functionality in a few ways summarized below: <SPAN class=3D"anchor"=20
+id=3D"line-109"></SPAN>
+<UL>
+  <LI>Flume: S4 processes streams in a distributed fashion and enables=20
+  applications to form arbitrary graphs of processing elements. Flume =
+focuses on=20
+  accumulating streams of logs in a centalized repository for batch =
+processing;=20
+  <SPAN class=3D"anchor" id=3D"line-110"></SPAN></LI>
+  <LI>Kafka: Kafka is a pub/sub messaging layer that interposes =
+generation of=20
+  events and processing, while S4 itself forwards events and processes =
+them in a=20
+  stream fashion.   <SPAN class=3D"anchor" id=3D"line-111"></SPAN></LI>
+  <LI>Hadoop: Hadoop focuses on batch processing of large data sets, =
+while S4 is=20
+  a platform for stream processing of events. We would like to implement =
+
+  extensions that enable processing in both platforms with the same =
+code. <SPAN=20
+  class=3D"anchor" id=3D"line-112"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-113"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"An_Excessive_Fascination_with_the_Apache_Brand">An Excessive =
+Fascination=20
+with the Apache Brand</H3><SPAN class=3D"anchor" =
+id=3D"line-114"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-115"></SPAN>
+<P class=3D"line874">The project has already received a significant =
+amount of=20
+attention and so far has been associated with Yahoo!. We would like, =
+however, to=20
+foster the development of a community around S4 that evolves =
+independently of=20
+the interests of a single company. Given the reliance of S4 on some =
+Apache=20
+projects and the principles promoted by the foundation, we find it a =
+suitable=20
+home for the project. <SPAN class=3D"anchor" =
+id=3D"line-116"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-117"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Documentation">Documentation</H2><SPAN class=3D"anchor"=20
+id=3D"line-118"></SPAN><SPAN class=3D"anchor" id=3D"line-119"></SPAN>
+<UL>
+  <LI>
+  <P class=3D"line862">S4 Website: <A class=3D"http"=20
+  href=3D"http://s4.io/">http://s4.io/</A> <SPAN class=3D"anchor"=20
+  id=3D"line-120"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">S4 documentation: <A class=3D"http"=20
+  href=3D"http://docs.s4.io/">http://docs.s4.io/</A> <SPAN =
+class=3D"anchor" id=3D"line-121"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">S4 Forum: <A class=3D"http" =
+href=3D"http://groups.google.com/group/s4-project/topics">http://groups.g=
+oogle.com/group/s4-project/topics</A>=20
+  <SPAN class=3D"anchor" id=3D"line-122"></SPAN></P></LI>
+  <LI>
+  <P class=3D"line862">S4 Mailing list (with archives): <A =
+class=3D"http" =
+href=3D"http://groups.google.com/group/s4-project">http://groups.google.c=
+om/group/s4-project</A>=20
+  <SPAN class=3D"anchor" id=3D"line-123"></SPAN><SPAN class=3D"anchor"=20
+  id=3D"line-124"></SPAN></P></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Source_and_Intellectual_Property_Submission_Plan">Source and=20
+Intellectual Property Submission Plan</H2><SPAN class=3D"anchor"=20
+id=3D"line-125"></SPAN><SPAN class=3D"anchor" id=3D"line-126"></SPAN>
+<P class=3D"line862">The S4 source code is already licensed under Apache =
+Software=20
+License 2.0. The source code is available at <A class=3D"https" =
+href=3D"https://github.com/s4">https://github.com/s4</A>=20
+<SPAN class=3D"anchor" id=3D"line-127"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-128"></SPAN><SPAN class=3D"anchor" id=3D"line-129"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"External_Dependencies">External Dependencies</H2><SPAN =
+class=3D"anchor"=20
+id=3D"line-130"></SPAN><SPAN class=3D"anchor" id=3D"line-131"></SPAN>
+<UL>
+  <LI>asm (3-clause BSD license) <SPAN class=3D"anchor" =
+id=3D"line-132"></SPAN></LI>
+  <LI>
+  <P class=3D"line862">json (json.org's own license <A class=3D"http" =
+href=3D"http://www.crockford.com/JSON/license.html">http://www.crockford.=
+com/JSON/license.html</A>=20
+  which is acceptable as per Apache FAQ: <A class=3D"http" =
+href=3D"http://www.apache.org/legal/resolved.html#json">http://www.apache=
+.org/legal/resolved.html#json</A>)=20
+  <SPAN class=3D"anchor" id=3D"line-133"></SPAN></P></LI>
+  <LI>kryo (4-clause BSD license) <SPAN class=3D"anchor"=20
+id=3D"line-134"></SPAN></LI>
+  <LI>spring framework (Apache license - v 2) <SPAN class=3D"anchor"=20
+  id=3D"line-135"></SPAN></LI>
+  <LI>codehaus jackson (Apache license) <SPAN class=3D"anchor"=20
+  id=3D"line-136"></SPAN></LI>
+  <LI>junit (Common Public License - v 1.0) <SPAN class=3D"anchor"=20
+  id=3D"line-137"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-138"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Cryptography">Cryptography</H2><SPAN class=3D"anchor"=20
+id=3D"line-139"></SPAN>
+<P class=3D"line874">None <SPAN class=3D"anchor" =
+id=3D"line-140"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-141"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Required_Resources">Required Resources</H2><SPAN =
+class=3D"anchor" id=3D"line-142"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-143"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Mailing_lists">Mailing lists</H3><SPAN class=3D"anchor"=20
+id=3D"line-144"></SPAN>
+<UL>
+  <LI>s4-dev <SPAN class=3D"anchor" id=3D"line-145"></SPAN></LI>
+  <LI>s4-user <SPAN class=3D"anchor" id=3D"line-146"></SPAN></LI>
+  <LI>s4-private (with moderated subscriptions) <SPAN class=3D"anchor" =
+id=3D"line-147"></SPAN></LI>
+  <LI>s4-commit <SPAN class=3D"anchor" id=3D"line-148"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-149"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Subversion_Directory">Subversion Directory</H3><SPAN =
+class=3D"anchor" id=3D"line-150"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-151"></SPAN>
+<P class=3D"line867"><A class=3D"https" =
+href=3D"https://svn.apache.org/repos/asf/incubator/s4">https://svn.apache=
+.org/repos/asf/incubator/s4</A>=20
+<SPAN class=3D"anchor" id=3D"line-152"></SPAN><SPAN class=3D"anchor"=20
+id=3D"line-153"></SPAN>
+<P class=3D"line867">
+<H3 id=3D"Issue_Tracking">Issue Tracking</H3><SPAN class=3D"anchor"=20
+id=3D"line-154"></SPAN><SPAN class=3D"anchor" id=3D"line-155"></SPAN>
+<P class=3D"line874">JIRA S4 (S4) <SPAN class=3D"anchor" =
+id=3D"line-156"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-157"></SPAN>
+<P class=3D"line867">
+<H2 id=3D"Initial_Committers">Initial Committers</H2><SPAN =
+class=3D"anchor" id=3D"line-158"></SPAN>
+<UL>
+  <LI>Kishore Gopalakrishna (kg at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-159"></SPAN></LI>
+  <LI>Flavio Junqueira (fpj at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-160"></SPAN></LI>
+  <LI>Matthieu Morel (mm at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-161"></SPAN></LI>
+  <LI>Anish Nair (an at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-162"></SPAN></LI>
+  <LI>Leo Neumeyer (leo at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-163"></SPAN></LI>
+  <LI>Bruce Robbins (br at s4 dot io) <SPAN class=3D"anchor"=20
+  id=3D"line-164"></SPAN><SPAN class=3D"anchor" =
+id=3D"line-165"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Affiliations">Affiliations</H2><SPAN class=3D"anchor"=20
+id=3D"line-166"></SPAN>
+<UL>
+  <LI>Kishore Gopalakrishna, Linkedin <SPAN class=3D"anchor"=20
+  id=3D"line-167"></SPAN></LI>
+  <LI>Flavio Junqueira, Yahoo! <SPAN class=3D"anchor" =
+id=3D"line-168"></SPAN></LI>
+  <LI>Matthieu Morel, Yahoo! <SPAN class=3D"anchor" =
+id=3D"line-169"></SPAN></LI>
+  <LI>Anish Nair, A9 <SPAN class=3D"anchor" id=3D"line-170"></SPAN></LI>
+  <LI>Leo Neumeyer, Quantbench <SPAN class=3D"anchor" =
+id=3D"line-171"></SPAN></LI>
+  <LI>Bruce Robbins, Yahoo! <SPAN class=3D"anchor" =
+id=3D"line-172"></SPAN><SPAN=20
+  class=3D"anchor" id=3D"line-173"></SPAN></LI></UL>
+<P class=3D"line867">
+<H2 id=3D"Sponsors">Sponsors</H2><SPAN class=3D"anchor" =
+id=3D"line-174"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-175"></SPAN>
+<P class=3D"line867">=20
+<H3 id=3D"Champion">Champion</H3><SPAN class=3D"anchor" =
+id=3D"line-176"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-177"></SPAN>
+<UL>
+  <LI>Patrick Hunt <SPAN class=3D"anchor" id=3D"line-178"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-179"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Nominated_Mentors">Nominated Mentors</H3><SPAN =
+class=3D"anchor" id=3D"line-180"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-181"></SPAN>
+<UL>
+  <LI>Patrick Hunt <SPAN class=3D"anchor" id=3D"line-182"></SPAN></LI>
+  <LI>Owen O=E2=80=99Malley <SPAN class=3D"anchor" =
+id=3D"line-183"></SPAN></LI>
+  <LI>Arun Murthy <SPAN class=3D"anchor" id=3D"line-184"></SPAN><SPAN =
+class=3D"anchor"=20
+  id=3D"line-185"></SPAN></LI></UL>
+<P class=3D"line867">
+<H3 id=3D"Sponsoring_Entity">Sponsoring Entity</H3><SPAN =
+class=3D"anchor" id=3D"line-186"></SPAN><SPAN=20
+class=3D"anchor" id=3D"line-187"></SPAN>
+<UL>
+  <LI>Apache Incubator PMC <SPAN class=3D"anchor"=20
+id=3D"line-188"></SPAN></LI></UL><SPAN class=3D"anchor" =
+id=3D"bottom"></SPAN></DIV>
+<P class=3D"info" id=3D"pageinfo" lang=3D"en" dir=3D"ltr">S4Proposal  =
+(last edited=20
+2011-09-21 10:04:52 by <SPAN title=3D"FlavioJunqueira @ =
+lo5.cfw-a-gci.corp.ukl.yahoo.com[217.12.15.52]"><A=20
+title=3D"FlavioJunqueira @ =
+lo5.cfw-a-gci.corp.ukl.yahoo.com[217.12.15.52]" class=3D"nonexistent"=20
+href=3D"http://wiki.apache.org/incubator/FlavioJunqueira">FlavioJunqueira=
+</A></SPAN>)</P>
+<DIV id=3D"pagebottom"></DIV></DIV>
+<DIV id=3D"footer">
+<UL class=3D"editbar">
+  <LI><SPAN class=3D"disabled">Immutable Page</SPAN></LI>
+  <LI class=3D"toggleCommentsButton" style=3D"display: none;"><A =
+class=3D"nbcomment"=20
+  onclick=3D"toggleComments();return false;" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal#">Comments</A></LI>
+  <LI><A class=3D"nbinfo" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3Dinfo"=20
+  rel=3D"nofollow">Info</A></LI>
+  <LI><A class=3D"nbattachments" =
+href=3D"http://wiki.apache.org/incubator/S4Proposal?action=3DAttachFile" =
+
+  rel=3D"nofollow">Attachments</A></LI>
+  <LI>=20
+  <FORM class=3D"actionsmenu" action=3D"/incubator/S4Proposal" =
+method=3D"GET">
+  <DIV><LABEL>More Actions:</LABEL>     <SELECT name=3D"action" =
+onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;              =
+        (this.options[this.selectedIndex].disabled =3D=3D false)) {&#10; =
+               this.form.submit();&#10;            }&#10;            =
+this.selectedIndex =3D 0;"><OPTION=20
+    value=3D"raw">Raw Text</OPTION> <OPTION value=3D"print">Print =
+View</OPTION>=20
+    <OPTION value=3D"RenderAsDocbook">Render as Docbook</OPTION> <OPTION =
+value=3D"refresh">Delete=20
+    Cache</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"SpellCheck">Check Spelling</OPTION> <OPTION =
+value=3D"LikePages">Like=20
+    Pages</OPTION> <OPTION value=3D"LocalSiteMap">Local Site =
+Map</OPTION> <OPTION=20
+    disabled=3D"" class=3D"disabled" =
+value=3D"show">------------------------</OPTION>=20
+    <OPTION disabled=3D"" class=3D"disabled" value=3D"RenamePage">Rename =
+Page</OPTION>=20
+    <OPTION value=3D"CopyPage">Copy Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"DeletePage">Delete Page</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+value=3D"MyPages">My=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled" =
+value=3D"show">Subscribe=20
+    User</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION =
+disabled=3D"" class=3D"disabled"=20
+    value=3D"show">Remove Spam</OPTION> <OPTION disabled=3D"" =
+class=3D"disabled"=20
+    value=3D"show">Revert to this revision</OPTION> <OPTION=20
+    value=3D"PackagePages">Package Pages</OPTION> <OPTION =
+value=3D"SyncPages">Sync=20
+    Pages</OPTION> <OPTION disabled=3D"" class=3D"disabled"=20
+    value=3D"show">------------------------</OPTION> <OPTION=20
+    value=3D"Load">Load</OPTION> <OPTION value=3D"Save">Save</OPTION> =
+<OPTION value=3D"SlideShow">SlideShow</OPTION>=20
+        </SELECT>     <INPUT type=3D"submit" value=3D"Do">     </DIV>=20
+<SCRIPT type=3D"text/javascript">=0A=
+<!--// Init menu=0A=
+actionsMenuInit('More Actions:');=0A=
+//-->=0A=
+</SCRIPT>
+   </FORM> </LI></UL>
+<UL id=3D"credits">
+  <LI><A title=3D"This site uses the MoinMoin Wiki software." =
+href=3D"http://moinmo.in/">MoinMoin=20
+  Powered</A></LI>
+  <LI><A title=3D"MoinMoin is written in Python."=20
+  href=3D"http://moinmo.in/Python">Python Powered</A></LI>
+  <LI><A title=3D"MoinMoin is GPL licensed." =
+href=3D"http://moinmo.in/GPL">GPL=20
+  licensed</A></LI>
+  <LI><A title=3D"Click here to validate this page." =
+href=3D"http://validator.w3.org/check?uri=3Dreferer">Valid=20
+  HTML 4.01</A></LI> </UL></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/common.css
+
+html {
+	color: black; font-family: sans-serif; font-size: 1em; =
+background-color: white;
+}
+body {
+	margin: 0px;
+}
+a {
+	color: rgb(0, 68, 179);
+}
+a:visited {
+	color: rgb(255, 123, 179);
+}
+a.nonexistent:visited {
+	color: gray;
+}
+a.nonexistent {
+	color: gray;
+}
+a.badinterwiki:visited {
+	color: gray;
+}
+a.badinterwiki {
+	color: gray;
+}
+a.www::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.http::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.https::before {
+	margin: 0px 0.2em; content: url(../img/moin-www.png);
+}
+a.file::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.ftp::before {
+	margin: 0px 0.2em; content: url(../img/moin-ftp.png);
+}
+a.nntp::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.news::before {
+	margin: 0px 0.2em; content: url(../img/moin-news.png);
+}
+a.telnet::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ssh::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.irc::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.ircs::before {
+	margin: 0px 0.2em; content: url(../img/moin-telnet.png);
+}
+a.mailto::before {
+	margin: 0px 0.2em; content: url(../img/moin-email.png);
+}
+a.attachment::before {
+	margin: 0px 0.2em; content: url(../img/moin-attach.png);
+}
+a.badinterwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+a.interwiki::before {
+	margin: 0px 0.2em; content: url(../img/moin-inter.png);
+}
+li p {
+	margin: 0.25em 0px;
+}
+li.gap {
+	margin-top: 0.5em;
+}
+dt {
+	font-weight: bold; margin-top: 0.5em;
+}
+dd {
+	margin-top: 0px; margin-bottom: 0px;
+}
+dd p {
+	margin: 0.25em 0px;
+}
+a {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+img.drawing {
+	border: 0px currentColor; border-image: none;
+}
+pre {
+	padding: 5pt; border: 1pt solid rgb(174, 189, 204); border-image: none; =
+font-family: courier, monospace; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(243, 245, 247);
+}
+pre.comment {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; color: red; background-color: rgb(204, 204, 204);
+}
+pre.comment::before {
+	content: url(../img/attention.png);
+}
+.comment {
+	color: rgb(85, 85, 85); background-color: rgb(221, 221, 255);
+}
+.red {
+	background-color: rgb(255, 204, 204);
+}
+.green {
+	background-color: rgb(204, 255, 204);
+}
+.blue {
+	background-color: rgb(204, 204, 255);
+}
+.yellow {
+	background-color: rgb(255, 242, 159);
+}
+.orange {
+	background-color: rgb(255, 213, 155);
+}
+.solid {
+	padding: 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+.dashed {
+	padding: 2px; border: 2px dashed rgb(0, 0, 0); border-image: none;
+}
+.dotted {
+	padding: 2px; border: 2px dotted rgb(0, 0, 0); border-image: none;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.justify {
+	text-align: justify;
+}
+table {
+	margin: 0.5em 0px 0px 0.5em; border-collapse: collapse;
+}
+th {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td {
+	padding: 0.25em 0.5em; border: 1pt solid rgb(173, 185, 204); =
+border-image: none;
+}
+td p {
+	margin: 0px; padding: 0px;
+}
+div.table-of-contents {
+	margin: 0.5em 0px 0.5em 1em; padding: 0.5em 0.75em 0.5em 0.5em; border: =
+1px solid rgb(187, 187, 187); border-image: none; text-align: left; =
+color: black; font-size: 80%; display: inline-table; max-width: 50%; =
+background-color: rgb(238, 238, 238);
+}
+div.table-of-contents ol {
+	margin: 0px; padding: 0px 0px 0px 2em;
+}
+div.table-of-contents ul {
+	list-style: none; margin: 0px;
+}
+div.table-of-contents li {
+	margin: 0px; padding: 0px;
+}
+p.table-of-contents-heading {
+	margin: 0px 0px 0.5em; padding: 0px; letter-spacing: 0.07em; =
+font-weight: bold;
+}
+table.navigation {
+	background: rgb(255, 255, 255); margin: 0px;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+.footnotes ol {
+	margin: 0px 0px 1em; padding: 0px 2em;
+}
+.footnotes li {
+=09
+}
+.info {
+	color: gray; font-size: 0.7em; float: right;
+}
+#pageinfo {
+	margin-top: 2em;
+}
+.seperator {
+	color: gray;
+}
+#pagebottom {
+	clear: both;
+}
+hr {
+	border: 0px currentColor; border-image: none; height: 1pt; =
+background-color: rgb(156, 156, 156);
+}
+.hr1 {
+	height: 2pt;
+}
+.hr2 {
+	height: 3pt;
+}
+.hr3 {
+	height: 4pt;
+}
+.hr4 {
+	height: 5pt;
+}
+.hr5 {
+	height: 6pt;
+}
+.hr6 {
+	height: 7pt;
+}
+.u {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+.warning {
+	color: red;
+}
+.error {
+	color: red;
+}
+strong.highlight {
+	padding: 1pt; background-color: rgb(204, 224, 255);
+}
+.rcrss {
+	margin: 0px 7px 0px 14px; top: 9px; height: 0px; float: right; =
+position: relative;
+}
+*[div=3D'rtl'] .rcrss {
+	float: left;
+}
+[dir=3D'rtl'].recentchanges .rcrss {
+	float: left;
+}
+.recentchanges table {
+	border: 1px solid rgb(77, 125, 169); border-image: none; clear: both; =
+border-collapse: collapse;
+}
+.recentchanges td {
+	background: rgb(230, 234, 240); border: currentColor; border-image: =
+none; vertical-align: top;
+}
+.recentchanges .rcdaybreak td {
+	background: rgb(129, 187, 242); border: 1px solid rgb(77, 125, 169); =
+border-image: none;
+}
+.rcdaybreak td a {
+	font-size: 0.88em;
+}
+.rcicon1 {
+	text-align: center;
+}
+.rcicon2 {
+	text-align: center;
+}
+.rcpagelink {
+	width: 33%;
+}
+.rctime {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rceditor {
+	font-size: 0.88em; white-space: nowrap;
+}
+.rccomment {
+	width: 50%; color: gray; font-size: 0.88em;
+}
+.userpref table {
+	border: currentColor; border-image: none;
+}
+.userpref td {
+	border: currentColor; border-image: none;
+}
+div.codearea {
+	margin: 0.5em 0px; padding: 0px; border: 1pt solid rgb(174, 189, 204); =
+border-image: none; color: black; background-color: rgb(243, 245, 247);
+}
+div.codearea pre {
+	margin: 0px; padding: 10pt; border: currentColor; border-image: none;
+}
+a.codenumbers {
+	margin: 0px 10pt; color: gray; font-size: 0.85em;
+}
+div.codearea pre span.LineNumber {
+	color: gray;
+}
+div.codearea pre span.ID {
+	color: rgb(0, 0, 0);
+}
+div.codearea pre span.Operator {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.Char {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.Comment {
+	color: rgb(0, 128, 0);
+}
+div.codearea pre span.Number {
+	color: rgb(0, 128, 192);
+}
+div.codearea pre span.String {
+	color: rgb(0, 64, 128);
+}
+div.codearea pre span.SPChar {
+	color: rgb(0, 0, 192);
+}
+div.codearea pre span.ResWord {
+	color: rgb(160, 0, 0);
+}
+div.codearea pre span.ConsWord {
+	color: rgb(0, 128, 128); font-weight: bold;
+}
+div.codearea pre span.Error {
+	border: 1.5pt solid rgb(255, 0, 0); border-image: none; color: rgb(255, =
+128, 128);
+}
+div.codearea pre span.ResWord2 {
+	color: rgb(0, 128, 255); font-weight: bold;
+}
+div.codearea pre span.Special {
+	color: rgb(0, 0, 255);
+}
+div.codearea pre span.Preprc {
+	color: rgb(128, 57, 153);
+}
+div.codearea pre span.DiffAdded {
+	color: rgb(72, 118, 255);
+}
+div.codearea pre span.DiffRemoved {
+	color: rgb(255, 0, 0);
+}
+div.codearea pre span.DiffChanged {
+	color: rgb(255, 127, 80);
+}
+div.codearea pre span.DiffSeparator {
+	color: rgb(34, 139, 34); font-weight: bold;
+}
+.advancedsearch {
+	border: 1pt solid rgb(173, 185, 204); border-image: none;
+}
+.advancedsearch td {
+	border: 0px currentColor; border-image: none; vertical-align: top; =
+background-color: rgb(231, 231, 231);
+}
+.advancedsearch td.searchfor {
+	font-weight: bold;
+}
+.advancedsearch input {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch input[disabled] {
+	background-color: rgb(238, 238, 238);
+}
+.advancedsearch td.submit {
+	text-align: right; border-top-color: rgb(173, 185, 204); =
+border-top-width: 1px; border-top-style: solid; background-color: =
+rgb(255, 255, 255);
+}
+.advancedsearch optioni {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.advancedsearch select {
+	border: 1px solid rgb(173, 185, 204); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+.searchresults dt {
+	font-weight: normal; margin-top: 1em;
+}
+.searchresults dd {
+	font-size: 0.85em;
+}
+.searchresults p {
+	font-size: 0.85em;
+}
+.searchresults .searchhitinfobar {
+	color: rgb(0, 128, 0); margin-top: 0px; margin-left: 15px;
+}
+p.searchstats {
+	padding: 2px; width: 100%; text-align: right; font-size: 0.8em; =
+border-top-color: rgb(144, 136, 220); border-top-width: 1px; =
+border-top-style: solid; background-color: rgb(230, 234, 240);
+}
+p.searchhint {
+	padding: 2px; border: 1px solid rgb(144, 136, 220); border-image: none; =
+background-color: rgb(230, 234, 240);
+}
+.searchpages {
+	margin-right: auto; margin-left: auto;
+}
+.searchpages tr {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td {
+	margin: 0px; padding: 5px; border: 0px currentColor; border-image: =
+none; text-align: center; color: rgb(185, 58, 88); font-size: 1.05em; =
+font-weight: bold; vertical-align: middle;
+}
+.searchpages td a {
+	text-decoration: underline;
+}
+.searchpages td a:link {
+	text-decoration: underline;
+}
+a.cal-emptyday {
+	text-align: center; color: rgb(119, 119, 119);
+}
+a.cal-usedday {
+	text-align: center; color: rgb(0, 0, 0); font-weight: bold;
+}
+td.cal-workday {
+	text-align: center; background-color: rgb(221, 221, 255);
+}
+td.cal-weekend {
+	text-align: center; background-color: rgb(255, 221, 221);
+}
+td.cal-today {
+	border-width: 2pt; border-style: solid; text-align: center; =
+background-color: rgb(204, 255, 204);
+}
+td.cal-invalidday {
+	background-color: rgb(204, 204, 204);
+}
+a.cal-link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+th.cal-header {
+	text-align: center; background-color: rgb(221, 187, 255);
+}
+table.tip {
+	border-width: 1px; border-style: solid; color: black; font-size: small; =
+font-weight: normal; background-color: rgb(255, 136, 136);
+}
+th.tip {
+	text-align: center; font-weight: bold; background-color: rgb(255, 68, =
+68);
+}
+td.tip {
+	text-align: left;
+}
+*[dir=3D'rtl'] td.tip {
+	text-align: right;
+}
+#message .hint {
+	font-style: italic;
+}
+#message .info {
+	color: black; font-size: 1em; float: none;
+}
+#message .info::before {
+	margin: 0px 0.2em; content: url('../img/icon-info.png');
+}
+#message .warning::before {
+	margin: 0px 0.2em; content: url('../img/alert.png');
+}
+#message .error::before {
+	margin: 0px 0.2em; content: url('../img/icon-error.png');
+}
+#content div.caution {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.important {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.note {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.tip {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.warning {
+	background-position: 8px 8px; margin: 10pt 30pt; border: 1pt solid =
+rgb(229, 229, 229); border-image: none; color: black; padding-left: =
+64px; min-height: 64px; background-repeat: no-repeat; background-color: =
+rgb(249, 249, 255);
+}
+#content div.caution p {
+	margin-top: 8px;
+}
+#content div.important p {
+	margin-top: 8px;
+}
+#content div.note p {
+	margin-top: 8px;
+}
+#content div.tip p {
+	margin-top: 8px;
+}
+#content div.warning p {
+	margin-top: 8px;
+}
+#content div.tip {
+	background-image: url("../img/admon-tip.png");
+}
+#content div.note {
+	background-image: url("../img/admon-note.png");
+}
+#content div.important {
+	background-image: url("../img/admon-important.png");
+}
+#content div.caution {
+	background-image: url("../img/admon-caution.png");
+}
+#content div.warning {
+	background-image: url("../img/admon-warning.png");
+}
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/modernized/css/print.css
+
+html {
+	font-family: Times, serif; font-size: 12pt;
+}
+body {
+	margin: 1.5cm;
+}
+a {
+	color: black; text-decoration: none;
+}
+a:visited {
+	color: black; text-decoration: none;
+}
+a.nonexistent {
+	color: black; text-decoration: none;
+}
+a.badinterwiki {
+	color: black; text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.info a {
+	color: gray;
+}
+pre {
+	font-size: 10pt;
+}
+a.interwiki::before {
+	content: attr(title) ":";
+}
+a.badinterwiki::before {
+	content: attr(title) ":";
+}
+a.interwiki img {
+	display: none;
+}
+a.badinterwiki img {
+	display: none;
+}
+.footnotes div {
+	width: 5em; border-top-color: gray; border-top-width: 1pt; =
+border-top-style: solid;
+}
+#header {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#timings {
+	display: none;
+}
+#credits {
+	display: none;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/incubator/screen.css
+
+body {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+a:link {
+	color: rgb(68, 119, 255); text-decoration: none;
+}
+a:hover:link {
+	color: green; text-decoration: underline;
+}
+a:active:link {
+	color: green; text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 68, 170); text-decoration: none;
+}
+a:hover:visited {
+	color: red; text-decoration: none;
+}
+a.nonexistent:link {
+	color: rgb(102, 102, 102);
+}
+a.nonexistent:hover {
+	color: black; text-decoration: underline;
+}
+a.download {
+	background: rgb(231, 231, 231); padding: 0.5em; border: 1px solid =
+rgb(156, 156, 156); border-image: none; text-align: center; =
+letter-spacing: 0.05em; font-size: 120%; font-weight: bold;
+}
+input {
+=09
+}
+textarea {
+	font-family: monospace; font-size: 1em;
+}
+.disabled {
+	color: gray;
+}
+#header {
+	background: rgb(230, 234, 240); margin: 1px; padding: 1px; line-height: =
+1.1em;
+}
+#logo {
+	margin: 5px 10px; padding: 0px; line-height: 1em; font-size: 1.4em; =
+font-weight: bold; float: left;
+}
+*[dir=3D'rtl'] #logo {
+	float: right;
+}
+#logo img {
+	vertical-align: middle;
+}
+#logo a {
+	color: black; text-decoration: none;
+}
+#username {
+	margin: 8px 12px 4px; padding: 0px; font-size: 0.82em; display: block;
+}
+#username form {
+	display: inline;
+}
+#username input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; =
+border-image: none; color: blue; font-size: 0.82em; display: inline; =
+cursor: pointer;
+}
+#username input:hover {
+	color: red;
+}
+#searchform {
+	margin: 4px 0.5em 8px; padding: 0px; text-align: right; clear: right; =
+font-size: 0.82em; float: right;
+}
+*[dir=3D'rtl'] #searchform {
+	text-align: left; clear: left; float: left;
+}
+#searchform input {
+	font-size: 100%; vertical-align: middle;
+}
+#pagetrail {
+	margin: 0px 0.88em 0.25em; padding: 0px; clear: right; font-size: =
+0.88em; display: inline;
+}
+*[dir=3D'rtl'] #pagetrail {
+	clear: left;
+}
+#interwiki {
+	font-size: 1em;
+}
+#locationline {
+	margin: 0.25em 12px 5px; padding: 0px; clear: right; font-size: 100%; =
+font-weight: normal;
+}
+*[dir=3D'rtl'] #locationline {
+	clear: left;
+}
+#pagelocation {
+	letter-spacing: 0.05em; font-size: 1.5em;
+}
+*[dir=3D'rtl'] #pagetrail span.sep {
+	visibility: hidden;
+}
+*[dir=3D'rtl'] #pagetrail span.sep::after {
+	content: " =AB ";
+}
+#navibar {
+	margin: 0px; padding: 0px 10px; clear: both; font-size: 0.82em; =
+display: block; -ms-zoom: 1;
+}
+#navibar li {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgb(170, 204, 221) rgb(170, 204, 221) currentColor; =
+margin: 0px 2px; padding: 2px 5px; border-image: none; float: left; =
+display: inline; white-space: nowrap;
+}
+*[dir=3D'rtl'] #navibar li {
+	float: right;
+}
+#navibar li.wikilink {
+	background: white;
+}
+#navibar li.userlink {
+	background: rgb(230, 234, 240);
+}
+#navibar a {
+	color: black; text-decoration: none;
+}
+#navibar a:visited {
+	color: black; text-decoration: none;
+}
+#navibar li.current a {
+	font-weight: bold;
+}
+#navibar li:hover {
+	background: rgb(214, 228, 249);
+}
+#navibar li.current {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#navibar li.current:hover {
+	background: rgb(129, 187, 242); border-width: 1px; border-style: solid; =
+border-color: rgb(77, 125, 169) rgb(77, 125, 169) rgb(129, 187, 242); =
+border-image: none; margin-bottom: -1px;
+}
+#pageline {
+	background: rgb(129, 187, 242); margin: 0px; padding: 0px; width: 100%; =
+height: 4px; line-height: 4px; clear: both; border-top-color: rgb(77, =
+125, 169); border-bottom-color: rgb(77, 125, 169); border-top-width: =
+1px; border-bottom-width: 1px; border-top-style: solid; =
+border-bottom-style: solid;
+}
+.editbar {
+	background: rgb(214, 228, 249); margin: -1px 0px 0px; padding: 2px 8px; =
+clear: both; font-size: 0.8em; border-top-color: rgb(77, 125, 169); =
+border-bottom-color: rgb(77, 125, 169); border-top-width: 1px; =
+border-bottom-width: 1px; border-top-style: solid; border-bottom-style: =
+solid; display: block;
+}
+.editbar form {
+	margin: 0px; display: inline;
+}
+.editbar form div {
+	margin: 0px; display: inline;
+}
+.editbar select {
+	font-size: 100%; vertical-align: middle;
+}
+.editbar li {
+	margin: 4px 6px; padding: 0px; display: inline;
+}
+.editbar a {
+	color: rgb(0, 68, 179);
+}
+.editbar a:visited {
+	color: rgb(0, 68, 179);
+}
+#message {
+	background: rgb(230, 234, 240); margin: 0px; padding: 5px 10px; clear: =
+both; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#message p {
+	margin: 5px 0px; padding: 0px;
+}
+#message div.buttons {
+	font-weight: normal;
+}
+.dialog form {
+	margin: 0px 15px;
+}
+.dialog td {
+	padding: 5px; border: currentColor; border-image: none;
+}
+.dialog td.label {
+	width: 25%; text-align: right; font-weight: bold;
+}
+*[dir=3D'rtl'] .dialog td.label {
+	text-align: left;
+}
+.dialog td.content input {
+	width: 100%;
+}
+#page {
+	margin: 0px; padding: 2px 20px 20px; background-color: white;
+}
+#editor-textarea {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	padding: 3px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 100%; color: black; font-family: monospace; margin-top: 0.5em; =
+background-color: white;
+}
+#editor-help {
+	font-size: small; background-color: rgb(238, 238, 255);
+}
+#editor-comment {
+	padding: 1px; border: 1px solid rgb(140, 172, 187); border-image: none; =
+width: 70%; color: black; font-size: 100%; vertical-align: middle; =
+display: inline; background-color: white;
+}
+#preview {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#previewbelow {
+	background: url("../img/draft.png"); padding: 10px 30px 20px; border: =
+1px solid rgb(108, 118, 128); border-image: none; margin-top: 0.5em;
+}
+#textcha {
+	padding: 3px 2px; border: 2px solid rgb(255, 136, 136); border-image: =
+none; color: black; font-size: 100%; margin-top: 0.5em; vertical-align: =
+middle;
+}
+#textcha-answer {
+	padding: 3px 2px; border: 2px solid rgb(0, 0, 0); border-image: none;
+}
+input.button {
+=09
+}
+#footer {
+	margin: 0px; padding: 0px; clear: both;
+}
+#credits {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#version {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#timings {
+	margin: 5px 10px; padding: 0px; text-align: center; color: rgb(108, =
+118, 128); font-size: 0.88em;
+}
+#credits li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#timings li {
+	margin: 0px 4px; padding: 0px 2px; display: inline;
+}
+#credits img {
+	vertical-align: middle;
+}
+.diff {
+	width: 99%;
+}
+.diff-header {
+	font-weight: bold;
+}
+.diff-title {
+	background-color: rgb(192, 192, 192);
+}
+.diff-added {
+	vertical-align: sub; background-color: rgb(224, 255, 224);
+}
+.diff-removed {
+	vertical-align: sub; background-color: rgb(255, 255, 224);
+}
+.diff-added span {
+	background-color: rgb(128, 255, 128);
+}
+.diff-removed span {
+	background-color: rgb(255, 255, 128);
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+#openididentifier {
+	background: url("../../common/openid.png") no-repeat 0px 50%; =
+padding-left: 18px;
+}
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://wiki.apache.org/wiki/modernized/css/projection.css
+
+@import url( screen.css );
+html {
+	line-height: 1.8em;
+}
+body {
+	font-size: 18pt;
+}
+b {
+	font-size: 18pt;
+}
+em {
+	font-size: 18pt;
+}
+a {
+	font-size: 18pt;
+}
+span {
+	font-size: 18pt;
+}
+div {
+	font-size: 18pt;
+}
+p {
+	font-size: 18pt;
+}
+td {
+	font-size: 18pt;
+}
+h1 {
+	font-size: 26pt;
+}
+h2 {
+	font-size: 22pt;
+}
+h3 {
+	font-size: 20pt;
+}
+h4 {
+	font-size: 18pt;
+}
+h5 {
+	font-size: 16pt;
+}
+h6 {
+	font-size: 14pt;
+}
+tt {
+	font-size: 16pt;
+}
+pre {
+	font-size: 16pt;
+}
+sup {
+	font-size: 12pt;
+}
+sub {
+	font-size: 12pt;
+}
+table.navigation {
+	margin: 2px; float: right;
+}
+.navigation td {
+	padding: 2px; font-size: 10pt;
+}
+.navigation a {
+	padding: 2px; font-size: 10pt;
+}
+#interwiki {
+	display: none;
+}
+#pagelocation {
+	display: none;
+}
+#pageinfo {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CFB033.47A57480
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wiki.apache.org/wiki/common/js/common.js
+
+//=0A=
+// MoinMoin commonly used JavaScript functions=0A=
+//=0A=
+=0A=
+// We keep here the state of the search box=0A=
+searchIsDisabled =3D false;=0A=
+=0A=
+function searchChange(e) {=0A=
+    // Update search buttons status according to search box content.=0A=
+    // Ignore empty or whitespace search term.=0A=
+    var value =3D e.value.replace(/\s+/, '');=0A=
+    if (value =3D=3D '' || searchIsDisabled) { =0A=
+        searchSetDisabled(true);=0A=
+    } else {=0A=
+        searchSetDisabled(false);=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchSetDisabled(flag) {=0A=
+    // Enable or disable search=0A=
+    document.getElementById('fullsearch').disabled =3D flag;=0A=
+    document.getElementById('titlesearch').disabled =3D flag;=0A=
+}=0A=
+=0A=
+function searchFocus(e) {=0A=
+    // Update search input content on focus=0A=
+    if (e.value =3D=3D search_hint) {=0A=
+        e.value =3D '';=0A=
+        e.className =3D '';=0A=
+        searchIsDisabled =3D false;=0A=
+    }=0A=
+}=0A=
+=0A=
+function searchBlur(e) {=0A=
+    // Update search input content on blur=0A=
+    if (e.value =3D=3D '') {=0A=
+        e.value =3D search_hint;=0A=
+        e.className =3D 'disabled';=0A=
+        searchIsDisabled =3D true;=0A=
+    }=0A=
+}=0A=
+=0A=
+function actionsMenuInit(title) {=0A=
+    // Initialize action menu=0A=
+    for (i =3D 0; i < document.forms.length; i++) {=0A=
+        var form =3D document.forms[i];=0A=
+        if (form.className =3D=3D 'actionsmenu') {=0A=
+            // Check if this form needs update=0A=
+            var div =3D form.getElementsByTagName('div')[0];=0A=
+            var label =3D div.getElementsByTagName('label')[0];=0A=
+            if (label) {=0A=
+                // This is the first time: remove label and do buton.=0A=
+                div.removeChild(label);=0A=
+                var dobutton =3D div.getElementsByTagName('input')[0];=0A=
+                div.removeChild(dobutton);=0A=
+                // and add menu title=0A=
+                var select =3D div.getElementsByTagName('select')[0];=0A=
+                var item =3D document.createElement('option');=0A=
+                item.appendChild(document.createTextNode(title));=0A=
+                item.value =3D 'show';=0A=
+                select.insertBefore(item, select.options[0]);=0A=
+                select.selectedIndex =3D 0;=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// use this instead of assigning to window.onload directly:=0A=
+function addLoadEvent(func) {=0A=
+    // alert("addLoadEvent " + func)=0A=
+    var oldonload =3D window.onload;=0A=
+    if (typeof window.onload !=3D 'function') {=0A=
+        window.onload =3D func;=0A=
+    } else {=0A=
+        window.onload =3D function() {=0A=
+            oldonload();=0A=
+            func();=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+// copy from fckeditor browser check code (fckeditor.js:298, function : =
+FCKeditor_IsCompatibleBrowser)=0A=
+function can_use_gui_editor() {=0A=
+    var sAgent =3D navigator.userAgent.toLowerCase() ;=0A=
+=0A=
+    // Internet Explorer 5.5+=0A=
+    if ( /*@cc_on!@*/false && sAgent.indexOf("mac") =3D=3D -1 )=0A=
+    {=0A=
+        var sBrowserVersion =3D navigator.appVersion.match(/MSIE =
+(.\..)/)[1] ;=0A=
+        return ( sBrowserVersion >=3D 5.5 ) ;=0A=
+    }=0A=
+=0A=
+    // Gecko (Opera 9 tries to behave like Gecko at this point).=0A=
+    if ( navigator.product =3D=3D "Gecko" && navigator.productSub >=3D =
+20030210 && !( typeof(opera) =3D=3D 'object' && opera.postError ) )=0A=
+        return true ;=0A=
+=0A=
+    // Opera 9.50+=0A=
+    if ( window.opera && window.opera.version && parseFloat( =
+window.opera.version() ) >=3D 9.5 )=0A=
+        return true ;=0A=
+=0A=
+/*=0A=
+  // disable safari : until fck devteam fix =
+http://dev.fckeditor.net/ticket/2333=0A=
+  =0A=
+    // Adobe AIR=0A=
+    // Checked before Safari because AIR have the WebKit rich text editor=0A=
+    // features from Safari 3.0.4, but the version reported is 420.=0A=
+    if ( sAgent.indexOf( ' adobeair/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / adobeair\/(\d+)/ )[1] >=3D 1 ) ; // =
+Build must be at least v1=0A=
+=0A=
+    // Safari 3+=0A=
+    if ( sAgent.indexOf( ' applewebkit/' ) !=3D -1 )=0A=
+        return ( sAgent.match( / applewebkit\/(\d+)/ )[1] >=3D 522 ) ;   =
+ // Build must be at least 522 (v3)=0A=
+*/=0A=
+    return false ;=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+function update_edit_links() {=0A=
+    // Update editlink according if if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("update_edit_links: can't use gui editor");=0A=
+        return;=0A=
+    }=0A=
+    var editlinks =3D document.getElementsByName("editlink");=0A=
+    for (i =3D 0; i < editlinks.length; i++) {=0A=
+        var link =3D editlinks[i];=0A=
+        href =3D =
+link.href.replace('editor=3Dtextonly','editor=3Dguipossible');=0A=
+        link.href =3D href;=0A=
+        //alert("update_edit_links: modified to guipossible");=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function add_gui_editor_links() {=0A=
+    // Add gui editor link after the text editor link=0A=
+    =0A=
+    // If the variable is not set or browser is not compatible, exit=0A=
+    try {gui_editor_link_href}=0A=
+    catch (e) {=0A=
+        //alert("add_gui_editor_links: gui_editor_link_href not here");=0A=
+        return=0A=
+    }=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("add_gui_editor_links: can't use gui_editor");=0A=
+        return;=0A=
+    }=0A=
+    var all =3D document.getElementsByName('texteditlink');=0A=
+    for (i =3D 0; i < all.length; i++) {=0A=
+        var textEditorLink =3D all[i];=0A=
+        // Create a list item with a link=0A=
+        var guiEditorLink =3D document.createElement('a');=0A=
+        guiEditorLink.href =3D gui_editor_link_href;=0A=
+        var text =3D document.createTextNode(gui_editor_link_text);=0A=
+        guiEditorLink.appendChild(text);=0A=
+        var listItem =3D document.createElement('li')=0A=
+        listItem.appendChild(guiEditorLink);=0A=
+        // Insert in the editbar=0A=
+        var editbar =3D textEditorLink.parentNode.parentNode=0A=
+        var nextListItem =3D textEditorLink.parentNode.nextSibling;=0A=
+        editbar.insertBefore(listItem, nextListItem);=0A=
+        //alert("add_gui_editor_links: added gui editor link");=0A=
+    }=0A=
+}=0A=
+ =0A=
+=0A=
+function show_switch2gui() {=0A=
+    // Show switch to gui editor link if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false) return;=0A=
+    =0A=
+    var switch2gui =3D document.getElementById('switch2gui')=0A=
+    if (switch2gui) {=0A=
+        switch2gui.style.display =3D 'inline';=0A=
+    }=0A=
+}=0A=
+=0A=
+// for long documents with many comments this is expensive to calculate,=0A=
+// thus we keep it here:=0A=
+comments =3D null;=0A=
+=0A=
+function toggleComments() {=0A=
+    // Toggle visibility of every tag with class "comment"=0A=
+    for (i =3D 0; i < comments.length; i++){=0A=
+        el =3D comments[i];=0A=
+        if ( el.style.display !=3D 'none' ) {=0A=
+            el.style.display =3D 'none';=0A=
+        } else {=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+function show_toggleComments() {=0A=
+    // Show edit bar item for toggling inline comments on/off only if =
+inline comments exist on the page=0A=
+    comments =3D getElementsByClassName('comment', null, document);=0A=
+    if (comments.length > 0) {=0A=
+        var buttons =3D getElementsByClassName('toggleCommentsButton', =
+null, document);=0A=
+        for (i =3D 0; i < buttons.length; i++){=0A=
+            el =3D buttons[i];=0A=
+            el.style.display =3D '';=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function load() {=0A=
+    // Do not name this "onload", it does not work with IE :-)=0A=
+    // TODO: create separate onload for each type of view and set the=0A=
+    // correct function name in the html. =0A=
+    // e.g <body onlod=3D'editor_onload()'>=0A=
+=0A=
+    // login focus=0A=
+    if (document.forms['loginform']) {=0A=
+        document.forms['loginform'].elements['name'].focus();=0A=
+    }=0A=
+    =0A=
+    // Page view stuff=0A=
+    update_edit_links();=0A=
+    add_gui_editor_links();=0A=
+    =0A=
+    // Editor stuff=0A=
+    show_switch2gui();=0A=
+=0A=
+    // Enable menu item "ToggleComments" if inline comments exist=0A=
+    show_toggleComments();=0A=
+ =0A=
+    // data browser widget=0A=
+    dbw_hide_buttons();=0A=
+}=0A=
+=0A=
+=0A=
+function before_unload(evt) {=0A=
+    // TODO: Better to set this in the editor html, as it does not make=0A=
+    // sense elsehwere.=0A=
+    // confirmleaving is available when editing=0A=
+    try {return confirmleaving();}=0A=
+    catch (e) {}=0A=
+}=0A=
+=0A=
+// Initialize after loading the page=0A=
+addLoadEvent(load)=0A=
+=0A=
+// Catch before unloading the page=0A=
+window.onbeforeunload =3D before_unload=0A=
+=0A=
+function dbw_update_search(dbw_id)=0A=
+{=0A=
+    var table =3D document.getElementById(dbw_id+'table');=0A=
+    var cell;=0A=
+    var shown;=0A=
+    var i=0A=
+    var cols =3D table.rows[0].cells.length;=0A=
+    var filter =3D new Array();=0A=
+    var dofilter =3D new Array();=0A=
+    var form =3D document.forms[dbw_id+'form'];=0A=
+=0A=
+    for (i =3D 0; i < cols; i++) {=0A=
+        dofilter[i] =3D false;=0A=
+        if (form[dbw_id+'filter'+i]) {=0A=
+            dofilter[i] =3D true;=0A=
+            filter[i] =3D form[dbw_id+'filter'+i].value;=0A=
+            if (filter[i] =3D=3D '[all]')=0A=
+                dofilter[i] =3D false;=0A=
+            if (filter[i] =3D=3D '[empty]')=0A=
+                filter[i] =3D '';=0A=
+        }=0A=
+    }=0A=
+=0A=
+    for (i =3D 1; i < table.rows.length; i++) {=0A=
+        var show =3D true;=0A=
+        for (col =3D 0; col < cols; col++) {=0A=
+            if (!dofilter[col])=0A=
+                continue;=0A=
+=0A=
+            cell =3D table.rows[i].cells[col];=0A=
+=0A=
+            if (filter[col] =3D=3D '[notempty]') {=0A=
+                if (cell.abbr =3D=3D '') {=0A=
+                    show =3D false;=0A=
+                    break;=0A=
+                }=0A=
+            } else if (filter[col] !=3D cell.abbr) {=0A=
+                show =3D false;=0A=
+                break;=0A=
+            }=0A=
+        }=0A=
+        if (show)=0A=
+            table.rows[i].style.display =3D '';=0A=
+        else=0A=
+            table.rows[i].style.display =3D 'none';=0A=
+    }=0A=
+}=0A=
+=0A=
+function dbw_hide_buttons() {=0A=
+    var form;=0A=
+    var elem;=0A=
+    var name;=0A=
+=0A=
+    for (var fidx =3D 0; fidx < document.forms.length; fidx++) {=0A=
+        form =3D document.forms[fidx];=0A=
+        for (var eidx =3D 0; eidx < form.elements.length; eidx++) {=0A=
+            elem =3D form.elements[eidx];=0A=
+            name =3D elem.name;=0A=
+            if (name) {=0A=
+                if (name.indexOf('dbw.') >=3D 0 && name.substr(-7) =
+=3D=3D '.submit')=0A=
+                    elem.style.display =3D 'none';=0A=
+            }=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+/*  getElementsByClassName=0A=
+    Developed by Robert Nyman, http://www.robertnyman.com=0A=
+    Code/licensing: http://code.google.com/p/getelementsbyclassname/ =
+(MIT license)=0A=
+    Version: 1.0.1=0A=
+*/  =0A=
+var getElementsByClassName =3D function (className, tag, elm){=0A=
+    if (document.getElementsByClassName) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            elm =3D elm || document;=0A=
+            var elements =3D elm.getElementsByClassName(className),=0A=
+                nodeName =3D (tag)? new RegExp("\\b" + tag + "\\b", "i") =
+: null,=0A=
+                returnElements =3D [],=0A=
+                current;=0A=
+            for(var i=3D0, il=3Delements.length; i<il; i+=3D1){=0A=
+                current =3D elements[i];=0A=
+                if(!nodeName || nodeName.test(current.nodeName)) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else if (document.evaluate) {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D "",=0A=
+                xhtmlNamespace =3D "http://www.w3.org/1999/xhtml",=0A=
+                namespaceResolver =3D =
+(document.documentElement.namespaceURI =3D=3D=3D xhtmlNamespace)? =
+xhtmlNamespace : null,=0A=
+                returnElements =3D [],=0A=
+                elements,=0A=
+                node;=0A=
+            for(var j=3D0, jl=3Dclasses.length; j<jl; j+=3D1){=0A=
+                classesToCheck +=3D "[contains(concat(' ', @class, ' '), =
+' " + classes[j] + " ')]";=0A=
+            }=0A=
+            try {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, namespaceResolver, 0, null);=0A=
+            }=0A=
+            catch (e) {=0A=
+                elements =3D document.evaluate(".//" + tag + =
+classesToCheck, elm, null, 0, null);=0A=
+            }=0A=
+            while ((node =3D elements.iterateNext())) {=0A=
+                returnElements.push(node);=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    else {=0A=
+        getElementsByClassName =3D function (className, tag, elm) {=0A=
+            tag =3D tag || "*";=0A=
+            elm =3D elm || document;=0A=
+            var classes =3D className.split(" "),=0A=
+                classesToCheck =3D [],=0A=
+                elements =3D (tag =3D=3D=3D "*" && elm.all)? elm.all : =
+elm.getElementsByTagName(tag),=0A=
+                current,=0A=
+                returnElements =3D [],=0A=
+                match;=0A=
+            for(var k=3D0, kl=3Dclasses.length; k<kl; k+=3D1){=0A=
+                classesToCheck.push(new RegExp("(^|\\s)" + classes[k] + =
+"(\\s|$)"));=0A=
+            }=0A=
+            for(var l=3D0, ll=3Delements.length; l<ll; l+=3D1){=0A=
+                current =3D elements[l];=0A=
+                match =3D false;=0A=
+                for(var m=3D0, ml=3DclassesToCheck.length; m<ml; m+=3D1){=0A=
+                    match =3D classesToCheck[m].test(current.className);=0A=
+                    if (!match) {=0A=
+                        break;=0A=
+                    }=0A=
+                }=0A=
+                if (match) {=0A=
+                    returnElements.push(current);=0A=
+                }=0A=
+            }=0A=
+            return returnElements;=0A=
+        };=0A=
+    }=0A=
+    return getElementsByClassName(className, tag, elm);=0A=
+};=0A=
+=0A=
+
+------=_NextPart_000_0000_01CFB033.47A57480--

@@ -1,0 +1,3116 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: S4: Distributed Stream Computing Platform
+Date: Mon, 4 Aug 2014 22:39:56 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFB035.04572910"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+     <TITLE>S4: Distributed Stream Computing Platform</TITLE>    =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">    =20
+<META name=3D"description" content=3D"A general-purpose distributed =
+stream computing platform">=20
+    <LINK href=3D"http://incubator.apache.org/s4/style/screen.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css" media=3D"screen">     <LINK =
+href=3D"http://incubator.apache.org/s4/style/print.css"=20
+rel=3D"stylesheet" type=3D"text/css" media=3D"print">     <!--[if lt IE =
+9]>=0A=
+      <link href=3D"style/ie.css" media=3D"screen" rel=3D"stylesheet" =
+type=3D"text/css">=0A=
+    <![endif]-->=20
+    <LINK href=3D"http://incubator.apache.org/s4/style/style.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css">     <LINK =
+href=3D"http://incubator.apache.org/s4/style/nav.css"=20
+rel=3D"stylesheet" type=3D"text/css">    =20
+<SCRIPT type=3D"text/javascript">=0A=
+        var _gaq =3D _gaq || [];=0A=
+        _gaq.push(['_setAccount', 'UA-19490961-1']);=0A=
+        _gaq.push(['_setDomainName', 'incubator.apache.org']);=0A=
+        _gaq.push(['_trackPageview']);=0A=
+        (function() {=0A=
+          var ga =3D document.createElement('script'); ga.type =3D =
+'text/javascript'; ga.async =3D true;=0A=
+          ga.src =3D ('https:' =3D=3D document.location.protocol ? =
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';=0A=
+          var s =3D document.getElementsByTagName('script')[0]; =
+s.parentNode.insertBefore(ga, s);=0A=
+        })();=0A=
+      </SCRIPT>
+     <LINK href=3D"http://incubator.apache.org/s4/style/coderay.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css">     <LINK =
+href=3D"http://incubator.apache.org/s4/style/pygmentize.css"=20
+rel=3D"stylesheet" type=3D"text/css">  =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>  =20
+<BODY>
+<DIV id=3D"header">
+<DIV class=3D"container">
+<DIV id=3D"logo"><A href=3D"http://incubator.apache.org/s4/"><IMG =
+src=3D"http://incubator.apache.org/s4/images/s4_test.png">=20
+          </A>         </DIV>
+<DIV id=3D"navbar">
+<UL id=3D"nav">
+  <LI><A href=3D"http://incubator.apache.org/s4/">home</A></LI>
+  <LI><A href=3D"http://incubator.apache.org/s4/doc/0.6.0">doc</A></LI>
+  <LI><A onclick=3D"_gaq.push(['_trackEvent', 'External', 'Apache Git', =
+'http://github.com/s4']);"=20
+  =
+href=3D"http://git-wip-us.apache.org/repos/asf?p=3Dincubator-s4.git">code=
+</A></LI>
+  <LI><A =
+href=3D"http://people.apache.org/~mmorel/apache-s4-0.6.0-incubating-doc/j=
+avadoc/">API</A></LI>
+  <LI><A href=3D"http://incubator.apache.org/s4/contrib">get =
+involved</A></LI>
+  <LI><A href=3D"http://incubator.apache.org/s4/team">team</A></LI>
+  <LI><A=20
+href=3D"http://incubator.apache.org/s4/download">download</A></LI></UL></=
+DIV></DIV></DIV>
+<DIV id=3D"wrapper">
+<DIV class=3D"container" id=3D"container">
+<DIV class=3D"span-18 colborder" id=3D"main">
+<DIV class=3D"span-18 last" id=3D"about">
+<DIV class=3D"span-17 last" id=3D"notice">
+<DIV id=3D"notice_text">June 2013: <B>S4 0.6.0 released,</B> get it <A =
+href=3D"http://incubator.apache.org/s4/download">here</A>!</DIV></DIV>=20
+           =20
+<DIV class=3D"span-17 last" id=3D"notice">
+<DIV id=3D"notice_text">S4 0.6.0 focuses on configurability and =
+performance. More=20
+information is available in an <A =
+href=3D"http://incubator.apache.org/s4/doc/0.6.0/overview/">overview</A> =
+
+and you may also check the <A =
+href=3D"http://www.apache.org/dist/incubator/s4/s4-0.6.0-incubating/RELEA=
+SE_NOTES.html">release=20
+notes</A>.</DIV></DIV>            =20
+<P class=3D"large">S4 is a <SPAN class=3D"high">general-purpose</SPAN>, =
+<SPAN class=3D"high">distributed</SPAN>,=20
+<SPAN class=3D"high">scalable</SPAN>, <SPAN =
+class=3D"high">fault-tolerant</SPAN>,=20
+<SPAN class=3D"high">pluggable</SPAN> platform that allows programmers =
+to easily=20
+develop applications for processing continuous unbounded streams of =
+data.</P>
+<DIV class=3D"horrule"></DIV>
+<DIV class=3D"span-9" id=3D"sec_motivation">
+<H2 class=3D"secheader">motivation</H2>
+<P>S4 fills the gap between complex proprietary systems and =
+batch-oriented open=20
+source computing platforms. We aim to develop a high performance =
+computing=20
+platform that hides the complexity inherent in parallel processing =
+system from=20
+the application programmer.</P></DIV>            =20
+<DIV class=3D"span-9 last" id=3D"sec_implementation">
+<H2 class=3D"secheader">implementation</H2>
+<P>The core platform is written in <SPAN class=3D"high">Java</SPAN>. The =
+
+implementation is modular and pluggable, and S4 applications can be =
+easily and=20
+dynamically combined for creating more sophisticated stream processing=20
+systems.</P></DIV>            =20
+<DIV class=3D"horrule"></DIV>
+<DIV class=3D"span-18 last" id=3D"sec_osi">
+<H2 class=3D"secheader">open source</H2>
+<DIV class=3D"span-2" id=3D"os_logo"><IMG =
+src=3D"http://incubator.apache.org/images/apache-incubator-logo.png">=20
+              </DIV>              =20
+<DIV class=3D"span-14 last" id=3D"os_desc">
+<P style=3D"padding-top: 10px; padding-left: 170px;">S4 was initially =
+released by=20
+Yahoo! Inc. in October 2010 and is an Apache Incubator project since =
+September=20
+2011. It is licensed under the Apache 2.0 license.</P></DIV>             =
+</DIV> =20
+          =20
+<DIV class=3D"horrule"></DIV>
+<DIV class=3D"span-18 last" id=3D"sec_overview">
+<H2 class=3D"secheader">overview</H2>
+<DIV class=3D"span-6" id=3D"ov_1">
+<H4 class=3D"subsecheader">proven</H4>
+<P>S4 has been deployed in production systems at Yahoo! to process =
+thousands of=20
+search queries per second.</P></DIV>              =20
+<DIV class=3D"span-6" id=3D"ov_2">
+<H4 class=3D"subsecheader">decentralized</H4>
+<P>All nodes are symmetric with no centralized service and no single =
+point of=20
+failure. This greatly simplifies deployments and cluster configuration=20
+changes.</P></DIV>              =20
+<DIV class=3D"span-6 last" id=3D"ov_3">
+<H4 class=3D"subsecheader">scalable</H4>
+<P>Throughput increases linearly as additional nodes are added to the =
+cluster.=20
+There is no predefined limit on the number of nodes that can be=20
+supported.</P></DIV>              =20
+<DIV class=3D"span-6" id=3D"ov_4">
+<H4 class=3D"subsecheader">extensible</H4>
+<P>Applications can easily be written and deployed using a simple API. =
+Building=20
+blocks of the platform (message queues and processors, serializer, =
+checkpointing=20
+backend) can be replaced by custom implementations.</P></DIV>            =
+  =20
+<DIV class=3D"span-6" id=3D"ov_5">
+<H4 class=3D"subsecheader">cluster management</H4>
+<P>S4 hides all cluster management tasks using a communication layer =
+built on=20
+top of  <A href=3D"http://hadoop.apache.org/zookeeper">ZooKeeper</A>, a=20
+distributed, open-source coordination service for distributed=20
+applications.</P></DIV>              =20
+<DIV class=3D"span-6 last" id=3D"ov_6">
+<H4 class=3D"subsecheader">fault-tolerance</H4>
+<P>When a server in the cluster fails, a stand-by server is =
+automatically=20
+activated to take over the tasks. Checkpointing and recovery minimize =
+state=20
+loss.</P></DIV>             </DIV>            =20
+<DIV class=3D"horrule"></DIV>
+<DIV class=3D"span-18" id=3D"sec_motivation">
+<H2 class=3D"secheader">disclaimer</H2>
+<P>Apache S4 is an effort undergoing incubation at the Apache Software=20
+Foundation (ASF), sponsored by the Apache Incubator PMC.  Incubation is =
+required=20
+of all newly accepted projects until a further review indicates that the =
+
+infrastructure, communications, and decision making process have =
+stabilized in a=20
+manner consistent with other successful ASF projects.  While incubation =
+status=20
+is not necessarily a reflection of the completeness or stability of the =
+code, it=20
+does indicate that the project has yet to be fully endorsed by the=20
+ASF.</P></DIV>           </DIV>         </DIV>        =20
+<DIV class=3D"span-5 last" id=3D"sidebar">
+<DIV id=3D"download">
+<DIV id=3D"latest_head"><SPAN>S4 release</SPAN>               <BR><SPAN =
+style=3D"font-size: small;">v0.6.0</SPAN>=20
+            </DIV>
+<DIV id=3D"latest_link"><A style=3D"border: currentColor; border-image: =
+none;" href=3D"http://incubator.apache.org/s4/doc/0.6.0/">Get=20
+Started</A>             </DIV>
+<DIV id=3D"disclaimer">
+<P>There is no guarantee of backwards-compatibility until the 1.0=20
+release.</P></DIV></DIV>
+<DIV id=3D"participate">
+<H2 class=3D"secheader">participate</H2>
+<UL class=3D"large greybar">
+  <LI><A =
+href=3D"http://incubator.apache.org/s4/contrib">Contribute</A></LI>
+  <LI>Join the <A onclick=3D"_gaq.push(['_trackEvent', 'External', =
+'Forum', 'Index - =
+https://cwiki.apache.org/confluence/display/S4/S4+Apache+mailing+lists'])=
+;"=20
+  =
+href=3D"https://cwiki.apache.org/confluence/display/S4/S4+Apache+mailing+=
+lists">forum</A>=20
+  </LI></UL></DIV>
+<H2 class=3D"secheader">recent tweets</H2>
+<DIV id=3D"twitter_widget">
+<SCRIPT src=3D"http://widgets.twimg.com/j/2/widget.js"></SCRIPT>
+              =20
+<SCRIPT>=0A=
+              new TWTR.Widget({=0A=
+                version: 2,=0A=
+                type: 'profile',=0A=
+                rpp: 4,=0A=
+                interval: 6000,=0A=
+                width: 190,=0A=
+                height: 300,=0A=
+                theme: {=0A=
+                  shell: {=0A=
+                    background: '#e6e6e6',=0A=
+                    color: '#707070'=0A=
+                  },=0A=
+                  tweets: {=0A=
+                    background: '#ffffff',=0A=
+                    color: '#333333',=0A=
+                    links: '#7E2217'=0A=
+                  }=0A=
+                },=0A=
+                features: {=0A=
+                  scrollbar: false,=0A=
+                  loop: false,=0A=
+                  live: false,=0A=
+                  hashtags: true,=0A=
+                  timestamp: true,=0A=
+                  avatars: false,=0A=
+                  behavior: 'all'=0A=
+                }=0A=
+              }).render().setUser('s4project').start();=0A=
+              </SCRIPT>
+           </DIV></DIV>         <!-- =
+#twitter_follow{:style=3D>"position: absolute; bottom: 0px;"} -->=20
+        <!-- %a{:href=3D>"http://www.twitter.com/s4project", =
+:onClick=3D> google_analytics_event("External", "Twitter", "Index - =
+http://www.twitter.com/s4project")} -->=20
+        <!-- =
+%img{:src=3D>"http://twitter-badges.s3.amazonaws.com/follow_bird_us-c.png=
+", :alt=3D>"Follow s4project on Twitter"} -->=20
+      </DIV></DIV>
+<DIV id=3D"footer">
+<DIV class=3D"container"><SPAN class=3D"copyright">Apache S4 - Copyright =
+2013 The=20
+Apache Software Foundation</SPAN>       </DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://incubator.apache.org/s4/images/s4_test.png
+
+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
+rkJggg==
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://incubator.apache.org/images/apache-incubator-logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAAOUAAAA5CAMAAAD+6xxwAAAC9FBMVEUAAAAVFRUCAgJWVlY6OjpS
+UlLKysr+/v42NjZqamr6+vqysrLy8vKOjo4rKyuCgoK6urpaWlrm5uaqqqqmpqaioqKenp8fHx+u
+rq5iYmIODg729vXi4uLr6efe3t0aGhrb2tvX1tXOzs5ycnLS0tLGxsbDwsF+fn7u7u6+vr62trYm
+JiZ6enoKCgqampqWlpZubm5KSkqSkpKKioqGhoZOTk52dnZmZmZeXl4+Pj5CQkIyMjKbo6ZGRkaG
+jpZKWmKOnqbq0NbUoanMfIXWlpbisrp5i5Xu2ta5DjOcE0rcAi2+BjDmBDCsHzLWSlamTELZq6Ni
+b3SudJayCUKaEC+UCTzuAy+rEUW6LTTWPjKeOzHGfmrOrJpXaW1qEEp9CkiyCDDKBin5AzCuGirB
+Y1c6SU2WcqZiGFiCCmOGEUugClOOEUeiCDXXBy+6NjjWTTaSLjbEbGBiSnpSGm5CCmVnEIFyClJ2
+EGawCk++B0fKB0OqEjDGEi3DUDquOi67QDcKAgwqIDpCIFw6FU5LDoJmCluOCmKSClG+XDbOioZ6
+WoZOFlpKIVsSAxsyGjo1ClJPCnFaDnrWYlKsbFK+jmrOso6GDmJWH1ZCE2BqEmLKBzbWEy65FDPO
+KirmUDq2TEK2emqeHk49H09PDlh3EUzmNjKzdUWUY0D25+6/HDBmH2pYEHFKEm5eKmhaGlqZEDv6
+NjZ6IkrCJTKTD2JyKl5ZIGlSKmAeBiZKKGBaEVvGNja+HkqrEFqeJlp+D3ViDl7GNlrWybOsVD++
+QlK2DlJ2GlaOHlpSMmIyBirWwqauXkTePjraBzvOvpq+kkqpKCzW1rbOxnLKpkbWJjK2ipauYnKW
+blLGUmLOEjLizrL+VkLWOjLGqmLWznLuekLWikKunkqOgjrGtk6elk7eLjK2gkqxnELe1lKmnlK6
+q0jCuYY6JkpSAiKklEC2pkrWslL24lqeij56ZjKsiUKjfkWRdjqyjVLiulKSiDbmQjLDuW22rnKa
+ng5sAAAAAXRSTlMAQObYZgAAAAlwSFlzAAALDgAACw4BQL7hQQAAAAd0SU1FB9MKFw4OGS92G+IA
+AA0cSURBVHic7Vp7fFPVHTfnJrlpaNI2t+1tm5DQ3ob0Rd8vWiqIWksanyWBodCkyFpqW3SWUgoM
+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
+7J6c5wAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/screen.css
+
+html {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none;
+}
+.bp-reset-element {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+h6 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+article {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+aside {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+details {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+figcaption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+figure {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+footer {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+header {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+hgroup {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+menu {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+nav {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+section {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+summary {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+blockquote {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+q {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+th {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+td {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+caption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+table {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+span {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+object {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+iframe {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+pre {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+a {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+abbr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+acronym {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+address {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+code {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+del {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+dfn {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+em {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+label {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+legend {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+caption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+tbody {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+tfoot {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+thead {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+tr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; font-family: inherit; font-size: 100%; font-style: inherit; =
+font-weight: inherit; vertical-align: baseline;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+summary {
+	display: block;
+}
+blockquote {
+	quotes: "" "";
+}
+q {
+	quotes: "" "";
+}
+blockquote::before {
+	content: "";
+}
+blockquote::after {
+	content: "";
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+th {
+	text-align: left; font-weight: normal; vertical-align: middle; float: =
+none !important;
+}
+td {
+	text-align: left; font-weight: normal; vertical-align: middle; float: =
+none !important;
+}
+caption {
+	text-align: left; font-weight: normal; vertical-align: middle; float: =
+none !important;
+}
+table {
+	vertical-align: middle; border-collapse: separate; border-spacing: 0;
+}
+a img {
+	border: currentColor; border-image: none;
+}
+body {
+	color: rgb(51, 51, 51); line-height: 1.5; font-family: "Helvetica =
+Neue", Arial, Helvetica, sans-serif; font-size: 75%;
+}
+h1 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h2 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h3 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h4 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h5 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h6 {
+	color: rgb(34, 34, 34); font-weight: normal;
+}
+h1 img {
+	margin: 0px;
+}
+h2 img {
+	margin: 0px;
+}
+h3 img {
+	margin: 0px;
+}
+h4 img {
+	margin: 0px;
+}
+h5 img {
+	margin: 0px;
+}
+h6 img {
+	margin: 0px;
+}
+h1 {
+	line-height: 1; font-size: 3em; margin-bottom: 0.5em;
+}
+h2 {
+	font-size: 2em; margin-bottom: 0.75em;
+}
+h3 {
+	line-height: 1; font-size: 1.5em; margin-bottom: 1em;
+}
+h4 {
+	line-height: 1.25; font-size: 1.2em; margin-bottom: 1.25em;
+}
+h5 {
+	font-size: 1em; font-weight: bold; margin-bottom: 1.5em;
+}
+h6 {
+	font-size: 1em; font-weight: bold;
+}
+p {
+	margin: 0px 0px 1.5em;
+}
+p .left {
+	margin: 1.5em 1.5em 1.5em 0px; padding: 0px; float: left; display: =
+inline;
+}
+p .right {
+	margin: 1.5em 0px 1.5em 1.5em; padding: 0px; float: right; display: =
+inline;
+}
+a {
+	color: rgb(0, 102, 204); text-decoration: underline;
+}
+a:visited {
+	color: rgb(0, 76, 153);
+}
+a:focus {
+	color: rgb(0, 153, 255);
+}
+a:hover {
+	color: rgb(0, 153, 255);
+}
+a:active {
+	color: rgb(191, 0, 255);
+}
+blockquote {
+	margin: 1.5em; color: rgb(102, 102, 102); font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+dfn {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+dfn {
+	font-style: italic;
+}
+sup {
+	line-height: 0;
+}
+sub {
+	line-height: 0;
+}
+abbr {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+acronym {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+address {
+	margin: 0px 0px 1.5em; font-style: italic;
+}
+del {
+	color: rgb(102, 102, 102);
+}
+pre {
+	margin: 1.5em 0px; white-space: pre;
+}
+pre {
+	font: 1em/1.5 "andale mono", "lucida console", monospace; =
+font-size-adjust: none; font-stretch: normal;
+}
+code {
+	font: 1em/1.5 "andale mono", "lucida console", monospace; =
+font-size-adjust: none; font-stretch: normal;
+}
+tt {
+	font: 1em/1.5 "andale mono", "lucida console", monospace; =
+font-size-adjust: none; font-stretch: normal;
+}
+li ul {
+	margin: 0px;
+}
+li ol {
+	margin: 0px;
+}
+ul {
+	margin: 0px 1.5em 1.5em 0px; padding-left: 1.5em;
+}
+ol {
+	margin: 0px 1.5em 1.5em 0px; padding-left: 1.5em;
+}
+ul {
+	list-style-type: disc;
+}
+ol {
+	list-style-type: decimal;
+}
+dl {
+	margin: 0px 0px 1.5em;
+}
+dl dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: 1.5em;
+}
+table {
+	width: 100%; margin-bottom: 1.4em;
+}
+th {
+	font-weight: bold;
+}
+thead th {
+	background: rgb(195, 217, 255);
+}
+th {
+	padding: 4px 10px 4px 5px;
+}
+td {
+	padding: 4px 10px 4px 5px;
+}
+caption {
+	padding: 4px 10px 4px 5px;
+}
+table.striped tr:nth-child(2n) td {
+	background: rgb(229, 236, 249);
+}
+table tr.even td {
+	background: rgb(229, 236, 249);
+}
+tfoot {
+	font-style: italic;
+}
+caption {
+	background: rgb(238, 238, 238);
+}
+.quiet {
+	color: rgb(102, 102, 102);
+}
+.loud {
+	color: rgb(17, 17, 17);
+}
+.clear {
+	clear: both;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.clearfix {
+	overflow: hidden;
+}
+.small {
+	line-height: 1.87em; font-size: 0.8em; margin-bottom: 1.87em;
+}
+.large {
+	line-height: 2.5em; font-size: 1.2em; margin-bottom: 1.25em;
+}
+.first {
+	padding-left: 0px; margin-left: 0px;
+}
+.last {
+	padding-right: 0px; margin-right: 0px;
+}
+.top {
+	padding-top: 0px; margin-top: 0px;
+}
+.bottom {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+.container {
+	margin: 0px auto; width: 950px; overflow: hidden;
+}
+.column {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-1 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-2 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-3 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-4 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-5 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-6 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-7 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-8 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-9 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-10 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-11 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-12 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-13 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-14 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-15 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-16 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-17 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-18 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-19 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-20 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-21 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-22 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-23 {
+	margin-right: 10px; float: left; display: inline;
+}
+.span-24 {
+	margin-right: 10px; float: left; display: inline;
+}
+* html .column {
+	-ms-overflow-x: hidden;
+}
+* html .span-1 {
+	-ms-overflow-x: hidden;
+}
+* html .span-2 {
+	-ms-overflow-x: hidden;
+}
+* html .span-3 {
+	-ms-overflow-x: hidden;
+}
+* html .span-4 {
+	-ms-overflow-x: hidden;
+}
+* html .span-5 {
+	-ms-overflow-x: hidden;
+}
+* html .span-6 {
+	-ms-overflow-x: hidden;
+}
+* html .span-7 {
+	-ms-overflow-x: hidden;
+}
+* html .span-8 {
+	-ms-overflow-x: hidden;
+}
+* html .span-9 {
+	-ms-overflow-x: hidden;
+}
+* html .span-10 {
+	-ms-overflow-x: hidden;
+}
+* html .span-11 {
+	-ms-overflow-x: hidden;
+}
+* html .span-12 {
+	-ms-overflow-x: hidden;
+}
+* html .span-13 {
+	-ms-overflow-x: hidden;
+}
+* html .span-14 {
+	-ms-overflow-x: hidden;
+}
+* html .span-15 {
+	-ms-overflow-x: hidden;
+}
+* html .span-16 {
+	-ms-overflow-x: hidden;
+}
+* html .span-17 {
+	-ms-overflow-x: hidden;
+}
+* html .span-18 {
+	-ms-overflow-x: hidden;
+}
+* html .span-19 {
+	-ms-overflow-x: hidden;
+}
+* html .span-20 {
+	-ms-overflow-x: hidden;
+}
+* html .span-21 {
+	-ms-overflow-x: hidden;
+}
+* html .span-22 {
+	-ms-overflow-x: hidden;
+}
+* html .span-23 {
+	-ms-overflow-x: hidden;
+}
+* html .span-24 {
+	-ms-overflow-x: hidden;
+}
+.last {
+	margin-right: 0px;
+}
+.span-1 {
+	width: 30px;
+}
+.span-2 {
+	width: 70px;
+}
+.span-3 {
+	width: 110px;
+}
+.span-4 {
+	width: 150px;
+}
+.span-5 {
+	width: 190px;
+}
+.span-6 {
+	width: 230px;
+}
+.span-7 {
+	width: 270px;
+}
+.span-8 {
+	width: 310px;
+}
+.span-9 {
+	width: 350px;
+}
+.span-10 {
+	width: 390px;
+}
+.span-11 {
+	width: 430px;
+}
+.span-12 {
+	width: 470px;
+}
+.span-13 {
+	width: 510px;
+}
+.span-14 {
+	width: 550px;
+}
+.span-15 {
+	width: 590px;
+}
+.span-16 {
+	width: 630px;
+}
+.span-17 {
+	width: 670px;
+}
+.span-18 {
+	width: 710px;
+}
+.span-19 {
+	width: 750px;
+}
+.span-20 {
+	width: 790px;
+}
+.span-21 {
+	width: 830px;
+}
+.span-22 {
+	width: 870px;
+}
+.span-23 {
+	width: 910px;
+}
+.span-24 {
+	margin: 0px; width: 950px;
+}
+input.span-1 {
+	width: 30px;
+}
+textarea.span-1 {
+	width: 30px;
+}
+select.span-1 {
+	width: 30px;
+}
+input.span-2 {
+	width: 70px;
+}
+textarea.span-2 {
+	width: 70px;
+}
+select.span-2 {
+	width: 70px;
+}
+input.span-3 {
+	width: 110px;
+}
+textarea.span-3 {
+	width: 110px;
+}
+select.span-3 {
+	width: 110px;
+}
+input.span-4 {
+	width: 150px;
+}
+textarea.span-4 {
+	width: 150px;
+}
+select.span-4 {
+	width: 150px;
+}
+input.span-5 {
+	width: 190px;
+}
+textarea.span-5 {
+	width: 190px;
+}
+select.span-5 {
+	width: 190px;
+}
+input.span-6 {
+	width: 230px;
+}
+textarea.span-6 {
+	width: 230px;
+}
+select.span-6 {
+	width: 230px;
+}
+input.span-7 {
+	width: 270px;
+}
+textarea.span-7 {
+	width: 270px;
+}
+select.span-7 {
+	width: 270px;
+}
+input.span-8 {
+	width: 310px;
+}
+textarea.span-8 {
+	width: 310px;
+}
+select.span-8 {
+	width: 310px;
+}
+input.span-9 {
+	width: 350px;
+}
+textarea.span-9 {
+	width: 350px;
+}
+select.span-9 {
+	width: 350px;
+}
+input.span-10 {
+	width: 390px;
+}
+textarea.span-10 {
+	width: 390px;
+}
+select.span-10 {
+	width: 390px;
+}
+input.span-11 {
+	width: 430px;
+}
+textarea.span-11 {
+	width: 430px;
+}
+select.span-11 {
+	width: 430px;
+}
+input.span-12 {
+	width: 470px;
+}
+textarea.span-12 {
+	width: 470px;
+}
+select.span-12 {
+	width: 470px;
+}
+input.span-13 {
+	width: 510px;
+}
+textarea.span-13 {
+	width: 510px;
+}
+select.span-13 {
+	width: 510px;
+}
+input.span-14 {
+	width: 550px;
+}
+textarea.span-14 {
+	width: 550px;
+}
+select.span-14 {
+	width: 550px;
+}
+input.span-15 {
+	width: 590px;
+}
+textarea.span-15 {
+	width: 590px;
+}
+select.span-15 {
+	width: 590px;
+}
+input.span-16 {
+	width: 630px;
+}
+textarea.span-16 {
+	width: 630px;
+}
+select.span-16 {
+	width: 630px;
+}
+input.span-17 {
+	width: 670px;
+}
+textarea.span-17 {
+	width: 670px;
+}
+select.span-17 {
+	width: 670px;
+}
+input.span-18 {
+	width: 710px;
+}
+textarea.span-18 {
+	width: 710px;
+}
+select.span-18 {
+	width: 710px;
+}
+input.span-19 {
+	width: 750px;
+}
+textarea.span-19 {
+	width: 750px;
+}
+select.span-19 {
+	width: 750px;
+}
+input.span-20 {
+	width: 790px;
+}
+textarea.span-20 {
+	width: 790px;
+}
+select.span-20 {
+	width: 790px;
+}
+input.span-21 {
+	width: 830px;
+}
+textarea.span-21 {
+	width: 830px;
+}
+select.span-21 {
+	width: 830px;
+}
+input.span-22 {
+	width: 870px;
+}
+textarea.span-22 {
+	width: 870px;
+}
+select.span-22 {
+	width: 870px;
+}
+input.span-23 {
+	width: 910px;
+}
+textarea.span-23 {
+	width: 910px;
+}
+select.span-23 {
+	width: 910px;
+}
+input.span-24 {
+	width: 950px;
+}
+textarea.span-24 {
+	width: 950px;
+}
+select.span-24 {
+	width: 950px;
+}
+.append-1 {
+	padding-right: 40px;
+}
+.append-2 {
+	padding-right: 80px;
+}
+.append-3 {
+	padding-right: 120px;
+}
+.append-4 {
+	padding-right: 160px;
+}
+.append-5 {
+	padding-right: 200px;
+}
+.append-6 {
+	padding-right: 240px;
+}
+.append-7 {
+	padding-right: 280px;
+}
+.append-8 {
+	padding-right: 320px;
+}
+.append-9 {
+	padding-right: 360px;
+}
+.append-10 {
+	padding-right: 400px;
+}
+.append-11 {
+	padding-right: 440px;
+}
+.append-12 {
+	padding-right: 480px;
+}
+.append-13 {
+	padding-right: 520px;
+}
+.append-14 {
+	padding-right: 560px;
+}
+.append-15 {
+	padding-right: 600px;
+}
+.append-16 {
+	padding-right: 640px;
+}
+.append-17 {
+	padding-right: 680px;
+}
+.append-18 {
+	padding-right: 720px;
+}
+.append-19 {
+	padding-right: 760px;
+}
+.append-20 {
+	padding-right: 800px;
+}
+.append-21 {
+	padding-right: 840px;
+}
+.append-22 {
+	padding-right: 880px;
+}
+.append-23 {
+	padding-right: 920px;
+}
+.prepend-1 {
+	padding-left: 40px;
+}
+.prepend-2 {
+	padding-left: 80px;
+}
+.prepend-3 {
+	padding-left: 120px;
+}
+.prepend-4 {
+	padding-left: 160px;
+}
+.prepend-5 {
+	padding-left: 200px;
+}
+.prepend-6 {
+	padding-left: 240px;
+}
+.prepend-7 {
+	padding-left: 280px;
+}
+.prepend-8 {
+	padding-left: 320px;
+}
+.prepend-9 {
+	padding-left: 360px;
+}
+.prepend-10 {
+	padding-left: 400px;
+}
+.prepend-11 {
+	padding-left: 440px;
+}
+.prepend-12 {
+	padding-left: 480px;
+}
+.prepend-13 {
+	padding-left: 520px;
+}
+.prepend-14 {
+	padding-left: 560px;
+}
+.prepend-15 {
+	padding-left: 600px;
+}
+.prepend-16 {
+	padding-left: 640px;
+}
+.prepend-17 {
+	padding-left: 680px;
+}
+.prepend-18 {
+	padding-left: 720px;
+}
+.prepend-19 {
+	padding-left: 760px;
+}
+.prepend-20 {
+	padding-left: 800px;
+}
+.prepend-21 {
+	padding-left: 840px;
+}
+.prepend-22 {
+	padding-left: 880px;
+}
+.prepend-23 {
+	padding-left: 920px;
+}
+.pull-1 {
+	float: left; display: inline; position: relative;
+}
+.pull-2 {
+	float: left; display: inline; position: relative;
+}
+.pull-3 {
+	float: left; display: inline; position: relative;
+}
+.pull-4 {
+	float: left; display: inline; position: relative;
+}
+.pull-5 {
+	float: left; display: inline; position: relative;
+}
+.pull-6 {
+	float: left; display: inline; position: relative;
+}
+.pull-7 {
+	float: left; display: inline; position: relative;
+}
+.pull-8 {
+	float: left; display: inline; position: relative;
+}
+.pull-9 {
+	float: left; display: inline; position: relative;
+}
+.pull-10 {
+	float: left; display: inline; position: relative;
+}
+.pull-11 {
+	float: left; display: inline; position: relative;
+}
+.pull-12 {
+	float: left; display: inline; position: relative;
+}
+.pull-13 {
+	float: left; display: inline; position: relative;
+}
+.pull-14 {
+	float: left; display: inline; position: relative;
+}
+.pull-15 {
+	float: left; display: inline; position: relative;
+}
+.pull-16 {
+	float: left; display: inline; position: relative;
+}
+.pull-17 {
+	float: left; display: inline; position: relative;
+}
+.pull-18 {
+	float: left; display: inline; position: relative;
+}
+.pull-19 {
+	float: left; display: inline; position: relative;
+}
+.pull-20 {
+	float: left; display: inline; position: relative;
+}
+.pull-21 {
+	float: left; display: inline; position: relative;
+}
+.pull-22 {
+	float: left; display: inline; position: relative;
+}
+.pull-23 {
+	float: left; display: inline; position: relative;
+}
+.pull-24 {
+	float: left; display: inline; position: relative;
+}
+.pull-1 {
+	margin-left: -40px;
+}
+.pull-2 {
+	margin-left: -80px;
+}
+.pull-3 {
+	margin-left: -120px;
+}
+.pull-4 {
+	margin-left: -160px;
+}
+.pull-5 {
+	margin-left: -200px;
+}
+.pull-6 {
+	margin-left: -240px;
+}
+.pull-7 {
+	margin-left: -280px;
+}
+.pull-8 {
+	margin-left: -320px;
+}
+.pull-9 {
+	margin-left: -360px;
+}
+.pull-10 {
+	margin-left: -400px;
+}
+.pull-11 {
+	margin-left: -440px;
+}
+.pull-12 {
+	margin-left: -480px;
+}
+.pull-13 {
+	margin-left: -520px;
+}
+.pull-14 {
+	margin-left: -560px;
+}
+.pull-15 {
+	margin-left: -600px;
+}
+.pull-16 {
+	margin-left: -640px;
+}
+.pull-17 {
+	margin-left: -680px;
+}
+.pull-18 {
+	margin-left: -720px;
+}
+.pull-19 {
+	margin-left: -760px;
+}
+.pull-20 {
+	margin-left: -800px;
+}
+.pull-21 {
+	margin-left: -840px;
+}
+.pull-22 {
+	margin-left: -880px;
+}
+.pull-23 {
+	margin-left: -920px;
+}
+.pull-24 {
+	margin-left: -960px;
+}
+.push-1 {
+	float: left; display: inline; position: relative;
+}
+.push-2 {
+	float: left; display: inline; position: relative;
+}
+.push-3 {
+	float: left; display: inline; position: relative;
+}
+.push-4 {
+	float: left; display: inline; position: relative;
+}
+.push-5 {
+	float: left; display: inline; position: relative;
+}
+.push-6 {
+	float: left; display: inline; position: relative;
+}
+.push-7 {
+	float: left; display: inline; position: relative;
+}
+.push-8 {
+	float: left; display: inline; position: relative;
+}
+.push-9 {
+	float: left; display: inline; position: relative;
+}
+.push-10 {
+	float: left; display: inline; position: relative;
+}
+.push-11 {
+	float: left; display: inline; position: relative;
+}
+.push-12 {
+	float: left; display: inline; position: relative;
+}
+.push-13 {
+	float: left; display: inline; position: relative;
+}
+.push-14 {
+	float: left; display: inline; position: relative;
+}
+.push-15 {
+	float: left; display: inline; position: relative;
+}
+.push-16 {
+	float: left; display: inline; position: relative;
+}
+.push-17 {
+	float: left; display: inline; position: relative;
+}
+.push-18 {
+	float: left; display: inline; position: relative;
+}
+.push-19 {
+	float: left; display: inline; position: relative;
+}
+.push-20 {
+	float: left; display: inline; position: relative;
+}
+.push-21 {
+	float: left; display: inline; position: relative;
+}
+.push-22 {
+	float: left; display: inline; position: relative;
+}
+.push-23 {
+	float: left; display: inline; position: relative;
+}
+.push-24 {
+	float: left; display: inline; position: relative;
+}
+.push-1 {
+	margin: 0px -40px 1.5em 40px;
+}
+.push-2 {
+	margin: 0px -80px 1.5em 80px;
+}
+.push-3 {
+	margin: 0px -120px 1.5em 120px;
+}
+.push-4 {
+	margin: 0px -160px 1.5em 160px;
+}
+.push-5 {
+	margin: 0px -200px 1.5em 200px;
+}
+.push-6 {
+	margin: 0px -240px 1.5em 240px;
+}
+.push-7 {
+	margin: 0px -280px 1.5em 280px;
+}
+.push-8 {
+	margin: 0px -320px 1.5em 320px;
+}
+.push-9 {
+	margin: 0px -360px 1.5em 360px;
+}
+.push-10 {
+	margin: 0px -400px 1.5em 400px;
+}
+.push-11 {
+	margin: 0px -440px 1.5em 440px;
+}
+.push-12 {
+	margin: 0px -480px 1.5em 480px;
+}
+.push-13 {
+	margin: 0px -520px 1.5em 520px;
+}
+.push-14 {
+	margin: 0px -560px 1.5em 560px;
+}
+.push-15 {
+	margin: 0px -600px 1.5em 600px;
+}
+.push-16 {
+	margin: 0px -640px 1.5em 640px;
+}
+.push-17 {
+	margin: 0px -680px 1.5em 680px;
+}
+.push-18 {
+	margin: 0px -720px 1.5em 720px;
+}
+.push-19 {
+	margin: 0px -760px 1.5em 760px;
+}
+.push-20 {
+	margin: 0px -800px 1.5em 800px;
+}
+.push-21 {
+	margin: 0px -840px 1.5em 840px;
+}
+.push-22 {
+	margin: 0px -880px 1.5em 880px;
+}
+.push-23 {
+	margin: 0px -920px 1.5em 920px;
+}
+.push-24 {
+	margin: 0px -960px 1.5em 960px;
+}
+.prepend-top {
+	margin-top: 1.5em;
+}
+.append-bottom {
+	margin-bottom: 1.5em;
+}
+.showgrid {
+	background-position: left top; background-size: 100% 18px, auto; =
+-webkit-background-size: 100% 18px, auto; -moz-background-size: 100% =
+18px, auto; -o-background-size: 100% 18px, auto;
+}
+.feedback {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.error {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.alert {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.notice {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.success {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.info {
+	padding: 0.8em; border: 2px solid rgb(221, 221, 221); border-image: =
+none; margin-bottom: 1em;
+}
+.error {
+	background: rgb(251, 227, 228); border-color: rgb(251, 194, 196); =
+color: rgb(138, 31, 17);
+}
+.alert {
+	background: rgb(251, 227, 228); border-color: rgb(251, 194, 196); =
+color: rgb(138, 31, 17);
+}
+.error a {
+	color: rgb(138, 31, 17);
+}
+.alert a {
+	color: rgb(138, 31, 17);
+}
+.notice {
+	background: rgb(255, 246, 191); border-color: rgb(255, 211, 36); color: =
+rgb(81, 71, 33);
+}
+.notice a {
+	color: rgb(81, 71, 33);
+}
+.success {
+	background: rgb(230, 239, 194); border-color: rgb(198, 216, 128); =
+color: rgb(38, 68, 9);
+}
+.success a {
+	color: rgb(38, 68, 9);
+}
+.info {
+	background: rgb(213, 237, 248); border-color: rgb(146, 202, 228); =
+color: rgb(32, 87, 145);
+}
+.info a {
+	color: rgb(32, 87, 145);
+}
+.hide {
+	display: none;
+}
+.highlight {
+	background: yellow;
+}
+.added {
+	background: rgb(0, 102, 0); color: white;
+}
+.removed {
+	background: rgb(153, 0, 0); color: white;
+}
+label {
+	font-weight: bold;
+}
+fieldset {
+	margin: 0px 0px 1.5em; padding: 1.4em;
+}
+legend {
+	font-size: 1.2em; font-weight: bold;
+}
+input.text {
+	margin: 0.5em 0px; padding: 5px; background-color: white;
+}
+input.title {
+	margin: 0.5em 0px; padding: 5px; background-color: white;
+}
+input[type=3Demail] {
+	margin: 0.5em 0px; padding: 5px; background-color: white;
+}
+input[type=3Dtext] {
+	margin: 0.5em 0px; padding: 5px; background-color: white;
+}
+input[type=3Dpassword] {
+	margin: 0.5em 0px; padding: 5px; background-color: white;
+}
+input.title {
+	font-size: 1.5em;
+}
+textarea {
+	margin: 0.5em 0px; padding: 5px;
+}
+select {
+	margin: 0.5em 0px;
+}
+fieldset {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+input.text {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+input.title {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+input[type=3Demail] {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+input[type=3Dtext] {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+input[type=3Dpassword] {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+textarea {
+	border: 1px solid rgb(187, 187, 187); border-image: none; =
+background-color: rgb(255, 255, 255);
+}
+input.text:focus {
+	border-color: rgb(102, 102, 102);
+}
+input.title:focus {
+	border-color: rgb(102, 102, 102);
+}
+input[type=3Demail]:focus {
+	border-color: rgb(102, 102, 102);
+}
+input[type=3Dtext]:focus {
+	border-color: rgb(102, 102, 102);
+}
+input[type=3Dpassword]:focus {
+	border-color: rgb(102, 102, 102);
+}
+textarea:focus {
+	border-color: rgb(102, 102, 102);
+}
+select {
+	border-width: 1px; border-style: solid; background-color: rgb(255, 255, =
+255);
+}
+input.text {
+	width: 300px;
+}
+input.title {
+	width: 300px;
+}
+input[type=3Demail] {
+	width: 300px;
+}
+input[type=3Dtext] {
+	width: 300px;
+}
+input[type=3Dpassword] {
+	width: 300px;
+}
+textarea {
+	width: 390px; height: 250px;
+}
+.box {
+	background: rgb(229, 236, 249); padding: 1.5em; margin-bottom: 1.5em;
+}
+.border {
+	padding-right: 4px; margin-right: 5px; border-right-color: rgb(221, =
+221, 221); border-right-width: 1px; border-right-style: solid;
+}
+.colborder {
+	padding-right: 24px; margin-right: 25px; border-right-color: rgb(221, =
+221, 221); border-right-width: 1px; border-right-style: solid;
+}
+hr {
+	background: rgb(221, 221, 221); margin: 0px 0px 1.45em; border: =
+currentColor; border-image: none; width: 100%; height: 0.1em; color: =
+rgb(221, 221, 221); clear: both; float: none;
+}
+hr.space {
+	background: white; margin: 0px 0px 1.45em; border: currentColor; =
+border-image: none; width: 100%; height: 0.1em; color: white; clear: =
+both; float: none; visibility: hidden;
+}
+form.inline {
+	line-height: 3;
+}
+form.inline p {
+	margin-bottom: 0px;
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/print.css
+
+body {
+	background: none; color: black; line-height: 1.5; font-family: =
+"Helvetica Neue", Arial, Helvetica, sans-serif; font-size: 10pt;
+}
+.container {
+	background: none;
+}
+hr {
+	background: rgb(204, 204, 204); margin: 2em 0px; padding: 0px; border: =
+currentColor; border-image: none; width: 100%; height: 2px; color: =
+rgb(204, 204, 204);
+}
+hr.space {
+	background: white; color: white;
+}
+h1 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+h2 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+h4 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+h5 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+h6 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+code {
+	font-family: "andale mono", "lucida console", monospace; font-size: =
+0.9em;
+}
+a img {
+	border: currentColor; border-image: none;
+}
+a:link {
+	background: none; font-weight: 700; text-decoration: underline;
+}
+a:visited {
+	background: none; font-weight: 700; text-decoration: underline;
+}
+p img.top {
+	margin-top: 0px;
+}
+blockquote {
+	margin: 1.5em; padding: 1em; font-size: 0.9em; font-style: italic;
+}
+.small {
+	font-size: 0.9em;
+}
+.large {
+	font-size: 1.1em;
+}
+.quiet {
+	color: rgb(153, 153, 153);
+}
+.hide {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/style.css
+
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	color: rgb(51, 51, 51); font-family: "Lucida Grande"; font-size: 90%; =
+background-color: rgb(239, 239, 239);
+}
+body code {
+	background-color: rgb(239, 239, 239); font-color: black;
+}
+body pre {
+	background-color: rgb(239, 239, 239); font-color: black;
+}
+a {
+	color: rgb(0, 0, 0); text-decoration: none; border-bottom-color: =
+rgb(34, 34, 34); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+a:hover {
+	background: rgb(204, 204, 204); color: rgb(0, 0, 0);
+}
+a:visited {
+	background: rgb(204, 204, 204); color: rgb(0, 0, 0);
+}
+#wrapper {
+	background: rgb(255, 255, 255); padding-top: 3em; padding-bottom: 3em; =
+border-top-color: rgb(187, 187, 187); border-bottom-color: rgb(187, 187, =
+187); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+#header {
+	background: rgb(250, 250, 250); height: 110px;
+}
+#footer {
+	background: rgb(250, 250, 250); padding: 2em; text-align: center; =
+color: rgb(85, 85, 85); font-size: 1em;
+}
+#header .container {
+	overflow: visible; position: relative;
+}
+#header #logo {
+	left: 0px; top: 25px; position: absolute;
+}
+#logo a {
+	border: currentColor; border-image: none;
+}
+#logo a:hover {
+	background: none; text-decoration: none;
+}
+#header img {
+	padding: 5px;
+}
+.large {
+	line-height: 1.5; font-size: 1.2em;
+}
+.small {
+	color: rgb(85, 85, 85); line-height: 1.2; font-size: 90%;
+}
+span.copyright {
+	color: rgb(153, 153, 153); text-shadow: 1px 1px 0px #ffffff;
+}
+.titleheader {
+	color: rgb(126, 34, 23); font-size: 30px; margin-bottom: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+.secheader {
+	color: rgb(126, 34, 23); font-size: 25px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+h1 {
+	color: rgb(126, 34, 23); font-size: 25px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+.subsecheader {
+	color: rgb(126, 34, 23); font-size: 20px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+h2 {
+	color: rgb(126, 34, 23); font-size: 20px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+.subsecheader a {
+	color: rgb(126, 34, 23);
+}
+.subssubecheader {
+	color: rgb(126, 34, 23); font-size: 16px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+h3 {
+	color: rgb(126, 34, 23); font-size: 16px; margin-top: 20px; =
+text-shadow: 0px 1px 0px #fff;
+}
+.horrule {
+	clear: both; margin-top: 30px; border-top-color: rgb(221, 221, 221); =
+border-top-width: 1px; border-top-style: solid;
+}
+#os_logo {
+	padding: 10px; height: 100px;
+}
+.sidetext {
+	padding-left: 4px; border-left-color: rgb(221, 221, 221); =
+border-left-width: 4px; border-left-style: solid;
+}
+#download {
+	background: rgb(223, 223, 223); padding: 20px; border-radius: 3px; =
+border: 1px dotted rgb(221, 221, 221); border-image: none; text-align: =
+center; -moz-border-radius: 3px;
+}
+#latest_head {
+	margin: 0px; color: rgb(126, 34, 23); font-size: 14px; text-shadow: 0px =
+1px 0px #fff;
+}
+#latest_link {
+	background: rgb(254, 254, 254); padding: 3px; border-radius: 5px; =
+border: currentColor; border-image: none; font-size: 80%; font-weight: =
+bold; margin-top: 10px; -moz-border-radius: 5px; -webkit-box-shadow: 0 =
+1px 3px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, =
+0.4);
+}
+#disclaimer {
+	color: rgb(85, 85, 85); font-size: 80%; margin-top: 20px;
+}
+#latest_link a:hover {
+	background: none;
+}
+#maintainers {
+	margin-top: 20px;
+}
+.greybar {
+	padding-left: 10px; border-left-color: rgb(221, 221, 221); =
+border-left-width: 4px; border-left-style: solid;
+}
+ul.greybar {
+	list-style-type: none;
+}
+#twitter_widget a {
+	border: currentColor; border-image: none;
+}
+#twitter_widget a:hover {
+	background: inherit; border: currentColor; border-image: none; =
+text-decoration: none;
+}
+#twitter_widget a:visited {
+	background: inherit; border: currentColor; border-image: none;
+}
+#twitter_widget a:active {
+	background: inherit; border: currentColor; border-image: none;
+}
+#twitter_follow a {
+	border: currentColor; border-image: none;
+}
+.tabular table {
+	background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); =
+border-image: none;
+}
+input[type=3D'text'] {
+	margin: 1em 0px;
+}
+input[type=3D'password'] {
+	margin: 1em 0px;
+}
+input.text {
+	margin: 1em 0px;
+}
+input.title {
+	margin: 1em 0px;
+}
+textarea {
+	margin: 1em 0px;
+}
+select {
+	margin: 1em 0px;
+}
+input[type=3D'text'] {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); border-image: none; =
+color: rgb(34, 34, 34); font-size: 14px; background-color: rgb(255, 255, =
+255);
+}
+input[type=3D'password'] {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); border-image: none; =
+color: rgb(34, 34, 34); font-size: 14px; background-color: rgb(255, 255, =
+255);
+}
+input.text {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); border-image: none; =
+color: rgb(34, 34, 34); font-size: 14px; background-color: rgb(255, 255, =
+255);
+}
+input.title {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); border-image: none; =
+color: rgb(34, 34, 34); font-size: 14px; background-color: rgb(255, 255, =
+255);
+}
+textarea {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); border-image: none; =
+color: rgb(34, 34, 34); font-size: 14px; background-color: rgb(255, 255, =
+255);
+}
+#notice {
+	background: rgb(223, 223, 223); padding: 10px; border-radius: 3px; =
+text-align: left; color: rgb(68, 68, 68); margin-right: 10px; =
+margin-bottom: 30px; -moz-border-radius: 3px; -webkit-box-shadow: 0 1px =
+3px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+#notice a {
+	color: rgb(126, 34, 23);
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/nav.css
+
+#navbar {
+	top: 35px; right: 0px; position: absolute;
+}
+#nav {
+	background: rgb(139, 139, 139); margin: 0px; padding: 7px 6px 0px; =
+border-radius: 3px; border: 1px solid rgb(109, 109, 109); border-image: =
+none; line-height: 100%; -moz-border-radius: 3px; -webkit-box-shadow: 0 =
+1px 3px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, =
+0.4); -webkit-border-radius: 3px;
+}
+#nav li {
+	list-style: none; margin: 0px 4px; padding: 0px 0px 6px; float: left; =
+position: relative;
+}
+#nav a {
+	margin: 0px; padding: 4px 10px; border: currentColor; border-image: =
+none; color: rgb(231, 229, 229); font-weight: bold; text-decoration: =
+none; display: block; text-shadow: 0px 1px 1px rgba(0,0,0,0.3); =
+-moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+#nav .current a {
+	background: rgb(209, 209, 209); color: rgb(68, 68, 68); box-shadow: 0px =
+1px 1px rgba(0,0,0,0.2); text-shadow: 0px 1px 0px rgba(255,255,255,0.8); =
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px =
+1px rgba(0, 0, 0, 0.2);
+}
+#nav li:hover > a {
+	background: rgb(209, 209, 209); color: rgb(68, 68, 68); box-shadow: 0px =
+1px 1px rgba(0,0,0,0.2); text-shadow: 0px 1px 0px rgba(255,255,255,0.8); =
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px =
+1px rgba(0, 0, 0, 0.2);
+}
+#nav ul li:hover a {
+	background: none; border: currentColor; border-image: none; color: =
+rgb(102, 102, 102); -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+#nav li:hover li a {
+	background: none; border: currentColor; border-image: none; color: =
+rgb(102, 102, 102); -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+#nav ul a:hover {
+	background: rgb(3, 153, 212) !important; color: rgb(255, 255, 255) =
+!important; text-shadow: 0px 1px 1px rgba(0,0,0,0.1); =
+-moz-border-radius: 0; -webkit-border-radius: 0;
+}
+#nav ul {
+	background: rgb(221, 221, 221); margin: 0px; padding: 0px; =
+border-radius: 3px; border: 1px solid rgb(180, 180, 180); border-image: =
+none; left: 0px; top: 35px; width: 185px; display: none; position: =
+absolute; box-shadow: 0px 1px 3px rgba(0,0,0,0.3); -moz-border-radius: =
+3px; -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); -moz-box-shadow: =
+0 1px 3px rgba(0, 0, 0, 0.3); -webkit-border-radius: 3px;
+}
+#nav li:hover > ul {
+	display: block;
+}
+#nav ul li {
+	margin: 0px; padding: 0px; float: none;
+}
+#nav ul a {
+	font-weight: normal; text-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+#nav ul ul {
+	left: 181px; top: -3px;
+}
+#nav ul li:first-child > a {
+	-webkit-border-top-left-radius: 9px; -moz-border-radius-topleft: 9px; =
+-webkit-border-top-right-radius: 9px; -moz-border-radius-topright: 9px;
+}
+#nav ul li:last-child > a {
+	-webkit-border-bottom-left-radius: 9px; -moz-border-radius-bottomleft: =
+9px; -webkit-border-bottom-right-radius: 9px; =
+-moz-border-radius-bottomright: 9px;
+}
+#nav::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: =
+hidden; content: ".";
+}
+#nav {
+	display: inline-block;
+}
+html[xmlns] #nav {
+	display: block;
+}
+* html #nav {
+	height: 1%;
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/coderay.css
+
+.CodeRay {
+	border: 1px solid silver; border-image: none; color: black; =
+background-color: rgb(242, 242, 242);
+}
+.CodeRay pre {
+	margin: 0px;
+}
+span.CodeRay {
+	padding: 2px; border: 0px currentColor; border-image: none; =
+white-space: pre;
+}
+table.CodeRay {
+	padding: 2px; width: 100%; border-collapse: collapse;
+}
+table.CodeRay td {
+	padding: 2px 4px; vertical-align: top;
+}
+.CodeRay .line-numbers {
+	text-align: right; color: gray; -webkit-user-select: none; =
+-moz-user-select: none; user-select: none;
+}
+.CodeRay .line-numbers a {
+	color: gray !important; padding-right: 5px; text-decoration: none =
+!important;
+}
+.CodeRay .line-numbers a:target .CodeRay .line-numbers .highlighted =
+.CodeRay .line-numbers .highlighted a .CodeRay span.line-numbers {
+	padding: 0px 4px;
+}
+.CodeRay .line {
+	width: 100%; float: left; display: block;
+}
+.CodeRay .code {
+	width: 100%;
+}
+.CodeRay .debug {
+	background: blue !important; color: white !important;
+}
+.CodeRay .annotation {
+	color: rgb(0, 0, 119);
+}
+.CodeRay .attribute-name {
+	color: rgb(187, 68, 136);
+}
+.CodeRay .attribute-value {
+	color: rgb(119, 0, 0);
+}
+.CodeRay .binary {
+	color: rgb(85, 0, 153);
+}
+.CodeRay .char .content {
+	color: rgb(221, 34, 0);
+}
+.CodeRay .char .delimiter {
+	color: rgb(119, 17, 0);
+}
+.CodeRay .char {
+	color: rgb(221, 34, 0);
+}
+.CodeRay .class {
+	color: rgb(187, 0, 102); font-weight: bold;
+}
+.CodeRay .class-variable {
+	color: rgb(51, 102, 153);
+}
+.CodeRay .color {
+	color: rgb(0, 170, 0);
+}
+.CodeRay .comment {
+	color: rgb(119, 119, 119);
+}
+.CodeRay .comment .char {
+	color: rgb(68, 68, 68);
+}
+.CodeRay .comment .delimiter {
+	color: rgb(68, 68, 68);
+}
+.CodeRay .complex {
+	color: rgb(170, 0, 136);
+}
+.CodeRay .constant {
+	color: rgb(0, 51, 102); font-weight: bold;
+}
+.CodeRay .decorator {
+	color: rgb(187, 0, 187);
+}
+.CodeRay .definition {
+	color: rgb(0, 153, 153); font-weight: bold;
+}
+.CodeRay .delimiter {
+	color: black;
+}
+.CodeRay .directive {
+	color: rgb(0, 136, 136); font-weight: bold;
+}
+.CodeRay .doc {
+	color: rgb(153, 119, 0);
+}
+.CodeRay .doc-string {
+	color: rgb(221, 68, 34); font-weight: bold;
+}
+.CodeRay .doctype {
+	color: rgb(51, 68, 187);
+}
+.CodeRay .entity {
+	color: rgb(136, 0, 0); font-weight: bold;
+}
+.CodeRay .error {
+	color: rgb(255, 0, 0); background-color: rgb(255, 170, 170);
+}
+.CodeRay .escape {
+	color: rgb(102, 102, 102);
+}
+.CodeRay .exception {
+	color: rgb(204, 0, 0); font-weight: bold;
+}
+.CodeRay .float {
+	color: rgb(102, 0, 238);
+}
+.CodeRay .function {
+	color: rgb(0, 102, 187); font-weight: bold;
+}
+.CodeRay .global-variable {
+	color: rgb(221, 119, 0);
+}
+.CodeRay .hex {
+	color: rgb(0, 34, 187);
+}
+.CodeRay .imaginary {
+	color: red;
+}
+.CodeRay .include {
+	color: rgb(187, 68, 68); font-weight: bold;
+}
+.CodeRay .inline {
+	color: black; background-color: rgba(0, 0, 0, 0.07);
+}
+.CodeRay .inline-delimiter {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.CodeRay .instance-variable {
+	color: rgb(51, 51, 187);
+}
+.CodeRay .integer {
+	color: rgb(0, 0, 221);
+}
+.CodeRay .key .char {
+	color: rgb(102, 0, 255);
+}
+.CodeRay .key .delimiter {
+	color: rgb(68, 0, 68);
+}
+.CodeRay .key {
+	color: rgb(102, 0, 102);
+}
+.CodeRay .keyword {
+	color: rgb(0, 136, 0); font-weight: bold;
+}
+.CodeRay .label {
+	color: rgb(153, 119, 0); font-weight: bold;
+}
+.CodeRay .local-variable {
+	color: rgb(153, 102, 51);
+}
+.CodeRay .namespace {
+	color: rgb(119, 0, 119); font-weight: bold;
+}
+.CodeRay .octal {
+	color: rgb(68, 0, 238);
+}
+.CodeRay .predefined {
+	color: rgb(51, 102, 153); font-weight: bold;
+}
+.CodeRay .predefined-constant {
+	color: rgb(0, 102, 153);
+}
+.CodeRay .predefined-type {
+	color: rgb(0, 170, 85); font-weight: bold;
+}
+.CodeRay .preprocessor {
+	color: rgb(85, 119, 153);
+}
+.CodeRay .pseudo-class {
+	color: rgb(0, 0, 204); font-weight: bold;
+}
+.CodeRay .regexp .content {
+	color: rgb(136, 0, 136);
+}
+.CodeRay .regexp .delimiter {
+	color: rgb(68, 0, 68);
+}
+.CodeRay .regexp .modifier {
+	color: rgb(204, 34, 204);
+}
+.CodeRay .regexp {
+	background-color: rgba(255, 0, 255, 0.06);
+}
+.CodeRay .reserved {
+	color: rgb(0, 136, 0); font-weight: bold;
+}
+.CodeRay .shell .content {
+	color: rgb(34, 187, 34);
+}
+.CodeRay .shell .delimiter {
+	color: rgb(17, 102, 17);
+}
+.CodeRay .shell {
+	background-color: rgba(0, 255, 0, 0.06);
+}
+.CodeRay .string .char {
+	color: rgb(187, 0, 187);
+}
+.CodeRay .string .content {
+	color: rgb(221, 34, 0);
+}
+.CodeRay .string .delimiter {
+	color: rgb(119, 17, 0);
+}
+.CodeRay .string .modifier {
+	color: rgb(238, 68, 0);
+}
+.CodeRay .string {
+	background-color: rgba(255, 0, 0, 0.05);
+}
+.CodeRay .symbol .content {
+	color: rgb(170, 102, 0);
+}
+.CodeRay .symbol .delimiter {
+	color: rgb(102, 51, 0);
+}
+.CodeRay .symbol {
+	color: rgb(170, 102, 0);
+}
+.CodeRay .tag {
+	color: rgb(0, 119, 0);
+}
+.CodeRay .type {
+	color: rgb(51, 51, 153); font-weight: bold;
+}
+.CodeRay .value {
+	color: rgb(0, 136, 136);
+}
+.CodeRay .variable {
+	color: rgb(0, 51, 119);
+}
+.CodeRay .insert {
+	background: rgba(0, 255, 0, 0.12);
+}
+.CodeRay .delete {
+	background: rgba(255, 0, 0, 0.12);
+}
+.CodeRay .change {
+	background: rgb(0, 0, 119); color: rgb(187, 187, 255);
+}
+.CodeRay .head {
+	background: rgb(85, 0, 85); color: rgb(255, 136, 255);
+}
+.CodeRay .head .filename {
+	color: white;
+}
+.CodeRay .delete .eyecatcher {
+	border-width: 1px 1px medium; border-style: solid solid none; =
+border-color: rgba(230, 0, 0, 0.5) rgba(230, 0, 0, 0.5) currentColor; =
+margin: -1px; border-image: none; border-top-left-radius: 5px; =
+border-top-right-radius: 5px; background-color: rgba(255, 0, 0, 0.2);
+}
+.CodeRay .insert .eyecatcher {
+	border-width: medium 1px 1px; border-style: none solid solid; =
+border-color: currentColor rgba(0, 128, 0, 0.5) rgba(0, 128, 0, 0.5); =
+margin: -1px; border-image: none; border-bottom-right-radius: 5px; =
+border-bottom-left-radius: 5px; background-color: rgba(0, 255, 0, 0.2);
+}
+.CodeRay .insert .insert {
+	background: none; color: rgb(0, 204, 0); font-weight: bold;
+}
+.CodeRay .delete .delete {
+	background: none; color: rgb(204, 0, 0); font-weight: bold;
+}
+.CodeRay .change .change {
+	color: rgb(136, 136, 255);
+}
+.CodeRay .head .head {
+	color: rgb(255, 68, 255);
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://incubator.apache.org/s4/style/pygmentize.css
+
+.highlight {
+	background-color: rgb(255, 255, 204);
+}
+.c {
+	color: rgb(153, 153, 136); font-style: italic;
+}
+.err {
+	color: rgb(166, 23, 23); background-color: rgb(227, 210, 210);
+}
+.k {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.o {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.cm {
+	color: rgb(153, 153, 136); font-style: italic;
+}
+.cp {
+	color: rgb(153, 153, 153); font-style: italic; font-weight: bold;
+}
+.c1 {
+	color: rgb(153, 153, 136); font-style: italic;
+}
+.cs {
+	color: rgb(153, 153, 153); font-style: italic; font-weight: bold;
+}
+.gd {
+	color: rgb(0, 0, 0); background-color: rgb(255, 221, 221);
+}
+.ge {
+	color: rgb(0, 0, 0); font-style: italic;
+}
+.gr {
+	color: rgb(170, 0, 0);
+}
+.gh {
+	color: rgb(153, 153, 153);
+}
+.gi {
+	color: rgb(0, 0, 0); background-color: rgb(221, 255, 221);
+}
+.go {
+	color: rgb(136, 136, 136);
+}
+.gp {
+	color: rgb(85, 85, 85);
+}
+.gs {
+	font-weight: bold;
+}
+.gu {
+	color: rgb(170, 170, 170);
+}
+.gt {
+	color: rgb(170, 0, 0);
+}
+.kc {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.kd {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.kn {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.kp {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.kr {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.kt {
+	color: rgb(68, 85, 136); font-weight: bold;
+}
+.m {
+	color: rgb(0, 153, 153);
+}
+.s {
+	color: rgb(208, 16, 64);
+}
+.na {
+	color: teal;
+}
+.nb {
+	color: rgb(0, 134, 179);
+}
+.nc {
+	color: rgb(68, 85, 136); font-weight: bold;
+}
+.no {
+	color: teal;
+}
+.nd {
+	color: rgb(60, 93, 93); font-weight: bold;
+}
+.ni {
+	color: purple;
+}
+.ne {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+.nf {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+.nl {
+	color: rgb(153, 0, 0); font-weight: bold;
+}
+.nn {
+	color: rgb(85, 85, 85);
+}
+.nt {
+	color: navy;
+}
+.nv {
+	color: teal;
+}
+.ow {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.w {
+	color: rgb(187, 187, 187);
+}
+.mf {
+	color: rgb(0, 153, 153);
+}
+.mh {
+	color: rgb(0, 153, 153);
+}
+.mi {
+	color: rgb(0, 153, 153);
+}
+.mo {
+	color: rgb(0, 153, 153);
+}
+.sb {
+	color: rgb(208, 16, 64);
+}
+.sc {
+	color: rgb(208, 16, 64);
+}
+.sd {
+	color: rgb(208, 16, 64);
+}
+.s2 {
+	color: rgb(208, 16, 64);
+}
+.se {
+	color: rgb(208, 16, 64);
+}
+.sh {
+	color: rgb(208, 16, 64);
+}
+.si {
+	color: rgb(208, 16, 64);
+}
+.sx {
+	color: rgb(208, 16, 64);
+}
+.sr {
+	color: rgb(0, 153, 38);
+}
+.s1 {
+	color: rgb(208, 16, 64);
+}
+.ss {
+	color: rgb(153, 0, 115);
+}
+.bp {
+	color: rgb(153, 153, 153);
+}
+.vc {
+	color: teal;
+}
+.vg {
+	color: teal;
+}
+.vi {
+	color: teal;
+}
+.il {
+	color: rgb(0, 153, 153);
+}
+pre {
+	padding: 5px; border-radius: 5px; line-height: 23px; margin-bottom: =
+30px; white-space: pre; -ms-word-break: inherit; -ms-overflow-x: auto; =
+-ms-word-wrap: inherit; counter-reset: line-numbering;
+}
+code {
+	padding: 2px; border-radius: 5px; margin-bottom: 30px; -ms-word-break: =
+inherit; -ms-word-wrap: inherit;
+}
+
+------=_NextPart_000_0000_01CFB035.04572910
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://widgets.twimg.com/j/2/widget.js
+
+TWTR=3Dwindow.TWTR||{};(function(){var A=3D0;var D;var =
+B=3D["init","setDimensions","setRpp","setFeatures","setTweetInterval","se=
+tBase","setList","setProfileImage","setTitle","setCaption","setFooterText=
+","setTheme","byClass","render","removeEvents","clear","start","stop","pa=
+use","resume","destroy"];function C(H){var E=3D0;var G;var F=3D["The =
+Twitter API v1.0 is deprecated, and this widget has ceased =
+functioning.","You can replace it with a new, upgraded widget from =
+<https://twitter.com/settings/widgets/new/"+H+">","For more information =
+on alternative Twitter tools, see =
+<https://dev.twitter.com/docs/twitter-for-websites>"];if(!window.console)=
+{return }for(;G=3DF[E];E++){if(console.warn){console.warn("TWITTER =
+WIDGET: =
+"+G);continue}console.log(G)}}TWTR.Widget=3Dfunction(E){switch(E.type){ca=
+se"search":C("search?query=3D"+escape(E.search));break;case"profile":this=
+._profile=3Dtrue;break;case"list":case"lists":C("list");break;default:ret=
+urn =
+}};TWTR.Widget.ify=3D{autoLink:function(){return{match:function(){return =
+false}}}};TWTR.Widget.randomNumber=3Dfunction(){};TWTR.Widget.prototype.i=
+sRunning=3Dfunction(){return =
+false};TWTR.Widget.prototype.setProfile=3Dfunction(E){C("user?screen_name=
+=3D"+escape(E));return =
+this};TWTR.Widget.prototype.setUser=3Dfunction(E){if(this._profile){retur=
+n this.setProfile(E)}C("favorites?screen_name=3D"+escape(E));return =
+this};TWTR.Widget.prototype.setSearch=3Dfunction(E){C("search?query=3D"+e=
+scape(E));return =
+this};for(;D=3DB[A];A++){TWTR.Widget.prototype[D]=3Dfunction(){return =
+this}}})();
+------=_NextPart_000_0000_01CFB035.04572910--
