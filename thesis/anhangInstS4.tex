@@ -1,0 +1,190 @@
+\section{Installationsanleitung Apache S4}
+\label{sec:s4install}
+
+Diese Kapitel zeigt die Installation von Apache S4 mit einem einfachen Beispiel. Für die Installation wird ein Basiswissen in der Verwendung von Linux-Betriebssystemen und Kenntnisse in der Java-Programmierung vorausgesetzt. Zuerst werden die Voraussetzungen für das Betriebssystem vorgestellt.
+
+
+\subsection{Voraussetzungen am Betriebssystem}
+
+Als Betriebssystem wird die die Distribution Debian Version 7 verwendet. Mit der Paketverwaltung \textit{aptitude} werden folgende Pakete und deren Paketabhängigkeiten benötigt. Die Paketabhängigkeiten werden von \textit{aptitude} automatisch vorgeschlagen. Mögliche Konflikte in den Paketabhängigkeiten müssen zuvor manuell aufgelöst werden.
+
+\begin{itemize}
+	\item zookeeper
+	\item zookeeperd
+	\item openjdk-7-jdk
+	\item unzip
+\end{itemize}
+
+Sobald die Pakete im System bereitgestellt wurden, wird für das Erstellen von Apache S4 das Build-Management-Werkzeug \textit{Gradle} benötigt. Beim Erzeugen von Apache S4 in der aktuellen Version \textit{0.6.0-incubating} bekommt \textit{Gradle} ab Version 2.0 Fehler. Daher wird \textit{Gradle} in der Version 1.12 eingesetzt.
+
+\subsection{Installation Build-Managment Gradle}
+
+Mit \textit{Gradle} kann Apache S4 erzeugt und gepflegt werden. Weiterhin kann mit \textit{Gradle} eine Beispiel-Anwendung \textit{HelloApp} bereitgestellt werden.
+
+\begin{verbatim}
+wget https://services.gradle.org/distributions/gradle-1.12-bin.zip
+unzip gradle-1.12-bin.zip
+\end{verbatim}
+
+
+\subsection{Bereitstellen Apache S4}
+
+Da bestimmte Befehle eine mehrere Optionen benötigen, kann es in der Darstellung zu unleserlichen Umbrüchen kommen. An den markanten Stellen wird daher explizit umgebrochen und mit doppelten Schrägstrichen gekennzeichnet. In der Konsole werden keine Umbrüche benötigt. Als nächstes wird Apache S4 in das Verzeichnis "`/opt"' heruntergeladen, entpackt und ein Verweis "`s4"' wird erzeugt.
+
+\begin{verbatim}
+wget http://www.apache.org/dist/incubator/s4/s4-0.6.0-incubating //
+ /apache-s4-0.6.0-incubating-src.zip
+unzip apache-s4-0.6.0-incubating-src.zip
+ln -s /opt/apache-s4-0.6.0-incubating-src s4
+\end{verbatim}
+
+Für das erfolgreiche Ausführen sind verschiedene Umgebungsvariablen in der Konsole notwendig. Die folgende Einträge werden in der Datei "`.bashrc"' der Konsolen-Konfiguration des Benutzerprofils hinterlegt. Damit die neuen Einträge in der Umgebung bekannt sind, ist eine erneute Anmeldung in der Konsole notwendig.
+
+\begin{verbatim}
+export GRADLE_HOME=/opt/gradle
+export PATH=$PATH:$GRADLE_HOME/bin
+export S4_HOME=/opt/s4
+export PATH=$PATH:$S4_HOME
+\end{verbatim}
+
+\subsection{Installation S4}
+
+Da bestimmte Werkzeuge in Apache S4 den \textit{Wrapper} \textit{gradlew} Version 1.4 benötigen, wird zuerst in das Verzeichnis gewechselt und \textit{gradlew} bereitgestellt.
+
+\begin{verbatim}
+cd /opt/s4
+gradle wrapper
+\end{verbatim}
+
+Als nächstes wird Apache S4 im gleichen Verzeichnis installiert.
+
+\begin{verbatim}
+gradle install
+gradle s4-tools::installApp
+\end{verbatim}
+
+
+\subsection{Cluster erzeugen}
+
+Für die Verarbeitung von Informationen wird in Apache S4 ein Cluster benötigt. Das Cluster benutzt im Hintergrund Apache Zookeeper. Der Dienst Apache Zookeeper muss in dieser Anwendung auf dem Standard-Port 2181 bereitstehen. Folgende Befehl startet im Verzeichnis "`/opt/s4"' ein Cluster mit dem Namen cluster1, Zwei Verarbeitungseinheiten und dem Port 12000.
+
+\begin{verbatim}
+./s4 newCluster -c=cluster1 -nbTasks=2 -flp=12000
+\end{verbatim}
+
+In Zwei weiteren Konsolen wird jeweils ein Prozess im Cluster cluster1 gestartet.
+
+\begin{verbatim}
+./s4 node -c=cluster1
+\end{verbatim}
+
+
+
+\subsection{Beispiel HelloApp}
+
+Die Beispiel-Anwendung "`HelloApp"' kann mit \textit{Gradle} in einem separaten Verzeichnis "`/opt /myApp"' mit folgenden Befehlen in der Konsole aus dem Verzeichnis "`/opt/s4"' bereitgestellt werden. 
+
+\begin{verbatim}
+./s4 newApp myApp -parentDir=/opt
+\end{verbatim}
+
+Anschließend muss die Beispiel-Anwendung im neuen Verzeichnis "`/opt/myApp"' erstellt werden.
+
+\begin{verbatim}
+cd /opt/myApp
+./s4 s4r -a=hello.HelloApp -b=/opt/myApp/build.gradle myApp
+\end{verbatim}
+
+Zuletzt wird die Beispiel-Anwendung mit dem Namen "`myApp"' im Cluster "`cluster1"' bereitgestellt und gestartet.
+
+\begin{verbatim}
+./s4 deploy 
+ -s4r=/opt/myApp/build/libs/myApp.s4r // 
+ -c=cluster1 //
+ -appName=myApp
+./s4 node -c=cluster1
+\end{verbatim}
+
+Bei erfolgreichem Start zeigt der \textit{S4 platform loader} einen aktiven Eingangsstrom "`names"'.
+
+\begin{verbatim}
+21:25:31.399 [S4 platform loader] DEBUG o.a.s4.comm.topology.ClustersFromZK 
+	- Adding input stream [names] in cluster [cluster1]
+21:25:31.430 [S4 platform loader] INFO  org.apache.s4.core.App 
+	- Init prototype [hello.HelloPE].
+\end{verbatim}
+
+
+Damit das Cluster cluster1 Daten verarbeiten kann, sind Eingangsdaten notwendig. Aus der Beispiel-Anwendung HelloApp wird dazu die Klasse HelloInputAdapter verwendet und unter dem Namen adapter und einem neuen Cluster cluster2 bereitgestellt.
+
+\begin{verbatim}
+./s4 newCluster -c=cluster2 -nbTasks=1 -flp=13000
+./s4 deploy 
+ -appClass=hello.HelloInputAdapter //
+ -p=s4.adapter.output.stream=names //
+ -c=cluster2 //
+ -appName=adapter
+\end{verbatim}
+
+Der folgende Befehl startet den Eingangsdatenverarbeitung im \textit{HelloInputAdapter} aus dem "`Cluster2"' unter dem Namen "`adpater"' und leitet den Eingangsstrom weiter auf den \textit{S4 stream} "`names"'.
+
+\begin{verbatim}
+./s4 adapter -c=cluster2
+\end{verbatim}
+
+Mit dem Linux-Werkzeug \textit{netcat (nc)} können Nachrichten an den \textit{HelloInputAdapter} gesendet werden.
+
+\begin{verbatim}
+echo "s40907" | nc localhost 15000
+\end{verbatim}
+
+In der S4 Anwendung "`adapter"' wird die folgende Nachricht ausgegeben.
+
+\begin{verbatim}
+read: s40907
+\end{verbatim}
+
+Abschließend wird je nach Auslastung die Nachricht in einem der \textit{S4 nodes} aus Cluster "`cluster1"' ausgegeben.
+
+\begin{verbatim}
+Hello s40907!
+\end{verbatim}
+
+Ein Status der \textit{S4 platform} kann mit folgendem Befehl ausgegeben werden.
+
+\begin{verbatim}
+./s4 status
+\end{verbatim}
+
+Die Ausgabe des vorhergehenden Befehls wird abschließend gezeigt.
+
+\begin{verbatim}
+App Status
+----------------------------------------------------------------------
+   Name      Cluster                     URI
+----------------------------------------------------------------------
+ adapter     cluster2      null
+  myApp      cluster1      file:/opt/myApp/build/libs/myApp.s4r
+----------------------------------------------------------------------
+
+
+
+Cluster Status
+----------------------------------------------------------------------
+                                       Active nodes
+   Name      App     Tasks   -----------------------------------------
+                              Number     Task id     Host     Port
+----------------------------------------------------------------------
+ cluster2  adapter   1          1         Task-0    s4.lan    13000
+ cluster1   myApp    2          1         Task-0    s4.lan    12000
+----------------------------------------------------------------------
+
+
+
+Stream Status
+----------------------------------------------------------------------
+   Name                 Producers                Consumers
+----------------------------------------------------------------------
+  names             cluster2(adapter)         cluster1(myApp)
+----------------------------------------------------------------------
+\end{verbatim}
