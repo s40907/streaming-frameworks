@@ -1,0 +1,939 @@
+From: "Von Internet Explorer 11 gespeichert"
+Subject: HBase - Apache HBase? Home
+Date: Sat, 16 Aug 2014 21:15:22 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CFB997.30C01A50"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hbase.apache.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- Generated =
+by Apache Maven Doxia at 2014-08-08 --><HTML=20
+lang=3D"en" lang=3D"en" xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META =
+content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+    =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">    =20
+<TITLE>HBase -      Apache HBase=C2=99 Home</TITLE>    =20
+<STYLE type=3D"text/css" media=3D"all">=0A=
+      @import url("./css/maven-base.css");=0A=
+      @import url("./css/maven-theme.css");=0A=
+      @import url("./css/site.css");=0A=
+    </STYLE>
+     <LINK href=3D"http://hbase.apache.org/css/print.css" =
+rel=3D"stylesheet" type=3D"text/css"=20
+media=3D"print">     <LINK href=3D"/images/favicon.ico" rel=3D"shortcut =
+icon">    =20
+<META name=3D"Date-Revision-yyyymmdd" content=3D"20140808">    =20
+<META http-equiv=3D"Content-Language" content=3D"en">         <!--Google =
+Analytics-->=20
+<SCRIPT type=3D"text/javascript">=0A=
+=0A=
+  var _gaq =3D _gaq || [];=0A=
+  _gaq.push(['_setAccount', 'UA-30210968-1']);=0A=
+  _gaq.push(['_trackPageview']);=0A=
+=0A=
+  (function() {=0A=
+    var ga =3D document.createElement('script'); ga.type =3D =
+'text/javascript'; ga.async =3D true;=0A=
+    ga.src =3D ('https:' =3D=3D document.location.protocol ? =
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';=0A=
+    var s =3D document.getElementsByTagName('script')[0]; =
+s.parentNode.insertBefore(ga, s);=0A=
+  })();=0A=
+=0A=
+</SCRIPT>
+  =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17207"></HEAD>  =20
+<BODY class=3D"composite">
+<DIV id=3D"banner"><A id=3D"bannerLeft" =
+href=3D"http://hbase.apache.org/"><IMG alt=3D"Apache HBase"=20
+src=3D"http://hbase.apache.org/images/hbase_logo.png"></A>             =
+<!-- Commented out since we do not use it.  St.Ack 20110906=0A=
+       -->=20
+           =20
+<DIV class=3D"clear">
+<HR>
+       </DIV></DIV>
+<DIV id=3D"breadcrumbs">
+<DIV class=3D"xright" style=3D"padding-left: 8px; margin-top: -4px;">
+<FORM action=3D"http://search-hadoop.com/" method=3D"GET"><INPUT =
+name=3D"q" style=3D"border: 1px solid darkgray; border-image: none; =
+width: 192px; height: 15px; font-size: inherit;" =
+onfocus=3D"this.value=3D''" type=3D"text" value=3D"Search wiki, mailing =
+lists &amp; more">=20
+          <INPUT name=3D"fc_project" type=3D"hidden" value=3D"HBase">    =
+      =20
+<BUTTON style=3D"width: 60px; height: 20px;">Search</BUTTON>         =
+</FORM></DIV>
+<DIV class=3D"clear">
+<HR>
+       </DIV></DIV>
+<DIV id=3D"leftColumn">
+<DIV id=3D"navcolumn">
+<H5>Apache HBase Project</H5>
+<UL>
+  <LI class=3D"none"><STRONG>Overview</STRONG>           </LI>
+  <LI class=3D"none"><A title=3D"License" =
+href=3D"http://hbase.apache.org/license.html">License</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Downloads" class=3D"externalLink" =
+href=3D"http://www.apache.org/dyn/closer.cgi/hbase/">Downloads</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Release Notes" class=3D"externalLink" =
+href=3D"https://issues.apache.org/jira/browse/HBASE?report=3Dcom.atlassia=
+n.jira.plugin.system.project:changelog-panel#selectedTab=3Dcom.atlassian.=
+jira.plugin.system.project%3Achangelog-panel">Release=20
+  Notes</A>             </LI>
+  <LI class=3D"none"><A title=3D"Issue Tracking" =
+href=3D"http://hbase.apache.org/issue-tracking.html">Issue=20
+  Tracking</A>             </LI>
+  <LI class=3D"none"><A title=3D"Mailing Lists" =
+href=3D"http://hbase.apache.org/mail-lists.html">Mailing=20
+  Lists</A>             </LI>
+  <LI class=3D"none"><A title=3D"Source Repository" =
+href=3D"http://hbase.apache.org/source-repository.html">Source=20
+  Repository</A>             </LI>
+  <LI class=3D"none"><A title=3D"ReviewBoard" class=3D"externalLink" =
+href=3D"https://reviews.apache.org/">ReviewBoard</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Team"=20
+  href=3D"http://hbase.apache.org/team-list.html">Team</A>             =
+</LI>
+  <LI class=3D"none"><A title=3D"Thanks" =
+href=3D"http://hbase.apache.org/sponsors.html">Thanks</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Blog" class=3D"externalLink" =
+href=3D"http://blogs.apache.org/hbase/">Blog</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Other resources" =
+href=3D"http://hbase.apache.org/resources.html">Other=20
+  resources</A>             </LI></UL>
+<H5>Documentation</H5>
+<UL>
+  <LI class=3D"none"><A title=3D"Getting Started" =
+href=3D"http://hbase.apache.org/book/quickstart.html">Getting=20
+  Started</A>             </LI>
+  <LI class=3D"none"><A title=3D"User API" =
+href=3D"http://hbase.apache.org/apidocs/index.html">User=20
+  API</A>             </LI>
+  <LI class=3D"none"><A title=3D"Developer API" =
+href=3D"http://hbase.apache.org/devapidocs/index.html">Developer=20
+  API</A>             </LI>
+  <LI class=3D"none"><A title=3D"X-Ref" =
+href=3D"http://hbase.apache.org/xref/index.html">X-Ref</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Ref Guide (multi-page)" =
+href=3D"http://hbase.apache.org/book/book.html">Ref=20
+  Guide (multi-page)</A>             </LI>
+  <LI class=3D"none"><A title=3D"Ref Guide (single-page)" =
+href=3D"http://hbase.apache.org/book.html">Ref=20
+  Guide (single-page)</A>             </LI>
+  <LI class=3D"none"><A =
+title=3D"=E4=B8=AD=E6=96=87=E5=8F=82=E8=80=83=E6=8C=87=E5=8D=97(=E5=8D=95=
+=E9=A1=B5)" class=3D"externalLink" =
+href=3D"http://abloz.com/hbase/book.html">=E4=B8=AD=E6=96=87=E5=8F=82=E8=80=
+=83=E6=8C=87=E5=8D=97(=E5=8D=95=E9=A1=B5)</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"FAQ"=20
+  href=3D"http://hbase.apache.org/book/faq.html">FAQ</A>             =
+</LI>
+  <LI class=3D"none"><A title=3D"Videos/Presentations" =
+href=3D"http://hbase.apache.org/book.html#other.info">Videos/Presentation=
+s</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Wiki" class=3D"externalLink" =
+href=3D"http://wiki.apache.org/hadoop/Hbase">Wiki</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"ACID Semantics" =
+href=3D"http://hbase.apache.org/acid-semantics.html">ACID=20
+  Semantics</A>             </LI>
+  <LI class=3D"none"><A title=3D"Bulk Loads" =
+href=3D"http://hbase.apache.org/book.html#arch.bulk.load">Bulk=20
+  Loads</A>             </LI>
+  <LI class=3D"none"><A title=3D"Metrics" =
+href=3D"http://hbase.apache.org/metrics.html">Metrics</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"HBase on Windows" =
+href=3D"http://hbase.apache.org/cygwin.html">HBase=20
+  on Windows</A>             </LI>
+  <LI class=3D"none"><A title=3D"Cluster replication" =
+href=3D"http://hbase.apache.org/replication.html">Cluster=20
+  replication</A>             </LI></UL>
+<H5>0.94 Documentation</H5>
+<UL>
+  <LI class=3D"none"><A title=3D"API" =
+href=3D"http://hbase.apache.org/0.94/apidocs/index.html">API</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"X-Ref" =
+href=3D"http://hbase.apache.org/0.94/xref/index.html">X-Ref</A>=20
+              </LI>
+  <LI class=3D"none"><A title=3D"Ref Guide (single-page)" =
+href=3D"http://hbase.apache.org/0.94/book.html">Ref=20
+  Guide (single-page)</A>             </LI></UL>
+<H5>ASF</H5>
+<UL>
+  <LI class=3D"none"><A title=3D"Apache Software Foundation" =
+class=3D"externalLink"=20
+  href=3D"http://www.apache.org/foundation/">Apache Software =
+Foundation</A>       =20
+       </LI>
+  <LI class=3D"none"><A title=3D"How Apache Works" =
+class=3D"externalLink" =
+href=3D"http://www.apache.org/foundation/how-it-works.html">How=20
+  Apache Works</A>             </LI>
+  <LI class=3D"none"><A title=3D"Sponsoring Apache" =
+class=3D"externalLink" =
+href=3D"http://www.apache.org/foundation/sponsorship.html">Sponsoring=20
+  Apache</A>             </LI></UL><A title=3D"Built by Maven" =
+class=3D"poweredBy"=20
+href=3D"http://maven.apache.org/"><IMG class=3D"poweredBy" alt=3D"Built =
+by Maven" =
+src=3D"http://hbase.apache.org/images/logos/maven-feather.png">=20
+      </A>                                                </DIV></DIV>
+<DIV id=3D"bodyColumn">
+<DIV id=3D"contentBox"><!-- Licensed under the Apache License, Version =
+2.0 (the "License");=0A=
+  you may not use this file except in compliance with the License.=0A=
+  You may obtain a copy of the License at=0A=
+=0A=
+      http://www.apache.org/licenses/LICENSE-2.0=0A=
+=0A=
+  Unless required by applicable law or agreed to in writing, software=0A=
+  distributed under the License is distributed on an "AS IS" BASIS,=0A=
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or =
+implied.=0A=
+  See the License for the specific language governing permissions and=0A=
+  limitations under the License. -->=20
+     =20
+<DIV class=3D"section">
+<H2>Welcome to Apache HBase=E2=84=A2<A =
+name=3D"Welcome_to_Apache_HBase"></A></H2>
+<P><A class=3D"externalLink" href=3D"http://www.apache.org/">Apache</A> =
+HBase=E2=84=A2 is=20
+the <A class=3D"externalLink" =
+href=3D"http://hadoop.apache.org/">Hadoop</A>=20
+database, a distributed, scalable, big data store.     </P>
+<DIV class=3D"section">
+<DIV class=3D"section">
+<H4>When Would I Use Apache HBase?<A=20
+name=3D"When_Would_I_Use_Apache_HBase"></A></H4>
+<P>    Use Apache HBase when you need random, realtime read/write access =
+to your=20
+Big Data.    This project's goal is the hosting of very large tables -- =
+billions=20
+of rows X millions of columns -- atop clusters of commodity hardware. =
+Apache=20
+HBase is an open-source, distributed, versioned, non-relational database =
+modeled=20
+after Google's <A class=3D"externalLink" =
+href=3D"http://research.google.com/archive/bigtable.html">Bigtable:=20
+A Distributed Storage System for Structured Data</A> by Chang et al. =
+Just as=20
+Bigtable leverages the distributed data storage provided by the Google =
+File=20
+System, Apache HBase provides Bigtable-like capabilities on top of =
+Hadoop and=20
+HDFS.     </P></DIV>
+<DIV class=3D"section">
+<H4>Features<A name=3D"Features"></A></H4>
+<P></P>
+<UL>
+  <LI>Linear and modular scalability. </LI>
+  <LI>Strictly consistent reads and writes. </LI>
+  <LI>Automatic and configurable sharding of tables </LI>
+  <LI>Automatic failover support between RegionServers. </LI>
+  <LI>Convenient base classes for backing Hadoop MapReduce jobs with =
+Apache=20
+  HBase tables. </LI>
+  <LI>Easy to use Java API for client access. </LI>
+  <LI>Block cache and Bloom Filters for real-time queries. </LI>
+  <LI>Query predicate push down via server side Filters </LI>
+  <LI>Thrift gateway and a REST-ful Web service that supports XML, =
+Protobuf, and=20
+  binary data encoding options </LI>
+  <LI>Extensible jruby-based (JIRB) shell </LI>
+  <LI>Support for exporting metrics via the Hadoop metrics subsystem to =
+files or=20
+  Ganglia; or via JMX </LI></UL></DIV>
+<DIV class=3D"section">
+<H4>Where Can I Get More Information?<A=20
+name=3D"Where_Can_I_Get_More_Information"></A></H4>
+<P>See the <A class=3D"externalLink" =
+href=3D"http://hbase.apache.org/book/architecture.html#arch.overview">Arc=
+hitecture=20
+Overview</A>, the <A class=3D"externalLink" =
+href=3D"http://hbase.apache.org/book/faq.html">Apache=20
+HBase Reference Guide FAQ</A>,    and the other documentation links on =
+the left!=20
+   </P></DIV>
+<DIV class=3D"section">
+<H4>Export Control<A name=3D"Export_Control"></A></H4>
+<P>The HBase distribution includes cryptographic software. See the =
+export=20
+control notice <A =
+href=3D"http://hbase.apache.org/export_control.html">here</A>   =20
+</P></DIV></DIV></DIV>
+<DIV class=3D"section">
+<H2>News<A name=3D"News"></A></H2>
+<P>August 28th, 2014 <A class=3D"externalLink" =
+href=3D"http://www.meetup.com/hbaseusergroup/events/197773762/">HBase=20
+Meetup @ Sift Science</A> in San Francisco</P>
+<P>July 17th, 2014 <A class=3D"externalLink" =
+href=3D"http://www.meetup.com/hbaseusergroup/events/190994082/">HBase=20
+Meetup @ HP</A> in Sunnyvale</P>
+<P>June 5th, 2014 <A class=3D"externalLink" =
+href=3D"http://www.meetup.com/Hadoop-Summit-Community-San-Jose/events/179=
+081342/">HBase=20
+BOF at Hadoop Summit</A>, San Jose Convention Center</P>
+<P>May 5th, 2014 <A class=3D"externalLink"=20
+href=3D"http://www.hbasecon.com/">HBaseCon2014</A> at the Hilton San =
+Francisco on=20
+Union Square</P>
+<P>March 12th, 2014 <A class=3D"externalLink" =
+href=3D"http://www.meetup.com/hbaseusergroup/events/160757912/">HBase=20
+Meetup @ Ancestry.com</A> in San Francisco</P>
+<P><SMALL><A href=3D"http://hbase.apache.org/old_news.html">Old=20
+News</A></SMALL></P></DIV></DIV></DIV>
+<DIV class=3D"clear">
+<HR>
+     </DIV>
+<DIV id=3D"footer">
+<DIV class=3D"xright"><SPAN id=3D"publishDate">Last Published: =
+2014-08-08</SPAN>    =20
+         &nbsp;| <SPAN id=3D"projectVersion">Version: =
+2.0.0-SNAPSHOT</SPAN>       =20
+    &nbsp;         </DIV>
+<DIV class=3D"xright">Copyright =C2=A9<A =
+href=3D"http://www.apache.org/">2014            =20
+            <A href=3D"http://www.apache.org/">The Apache Software =
+Foundation</A>.=20
+           All Rights Reserved.  Apache Hadoop, Hadoop, HDFS, HBase and =
+the=20
+HBase project logo are trademarks of the Apache Software Foundation.     =
+   =20
+</DIV>
+<DIV class=3D"clear">
+<HR>
+       </DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://hbase.apache.org/images/hbase_logo.png
+
+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
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://hbase.apache.org/images/logos/maven-feather.png
+
+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
+QIABAIRapCc65nZyAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hbase.apache.org/css/maven-base.css
+
+body {
+	margin: 0px; padding: 0px;
+}
+img {
+	border: currentColor; border-image: none;
+}
+table {
+	padding: 0px; width: 100%; margin-right: -2px; margin-left: -2px;
+}
+acronym {
+	border-bottom-color: rgb(255, 238, 187); border-bottom-width: 1px; =
+border-bottom-style: dotted; cursor: help;
+}
+table.bodyTable th {
+	padding: 2px 4px; vertical-align: top;
+}
+table.bodyTable td {
+	padding: 2px 4px; vertical-align: top;
+}
+div.clear {
+	clear: both; visibility: hidden;
+}
+div.clear hr {
+	display: none;
+}
+#bannerLeft {
+	font-size: xx-large; font-weight: bold;
+}
+#bannerRight {
+	font-size: xx-large; font-weight: bold;
+}
+#bannerLeft img {
+	margin: 0px;
+}
+#bannerRight img {
+	margin: 0px;
+}
+.xleft {
+	float: left;
+}
+#bannerLeft img {
+	float: left;
+}
+.xright {
+	float: right;
+}
+#bannerRight {
+	float: right;
+}
+#banner {
+	padding: 0px;
+}
+#banner img {
+	border: currentColor; border-image: none;
+}
+#breadcrumbs {
+	padding: 3px 10px;
+}
+#leftColumn {
+	width: 170px; overflow: auto; padding-bottom: 3px; float: left;
+}
+#bodyColumn {
+	margin-right: 1.5em; margin-left: 197px;
+}
+#legend {
+	padding: 8px 0px;
+}
+#navcolumn {
+	padding: 8px 4px 0px 8px;
+}
+#navcolumn h5 {
+	margin: 0px; padding: 0px; font-size: small;
+}
+#navcolumn ul {
+	margin: 0px; padding: 0px; font-size: small;
+}
+#navcolumn li {
+	background-position: 0px 0.4em; line-height: 1.2em; padding-left: 16px; =
+font-size: smaller; list-style-type: none; list-style-position: outside; =
+background-image: none; background-repeat: no-repeat;
+}
+#navcolumn li.expanded {
+	background-image: url("../images/expanded.gif");
+}
+#navcolumn li.collapsed {
+	background-image: url("../images/collapsed.gif");
+}
+#navcolumn li.none {
+	text-indent: -1em; margin-left: 1em;
+}
+#poweredBy {
+	text-align: center;
+}
+#navcolumn img {
+	margin-top: 10px; margin-bottom: 3px;
+}
+#poweredBy img {
+	margin: 20px 0px 20px 17px; display: block;
+}
+#search img {
+	margin: 0px; display: block;
+}
+#search #q {
+	border: 1px solid rgb(153, 153, 153); border-image: none; =
+margin-bottom: 10px;
+}
+#search #btnG {
+	border: 1px solid rgb(153, 153, 153); border-image: none; =
+margin-bottom: 10px;
+}
+#search form {
+	margin: 0px;
+}
+#lastPublished {
+	font-size: x-small;
+}
+.navSection {
+	padding: 8px; margin-bottom: 2px;
+}
+.navSectionHead {
+	font-size: x-small; font-weight: bold;
+}
+.section {
+	padding: 4px;
+}
+#footer {
+	padding: 3px 10px; font-size: x-small;
+}
+#breadcrumbs {
+	margin: 0pt; font-size: x-small;
+}
+.source {
+	margin: 1em 7px; padding: 12px;
+}
+.source pre {
+	margin: 0px; padding: 0px;
+}
+#navcolumn img.imageLink {
+	margin: 0px; padding: 0px 2px 0px 0px; border: 0px currentColor; =
+border-image: none;
+}
+.imageLink {
+	margin: 0px; padding: 0px 2px 0px 0px; border: 0px currentColor; =
+border-image: none;
+}
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hbase.apache.org/css/maven-theme.css
+
+body {
+	padding: 0px; font-family: Verdana, Helvetica, Arial, sans-serif; =
+font-size: 13px; margin-right: auto; margin-left: auto; =
+background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+td {
+	color: rgb(51, 51, 51); font-family: Verdana, Helvetica, Arial, =
+sans-serif; font-size: 12px;
+}
+select {
+	color: rgb(51, 51, 51); font-family: Verdana, Helvetica, Arial, =
+sans-serif; font-size: 12px;
+}
+input {
+	color: rgb(51, 51, 51); font-family: Verdana, Helvetica, Arial, =
+sans-serif; font-size: 12px;
+}
+li {
+	color: rgb(51, 51, 51); font-family: Verdana, Helvetica, Arial, =
+sans-serif; font-size: 12px;
+}
+code {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: rgb(68, 119, 170);
+}
+a:visited {
+	color: rgb(102, 136, 170);
+}
+a:active {
+	color: rgb(153, 0, 0);
+}
+a:hover {
+	color: rgb(153, 0, 0);
+}
+#legend li.externalLink {
+	background: url("../images/external.png") no-repeat left top; =
+padding-left: 18px;
+}
+a.externalLink {
+	background: url("../images/external.png") no-repeat right; =
+padding-right: 18px;
+}
+a.externalLink:link {
+	background: url("../images/external.png") no-repeat right; =
+padding-right: 18px;
+}
+a.externalLink:visited {
+	background: url("../images/external.png") no-repeat right; =
+padding-right: 18px;
+}
+a.externalLink:active {
+	background: url("../images/external.png") no-repeat right; =
+padding-right: 18px;
+}
+a.externalLink:hover {
+	background: url("../images/external.png") no-repeat right; =
+padding-right: 18px;
+}
+#legend li.newWindow {
+	background: url("../images/newwindow.png") no-repeat left top; =
+padding-left: 18px;
+}
+a.newWindow {
+	background: url("../images/newwindow.png") no-repeat right; =
+padding-right: 18px;
+}
+a.newWindow:link {
+	background: url("../images/newwindow.png") no-repeat right; =
+padding-right: 18px;
+}
+a.newWindow:visited {
+	background: url("../images/newwindow.png") no-repeat right; =
+padding-right: 18px;
+}
+a.newWindow:active {
+	background: url("../images/newwindow.png") no-repeat right; =
+padding-right: 18px;
+}
+a.newWindow:hover {
+	background: url("../images/newwindow.png") no-repeat right; =
+padding-right: 18px;
+}
+h2 {
+	color: rgb(51, 51, 51); font-size: 17px;
+}
+h3 {
+	background-position: left bottom; padding: 4px 4px 4px 24px; color: =
+rgb(102, 102, 102); font-size: 14px; font-weight: bold; =
+background-image: url("../images/h3.jpg"); background-repeat: no-repeat; =
+background-color: rgb(204, 204, 204);
+}
+p {
+	color: rgb(0, 0, 0); line-height: 1.3em; font-size: 12px;
+}
+#breadcrumbs {
+	padding: 5px 10px 14px 20px; height: 13px; background-image: =
+url("../images/breadcrumbs.jpg");
+}
+* html #breadcrumbs {
+	padding-bottom: 8px;
+}
+#leftColumn {
+	margin: 10px 0px; padding-right: 5px; padding-left: 5px; =
+border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, =
+204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; =
+border-right-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-right-style: solid; border-bottom-style: solid;
+}
+#navcolumn h5 {
+	background-position: left bottom; color: rgb(73, 99, 90); padding-top: =
+2px; padding-left: 9px; font-size: smaller; border-bottom-color: =
+rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: =
+solid; background-image: url("../images/h5.jpg"); background-repeat: =
+no-repeat;
+}
+table.bodyTable th {
+	text-align: left; color: white; font-weight: bold; background-color: =
+rgb(187, 187, 187);
+}
+table.bodyTable th {
+	font-size: 11px;
+}
+table.bodyTable td {
+	font-size: 11px;
+}
+table.bodyTable tr.a {
+	background-color: rgb(221, 221, 221);
+}
+table.bodyTable tr.b {
+	background-color: rgb(238, 238, 238);
+}
+table.bodyTable tr.a:hover {
+	background: rgb(223, 227, 219);
+}
+table.bodyTable tr.b:hover {
+	background: rgb(223, 227, 219);
+}
+.source {
+	border: 1px solid rgb(153, 153, 153); border-image: none; overflow: =
+auto;
+}
+dt {
+	background-position: left bottom; padding: 4px 4px 4px 24px; color: =
+rgb(51, 51, 51); font-size: 14px; font-weight: bold; background-image: =
+url("../images/h3.jpg"); background-repeat: no-repeat; background-color: =
+rgb(204, 204, 204);
+}
+.subsectionTitle {
+	color: rgb(102, 102, 102); font-size: 13px; font-weight: bold;
+}
+table {
+	font-size: 10px;
+}
+.xright a:link {
+	color: rgb(102, 102, 102);
+}
+.xright a:visited {
+	color: rgb(102, 102, 102);
+}
+.xright a:active {
+	color: rgb(102, 102, 102);
+}
+.xright a:hover {
+	color: rgb(0, 51, 0);
+}
+#banner {
+	background: url("../images/banner.jpg"); height: 93px;
+}
+#navcolumn ul {
+	margin: 5px 0px 15px 0em;
+}
+#navcolumn ul a {
+	color: rgb(51, 51, 51);
+}
+#navcolumn ul a:hover {
+	color: red;
+}
+#intro {
+	margin: 6px 0px 0px; padding: 10px 40px; border: 1px solid rgb(204, =
+204, 204); border-image: none;
+}
+.subsection {
+	color: rgb(51, 51, 51); margin-left: 3px;
+}
+.subsection p {
+	font-size: 12px;
+}
+#footer {
+	margin: 20px 0px; padding: 10px; color: rgb(51, 51, 51); =
+border-top-color: rgb(204, 204, 204); border-top-width: 1px; =
+border-top-style: solid;
+}
+.errormark {
+	background: url("../images/icon_error_sml.gif") no-repeat;
+}
+.warningmark {
+	background: url("../images/icon_error_sml.gif") no-repeat;
+}
+.donemark {
+	background: url("../images/icon_error_sml.gif") no-repeat;
+}
+.infomark {
+	background: url("../images/icon_error_sml.gif") no-repeat;
+}
+.warningmark {
+	background-image: url("../images/icon_warning_sml.gif");
+}
+.donemark {
+	background-image: url("../images/icon_success_sml.gif");
+}
+.infomark {
+	background-image: url("../images/icon_info_sml.gif");
+}
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hbase.apache.org/css/site.css
+
+a.externalLink {
+	background: none; padding-right: 0px;
+}
+a.externalLink:link {
+	background: none; padding-right: 0px;
+}
+a.externalLink:visited {
+	background: none; padding-right: 0px;
+}
+a.externalLink:active {
+	background: none; padding-right: 0px;
+}
+a.externalLink:hover {
+	background: none; padding-right: 0px;
+}
+#downloadbox {
+	margin: 0px 10px 20px 20px; padding: 5px; border: 1px solid rgb(153, =
+153, 153); border-image: none; float: right; background-color: rgb(238, =
+238, 238);
+}
+#downloadbox h5 {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-size: smaller; =
+border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+#downloadbox p {
+	margin-top: 1em; margin-bottom: 0px;
+}
+#downloadbox ul {
+	margin-top: 0px; margin-bottom: 1em; list-style-type: disc;
+}
+#downloadbox li {
+	font-size: smaller;
+}
+#banner {
+	background: none;
+}
+#banner img {
+	background: none; margin: auto; padding: 10px; display: block;
+}
+#breadcrumbs {
+	background-image: none;
+}
+#footer {
+	border-top-color: currentColor; border-top-width: 0px; =
+border-top-style: none;
+}
+.frontpagebox {
+	width: 15em; text-align: center; margin-top: 2em; margin-right: 0.5em; =
+margin-left: 0.5em; float: left;
+}
+.headline {
+	padding-top: 1px; padding-bottom: 5px; font-size: 120%; font-weight: =
+bold; background-image: url("../images/breadcrumbs.jpg"); =
+background-repeat: repeat-x;
+}
+.section {
+	padding-top: 0px; padding-bottom: 0px;
+}
+
+------=_NextPart_000_0000_01CFB997.30C01A50
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://hbase.apache.org/css/print.css
+
+#banner {
+	display: none !important;
+}
+#footer {
+	display: none !important;
+}
+#leftcol {
+	display: none !important;
+}
+#breadcrumbs {
+	display: none !important;
+}
+.docs #toc {
+	display: none !important;
+}
+.docs .courtesylinks {
+	display: none !important;
+}
+#leftColumn {
+	display: none !important;
+}
+#navColumn {
+	display: none !important;
+}
+#bodyColumn {
+	margin: 0px !important; border: currentColor !important; border-image: =
+none !important;
+}
+body.docs div.docs {
+	margin: 0px !important; border: currentColor !important; border-image: =
+none !important;
+}
+
+------=_NextPart_000_0000_01CFB997.30C01A50--
