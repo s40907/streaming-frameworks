@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Prototype Streaming</title>
+ <style type="text/css">
+ body {
+  padding-top: 50px;
+ }
+ 
+ .headerFix {
+  padding: 40px 15px;
+ }
+ 
+ .axis path {
+  font-family: sans-serif;
+  font-size: 12px;  
+  shape-rendering: crispEdges;
+  fill: none;
+  stroke: black;
+ }
+ </style>
+ <link rel='stylesheet' type='text/css' href="libcss/bootstrap.min.css"/>
+</head>
+
+<body>
+ <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-full">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="#">Streaming frameworks performance prototype</a>
+   </div>
+  </div>
+ </nav>
+ <div id="eventNode"></div>
+ <div class="container-fluid headerFix">
+  <div class="row">
+   <div class="col-xs-6">
+    <h2>Apache Storm</h3>
+    <div id="chartStorm"></div>
+   </div>
+   <div class="col-xs-6">
+    <h2>Apache Kafka</h2>
+    <div id="chartKafka"></div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-xs-6">
+    <h2>Apache Flume</h3>
+    <div id="chartFlume"></div>
+   </div>
+   <div class="col-xs-6">
+    <h2>Apache S4</h2>
+    <div id="chartSsss"></div>
+   </div>
+  </div>
+  <hr>
+  <div class="row">
+   <div class="col-xs-12">
+    <h2>Log</h2>
+    <div name="logContent"></div>
+   </div>
+  </div>
+  <hr>
+  <div class="row">
+   <div class="col-xs-12">
+    <footer>
+     <p>2014 Master Thesis: Streaming Frameworks - Apache Storm, Apache Kafka, Apache Flume, Apache S4, Eduard Bergen (s40907@beuth-hochschule.de)</p>
+    </footer>
+   </div>
+  </div>
+ </div>
+
+
+ <script src="libjs/jquery-2.1.1.min.js"></script>
+ <script src="libjs/d3.min.js"></script>
+ <script src="libjs/bootstrap.min.js"></script>
+ <script src="libjs/log4javascript/log4javascript.js"></script>
+ <script src="libjs/configuration.js"></script>
+ <script src="libjs/graph.js"></script>
+ <script src="libjs/webSocketManager.js"></script>
+ <script src="libjs/main.js"></script>
+</body>
+</html>
