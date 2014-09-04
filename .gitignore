@@ -21,3 +21,5 @@
 thesis/anhangSoftwareZusatz/
 *.lol
 *.upb
+prototype/helper/websocketclient/target/classes/
+prototype/helper/websocketclient/target/test-classes/
