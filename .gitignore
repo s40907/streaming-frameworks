@@ -23,3 +23,4 @@ thesis/anhangSoftwareZusatz/
 *.upb
 prototype/helper/websocketclient/target/classes/
 prototype/helper/websocketclient/target/test-classes/
+prototype/broker/node_modules/

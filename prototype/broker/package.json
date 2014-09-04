@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "ws": "0.4.x",
-    "express": "4.x"
+    "websocket": "1.0.8"
   }
 }
