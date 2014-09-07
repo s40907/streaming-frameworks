@@ -5,7 +5,7 @@ import java.util.List;
 
 import lan.s40907.websocketclient.IWebSocketConfiguration;
 
-public class WebSocketConfiguration implements IWebSocketConfiguration {
+public class WebSocketConfigurationS4 implements IWebSocketConfiguration {
 	private String IpAddress = "192.168.1.60";
 	private String Port = "8083";
 	private List<String> SubProtocols = Arrays.asList("echo-protocol");

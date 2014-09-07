@@ -37,7 +37,7 @@
   </appender>  
   <logger name="lan.s40907">
     <level value="INFO"/>
-    <!--appender-ref ref="console" /-->
+    <appender-ref ref="console" />
     <appender-ref ref="file" />
     <appender-ref ref="traceFile" />
   </logger>

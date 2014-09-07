@@ -62,19 +62,19 @@ public class App
     		long recieveTime = System.currentTimeMillis();
     		
     		logger.trace("Trying to parse message: " + message);
-    		JSONObject json = (JSONObject)jsonParser.parse(message);
+    		JSONObject json = (JSONObject)jsonParser.parse(message);    		  		
     		
     		logger.trace("parsing sendTime");
-			long sendTime = (long) json.get("sendTime");
+			long sendTime = Long.valueOf(json.get("sendTime").toString());
 			
 			logger.trace("parsing wordCount");
 			JSONObject jsonWordCount = (JSONObject) json.get("wordCount");
 			
 			logger.trace("parsing word");
-			String word = (String) jsonWordCount.get("word");
+			String word = jsonWordCount.get("word").toString();
 			
 			logger.trace("parsing count");
-			long count = (long) jsonWordCount.get("count");			
+			long count = Long.valueOf(jsonWordCount.get("count").toString());			
 			
 			measure = new Measure();
 			measure.recieveTime = recieveTime;
