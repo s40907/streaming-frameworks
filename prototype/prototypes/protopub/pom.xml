@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lan.s40907.protopub</groupId>
   <artifactId>protopub</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
   <name>protopub</name>
   <url>http://maven.apache.org</url>
