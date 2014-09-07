@@ -21,10 +21,10 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=3000,
+							ymax=300,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm, Apache Kafka, Apache Flume, Apache S4, Raw},
+							legend entries = {Apache Storm, Apache Kafka, Apache Flume, Apache S4},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
@@ -33,10 +33,33 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureKafka.dat};
 \addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureFlume.dat};
 \addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureS4.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureRaw.dat};
 \end{axis} 
 \end{tikzpicture}
 
 \caption{Messung Streaming frameworks
+\label{fig:messung}}
+      \end{figure}
+
+\begin{figure}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=Anzahl Nachrichten,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=8000,
+							width=1\linewidth,
+							height=10cm,
+							legend entries = {Raw VM1, Raw VM2},
+							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
+
+\addplot+[mark options={scale=0.07}] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureRaw.dat};
+\addplot+[mark options={scale=0.07}] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureRaw2.dat};
+\end{axis} 
+\end{tikzpicture}
+
+\caption{Messung Nachrichtendurchsatz ohne Berechnung
 \label{fig:messung}}
       \end{figure}
