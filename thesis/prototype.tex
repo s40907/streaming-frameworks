@@ -21,18 +21,19 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=200,
+							ymax=3000,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm, Apache Kafka, Apache Flume, Apache S4},
+							legend entries = {Apache Storm, Apache Kafka, Apache Flume, Apache S4, Raw},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
 %verbundene Punkte
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.log};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureKafka.log};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureFlume.log};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureS4.log};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureKafka.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureFlume.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureS4.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureRaw.dat};
 \end{axis} 
 \end{tikzpicture}
 
