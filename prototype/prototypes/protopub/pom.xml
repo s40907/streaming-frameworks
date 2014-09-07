@@ -10,7 +10,43 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <profiles>
+    <profile>
+      <id>storm</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <profile.filename>Storm</profile.filename>
+        <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
+        <interface.WebSocketConfiguration>lan.s40907.protopub.WebSocketConfigurationStorm</interface.WebSocketConfiguration>
+      </properties>
+    </profile>
+    <profile>
+      <id>kafka</id>
+      <properties>
+        <profile.filename>Kafka</profile.filename>
+        <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
+        <interface.WebSocketConfiguration>lan.s40907.protopub.WebSocketConfigurationKafka</interface.WebSocketConfiguration>
+      </properties>
+    </profile>
+    <profile>
+      <id>flume</id>
+      <properties>
+        <profile.filename>Flume</profile.filename>
+        <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
+        <interface.WebSocketConfiguration>lan.s40907.protopub.WebSocketConfigurationFlume</interface.WebSocketConfiguration>
+      </properties>
+    </profile>
+    <profile>
+      <id>s4</id>
+      <properties>
+        <profile.filename>S4</profile.filename>
+        <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
+        <interface.WebSocketConfiguration>lan.s40907.protopub.WebSocketConfigurationS4</interface.WebSocketConfiguration>
+      </properties>
+    </profile>
+  </profiles>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -47,18 +83,29 @@
     </repository>
   </repositories>
   <build>
+    <finalName>${project.name}${profile.filename}-${project.version}</finalName>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>          
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>      
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
-            <archive>
-                <manifest>
-                    <mainClass>lan.s40907.protopub.App</mainClass>
-                </manifest>
-            </archive>
-            <descriptorRefs>
-                <descriptorRef>jar-with-dependencies</descriptorRef>
-            </descriptorRefs>
+          <appendAssemblyId>false</appendAssemblyId>
+          <finalName>${project.name}${profile.filename}-${project.version}f</finalName>
+          <archive>
+            <manifest>
+              <mainClass>lan.s40907.protopub.App</mainClass>
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
         </configuration>
         <executions>
             <execution>
@@ -74,9 +121,7 @@
     <resources>
       <resource>
         <directory>resources</directory>
-        <includes>
-          <include>log4j.xml</include>
-        </includes>
+        <filtering>true</filtering>
       </resource>
     </resources>
   </build>
