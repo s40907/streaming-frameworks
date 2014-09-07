@@ -16,20 +16,19 @@ import org.glassfish.tyrus.client.ClientManager;
 
 
 public class WebSocketClientTyrus implements IWebSocketClient {	
-	public boolean IsConnected = false;
 	private List<WebSocketMessageListener> webSocketMessageListeners = new ArrayList<WebSocketMessageListener>();	
 	private URI webSocketUri;
 	private List<String> subProtocols;
 	private Session session;
-	
-	public WebSocketClientTyrus(IWebSocketConfiguration webSocketConfiguration) throws URISyntaxException {		
+		
+	public void setup(IWebSocketConfiguration webSocketConfiguration) throws URISyntaxException {
 		webSocketUri = getWebSocketUri(webSocketConfiguration.getIpAddress(), webSocketConfiguration.getPort());
-		subProtocols = webSocketConfiguration.getSubProtocols();
+		subProtocols = webSocketConfiguration.getSubProtocols();	
 	}
 	
 	public void addMessageListener(WebSocketMessageListener webSocketMessageListener) {
 		webSocketMessageListeners.add(webSocketMessageListener);
-	}
+	}	
 	
 	public void connect() {
 		try {
@@ -42,8 +41,7 @@ public class WebSocketClientTyrus implements IWebSocketClient {
 
 						@Override
 						public void onOpen(Session session,EndpointConfig config) {							
-							WebSocketClientTyrus.this.session = session;
-							IsConnected = true;
+							WebSocketClientTyrus.this.session = session;							
 							WebSocketClientTyrus.this.session.addMessageHandler(new MessageHandler.Whole<String>() {
 
 				                @Override
@@ -66,8 +64,7 @@ public class WebSocketClientTyrus implements IWebSocketClient {
 	}
 	
 	public void close() throws IOException {
-		webSocketMessageListeners = null;
-		IsConnected = false;
+		webSocketMessageListeners = null;		
 		session.close();
 	}
 	

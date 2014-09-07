@@ -5,20 +5,37 @@ import java.util.ServiceLoader;
 
 
 public class WebSocketClientFactory {	
-	private static WebSocketClientTyrus connector;
+	private static IWebSocketClient webSocketClient;
 	
-	public static WebSocketClientTyrus getInstance() throws Exception {		
-		if (connector == null) {			
-			ServiceLoader<IWebSocketConfiguration> serviceLoader = ServiceLoader.load(IWebSocketConfiguration.class);
-			IWebSocketConfiguration webSocketConfiguration = getSingle(serviceLoader.iterator());			
-			connector = new WebSocketClientTyrus(webSocketConfiguration);
-			connector.connect();			
+	public static IWebSocketClient getInstance() throws Exception {		
+		if (webSocketClient == null) {
+			IWebSocketConfiguration webSocketConfiguration = getService(IWebSocketConfiguration.class);
+			webSocketClient = getService(IWebSocketClient.class);
+			webSocketClient.setup(webSocketConfiguration);			
+			webSocketClient.connect();
 		}
-		return connector;
+		return webSocketClient;
 	}
 	
-	private static <T> T getSingle(Iterator<T> iterator) throws IllegalAccessException {
-		T first = iterator.next();
+	private static <T> T getService(Class<T> classToLoad) throws InstantiationException, IllegalAccessException, ClassNotFoundException {	
+		ServiceLoader<T> serviceLoader = (ServiceLoader<T>) ServiceLoader.load(classToLoad);
+		try {
+			return getSingle(serviceLoader.iterator());
+		} catch (IllegalAccessException e) {
+			return null;			
+		}
+	}
+	
+	private static <T> T getSingle(Iterator<T> iterator) throws IllegalAccessException, ClassNotFoundException {
+		T first = null;
+		try {
+			first = iterator.next();	
+		} catch (Exception e) {			
+			throw new ClassNotFoundException("Check resources META-INF", e);
+		}
+		
+		
+		
 		if (first != null && !iterator.hasNext()) {
 			return first;
 		} else {			
