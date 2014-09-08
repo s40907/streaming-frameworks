@@ -43,3 +43,5 @@ prototype/prototypes/protopub/bin/
 prototype/prototypes/protopub/target/test-classes/
 prototype/helper/websocketclient/target/maven-archiver/
 prototype/helper/websocketclient/target/surefire-reports/
+prototype/prototypes/protopubStorm/target/classes/
+prototype/prototypes/protopubStorm/target/test-classes/
