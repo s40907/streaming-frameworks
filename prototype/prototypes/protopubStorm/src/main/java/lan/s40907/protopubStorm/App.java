@@ -15,23 +15,31 @@ import backtype.storm.topology.TopologyBuilder;
 public class App 
 {
     public static void main( String[] args ) throws AlreadyAliveException, InvalidTopologyException, InterruptedException {
-    	TopologyBuilder builder = new TopologyBuilder();    	
-    	builder.setSpout("readSentence", new FileReaderSpout(), 1);
+    	TopologyBuilder builder = new TopologyBuilder();
+    	/*
+    	builder.setSpout("readSentence", new FileReaderSpout(), 6);
     	builder.setBolt("splitSentence", new SplitSentenceBolt()).shuffleGrouping("readSentence");
     	builder.setBolt("countWords", new CountWordsBolt()).shuffleGrouping("splitSentence");
-    	builder.setBolt("printCountWords", new PrintBolt()).shuffleGrouping("countWords");
     	builder.setBolt("sendCountWords", new WebSocketBolt()).shuffleGrouping("countWords");
+    	*/
+    	
+    	builder.setSpout("wordGenerator", new WordGeneratorSpout(100000), 6);
+    	builder.setBolt("sendCountWords", new WebSocketBolt()).shuffleGrouping("wordGenerator");
     	
     	Config conf = new Config();
-    	conf.setDebug(true);    	
-    	conf.put(Config.TOPOLOGY_MAX_SPOUT_PENDING, 1);
+    	conf.setDebug(false);
+    	conf.put(Config.TOPOLOGY_EXECUTOR_SEND_BUFFER_SIZE, 16384);
+     	conf.put(Config.TOPOLOGY_EXECUTOR_RECEIVE_BUFFER_SIZE, 16384);
+     	conf.put(Config.TOPOLOGY_RECEIVER_BUFFER_SIZE, 8);
+     	conf.put(Config.TOPOLOGY_TRANSFER_BUFFER_SIZE, 32);
+    	//conf.put(Config.TOPOLOGY_MAX_SPOUT_PENDING, 1);
     	
     	if (args != null && args.length > 0) {
     		conf.setNumWorkers(3);
     		conf.put("fileToRead", args[1]);
     		StormSubmitter.submitTopologyWithProgressBar(args[0], conf, builder.createTopology());
     	} else {
-    		//conf.setMaxTaskParallelism(3);
+    		conf.setMaxTaskParallelism(6);
     		conf.put("fileToRead", "shaks12.txt");
     		//conf.put("fileToRead", "small100.txt");
     		LocalCluster cluster = new LocalCluster();

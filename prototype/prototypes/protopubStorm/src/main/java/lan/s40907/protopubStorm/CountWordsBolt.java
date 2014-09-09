@@ -19,21 +19,7 @@ public class CountWordsBolt implements IRichBolt {
 	private OutputCollector collector;
 
 	@Override
-	public void cleanup() {
-		System.out.println("CCCCCCC");
-		System.out.println("CCCCCCC");
-		System.out.println("CCCCCCC");
-		System.out.println("CCCCCCC");
-		for(Map.Entry<String, Integer> entry: counter.entrySet()) {
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-			System.out.println(entry.getKey()+" : " + entry.getValue());
-		}
-	}
+	public void cleanup() {}
 
 	@Override
 	public void execute(Tuple tupel) {
@@ -57,10 +43,7 @@ public class CountWordsBolt implements IRichBolt {
 			hashMap.put(entry.getKey(), entry.getValue());
 			takeIndex++;
 		}
-		//this.collector.emit(new Values(treeMap.toString()));
 		this.collector.emit(new Values(hashMap.toString()));
-		
-		
 		this.collector.ack(tupel);
 	}
 

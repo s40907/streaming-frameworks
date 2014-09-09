@@ -21,18 +21,16 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=2500,
+							ymax=4000,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm, Apache Kafka, Apache Flume, Apache S4},
+							legend entries = {Apache Storm, Apache Storm WG1},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
 %verbundene Punkte
 \addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureKafka.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureFlume.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureS4.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG1.dat};
 \end{axis} 
 \end{tikzpicture}
 

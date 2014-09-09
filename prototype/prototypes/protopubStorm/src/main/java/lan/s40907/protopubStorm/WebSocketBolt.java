@@ -1,6 +1,9 @@
 package lan.s40907.protopubStorm;
 
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 import org.json.simple.JSONObject;
 
@@ -20,7 +23,13 @@ public class WebSocketBolt implements IRichBolt {
 
 	@Override
 	public void execute(Tuple tuple) {
+		
+		// testing
 		String word = tuple.getString(0);
+		word = word.replace("{", "");
+		word= word.replace("}", "");
+		String[] kvPair = word.split("=");
+		
 		try {
 			IWebSocketClient client = WebSocketClientFactory.getInstance();
 	   		JSONObject json = new JSONObject();
@@ -28,8 +37,8 @@ public class WebSocketBolt implements IRichBolt {
 	       	json.put("sendTime", System.currentTimeMillis());
 	       		 
 	       	JSONObject wordCount = new JSONObject();
-	       	wordCount.put("word", word);
-	       	wordCount.put("count", 1);
+	       	wordCount.put("word", kvPair[0]);
+	       	wordCount.put("count", kvPair[1]);
 	       	json.put("wordCount", wordCount);
 	   		client.send(json.toJSONString());
 	   	} catch (Exception e) {
