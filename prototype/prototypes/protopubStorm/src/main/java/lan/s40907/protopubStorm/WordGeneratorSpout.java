@@ -1,8 +1,6 @@
 package lan.s40907.protopubStorm;
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicLong;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -40,10 +38,10 @@ public class WordGeneratorSpout implements IRichSpout {
 	@Override
 	public void nextTuple() {
 		if (this.amount < this.maxAmount) {
-			this.amount++;
-			HashMap<String,Integer> hashMap = new HashMap<String, Integer>();
-			hashMap.put("STORMwordGenerator", this.amount);
-			this.collector.emit(new Values(hashMap.toString()));
+			this.amount++;						
+			long currentTime = System.currentTimeMillis();
+			String currentWord = "STORMwordGenerator";
+			this.collector.emit(new Values(currentWord, this.amount, currentTime));
 		}
 	}
 
@@ -54,7 +52,7 @@ public class WordGeneratorSpout implements IRichSpout {
 
 	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
-		declarer.declare(new Fields("words"));
+		declarer.declare(new Fields("word", "amount", "time"));
 	}
 
 	@Override

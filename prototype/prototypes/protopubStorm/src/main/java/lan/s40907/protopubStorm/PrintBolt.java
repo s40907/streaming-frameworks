@@ -10,28 +10,29 @@ import backtype.storm.tuple.Tuple;
 
 public class PrintBolt implements IRichBolt {
 	private OutputCollector collector;
-
+		
 	@Override
 	public void cleanup() {}
 
 	@Override
 	public void execute(Tuple tuple) {
-		String string = tuple.getString(0);
-		System.out.print("FOUND: " + string);
+		Integer secondNumber = tuple.getIntegerByField("secondNumer");
+		Integer count = tuple.getIntegerByField("count");
+		long actualSeconds = System.currentTimeMillis();		
+		System.out.println(String.format("%s, %s", secondNumber, count));
 		this.collector.ack(tuple);
 	}
 
 	@Override
 	public void prepare(Map conf, TopologyContext context, OutputCollector collector) {
-		this.collector = collector;		
+		this.collector = collector;
 	}
 
 	@Override
-	public void declareOutputFields(OutputFieldsDeclarer arg0) {}
+	public void declareOutputFields(OutputFieldsDeclarer declarer) {}
 
 	@Override
 	public Map<String, Object> getComponentConfiguration() {
 		return null;
 	}
-
 }
