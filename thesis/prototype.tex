@@ -21,16 +21,18 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=4000,
+							ymax=1000000,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm, Apache Storm WG1},
+							legend entries = {Apache Storm, Apache Storm WG1, Apache Storm WG2, Apache Storm Raw Bolt},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
 %verbundene Punkte
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG1.dat};
+%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.dat};
+%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG1.dat};
+%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG2.dat};
+\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormRawBolt.dat};
 \end{axis} 
 \end{tikzpicture}
 
