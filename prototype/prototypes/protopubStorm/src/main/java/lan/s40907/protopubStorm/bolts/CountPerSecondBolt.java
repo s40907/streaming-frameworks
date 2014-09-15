@@ -49,7 +49,7 @@ public class CountPerSecondBolt implements IRichBolt {
 		}
 		
 		if ((this.currentTimeSecondsInt + 1) < Time.currentTimeSecs()) {
-			String takeFirstHeighest = takeFirstHeighest(5);			
+			String takeFirstHeighest = takeFirstHighest(5);			
 			OperatingSystemMXBean operatingSystem = (com.sun.management.OperatingSystemMXBean)
 					ManagementFactory.getOperatingSystemMXBean();
 			this.collector.emit(tuple, new Values(
@@ -81,7 +81,7 @@ public class CountPerSecondBolt implements IRichBolt {
 		return null;
 	}
 	
-	private String takeFirstHeighest(int amount) {
+	private String takeFirstHighest(int amount) {
 		DescendingComparator descendingComparator = new DescendingComparator(counter);
 		TreeMap<String,Integer> treeMap = new TreeMap<String, Integer>(descendingComparator);
 		treeMap.putAll(counter);
