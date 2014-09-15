@@ -16,7 +16,7 @@ public class AppWordCounter {
     public static void main( String[] args ) throws AlreadyAliveException, InvalidTopologyException, InterruptedException {
     	TopologyBuilder builder = new TopologyBuilder();
     	
-    	builder.setSpout("wordGenerator", new WordGeneratorSpout(10), 8);    	
+    	builder.setSpout("wordGenerator", new WordGeneratorSpout(100), 8);    	
     	builder.setBolt("countPerSecond", new CountPerSecondBolt(), 1).fieldsGrouping("wordGenerator", new Fields("word"));
     	builder.setBolt("sendCountWords", new WebSocketBolt()).shuffleGrouping("countPerSecond");
     	builder.setBolt("printWord", new PrintBolt(), 1).shuffleGrouping("countPerSecond");
@@ -26,7 +26,7 @@ public class AppWordCounter {
     	
     	if (args != null && args.length > 0) {
     		conf.setNumWorkers(1);
-    		conf.put("fileToRead", "shaks12over1Mio.txt");
+    		conf.put("fileToRead", "shaks12.txt");    		
     		StormSubmitter.submitTopology("wordCounter", conf, builder.createTopology());
     	} else {
     		conf.setNumWorkers(1);
