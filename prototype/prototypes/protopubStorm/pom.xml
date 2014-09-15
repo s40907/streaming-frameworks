@@ -19,7 +19,7 @@
       <properties>
         <profile.filename>Storm</profile.filename>
         <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
-        <interface.WebSocketConfiguration>lan.s40907.protopubStorm.WebSocketConfigurationStorm</interface.WebSocketConfiguration>
+        <interface.WebSocketConfiguration>lan.s40907.protopubStorm.helper.WebSocketConfigurationStorm</interface.WebSocketConfiguration>
       </properties>
     </profile>
   </profiles>
@@ -82,7 +82,7 @@
           <finalName>${project.name}${profile.filename}-${project.version}f</finalName>
           <archive>
             <manifest>
-              <mainClass>lan.s40907.protopub.App</mainClass>
+              <mainClass>lan.s40907.protopubStorm.App</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
