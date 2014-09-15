@@ -12,6 +12,7 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \label{fig:prototypeStreamingGraph}}
 \end{figure}
 
+%STORM TRHOUGHPUT%
 \begin{figure}
 \begin{tikzpicture} 
 \begin{axis}[ enlarge x limits=0.03, 
@@ -21,24 +22,49 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=1000000,
+							ymax=2000000,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm, Apache Storm WG1, Apache Storm WG2, Apache Storm Raw Bolt},
-							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right} ] 
+							legend entries = {Apache Storm HiPcRaw, Apache Storm HiPcWordCount},
+							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right}] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
 %verbundene Punkte
-%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStorm.dat};
-%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG1.dat};
-%\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormWG2.dat};
-\addplot+ table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasureStormRawBolt.dat};
+\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcWordCount.dat};
 \end{axis} 
 \end{tikzpicture}
+\caption{Messung Apache Storm Nachrichtendurchsatz
+\label{fig:messungStormNd}}
+\end{figure}
 
-\caption{Messung Streaming frameworks
-\label{fig:messungFrameworks}}
-      \end{figure}
+%STORM CPU%
+\begin{figure}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=CPU Auslastung in Prozent,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=1.0,
+							width=1\linewidth,
+							height=10cm,
+							legend entries = {Apache Storm HiPcRaw, Apache Storm HiPcWordCount},
+							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right},
+							yticklabel={\pgfmathparse{\tick*100}\pgfmathprintnumber{\pgfmathresult}\%},] 
+%nur punkte
+%\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
+%verbundene Punkte
+\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcWordCount.dat};
+\end{axis} 
+\end{tikzpicture}
+\caption{Messung Apache Storm CPU Auslastung
+\label{fig:messungStormCpu}}
+\end{figure}
+
 
 \begin{figure}
 \begin{tikzpicture} 
@@ -60,7 +86,7 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \end{axis} 
 \end{tikzpicture}
 
-\caption{Messung Nachrichtendurchsatz ohne Berechnung
+\caption{Messung Nachrichtendurchsatz in Virtualbox
 \label{fig:messungMaxNachrichten}}
 \end{figure}
 
