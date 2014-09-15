@@ -19,7 +19,7 @@ var MainComponent = (function () {
 
   $('#eventNode').on('messageIncomeStorm', function (event) {
    var json = JSON.parse($(this).data('eventsData'));
-   stormGraph.update(json.wordCount);
+   stormGraph.update(json.wordCount, json.countPerSecond);
   });
  };
 
@@ -32,7 +32,7 @@ var MainComponent = (function () {
 
   $('#eventNode').on('messageIncomeKafka', function (event) {
    var json = JSON.parse($(this).data('eventsData'));
-   kafkaGraph.update(json.wordCount);
+   kafkaGraph.update(json.wordCount, json.countPerSecond);
   });
 
  }
@@ -46,7 +46,7 @@ var MainComponent = (function () {
 
   $('#eventNode').on('messageIncomeFlume', function (event) {
    var json = JSON.parse($(this).data('eventsData'));
-   flumeGraph.update(json.wordCount);
+   flumeGraph.update(json.wordCount, json.countPerSecond);
   });
 
  }
@@ -60,7 +60,7 @@ var MainComponent = (function () {
 
   $('#eventNode').on('messageIncomeSsss', function (event) {
    var json = JSON.parse($(this).data('eventsData'));
-   s4Graph.update(json.wordCount);
+   s4Graph.update(json.wordCount, json.countPerSecond);
   });
 
  }

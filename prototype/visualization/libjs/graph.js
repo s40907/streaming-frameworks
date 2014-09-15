@@ -19,8 +19,8 @@ var Graph = function (config, chartIdentity) {
   create();
  };
 
- this.update = function (newData) {
-  update(newData);
+ this.update = function (newData, countPerSecond) {
+  update(newData, countPerSecond);
  }
 
  function getCurrentDatum() {
@@ -124,35 +124,16 @@ function create() {
   .text('0');
 }
 
- function update(newData) {
-  var newDataElement = data.filter(function (d) { return d.word === newData.word; });
-  if (newDataElement.length === 0) {
-   data.push(newData);
-   d3.selectAll(chartIdentity + ' > *').remove();
-   init();
-   updateEnvironment();
-   create();
-  } else {
-   data.forEach(function (d) {
-    if (d.word === newData.word) {
-     d.count = newData.count;
-    }
-   });
-   updateEnvironment();
-  }
+ function update(newData, countPerSecond) {
+  data = newData;
+  d3.selectAll(chartIdentity + ' > *').remove();
+  init();
+  updateEnvironment();
+  create();
   
-  var currentDatum = getCurrentDatum();
-  if ((currentMeasureDatum + 1) > currentDatum ) {
-   logger.trace('{"message": "current mps count ' + currentMessagesPerSecond + '"}');
-   currentMessagesPerSecond++;
-  } else {
-   chart.select('.mps')
-    .transition()
-     .text(currentMessagesPerSecond);
-   currentMessagesPerSecond = 1;
-   currentMeasureDatum = currentDatum;
-   logger.trace('{"message": "current mps reset count ' + currentMessagesPerSecond + '"}');
-  }
+  chart.select('.mps')
+   .transition()
+    .text(countPerSecond);
 
   var rect = chart.selectAll(".bar rect").data(data);
   var text = chart.selectAll(".bar text").data(data);
