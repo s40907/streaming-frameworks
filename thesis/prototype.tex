@@ -25,13 +25,15 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							ymax=2000000,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm HiPcRaw, Apache Storm HiPcWordCount},
+							legend entries = {Storm HiPcRaw, Storm HiPcWordCount, Storm LoPcRaw, Storm LoPcWordCount},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right}] 
 %nur punkte
 %\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
 %verbundene Punkte
 \addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcRaw.dat};
 \addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormLowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureStormLowPcWordCount.dat};
 \end{axis} 
 \end{tikzpicture}
 \caption{Messung Apache Storm Nachrichtendurchsatz
@@ -48,10 +50,10 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 							axis x line=bottom,
 							axis y line=left,
 							ymin=0,
-							ymax=1.0,
+							ymax=1.5,
 							width=1\linewidth,
 							height=10cm,
-							legend entries = {Apache Storm HiPcRaw, Apache Storm HiPcWordCount},
+							legend entries = {Storm HiPcRaw, Storm HiPcWordCount, Storm LoPcRaw, Storm LoPcWordCount},
 							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right},
 							yticklabel={\pgfmathparse{\tick*100}\pgfmathprintnumber{\pgfmathresult}\%},] 
 %nur punkte
@@ -59,6 +61,8 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 %verbundene Punkte
 \addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcRaw.dat};
 \addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormHighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormLowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureStormLowPcWordCount.dat};
 \end{axis} 
 \end{tikzpicture}
 \caption{Messung Apache Storm CPU Auslastung
