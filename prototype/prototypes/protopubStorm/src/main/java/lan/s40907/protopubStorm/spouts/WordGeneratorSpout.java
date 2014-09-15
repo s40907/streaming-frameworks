@@ -44,9 +44,7 @@ public class WordGeneratorSpout implements IRichSpout {
 	public void deactivate() {}
 
 	@Override
-	public void fail(Object object) {
-		System.err.println("FileReader fail with: " + object.toString());
-	}
+	public void fail(Object object) {}
 
 	@Override
 	public void nextTuple() {
