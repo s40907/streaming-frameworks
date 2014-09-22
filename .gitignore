@@ -47,3 +47,7 @@ prototype/prototypes/protopubStorm/target/classes/
 prototype/prototypes/protopubStorm/target/test-classes/
 prototype/prototypes/protopubStorm/target/maven-archiver/
 prototype/prototypes/protopubStorm/target/surefire-reports/
+prototype/prototypes/protopubKafka/target/classes/
+prototype/prototypes/protopubKafka/target/maven-archiver/
+prototype/prototypes/protopubKafka/target/test-classes/
+prototype/prototypes/protopubKafka/target/surefire-reports/
