@@ -17,19 +17,10 @@ public class KafkaConsumer {
 		Properties properties = new Properties();
 		properties.put("zookeeper.connect", "localhost:2181");
 		properties.put("group.id", "testGroup");
-		//properties.put("zookeeper.session.timeout.ms", "400");
-		//properties.put("zookeeper.sync.time.ms", "250");
-		//properties.put("auto.commit.interval.ms", "100");
-		//properties.put("fetch.size", 1024*1024);
-		//properties.put("batch.size", 1);
 		properties.put("fetch.size", 1024*1024);
-		properties.put("num.consumer.fetchers", "2");
-		
 		ConsumerConfig consumerConfig = new ConsumerConfig(properties);
 		consumerConnector = Consumer.createJavaConsumerConnector(consumerConfig);
 		return consumerConnector;
-		
-		
 	}
 	
 	public KafkaStream<byte[],byte[]> GetFirstKafkaStream(HashMap<String, 
