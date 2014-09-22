@@ -70,6 +70,68 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \end{figure}
 
 
+
+%KAFKA TRHOUGHPUT%
+\begin{figure}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=Anzahl Nachrichten,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=200000,
+							width=1\linewidth,
+							height=10cm,
+							legend entries = {Kafka HiPcRaw, Kafka HiPcWordCount, Kafka LoPcRaw, Kafka LoPcWordCount},
+							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right}] 
+%nur punkte
+%\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
+%verbundene Punkte
+\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureKafkaHighPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureKafkaHighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureKafkaLowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureKafkaLowPcWordCount.dat};
+\end{axis} 
+\end{tikzpicture}
+\caption{Messung Apache Kafka Nachrichtendurchsatz
+\label{fig:messungKafkaNd}}
+\end{figure}
+
+%KAFKA CPU%
+\begin{figure}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=CPU Auslastung in Prozent,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=1.5,
+							width=1\linewidth,
+							height=10cm,
+							legend entries = {Kafka HiPcRaw, Kafka HiPcWordCount, Kafka LoPcRaw, Kafka LoPcWordCount},
+							legend style={at={(1,1)},xshift=0.2cm,anchor=north east,nodes=right},
+							yticklabel={\pgfmathparse{\tick*100}\pgfmathprintnumber{\pgfmathresult}\%},] 
+%nur punkte
+%\addplot+[only marks, color=blue, mark options={scale=0.08}, mark=*] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/traversedMeasure.log};
+%verbundene Punkte
+\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureKafkaHighPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureKafkaHighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureKafkaLowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureKafkaLowPcWordCount.dat};
+\end{axis} 
+\end{tikzpicture}
+\caption{Messung Apache Kafka CPU Auslastung
+\label{fig:messungKafkaCpu}}
+\end{figure}
+
+
+Dataset: \citeint{dataset:shakespeare:1994:CWW}
+
+%Virtualbox RAW MEssung%
 \begin{figure}
 \begin{tikzpicture} 
 \begin{axis}[ enlarge x limits=0.03, 
@@ -94,4 +156,5 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \label{fig:messungMaxNachrichten}}
 \end{figure}
 
-Dataset: \citeint{dataset:shakespeare:1994:CWW}
+
+
