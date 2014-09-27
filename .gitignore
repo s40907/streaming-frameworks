@@ -52,3 +52,9 @@ prototype/prototypes/protopubKafka/target/maven-archiver/
 prototype/prototypes/protopubKafka/target/test-classes/
 prototype/prototypes/protopubKafka/target/surefire-reports/
 prototype/prototypes/protopubKafka/.settings/
+prototype/prototypes/protopubFlume/target/classes/
+prototype/prototypes/protopubFlume/target/maven-status/
+prototype/prototypes/protopubFlume/target/maven-archiver/
+prototype/prototypes/protopubFlume/.settings/
+prototype/prototypes/protopubFlume/target/test-classes/
+prototype/prototypes/protopubFlume/target/surefire-reports/
