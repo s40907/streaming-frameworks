@@ -4,14 +4,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import kafka.javaapi.producer.Producer;
 import kafka.producer.KeyedMessage;
 import lan.s40907.protopubKafka.helper.Convert;
 import lan.s40907.protopubKafka.helper.Transpose;
-
 import org.apache.log4j.Logger;
-
 
 public class AppWordCountProducer {
 	private static Logger logger = Logger.getLogger(AppWordCountProducer.class);
@@ -29,13 +26,9 @@ public class AppWordCountProducer {
 	public void start() throws IOException {
 		logger.info("Reading text");
 		List<String> lines = transpose.readAllLines("/" + fileToRead);
-		logger.info("found " + lines.size() + " line(s)");
-		
+		logger.info("found " + lines.size() + " line(s)");		
 		KafkaProducer kafkaProducer = new KafkaProducer();
 		Producer<Integer, byte[]> producer = kafkaProducer.GetProducer();
-		Map<String, String> hashMap = new HashMap<String, String>();
-		hashMap.put("word", "KafkaIntegerGenerator");				
-				
 		int currentRetry = 1;
 		int currentIndex = 0;
 		while (currentRetry <= retries) {

@@ -18,10 +18,10 @@ import com.yammer.metrics.core.Clock;
 
 public class AppIntegerConsumer extends Thread {
 	private static Logger logger = Logger.getLogger(AppIntegerConsumer.class);
-	private HashMap<String, Integer> counter = new HashMap<String, Integer>();;
+	private HashMap<String, Integer> counter = new HashMap<String, Integer>();
 	private Convert convert = new Convert();
 	private Transpose transpose = new Transpose();
-	private long currentTimeSeconds = Clock.defaultClock().time();;
+	private long currentTimeSeconds = Clock.defaultClock().time();
 	private int normalizedSecond = 0;
 	private int countPerSecond = 0;
 	private String topicName;
@@ -35,8 +35,7 @@ public class AppIntegerConsumer extends Thread {
 	@Override
 	public void run() {
 		HashMap<String,Integer> topics = new HashMap<String, Integer>();
-		topics.put(topicName, 1);
-		
+		topics.put(topicName, 1);		
 		
 		KafkaStream<byte[],byte[]> kafkaStream = kafkaConsumer.GetFirstKafkaStream(topics, topicName);				
 		ConsumerIterator<byte[], byte[]> iterator = kafkaStream.iterator();
@@ -58,7 +57,7 @@ public class AppIntegerConsumer extends Thread {
 			}
 			
 			printMessagesPerSecond();
-			countPerSecond++;			
+			countPerSecond++;
 		}
 		logger.info("Closing");
 		kafkaConsumer.Close();
