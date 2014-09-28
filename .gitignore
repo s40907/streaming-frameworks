@@ -58,3 +58,7 @@ prototype/prototypes/protopubFlume/target/maven-archiver/
 prototype/prototypes/protopubFlume/.settings/
 prototype/prototypes/protopubFlume/target/test-classes/
 prototype/prototypes/protopubFlume/target/surefire-reports/
+*.dep
+*.dpth
+thesis/plot.pdf
+*.auxlock
