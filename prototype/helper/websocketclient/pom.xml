@@ -3,13 +3,26 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lan.s40907.websocketclient</groupId>
   <artifactId>websocketclient</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
   <name>websocketclient</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <profiles>
+    <profile>
+      <id>flume</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <profile.filename>Flume</profile.filename>
+        <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
+        <interface.WebSocketConfiguration>lan.s40907.websocketclient.WebSocketConfiguration</interface.WebSocketConfiguration>
+      </properties>
+    </profile>
+  </profiles>  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -26,7 +39,47 @@
   </dependencies>
   <build>
     <plugins>
-	  <plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <appendAssemblyId>false</appendAssemblyId>
+          <finalName>${project.name}-${project.version}f</finalName>
+          <archive>
+            <manifest>
+              <mainClass>lan.s40907.websocketclient.App</mainClass>
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+	  <!--plugin>
 	    <groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-install-plugin</artifactId>
 		<executions>
@@ -37,7 +90,7 @@
 			  <goal>install-file</goal>
 			</goals>
 			<configuration>
-			  <file>${project.build.directory}/${project.artifactId}-${project.version}.jar</file>
+			  <file>${project.build.directory}/${project.name}-${project.version}.jar</file>
 			  <groupId>lan.s40907.websocketclient</groupId>
 			  <artifactId>${project.artifactId}</artifactId>
 			  <version>${project.version}</version>
@@ -46,11 +99,12 @@
 			</configuration>
 		  </execution>
 		</executions>
-	  </plugin>
+	  </plugin-->
 	</plugins>
     <resources>
       <resource>
         <directory>resources</directory>
+        <filtering>true</filtering>
 		<excludes>
 		  <exclude>META-INF/services/</exclude>
 		</excludes>
