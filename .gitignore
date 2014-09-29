@@ -62,3 +62,9 @@ prototype/prototypes/protopubFlume/target/surefire-reports/
 *.dpth
 thesis/plot.pdf
 *.auxlock
+prototype/prototypes/protopubS4/target/classes/
+prototype/prototypes/protopubS4/target/maven-status/
+prototype/prototypes/protopubS4/target/maven-archiver/
+prototype/prototypes/protopubS4/target/surefire-reports/
+prototype/prototypes/protopubS4/.settings/
+prototype/prototypes/protopubS4/target/test-classes/
