@@ -195,6 +195,60 @@ yticklabel style={anchor=east, /pgf/number format/precision=3, /pgf/number forma
 
 
 
+%S4 TRHOUGHPUT%
+\tikzsetnextfilename{messungS4Durchsatz}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=Anzahl Nachrichten,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=200000,
+							width=1\linewidth,
+							height=10cm,
+yticklabel style={anchor=east, /pgf/number format/precision=3, /pgf/number format/fixed, /pgf/number format/fixed zerofill},
+							yticklabel shift=2pt,							
+							legend entries = {S4 HiSta, S4 HiDyn, S4 LoSta, S4 LoDyn},
+							legend style={at={(1,1)},xshift=0.2cm,nodes=right},
+							legend pos=outer north east] 
+%\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureS4HighPcRaw.dat};
+%\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureS4HighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureS4LowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=Mps, col sep=comma,trim cells=true] {anhangMessung/measureS4LowPcWordCount.dat};
+\end{axis} 
+\end{tikzpicture}
+
+
+
+%S4 CPU%
+\tikzsetnextfilename{messungS4Cpu}
+\begin{tikzpicture} 
+\begin{axis}[ enlarge x limits=0.03, 
+							%title=Messung,
+							xlabel=$t$ in Sekunden,
+							ylabel=CPU Auslastung in Prozent,
+							axis x line=bottom,
+							axis y line=left,
+							ymin=0,
+							ymax=1.0,
+							width=1\linewidth,
+							height=10cm,
+							yticklabel shift=-1pt,
+							legend entries = {S4 HiSta, S4 HiDyn, S4 LoSta, S4 LoDyn},
+							legend style={at={(1,1)},xshift=0.2cm,nodes=right},
+							legend pos=outer north east,
+							yticklabel={\pgfmathparse{\tick*100}\pgfmathprintnumber{\pgfmathresult}\%},] 
+%\addplot+[mark options={scale=0.07}, color=blue] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureS4HighPcRaw.dat};
+%\addplot+[mark options={scale=0.07}, color=red] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureS4HighPcWordCount.dat};
+\addplot+[mark options={scale=0.07}, color=orange] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureS4LowPcRaw.dat};
+\addplot+[mark options={scale=0.07}, color=green] table [x=Time, y=SystemCpu, col sep=comma,trim cells=true] {anhangMessung/measureS4LowPcWordCount.dat};
+\end{axis} 
+\end{tikzpicture}
+
+
+
 %Virtualbox RAW MEssung%
 \tikzsetnextfilename{virtualBoxRaw}
 \begin{tikzpicture} 
