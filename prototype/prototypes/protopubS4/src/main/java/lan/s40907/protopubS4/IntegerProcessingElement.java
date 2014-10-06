@@ -44,5 +44,4 @@ public class IntegerProcessingElement extends ProcessingElement {
 			currentTimeSeconds = System.currentTimeMillis();
 		}
 	};
-
 }

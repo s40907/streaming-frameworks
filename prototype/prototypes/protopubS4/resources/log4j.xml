@@ -18,10 +18,6 @@
     <appender-ref ref="console" />
     <appender-ref ref="measureFile" />
   </logger>
-  <logger name="kafka">
-    <level value="INFO"/>
-    <appender-ref ref="console" />
-  </logger>
   <logger name="org.I0Itec">
     <level value="INFO"/>
     <appender-ref ref="console" />
