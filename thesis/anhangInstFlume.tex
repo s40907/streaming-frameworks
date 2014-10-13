@@ -68,11 +68,6 @@ JAVA_OPTS="-Xms100m -Xmx200m -Dcom.sun.management.jmxremote"
 #FLUME_CLASSPATH=""
 \end{lstlisting}
 
-Folgender Befehl startet den Kafka-Server in den Standardeinstellungen:
-\begin{verbatim}
-bin/kafka-server-start.sh config/server.properties
-\end{verbatim}
-
 Die Konfigurationsdatei \textit{flume-conf.properties} kann verändert werden, wenn das Standardprotokollverhalten unerwünscht ist. In der Standardeinstellung wird über einen eigenen Agenten mit Log4j im Verzeichnis \textit{logs} und der Datei \textit{flume.log} protokolliert. Weitere Einstellungen können in der Datei \textit{log4j.properties} vorgenommen werden.
 
 Folgender Aufruf zeigt Optionen für einen Apache Flume-Aufruf aus dem \textit{flume}-Verzeichnis:
