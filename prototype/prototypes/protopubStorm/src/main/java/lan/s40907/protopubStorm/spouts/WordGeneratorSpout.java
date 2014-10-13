@@ -8,13 +8,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
+
+import lan.s40907.protopubStorm.bolts.PrintBolt;
+
+import org.apache.log4j.Logger;
+
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.IRichSpout;
 import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Values;
-import backtype.storm.utils.Time;
 
 public class WordGeneratorSpout implements IRichSpout {
 	private static final long serialVersionUID = 1L;
@@ -27,8 +31,8 @@ public class WordGeneratorSpout implements IRichSpout {
 	public WordGeneratorSpout(int retries) {
 		this.retries = retries;
 		this.retryCounter = 0;
-		index = new AtomicLong(0);
-		this.textList = new ArrayList<String>();		
+		this.index = new AtomicLong(0);
+		this.textList = new ArrayList<String>();
 	}
 
 	@Override
@@ -49,17 +53,16 @@ public class WordGeneratorSpout implements IRichSpout {
 	@Override
 	public void nextTuple() {
 		if (this.textList.size() > (int)this.index.get() ) {			
-			String line = this.textList.get((int)this.index.get());
-			long currentIndex = this.index.incrementAndGet();
+			String line = this.textList.get((int)this.index.getAndIncrement());
 			for (String word: line.split(" ")) {
 				String preparedWord = prepare(word);
-				if (!preparedWord.equals("")) {				
-					this.collector.emit(new Values(preparedWord, Time.currentTimeMillis(), currentIndex));
+				if (!preparedWord.equals("")) {					
+					this.collector.emit(new Values(preparedWord));
 				}
-			}
+			}			
 		} else {
 			if (this.retryCounter < this.retries) {
-				this.index.set(0);
+				this.index.set(0);				
 				this.retryCounter++;
 			}			
 		}
@@ -73,7 +76,7 @@ public class WordGeneratorSpout implements IRichSpout {
 
 	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
-		declarer.declare(new Fields("word", "time", "lineIndex"));
+		declarer.declare(new Fields("word"));
 	}
 
 	@Override

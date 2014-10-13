@@ -1,22 +1,22 @@
 package lan.s40907.protopubStorm.spouts;
 
+import java.util.Arrays;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicLong;
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.IRichSpout;
 import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Values;
-import backtype.storm.utils.Time;
 
 public class IntegerGeneratorSpout implements IRichSpout {
 	private static final long serialVersionUID = 1L;
 	private SpoutOutputCollector collector;
-	private AtomicLong amount;
-
+	private byte[] staticPayload ;
+	
 	public IntegerGeneratorSpout() {
-		this.amount = new AtomicLong(0);
+		staticPayload = new byte[100];
+		Arrays.fill(staticPayload, (byte) 0);
 	}
 	
 	@Override
@@ -35,8 +35,8 @@ public class IntegerGeneratorSpout implements IRichSpout {
 	public void fail(Object object) {}
 
 	@Override
-	public void nextTuple() {
-		this.collector.emit(new Values("StormIntegerGenerator", this.amount.getAndIncrement(), Time.currentTimeMillis(), 1));
+	public void nextTuple() {		
+		this.collector.emit(new Values(new String(staticPayload)));
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class IntegerGeneratorSpout implements IRichSpout {
 
 	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
-		declarer.declare(new Fields("word", "lineIndex", "time", "count"));
+		declarer.declare(new Fields("word"));
 	}
 
 	@Override

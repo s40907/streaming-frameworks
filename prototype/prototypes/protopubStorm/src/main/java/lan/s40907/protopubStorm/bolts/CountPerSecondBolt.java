@@ -15,6 +15,7 @@ import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 import backtype.storm.utils.Time;
+
 import com.sun.management.OperatingSystemMXBean;
 
 public class CountPerSecondBolt implements IRichBolt {
@@ -37,8 +38,7 @@ public class CountPerSecondBolt implements IRichBolt {
 
 	@Override
 	public void execute(Tuple tuple) {
-		Long lineIndex = tuple.getLongByField("lineIndex");
-		String word = tuple.getStringByField("word");
+		String word = tuple.getStringByField("word");		
 		this.collector.ack(tuple);
 		
 		if (this.counter.containsKey(word)) {
@@ -54,8 +54,7 @@ public class CountPerSecondBolt implements IRichBolt {
 					ManagementFactory.getOperatingSystemMXBean();
 			this.collector.emit(tuple, new Values(
 					this.normalizedSecond, 
-					this.countPerSecond, 
-					lineIndex, 
+					this.countPerSecond,
 					operatingSystem.getProcessCpuLoad(), 
 					operatingSystem.getSystemCpuLoad(),
 					takeFirstHeighest));
@@ -73,7 +72,7 @@ public class CountPerSecondBolt implements IRichBolt {
 
 	@Override
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
-		declarer.declare(new Fields("timeNumber", "countPerSecond", "lineIndex", "processCpu", "systemCpu", "wordCount"));
+		declarer.declare(new Fields("timeNumber", "countPerSecond", "processCpu", "systemCpu", "wordCount"));
 	}
 
 	@Override
