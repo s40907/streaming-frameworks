@@ -51,8 +51,8 @@ public class WordCountSource extends AbstractSource implements Configurable, Pol
 	}
 	
 	private void sendWord(String word) {
-		Map<String, String> hashMap = new HashMap<String, String>();
-		hashMap.put("word", word);
+		Map<String, byte[]> hashMap = new HashMap<String, byte[]>();
+		hashMap.put("word", word.getBytes());
 		try {
 			Event event = EventBuilder.withBody(convert.toByteFrom(hashMap));
 			getChannelProcessor().processEvent(event);

@@ -1,6 +1,7 @@
 package lan.s40907.protopubFlume;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,14 +28,16 @@ public class ConsoleSource extends AbstractSource implements Configurable, Polla
 	public Status process() throws EventDeliveryException {
 		Status status = Status.READY;		
 		try {			
-			Map<String, String> hashMap = new HashMap<String, String>();		
-			hashMap.put("word", "FlumeIntegerGenerator");
-			logger.info("start sending integer of payload: " + convert.toByteFrom(hashMap).length);
+			Map<String, byte[]> hashMap = new HashMap<String, byte[]>();
+			byte[] staticPayload = new byte[100];
+			Arrays.fill(staticPayload, (byte)0);
+			hashMap.put("word", staticPayload);
 			Event event = EventBuilder.withBody(convert.toByteFrom(hashMap));
+			logger.info("start sending integer");
 			for (long i = 0; i < amountOfNumbers; i++) {				
 				getChannelProcessor().processEvent(event);
 			}
-			logger.info("end sending integer of payload: " + convert.toByteFrom(hashMap).length);
+			logger.info("end sending integer");
 		} catch (IOException e) {
 			logger.error("not sending message", e);
 			status = Status.BACKOFF;

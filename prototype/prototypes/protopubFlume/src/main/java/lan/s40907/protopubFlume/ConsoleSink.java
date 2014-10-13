@@ -33,8 +33,8 @@ public class ConsoleSink extends AbstractSink implements Configurable {
 				transaction.rollback();
 				return Status.BACKOFF;
 			}
-			Map<String, String> hashMap = convert.toMapFrom(event.getBody());
-			String value = hashMap.get("word");
+			Map<String, byte[]> hashMap = convert.toMapFrom(event.getBody());
+			String value = new String(hashMap.get("word"));
 			if (counter.containsKey(value)) {
 				Integer amount = counter.get(value);
 				counter.put(value, ++amount);
