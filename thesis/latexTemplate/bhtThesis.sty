@@ -13,7 +13,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{latexTemplate/bhtThesis}[2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style]
 \message{2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de}
-\message {2014/04/28 v3 BHT-Thesis-Style, E. Bergen}
+\message {2014/10/13 v3.1 BHT-Thesis-Style, E. Bergen}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24,7 +24,7 @@
 \RequirePackage{multicol}                         %% dto.
 \RequirePackage{xcolor}                           %% Farbgebung im Text
 \RequirePackage{latexTemplate/fancyunits}         %% Einheiten beim Namen nennen
-%\RequirePackage[xcolor]{changebar}                %% Changebars am Rand 
+%\RequirePackage[xcolor]{changebar}               %% Changebars am Rand 
 
 %% Eingabe
 \RequirePackage[utf8]{inputenc}
@@ -41,7 +41,7 @@
 
 %% Standardschriftart für den Text festlegen
 %%\RequirePackage{times}                            %% Standardfont: Times (PS)
-%%\RequirePackage{utopia}                         %% Standardfont: Utopia
+%%\RequirePackage{utopia}                           %% Standardfont: Utopia
 %%\Requirepackage{arial}
 %%\RequirePackage{palatino}
 %%\RequirePackage{charter}
@@ -108,7 +108,7 @@
 \newboolean{@entwurfset}        \setboolean{@entwurfset}{true}
 \newboolean{@abgabeset}         \setboolean{@abgabeset}{true}
 \newboolean{@versionset}        \setboolean{@versionset}{true}
-\newboolean{@versionsdatum}      \setboolean{@versionsdatum}{true}
+\newboolean{@versionsdatum}     \setboolean{@versionsdatum}{true}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PDF output oder DVI output erkennen
@@ -130,7 +130,7 @@
 \setlength\paperheight     {297mm}
 \setlength\paperwidth  	   {210mm}
 \setlength\headheight      {2ex}
-\setlength\headsep         {2ex}
+\setlength\headsep         {3.25ex}
 \setlength\footskip        {25\p@}
 \setlength\textwidth       {150mm}
 \setlength\textheight      {245mm}
@@ -149,13 +149,14 @@
 \setlength{\marginparwidth}{20mm}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{9pt plus 2pt minus 1pt}
-
+\urlstyle{sf}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Seitenlayout
 \RequirePackage{fancyhdr}
+\RequirePackage[margin=3cm,headheight=4pt]{geometry}
 
-\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
 \renewcommand{\headrulewidth}{0.4pt}
 
 \lhead[\thepage]{\slshape \rightmark}
@@ -167,12 +168,12 @@
 
 
 \fancypagestyle{plain}{%
-  \fancyhf{} %
-  \renewcommand{\footrulewidth}{0.4pt}
+  \fancyhf{} % 
+  \renewcommand{\footrulewidth}{0pt}
   \renewcommand{\headrulewidth}{0pt}
 }
 
-\headheight=14pt	%% Unterdr"ucken von Overfull \vbox (1.59999pt too high) has.. 
+\headheight=16pt	%% Unterdr"ucken von Overfull \vbox (1.59999pt too high) has.. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
