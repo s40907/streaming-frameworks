@@ -53,11 +53,11 @@ public class AppWordCountProducer {
 	}
 	
 	private void sendWord(Producer<Integer, byte[]> producer, String word) {
-		Map<String, String> hashMap = new HashMap<String, String>();
-		hashMap.put("word", word);
+		Map<String, byte[]> hashMap = new HashMap<String, byte[]>();
+		hashMap.put("word", word.getBytes());
 		try {
 			KeyedMessage<Integer, byte[]> keyedMessage = 
-			new	KeyedMessage<Integer, byte[]>(this.topicName, convert.toByteFrom(hashMap));
+			new	KeyedMessage<Integer, byte[]>(this.topicName, convert.toByteFrom(hashMap));			
 			producer.send(keyedMessage);
 		} catch (IOException e) {
 			e.printStackTrace();

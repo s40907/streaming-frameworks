@@ -9,17 +9,17 @@ import java.util.Map;
 
 public class Convert {
 
-	public <T> byte[] toByteFrom(Map<T, T> hashMap) throws IOException {
+	public <T> byte[] toByteFrom(Map<String, byte[]> hashMap) throws IOException {
 		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();		
 		ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
 		objectOutputStream.writeObject(hashMap);
 		return byteArrayOutputStream.toByteArray();
 	}
 	
-	public <T> Map<T, T> toMapFrom(byte[] byteArray) throws ClassNotFoundException, IOException {
+	public <T> Map<String, byte[]> toMapFrom(byte[] byteArray) throws ClassNotFoundException, IOException {
 		ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArray);
 		ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-		return (Map<T, T>) objectInputStream.readObject();
+		return (Map<String, byte[]>) objectInputStream.readObject();
 	}
 	
 	public String prepare(String word) {

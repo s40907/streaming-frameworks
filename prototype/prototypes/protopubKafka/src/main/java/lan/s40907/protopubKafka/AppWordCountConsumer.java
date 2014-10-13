@@ -36,18 +36,18 @@ public class AppWordCountConsumer extends Thread {
 		HashMap<String,Integer> topics = new HashMap<String, Integer>();
 		topics.put(topicName, 1);		
 		
-		KafkaStream<byte[],byte[]> kafkaStream = kafkaConsumer.GetFirstKafkaStream(topics, topicName);				
+		KafkaStream<byte[], byte[]> kafkaStream = kafkaConsumer.GetFirstKafkaStream(topics, topicName);				
 		ConsumerIterator<byte[], byte[]> iterator = kafkaStream.iterator();
 		logger.info("Iterating");
 		while (iterator.hasNext()) {
-			MessageAndMetadata<byte[],byte[]> data = iterator.next();
-			Map<String, String> hashMap = null;
+			MessageAndMetadata<byte[], byte[]> data = iterator.next();
+			Map<String, byte[]> hashMap = null;
 			try {
 				hashMap = convert.toMapFrom(data.message());
 			} catch (ClassNotFoundException | IOException e) {
 				e.printStackTrace();
 			}			
-			String value = hashMap.get("word");			
+			String value = new String(hashMap.get("word"));			
 			if (counter.containsKey(value)) {
 				Integer amount = counter.get(value);
 				counter.put(value, ++amount);
