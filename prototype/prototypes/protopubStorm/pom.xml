@@ -17,7 +17,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <profile.filename>Storm</profile.filename>
+        <profile.filename></profile.filename>
         <interface.WebSocketClient>lan.s40907.websocketclient.WebSocketClientTyrus</interface.WebSocketClient>
         <interface.WebSocketConfiguration>lan.s40907.protopubStorm.helper.WebSocketConfigurationStorm</interface.WebSocketConfiguration>
       </properties>
