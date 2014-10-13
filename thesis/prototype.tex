@@ -77,4 +77,41 @@ In der Abbildung \ref{fig:prototypeStreamingGraph} wird ein erster Bildschirmaus
 \label{fig:messungMaxNachrichten}}
 \end{figure}
 
+
+\begin{table}[tbp]
+	\centering
+		\begin{tabular}{@{}lll@{}} \toprule
+			\textbf{Streaming Framework} & \textbf{Nachrichtendurchsatz pro S} & \textbf{CPU Auslastung in \%} \\ \midrule
+			Apache Storm Hi & 732003 & 43 \\
+			Apache Storm Lo & 546328 & 64 \\
+			Apache Kafka Hi & 104571 & 39 \\
+			Apache Kafka Lo & 62423 & 52 \\
+			Apache Flume Hi & 80953 & 20 \\
+			Apache Flume Lo & 60095 & 33 \\
+			Apache S4 Hi & 177036 & 57 \\
+			Apache S4 Lo & 118507 & 93 \\
+			\bottomrule			
+		\end{tabular}
+	\caption{Übersicht Durchschnitte Streaming Frameworks CPU Auslastung und Nachrichtendurchsatz statisch}
+	\label{tab:avgSta}
+\end{table}
+
+\begin{table}[tbp]
+	\centering
+		\begin{tabular}{@{}lll@{}} \toprule
+			\textbf{Streaming Framework} & \textbf{Nachrichtendurchsatz pro S} & \textbf{CPU Auslastung in \%} \\ \midrule
+			Apache Storm Hi & 810005 & 53 \\
+			Apache Storm Lo & 506703 & 80 \\
+			Apache Kafka Hi & 100009 & 41 \\
+			Apache Kafka Lo & 61345 & 71 \\
+			Apache Flume Hi & 80311 & 24 \\
+			Apache Flume Lo & 63659 & 43 \\
+			Apache S4 Hi & 192865 & 60 \\
+			Apache S4 Lo & 139642 & 95 \\
+			\bottomrule			
+		\end{tabular}
+	\caption{Übersicht Durchschnitte Streaming Frameworks CPU Auslastung und Nachrichtendurchsatz dynamisch}
+	\label{tab:avgDyn}
+\end{table}
+
 Dataset: \citeint{dataset:shakespeare:1994:CWW}
