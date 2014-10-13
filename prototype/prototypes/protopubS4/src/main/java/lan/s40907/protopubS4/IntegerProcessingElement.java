@@ -21,8 +21,8 @@ public class IntegerProcessingElement extends ProcessingElement {
 	@Override
 	protected void onRemove() {}
 	
-	public void onEvent(Event event) {
-		String value = event.get("word");
+	public void onEvent(Event event) {		
+		String value = event.get("word");		
 		if (counter.containsKey(value)) {
 			Integer amount = counter.get(value);
 			counter.put(value, ++amount);
@@ -35,10 +35,10 @@ public class IntegerProcessingElement extends ProcessingElement {
 	
 	private void printMessagesPerSecond() {
 		if ( (currentTimeSeconds + 1000) <  System.currentTimeMillis() ) {
-			String takeFirstHeighest = transpose.takeFirstHighest(1, counter);			
+			//String takeFirstHeighest = transpose.takeFirstHighest(1, counter);			
 			OperatingSystemMXBean operatingSystem = (com.sun.management.OperatingSystemMXBean)
 					ManagementFactory.getOperatingSystemMXBean();
-			logger.info(String.format("%s, %s, %s, %s", normalizedSecond, countPerSecond, operatingSystem.getSystemCpuLoad(), takeFirstHeighest ));
+			logger.info(String.format("%s, %s, %s", normalizedSecond, countPerSecond, operatingSystem.getSystemCpuLoad() ));
 			normalizedSecond = normalizedSecond + 1;
 			countPerSecond = 1;
 			currentTimeSeconds = System.currentTimeMillis();

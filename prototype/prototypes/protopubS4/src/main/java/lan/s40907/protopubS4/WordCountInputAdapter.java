@@ -7,7 +7,7 @@ import org.apache.s4.core.adapter.AdapterApp;
 
 public class WordCountInputAdapter extends AdapterApp {
 	private static Logger logger = Logger.getLogger(WordCountInputAdapter.class);	
-	private static int maxRetries = 35;
+	private static int maxRetries = 40;
 	private Transpose transpose;
 	private Convert convert;
 	private String fileToRead = "shaks12.txt";
