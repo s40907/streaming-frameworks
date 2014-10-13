@@ -26,6 +26,18 @@ wget https://services.gradle.org/distributions/gradle-1.12-bin.zip
 unzip gradle-1.12-bin.zip
 \end{verbatim}
 
+Umgebungsvariablen setzen:
+
+\begin{verbatim}
+export GRADLE_HOME=/opt/gradle
+export PATH=$PATH:$GRADLE_HOME/bin
+\end{verbatim}
+
+Gradle erzeugen:
+
+\begin{verbatim}
+/opt/gradle/gradle
+\end{verbatim}
 
 \subsection{Bereitstellen Apache S4}
 
@@ -41,8 +53,6 @@ ln -s /opt/apache-s4-0.6.0-incubating-src s4
 Für das erfolgreiche Ausführen sind verschiedene Umgebungsvariablen in der Konsole notwendig. Die folgende Einträge werden in der Datei "`.bashrc"' der Konsolen-Konfiguration des Benutzerprofils hinterlegt. Damit die neuen Einträge in der Umgebung bekannt sind, ist eine erneute Anmeldung in der Konsole notwendig.
 
 \begin{verbatim}
-export GRADLE_HOME=/opt/gradle
-export PATH=$PATH:$GRADLE_HOME/bin
 export S4_HOME=/opt/s4
 export PATH=$PATH:$S4_HOME
 \end{verbatim}
