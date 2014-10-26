@@ -1,0 +1,46 @@
+\chapter{Schlussbetrachtung}
+\label{sec:schlussbetrachtung}
+
+Im Kapitel zuvor wurde die Evaluierung der Prototypen Apache Storm, Apache Kafka, Apache Flume und Apache S4 durchgeführt. In diesem Kapitel werden alle Kapitel zusammengefasst und ein Ausblick gegeben. Zuerst wird eine umfangreiche Zusammenfassung aus den vorhergehenden Kapitel gegeben. Abschließend werden im Ausblick mögliche Erweiterungen und Optimierungsmöglichkeiten aufgezeigt.
+
+\section{Zusammenfassung}
+
+In dieser Arbeit werden die Streaming Frameworks Apache Storm, Apache Kafka, Apache Flume und Apache S4 verglichen. Dazu wird zuerst in das Thema eingeführt und die Grundlagen geschaffen. Um Gemeinsamkeiten zwischen den Streaming Frameworks festzustellen werden Kriterien im Kapitel \ref{chapter:kriterien} vorgestellt und an einem Referenzmodell angewendet. Anschließend werden
+die Streaming Frameworks vorgestellt und die vorgestellten Kriterien aus dem Kapitel zuvor angewendet. In den folgenden Kapiteln wird aufbauend auf der Vorstellung der Streaming Frameworks, die Systemarchitektur vorgestellt. Mit der Deklaration der Systemarchitektur werden die Prototypen zu den einzelnen Streaming Frameworks erstellt und im Kapitel Prototypdokumentation dokumentiert. Nach der Implementierung der Prototypen wird im Kapitel Evaluierung der Messaufbau vorgestellt, eine Messung durchgeführt und die Messergebnisse vorgestellt. Weiterhin werden die Messergebnisse diskutiert und bewertet. Als nächstes werden die einzelnen Kapitel zusammengefasst.
+
+In Kapitel \ref{chapter:einfuehrung} wird eine Einführung in das Thema anhand verschiedener Anwendungsfälle wie zum Beispiel dem Verlust eine Kreditkarte gegeben. Nach der Vorstellung der Beispiele wird der Aufbau dieser Arbeit erklärt und in das Kapitel \nameref{chapter:grundlagen} eingeleitet. Im Kapitel \ref{chapter:grundlagen} werden für den Vergleich der Streaming Frameworks Grundbegriffe eingeführt und in einen Bezug gebracht. Dabei wird der allgemeine Nachrichtenaustausch aufgezeigt, der Begriff \textit{Streaming} abgegrenzt und der Begriff \textit{Frameworks} erklärt. Weiterhin wird eine Berechnung in einem Streaming Framework anschaulich beschrieben. Anhand eines Graphen werden Abfragen in einem Streaming Framework illustriert und erläutert.
+
+Das Kapitel \ref{chapter:kriterien} stellt den Big Data Cube und ordnet Streaming im Vergleich zu relationalen Datenbanksystemen ein. Zudem werden Kriterien vorgestellt und an dem Referenzmodell Aurora Borealis als Anwendung erläutert. Anschließend werden in Kapitel \ref{chapter:vorstellung} die einzelnen Streaming Frameworks vorgestellt. Dabei wird zu Beginn eine Kurzübersicht gegeben und anhand der Anwendung der Kriterien aus Kapitel \ref{chapter:kriterien} werden die ersten Gemeinsamkeiten, für die weitere Betrachtung in Kapitel \ref{chapter:systemarchitekur} festgestellt. In dem Kapitel \ref{chapter:vorstellung} werden alle notwendigen Methoden und Konzepte für die später zu erstellenden Prototypen erklärt und ausprobiert. Im Anhang dazu werden Beispiele für die Installation \ref{sec:storminstall}, \ref{section:kafkainstall}, \ref{section:flumeinstall}, \ref{sec:s4install} und für eine Demo-Anwendung \ref{section:quelltext} hinterlegt. Weiterhin wird bei jedem Streaming Framework die Client-Server-Kommunikation betrachtet und erklärt.
+
+In Kapitel \ref{chapter:systemarchitekur} werden aufbauend auf den Erkenntnissen aus Kapitel \ref{chapter:vorstellung} Anforderungen definiert und daraus Lösungsansätze für erkannte Probleme vorgestellt. Dazu wird ein Systementwurf vorgestellt, indem in drei Ebenen das Backend, die Visualization und der Display eingeordnet wird. Weiterhin wird die Systemspezifikation, der Algorithmus zur Messung vorgestellt und das Vorgehen während der Implementierung der einzelnen Prototypen vorgestellt.
+
+Das folgende Kapitel \ref{chapter:prototypeDocumentation} beschreibt den Aufbau und Struktur der Prototyp-Projekte. Dabei wird ebenso die Systemübersicht bestehend aus den einzelnen Streaming Framework Prototypen, Brokern, der WebServer und dem WebClient dargestellt und erläutert. Zudem wird auf die Implementierung der einzelnen Prototypen eingegangen, besondere Quelltextstellen vorgestellt und erklärt.
+
+Im Kapitel \ref{chapter:evaluierung} wird die Messumgebung beschrieben, die Messung durchgeführt und die Messergebnisse in Diagrammen vorgestellt und erläutert. Dabei wurden die Messergebnisse diskutiert und bewertet. Die unterschiedlichen Betrachtungen in der Bewertung ergeben eine Rangfolge als Ergebnis mit Apache Storm an erster Stelle, Apache Kafka an zweiter Stelle, Apache Flume an dritter Stelle und zuletzt Apache S4. Abschließend werden die Anforderungen aus Kapitel \ref{chapter:systemarchitekur} auf Einhaltung geprüft. Bis auf die Kann-Anforderungen werden alle Anforderungen von den Prototypen und der Systemarchitektur erfüllt.
+
+Die wichtigsten Erkenntnisgewinne bei dem Vergleich der Streaming Frameworks sind die Performance des Streaming Frameworks Apache Storm, die Anwendung gemeinsamer Anwendungswerkzeuge, die Implementierung der Prototypen in einer Entwicklungssprache und die veraltete Version von Apache S4.
+
+In diesem Kapitel wurde die Zielstellung wiedergegeben, die Vorgehensweise zusammengefasst und das Ergebnis aus Kapitel \ref{chapter:evaluierung} wiederholt. Weiterhin wurden die wichtigsten Erkenntnisse kurz aufgelistet. Abschließend wird im nächsten Kapitel ein Ausblick gegeben.
+
+
+\section{Ausblick}
+
+In dem Kapitel zuvor wurde Zielstellung wiederholt, das Vorgehen zusammengetragen, das Ergebnis nochmal dargestellt und die wichtigsten Erkenntnisse aufgelistet. In diesem Kapitel werden mögliche Erweiterungen und Optimierungen vorgeschlagen. In der folgenden Liste werden Vorschläge vorgestellt:
+
+\textbf{\gls{glo:lrb}}
+Damit ein Vergleich mit dem Referenzmodel Aurora Borealis möglich wird, wird eine Implementierung des \gls{glo:lrb} in Java benötigt. Dazu müssen anschließend die Prototypen entsprechend angepasst und erweitert werden.
+
+\textbf{Unit-Test und Refactoring}
+Mit guten Unit-Tests kann die Logik der einzelnen Prototypen abgesichert werden. Um den Quelltext wartbarer zu gestalten, können bestimmte Quelltextpassagen in separate Java-Archive ausgelagert werden.
+
+\textbf{Continous-Integration}
+Für ein einfaches Bereitstellen der Prototypen in einem Testsystem oder Livesystem, ist es notwendig die Prototypen automatisch vorher zu testen und dann erst bereitzustellen. Bei Fehlern in der Erstellung soll nicht weiter bereitgestellt werden und die Erstellung soll auf einer Übersichtsseite die gelaufenene Erstellung entsprechend mit einer Fehlermeldung signalisieren und den Fehlerstapel ausgeben können.
+
+\textbf{Optimierung}
+In Apache Storm wird ein interner Transport von 1,00\e{6} Nachrichten pro Sekunde angegeben. Der Apache Storm Prototyp hat in der angegebenen Messung einen Höchstwert von 0,88\e{6} erreicht. Eine Optimierung des Quelltexts könnte eine Steigerung der Anzahl pro Sekunde in dem Prototypen liefern.
+
+\textbf{Multi-Node-Cluster}
+Die Messungen in dieser Arbeit sind auf ein Single-Node-Cluster bezogen. Die Ausführung auf einem Multi-Node-Cluster und die Berechnung mit dem \gls{glo:lrb} in Kombination, ist für die Bestimmung des \textit{L}-Index aus dem \gls{glo:lrb} interessant.
+
+Es wurden im Ausblick Erweiterungen und Optimierungen vorgestellt. Das Ende dieser Arbeit wurde erreicht. Die Folgenden Kapitel schließen diese Arbeit mit den Verzeichnissen in Kapitel \ref{chapter:verzeichnisse} und dem Anhang \ref{chapter:anhang}.
+
