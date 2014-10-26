@@ -90,10 +90,10 @@ Die Klasse \texttt{KafkaWordCountConsumer} empfängt die Nachrichten, zählt die
 Vor dem Start eines \texttt{Producers} und \texttt{Consumers} muss ein Kafka-Server gestartet werden und ein \textit{Topic} existieren unter dem die \texttt{Producer} und \texttt{Consumer} Nachrichten austauschen. Die folgenden zwei Kommandos starten einen Server und erstellen zwei \textit{Topics} \texttt{integerTopic} und \texttt{wordCountTopic}:
 
 \begin{verbatim}
->bin/kafka-server-start.sh config/server.properties
->bin/kafka-topics.sh --create --zookeeper localhost:2181 // 
+>./bin/kafka-server-start.sh config/server.properties
+>./bin/kafka-topics.sh --create --zookeeper localhost:2181 // 
   --replication-factor 1 --partition 1 --topic integerTopic
->bin/kafka-topics.sh --create --zookeeper localhost:2181 // 
+>./bin/kafka-topics.sh --create --zookeeper localhost:2181 // 
   --replication-factor 1 --partition 1 --topic wordCountTopic
 \end{verbatim}
 
@@ -120,7 +120,7 @@ Auf der Gegenseite wird ähnlich wie in der Klasse \texttt{WordCountSource} die 
 
 Die Implementierungen für die konstanten Wortlängen verhalten sich genauso wie in der Klasse \texttt{WordCountSource} und der Klasse \texttt{WordCountSink}. Der Unterschied ist dabei das Wegfallen des Einlesens des Textes in der Klasse \texttt{ConsoleSource} und der Ausgabe an den Flume-\textit{Broker} in der Klasse \texttt{ConsoleSink}.
 
-Bei der Ausführung des Flume Prototypen muss die Java Archiv-Datei in Flume Verzeichnis lib liegen. Zusätzlich muss über eine Konfigurationsdatei Flume für die Sink- und Source-Dateien vorbereitet werden. Das Listing \ref{lst:flumeWordCountConf} zeigt für die Klasse \texttt{WordCountSource} und die Klasse \texttt{WordCountSink} eine Konfiguration. Für die Klasse \texttt{ConsoleSource} und der Klasse \texttt{ConsoleSink} liegt im Flume-Script-Verzeichnis die Konfigurationsdatei \texttt{flume-conf-WordCount.properties} bereit.
+Bei der Ausführung des Flume Prototypen muss die Java Archiv-Datei in Flume Verzeichnis lib liegen. Zusätzlich muss über eine Konfigurationsdatei Flume für die Sink- und Source-Dateien vorbereitet werden. Das Listing \ref{lst:flumeWordCountConf} zeigt für die Klasse \texttt{WordCountSource} und die Klasse \texttt{WordCountSink} eine Konfiguration. Für die Klasse \texttt{ConsoleSource} und der Klasse \texttt{ConsoleSink} liegt im Flume-Script-Verzeichnis die Konfigurationsdatei \texttt{flume-conf- \\WordCount.properties} bereit.
 
 \lstinputlisting[label=lst:flumeWordCountConf, caption=Java Prototype Flume App mit variabler Dimension Konfiguration]{anhangQuelltext/flume-conf-WordCount.properties}
 
