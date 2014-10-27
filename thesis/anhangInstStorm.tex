@@ -2,55 +2,28 @@
 \label{sec:storminstall}
 
 
-In diesem Kapitel wird die Installation von Apache Storm in kleinen Unterkapiteln vorgestellt. Die Anleitung setzt ein Wissen in der Verwendung, Administration und Erzeugen von Anwendungen unter dem Betriebssystem Linux voraus. Zuerst werden Voraussetzungen bestimmt und erläutert. Anschließend wird der Start eines Clusters gezeigt. Zuletzt wird eine Beispiel-Anwendung \textit{WordCount} im \textit{local cluster mode} ausgeführt.
+In diesem Kapitel wird die Installation von Apache Storm in kleinen Unterkapiteln vorgestellt. Die Anleitung setzt ein Wissen in der Verwendung und Administration des Betriebssystems Linux voraus. Zuerst werden Voraussetzungen bestimmt und erläutert. Anschließend wird der Start eines Clusters gezeigt. Zuletzt wird eine Beispiel-Anwendung \textit{WordCount} im \textit{local cluster mode} ausgeführt.
 
 
 \subsection{Voraussetzungen am Betriebssystem}
 
-Als Betriebssystem wird in dieser Anleitung Linux mit der Deistribution Ubuntu 13.10 verwendet. Apple Mac OS X und Microsoft Windows mit einer Cygwin-Umgebung werden in dieser Anleitung nicht betrachtet. Unter Ubuntu wird für die Installation von Paketen das Kommandozeilen-Werkzeug \textit{aptitude }eingesetzt.
-
-
-\subsection{Paketabhängigkeiten}
-
-Einige Pakete benötigt Apache Storm zur Laufzeit bzw. werden zum Erzeugen gebraucht. Die folgende Liste stellt die notwendigen Pakete dar:
+Als Betriebssystem wird in dieser Anleitung Linux mit der Distribution Debian in Version 7 verwendet. Apple Mac OS X und Microsoft Windows mit einer Cygwin-Umgebung werden in dieser Anleitung nicht betrachtet. Unter Debian wird für die Installation von Paketen das Kommandozeilen-Werkzeug \textit{aptitude} eingesetzt.
+Folgende Linux-Pakete werden in Debian für die Ausführung von Apache Storm benötigt:
 
 \begin{itemize}
 	\item zookeeper
-	\item libtool
-	\item autoconf
-	\item automake
-	\item openjdk-7-jdk
-	\item zeromq (evt. nicht im Linux Repository)
-	\item jzmq (evt. nicht im Linux Repository)
+	\item openjdk-7-jdk	
 \end{itemize}
-
-Falls die Pakete zu ZeroMQ in den Paketquellen fehlen, müssen beide manuell erzeugt und dem Betriebssystem hinzugefügt werden. Folgende Kommandozeilen zeigen das Herunterladen, Erzeugen und Bereitstellen von ZeroMQ schrittweise:
-\begin{verbatim}
-wget download.zeromq.org/zeromq-3.2.4.tar.gz
-tar xvfz zeromq-3.2.4.tar.gz
-./configure
-make 
-make install
-ldconfig
-\end{verbatim}
-
-Apache Storm benutzt zur Kommunikation mit ZeroMQ Java-Bindings. Folgende Kommandozeilenaufrufe müssen zur Installation schrittweise ausgeführt werden:
-\begin{verbatim}
-wget github.com/zeromq/jzmq/archive/master.zip
-./autogen.sh
-./configure
-make
-\end{verbatim}
 
 
 \subsection{Storm Konfiguration}
 
 Apache Storm in das Verzeichnis /opt herunterladen, entpacken und einen Link \textit{storm} erstellen.
 \begin{verbatim}
-wget http://apache.openmirror.de/incubator/storm/
-	apache-storm-0.9.1-incubating/apache-storm-0.9.1-incubating-src.zip
-unzip apache-storm-0.9.1-incubating-src.zip
-ln -s storm apache-storm-0.9.1-incubating-src.zip
+>wget http://apache.openmirror.de/incubator/storm/ //
+apache-storm-0.9.1-incubating/apache-storm-0.9.1-incubating.tar.gz
+>tar xvfz apache-storm-0.9.1-incubating.tar.gz
+>ln -s storm apache-storm-0.9.1-incubating
 \end{verbatim}
 
 Die Konfigurationsdatei /opt/storm/conf/storm.yaml öffnen und folgenden Eintrag hinzufügen:
@@ -61,11 +34,11 @@ storm.local.dir: "/opt/storm"
 
 \subsection{Cluster starten}
 
-Zookeeper muss bereits im Hintergraund als Dienst laufen, damit das Storm Cluster starten kann.
+Zookeeper muss bereits im Hintergrund als Dienst laufen, damit das Storm Cluster starten kann.
 
-Mit folgendem Befehl kann der Zookeeper Dienst auf Aktivität gerpüft werden.
+Mit folgendem Befehl kann der Zookeeper Dienst auf Aktivität geprüft werden.
 \begin{verbatim}
-./zkCli.sh -server 127.0.0.1:2181 
+>./zkCli.sh -server 127.0.0.1:2181 
 \end{verbatim}
 
 Die folgenden Schritte zeigen nacheinander den Start der Storm Komponenten:
@@ -82,14 +55,14 @@ Die folgenden Schritte zeigen nacheinander den Start der Storm Komponenten:
 Mit git wird zuerst die Beispiel Anwendung WordCount in ein lokales Verzeichnis dublizieren:
 
 \begin{verbatim}
-git clone git://github.com/apache/incubator-storm.git
+>git clone git://github.com/apache/incubator-storm.git
 \end{verbatim}
 
 Die Anwendung WordCountTopology wird mit Apache Maven im storm cluster bereitgestellt und ausgeführt:
 
 \begin{verbatim}
-mvn -f m2-pom.xml compile exec:java -Dexec.classpathScope=compile 
+>mvn -f m2-pom.xml compile exec:java -Dexec.classpathScope=compile //
 -Dexec.mainClass=storm.starter.WordCountTopology
 \end{verbatim}
 
-Da keine Argumente bei der Ausführung übergeben werden, wird als \textit{cluster} der \textit{LocalCluster} benutzt. In der Java Klasse \textit{WordCountTopology} wird in der \textit{main}-Methode entschieden, ob der LocalCluster benutzt wird. Als Ausgabe werden während der Verarbeitung Log Informationen ausgegeben. Eine Erfolgmeldungs wird ausgegeben, falls das Erstellen und Ausführen auf dem Cluster erfolgreich durchgeführt wurde.
+Da keine Argumente bei der Ausführung übergeben werden, wird als \textit{cluster} der \textit{LocalCluster} benutzt. In der Java Klasse \textit{WordCountTopology} wird in der \textit{main}-Methode entschieden, ob der LocalCluster benutzt wird. Als Ausgabe werden während der Verarbeitung Log Informationen ausgegeben. Eine Erfolgsmeldung wird ausgegeben, falls das Erstellen und Ausführen auf dem Cluster erfolgreich durchgeführt wurde.
