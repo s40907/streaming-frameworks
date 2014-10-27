@@ -74,13 +74,7 @@ Nachrichten können während der Laufzeit mit speziellen \textit{Interceptors} v
 	\item[RegexExtractorInterceptor] setzt ebenfalls das Java-Paket \textit{java.util.regex} ein und sucht nach durch den regulären Ausdruck nach Mustern. Gefundene Muster werden als Schlüssel/Wert-Paar in den Header des \textit{Flume Events} hinzugefügt. In den Parametern \textit{serializers} muss Anzahl und der Bezeichner der Anzahl Platzhalter im regulären Ausdruck entsprechen. \citeint{flume:apidoc:RegexExtractorInterceptor}
 \end{description}
 
-Apache Flume bietet Zwei verschiedene \textit{Monitoring}-Typen \textit{Ganglia}\footnote{Ganglia Monitoring System - \url{http://ganglia.sourceforge.net/}} und \textit{Http} an. Der beim Start eines \textit{Agents} verwendete Typ \textit{http}, erzeugt eine Web-Server-Instanz und bei einer Anfrage wird eine Metrik als \gls{glo:json} zurückgegeben. Die Monitoring-Anwendung Nagios kann durch aktive Prüfungen das \gls{glo:json} filtern und das Ergebnis im \textit{Service}-Bereich darstellen. Mit Ganglia-Integration können ähnlich wie in Nagios bestimmte Metriken ohne JSON zu filtern, direkt abgerufen werden. Eine weitere \textit{Monitoring}-Möglichkeit besteht über \gls{glo:jmx} und der Java-Anwendung JConsole. Mit der JConsole können die die \textit{MBean}-Attribute ausgelesen werden. Alternativ ähnlich wie in Apache Kafka kann über das \gls{glo:jmx}-Plugin in Nagios eine Abfrage auf die gegebenen Attribute erfolgen. In der Liste \ref{lst:flumeMonitoring} wird ein Beispiel für das \textit{Monitoring} über \gls{glo:http} gezeigt. Die gezeigten Argumente können beim Programmaufruf oder in der Konfigurationsdatei hinzugefügt werden. \citelit[S. 77, Kap. 7]{flumeDistributed}
-
-
-\begin{lstlisting}[language=BASH, label=lst:flumeMonitoring, caption=Apache Flume Monitoring]
--Dflume.monitoring.type=http
--Dflume.monitoring.port=55555
-\end{lstlisting}
+Apache Flume bietet Zwei verschiedene \textit{Monitoring}-Typen \textit{Ganglia}\footnote{Ganglia Monitoring System - \url{http://ganglia.sourceforge.net/}} und \textit{Http} an. Der beim Start eines \textit{Agents} verwendete Typ \textit{http}, erzeugt eine Web-Server-Instanz und bei einer Anfrage wird eine Metrik als \gls{glo:json} zurückgegeben. Die Monitoring-Anwendung Nagios kann durch aktive Prüfungen das \gls{glo:json} filtern und das Ergebnis im \textit{Service}-Bereich darstellen. Mit Ganglia-Integration können ähnlich wie in Nagios bestimmte Metriken ohne JSON zu filtern, direkt abgerufen werden. 
 
 \begin{table}[ht!]
 	\centering
@@ -104,6 +98,14 @@ Apache Flume bietet Zwei verschiedene \textit{Monitoring}-Typen \textit{Ganglia}
 	\caption{Bewertung Apache Flume}
 	\label{tab:bewflume}
 \end{table}
+
+Eine weitere \textit{Monitoring}-Möglichkeit besteht über \gls{glo:jmx} und der Java-Anwendung JConsole. Mit der JConsole können die die \textit{MBean}-Attribute ausgelesen werden. Alternativ ähnlich wie in Apache Kafka kann über das \gls{glo:jmx}-Plugin in Nagios eine Abfrage auf die gegebenen Attribute erfolgen. In der Liste \ref{lst:flumeMonitoring} wird ein Beispiel für das \textit{Monitoring} über \gls{glo:http} gezeigt. Die gezeigten Argumente können beim Programmaufruf oder in der Konfigurationsdatei hinzugefügt werden. \citelit[S. 77, Kap. 7]{flumeDistributed}
+
+
+\begin{lstlisting}[language=BASH, label=lst:flumeMonitoring, caption=Apache Flume Monitoring]
+-Dflume.monitoring.type=http
+-Dflume.monitoring.port=55555
+\end{lstlisting}
 
 In diesem Kapitel und im Anhang wurde gezeigt wie Apache Flume installiert und für eine einfache Client/Server-Anwendung konfiguriert werden kann. Es wurden Techniken gezeigt, um Daten zu aggregieren, weiter zu leiten und zur Laufzeit zu bearbeiten. Verschiedene Einstiegspunkte im Quelltext von Apache Flume wurden gegeben, um spezifische Implementierungen zu entwickeln. Zuletzt wurden verschiedene Software-Werkzeuge für das \textit{Monitoring} gezeigt. Im nächsten Kapitel wird Apache S4 vorgestellt.
 
