@@ -16,16 +16,28 @@ In Kapitel \ref{chapter:systemarchitekur} werden aufbauend auf den Erkenntnissen
 
 Das folgende Kapitel \ref{chapter:prototypeDocumentation} beschreibt den Aufbau und Struktur der Prototyp-Projekte. Dabei wird ebenso die Systemübersicht bestehend aus den einzelnen Streaming Framework Prototypen, Brokern, der WebServer und dem WebClient dargestellt und erläutert. Zudem wird auf die Implementierung der einzelnen Prototypen eingegangen, besondere Quelltextstellen vorgestellt und erklärt.
 
-Im Kapitel \ref{chapter:evaluierung} wird die Messumgebung beschrieben, die Messung durchgeführt und die Messergebnisse in Diagrammen vorgestellt und erläutert. Dabei wurden die Messergebnisse diskutiert und bewertet. Die unterschiedlichen Betrachtungen in der Bewertung ergeben eine Rangfolge als Ergebnis mit Apache Storm an erster Stelle, Apache Kafka an zweiter Stelle, Apache Flume an dritter Stelle und zuletzt Apache S4. Abschließend werden die Anforderungen aus Kapitel \ref{chapter:systemarchitekur} auf Einhaltung geprüft. Bis auf die Kann-Anforderungen werden alle Anforderungen von den Prototypen und der Systemarchitektur erfüllt.
+Im Kapitel \ref{chapter:evaluierung} wird die Messumgebung beschrieben, die Messung durchgeführt und die Messergebnisse in Diagrammen vorgestellt und erläutert. Dabei wurden die Messergebnisse diskutiert und bewertet. Die unterschiedlichen Betrachtungen in der Bewertung ergeben eine Rangfolge als Ergebnis mit Apache Storm an erster Stelle, Apache Kafka an zweiter Stelle, Apache Flume an dritter Stelle und zuletzt Apache S4. Abschließend werden die Anforderungen aus Kapitel \ref{chapter:systemarchitekur} auf Einhaltung geprüft.
 
-Die wichtigsten Erkenntnisgewinne bei dem Vergleich der Streaming Frameworks sind die Performance des Streaming Frameworks Apache Storm, die Anwendung gemeinsamer Anwendungswerkzeuge, die Implementierung der Prototypen in einer Entwicklungssprache und die veraltete Version von Apache S4.
+Der Prototyp Apache Storm erreicht die höchsten Werte während der Datenverarbeitung und setzt sich gegenüber den anderen Prototypen signifikant ab. Dadurch nimmt Apache Storm den ersten Platz in der Rangfolge ein. Apache Kafka verarbeitet mehr Daten, als Apache Flume bei etwa gleicher Prozessorauslastung. Damit ist Apache Kafka auf dem zweiten Platz. Apache S4 verarbeitet zwar mehr Daten als Apache Kafka hat aber im Vergleich die Prozessorauslastung wie bei Apache Storm. Im Verhältnis zwischen verarbeiteter Nachrichten pro Sekunde zur Prozessorauslastung fällt Apache S4 auf den vierten Platz. Damit ist Apache Flume auf dem dritten Platz.
 
-In diesem Kapitel wurde die Zielstellung wiedergegeben, die Vorgehensweise zusammengefasst und das Ergebnis aus Kapitel \ref{chapter:evaluierung} wiederholt. Weiterhin wurden die wichtigsten Erkenntnisse kurz aufgelistet. Abschließend wird im nächsten Kapitel ein Ausblick gegeben.
+Während der Entwicklung der Prototypen zeichnen sich die Streaming Frameworks Apache Storm, Apache Kafka und Apache Flume mit einer guten Dokumentation und einer aktiven Entwickler-Community aus. Bei Apache S4 ist die Entwickler-Community im Vergleich sehrklein und besteht aus den Hauptentwicklern. Zudem hat das Apache S4 Projekt auf der Apache Incubationseite den Status \textit{retired}. Ein retired kann aus mehreren gründen entstehen. Ein möglicher Grund könnte lange Zeitraum des letzten Commits in die Versionsverwatlung sein. Der aktuelle S4 Quellcode wird auf der Hauptseite bereitgestellt. Das Herunterladen wird mit einer Fehlermeldung beendet. Der Quelltext kann nur aus der Versionsverwaltung heruntergeladen werden. Im Gegensatz zu den anderen Streaming Frameworks befindet sich Apache S4 seit 2011 im Apache-Incubationsprozess.
+
+Beim Debugging fällt Apache Storm aus der Reihe. Apache Storm unterstützt als einziges Streaming Framework ein lokales Debugging in der Entwicklungsumgebung. Alle anderen Prototypen müssen im Fehlerfall über das Logging-Framework Fehler aufzeichnen. Ein externes Monitoring muss daher die Aufzeichnungen überwachen.
+
+In allen Prototypen konnte das Erstell- und Paketierungswerkzeug Apache Maven eingesetzt werden. Obwohl Apache S4 ein anderes Erstellungswerkzeug einsatz konnte eine geeignete Konfiguration in Apache Maven bereitgestellt werden. Dadurch kann eine Änderung im Quelltext der Prototypen mit einem Kommando bereitgestellt werden. Da Fehler nur über das Logging auffallen, müssen unter Umständen häufig neue Versionen bereitgestellt werden. Durch die konfigurierte Bereitstellung werden zudem mögliche Anwenderfehler während der Bereitstellung vermieden.
+
+Apache Storm eignet sich für die dauerhafte Verarbeitung hoher Anzahl an Informationen. Speziell liefert die Methode der Topology eine schnelle Übersicht über die eingesetzten Verarbeitungseinheiten. Wenn eine Topology in einem Cluster, muss bei einer Änderung die ganze Topology gestoppt, entfernt und neu bereitgestellt werden. Damit Kafka-Clients mit Kafka-Server kommunizieren können, müssen die Maschinen-Namen im lokalen Domain Name System aufgelöst werden können.
+
+Apache Kafka eignet sich für das Speichern von großen Datenmengen auf rotierenden Festplatten. Dabei werden optimierte Methoden aus dem Linux-Kern-Betriebssystem eingesetzt. Apache Kafka schreibt Informationen hintereinander weg. Daher eignet sich Apache Kafka als Logging-Persistenz.
+
+In Apache Flume kann die Konfiguration zur Laufzeit verändert werden, wodurch eine hohe Flexibilität entsteht. Dennoch müssen für spezifische Anwendungen wie dem Apache Flume Prototypen eigene Implementierungen entwickelt werden. 
+
+In Apache S4 müssen Anwendungen im Cluster bereitgestellt werden. Um eine Fehlerdiagnose durchzuführen, muss der einkompilierte Standard-Logger, durch Anpassung des Levels und erneutes Kompilieren verändert werden. Die Logger Information aus der Resource-Datei im Prototypen wird von Apache S4 nicht erkannt. Apache S4 wirkt durch das Patchen des Streaming Frameworks, um zum Beispiel Debug Log-Informationen auszugeben, noch prototypisch und nicht als ein Produktivsystem.
 
 
 \section{Ausblick}
 
-In dem Kapitel zuvor wurde Zielstellung wiederholt, das Vorgehen zusammengetragen, das Ergebnis nochmal dargestellt und die wichtigsten Erkenntnisse aufgelistet. In diesem Kapitel werden mögliche Erweiterungen und Optimierungen vorgeschlagen. In der folgenden Liste werden Vorschläge vorgestellt:
+In diesem Kapitel werden mögliche Erweiterungen und Optimierungen vorgeschlagen. In der folgenden Liste werden dazu Maßnahmen  vorgestellt:
 
 \textbf{\gls{glo:lrb}}
 Damit ein Vergleich mit dem Referenzmodel Aurora Borealis möglich wird, wird eine Implementierung des \gls{glo:lrb} in Java benötigt. Dazu müssen anschließend die Prototypen entsprechend angepasst und erweitert werden.
@@ -42,5 +54,4 @@ In Apache Storm wird ein interner Transport von 1,00\e{6} Nachrichten pro Sekund
 \textbf{Multi-Node-Cluster}
 Die Messungen in dieser Arbeit sind auf ein Single-Node-Cluster bezogen. Die Ausführung auf einem Multi-Node-Cluster und die Berechnung mit dem \gls{glo:lrb} in Kombination, ist für die Bestimmung des \textit{L}-Index aus dem \gls{glo:lrb} interessant.
 
-Es wurden im Ausblick Erweiterungen und Optimierungen vorgestellt. Das Ende dieser Arbeit wurde erreicht. Die Folgenden Kapitel schließen diese Arbeit mit den Verzeichnissen in Kapitel \ref{chapter:verzeichnisse} und dem Anhang \ref{chapter:anhang}.
-
+Durch die Erkenntnisse wird gezeigt, dass die Streaming Frameworks Apache Storm, Apache Kafka und Apache Flume permanent weiterentwickelt werden. Mit einer Weiterentwicklung der entsprechenden Prototypen in Hinsicht auf Stabilität und Performance durch Anwendung der vorgestellten Maßnahmen, kann eine Güte-Sicherung erreicht werden. Die Streaming Frameworks Apache Storm, Apache Kafka, Apache Flume sowie weitere Streaming Frameworks, können dadurch insgesamt einen Vorteil bekommen.
